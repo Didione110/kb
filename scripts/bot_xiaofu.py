@@ -32,7 +32,11 @@ ROBOT_CODE = "dingdeesmx44yfklx5uh"
 ROBOT_NAME = "小福"
 ROBOT_OPEN_DINGTALK_ID = "DagsQRmO3ORR2iivJm7kvk8JknU8KDkuIb"   # 群内小福的 openDingTalkId
 DM_CHAT_ID = "cidC1/t2j1EX+Xr8i40h+jG7Hb/jjJSz3G3oM3R3sOCOJw="  # 与小福的单聊
-GROUP_CHAT_ID = "cidLfO5CVsV7joZMTocGowUSA=="                      # 新火沟通群
+# 小福监听的群聊（可多个）：会话ID -> 群名
+GROUP_CHAT_IDS = {
+    "cidLfO5CVsV7joZMTocGowUSA==": "新火沟通群",
+    "cidgAVDbrDwR4Q/mV9wzlP7XA==": "客服机器人测试群",
+}
 MY_USER_ID = "432315419731"                                        # 王旭峰
 
 def dws(*args, timeout=60):
@@ -66,11 +70,18 @@ def fetch_dm_messages(limit=30):
     return []
 
 def fetch_group_messages(limit=30):
-    """拉取群聊最近消息"""
-    d = dws("chat", "message", "list", "--group", GROUP_CHAT_ID, "--limit", str(limit))
-    res = d.get("result", d)
-    items = res.get("list") or res.get("messages") or res.get("items") or res.get("value") or []
-    return items
+    """拉取所有监听群聊的最近消息"""
+    out = []
+    for gid in GROUP_CHAT_IDS:
+        d = dws("chat", "message", "list", "--group", gid, "--limit", str(limit))
+        res = d.get("result", d)
+        items = res.get("list") or res.get("messages") or res.get("items") or res.get("value") or []
+        for m in items:
+            if isinstance(m, dict):
+                m = dict(m)
+                m.setdefault("_group_id", gid)
+                out.append(m)
+    return out
 
 def fetch_mentions(start=None, end=None):
     """拉取@我的消息（群聊）"""
@@ -83,7 +94,7 @@ def fetch_mentions(start=None, end=None):
     convs = d.get("result", {}).get("conversationMessagesList") or []
     out = []
     for c in convs:
-        if c.get("openConversationId") == GROUP_CHAT_ID:
+        if c.get("openConversationId") in GROUP_CHAT_IDS:
             out.extend(c.get("messages") or [])
     return out
 
@@ -161,11 +172,11 @@ def send_dm(text):
                "--robotCode", ROBOT_CODE, "--userIds", MY_USER_ID,
                "--title", "小福 · 知识库问答", "--markdown", text)
 
-def send_group(text, at_user_ids=None, reference_msg_id=None):
+def send_group(text, group_id, at_user_ids=None, reference_msg_id=None):
     """小福发送群聊消息（可@人、可引用原消息）"""
     args = ["mcp", "group", "send_robot_group_message",
             "--robotCode", ROBOT_CODE,
-            "--openConversationId", GROUP_CHAT_ID,
+            "--openConversationId", group_id,
             "--title", "小福 · 知识库问答",
             "--markdown", text]
     if at_user_ids:
@@ -229,8 +240,14 @@ def process_once(mode, dry_run=False, verbose=False):
             if not question:
                 handled.add(mid)
                 continue
+            # 回复到消息来源群
+            gid = m.get("_group_id", "")
+            if gid not in GROUP_CHAT_IDS:
+                handled.add(mid)
+                continue
             new_count += 1
-            print(f"[GROUP {m.get('createTime')}] {sender}: {question[:60]}", flush=True)
+            gname = GROUP_CHAT_IDS.get(gid, gid)
+            print(f"[GROUP {gname} {m.get('createTime')}] {sender}: {question[:60]}", flush=True)
             results = search_kb(question)
             reply = build_reply(question, results)
             # @回复提问者
@@ -238,7 +255,7 @@ def process_once(mode, dry_run=False, verbose=False):
             if dry_run:
                 print(f"[dry-run] GROUP 跳过发送: {mid} @{at_id}", flush=True)
             else:
-                resp = send_group(reply, at_user_ids=[at_id] if at_id else None,
+                resp = send_group(reply, gid, at_user_ids=[at_id] if at_id else None,
                                   reference_msg_id=mid)
                 ok = resp.get("response", {}).get("content", {}).get("success")
                 print(f"[GROUP send] {mid} -> success={ok}", flush=True)
@@ -264,7 +281,8 @@ def main():
 
     print(f"小福机器人启动: mode={args.mode} robotCode={ROBOT_CODE}", flush=True)
     print(f"  单聊: {DM_CHAT_ID}", flush=True)
-    print(f"  群聊: {GROUP_CHAT_ID} (新火沟通)", flush=True)
+    for gid, gname in GROUP_CHAT_IDS.items():
+        print(f"  群聊: {gid} ({gname})", flush=True)
     if args.dry_run:
         print("[dry-run] 只读模式", flush=True)
     while True:
