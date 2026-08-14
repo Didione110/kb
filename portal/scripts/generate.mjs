@@ -248,7 +248,7 @@ async function main() {
   }
   console.log(`[generate] 已生成 ${l2CountsByL1.size} 个分类索引页`);
 
-  // 生成侧边栏配置
+  // 生成侧边栏配置（两级：一级分类 → 二级分类，不展开条目列表，控制体积）
   const sidebar = [];
   const l1Order = [...l2CountsByL1.keys()].sort();
   for (const l1Raw of l1Order) {
@@ -260,10 +260,6 @@ async function main() {
       children.push({
         text: `${l2Raw} (${count})`,
         link: `/kb/${l1}/${l2}/`,
-        items: byCat.get(`${l1}/${l2}`)?.entries
-          .slice()
-          .sort((a, b) => (a.title || "").localeCompare(b.title || "", "zh"))
-          .map((e) => ({ text: body(e.title || e.id), link: `/kb/${l1}/${l2}/${e.id}` })) || [],
       });
     }
     sidebar.push({
