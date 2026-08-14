@@ -38,6 +38,8 @@ jobs:
 
       - name: 构建静态站点
         working-directory: portal
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
         run: pnpm run build
 
       - name: 上传构建产物
