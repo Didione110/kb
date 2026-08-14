@@ -29,8 +29,7 @@ jobs:
       - name: 启用 Corepack
         run: corepack enable
 
-      - name: 安装依赖
-        working-directory: portal
+      - name: 安装依赖（workspace 根）
         run: pnpm install --frozen-lockfile
 
       - name: 重新生成门户页面（如数据有更新）
