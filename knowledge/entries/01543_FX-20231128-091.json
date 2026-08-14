@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231128-091",
+ "record_id": "eTvLTCNjk9",
+ "title": "科目余额表显示数据错乱",
+ "problem": "科目余额表显示数据错乱",
+ "cause": "科目、辅助核算频繁调整",
+ "solution": "1、总账期初余额 Ctrl+Alt+A\n2、总账结账-重建余额表",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "科目错乱"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eTvLTCNjk9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

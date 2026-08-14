@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241024-035",
+ "record_id": "vb8qXuKhkI",
+ "title": "登录001账套提示：对象名“MC_MYMsgView”无效",
+ "problem": "登录001账套提示：对象名“MC_MYMsgView”无效",
+ "cause": "未升级sql数据",
+ "solution": "低版本恢复到高版本，进系统管理升级下sql数据即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "MC_MYMsgView"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-10-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vb8qXuKhkI"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

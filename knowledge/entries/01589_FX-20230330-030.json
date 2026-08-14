@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230330-030",
+ "record_id": "fb2piupW2W",
+ "title": "内部授信-信用等级标准分数定义中每栏分数的启用状态都是未启用，且没有启用按钮",
+ "problem": "内部授信-信用等级标准分数定义中每栏分数的启用状态都是未启用，且没有启用按钮",
+ "cause": "等下级公司提交信用等级表时对应分数栏会自动更新启用状态，把对应的等级的状态国更新为已启用",
+ "solution": "不需要点启用，等下级公司提交信用等级表时对应分数栏会自动更新启用状态，把对应的等级的状态国更新为已启用",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "启用状态"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-03-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fb2piupW2W"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

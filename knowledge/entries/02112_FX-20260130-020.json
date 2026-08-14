@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260130-020",
+ "record_id": "rrbbkJ6mgk",
+ "title": "费用填制的单据生成事项分录报错 部门非末级",
+ "problem": "费用填制的单据生成事项分录报错 部门非末级",
+ "cause": "因为费用报销单上费用分摊区部门填制的一级部门导致",
+ "solution": "需要在会计科目节点 针对报错科目修改设置允许辅助核算部门填制非末级再生成事项分录即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "部门非末级"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rrbbkJ6mgk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241230-033",
+ "record_id": "oGiuAIm626",
+ "title": "分配了特征到差旅费报销单的费用分摊区和事项分录，但是辅助核算关联没出来记录",
+ "problem": "分配了特征到差旅费报销单的费用分摊区和事项分录，但是辅助核算关联没出来记录",
+ "cause": "由于研发项目辅助核算是u9c同步过来的，这种同步过来的自定义辅助不会自动带入到辅助核算关联中",
+ "solution": "U9C同步的辅助核算项不会自动同步到辅助核算项关联，需要手动编辑保存下，才会触发同步。\n\n（在特征节点找到研发项目辅助核算改名字保存后，再重新改名字回去后保存，辅助核算关联只用看到租户级就可以）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-12-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oGiuAIm626"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

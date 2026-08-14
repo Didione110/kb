@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240105-018",
+ "record_id": "DiHZAhTbkM",
+ "title": "新版的WMS取库存表的jlgg或单据明细的jlgg，但是更新的时候，未更新以上两个位置，导致补货或调度报错。",
+ "problem": "新版的WMS取库存表的jlgg或单据明细的jlgg，但是更新的时候，未更新以上两个位置，导致补货或调度报错。",
+ "cause": "新版的WMS取库存表的jlgg或单据明细的jlgg，但是更新的时候，未更新以上两个位置，导致补货或调度报错。",
+ "solution": "补货或调度的位置，还是改成取商品资料的jlgg，以商品资料的为准",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "jlgg未更新"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAmLo58GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAmLo58GXn6lpz",
+  "doc_path": "/其他/软件补丁问题/新版的WMS取库存表的jlgg或单据明细的jlgg，但是更新的时候，未更新以上两个位置，导致补货或调度报错。",
+  "record_id": "DiHZAhTbkM"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件补丁问题/新版的WMS取库存表的jlgg或单据明细的jlgg，但是更新的时候，未更新以上两个位置，导致补货或调度报错。",
+ "category": [
+  "其他",
+  "软件补丁问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241008-015",
+ "record_id": "BwrFT0lcyI",
+ "title": "合并商品时，数量并没有进行累加，有折扣行。",
+ "problem": "合并商品时，数量并没有进行累加，有折扣行。",
+ "cause": "合并商品时，设置过折扣行，操作不当导致数量没有累加",
+ "solution": "合并商品时，可以不用设置被折扣行",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数量未累加"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAEmawVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAEmawVKe0xjE3",
+  "doc_path": "/自研/应用操作/合并商品时，数量并没有进行累加，有折扣行。",
+  "record_id": "BwrFT0lcyI"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/合并商品时，数量并没有进行累加，有折扣行。",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

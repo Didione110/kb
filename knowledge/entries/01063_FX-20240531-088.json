@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240531-088",
+ "record_id": "RSA09J9766",
+ "title": "WMS入库完成后单据无法记账",
+ "problem": "WMS入库完成后单据无法记账",
+ "cause": "检查完成后为标准库中库存批号表中的jh\\_ywy(进货业务员)字段默认长度10，而单据中的业务员字段长度太长导致单据无法记账",
+ "solution": "修改sphwph表的字段jh\\_ywy长度为20 解决此问题",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "入库记账"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1ByP38BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1ByP38BQEx5rG",
+  "doc_path": "/其他/数据错误问题/WMS入库完成后单据无法记账",
+  "record_id": "RSA09J9766"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/WMS入库完成后单据无法记账",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

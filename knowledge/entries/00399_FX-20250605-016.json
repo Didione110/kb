@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250605-016",
+ "record_id": "9aq7BE5WYQ",
+ "title": "如何清理客开补丁",
+ "problem": "如何清理客开补丁",
+ "cause": "需要清理客开补丁，还原了一个账套，账套里有客开的补丁是此项目中不需要的，需要删除。",
+ "solution": "此操作仅限于环境补丁不同步问题，导致系统锁定，无法登录，但补丁记录对应的补丁文件丢失无法找回也没有新版本补丁可以打的场景，如果是想卸载补丁安装的内容需要手工删除脚本，删除文件，如附件",
+ "solution_types": [
+  "SQL脚本",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Shell",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "客开补丁清理"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1prbzWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1prbzWrMqPxX6",
+  "doc_path": "/用友/软件补丁问题/如何清理客开补丁",
+  "record_id": "9aq7BE5WYQ"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件补丁问题/如何清理客开补丁",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

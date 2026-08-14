@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221130-059",
+ "record_id": "00U3ly9m4q",
+ "title": "未调度单据撤销功能",
+ "problem": "未调度单据撤销功能",
+ "cause": "有时候撤销单据，不仅要删除WMS数据，更要更新ERP数据，让其可以二次操作",
+ "solution": "两遍建立对应的撤销中间表，WMS撤销后传入中间表，中间表建立触发器，更改ERP需要更改的状态，让其可以单据调整或者单据删除。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "未调度撤销"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAd5a3VKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAd5a3VKe0xjE3",
+  "doc_path": "/其他/产品功能问题/未调度单据撤销功能",
+  "record_id": "00U3ly9m4q"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/未调度单据撤销功能",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

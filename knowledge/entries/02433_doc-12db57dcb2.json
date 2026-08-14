@@ -1,0 +1,30 @@
+{
+ "id": "doc-12db57dcb2",
+ "record_id": "",
+ "title": "打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+ "problem": "打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+ "cause": "模板缓存原因",
+ "solution": "重新删除，重建模板即可。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNy06PM08xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNy06PM08xkXOEP2",
+  "doc_path": "/蓝凌OA/产品功能问题/打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231027-037",
+ "record_id": "JELySBpbm6",
+ "title": "客户运营要求所有支付方式都打97折，目前支付方式设置只支持线上支付设置优惠折扣",
+ "problem": "客户运营要求所有支付方式都打97折，目前支付方式设置只支持线上支付设置优惠折扣",
+ "cause": "目前B2B电商产品不支持线下支付方式设置折扣",
+ "solution": "替代方案是用优惠券功能设置全场满折券，指定支付方式使用。变相解决。\n同时向上游提交需求评估，受理后排期开发，后续版本更新迭代",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "支付折扣"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlgrn08Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlgrn08Zd1wyK0",
+  "doc_path": "/其他/产品功能问题/客户运营要求所有支付方式都打97折，目前支付方式设置只支持线上支付设置优惠折扣",
+  "record_id": "JELySBpbm6"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/客户运营要求所有支付方式都打97折，目前支付方式设置只支持线上支付设置优惠折扣",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

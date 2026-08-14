@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230626-007",
+ "record_id": "cmn6c35grj",
+ "title": "在采购收货时，全部拒收，数量为0，存盘报错",
+ "problem": "在采购收货时，全部拒收，数量为0，存盘报错",
+ "cause": "数量填0之后导致计算逻辑有问题",
+ "solution": "更改录入数量后事件\n//录入数量计算拒收数量\nfunction uf_num() {\n ds_ddmx.field(\"RefusedNum\").value = ds_ddmx.field(\"bofAdjNum\").value - ds_ddmx.field(\"Num\").value;\n if(ds_ddmx.field(\"Num\").value ==0 ){\n ds_ddmx.field(\"taxamount\").value = 0;\n ds_ddmx.field(\"amount\").value = 0;\n ds_ddmx.field(\"tax\").value = 0;\n }\n else {\n sys_compute(\"num\");\n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "IE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "拒收报错"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-06-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cmn6c35grj"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

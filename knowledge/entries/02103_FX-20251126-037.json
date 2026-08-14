@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251126-037",
+ "record_id": "rYX7pRXB8o",
+ "title": "MRP计算时，提前期是如何考虑的？",
+ "problem": "MRP计算时，提前期是如何考虑的？",
+ "cause": "MRP计算时，提前期是如何考虑的？",
+ "solution": "预测直接按照采购件下达订单，即先确定了采购订单的交期=预测的需求日期=销售订单的计划出货日期， 然后通过提前期计算采购件计划订单的调整后开工日期和调整后行动日期（二者与采购订单无用）；释放生成采购订单时，会按照交期-采购提前期计算应下单日； 手工下达采购订单时，是取当前日期为应下单日，然后+采购提前期，计算出交期。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "提前期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rYX7pRXB8o"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

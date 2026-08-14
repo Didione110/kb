@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260126-009",
+ "record_id": "zDdgQEISXO",
+ "title": "期初采购入库单，修改无税金额，保存后，无税金额又变成了之前的金额 ",
+ "problem": "期初采购入库单，修改无税金额，保存后，无税金额又变成了之前的金额",
+ "cause": "单据按整单计算的税额，无税金额",
+ "solution": "计税方式是整单计税，表头修改为行计税即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "采购入库单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购供应",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zDdgQEISXO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240531-079",
+ "record_id": "N72C39H6oN",
+ "title": "客户存在以前年度损益以及分红等情况，使用系统预置的抵消模板不能进行抵消",
+ "problem": "客户存在以前年度损益以及分红等情况，使用系统预置的抵消模板不能进行抵消",
+ "cause": "预置的抵消模板没有以前年度损益、分红的抵消。",
+ "solution": "修改成本法转权益法、投资收益抵消。详见附件。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "损益抵消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N72C39H6oN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

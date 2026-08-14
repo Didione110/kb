@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250801-001",
+ "record_id": "uDpsULrCrt",
+ "title": "企业资金账户选不到所属组织",
+ "problem": "企业资金账户选不到所属组织",
+ "cause": "在【业务单元】节点，搜索组织，查看状态是否为启用，需要启用；\n\n请检查是否分配了组织权限，需要分配组织权限。分配组织权限的操作：到【授权】搜索对应用户，点击用户后在右侧显示的已分配角色记录上，点击分配组织，勾选需要权限的组织保存；\n\n请检查是否开启了档案管理权，在【基础数据分级管理】节点，左侧定位在“企业银行账户”，右侧定位到对应的组织，点击开启管理权",
+ "solution": "检查问题原因，发现公司未开启档案管理权，后续开启管理权即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "资金账户组织"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-08-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uDpsULrCrt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

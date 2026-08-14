@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251029-047",
+ "record_id": "G2P7nrfPzS",
+ "title": "WMS出入库扫码数据上传时，上下游单位资料没有自动更新，导致上传失败。",
+ "problem": "WMS出入库扫码数据上传时，上下游单位资料没有自动更新，导致上传失败。",
+ "cause": "码上放心上传的语句要用单位资料表里码上放心单位名称 这个字段作为单位名称组织语句",
+ "solution": "上传语句里用 msfxentname as dwmch",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "资料未更新"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-10-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmByGNN8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmByGNN8yeZqMmz",
+  "doc_path": "/其他/安装部署问题/WMS出入库扫码数据上传时，上下游单位资料没有自动更新，导致上传失败。",
+  "record_id": "G2P7nrfPzS"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/WMS出入库扫码数据上传时，上下游单位资料没有自动更新，导致上传失败。",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260302-001",
+ "record_id": "wyIoPV5vU6",
+ "title": "需求：库存预警设置的原则：\n请购数量+现存量<最低库存，预警\n请购单审核后，请购数量+现存量>最低库存 ，不预警",
+ "problem": "需求：库存预警设置的原则：\n请购数量+现存量<最低库存，预警\n请购单审核后，请购数量+现存量>最低库存 ，不预警",
+ "cause": "需求",
+ "solution": "设置库存预警规则前，修改可用量计算规则：订单预计入勾选请购单与采购订单，且请购单与采购订单上均需要填写仓库信息",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存预警"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wyIoPV5vU6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

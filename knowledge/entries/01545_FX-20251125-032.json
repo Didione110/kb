@@ -1,0 +1,34 @@
+{
+ "id": "FX-20251125-032",
+ "record_id": "eY9Npp5uAa",
+ "title": "应付单据的卡片界面—更多—红冲的按钮，请问下应付单的列表界面下，选择多条数据进行勾选，如何调用更多-红冲的功能（列表界面无红冲按钮）",
+ "problem": "应付单据的卡片界面—更多—红冲的按钮，请问下应付单的列表界面下，选择多条数据进行勾选，如何调用更多-红冲的功能（列表界面无红冲按钮）",
+ "cause": "需要批量红冲单据，不需要一张张手工处理",
+ "solution": "项目客开处理，项目开发方案请见附件详细描述",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "红冲功能"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eY9Npp5uAa"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

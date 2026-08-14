@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251009-007",
+ "record_id": "zLQqUAz5Bx",
+ "title": "诺诺发票客户端，更新： 按单据冲红，申请红字确认单前保存tmep数据并对商品进行合并；",
+ "problem": "诺诺发票客户端，更新： 按单据冲红，申请红字确认单前保存tmep数据并对商品进行合并；",
+ "cause": "之前数电发票冲红是按发票冲红，没有按单据来冲红\n开具蓝票时对单据，商品进行了合并等操作，单据明细和发票明细没有明显的关联关系；\n后来修改过在单据合并成开票明细前，保存了合并前数据，形成了 单据明细-->开票明细-->发票明细 的关系，为后续的按单据冲红提供了基础。",
+ "solution": "按单据提取冲红的单据明细，查询到对应的蓝票明细序号，相同的发票明细序号需合并，保存临时表，也形成 退货商品明细-->红字确认单明细-->发票明细 的关系。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "冲红合并"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zLQqUAz5Bx"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

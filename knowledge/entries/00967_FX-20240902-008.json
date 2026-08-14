@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240902-008",
+ "record_id": "OcMoiflqeF",
+ "title": "美团新订单推送，接口报414错误",
+ "problem": "美团新订单推送，接口报414错误",
+ "cause": "post请求携带超长url，HTTP Error 414. The request URL is too long.",
+ "solution": "1. 推送内容手动减少不必要的内容\n2. 服务端配置文件中增加节点",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "414错误"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-09-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYeK6qDV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYeK6qDV1waOeDk",
+  "doc_path": "/自研/数据接口问题/美团新订单推送，接口报414错误",
+  "record_id": "OcMoiflqeF"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/美团新订单推送，接口报414错误",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

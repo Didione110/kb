@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231130-119",
+ "record_id": "oXOnSJFL2W",
+ "title": "有些商品需绑定销售",
+ "problem": "有些商品需绑定销售",
+ "cause": "有些商品需绑定销售",
+ "solution": "使用数据集find用法\nvar pz1 = ds_CrmSellDt.find(\"goodsid like 'G3QCFXIF348%'\");\n var pz2 = ds_CrmSellDt.find(\"goodsid like 'G3QJ2KF2VT0%'\");\n if(pz1 == -1 && pz2 != -1){\n alert(\"有必须开在一单的商品，请注意！\");\n return false;\n }\n if(pz1 != -1 && pz2 == -1){\n alert(\"有必须开在一单的商品，请注意！\");\n return false;\n }",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "绑定销售"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oXOnSJFL2W"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230809-017",
+ "record_id": "jstO3TdxLa",
+ "title": "原生DHERP在 商品/客户/供应商/承运单位 基础资料上，没有色标管理，对证照有效期也没有管控，对资质变更上，也没有对应工作流支撑",
+ "problem": "原生DHERP在 商品/客户/供应商/承运单位 基础资料上，没有色标管理，对证照有效期也没有管控，对资质变更上，也没有对应工作流支撑",
+ "cause": "默认标准方案无对应技术支持",
+ "solution": "单独开发 客户资料维护、供应商资料维护、商品资料维护、承运单位资料维护\n证照、委托书、地址等关联子表均在一个页面显示\n变更全部启用工作流审批，并留下审批记录可供查询\n如图所示",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "色标缺失  \n证照失控  \n资质无流"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jstO3TdxLa"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

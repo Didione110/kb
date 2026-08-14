@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240904-014",
+ "record_id": "5NnEadOazr",
+ "title": "YS集成U9C\n集成配置中，需要在U9C-系统建设中设置与YS的关联设置，常规启用的U9C环境中不会有这个模块，需要单独进入系统启用中启用该模块再进行配置",
+ "problem": "YS集成U9C\n集成配置中，需要在U9C-系统建设中设置与YS的关联设置，常规启用的U9C环境中不会有这个模块，需要单独进入系统启用中启用该模块再进行配置",
+ "cause": "YS集成U9C\n集成配置中，需要在U9C-系统建设中设置与YS的关联设置，常规启用的U9C环境中不会有这个模块，需要单独进入系统启用中启用该模块再进行配置",
+ "solution": "YS集成U9C\n集成配置中，需要在U9C-系统建设中设置与YS的关联设置，常规启用的U9C环境中不会有这个模块，需要单独进入系统启用中启用该模块再进行配置",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "YS集成U9C"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5NnEadOazr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

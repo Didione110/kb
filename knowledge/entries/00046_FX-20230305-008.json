@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230305-008",
+ "record_id": "12xizID0Ds",
+ "title": "客户通过接口传递应付到到NC系统，自带自定义客户字段，无法将该字段在凭证中正常展现",
+ "problem": "客户通过接口传递应付到到NC系统，自带自定义客户字段，无法将该字段在凭证中正常展现",
+ "cause": "接口未做数据对照，传递到NC中的是客户名称文本，未对照存储NC系统客户内码，到参照应付生成凭证时，未显示客户名称",
+ "solution": "修改接口配置，将自定字段参数添加元数据对象，对照存储NC客户内码",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自定义字段"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "应用集成平台",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-03-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbwvXRW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbwvXRW3kdP0wQ",
+  "doc_path": "/用友/数据接口问题/客户通过接口传递应付到到NC系统，自带自定义客户字段，无法将该字段在凭证中正常展现",
+  "record_id": "12xizID0Ds"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/客户通过接口传递应付到到NC系统，自带自定义客户字段，无法将该字段在凭证中正常展现",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

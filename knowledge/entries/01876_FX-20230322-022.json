@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230322-022",
+ "record_id": "mirUXq1qO5",
+ "title": "怎么控制科目根据科目的余额方向只能录入借方或者贷方",
+ "problem": "怎么控制科目根据科目的余额方向只能录入借方或者贷方",
+ "cause": "会计科目勾选【发生额方向控制】，修改总账参数【GL057发生额方向控制方式】为控制",
+ "solution": "会计科目勾选【发生额方向控制】，修改总账参数【GL057发生额方向控制方式】为控制",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "余额方向控制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-03-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mirUXq1qO5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241125-039",
+ "record_id": "WEvTYHh0Ql",
+ "title": "T+账表查询报错：未将对象引用设置到对象实例",
+ "problem": "T+账表查询报错：未将对象引用设置到对象实例",
+ "cause": "库表问题",
+ "solution": "部分科目，不是全部；通过一键查支持网锁定原因；\n然后在当前年度增加一个科目后（任意分类中，任意一个科目）在进行删除。原理是科目扩展表的问题，新增删除科目可以重新创建。\nhttps://blog.csdn.net/u011696928/article/details/126347329",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "C# (.NET)",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "空引用"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmKQGzV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmKQGzV3bzYmDO",
+  "doc_path": "/其他/产品功能问题/T+账表查询报错：未将对象引用设置到对象实例",
+  "record_id": "WEvTYHh0Ql"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/T+账表查询报错：未将对象引用设置到对象实例",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

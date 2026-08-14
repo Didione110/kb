@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221208-034",
+ "record_id": "BBMUkHWwZt",
+ "title": "凭证号提示：输入的凭证号1701大于此凭证类别在本年度期间的最大号573+1000以上，不允许保存",
+ "problem": "凭证号提示：输入的凭证号1701大于此凭证类别在本年度期间的最大号573+1000以上，不允许保存",
+ "cause": "目前系统中最大的凭证号是573，跟现在要录入的凭证号1701之间的间隔隔了1000以上，所以报错",
+ "solution": "集团-总账-结账 ，点击 结账月份，ctrl+alt+p，修改凭证最大号限制即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证号超限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-12-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BBMUkHWwZt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

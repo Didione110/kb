@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230131-024",
+ "record_id": "II5vz59iHw",
+ "title": "有时在单据接麦你按客户名称输入搜索不到，按客户编码可以搜到",
+ "problem": "有时在单据接麦你按客户名称输入搜索不到，按客户编码可以搜到",
+ "cause": "搜索引擎可能出现问题",
+ "solution": "重启索引服务和主服务，检查搜索引擎配置",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "客户名称搜索"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "II5vz59iHw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

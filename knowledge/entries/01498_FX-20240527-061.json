@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240527-061",
+ "record_id": "cz2HoUaehe",
+ "title": "客商档案限制末级地区分类增加档案",
+ "problem": "客商档案限制末级地区分类增加档案",
+ "cause": "需求",
+ "solution": "1. 地区分类节点引用备注型自定义项，并把所有的末级地区分类该自定义项的值维护成是,非末级的地区分类可以不用维护，或者维护成否均可\n客商基本档案模板，所属地区字段设置验证公式：\n$Error->iif(getColValue(bd_areacl,def1,pk_areacl,pk_areacl)==\"是\",\"\",\"地区分类非末级！\")",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "地区限制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-05-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cz2HoUaehe"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260603-002",
+ "record_id": "NNWC9vdr8g",
+ "title": "使用centos7部署了tomcat的客户突然都无法导出EXCEL",
+ "problem": "使用centos7部署了tomcat的客户突然都无法导出EXCEL",
+ "cause": "centos7操作系统自动更新了补丁\n导致系统找不到cmd",
+ "solution": "直接给Linux创建一个假的cmd，报错立刻消失\n执行命令：\n\nln -s /bin/true /bin/cmd\nchmod +x /bin/cmd\n\n/bin/true 是Linux系统自带的空命令\n我们只是做了个假的cmd让系统不再报错\n不影响任何业务、不修改任何代码、不产生风险\n\n执行后，无需重启tomcat，系统正常导出EXCEL",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Linux",
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "EXCEL导出失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2026-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NNWC9vdr8g"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

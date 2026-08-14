@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231120-073",
+ "record_id": "SEyZFoWKns",
+ "title": "POS端\n1.会员卡余额使用时默认 零售价无法修改怎么调整\n2.会员结算无法选到储值卡，只有现金",
+ "problem": "POS端\n1.会员卡余额使用时默认 零售价无法修改怎么调整\n2.会员结算无法选到储值卡，只有现金",
+ "cause": "POS端快捷键不显示，客户不知道怎么操作导致",
+ "solution": "POS端\n1. 点击键盘上左方向键，可改价格，输入会员卡号后改价即可\n2. 按快捷键F10进入结算界面，再按F6选择会员储值卡，输入支付金额即可",
+ "solution_types": [],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "会员卡结算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAqqzBVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAqqzBVKe0xjE3",
+  "doc_path": "/其他/应用操作/POS端 1.会员卡余额使用时默认零售价无法修改怎么调整 2.会员结算无法选到储值卡，只有现金",
+  "record_id": "SEyZFoWKns"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/POS端 1.会员卡余额使用时默认零售价无法修改怎么调整 2.会员结算无法选到储值卡，只有现金",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

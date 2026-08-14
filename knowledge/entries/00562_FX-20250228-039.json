@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250228-039",
+ "record_id": "DksWb2C3U5",
+ "title": "1月薪资已结账，1月的人员调动异常，实际开始日期应该是2025-01-01开始调入新公司，HR调动时写错了时间，为2-1号调动及生效且已执行导致1月社保无法正常在新公司续交；",
+ "problem": "1月薪资已结账，1月的人员调动异常，实际开始日期应该是2025-01-01开始调入新公司，HR调动时写错了时间，为2-1号调动及生效且已执行导致1月社保无法正常在新公司续交；",
+ "cause": "操作失误，已执行无法修改且有薪资数据",
+ "solution": "后台调整数据：\n举例，实际至2024-12-31止他在1008任职，从2025-01-01开始在20300103里任职用户写成了至2025-01-31在1008任职，2025-02-01开始在20300103任职；\n1、先在人员档案上确认人员编码，\n2、通过人员编码查出PK:\nselect code, name, pk_psndoc from bd_psndoc where code = 2304001001\n得到值1001A610000000001EFR\n3、找到旧的任职记录，和新的任职记录，PK_PSNJOB，旧--1001A61000000007W8WL\n新--1001A6100000000TNVRS\n4、修改时间\n新\nupdate hi_psnjob set begindate = '2025-01-01' where pk_psnjob = '1001A6100000000TNVRS'\n旧\nupdate hi_psnjob set enddate = '2024-12-31' where pk_psnjob = '1001A61000000007W8WL'\nCOMMit;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "PolarDB",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "社保断缴"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DksWb2C3U5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

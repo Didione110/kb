@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231225-064",
+ "record_id": "JkJRdirzz3",
+ "title": "由于订单套餐中品种库存不足，无法审单。但是同品种另一个规格有货，想操作套餐子商品换货置换成另一个规格发货。",
+ "problem": "由于订单套餐中品种库存不足，无法审单。但是同品种另一个规格有货，想操作套餐子商品换货置换成另一个规格发货。",
+ "cause": "默认系统是只能单品换单品，套餐换套餐，套餐子商品无法跟换成单品。系统会拦截报错提示",
+ "solution": "1. 将要置换的品种新建成套餐，然后操作套餐换套餐。\n2. 点三系统设置中订单相关设置可以开启订单换货时允许套餐子商品换成单品。（一般不建议开启，容易导致换货操作出问题）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "套餐换货"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeRBoXJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeRBoXJ2LD0oRE",
+  "doc_path": "/其他/软件无法使用/由于订单套餐中品种库存不足，无法审单。但是同品种另一个规格有货，想操作套餐子商品换货置换成另一个规格发货。",
+  "record_id": "JkJRdirzz3"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/由于订单套餐中品种库存不足，无法审单。但是同品种另一个规格有货，想操作套餐子商品换货置换成另一个规格发货。",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

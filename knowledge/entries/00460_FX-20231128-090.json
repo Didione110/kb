@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231128-090",
+ "record_id": "BOrR2Iji0Y",
+ "title": "期初余额导出EXCEL提示：打开文件时出现错误，可能是文件格式出错或者正在被使用。",
+ "problem": "期初余额导出EXCEL提示：打开文件时出现错误，可能是文件格式出错或者正在被使用。",
+ "cause": "文件格式使用的为XLSX，与系统有冲突",
+ "solution": "新建文档，格式选择XLS即可",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "期初余额导出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BOrR2Iji0Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

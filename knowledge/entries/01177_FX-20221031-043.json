@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-043",
+ "record_id": "UWrh46dLgp",
+ "title": "采购订单协同生成销售订单显示表头自定义错误",
+ "problem": "采购订单协同生成销售订单显示表头自定义错误",
+ "cause": "采购订单做了表头自定义项，销售订单表头未设置自定义项引用，客户不需要自定义字段在销售订单上显示",
+ "solution": "在不占用销售订单表头自定义项字段数量的影响下，在数据交换界面，删除采购订单下游单据销售订单的数据交换即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "协同错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施4部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UWrh46dLgp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

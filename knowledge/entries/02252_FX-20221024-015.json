@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221024-015",
+ "record_id": "vdwxY7c4LS",
+ "title": "客户端报表打不开，提示“不能登录到服务器[USER20220926OB],请检查服务器配置：failed：不能发送请求”",
+ "problem": "客户端报表打不开，提示“不能登录到服务器[USER20220926OB],请检查服务器配置：failed：不能发送请求”",
+ "cause": "UFO服务器配置未生效",
+ "solution": "在报错的客户端电脑T3安装路径UFSMART-UFO中，右击以管理员身份打开selsrv.exe，输入服务器IP（一定要右键管理员打开，双击打开没有效果，一定要输入ip，计算机名称有时候没有效果），重新登陆T3即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-10-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vdwxY7c4LS"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

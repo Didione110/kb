@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230404-007",
+ "record_id": "92hUDsMk8r",
+ "title": "针对库版本比较早的，有部分表字段没有存储问题",
+ "problem": "针对库版本比较早的，有部分表字段没有存储问题",
+ "cause": "早起V10版本库系统BUG",
+ "solution": "可以更新最新的RM模块，以及更换Tomcat，最新tomcat需要把分页开关关闭",
+ "solution_types": [
+  "配置修改",
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段缺失"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-04-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pQ11m8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pQ11m8gN7R35y",
+  "doc_path": "/时空/数据错误问题/针对库版本比较早的，有部分表字段没有存储问题",
+  "record_id": "92hUDsMk8r"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/针对库版本比较早的，有部分表字段没有存储问题",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

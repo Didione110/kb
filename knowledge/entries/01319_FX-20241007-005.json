@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241007-005",
+ "record_id": "YRJceX01Tk",
+ "title": "手持复核中APP提示获取单据信息的缓存时，出现意外错误无法复核",
+ "problem": "手持复核中APP提示获取单据信息的缓存时，出现意外错误无法复核",
+ "cause": "修改了数据库数据或者系统缓存错误",
+ "solution": "进行手持APP删除对应的缓存解决",
+ "solution_types": [],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "缓存异常"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-10-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1dGQQ8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1dGQQ8BQEx5rG",
+  "doc_path": "/其他/软件无法使用/手持复核中APP提示获取单据信息的缓存时，出现意外错误无法复核",
+  "record_id": "YRJceX01Tk"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/手持复核中APP提示获取单据信息的缓存时，出现意外错误无法复核",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

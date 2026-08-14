@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241130-087",
+ "record_id": "IpWTN9ZRWR",
+ "title": "下单操作时，业务存在同一套，很多明细，删除只能删除当前行，可能删漏，容易误操作",
+ "problem": "下单操作时，业务存在同一套，很多明细，删除只能删除当前行，可能删漏，容易误操作",
+ "cause": "客户习惯键盘del按键删除，需要同一套的明细要求同时删除，并且不想用鼠标进行多选",
+ "solution": "增加键盘del触发删除函数\n在grid删除前和后事件挂函数进行处理\nasync function uf\\_del\\_mx\\_before()\\{\n ds\\_ddhz.field(\"ClassId\\_del\").value = \"\";\n var classid = \"\";\n if(ds\\_ddmx.getValueAt(ds\\_ddmx.recno,\"classid\") != \"\")\\{\n classid = ds\\_ddmx.getValueAt(ds\\_ddmx.recno,\"classid\") ;\n ds\\_ddhz.field(\"ClassId\\_del\").value = classid ;\n```\n}\n\n```\n\n\\}\n\nfunction uf\\_del\\_mx\\_after\\_new() \\{\n var classid = \"\";\n if (ds\\_ddhz.field(\"ClassId\\_del\").value != \"\") \\{ \n classid = ds\\_ddhz.field(\"ClassId\\_del\").value ;\n```\n for (var j = ds_ddmx.recordCount - 1 ;j >= 0 ;j--) {\n if ( ds_ddmx.getValueAt(j, \"classid\") == classid && ds_ddmx.getValueAt(j, \"classid\") != \"\" ) {\n ds_ddmx.deleteRow(j);\n }\n }\n }\n\n```\n\n\\}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "误删风险"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDzQPlW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDzQPlW6zbX04v",
+  "doc_path": "/时空/应用操作/下单操作时，业务存在同一套，很多明细，删除只能删除当前行，可能删漏，容易误操作",
+  "record_id": "IpWTN9ZRWR"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/下单操作时，业务存在同一套，很多明细，删除只能删除当前行，可能删漏，容易误操作",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260323-014",
+ "record_id": "kXgkyZFr5R",
+ "title": "器械业务、药品业务所有界面字段不同显示",
+ "problem": "器械业务、药品业务所有界面字段不同显示",
+ "cause": "器械业务、药品业务所有界面字段不同显示",
+ "solution": "因页面规则只能用表头字段来判断，设置器械、药品全流程交易类型分开；\n通过【UI模板】的页面规则-交互规则控制：\n考虑制单时只能用使用值变动判断，打开以前单据显示时只能初始化判断：分别增加规则触发时机值变化与初始化；\n设置规则：前置条件当交易类型的值为器械、药品时，分别执行操作字段显示或不显示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "字段差异"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-03-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kXgkyZFr5R"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

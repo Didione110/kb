@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251204-010",
+ "record_id": "0NJC0qpUnb",
+ "title": "反馈开票记录和诺诺网开票相关功能都无法使用，点击开票对应功能都自动跳转到商品资料查询界面，核查注册也没有到期。",
+ "problem": "反馈开票记录和诺诺网开票相关功能都无法使用，点击开票对应功能都自动跳转到商品资料查询界面，核查注册也没有到期。",
+ "cause": "经过多方反复排查发现是因为其税号又重新绑定到原来主企业下面去了，所以导致其无法使用开票相关功能。",
+ "solution": "指导客户进行解绑就恢复正常了，后续也告知了客户原因，让其追查为什么重新绑定到主企业；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "开票异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDM2LDW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDM2LDW6zbX04v",
+  "doc_path": "/自研/应用操作/反馈开票记录和诺诺网开票相关功能都无法使用，点击开票对应功能都自动跳转到商品资料查询界面，核查注册也没有到期。",
+  "record_id": "0NJC0qpUnb"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/反馈开票记录和诺诺网开票相关功能都无法使用，点击开票对应功能都自动跳转到商品资料查询界面，核查注册也没有到期。",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

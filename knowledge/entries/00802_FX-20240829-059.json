@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240829-059",
+ "record_id": "KZjIDWTdrR",
+ "title": "工单系统使用el-image引用图片加载失败",
+ "problem": "工单系统使用el-image引用图片加载失败",
+ "cause": "使用require字段引用图片报错，vue3\\+vite构建的项目不能使用require，只能用import",
+ "solution": "使用import引入图片路径：资源可使用import.meta.globEager(“…/\\*.png”) ;\n动态引入，需要给 css 路径加括号，vite官网静态资源处理 new URL(url, import.meta.url)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "el-image加载失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-08-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDEwg5W6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDEwg5W6zbX04v",
+  "doc_path": "/自研/产品功能问题/工单系统使用el-image引用图片加载失败",
+  "record_id": "KZjIDWTdrR"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/工单系统使用el-image引用图片加载失败",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

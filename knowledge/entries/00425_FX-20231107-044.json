@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231107-044",
+ "record_id": "AGJ3NeBsfW",
+ "title": "开票软件报错：该服务器类型暂不支持专票冲红",
+ "problem": "开票软件报错：该服务器类型暂不支持专票冲红",
+ "cause": "未知",
+ "solution": "解决方法：先进行发票修复，然后重启诺诺服务，再进开票软件重试即可",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "专票冲红"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mAB9rJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mAB9rJ9ekBD76",
+  "doc_path": "/自研/软件无法使用/开票软件报错：该服务器类型暂不支持专票冲红",
+  "record_id": "AGJ3NeBsfW"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/开票软件报错：该服务器类型暂不支持专票冲红",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

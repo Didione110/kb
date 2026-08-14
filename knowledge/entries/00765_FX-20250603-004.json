@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250603-004",
+ "record_id": "Je87eJAx10",
+ "title": "采购入库单需要跟采购应付单合并生成凭证",
+ "problem": "采购入库单需要跟采购应付单合并生成凭证",
+ "cause": "需求",
+ "solution": "在应付单和入库单的凭证模版上，业务关联号字段上设置，用源头单据号getcolvalue(po_order,vordercode,corderid,#cfirstbillid0#)，在凭证生成的界面，查询数据后，点批选，选业务管理号，那么源头单据号相同的就会合并生成凭证了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "合并凭证"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Je87eJAx10"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

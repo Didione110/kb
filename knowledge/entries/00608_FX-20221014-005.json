@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221014-005",
+ "record_id": "EqDH9DGHzB",
+ "title": "运行8.1SP2安装程序时，提示“环境检查不通过，安装程序无法继续运行！”",
+ "problem": "运行8.1SP2安装程序时，提示“环境检查不通过，安装程序无法继续运行！”",
+ "cause": "8.1SP2安装程序配置文件中多出环境检测参数，且参数较高。",
+ "solution": "解决方案主要分为三种：\n1、根据建议参数，提升对应系统环境配置后即可安装；\n2、将配置参数文件右键以【记事本】方式打开，降低配置文件参数后即可安装；\n3、将配置参数文件右键【删除】后即可安装。",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "环境检查"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "服务启停",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2022-10-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3bom4V47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3bom4V47Z3je9",
+  "doc_path": "/致远OA/安装部署问题/运行8.1SP2安装程序时，提示环境检查不通过，安装程序无法继续运行！",
+  "record_id": "EqDH9DGHzB"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/安装部署问题/运行8.1SP2安装程序时，提示环境检查不通过，安装程序无法继续运行！",
+ "category": [
+  "致远OA",
+  "安装部署问题"
+ ]
+}

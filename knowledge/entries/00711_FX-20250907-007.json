@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250907-007",
+ "record_id": "IGaALTjvx6",
+ "title": "三方物流接口，从sql代码改到oracle后，任务也开启了，但是总是无法执行",
+ "problem": "三方物流接口，从sql代码改到oracle后，任务也开启了，但是总是无法执行",
+ "cause": "接口未生效，还是执行的老配置",
+ "solution": "需要重启接口，触发新的配置",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Oracle执行失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-09-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mgxX1J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mgxX1J9ekBD76",
+  "doc_path": "/自研/环境问题/三方物流接口，从sql代码改到oracle后，任务也开启了，但是总是无法执行",
+  "record_id": "IGaALTjvx6"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/三方物流接口，从sql代码改到oracle后，任务也开启了，但是总是无法执行",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

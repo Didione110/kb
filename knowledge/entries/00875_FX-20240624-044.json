@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240624-044",
+ "record_id": "MUx4P4zAXQ",
+ "title": "数智税控接口更新后，点单次开票汇总无数据，报错“输入字符串的格式不正确”",
+ "problem": "数智税控接口更新后，点单次开票汇总无数据，报错“输入字符串的格式不正确”",
+ "cause": "缓存文件导致",
+ "solution": "删除NNFP文件夹下XML相关文件，重启解决",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "数智税控"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-06-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmonEeJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmonEeJGlDd3mE",
+  "doc_path": "/自研/软件无法使用/数智税控接口更新后，点单次开票汇总无数据，报错“输入字符串的格式不正确”",
+  "record_id": "MUx4P4zAXQ"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/数智税控接口更新后，点单次开票汇总无数据，报错“输入字符串的格式不正确”",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

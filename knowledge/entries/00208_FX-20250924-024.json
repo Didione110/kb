@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250924-024",
+ "record_id": "4yq0Ozd9jn",
+ "title": "期初导入的固定资产卡片需要修改折旧方法",
+ "problem": "期初导入的固定资产卡片需要修改折旧方法",
+ "cause": "期初导入的固定资产卡片需要修改折旧方法",
+ "solution": "sql批量处理，需备份",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "折旧方法"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4yq0Ozd9jn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

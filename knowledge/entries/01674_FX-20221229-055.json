@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221229-055",
+ "record_id": "haESDPY4nK",
+ "title": "微信小程序开发路由跳转方式wx.redirectTo()和wx.navigateTo()有时会失效",
+ "problem": "微信小程序开发路由跳转方式wx.redirectTo()和wx.navigateTo()有时会失效",
+ "cause": "wx.redirectTo()只是关闭当前页面，跳转到某个页面，会叠加图层，跳转页面次数太多可能找不到图层；wx.navigateTo()会保留当前图层，图层上限有限制",
+ "solution": "按需求将部分路由api更换为wx.reLaunch()，避免图层叠加过多而失效",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "路由跳转失效"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "产品开发部",
+  "date": "2022-12-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mEj32J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mEj32J9ekBD76",
+  "doc_path": "/自研/产品功能问题/微信小程序开发路由跳转方式wx.redirectTo和wx.navigateTo有时会失效",
+  "record_id": "haESDPY4nK"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/微信小程序开发路由跳转方式wx.redirectTo和wx.navigateTo有时会失效",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

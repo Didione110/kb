@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-053",
+ "record_id": "KzkOAeH1id",
+ "title": "大悟人福药房从湖北人福连锁独立出去了，头开始零售收款界面启用了企业实例化，导致连锁这边改了，大悟也需要更改，同样的医保实施需要改两遍，增加工作量",
+ "problem": "大悟人福药房从湖北人福连锁独立出去了，头开始零售收款界面启用了企业实例化，导致连锁这边改了，大悟也需要更改，同样的医保实施需要改两遍，增加工作量",
+ "cause": "连锁的零售收款界面改了，大悟不能及时更新",
+ "solution": "删除系统实例化表单，把连锁企业实例化的表单改成系统实例化表单，删除大悟企业实例化，这样后面就只用改一个系统实例化表单，方便快捷",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "实例化、连锁、医保、重复、工作量"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvj1p7VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvj1p7VMwvDqPk",
+  "doc_path": "/时空/实施问题/大悟人福药房从湖北人福连锁独立出去了，头开始零售收款界面启用了企业实例化，导致连锁这边改了，大悟也需要更改，同样的医保实施需要改两遍，增加工作量",
+  "record_id": "KzkOAeH1id"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/大悟人福药房从湖北人福连锁独立出去了，头开始零售收款界面启用了企业实例化，导致连锁这边改了，大悟也需要更改，同样的医保实施需要改两遍，增加工作量",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

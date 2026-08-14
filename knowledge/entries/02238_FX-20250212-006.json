@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250212-006",
+ "record_id": "vGjPcRmikl",
+ "title": "创建数据集临时表时，提示“数据集DS_XXXXXXXX NAME超过11个字符集，不允许创建临时表”",
+ "problem": "创建数据集临时表时，提示“数据集DS_XXXXXXXX NAME超过11个字符集，不允许创建临时表”",
+ "cause": "数据集名称过长导致",
+ "solution": "缩短数据集名称,注意检查js调用的当前修改的数据集",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "数据集名称超长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2025-02-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vGjPcRmikl"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

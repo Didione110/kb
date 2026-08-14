@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240105-019",
+ "record_id": "ZBI6RfoHZE",
+ "title": "客户需要到WMS打印出库单",
+ "problem": "客户需要到WMS打印出库单",
+ "cause": "WMS有个随货同行打印，可以根据单据类型进行不同打印（难用但是可用）",
+ "solution": "WMS有个随货同行打印，可以根据单据类型进行不同打印（难用但是可用）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "出库单打印"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1b9RQJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1b9RQJMGjLRb3",
+  "doc_path": "/其他/产品功能问题/客户需要到WMS打印出库单",
+  "record_id": "ZBI6RfoHZE"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/客户需要到WMS打印出库单",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

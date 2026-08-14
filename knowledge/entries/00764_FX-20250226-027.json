@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250226-027",
+ "record_id": "Je1evJxM8o",
+ "title": "系统界面点击右键记录汇总后，点导出excel报错\n：artery未定义",
+ "problem": "系统界面点击右键记录汇总后，点导出excel报错\n：artery未定义",
+ "cause": "tomcat中缺失文件",
+ "solution": "拷贝文件放到路径\\\\webapps\\\\ROOT\\\\form\\\\html\\\\showdataset.htm",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "artery未定义"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2025-02-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pjBaO8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pjBaO8gN7R35y",
+  "doc_path": "/时空/环境问题/系统界面点击右键记录汇总后，点导出excel报错 ：artery未定义",
+  "record_id": "Je1evJxM8o"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/系统界面点击右键记录汇总后，点导出excel报错 ：artery未定义",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

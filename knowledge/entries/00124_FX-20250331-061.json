@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250331-061",
+ "record_id": "2kpCq8ogc0",
+ "title": "导入的职员分配了角色和权限，登录提示没有可用功能，不能登录系统",
+ "problem": "导入的职员分配了角色和权限，登录提示没有可用功能，不能登录系统",
+ "cause": "该账号的直属机构或部门未绑定",
+ "solution": "绑定直属机构或部门再重新登录",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3m62KXJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3m62KXJ9ekBD76",
+  "doc_path": "/时空/应用操作/导入的职员分配了角色和权限，登录提示没有可用功能，不能登录系统",
+  "record_id": "2kpCq8ogc0"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/导入的职员分配了角色和权限，登录提示没有可用功能，不能登录系统",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

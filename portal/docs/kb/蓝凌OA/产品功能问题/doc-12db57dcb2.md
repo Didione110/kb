@@ -1,0 +1,70 @@
+---
+{
+  "title": "打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+  "kbId": "doc-12db57dcb2",
+  "productLine": "蓝凌OA",
+  "productSeries": "",
+  "version": "",
+  "module": "",
+  "problemType": "",
+  "solutionTypes": [],
+  "techStack": [],
+  "techKeywords": [],
+  "keywords": [],
+  "category": [
+    "蓝凌OA",
+    "产品功能问题"
+  ],
+  "submitter": "",
+  "department": "",
+  "date": "",
+  "sourceType": "doc",
+  "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNy06PM08xkXOEP2?utm_scene=team_space",
+  "sourcePath": "/蓝凌OA/产品功能问题/打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+  "status": "active",
+  "updatedAt": "",
+  "outDir": "蓝凌OA/产品功能问题"
+}
+---
+
+# 打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。
+
+> 知识条目 · 可被客服机器人引用
+
+## 元信息
+
+| 字段 | 值 |
+|------|----|
+| 知识ID | `doc-12db57dcb2` |
+| 产品线 | 蓝凌OA |
+| 产品系列 | - |
+| 版本 | - |
+| 模块 | - |
+| 问题类型 | - |
+| 解决方案类型 |  |
+| 技术栈 |  |
+| 技术关键词 |  |
+| 问题关键字 |  |
+| 分类路径 | 蓝凌OA / 产品功能问题 |
+| 提交人 | - |
+| 提交部门 | - |
+| 提交日期 | - |
+| 状态 | active |
+
+## 问题现象
+
+打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。
+
+## 问题原因
+
+模板缓存原因
+
+## 解决方案
+
+重新删除，重建模板即可。
+
+## 引用来源
+
+- 来源类型: `doc`
+- 来源链接: https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNy06PM08xkXOEP2?utm_scene=team_space
+- 知识库路径: `/蓝凌OA/产品功能问题/打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。`

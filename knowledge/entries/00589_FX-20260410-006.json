@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260410-006",
+ "record_id": "EQj78QVPw5",
+ "title": "物料SD-0020请购单已下推采购订单，采购订单在审批中，库存展望中在途既没有显示在请购中也没有显示在采购在途中",
+ "problem": "物料SD-0020请购单已下推采购订单，采购订单在审批中，库存展望中在途既没有显示在请购中也没有显示在采购在途中",
+ "cause": "无",
+ "solution": "库存展望的查询方案里有一个预制的查询条件“单据状态”，勾选了包含开立态和审核中的单据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "库存"
+ ],
+ "keywords": [
+  "在途未显"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购供应",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-04-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EQj78QVPw5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

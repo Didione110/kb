@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240401-005",
+ "record_id": "BBNnv47riF",
+ "title": "生产订单，选项目生产订单单据类型的时候，必填来源类型的单号，来源于销售订单",
+ "problem": "生产订单，选项目生产订单单据类型的时候，必填来源类型的单号，来源于销售订单",
+ "cause": "可以做个数据权限，选项目生产订单单据类型的时候，必填来源类型的单号",
+ "solution": "生产管理-生产订单，条件（例：单据类型编码为1 ，来源必须为销售订单）：not(MO.MODocType.Code=='01' and NewMO.MOSourceDocType.Value!=FunEnum('来源单据类型枚举','销售订单',1))",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "销售订单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BBNnv47riF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240603-002",
+ "record_id": "wkrnT9yGOE",
+ "title": "跨月审批发票，临时处理方案",
+ "problem": "跨月审批发票，临时处理方案",
+ "cause": "当月已月结无法审批，也不想反账，只是想把审批日期纳入3月；",
+ "solution": "0126业务单元，3月有张采购发票CF012620240327154515审核指导当前会计期间已结账，检查核算已经结账，生成了很多凭证，无法反账；与客户方沟通不好修改期间，协助修改参数配置（业务参数设置-组织）核算里的IA0601为是，正常用3月时间协助审核单据，但凭证会生成到4月，客户同意；完成后及时调回参数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流"
+ ],
+ "keywords": [
+  "跨月审批"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wkrnT9yGOE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

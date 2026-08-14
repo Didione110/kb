@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240126-043",
+ "record_id": "MO79rwwQGp",
+ "title": "需要在成本计算中显示仓库档案",
+ "problem": "需要在成本计算中显示仓库档案",
+ "cause": "需要在成本计算中显示仓库档案",
+ "solution": "1、单据模板初始化修改单据模板（模板编码20146010成本计算），空白处右键增加自定义项\n2、输入项目主键（尽量输入字母+数值）项目主键\n维护自定义项字段的显示公式\ntest->getColValue(bd_stordoc,storname , pk_stordoc, getColValue(ia_bill, cwarehouseid,cbillid , pkBill))\n3、保存即可，无需分配模板（单据模板初始化中的模板修改后直接生效）\n此方法只做显示，后台数据库不记录",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "仓库档案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MO79rwwQGp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

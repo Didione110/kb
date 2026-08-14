@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260410-004",
+ "record_id": "CVzzIUf95D",
+ "title": "同商品数据只显示了一条",
+ "problem": "同商品数据只显示了一条",
+ "cause": "参数设置错误",
+ "solution": "将明细控件的Duplicates参数dmClear改成dmshow即可正常显示，如果还是不行，建议删除后新建控件即可正常",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2026-04-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvymy7VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvymy7VMwvDqPk",
+  "doc_path": "/时空/应用操作/同商品数据只显示了一条",
+  "record_id": "CVzzIUf95D"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/同商品数据只显示了一条",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240730-041",
+ "record_id": "fenFswYyeX",
+ "title": "UFO报表计算时提示：单元格公式错误，不能以+或-开头，编辑公式后重新计算依然提示，无法修改",
+ "problem": "UFO报表计算时提示：单元格公式错误，不能以+或-开头，编辑公式后重新计算依然提示，无法修改",
+ "cause": "新报表模式是存在此问题，修改参数启用旧报表模式，在模板设计中修改公式后正常",
+ "solution": "新报表模式是存在此问题，修改参数启用旧报表模式，在模板设计中修改公式后正常",
+ "solution_types": [
+  "配置修改",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "公式错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlYajj8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlYajj8Zd1wyK0",
+  "doc_path": "/其他/产品功能问题/UFO报表计算时提示单元格公式错误，不能以+或-开头，编辑公式后重新计算依然提示，无法修改",
+  "record_id": "fenFswYyeX"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/UFO报表计算时提示单元格公式错误，不能以+或-开头，编辑公式后重新计算依然提示，无法修改",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

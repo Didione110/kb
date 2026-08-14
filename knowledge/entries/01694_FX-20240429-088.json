@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240429-088",
+ "record_id": "hvqoX0dwH8",
+ "title": "部分零货拣选单据不能被拣货员不能领取",
+ "problem": "部分零货拣选单据不能被拣货员不能领取",
+ "cause": "有客户自行增加架位号的时候，分拣单标识填写错误，导致分配的任务不能被队友任务拣选。",
+ "solution": "在架位号模块增加相关拦截，判断架位号整理属性是否和分拣单标识对应",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "零货拣选"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hvqoX0dwH8"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

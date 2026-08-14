@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221031-047",
+ "record_id": "5dbClaiWRj",
+ "title": "B2C订单出现退款后，点三OMS将订单标记异常，但又未把退款信息推送给erp，导致erp正常出库了",
+ "problem": "B2C订单出现退款后，点三OMS将订单标记异常，但又未把退款信息推送给erp，导致erp正常出库了",
+ "cause": "点三OMS未配置开关。检测退款完成后，将订单自动驳回自动关闭",
+ "solution": "开启退款完成自动驳回自动关闭功能，订单自动驳回时会推送一条取消数据给erp，及时停止线下作业。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "退款同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "售前部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwND5o1QW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwND5o1QW6zbX04v",
+  "doc_path": "/其他/产品功能问题/B2C订单出现退款后，点三OMS将订单标记异常，但又未把退款信息推送给erp，导致erp正常出库了",
+  "record_id": "5dbClaiWRj"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/B2C订单出现退款后，点三OMS将订单标记异常，但又未把退款信息推送给erp，导致erp正常出库了",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

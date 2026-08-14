@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231221-052",
+ "record_id": "nf45pslP9P",
+ "title": "时空V12数字内容进行格式化显示方法",
+ "problem": "时空V12数字内容进行格式化显示方法",
+ "cause": "时空V12数字内容进行格式化显示方法",
+ "solution": "const formatter = new Intl.NumberFormat();\nformatter.format(1000)\n// 则会输出：\"1,000\"\nformatter.format(1000.5934)\n// 输出：\"1,000.593\"\nformatter.format(1000.5956)\n// 输出：\"1,000.596\"",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "时空格式化"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-12-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nf45pslP9P"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

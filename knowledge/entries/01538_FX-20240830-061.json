@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240830-061",
+ "record_id": "eLsitdkrjn",
+ "title": "医保追溯码ERP前台改造，需要在明细行扫完追溯码后自动跳转下一行",
+ "problem": "医保追溯码ERP前台改造，需要在明细行扫完追溯码后自动跳转下一行",
+ "cause": "前台POS设置中提交激活字段为下拉选择固定字段",
+ "solution": "在提交激活字段中手动输入提交字段解决，以追溯码DRUG_TRAC_TODG为例",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "追溯码跳转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eLsitdkrjn"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251130-051",
+ "record_id": "fO3EO65kIE",
+ "title": "生成总账凭证时点击编辑报错“fiaai033”",
+ "problem": "生成总账凭证时点击编辑报错“fiaai033”",
+ "cause": "通常是由于当前用户缺少事项分录编辑权限导致的",
+ "solution": "进入【角色管理】模块；找到该用户所对应的角色并进行编辑；在权限设置中勾选“事项分录编辑”权限；保存设置后重新登录尝试。授权完成后即可正常编辑事项分录。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "fiaai033"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fO3EO65kIE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

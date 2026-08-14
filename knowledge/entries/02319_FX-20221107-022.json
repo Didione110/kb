@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221107-022",
+ "record_id": "wrlhbvNrGd",
+ "title": "固定资产折旧报错",
+ "problem": "固定资产折旧报错",
+ "cause": "上个月从OA系统（客户自研）生成固定资产卡片，本月计提时报科目错误。",
+ "solution": "检查相关的科目设置无问题，接口导入的部门不对。手工修改固定资产卡片的部门，重新计提。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "折旧报错"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wrlhbvNrGd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

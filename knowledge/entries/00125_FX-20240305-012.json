@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240305-012",
+ "record_id": "2lOMin9eLv",
+ "title": "诺诺发票更新，开票增加2个字段certificateType，specificFactor",
+ "problem": "诺诺发票更新，开票增加2个字段certificateType，specificFactor",
+ "cause": "certificateType 数电农产品收购发票销售方证件类型，数电农产品收购必传，对应buyerTaxNum字段。103 税务登记证，201 居民身份证，208 外国护照，210 港澳居民来往内地通行证，213 台湾居民来往大陆通行证，215 外国人居留证，219 香港永久性居民身份证，220 台湾身份证，221 澳门特别行政区永久性居民身份证，233 外国人永久居留身份证（外国人永久居留证），299 其他个人证件\nspecificFactor String N 0 2 特定要素：0普通发票（默认）、1 成品油 、2 稀土（仅支持s、bs票种且编码必须为稀土产品目录中的商品）、3 建筑服务、4 货物运输服务、5 不动产销售、6 不动产经营租赁服务、9 旅客运输服务、12 自产农产品销售、16 农产品收购、31 建安发票 、 32 房地产销售发票、33 二手车发票反向开具、 34 电子烟、 35 矿产品",
+ "solution": "有客户需要开农产品收购发票，接口新增2个参数",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "诺诺发票、开票字段、certificateType、specificFactor"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2lOMin9eLv"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

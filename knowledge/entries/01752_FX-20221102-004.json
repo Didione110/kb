@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221102-004",
+ "record_id": "jb7KvF1G1m",
+ "title": "U8客户端及服务器登录均提示SA账户的密码已过期",
+ "problem": "U8客户端及服务器登录均提示SA账户的密码已过期",
+ "cause": "配置问题",
+ "solution": "以windows身份登录SQL后，在sa属性处取消了强制密码过期策略后，重启服务，正常登录",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "密码过期"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jb7KvF1G1m"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

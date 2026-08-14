@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250707-008",
+ "record_id": "3YRRVJtbn8",
+ "title": "客户端制单输存货不自动参照",
+ "problem": "客户端制单输存货不自动参照",
+ "cause": "客户端没有启用智能输入",
+ "solution": "客户端左下角选项-启用智能输入",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "存货参照"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-07-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3YRRVJtbn8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

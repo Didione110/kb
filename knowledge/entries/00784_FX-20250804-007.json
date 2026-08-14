@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250804-007",
+ "record_id": "K2Ougf2F0Y",
+ "title": "玖宫格更新了订单字段，新增了监管码字段，但是发现部分单据拉去的时候没有监管码字段",
+ "problem": "玖宫格更新了订单字段，新增了监管码字段，但是发现部分单据拉去的时候没有监管码字段",
+ "cause": "启动了多个玖宫格接口程序，改动后的接口程序新增获取监管码字段",
+ "solution": "关闭另外一个老版本的接口程序",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "监管码缺失"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1RqLyJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1RqLyJyMoPYe1",
+  "doc_path": "/自研/环境问题/玖宫格更新了订单字段，新增了监管码字段，但是发现部分单据拉去的时候没有监管码字段",
+  "record_id": "K2Ougf2F0Y"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/玖宫格更新了订单字段，新增了监管码字段，但是发现部分单据拉去的时候没有监管码字段",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

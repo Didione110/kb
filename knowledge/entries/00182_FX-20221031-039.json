@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-039",
+ "record_id": "4E4fNGA9zE",
+ "title": "电商订单客户备注中如果存在‘#’字符，导致服务端调用时会报错",
+ "problem": "电商订单客户备注中如果存在‘#’字符，导致服务端调用时会报错",
+ "cause": "‘#’字符在js语法中属于id选择器",
+ "solution": "通过js的正则表达式及replace方法替换特殊字符，代码如下：\nvar reg = new RegExp(\"#\",\"g\"); //第一个参数是需要替换的字符，第二个参数'g'代表替换\nvar remark\\_str = remark.replace(reg,'');",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "#字符解析"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeDDExJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeDDExJ2LD0oRE",
+  "doc_path": "/时空/产品功能问题/电商订单客户备注中如果存在‘#’字符，导致服务端调用时会报错",
+  "record_id": "4E4fNGA9zE"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/电商订单客户备注中如果存在‘#’字符，导致服务端调用时会报错",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

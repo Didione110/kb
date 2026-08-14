@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221031-041",
+ "record_id": "5HMWa7wrrV",
+ "title": "零售收银时直接打印小票，无法显示部分优惠金额分摊数据",
+ "problem": "零售收银时直接打印小票，无法显示部分优惠金额分摊数据",
+ "cause": "系统的优惠金额分摊是放在服务端保存前事件中，但是分摊完成后没有把分摊后的相关优惠字段数据返回到前端页面，导致直接打印时无法显示",
+ "solution": "使用服务端函数将数据返还到前端，代码如下：\nFormUtil.setWriteBackDataSetValue(\"ds\\_mxls\", i, \"TokenAvgAmt\", dbqAmt); //参数一：数据集 \n参数二：行数 参数三：前端数据集字段名 参数四：值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "优惠分摊"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn134RyWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn134RyWrMqPxX6",
+  "doc_path": "/时空/产品功能问题/零售收银时直接打印小票，无法显示部分优惠金额分摊数据",
+  "record_id": "5HMWa7wrrV"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/零售收银时直接打印小票，无法显示部分优惠金额分摊数据",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

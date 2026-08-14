@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231027-040",
+ "record_id": "HH8N7J6bYX",
+ "title": "第三方接口传过来的线上支付的单子（收款单），修改后保存提示 ：要录入单据号，检查了单据号管理没有问题",
+ "problem": "第三方接口传过来的线上支付的单子（收款单），修改后保存提示 ：要录入单据号，检查了单据号管理没有问题",
+ "cause": "哗啦啦传单据的时候传过来的单据号过长，超出模板设置的录入长度，所以界面单据号为空不显示，修改保存会重新校验以界面为准，就出现了提示信息",
+ "solution": "修改模板的录入长度即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "收款单、单据号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-10-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HH8N7J6bYX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

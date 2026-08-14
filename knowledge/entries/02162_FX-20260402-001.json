@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260402-001",
+ "record_id": "tAaa1libyh",
+ "title": "输入商品后弹出参保人30天内该药购药记录（没有开通武汉医保门诊统筹药店前\n置审核接口服务，只能统计本企业）",
+ "problem": "输入商品后弹出参保人30天内该药购药记录（没有开通武汉医保门诊统筹药店前\n置审核接口服务，只能统计本企业）",
+ "cause": "需求",
+ "solution": "见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "购药记录"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-04-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tAaa1libyh"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

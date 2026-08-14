@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221111-034",
+ "record_id": "wkgx6Mxk0H",
+ "title": "U8登录提示“strMsg:download 192.168.123.249:4522\\Smartclient\\UnableInterceptFilesSync.exe'D:\\U8SOFT\\SmartClient\\UnableInterceptFolesSync.exe'error:管道尚未连接“",
+ "problem": "U8登录提示“strMsg:download 192.168.123.249:4522\\Smartclient\\UnableInterceptFilesSync.exe'D:\\U8SOFT\\SmartClient\\UnableInterceptFolesSync.exe'error:管道尚未连接“",
+ "cause": "u8smartclient和u8smartclientmonitor服务丢失",
+ "solution": "1.客户端cmd-输入括号内字段\n（SC CREATE U8SmartClient binPath= \"\\\"D:\\U8SOFT\\U8SmartClient.exe\\\"\" start= auto \n SC DESCRIPTION U8SmartClient \"智能安装服务\"\n SC failure U8SmartClient reset= 60 actions= restart/180000\n\n SC CREATE U8SmartClientMonitor binPath= \"\\\"D:\\U8SOFT\\U8SmartClientMonitor.exe\\\"\" start= auto \n SC DESCRIPTION U8SmartClientMonitor \"智能安装监控服务\"\n SC failure U8SmartClientMonitor reset= 60 actions= restart/180000”），回车\n2.计算机服务-找到u8smartclient和u8smartclientmonitor服务，启动即可",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "管道未连接"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wkgx6Mxk0H"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

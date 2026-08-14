@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231114-061",
+ "record_id": "HiLJcLX1kN",
+ "title": "DEE接口执行失败，日志提示有空值，但是实际查看单据发现有值",
+ "problem": "DEE接口执行失败，日志提示有空值，但是实际查看单据发现有值",
+ "cause": "数据为从Excel复制时复制了空格或是输入习惯，输完后习惯性的回车导致了接口传输失败",
+ "solution": "可以通过自定义函数，先新建一个控件通过计算公式利用去除空格函数，获取最后的值，同时通过校验规则在发起的时候检验，从而降低数据传输错误的问题，同时该方法同时可以处理必填项输入空格后提交的问题，项目根据实际情况进行设置",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "空值误判"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwN7r6KJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwN7r6KJbkz3BRL",
+  "doc_path": "/致远OA/数据错误问题/DEE接口执行失败，日志提示有空值，但是实际查看单据发现有值",
+  "record_id": "HiLJcLX1kN"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/数据错误问题/DEE接口执行失败，日志提示有空值，但是实际查看单据发现有值",
+ "category": [
+  "致远OA",
+  "数据错误问题"
+ ]
+}

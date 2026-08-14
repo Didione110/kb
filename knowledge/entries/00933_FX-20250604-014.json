@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250604-014",
+ "record_id": "NvRLupc57J",
+ "title": "玖宫格传入了监管码但是时空未匹配成功",
+ "problem": "玖宫格传入了监管码但是时空未匹配成功",
+ "cause": "玖宫格监管码是通过明细字段传入",
+ "solution": "将玖宫格监管码全部取出后按逗号分割形成单独的表结构，后续再与商品明细数据集进行匹配刷新对应的数据行信息",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "监管码匹配"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7p9Eyz8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7p9Eyz8gN7R35y",
+  "doc_path": "/自研/数据错误问题/玖宫格传入了监管码但是时空未匹配成功",
+  "record_id": "NvRLupc57J"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/玖宫格传入了监管码但是时空未匹配成功",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

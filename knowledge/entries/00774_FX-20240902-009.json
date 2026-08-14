@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240902-009",
+ "record_id": "JoTFHtqnuu",
+ "title": "从存储过程中取数，查到的是‘01’‘02’，到程序中取到的是 1，2",
+ "problem": "从存储过程中取数，查到的是‘01’‘02’，到程序中取到的是 1，2",
+ "cause": "检查存储过程，只执行了阶段的sql语句，得到的结果是‘01’‘02’，\n实际上存储过程取数中包含了 union all, 其他段落的字段类型是 数字\n整个存储过程执行结果是 1，2",
+ "solution": "查找存储过程结果的内容，要整个过程执行，不要执行单个的段落。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "类型转换"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-09-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE14gRaJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE14gRaJlemrZQ3",
+  "doc_path": "/自研/数据错误问题/从存储过程中取数，查到的是'01''02'，到程序中取到的是 1，2",
+  "record_id": "JoTFHtqnuu"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/从存储过程中取数，查到的是'01''02'，到程序中取到的是 1，2",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240129-059",
+ "record_id": "XzhEmhXYnR",
+ "title": "分项参考成本取还原成本设置",
+ "problem": "分项参考成本取还原成本设置",
+ "cause": "1，启用分项之后无法做成本还原，所以需先做完要取数的成本还原后才可启用分项\n2，分项参考成本取数只能一期一期的取，例如24年1月启用分项，则取数期间只能设置23年12月",
+ "solution": "1，启用分项之后无法做成本还原，所以需先做完要取数的成本还原后才可启用分项\n2，分项参考成本取数只能一期一期的取，例如24年1月启用分项，则取数期间只能设置23年12月",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "还原成本"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XzhEmhXYnR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

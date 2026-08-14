@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251031-051",
+ "record_id": "Zy0YI6jthd",
+ "title": "客户现金流量凭证没有用系统的选现金流量项目功能，是在银行科目上挂的现金流量辅助核算选现金流量项目（银行科目挂了现金流量项目辅助和业务单元辅助核算，没挂客户供应商辅助）。合并报表内部现金流量抵消表的公式要怎么设置，才能取到现金流量关于内部公司的抵消数据？",
+ "problem": "客户现金流量凭证没有用系统的选现金流量项目功能，是在银行科目上挂的现金流量辅助核算选现金流量项目（银行科目挂了现金流量项目辅助和业务单元辅助核算，没挂客户供应商辅助）。合并报表内部现金流量抵消表的公式要怎么设置，才能取到现金流量关于内部公司的抵消数据？",
+ "cause": "需要修改取值公式",
+ "solution": "解决方案：参考内部往来表的取数函数设置，使用2个辅助核算（现金流量和业务单元）。如果业务单元编码和客商编码不一致，修改本表的动态关键字为对方单位编码。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "现金流量抵消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Zy0YI6jthd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

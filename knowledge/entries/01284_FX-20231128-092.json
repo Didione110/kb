@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231128-092",
+ "record_id": "Xppsev2fJc",
+ "title": "幸福时空自动开票在无人值守时产生大量发票失败提示",
+ "problem": "幸福时空自动开票在无人值守时产生大量发票失败提示",
+ "cause": "WIN系统休眠导致诺诺接口程序异常，自动开票还在继续工作但开出来的发票均是失败的",
+ "solution": "自动开票无人值守情况下，建议将休眠时间设置为从不休眠。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动开票失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmOjeNJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmOjeNJGlDd3mE",
+  "doc_path": "/自研/应用操作/幸福时空自动开票在无人值守时产生大量发票失败提示",
+  "record_id": "Xppsev2fJc"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/幸福时空自动开票在无人值守时产生大量发票失败提示",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

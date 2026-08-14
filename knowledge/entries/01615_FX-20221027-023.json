@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221027-023",
+ "record_id": "g80lXvOMQO",
+ "title": "WMS新版本SQL数据库进行更新，在已存在的表中添加了新字段，需要匹配新字段，然后在客户现有数据库上添加对应字段进行更新。",
+ "problem": "WMS新版本SQL数据库进行更新，在已存在的表中添加了新字段，需要匹配新字段，然后在客户现有数据库上添加对应字段进行更新。",
+ "cause": "通过数据库表进行单个匹配，然后编写语句，效率太低。占用时间！",
+ "solution": "通过sql语句查询数据库字段进行批量添加",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "PolarDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段更新"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2022-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DXAPwJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DXAPwJKMEvZBY",
+  "doc_path": "/其他/应用操作/WMS新版本SQL数据库进行更新，在已存在的表中添加了新字段，需要匹配新字段，然后在客户现有数据库上添加对应字段进行更新。",
+  "record_id": "g80lXvOMQO"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/WMS新版本SQL数据库进行更新，在已存在的表中添加了新字段，需要匹配新字段，然后在客户现有数据库上添加对应字段进行更新。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

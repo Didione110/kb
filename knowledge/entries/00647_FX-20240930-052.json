@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240930-052",
+ "record_id": "GHKFod0qdo",
+ "title": "第一次上线后，如何进行将库存绑定到实际货位上。",
+ "problem": "第一次上线后，如何进行将库存绑定到实际货位上。",
+ "cause": "初次上线",
+ "solution": "首先，导库存需要导入到一个零整合一的虚拟货位上。然后用手持上的移位功能，对实际架位的药品进行批号，数量等核对，然后找到该药品，从虚拟货位移入到实际货位，移入的时候，如果没条码，则需要进行条码维护。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "库存绑定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj9qwv8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj9qwv8AgozOKL",
+  "doc_path": "/时空/应用操作/第一次上线后，如何进行将库存绑定到实际货位上。",
+  "record_id": "GHKFod0qdo"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/第一次上线后，如何进行将库存绑定到实际货位上。",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250224-024",
+ "record_id": "wjBB6WnHjb",
+ "title": "订单需要按照指定金额自动选择物流发货",
+ "problem": "订单需要按照指定金额自动选择物流发货",
+ "cause": "快递供应商每单费用都不一样，服务和破损率也不一样。根据订单金额来指定发货物流，有助于减低物流成本，减少客诉。",
+ "solution": "新增物流匹配策略，匹配对应店铺或者指定品种，设置订单应收金额范围，比如订单金额在20以下发费用便宜的快递，订单金额在100元以上发京东或者顺丰。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动发货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wjBB6WnHjb"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

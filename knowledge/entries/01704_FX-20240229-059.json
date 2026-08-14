@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240229-059",
+ "record_id": "iBeWeyCSAX",
+ "title": "在SQLSERVER数据库的时空体系产品中，客户在上基础资料的时候，可能会存在各种不确定因素，会把换行符录入至系统中，造成在数据库查询的时候，字段值的尾巴存在空格，在导出excel数据的时候，造成字段和数据错位，而且在sql语句中用rtrim和ltrim是无法去掉对应的空格",
+ "problem": "在SQLSERVER数据库的时空体系产品中，客户在上基础资料的时候，可能会存在各种不确定因素，会把换行符录入至系统中，造成在数据库查询的时候，字段值的尾巴存在空格，在导出excel数据的时候，造成字段和数据错位，而且在sql语句中用rtrim和ltrim是无法去掉对应的空格",
+ "cause": "原因:中间存在回车符或者换行符，所以要先将此符号替换掉；\nhttps://www.cnblogs.com/cuozhixu/p/7285652.html\n单独处理字段数据的办法在此链接内，然后发散思维，目前这种问题只有在遇到的时候才知道，如何在事前就避免呢？ 为此我写了一份T-sql，遍历数据库进行查找，然后再来批量处理，代码如下",
+ "solution": "IF OBJECT_ID('tempdb..#tmp_table') IS NOT NULL\n BEGIN\n DROP TABLE #tmp_table;\n END;\n\n SELECT ROW_NUMBER() OVER ( ORDER BY a.TBNAME ) AS tms , tbname , tbdesc --, b.RowCounts\n INTO #tmp_table\n FROM tblist a\n WHERE ( a.moduleid <> '007nfmq38ycx30dv' )\n AND a.attr = 'Y'\n AND objecttype = 'T'\n AND a.tbname IN ( SELECT tbname\n FROM tbstru\n WHERE fdname = 'EntId' )\n AND a.TBNAME IN ( 'Goodsdoc' , 'businessdoc' )\n\n DECLARE @count INT;\n SET @count = 1;\n\n DECLARE @tmscount INT\n SET @tmscount = ( ( SELECT COUNT(1)\n FROM tblist a\n WHERE ( a.moduleid <> '007nfmq38ycx30dv'\n AND a.moduleid IN ( SELECT moduleid\n FROM moduledoc\n WHERE developerid = 'E061W25SK3M' )\n )\n AND a.attr = 'Y'\n AND objecttype = 'T'\n AND a.tbname IN ( SELECT tbname\n FROM tbstru\n WHERE fdname = 'EntId' ) \n ) )\n DECLARE @sql_text NVARCHAR(MAX);\n-遍历流水表\n WHILE @count <= @tmscount\n BEGIN\n DECLARE @mxcount INT;\n SET @mxcount = 1;\n --取出当前循环的表里字段的数量\n DECLARE @mxtmscount INT\n SET @mxtmscount = ( SELECT COUNT(1)\n FROM INFORMATION_SCHEMA.COLUMNS\n WHERE TABLE_NAME = ( SELECT TOP 1 aa.tbname FROM #tmp_table aa WHERE aa.tms = @count ) )\n --遍历表内字段中存在问题的字段\n WHILE @mxcount <= @mxtmscount\n BEGIN\n DECLARE @output_tms INT\n \n SET @sql_text = N'SELECT @output_tms = count(1) from ' + ( SELECT TOP 1 aa.tbname FROM #tmp_table aa WHERE aa.tms = @count )\n + ' where ' + ( SELECT COLUMN_NAME\n FROM INFORMATION_SCHEMA.COLUMNS\n WHERE TABLE_NAME = ( SELECT TOP 1 aa.tbname FROM #tmp_table aa WHERE aa.tms = @count )\n AND ORDINAL_POSITION = @mxcount ) + ' <> LTRIM(RTRIM(REPLACE(REPLACE(REPLACE('\n + ( SELECT COLUMN_NAME\n FROM INFORMATION_SCHEMA.COLUMNS\n WHERE TABLE_NAME = ( SELECT TOP 1 aa.tbname FROM #tmp_table aa WHERE aa.tms = @count )\n AND ORDINAL_POSITION = @mxcount ) + ',char(13),''''),char(10),''''),char(09),''''))) '\n \n EXEC sp_executesql @sql_text , N'@output_tms NVARCHAR(1000) OUTPUT' , @output_tms OUTPUT\n \n IF @output_tms > 0\n BEGIN\n \n PRINT @output_tms\n \n PRINT @sql_text\n END \n \n SET @mxcount = @mxcount + 1;\n END \n \n SET @count = @count + 1;\n END;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "换行符空格"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iBeWeyCSAX"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

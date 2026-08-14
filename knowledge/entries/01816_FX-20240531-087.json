@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240531-087",
+ "record_id": "lC80DYLgr3",
+ "title": "诺诺接口点开提示无法启动应用程序，请与应用程序供应商联系",
+ "problem": "诺诺接口点开提示无法启动应用程序，请与应用程序供应商联系",
+ "cause": "系统程序打开安装错误",
+ "solution": "删除C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Apps目录下所有文件，删除干净再点击诺诺接口程序安装",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "无法启动"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeQrNAJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeQrNAJ2LD0oRE",
+  "doc_path": "/自研/软件无法使用/诺诺接口点开提示无法启动应用程序，请与应用程序供应商联系",
+  "record_id": "lC80DYLgr3"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/诺诺接口点开提示无法启动应用程序，请与应用程序供应商联系",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

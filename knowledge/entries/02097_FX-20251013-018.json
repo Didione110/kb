@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251013-018",
+ "record_id": "rUMPiQy6qA",
+ "title": "YS集成U9C，多账套凭证集成，集成方案如何设计",
+ "problem": "YS集成U9C，多账套凭证集成，集成方案如何设计",
+ "cause": "新增的账簿，可复制第一个主账簿的集成方案，复制后在来源数据新增一个query\n进入新增界面后，【名称】【编码】可以根据自己需要编写。\n\n【鉴权方式】选择【开放平台鉴权】\n\n【操作方式】选择【REST接口】\n\n【接口地址】【数据节点设置】要跟之前的query保持一致。\n\n【请求参数】也要从预制的请求参数中复制过来，但是需要修改“accbookCode”这个参数，改成对应的YS的账簿编码",
+ "solution": "新增的账簿，可复制第一个主账簿的集成方案，复制后在来源数据新增一个query\n进入新增界面后，【名称】【编码】可以根据自己需要编写。\n\n【鉴权方式】选择【开放平台鉴权】\n\n【操作方式】选择【REST接口】\n\n【接口地址】【数据节点设置】要跟之前的query保持一致。\n\n【请求参数】也要从预制的请求参数中复制过来，但是需要修改“accbookCode”这个参数，改成对应的YS的账簿编码\nYonsuite-连接集成服务-多账簿传凭证处理案https://success.yonyou.com/surl/qRmC83zt",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "多账套凭证集成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "连接集成服务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-10-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rUMPiQy6qA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

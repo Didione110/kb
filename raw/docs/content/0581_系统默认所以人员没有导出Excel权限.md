@@ -1,0 +1,39 @@
+<!-- META: {"nodeId": "EpGBa2Lm8aMGRNgNcw7pr1dn8gN7R35y", "title": "系统默认所以人员没有导出Excel权限", "docUrl": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pr1dn8gN7R35y?utm_scene=team_space", "path": "/时空/应用操作/系统默认所以人员没有导出Excel权限", "fetchTime": "2026-08-14 00:02:26"} -->
+
+## 问题现象
+
+系统默认所以人员没有导出Excel权限
+
+## 问题原因
+
+对于不需要管控任何人员导出权限的公司，每次新增人员都需要分配一次导出权限
+
+## 解决方案
+
+插件管理-数据导出里面脚本代码去掉if和else条件即可
+if (result == 1)\{
+ FormUtil.exportXls(dataset, '智友导出文件');
+\}
+else
+
+---
+
+## 附加信息
+
+**对应版本**: 时空智友
+
+**对应模块**: 供应链管理系统
+
+**问题类型**: 应用操作
+
+**解决方案类型**: 代码修改
+
+**技术栈**: JavaScript
+
+**技术关键词**: 打印, 权限
+
+**问题关键字**: 导出权限
+
+**单据编号**: FX-20240304-011
+
+**提交人**: 杨创  \|  **提交部门**: 实施2部  \|  **提交日期**: 2024-03-04

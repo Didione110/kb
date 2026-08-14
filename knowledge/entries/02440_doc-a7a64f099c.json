@@ -1,0 +1,30 @@
+{
+ "id": "doc-a7a64f099c",
+ "record_id": "",
+ "title": "明细表通过公式定义器不生效",
+ "problem": "明细表通过公式定义器不生效",
+ "cause": "低代码语法不一样，明细表计算是list算法，产品未考虑，需要单独增加JS",
+ "solution": "增加JS片段，并对计算控件进行动态监控，然后循环计算后进行赋值 [xform:editShow](xform:editShow)\n\n\\</xform:editShow\\>",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNy0Nxvz8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNy0Nxvz8xkXOEP2",
+  "doc_path": "/蓝凌OA/应用操作/明细表通过公式定义器不生效"
+ },
+ "doc_path": "/蓝凌OA/应用操作/明细表通过公式定义器不生效",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

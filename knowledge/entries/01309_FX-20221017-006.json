@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221017-006",
+ "record_id": "YDL7IL1ccL",
+ "title": "NCC 2005 因为在【单据类型管理】节点找到对应的交易类型设置中，前台去掉了【是否轻量化单据】\n这个选项，需要修改后台数据实现",
+ "problem": "NCC 2005 因为在【单据类型管理】节点找到对应的交易类型设置中，前台去掉了【是否轻量化单据】\n这个选项，需要修改后台数据实现",
+ "cause": "NCC 2005 因为在【单据类型管理】节点找到对应的交易类型设置中，前台去掉了【是否轻量化单据】\n这个选项，需要修改后台数据实现",
+ "solution": "1.执行如下脚本\n--备份表\ncreate table bd_billtype_copy as select * from bd_billtype\n--更改 islight 为 N，表示只在重量端接收消息\nupdate bd_billtype set islightbill = 'N' where pk_billtypecode='单据类型编码'\n--更改 islight 为 Y，表示只在轻量端端接收消息\nupdate bd_billtype set islightbill = 'Y' where pk_billtypecode='单据类型编码'\n2.重启中间件",
+ "solution_types": [
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "轻量化单据"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2022-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YDL7IL1ccL"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

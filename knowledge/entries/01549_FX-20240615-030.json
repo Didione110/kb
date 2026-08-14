@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240615-030",
+ "record_id": "edXeBZbRna",
+ "title": "B2C药店需要自动零售日清",
+ "problem": "B2C药店需要自动零售日清",
+ "cause": "使用自动记账模拟日清记账过程实现",
+ "solution": "方案参照附件",
+ "solution_types": [],
+ "tech_stack": [
+  "OceanBase"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日清"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-06-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "edXeBZbRna"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

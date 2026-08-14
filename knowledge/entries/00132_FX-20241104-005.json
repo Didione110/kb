@@ -1,0 +1,47 @@
+{
+ "id": "FX-20241104-005",
+ "record_id": "36o01EGJeW",
+ "title": "erp无法提取中间表订单信息",
+ "problem": "erp无法提取中间表订单信息",
+ "cause": "接口抓取订单因买家地址/姓名带有表情导致乱码",
+ "solution": "使用正则过滤掉非数字,中,英文的符号\\[^\\\\u4e00-\\\\u9fa5\\\\dA-Za-z\\]",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "Python"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "ERP、中间表、订单"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3mX2pV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3mX2pV47Z3je9",
+  "doc_path": "/自研/数据错误问题/erp无法提取中间表订单信息(1)",
+  "record_id": "36o01EGJeW"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/erp无法提取中间表订单信息(1)",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

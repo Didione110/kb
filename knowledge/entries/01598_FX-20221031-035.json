@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221031-035",
+ "record_id": "fkPB6uUuHV",
+ "title": "出纳模块现金日记帐节点，点击制单弹出制单界面，切换界面出去复制文字后回来制单界面消失，界面卡住无法点击，alt+tab也无法成功切回",
+ "problem": "出纳模块现金日记帐节点，点击制单弹出制单界面，切换界面出去复制文字后回来制单界面消失，界面卡住无法点击，alt+tab也无法成功切回",
+ "cause": "后台制单界面并未关闭但因切换界面原因不显示",
+ "solution": "按alt+a可重新弹出制单界面",
+ "solution_types": [],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "制单界面消失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fkPB6uUuHV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-053",
+ "record_id": "ycBTkpCx1R",
+ "title": "时空智友数字以千位符格式显示",
+ "problem": "时空智友数字以千位符格式显示",
+ "cause": "无",
+ "solution": "字段表现格式中填 NF:#,###.00;",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "千位符"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施7部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ycBTkpCx1R"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

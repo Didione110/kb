@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230705-009",
+ "record_id": "XTClEKB2pT",
+ "title": "销售出库退回不了，提示超过原单数量，而实际并没有超",
+ "problem": "销售出库退回不了，提示超过原单数量，而实际并没有超",
+ "cause": "销售退回通知单保存后，回写出库单已退回数量，如果进行单据调整几次，回写数量就会翻几倍，导致数据错乱",
+ "solution": "单据调整时，将调整单的数量记录下来，并保存前回写这个单子已退数量。\nfunction before_save() {\nvar sqlList = [];\nsqlList[sqlList.length] = \"update saleoutdt set k_returnnum=k_returnNum - returnNum where billno=\" + rebillno +\"\";\nDBUtil.batchUpdate(sqlList);\n}",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "出库退回"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2023-07-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XTClEKB2pT"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

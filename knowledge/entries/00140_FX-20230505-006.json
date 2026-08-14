@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230505-006",
+ "record_id": "3NuMHsE8R4",
+ "title": "薪资导出提示：在增加工资项目的新增项目时出现错误：路径/文件访问错误",
+ "problem": "薪资导出提示：在增加工资项目的新增项目时出现错误：路径/文件访问错误",
+ "cause": "文件权限受限",
+ "solution": "调整\\\\\\U8SOFT\\\\\\\\WA\\\\\\\\warep\\\\\\\\zh-cn\\\\\\\\路径下文件权限，若不生效则调整U8SOFT整个文件夹权限即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "路径错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3NuMHsE8R4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

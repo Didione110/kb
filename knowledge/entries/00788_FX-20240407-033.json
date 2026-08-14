@@ -1,0 +1,48 @@
+{
+ "id": "FX-20240407-033",
+ "record_id": "K6UQIMpzfE",
+ "title": "之前测试过线下处方流程，现医保推进线上处方流转的测试工作",
+ "problem": "之前测试过线下处方流程，现医保推进线上处方流转的测试工作",
+ "cause": "线下处方流程：顾客到店后，扫码顾客的电子凭证，获取顾客处方信息，进行药师审方和销售结算；\n线上处方流程：顾客在app上下单后，订单信息推送到门店，门店提取订单信息进行药师审方，顾客在app上付款之后，药店线下对订单进行配送或自提确认操作。",
+ "solution": "智慧医保支持这2种处方流转方式，ERP配合新增订单配送或自提的流程。",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "线上处方"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1wbLzJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1wbLzJlemrZQ3",
+  "doc_path": "/自研/应用操作/之前测试过线下处方流程，现医保推进线上处方流转的测试工作",
+  "record_id": "K6UQIMpzfE"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/之前测试过线下处方流程，现医保推进线上处方流转的测试工作",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

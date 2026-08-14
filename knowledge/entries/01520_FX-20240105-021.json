@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240105-021",
+ "record_id": "di44KWvHmg",
+ "title": "时空上传图片附件未对大小进行限制，时间长了会导致服务器的硬盘内存不足",
+ "problem": "时空上传图片附件未对大小进行限制，时间长了会导致服务器的硬盘内存不足",
+ "cause": "时空上传图片附件未对大小进行限制，时间长了会导致服务器的硬盘内存不足",
+ "solution": "修改Tomcat\\conf\\server.xml配置文件中的maxPostSize属性，默认为0则不限制上传附件大小，可根据客户要求进行合理的限制，数值大小以byte为单位",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "图片大小限制"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "di44KWvHmg"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

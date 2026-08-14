@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250429-045",
+ "record_id": "s1ivnjsD5W",
+ "title": "PC端首页的仪表盘字段的取值规则和总账发生额及余额表对应不上",
+ "problem": "PC端首页的仪表盘字段的取值规则和总账发生额及余额表对应不上",
+ "cause": "PC端首页的仪表盘字段的取值规则和总账发生额及余额表对应不上",
+ "solution": "其中\n1、银行账号余额等于现金银行模块的【银行日记账】余额，如果无现金银行模块则金额为0\n2、损益简表等于发生额及余额表损益科目金额\n3、存货简表等于会计科目属性是存货（0102）的数据",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "取值不一致"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "s1ivnjsD5W"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

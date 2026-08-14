@@ -1,0 +1,30 @@
+{
+ "id": "doc-7401dbf95d",
+ "record_id": "",
+ "title": "产品自带应用待办已办待发已发不展示低代码平台流程",
+ "problem": "产品自带应用待办已办待发已发不展示低代码平台流程",
+ "cause": "产品自带的‘应用’里面的待办、已办、待发、已发不展示低代码平台里面的流程，需要关闭。",
+ "solution": "后台管理-门户引擎-公司门户-编辑，去掉应用切换勾选项即可（具体见图）",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOApX2A8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOApX2A8Zd1wyK0",
+  "doc_path": "/蓝凌OA/应用操作/产品自带应用待办已办待发已发不展示低代码平台流程"
+ },
+ "doc_path": "/蓝凌OA/应用操作/产品自带应用待办已办待发已发不展示低代码平台流程",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

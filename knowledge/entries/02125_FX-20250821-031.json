@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250821-031",
+ "record_id": "sF0XNKAa7V",
+ "title": "用户想按不同角色显示不同的销货单模板",
+ "problem": "用户想按不同角色显示不同的销货单模板",
+ "cause": "功能需求",
+ "solution": "与厂家沟通确认19.0及以上版本有此功能，低版本没有；在系统设置-公共-选项设置里勾上单据多模板的勾；然后到单据多模板设置中，复制预置模板，调整成相要样子，然后发布（发布分2种，一种是发布到表头，在表头下拉可以选择不同的模板录入，另一种是发布为菜单，即可多一个对应单据名称的节点出来）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "角色模板"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sF0XNKAa7V"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

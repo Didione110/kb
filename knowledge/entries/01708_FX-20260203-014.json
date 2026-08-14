@@ -1,0 +1,47 @@
+{
+ "id": "FX-20260203-014",
+ "record_id": "iLtfJ8cQHh",
+ "title": "门店销售数据3505一直无法上传到省医保平台",
+ "problem": "门店销售数据3505一直无法上传到省医保平台",
+ "cause": "由于医保中途几次变更改革，其中有一次带入了监管码上传，后续省医保又变更成了2102进行上传监管码，但是中途有的客户已经部署了省医保取数存储过程的，3505在触发上传时候同时会去调用取监管码的存储过程，过程中后续把任务给屏蔽或者删除导致取数报错了，从而影响了3505也无法上传",
+ "solution": "将监管码取数存储过程调试到不报错，这个任务可以取不到数据但是不能报错",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "数据上传失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP39Za4Jakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP39Za4Jakx1Z5N",
+  "doc_path": "/自研/安装部署问题/门店销售数据3505一直无法上传到省医保平台",
+  "record_id": "iLtfJ8cQHh"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/门店销售数据3505一直无法上传到省医保平台",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

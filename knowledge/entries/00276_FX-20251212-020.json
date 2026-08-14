@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251212-020",
+ "record_id": "6RY6OBG4xb",
+ "title": "18.0新安客户端，一切使用正常，仅点开余额表查询卡死",
+ "problem": "18.0新安客户端，一切使用正常，仅点开余额表查询卡死",
+ "cause": "环境问题",
+ "solution": "因为客户端的 U8SOFT\\\\Resources\\\\enums\\\\GL 文件夹为空，缺少 enum.U8.GL.xml 文件。将服务器上该文件（路径：U8SOFT\\\\Resources\\\\enums\\\\GL\\\\enum.U8.GL.xml）复制到问题客户端对应目录下，恢复正常",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "余额表卡死"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-12-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb5GOQVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb5GOQVzlwrZgb",
+  "doc_path": "/用友/环境问题/18.0新安客户端，一切使用正常，仅点开余额表查询卡死",
+  "record_id": "6RY6OBG4xb"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/18.0新安客户端，一切使用正常，仅点开余额表查询卡死",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

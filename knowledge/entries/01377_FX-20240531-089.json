@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240531-089",
+ "record_id": "ZoSW7kNBbA",
+ "title": "系统移库记账单输入品种后出现黑屏卡机，导致无法输入",
+ "problem": "系统移库记账单输入品种后出现黑屏卡机，导致无法输入",
+ "cause": "系统存储过程检索后sphwph表中的数据量太大，导致查询卡顿",
+ "solution": "修改移库记账存储过程LJT\\_WMS\\_SHDYK解决此问题",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存"
+ ],
+ "keywords": [
+  "移库记账单黑屏"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3970zJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3970zJakx1Z5N",
+  "doc_path": "/其他/效率问题/系统移库记账单输入品种后出现黑屏卡机，导致无法输入",
+  "record_id": "ZoSW7kNBbA"
+ },
+ "status": "active",
+ "doc_path": "/其他/效率问题/系统移库记账单输入品种后出现黑屏卡机，导致无法输入",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

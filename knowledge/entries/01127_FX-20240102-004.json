@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240102-004",
+ "record_id": "T8qJ1XCXSO",
+ "title": "PDA收货页面不显示品种",
+ "problem": "PDA收货页面不显示品种",
+ "cause": "商品资料未维护仓储模块",
+ "solution": "维护仓储包装单位，包装数量等信息",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "品种不显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-01-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "T8qJ1XCXSO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

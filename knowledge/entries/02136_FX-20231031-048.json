@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231031-048",
+ "record_id": "sgVxGyO8zE",
+ "title": "已删除期初数据，取消会计科目的时候提示：数据被引用，无法取消",
+ "problem": "已删除期初数据，取消会计科目的时候提示：数据被引用，无法取消",
+ "cause": "数据被后台引用",
+ "solution": "首先在公司的期初余额选一行按Ctrl+Alt+A,跳出弹框点击确定，确定完成后，在结账节点点击重建余额表，选择期间，账簿，点击确定，之后在取消分配科目",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据被引用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sgVxGyO8zE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

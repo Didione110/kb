@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240802-007",
+ "record_id": "vHEjCRNnBo",
+ "title": "客户想报表上的0也显示而不是显示空",
+ "problem": "客户想报表上的0也显示而不是显示空",
+ "cause": "可能是由于报税系统每一格都有写所以想保持一致吧",
+ "solution": "在UFO报表中，如果希望值为0的数据显示出来，而不是显示为空白，可以按照以下步骤进行设置：\n1. 打开UFO报表中的对应报表。\n2. 点击菜单栏中的“工具” - “选项”。\n3. 在【公式返回结果设置】中选择“公式返回零时显示结果”。\n4. 报表重新计算后，金额为0的数据状态将显示为0而不是空。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "显示零"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vHEjCRNnBo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250312-016",
+ "record_id": "qIqtF27mDZ",
+ "title": "打印面单报错模板读取失败",
+ "problem": "打印面单报错模板读取失败",
+ "cause": "一般原因是平台电子面单模板升级，老模板失效",
+ "solution": "需要删除老模板重新创建新模板后，在商家物流中修改匹配新模板。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "模板读取失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-03-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qIqtF27mDZ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

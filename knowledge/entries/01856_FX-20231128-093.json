@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231128-093",
+ "record_id": "mIkfDICuW6",
+ "title": "提示注册信息异常，重启Tomcat又好了",
+ "problem": "提示注册信息异常，重启Tomcat又好了",
+ "cause": "测试环境与正式环境端口一致，导致正式环境注册异常",
+ "solution": "1.Tomcat集群模式,检查主Tomcat系统管理区-服务器状态要为本地，其他的均为路由模式\n2.其他测试Tomcat 不能与正式Tomcat 在同一个服务器\n3.在Tomcat - artery.properties目录下 license.port=2004 端口不能与正式环境相同，",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "注册异常"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mIkfDICuW6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

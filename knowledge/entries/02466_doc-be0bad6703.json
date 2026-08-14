@@ -1,0 +1,30 @@
+{
+ "id": "doc-be0bad6703",
+ "record_id": "",
+ "title": "打开公文直接显示正文审批栏在下方不方便流程处理",
+ "problem": "打开公文直接显示正文审批栏在下方不方便流程处理",
+ "cause": "公文布局未调整",
+ "solution": "在后台管理-应用管理-应用配置-公文管理-默认值设置中进行调整",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3OpGl3PVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3OpGl3PVDOnGvpb",
+  "doc_path": "/蓝凌OA/产品功能问题/打开公文直接显示正文审批栏在下方不方便流程处理"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/打开公文直接显示正文审批栏在下方不方便流程处理",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

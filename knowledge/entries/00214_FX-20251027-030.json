@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251027-030",
+ "record_id": "56iXXNNCdY",
+ "title": "54.SPU新增货品是报错编码在回收站中",
+ "problem": "54.SPU新增货品是报错编码在回收站中",
+ "cause": "一般不建议在SPU管理中手工新建货品资料，统一在ERP中走首营流程同步到点三。但是有时又因为业务紧急情况，需要在SPU手工新增货品资料，做临时匹配解决订单转单问题。事后就会把临时新增的货品资料进行删除。因为已经产生过相关数据，点三系统不会将货品数据真实删除，只是转移到回收站。在有新增到货品编码重复的时候就会提示编码在回收站中",
+ "solution": "更换其他编码，保证不重复。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "SPU货品回收站"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjxO0j8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjxO0j8AgozOKL",
+  "doc_path": "/其他/产品功能问题/54.SPU新增货品是报错编码在回收站中",
+  "record_id": "56iXXNNCdY"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/54.SPU新增货品是报错编码在回收站中",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

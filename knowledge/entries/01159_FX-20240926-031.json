@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240926-031",
+ "record_id": "U1AXdttx4p",
+ "title": "不同的账套导出来的余额表等有两种格式，想导出来有抬头标明是什么表格，最后有公司名称还有导出日期的那种格式",
+ "problem": "不同的账套导出来的余额表等有两种格式，想导出来有抬头标明是什么表格，最后有公司名称还有导出日期的那种格式",
+ "cause": "输出设置",
+ "solution": "1.选项设置勾选启用新打印控件\n2.输出时选择【Excel按列表显示格式输出(*.xls)】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "表格标识"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-09-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "U1AXdttx4p"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

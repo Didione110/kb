@@ -1,0 +1,47 @@
+{
+ "id": "FX-20231130-113",
+ "record_id": "Bzo5GX27LV",
+ "title": "郑州时空自带的货位占用释放，对一货位一品种无问题，但是如果零货一货位放多品种，就会算不准占用。",
+ "problem": "郑州时空自带的货位占用释放，对一货位一品种无问题，但是如果零货一货位放多品种，就会算不准占用。",
+ "cause": "郑州时空自带的货位占用释放，对一货位一品种无问题，但是如果零货一货位放多品种，就会算不准占用。",
+ "solution": "新写了一个货位占用计算的存储过程可以参考，放在了WMS实施包中。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "货位占用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwN6nlNJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwN6nlNJbkz3BRL",
+  "doc_path": "/其他/应用操作/郑州时空自带的货位占用释放，对一货位一品种无问题，但是如果零货一货位放多品种，就会算不准占用。",
+  "record_id": "Bzo5GX27LV"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/郑州时空自带的货位占用释放，对一货位一品种无问题，但是如果零货一货位放多品种，就会算不准占用。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

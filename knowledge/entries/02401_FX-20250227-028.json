@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250227-028",
+ "record_id": "zN5Y8z7Hz6",
+ "title": "料品档案的销售分类，是否可以按照料号直接回填，如果料号选的是AC1（库存分类）,销售分类就回填成试剂",
+ "problem": "料品档案的销售分类，是否可以按照料号直接回填，如果料号选的是AC1（库存分类）,销售分类就回填成试剂",
+ "cause": "料品档案的销售分类，是否可以按照料号直接回填，如果料号选的是AC1（库存分类）,销售分类就回填成试剂",
+ "solution": "用料品分类对照关系设置。 料品分类对照关系表生效步骤：\n1、若没有菜单，菜单权限设置出来；\n2、先检查对应组织是否有料品分类对照关系记录，且勾上生效；\n3、检查基础设置（组织）—参数设置——料品档案启用料品分类对照关系进行默认值赋值：这里打勾。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "销售分类回填"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施6部",
+  "date": "2025-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zN5Y8z7Hz6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

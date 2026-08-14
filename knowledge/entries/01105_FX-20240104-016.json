@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240104-016",
+ "record_id": "SZzZ39yC6C",
+ "title": "诺诺接口配置界面上的复核人，开票人,收款人开票后显示无效",
+ "problem": "诺诺接口配置界面上的复核人，开票人,收款人开票后显示无效",
+ "cause": "最新版本诺诺接口对应人员不固定，可以根据不同的单据类型设置对应的人员",
+ "solution": "在对应的视图v\\_nn\\_billdt中添加对应字段显示checker(复核人),clerk(开票人),payee(收款人)进行显示并可以通过不同类型单据显示对应的人员显示",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "复核人无效"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDvKlRW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDvKlRW6zbX04v",
+  "doc_path": "/其他/数据接口问题/诺诺接口配置界面上的复核人，开票人,收款人开票后显示无效",
+  "record_id": "SZzZ39yC6C"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/诺诺接口配置界面上的复核人，开票人,收款人开票后显示无效",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

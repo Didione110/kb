@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250721-016",
+ "record_id": "KpBrA78obd",
+ "title": "电商平台上回传的快递信息，字段存储格式json格式，在时空中无法直观展现结果",
+ "problem": "电商平台上回传的快递信息，字段存储格式json格式，在时空中无法直观展现结果",
+ "cause": "电商平台上回传的快递信息，字段存储格式json格式，在时空中无法直观展现结果，sql server 2016版本一下数据库没有可用函数直接进行转换",
+ "solution": "以药师帮为例，表ysb\\_RefundOrder中字段orderLogists 存储内容为（ \\[\\{\"orderId\": 524236626,\"shipperName\": \"圆通速递\",\"logisticsNo\": \"YT8742501089052\",\"signedDate\": \"2025-03-05 14:34:06\" \\} \\]），\n根据以下代码可转换成列：\nSELECT \n orderId,\n -- 提取 shipperName \n SUBSTRING(\n orderLogists,\n CHARINDEX('\"shipperName\": \"', orderLogists) \\+ LEN('\"shipperName\": \"'),\n CHARINDEX('\"', orderLogists, CHARINDEX('\"shipperName\": \"', orderLogists) \\+ LEN('\"shipperName\": \"')) \n \\- (CHARINDEX('\"shipperName\": \"', orderLogists) \\+ LEN('\"shipperName\": \"'))\n ) AS kdmch,\n```\n-- 提取 logisticsNo\nSUBSTRING(\n orderLogists,\n CHARINDEX('\"logisticsNo\": \"', orderLogists) + LEN('\"logisticsNo\": \"'),\n CHARINDEX('\"', orderLogists, CHARINDEX('\"logisticsNo\": \"', orderLogists) + LEN('\"logisticsNo\": \"')) \n - (CHARINDEX('\"logisticsNo\": \"', orderLogists) + LEN('\"logisticsNo\": \"'))\n) AS kddh,\n\n-- 提取 signedDate\nSUBSTRING(\n orderLogists,\n CHARINDEX('\"signedDate\": \"', orderLogists) + LEN('\"signedDate\": \"'),\n CHARINDEX('\"', orderLogists, CHARINDEX('\"signedDate\": \"', orderLogists) + LEN('\"signedDate\": \"')) \n - (CHARINDEX('\"signedDate\": \"', orderLogists) + LEN('\"signedDate\": \"'))\n) AS kdrq\n\n```\n\nFROM ysb\\_RefundOrder\n-- 可选：添加WHERE子句确保字段包含JSON\nWHERE \n orderLogists LIKE '%shipperName%' \n AND orderLogists LIKE '%logisticsNo%' \n AND orderLogists LIKE '%signedDate%';",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "快递JSON可视化"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2025-07-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwND0kyrW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwND0kyrW6zbX04v",
+  "doc_path": "/时空/实施问题/电商平台上回传的快递信息，字段存储格式json格式，在时空中无法直观展现结果",
+  "record_id": "KpBrA78obd"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/电商平台上回传的快递信息，字段存储格式json格式，在时空中无法直观展现结果",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

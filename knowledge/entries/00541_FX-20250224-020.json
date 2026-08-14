@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250224-020",
+ "record_id": "DNwlkQYMqS",
+ "title": "存货核算生成的出入库调整单当月不生成凭证，能否跨年或跨月再生成凭证？ 若不想生成凭证有什么办法处理么？",
+ "problem": "存货核算生成的出入库调整单当月不生成凭证，能否跨年或跨月再生成凭证？ 若不想生成凭证有什么办法处理么？",
+ "cause": "存货核算生成凭证可以跨月不能跨年，若确实无需制单可在存货核算-生成凭证-选单界面中隐藏相关已记账单据即可。",
+ "solution": "存货核算生成凭证可以跨月不能跨年，若确实无需制单可在存货核算-生成凭证-选单界面中隐藏相关已记账单据即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证生成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DNwlkQYMqS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

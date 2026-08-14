@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221106-015",
+ "record_id": "msIfHuBrWm",
+ "title": "店零售收款账在B门店但是库存扣减的A门店",
+ "problem": "店零售收款账在B门店但是库存扣减的A门店",
+ "cause": "产生原因就是客户没有按正常流程将库存调入B门店而是钻了系统空子，利用了系统的草稿功能，其在A门店将下账信息录入完成后点击保存草稿，再切换身份去B门店直接提取草稿下账；",
+ "solution": "目前是在存盘时做了拦截处理，判断当前明细行是否存在货主与当前机构不一致情况，如果有就拦截并提醒；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "Java"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "账实不符"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "msIfHuBrWm"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

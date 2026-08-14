@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230220-038",
+ "record_id": "eyYnzK4Dgj",
+ "title": "期初结转后总账和辅助帐、多辅助帐对账不平",
+ "problem": "期初结转后总账和辅助帐、多辅助帐对账不平",
+ "cause": "中途启用辅助核算",
+ "solution": "把下级科目这几个科目的余额都删掉，然后对该一级科目点清零。这样的话往来明细和辅助明细的数据都不参与对账了，重新在该科目的往来明细中增行录入数据，再点汇总，然后再把其它的下级科目的期初余额录回来",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "期初对账不平"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eyYnzK4Dgj"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

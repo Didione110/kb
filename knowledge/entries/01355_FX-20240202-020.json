@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240202-020",
+ "record_id": "ZHhjztnDIv",
+ "title": "NCC接口反馈一直编码错误，但是NCC确认编码无误",
+ "problem": "NCC接口反馈一直编码错误，但是NCC确认编码无误",
+ "cause": "原因是维护的编码最后了空格导致，因为整体是一个字符串",
+ "solution": "去掉对码中的空格",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "编码错误"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZHhjztnDIv"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

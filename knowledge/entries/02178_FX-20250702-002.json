@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250702-002",
+ "record_id": "tl9Vl7WzO2",
+ "title": "客户要求器械选择经营范围的时候，选择二类，只出现二类范围里面的小类，选择三类，只出现三类范围里面的小类，",
+ "problem": "客户要求器械选择经营范围的时候，选择二类，只出现二类范围里面的小类，选择三类，只出现三类范围里面的小类，",
+ "cause": "因为同时打开器械小类，经营范围过多，可以选择比较难找，同时还要选择过滤",
+ "solution": "调整经营范围选择，客户资料经营范围选择二类时，选择小类是只出现二类的经营范围，选择三类时，选择小类是只出现三类的经营范围",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "器械分类"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tl9Vl7WzO2"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

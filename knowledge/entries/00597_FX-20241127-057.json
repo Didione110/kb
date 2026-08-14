@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241127-057",
+ "record_id": "EdkLWCjnlk",
+ "title": "处理报表时报错，试图使用未在此报表服务器中注册或此版 Reporing senices 不支持的数据扩展件\"UFRPT\"。",
+ "problem": "处理报表时报错，试图使用未在此报表服务器中注册或此版 Reporing senices 不支持的数据扩展件\"UFRPT\"。",
+ "cause": "报表与portal没同步，导致UFRPT没配置好",
+ "solution": "第一步 ：找到报表安装bin目录\n\n可以通过报表服务--右键属性查看具体地址，一般是D:\\Program Files\\Microsoft SQL Server Reporting Services\\SSRS\\ReportServer\\bin\\PatchConfig（bin整个文件夹先备份）\n\n删除 UFIDA.UBF.SystemManage.ServerInstalledPatch.xml 文件（删除之前先备份）\n\n然后重启报表服务\n\n第二步：打开安装工具\n\n操作流程：先点击卸载报表服务器--再删除报表服务器--再安装报表服务\n\n第三步：打开管理控制台 \n\n升级引擎、升级管理客户端，然后再同步补丁\n\n然后打开web服务器，选择安装的报表\n\n最后重启IIS、U9服务。",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "UFRPT"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EdkLWCjnlk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

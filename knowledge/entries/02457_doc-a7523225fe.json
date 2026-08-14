@@ -1,0 +1,30 @@
+{
+ "id": "doc-a7523225fe",
+ "record_id": "",
+ "title": "子公司合同审批流程公式计算找到机构分管领导错误",
+ "problem": "子公司合同审批流程公式计算找到机构分管领导错误",
+ "cause": "机构和部门的主要区分在于\n1、权限继承:机构下的子机构，权限不继承;机构下的子部门，权限向下传递。\n2、嵌套范围:机构下可包含子机构或部门，部门下不可包含机构\n3、地址本中图标表现不同\n\n因为子机构的权限限制，子公司分管领导节点不会往上级机构取第3级领导",
+ "solution": "调整子公司负责人的账号所属部门，选择机构名称",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNxq9j083pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNxq9j083pmz5aA",
+  "doc_path": "/蓝凌OA/应用操作/子公司合同审批流程公式计算找到机构分管领导错误"
+ },
+ "doc_path": "/蓝凌OA/应用操作/子公司合同审批流程公式计算找到机构分管领导错误",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240429-084",
+ "record_id": "J2eTIuy6Ei",
+ "title": "系统提示Remote request socket error",
+ "problem": "系统提示Remote request socket error",
+ "cause": "一般由于数据比较多，而uclient配置较小导致",
+ "solution": "解决方案： 可以右键U8 cloud图标--应用详情--调大最大内存和永生内存（可以尝试增加一倍），然后保存，清缓存，重新查询",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "Socket错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "J2eTIuy6Ei"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

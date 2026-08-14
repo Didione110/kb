@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260107-002",
+ "record_id": "swskjsfjjZ",
+ "title": "中药品种数量带小数复核的时候报错",
+ "problem": "中药品种数量带小数复核的时候报错",
+ "cause": "中药品种不是扫描品种，但是商品资料电子监管码扫码属性维护的是，然后数量为小数就复核报错了",
+ "solution": "把中药电子监管属性改为否",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "打印",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "小数复核"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2026-01-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "swskjsfjjZ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

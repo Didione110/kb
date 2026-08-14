@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240830-069",
+ "record_id": "6ROdexjksv",
+ "title": "退货参照不到发货单",
+ "problem": "退货参照不到发货单",
+ "cause": "修改过流程导致",
+ "solution": "update b\nset b.bIAcreatebill=0\nfrom dispatchlist a join dispatchlists b\non a.dlid=b.DLID\nwhere a.cDLCode ='20220309007'\n\n该发货单表体是否出库开票标识为1，但销售选项中的开票依据是销售发货单。已通过脚本方式调整处理，再次参照生成退货单已正常。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "退货单据关联"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbeRd7JxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbeRd7JxEKBD6p",
+  "doc_path": "/用友/应用操作/退货参照不到发货单",
+  "record_id": "6ROdexjksv"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/退货参照不到发货单",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

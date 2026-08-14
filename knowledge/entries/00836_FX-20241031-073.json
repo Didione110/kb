@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241031-073",
+ "record_id": "LQQNgmlJlt",
+ "title": "快递面单上自定义区需要显示订单中商品数据，套餐显示子商品数据",
+ "problem": "快递面单上自定义区需要显示订单中商品数据，套餐显示子商品数据",
+ "cause": "使用点三OMS对接ERP方案二的客户都是在点三OMS中打印快递面单进行发货，由于没有WMS系统，人工拣货需要知晓订单中的明细数据。",
+ "solution": "调整系统配置中的打印设置，套餐打印方式修改为打印子商品信息，就能满足。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "商品显示"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNaXYwJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNaXYwJbkz3BRL",
+  "doc_path": "/其他/产品功能问题/快递面单上自定义区需要显示订单中商品数据，套餐显示子商品数据",
+  "record_id": "LQQNgmlJlt"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/快递面单上自定义区需要显示订单中商品数据，套餐显示子商品数据",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

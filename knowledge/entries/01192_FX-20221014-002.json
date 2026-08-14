@@ -1,0 +1,47 @@
+{
+ "id": "FX-20221014-002",
+ "record_id": "VBK3HV3loU",
+ "title": "账套启用了多币种管理，在【基础设置】-【科目】中无法启用外币核算，勾选框为灰色无法启用",
+ "problem": "账套启用了多币种管理，在【基础设置】-【科目】中无法启用外币核算，勾选框为灰色无法启用",
+ "cause": "数据异常，后台语句处理将科目表中是否外币核算值改为true",
+ "solution": "备份账套数据，执行脚本update AA\\_Account set isexchange='1'WHERE CODE ='科目编码'AND accountingyear=需要修改科目年份",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "多币种、科目、外币核算"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2022-10-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb5zALVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb5zALVzlwrZgb",
+  "doc_path": "/其他/产品功能问题/账套启用了多币种管理，在基础设置-科目中无法启用外币核算，勾选框为灰色无法启用",
+  "record_id": "VBK3HV3loU"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/账套启用了多币种管理，在基础设置-科目中无法启用外币核算，勾选框为灰色无法启用",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

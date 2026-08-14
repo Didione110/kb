@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230206-018",
+ "record_id": "vlngh8jcUN",
+ "title": "固定资产计提折旧显示：折旧计提计算出错!java.lang.NullPointerException 或解析公式: 错误!",
+ "problem": "固定资产计提折旧显示：折旧计提计算出错!java.lang.NullPointerException 或解析公式: 错误!",
+ "cause": "偶发性问题",
+ "solution": "需要在节点【入账规则定义】中，重新选择主体账簿，检查公式对照，重提折旧无报错",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "折旧计算错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-02-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vlngh8jcUN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230703-001",
+ "record_id": "pAeScSvBTZ",
+ "title": "生产订单维护保存提示：保存时出错 : Remote Call:: null，只有C1260101这个存货报错，剩下的可以正常保存",
+ "problem": "生产订单维护保存提示：保存时出错 : Remote Call:: null，只有C1260101这个存货报错，剩下的可以正常保存",
+ "cause": "检查物料生产档案、BOM均为发现问题，在“数据管理”节点发现BOM中YY0530101(二氯甲烷): 父项物料[C1260101JBOM版本[1.01存在物料生产档案PK与当前档室不一致",
+ "solution": "修改BOM，重新维护了一遍存在问题的存货，做单测试新BOM没有问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "C1260101报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pAeScSvBTZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

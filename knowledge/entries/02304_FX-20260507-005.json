@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260507-005",
+ "record_id": "wbS4ALMuwI",
+ "title": "凭证生成表单无法生成会计凭证，提示nc.jdbc.framework.exception.OracleException:ORA-00942:表或视图不存在",
+ "problem": "凭证生成表单无法生成会计凭证，提示nc.jdbc.framework.exception.OracleException:ORA-00942:表或视图不存在",
+ "cause": "Oracle数据库。录SPR确认是否有附件截图所示，如有则证明数据库口令过期导致",
+ "solution": "修改密码\n#win+R \n输入 cmd sqlplus / as sysdba \n#修改密码 \nalter user 用户 identified by 密码;",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "表不存在"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wbS4ALMuwI"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

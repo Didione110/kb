@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250121-057",
+ "record_id": "HU65eLLjwS",
+ "title": "医保接口冲正后，本地数据医保数据未删除",
+ "problem": "医保接口冲正后，本地数据医保数据未删除",
+ "cause": "医保接口冲正后，本地数据医保数据未删除",
+ "solution": "冲正成功后增加删除本地数据表",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "冲正未删"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1ZM0LJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1ZM0LJ63zgkYA",
+  "doc_path": "/时空/实施问题/医保接口冲正后，本地数据医保数据未删除",
+  "record_id": "HU65eLLjwS"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/医保接口冲正后，本地数据医保数据未删除",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

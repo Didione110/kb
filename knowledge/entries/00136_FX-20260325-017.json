@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260325-017",
+ "record_id": "3CHYBmCNhy",
+ "title": "跨表取数：A表的这个单元格不管是表头哪个单位计算都需要取到 B报表（表头一定是 固定XX公司计算）的这个单元格的数据需要怎么设置跨表取值公式？<br>如图设置公式 一直提示单位编码报错<br>",
+ "problem": "跨表取数：A表的这个单元格不管是表头哪个单位计算都需要取到 B报表（表头一定是 固定XX公司计算）的这个单元格的数据需要怎么设置跨表取值公式？<br>如图设置公式 一直提示单位编码报错<br>",
+ "cause": "取值公式设置错误导致报错",
+ "solution": "解决方案：zkey()部分删掉，直接输入 要取数单位的编码即可，加一下英文引号",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "跨表取数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "企业绩效服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-03-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3CHYBmCNhy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

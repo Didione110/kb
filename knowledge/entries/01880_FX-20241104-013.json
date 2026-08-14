@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241104-013",
+ "record_id": "mqlpMouC4W",
+ "title": "医保冲正接口异地结算数据冲正不成功",
+ "problem": "医保冲正接口异地结算数据冲正不成功",
+ "cause": "参保地取数问题",
+ "solution": "冲正接口默认传的参保地字段是取的orgdoc中配置的本地分中心，本地结算数据冲正时没有问题，但异地结算数据冲正时需要取对应的参保人所在的参保地",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保冲正"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1AYNXJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1AYNXJ63zgkYA",
+  "doc_path": "/自研/数据接口问题/医保冲正接口异地结算数据冲正不成功",
+  "record_id": "mqlpMouC4W"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/医保冲正接口异地结算数据冲正不成功",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

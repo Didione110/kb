@@ -1,0 +1,46 @@
+{
+ "id": "FX-20251127-042",
+ "record_id": "Jq9S8gwKzj",
+ "title": "如何进行代售业务",
+ "problem": "如何进行代售业务",
+ "cause": "代售业务一般是，借助自己的C端店铺销售其他渠道的货品，由其他渠道进行发货。",
+ "solution": "因为店铺对接了点三，所以订单会下载到点三系统，需要设置自动拆分策略，将代售品种进行拆分并关闭，订单中如果还有其他品种会正常发货。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "代售业务"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-11-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DLOO3JKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DLOO3JKMEvZBY",
+  "doc_path": "/其他/应用操作/如何进行代售业务",
+  "record_id": "Jq9S8gwKzj"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/如何进行代售业务",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

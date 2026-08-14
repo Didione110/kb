@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231104-013",
+ "record_id": "KS8Mzau2K1",
+ "title": "KSOA医保接口，在正向收款时，根据tmp_pos_mast 表 rxChkBizSn 字段是否有值判断是不是走了电子处方流程，有值调用7207药品销售出库明细上传接口\n在退货收款时，根据tmp_pos_mast 表 rxno 字段判断是否有处方，调用7208药品销售出库明细撤销接口",
+ "problem": "KSOA医保接口，在正向收款时，根据tmp_pos_mast 表 rxChkBizSn 字段是否有值判断是不是走了电子处方流程，有值调用7207药品销售出库明细上传接口\n在退货收款时，根据tmp_pos_mast 表 rxno 字段判断是否有处方，调用7208药品销售出库明细撤销接口",
+ "cause": "ksoa医保接口增加7207和7208接口",
+ "solution": "KSOA医保接口，在正向收款时，根据tmp\\_pos\\_mast 表 rxChkBizSn 字段是否有值判断是不是走了电子处方流程，有值调用7207药品销售出库明细上传接口\n在退货收款时，根据tmp\\_pos\\_mast 表 rxno 字段判断是否有处方，调用7208药品销售出库明细撤销接口",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "电子处方"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51Dqaa8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51Dqaa8zN67Mw4",
+  "doc_path": "/自研/数据接口问题/KSOA医保接口，在正向收款时，根据tmp_pos_mast 表 rxChkBizSn 字段是否有值判断是不是走了电子处方流程，有值调用7207药品销售出库明细上传接口 在退货收款时，根据tmp...",
+  "record_id": "KS8Mzau2K1"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/KSOA医保接口，在正向收款时，根据tmp_pos_mast 表 rxChkBizSn 字段是否有值判断是不是走了电子处方流程，有值调用7207药品销售出库明细上传接口 在退货收款时，根据tmp...",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

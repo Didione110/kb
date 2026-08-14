@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241008-016",
+ "record_id": "opF0Fd1a2m",
+ "title": "一键打印自动打印，检索单据条件固定的执行存储过程 “k_prn”参数任务类型“WMS”，客户希望不同的电脑自动打印不同的单据。",
+ "problem": "一键打印自动打印，检索单据条件固定的执行存储过程 “k_prn”参数任务类型“WMS”，客户希望不同的电脑自动打印不同的单据。",
+ "cause": "自动打印检索是固定的，无法修改",
+ "solution": "增加配置ownerid,在首页自动打印检索时传入，区分是哪个电脑使用；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "自动打印、单据定制、多机适配"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdelM1DJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdelM1DJ2LD0oRE",
+  "doc_path": "/自研/产品功能问题/一键打印自动打印，检索单据条件固定的执行存储过程k_prn参数任务类型WMS，客户希望不同的电脑自动打印不同的单据",
+  "record_id": "opF0Fd1a2m"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/一键打印自动打印，检索单据条件固定的执行存储过程k_prn参数任务类型WMS，客户希望不同的电脑自动打印不同的单据",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

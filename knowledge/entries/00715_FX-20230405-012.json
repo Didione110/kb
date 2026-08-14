@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230405-012",
+ "record_id": "IOIbscQNwf",
+ "title": "采购订单创建报错\"当前日期不在单据类型标准订单[默认]的有效期范围内，不能再发生业务，请重新录入。\"",
+ "problem": "采购订单创建报错\"当前日期不在单据类型标准订单[默认]的有效期范围内，不能再发生业务，请重新录入。\"",
+ "cause": "接口工具默认给的时间范围是0001/01/01不在实际单据类型中单据参数提供的日期范围",
+ "solution": "改成正确的时间即可",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "有效期"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-04-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IOIbscQNwf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "FX-20231116-063",
+ "record_id": "JVesUSgrl7",
+ "title": "DHERP注册提示报错：beyondthe date limits",
+ "problem": "DHERP注册提示报错：beyondthe date limits",
+ "cause": "DHERP，更换注册服务器操作后",
+ "solution": "1. 找北京将对应产品号注册重置\n2. 之前使用的tomcat也需要关闭\n3. 新服务器tomcat下对应数据库，清除了下面内容，\n\nselect \\* from ModuleAccrt\nselect \\* from FuncAccredit\nselect \\* from ProductAccrt\nselect \\* from sysstate，\n4. 新服务器tomcat文件夹缓存清除\n5. 确保ROOT版本是新版本\n6. 然后重启tomcat，进行注册",
+ "solution_types": [
+  "环境设置",
+  "重启服务",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "日期超限"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-11-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeoXgeJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeoXgeJ2LD0oRE",
+  "doc_path": "/时空/安装部署问题/DHERP注册提示报错：beyondthe date limits",
+  "record_id": "JVesUSgrl7"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/DHERP注册提示报错：beyondthe date limits",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

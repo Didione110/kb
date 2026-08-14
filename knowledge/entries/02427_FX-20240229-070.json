@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240229-070",
+ "record_id": "zxZB0VaDL0",
+ "title": "客户需要到WMS打印出库单",
+ "problem": "客户需要到WMS打印出库单",
+ "cause": "以往客户想到WMS打印出库单都是用的智友的插件进行打印的，很不方便，要另开软件",
+ "solution": "WMS现在有个随货同行打印，可以根据不同类型，不同货主进行打印。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "出库单打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zxZB0VaDL0"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

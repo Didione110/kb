@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-039",
+ "record_id": "q5PZNlTUJ0",
+ "title": "WMS系统卡顿",
+ "problem": "WMS系统卡顿",
+ "cause": "库存表数量过大",
+ "solution": "平常只关注业务表，其实库存表是个很大的问题。过期的库存数据应及时清理，且调度逻辑里，不能直接用库存表，要进行临时表转换，取有用的数据",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB",
+  "OceanBase",
+  "TiDB"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "WMS卡顿"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q5PZNlTUJ0"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

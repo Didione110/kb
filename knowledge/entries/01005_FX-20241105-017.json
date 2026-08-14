@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241105-017",
+ "record_id": "PgsJcfJ3ax",
+ "title": "市医保992001接口上传失败",
+ "problem": "市医保992001接口上传失败",
+ "cause": "exp\\_content字段没有",
+ "solution": "医保结算信息返回时候该字段可能存在不返回现象，连字段结构都没有，这时候需要自己重新在接口参数里面定义",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保接口"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-11-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmEGr5JGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmEGr5JGlDd3mE",
+  "doc_path": "/自研/数据接口问题/市医保992001接口上传失败",
+  "record_id": "PgsJcfJ3ax"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/市医保992001接口上传失败",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

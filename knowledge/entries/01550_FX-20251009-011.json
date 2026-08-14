@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251009-011",
+ "record_id": "edk9G1Ez6N",
+ "title": "凭证导入节点，导入模板的辅助是文档信息，在导入凭证时是否有对照表的配置，把辅助信息转换成编码进行导入，情老师提供下解决方案",
+ "problem": "凭证导入节点，导入模板的辅助是文档信息，在导入凭证时是否有对照表的配置，把辅助信息转换成编码进行导入，情老师提供下解决方案",
+ "cause": "【名称导入标准产品是识别不了的。要客开的话需要同时修改导出和导入。代码位置：nccloud.pub.gl.voucher.excel.ExcelVoucherVO#ExcelVoucherVO（nc.vo.gl.pubvoucher.VoucherVO， int）和nccloud.pub.gl.voucher.excel.ExcelVoucherVO#setAssVO 】",
+ "solution": "1、按照现有的导入模版进行ORACLE文档的编译进行处理；2、外系统平台进行接口的处理，接口可以按照名称编译编码进行对照进行处理",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "辅助对照"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "edk9G1Ez6N"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

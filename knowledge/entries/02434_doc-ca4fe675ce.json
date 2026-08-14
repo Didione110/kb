@@ -1,0 +1,30 @@
+{
+ "id": "doc-ca4fe675ce",
+ "record_id": "",
+ "title": "如何开启图片验证码并设置密码多次输入错误后锁定账号",
+ "problem": "如何开启图片验证码并设置密码多次输入错误后锁定账号",
+ "cause": "需要后台开启相关功能",
+ "solution": "在运维管理-安全管控-账户安全中开启登录验证码及账号锁定配置",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNMy0lQrWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNMy0lQrWkyEqBQm",
+  "doc_path": "/蓝凌OA/安全问题/如何开启图片验证码并设置密码多次输入错误后锁定账号"
+ },
+ "doc_path": "/蓝凌OA/安全问题/如何开启图片验证码并设置密码多次输入错误后锁定账号",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安全问题"
+ ]
+}

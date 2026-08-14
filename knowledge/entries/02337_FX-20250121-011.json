@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250121-011",
+ "record_id": "xHa3cvlnkM",
+ "title": "已上报的合并报表怎么取消上报，在合并报表那已经点了取消上报并选择对应人员，但是在合并报表状态栏还是显示上报，也找不到在哪确认取消上报",
+ "problem": "已上报的合并报表怎么取消上报，在合并报表那已经点了取消上报并选择对应人员，但是在合并报表状态栏还是显示上报，也找不到在哪确认取消上报",
+ "cause": "客户操作节点不对",
+ "solution": "企业报表--报送管理--高级查询--可以选择报表版本--选择合并报表--就可以取消上报了",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "取消上报失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xHa3cvlnkM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

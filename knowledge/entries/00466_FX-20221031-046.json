@@ -1,0 +1,38 @@
+{
+ "id": "FX-20221031-046",
+ "record_id": "BTOV5JdgqW",
+ "title": "getColValue公式在系统表间取数",
+ "problem": "getColValue公式在系统表间取数",
+ "cause": "报表、单据、打印模板之间取数",
+ "solution": "使用getColValue公式",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "取数公式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "多语言",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施4部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BTOV5JdgqW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

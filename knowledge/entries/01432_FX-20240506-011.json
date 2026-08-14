@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240506-011",
+ "record_id": "bHq3mMgUhL",
+ "title": "WMS服务器.NET4.8无法安装，导致IIS配置后，浏览报错，无法正常启动",
+ "problem": "WMS服务器.NET4.8无法安装，导致IIS配置后，浏览报错，无法正常启动",
+ "cause": "服务器操作系统为server 2012 R2 Datacenter,该操作系统缺少必要的补丁，需要安装对应补丁",
+ "solution": "补丁包较大，已上传钉钉知识库，有需要可以自行下载，安装补丁后可正常安装.net4.8。（建议WMS服务器操作系统安装server 2012 R2之上的版本）.",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "WMS、.NET4.8、IIS"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn15PEMWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn15PEMWrMqPxX6",
+  "doc_path": "/其他/安装部署问题/WMS服务器.NET4.8无法安装，导致IIS配置后浏览报错，无法正常启动",
+  "record_id": "bHq3mMgUhL"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/WMS服务器.NET4.8无法安装，导致IIS配置后浏览报错，无法正常启动",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

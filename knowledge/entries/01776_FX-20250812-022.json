@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250812-022",
+ "record_id": "kGx9sSafDx",
+ "title": "采购订单变更单审核后无法弃审删除",
+ "problem": "采购订单变更单审核后无法弃审删除",
+ "cause": "系统问题",
+ "solution": "使用附件脚本将对应变更单改为开立状态",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Shell"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "采购订单变更单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "陈昊冬",
+  "department": "停用-实施8部",
+  "date": "2025-08-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kGx9sSafDx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250603-011",
+ "record_id": "58roA1u19G",
+ "title": "管理区的分类方案功能，修改分类明细保存后，再查看数据时，修改前的数据和修改后的数据都会显示",
+ "problem": "管理区的分类方案功能，修改分类明细保存后，再查看数据时，修改前的数据和修改后的数据都会显示",
+ "cause": "先删后插保存时未清除原数据",
+ "solution": "导入最新的表单覆盖原表单",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "数据重复"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbaeq1JxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbaeq1JxEKBD6p",
+  "doc_path": "/时空/产品功能问题/管理区的分类方案功能，修改分类明细保存后，再查看数据时，修改前的数据和修改后的数据都会显示",
+  "record_id": "58roA1u19G"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/管理区的分类方案功能，修改分类明细保存后，再查看数据时，修改前的数据和修改后的数据都会显示",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

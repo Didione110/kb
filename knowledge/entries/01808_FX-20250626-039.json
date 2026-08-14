@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250626-039",
+ "record_id": "l2F6edoWv3",
+ "title": "DHERP在Oracle环境下，标准默认查询均采用SQL宏的形式来加载语句展现\n涉及到比较复杂的关联查询报表，无法用单一的SQL语句进行展现，需要配合存储过程T-SQL来进行处理",
+ "problem": "DHERP在Oracle环境下，标准默认查询均采用SQL宏的形式来加载语句展现\n涉及到比较复杂的关联查询报表，无法用单一的SQL语句进行展现，需要配合存储过程T-SQL来进行处理",
+ "cause": "标准模板内无对应方法",
+ "solution": "调用方式参照：\ncall k_view_szyxbtc(c_cursor=>:__oracle_cursor,p_StartDate =>'2025-01-01', p_EndDate =>'2025-01-31', p_ViewType=>'1')\n\n对应存储过程的案例参照：\ncreate or replace procedure k_view_szyxbtc\n ( c_cursor out sys_refcursor,\n p_StartDate IN VARCHAR2, --开始时间\n p_EndDate IN VARCHAR2, --结束时间\n p_EntId IN VARCHAR2,--企业ID\n p_ViewType IN VARCHAR2 --报表类型\n\n \n )\nAS\nbegin\n \n -- 数字营销部外部采购非集团产品提成\n IF p_ViewType = '1' THEN\n declare v_ml decimal(18,2):=0; \n v_fy_yunfei decimal(18,2):=0; \n v_ml_jtzb decimal(18,2):=0; \n v_ml_wb_zjcg decimal(18,2):=0; \n v_ml_wb_zssj decimal(18,2):=0; \n v_ml_wb_cgtd decimal(18,2):=0; \n v_ml_jlr_hz decimal(18,2):=0; \n v_ml_jlr_cgb decimal(18,2):=0; \n v_ml_jlr_zgb decimal(18,2):=0; \n v_ml_jlr_ccb decimal(18,2):=0; \n v_ml_jlr_ddfh decimal(18,2):=0; \n v_ml_jlr_htgl decimal(18,2):=0; \n v_ml_jlr_szyxxj decimal(18,2):=0; \n v_ml_jlr_xxb decimal(18,2):=0; \n v_ml_jlr_szyxfzr decimal(18,2):=0; \n v_ml_jlr_szyxb decimal(18,2):=0; \n v_ml_jlr_xsry decimal(18,2):=0; \n v_ml_jlr_xszz decimal(18,2):=0; \n v_ml_jlr_szyxfzr1 decimal(18,2):=0; \n v_ml_jlr_gszht decimal(18,2):=0; \n v_ml_jlr_szyxfzr2 decimal(18,2):=0; \n v_ml_jlr_szyxgs decimal(18,2):=0; \n begin\n --计算数字营销部部门总毛利\n select sum( b.num*( b.taxprice - (nvl(e.gebjj,0) + ((b.taxprice - nvl(e.gebjj,0))*0.13)))) into v_ml \n from saleoutmt a \n join saleoutdt b on a.billno = b.billno and a.entid = b.entid \n left join batchcode e on e.goodsid = b.goodsid and e.angleid = b.angleid and e.entid = b.entid \n where a.dates >= p_StartDate and a.dates <= p_EndDate and a.b2btype like '线上-%' and a.entid = p_EntId;\n --计算平台运营费用|运费\n select sum(a.k_kdcost) into v_fy_yunfei \n from saleoutmt a \n where a.dates >= p_StartDate and a.dates <= p_EndDate and a.b2btype like '线上-%' and a.entid = p_EntId; \n --计算扣掉平台运营费用后剩下的数字营销部部门毛利|集团总部商业公司（20%）\n select (v_ml - v_fy_yunfei)*0.2 into v_ml_jtzb from dual ;\n --扣掉平台运营费用后剩下的数字营销部部门毛利（80%）|外部采购团队（15%）|直接采购人员 （50%）\n select (v_ml - v_fy_yunfei)*0.8*0.15*0.5 into v_ml_wb_zjcg from dual ; \n --扣掉平台运营费用后剩下的数字营销部部门毛利（80%）|外部采购团队（15%）|采购人员直属上级（20%） \n select (v_ml - v_fy_yunfei)*0.8*0.15*0.2 into v_ml_wb_zssj from dual ; \n --扣掉平台运营费用后剩下的数字营销部部门毛利（80%）|外部采购团队（15%）|采购团队剩余部分 （30%） \n select (v_ml - v_fy_yunfei)*0.8*0.15*0.3 into v_ml_wb_cgtd from dual ; \n --扣掉平台运营费用后剩下的数字营销部部门毛利（80%）|数字营销部部门净利润 |净利润汇总\n select (v_ml - v_fy_yunfei)*0.8*0.85 into v_ml_jlr_hz from dual ; \n --扣掉平台运营费用后剩下的数字营销部部门毛利（80%）|数字营销部部门净利润 |采购服务团队（15%）|采购部（2%） \n select v_ml_jlr_hz*0.15*0.02 into v_ml_jlr_cgb from dual ; \n --扣掉平台运营费用后剩下的数",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "权限"
+ ],
+ "keywords": [
+  "SQL宏、存储过程、关联查询"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-06-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "l2F6edoWv3"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

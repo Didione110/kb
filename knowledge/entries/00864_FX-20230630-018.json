@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230630-018",
+ "record_id": "MCNW5pKkgE",
+ "title": "PLM的BOM和料品导入U9C提示U9C已存在",
+ "problem": "PLM的BOM和料品导入U9C提示U9C已存在",
+ "cause": "最初PLM的BOM和料品是由U9导入的，现在再次从PLM导入U9。此时会校验U9中已存在该档案，导入失败，这时可以在U9的数据库中执行sql，刷新一下U9中表的plmid，执行之后就可以正常将BOM和料品从PLM导入U9了。",
+ "solution": "SQL见附件",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "重复导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MCNW5pKkgE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240622-036",
+ "record_id": "fEg7QuZJ9s",
+ "title": "自动计划任务功能，新建后无法执行。",
+ "problem": "自动计划任务功能，新建后无法执行。",
+ "cause": "由于未进行触发，agjobwork没有数据内容",
+ "solution": "agjobwork插入对应任务内容，nexttime加入对应未来执行时间，时间到就可以进行触发。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动计划任务"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-06-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fEg7QuZJ9s"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

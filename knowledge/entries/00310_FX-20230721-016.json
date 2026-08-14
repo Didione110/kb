@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230721-016",
+ "record_id": "7SpahCHQ3U",
+ "title": "删除凭证提示出纳已签字，但在出纳取消签字中找不到该凭证。\n在应付的发票查询未制单中查不到，已制单有。\n在应付凭证处理中找不到该发票。\n",
+ "problem": "删除凭证提示出纳已签字，但在出纳取消签字中找不到该凭证。\n在应付的发票查询未制单中查不到，已制单有。\n在应付凭证处理中找不到该发票。",
+ "cause": "客户修改2020年数据，期间有做过用友软件数据升级",
+ "solution": "1、做好数据备份；2、用DELETE删除GL\\_ACCVOUCH的相关凭证\n3、应付发票查询依旧只能在已制单中显示 ，跟踪表后处理完成。\n例如：\nselect cPZNum,cclue,\\* from PurBillVouchs where cPZNum='记-0082' \n找到 cclue='AP0000000000344'\n注意不能仅按凭证号处理，因为有其他月也有相同凭证号\nupdate PurBillVouchs set cPZNum=null,cclue=null where cPZNum='记-0082' and cclue='AP0000000000344'--采购发票子表\nSELECT cPzID,iperiod,\\*FROM AP\\_DetailVend where cPzID='AP0000000000344'\nupdate AP\\_DetailVend set cPzID=null where cPzID='AP0000000000344'--应付款管理\n4条语句显示的消息数都是一致的才是正确的。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证异常"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-07-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymNLPX8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymNLPX8xkXOEP2",
+  "doc_path": "/用友/数据错误问题/删除凭证提示出纳已签字，但在出纳取消签字中找不到该凭证。 在应付的发票查询未制单中查不到，已制单有。 在应付凭证处理中找不到该发票。",
+  "record_id": "7SpahCHQ3U"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据错误问题/删除凭证提示出纳已签字，但在出纳取消签字中找不到该凭证。 在应付的发票查询未制单中查不到，已制单有。 在应付凭证处理中找不到该发票。",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

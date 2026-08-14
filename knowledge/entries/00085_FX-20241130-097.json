@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241130-097",
+ "record_id": "1toqcJKZ7a",
+ "title": "C端爆品打印的时候偶尔会有漏面单的情况",
+ "problem": "C端爆品打印的时候偶尔会有漏面单的情况",
+ "cause": "面单打印间隔时间太短",
+ "solution": "调整一键打印面单间隔时间，系统默认是500毫秒，需要调整到800-100之间",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "漏面单"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNZQD5Jbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNZQD5Jbkz3BRL",
+  "doc_path": "/其他/安装部署问题/C端爆品打印的时候偶尔会有漏面单的情况",
+  "record_id": "1toqcJKZ7a"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/C端爆品打印的时候偶尔会有漏面单的情况",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

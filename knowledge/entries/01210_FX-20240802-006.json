@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240802-006",
+ "record_id": "VqsqJ6W4qq",
+ "title": "U8按显示模板输出电子表格",
+ "problem": "U8按显示模板输出电子表格",
+ "cause": "客户想要所见即所得",
+ "solution": "前提条件必须使用的是新打印控件；\n先找到对应的理想显示模板，进入格式设置，将其另存为打印模板\n然后在单据界面选择刚才另存的新模板，点输出，保存类型选择excel按单据打印模板输出即可；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "U8表格输出"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VqsqJ6W4qq"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

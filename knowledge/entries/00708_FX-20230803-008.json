@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230803-008",
+ "record_id": "IAIjMHXOj9",
+ "title": "采购变更单和对应的采购订单无法删除",
+ "problem": "采购变更单和对应的采购订单无法删除",
+ "cause": "变更单只有在核准中和开立可以删除，需要先使用脚本将变更单状态变为开立再删除 最后再弃审订单删除，",
+ "solution": "在确认无后续单据的情况，用脚本变更了对应的变更单后，在界面上删除单据，update pm_pomodify set status=0 where DocNo=＇单号＇",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "删除失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-08-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IAIjMHXOj9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

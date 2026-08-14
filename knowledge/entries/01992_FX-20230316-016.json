@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230316-016",
+ "record_id": "ozjsU0a3MS",
+ "title": "NC数据集成平台中修改了外部系统信息设置，修改NC与外部系统资料对照关系，接口传递报文数据时，相关资料对照未成功翻译",
+ "problem": "NC数据集成平台中修改了外部系统信息设置，修改NC与外部系统资料对照关系，接口传递报文数据时，相关资料对照未成功翻译",
+ "cause": "外部系统信息设置修改信息后，未启作用，无法按照修改后的规则翻译相关资料数据",
+ "solution": "重启NC服务，重新读取外部系统信息设置信息，解决问题",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "资料对照"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "应用集成平台",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-03-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ozjsU0a3MS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

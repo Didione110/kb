@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260304-005",
+ "record_id": "429nMiKtTL",
+ "title": "仓库作业中会遇到非码上放心监管码，需要进行存储。",
+ "problem": "仓库作业中会遇到非码上放心监管码，需要进行存储。",
+ "cause": "现有扫码策略只支持码上放心的监管码",
+ "solution": "用小号功能来存储非码上放心的监管码，相关实施步骤见附件文档",
+ "solution_types": [],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "监管码存储"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2026-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3xx4yV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3xx4yV47Z3je9",
+  "doc_path": "/其他/安装部署问题/仓库作业中会遇到非码上放心监管码，需要进行存储。",
+  "record_id": "429nMiKtTL"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/仓库作业中会遇到非码上放心监管码，需要进行存储。",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

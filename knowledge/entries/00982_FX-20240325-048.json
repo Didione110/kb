@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240325-048",
+ "record_id": "OybIot7n88",
+ "title": "出库单号保存时在自动带出系统编号的基础上，也需要能手工修改单号",
+ "problem": "出库单号保存时在自动带出系统编号的基础上，也需要能手工修改单号",
+ "cause": "出库单号保存时在自动带出系统编号的基础上，也需要能手工修改单号",
+ "solution": "修改对应单据模板，将表头的单据号字段取消勾选是否必输项，且勾选允许编辑，保存并分配模板；再修改参数【IC030单据号是否允许手工输入】把它改成“Y”，清除缓存重新登录制单即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "出库单号修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-03-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OybIot7n88"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

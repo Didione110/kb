@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240229-065",
+ "record_id": "VJzIQecQ1I",
+ "title": "wms按体积进行任务分配，但是两个单子，同一波次，同一品种批号可能分配到2个拣货任务中",
+ "problem": "wms按体积进行任务分配，但是两个单子，同一波次，同一品种批号可能分配到2个拣货任务中",
+ "cause": "模板库代码分配时，以明细的sn分配回写，但是明细的sn因为是合波次有多单子，sn会重复导致。",
+ "solution": "分配时重新生成sn进行排序分配。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "体积分配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51zr5E8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51zr5E8zN67Mw4",
+  "doc_path": "/其他/应用操作/wms按体积进行任务分配，但是两个单子，同一波次，同一品种批号可能分配到2个拣货任务中",
+  "record_id": "VJzIQecQ1I"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/wms按体积进行任务分配，但是两个单子，同一波次，同一品种批号可能分配到2个拣货任务中",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

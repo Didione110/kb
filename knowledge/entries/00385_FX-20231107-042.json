@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231107-042",
+ "record_id": "9EaWDupxuE",
+ "title": "智友对接郑州wms，在出库时，如果出现冲红，需要生成冲红记录，便于客户退款",
+ "problem": "智友对接郑州wms，在出库时，如果出现冲红，需要生成冲红记录，便于客户退款",
+ "cause": "目前标注方案中无此项目",
+ "solution": "在zzerp\\_ck\\_kpd\\_w回传时，分两种清空，如果记录了cancelnum，则单独建立提取方案，生成冲红记录，如果没记录cancelnum，则在提取方案内判断开票单的汇总数量和回传的汇总数量是否匹配，同时生成冲红的数据，供给收银台进行下账",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "冲红记录"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0bYP5VDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0bYP5VDOnGvpb",
+  "doc_path": "/时空/应用操作/智友对接郑州wms，在出库时，如果出现冲红，需要生成冲红记录，便于客户退款",
+  "record_id": "9EaWDupxuE"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/智友对接郑州wms，在出库时，如果出现冲红，需要生成冲红记录，便于客户退款",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

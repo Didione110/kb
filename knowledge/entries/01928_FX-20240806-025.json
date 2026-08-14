@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240806-025",
+ "record_id": "nmpUMJzNUY",
+ "title": "工作流审核时，审核权限混乱，角色里面所有人都能看到审核的单子",
+ "problem": "工作流审核时，审核权限混乱，角色里面所有人都能看到审核的单子",
+ "cause": "对应的流程角色没有设置机构成员",
+ "solution": "1.使用以下语句来判断是否设置对应机构人员，如果查询不到数据，则全部机构人员能看到\nSELECT a.userid FROM userrole a,staffdoc b WHERE a.userid is not null AND  a.roleid=? AND a.orgid=? AND a.userid=b.userid AND b.beactive='Y' AND a.entid=?\n2.系统管理对应流程角色，增加对应人员",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "权限混乱"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-08-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nmpUMJzNUY"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

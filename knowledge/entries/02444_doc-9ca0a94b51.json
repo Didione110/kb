@@ -1,0 +1,30 @@
+{
+ "id": "doc-9ca0a94b51",
+ "record_id": "",
+ "title": "同一流程表明细表按单位编码分发存档所有记录均存档各单位档案",
+ "problem": "同一流程表明细表按单位编码分发存档所有记录均存档各单位档案",
+ "cause": "主要是业务关系设置问题，设置的是仅限明细表",
+ "solution": "业务关系触发动作，流程表到无流程表的触发信息，调整成 主表\\+明细表即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn36LdEwJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn36LdEwJ9ekBD76",
+  "doc_path": "/蓝凌OA/产品功能问题/同一流程表明细表按单位编码分发存档所有记录均存档各单位档案"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/同一流程表明细表按单位编码分发存档所有记录均存档各单位档案",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

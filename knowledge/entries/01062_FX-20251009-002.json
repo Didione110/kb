@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251009-002",
+ "record_id": "RPRXBm4i7n",
+ "title": "反馈提取物流出库单可以多次提取，排查发现首次提取物流出库单后将zt字段回写成1，但是过一会中间表k_oms_rk_kpdw_mt的zt又变成了0",
+ "problem": "反馈提取物流出库单可以多次提取，排查发现首次提取物流出库单后将zt字段回写成1，但是过一会中间表k_oms_rk_kpdw_mt的zt又变成了0",
+ "cause": "怀疑是API接口上出现延迟等问题，导致接口重复执行了插入操作，因为接口每次插入是先删后插",
+ "solution": "目前添加了入库单判断，判断物流出库单号是否已经存在，存在则不再提取；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "zt回写异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RPRXBm4i7n"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240301-002",
+ "record_id": "lpmifcGViT",
+ "title": "数据库还原后登录系统报错：license server syskey error or dynamic-link library error",
+ "problem": "数据库还原后登录系统报错：license server syskey error or dynamic-link library error",
+ "cause": "注册信息有误",
+ "solution": "需删除原有注册后\nSysState\nRegHis\nAccrtHisMt\nAccrtHisDt\nModuleAccrt\nProductAccrt\n重启Tomcat,登陆后重新注册\n（注册前先修改企业名称）",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "license error"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2024-03-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lpmifcGViT"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

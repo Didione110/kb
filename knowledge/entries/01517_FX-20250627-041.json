@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250627-041",
+ "record_id": "dYDmOPkzGc",
+ "title": "单据:LL-20250626006,行号:1,日期:2025-06-26,物料:140202.00002SMT PCBA,出库数量:18000,找不到可匹配的料品成本层次,请确保该业务日期之前有足够的库存可供匹配\n",
+ "problem": "单据:LL-20250626006,行号:1,日期:2025-06-26,物料:140202.00002SMT PCBA,出库数量:18000,找不到可匹配的料品成本层次,请确保该业务日期之前有足够的库存可供匹配",
+ "cause": "填写的批号查不出对应库存可用量",
+ "solution": "修改成正确批号",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "权限"
+ ],
+ "keywords": [
+  "成本层次"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2025-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dYDmOPkzGc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

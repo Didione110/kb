@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230903-004",
+ "record_id": "PUEeldCHHj",
+ "title": "一键打印，面单任务，快递鸟接口，增加参数。",
+ "problem": "一键打印，面单任务，快递鸟接口，增加参数。",
+ "cause": "新的京东快递需要各种参数",
+ "solution": "增加参数： IsNotice 是否通知快递员上门揽件 0: 通知，1: 不通知，不填则默认为1",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "快递鸟面单"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-09-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAKRo1VKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAKRo1VKe0xjE3",
+  "doc_path": "/自研/数据接口问题/一键打印，面单任务，快递鸟接口，增加参数。",
+  "record_id": "PUEeldCHHj"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/一键打印，面单任务，快递鸟接口，增加参数。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

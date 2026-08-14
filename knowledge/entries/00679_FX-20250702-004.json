@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250702-004",
+ "record_id": "HI0VBNKBZD",
+ "title": "时空在实施时经常会对数据进行处理，容易发生误删情况；",
+ "problem": "时空在实施时经常会对数据进行处理，容易发生误删情况；",
+ "cause": "数据误删操作；",
+ "solution": "在对应库表添加阻拦删除触发器:\nCREATE TRIGGER prevent\\_delete\\_trigger\nON your\\_table\\_name\nINSTEAD OF DELETE \nBEGIN\n RAISERROR('你误删了!', 16, 1);\n ROLLBACK TRANSACTION;\n END;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "误删"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2025-07-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1KAqjWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1KAqjWrMqPxX6",
+  "doc_path": "/时空/应用操作/时空在实施时经常会对数据进行处理，容易发生误删情况；",
+  "record_id": "HI0VBNKBZD"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/时空在实施时经常会对数据进行处理，容易发生误删情况；",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

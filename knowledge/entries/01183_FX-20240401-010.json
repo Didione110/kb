@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240401-010",
+ "record_id": "UkzDynMKB6",
+ "title": "时空智友工作流审批的时候，经常性代办审核人没有看时空，所以忽略了",
+ "problem": "时空智友工作流审批的时候，经常性代办审核人没有看时空，所以忽略了",
+ "cause": "可以借用智友的平台，对接企业微信进行服务推送，下方放入代码参考",
+ "solution": "function uf_getwxmsg(){\n var ajax;\n ajax = uf_creatXMLHttpRequest(); //创建ajax对象\n \n var corpid ; //企业ID\n var corpsecret ; //应用secret\n corpid = \"********\"; //汪松测试号\n corpsecret = \"UfzqqyQKqgPgafpIBZXYI5WPE5UoxIXG****\"; //汪松测试机器人\n var get_access_token_url = \"https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=\"+corpid+\"&corpsecret=\"+corpsecret ;\n ajax.open('POST',get_access_token_url, 'true');\n ajax.send();\n ajax.onreadystatechange = function () {\n if (ajax.readyState === 4 && ajax.status === 200) {\n var get_access_token_result = ajax.responseText;\n var get_access_token_jsonObject = eval(\"(\" + get_access_token_result + \")\");\n var access_token = get_access_token_jsonObject.access_token;\n uf_pushwxmsg(access_token);\n \n }\n }\n}\n\nfunction uf_pushwxmsg(access_token){\n var msg = {};\n msg.content = \"【注意注意注意】 \\n 当前：\"+DateUtil.curDateTime() +\" \\n【ERP与WMS存在库存差异】 \\n 当差异数量：\"+label6.getText();\n var push_par =Utility.toJSONString({\n touser : \"WangSong\",\n msgtype : \"text\",\n agentid : \"1000002\",\n text : msg,\n safe : \"0\" ,\n enable_id_trans : \"0\",\n enable_duplicate_check : \"0\"\n });\n var ajax;\n ajax = uf_creatXMLHttpRequest(); //创建ajax对象\n var push_url = \"https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=\"+access_token; \n ajax.open('POST',push_url, 'false');\n ajax.send(push_par);\n ajax.onreadystatechange = function () {\n if (ajax.readyState === 4 && ajax.status === 200) {\n var get_wxmsg = ajax.responseText;\n alert(get_wxmsg);\n }\n }\n\n}\n\n//初始化调用ajax 用于地址服务\nfunction uf_creatXMLHttpRequest() {\n var ajax;\n if (window.ActiveXObject) {\n return ajax = new ActiveXObject(\"Microsoft.XMLHTTP\");\n } else if (window.XMLHttpRequest) {\n return ajax = new XMLHttpRequest();\n }\n\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "代办忽略"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UkzDynMKB6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

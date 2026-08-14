@@ -1,0 +1,47 @@
+{
+ "id": "FX-20230630-021",
+ "record_id": "YqkwCyTphm",
+ "title": "客户在ERP修改批号，效期，生产日期需要同步给WMS",
+ "problem": "客户在ERP修改批号，效期，生产日期需要同步给WMS",
+ "cause": "因WMS管理货位，对于一个品种，一个批号部分数量进行处理时，不是很好处理（需要新的货位）",
+ "solution": "让客户在ERP发起批号，效期，生产日期调整，传到WMS，WMS在盘点界面提取两条数据（一条旧，一条新），然后通过修改实盘数量和手动选择架位号来解决该问题。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "ERP-WMS同步"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4D37j2JKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4D37j2JKMEvZBY",
+  "doc_path": "/其他/应用操作/客户在ERP修改批号，效期，生产日期需要同步给WMS",
+  "record_id": "YqkwCyTphm"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户在ERP修改批号，效期，生产日期需要同步给WMS",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

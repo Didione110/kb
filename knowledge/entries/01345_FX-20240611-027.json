@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240611-027",
+ "record_id": "Z0zdwEGfTF",
+ "title": "升级后升级前的表单流程处理人意见区数据丢失",
+ "problem": "升级后升级前的表单流程处理人意见区数据丢失",
+ "cause": "升级后意见表 新增的属性 VIEW_GROUP_ID、GROUP_ID 为空导致意见没有查询出来，默认值是0",
+ "solution": "数据修复：\n-- 1、执行sql前自行做好数据库备份，非常重要！！！\n\n-- 2、查询问题数据量\n\nselect count(*) from ctp_comment_all where VIEW_GROUP_ID is null;\nselect count(*) from ctp_comment_all where GROUP_ID is null;\n-- 3、修复数据\n\nupdate ctp_comment_all set VIEW_GROUP_ID=0 where VIEW_GROUP_ID is null;\nupdate ctp_comment_all set GROUP_ID=0 where GROUP_ID is null;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "表单数据丢失"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-06-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z0zdwEGfTF"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

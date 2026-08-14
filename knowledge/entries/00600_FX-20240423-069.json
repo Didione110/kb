@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240423-069",
+ "record_id": "EgnceZkDLp",
+ "title": "如客户已经有一套正式环境，现在因为工作需要需要搭建一套测试环境，可以通过生产环境共享加密信息的方式来实现。",
+ "problem": "如客户已经有一套正式环境，现在因为工作需要需要搭建一套测试环境，可以通过生产环境共享加密信息的方式来实现。",
+ "cause": "通过共享加密狗搭建测试环境的配置方法。",
+ "solution": "【注意事项】\n1、生产环境共享加密信息配置完成后立即生效，不需要重启协同服务；\n2、测试环境配置的生产环境地址格式为：http(s)😕/ip(域名):端口；\n3、测试环境可以正常访问生产环境的协同服务；\n4、启动测试环境时生产环境的协同服务必须是启动状态。",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "测试环境"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-04-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DLDPKJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DLDPKJKMEvZBY",
+  "doc_path": "/致远OA/安装部署问题/如客户已经有一套正式环境，现在因为工作需要需要搭建一套测试环境，可以通过生产环境共享加密信息的方式来实现。",
+  "record_id": "EgnceZkDLp"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/安装部署问题/如客户已经有一套正式环境，现在因为工作需要需要搭建一套测试环境，可以通过生产环境共享加密信息的方式来实现。",
+ "category": [
+  "致远OA",
+  "安装部署问题"
+ ]
+}

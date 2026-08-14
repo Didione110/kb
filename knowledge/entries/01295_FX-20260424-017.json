@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260424-017",
+ "record_id": "Y03JfQuBBh",
+ "title": "U8实施导航打开，上方显示叉叉，无法操作",
+ "problem": "U8实施导航打开，上方显示叉叉，无法操作",
+ "cause": "环境原因",
+ "solution": "检查客户端环境C:\\Windows\\SysWOW64缺少msvcp100d.dll和msvcr100d.dll，从同系统拷贝过来后再次登录操作，成功解决",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U8导航异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-04-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y03JfQuBBh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

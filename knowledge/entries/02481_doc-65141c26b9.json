@@ -1,0 +1,30 @@
+{
+ "id": "doc-65141c26b9",
+ "record_id": "",
+ "title": "系统每隔十分钟无操作会自动下线修改Tomcat参数不生效",
+ "problem": "系统每隔十分钟无操作会自动下线修改Tomcat参数不生效",
+ "cause": "无操作自动下线不调用Tomcat中的参数，需要在admin.do中、多服务器配置中调整。",
+ "solution": "开启多服务器配置，调整对应有效期即可。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYX0ML7QV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYX0ML7QV3bzYmDO",
+  "doc_path": "/蓝凌OA/应用操作/系统每隔十分钟无操作会自动下线修改Tomcat参数不生效"
+ },
+ "doc_path": "/蓝凌OA/应用操作/系统每隔十分钟无操作会自动下线修改Tomcat参数不生效",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

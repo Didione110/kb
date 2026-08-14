@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221203-025",
+ "record_id": "cGCel9PMB6",
+ "title": "专票冲红，备注加上“开具红字增值税专用发票信息表编号ZZZZZZZZZZZZZZZZ”字样",
+ "problem": "专票冲红，备注加上“开具红字增值税专用发票信息表编号ZZZZZZZZZZZZZZZZ”字样",
+ "cause": "专票冲红，备注加上“开具红字增值税专用发票信息表编号ZZZZZZZZZZZZZZZZ”字样",
+ "solution": "程序里在备注上添加。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "专票冲红"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1rlk2WdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1rlk2WdqbropQ",
+  "doc_path": "/自研/数据接口问题/专票冲红，备注加上开具红字增值税专用发票信息表编号ZZZZZZZZZZZZZZZZ字样",
+  "record_id": "cGCel9PMB6"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/专票冲红，备注加上开具红字增值税专用发票信息表编号ZZZZZZZZZZZZZZZZ字样",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

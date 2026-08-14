@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240219-034",
+ "record_id": "GVeTX57LXC",
+ "title": "移动U8上的项目要跟薪资系统上一致",
+ "problem": "移动U8上的项目要跟薪资系统上一致",
+ "cause": "修改移动端表单",
+ "solution": "HR基础设置-报表工具-卡片-修改504员工自助薪资发放明细，保持与U8薪资系统的表单一致",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "项目一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-02-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GVeTX57LXC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

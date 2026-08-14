@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231107-046",
+ "record_id": "aQ1EytZ6Uo",
+ "title": "开票时点保存报错：保存数据库失败，是否重试",
+ "problem": "开票时点保存报错：保存数据库失败，是否重试",
+ "cause": "数据库字段设置太短",
+ "solution": "调整相关超长的字段长度",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "开票保存失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmB0xgQ8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmB0xgQ8yeZqMmz",
+  "doc_path": "/自研/软件无法使用/开票时点保存报错：保存数据库失败，是否重试",
+  "record_id": "aQ1EytZ6Uo"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/开票时点保存报错：保存数据库失败，是否重试",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

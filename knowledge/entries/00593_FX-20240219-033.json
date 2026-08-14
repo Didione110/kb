@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240219-033",
+ "record_id": "EYC8O2PO4u",
+ "title": "有些物料在进行批次管理运行一段时间后，存货档案中把批次管理取消，导致现在相关物料卡住了，不能继续做单子",
+ "problem": "有些物料在进行批次管理运行一段时间后，存货档案中把批次管理取消，导致现在相关物料卡住了，不能继续做单子",
+ "cause": "存货档案问题",
+ "solution": "执行update Inventory set bInvBatch='1' where cInvCode='A14-0001-0193'，测试后续单据可以正常下推，以此类推修改存货档案信息",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "批次取消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-02-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EYC8O2PO4u"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

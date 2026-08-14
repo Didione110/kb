@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250922-022",
+ "record_id": "WNpcjPEDyy",
+ "title": "U8登录不上去，提示数据库连接异常",
+ "problem": "U8登录不上去，提示数据库连接异常",
+ "cause": "启动数据库，报错未启动成功，查看事件查看器，提示SQL Server评估期已过",
+ "solution": "升级数据库，SQL Server2016永久密钥：MDCJV-3YX8N-WG89M-KV443-G8249 升级后可正常启动数据库，及正常登录U8",
+ "solution_types": [
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "数据库连接异常"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-09-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WNpcjPEDyy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

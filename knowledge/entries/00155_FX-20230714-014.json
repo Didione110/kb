@@ -1,0 +1,47 @@
+{
+ "id": "FX-20230714-014",
+ "record_id": "3g7atJew9E",
+ "title": "对账错误",
+ "problem": "对账错误",
+ "cause": "时空直接写入用友数据库，没有数据校验的过程，导致字段写入格式不正确",
+ "solution": "1、通过报错科目，找到报错的原因\n2、取消记账，调整凭证明细表\n3、通知接口实施同事修改接口相关字段",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "对账错误"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-07-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakbrG5Jgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakbrG5Jgk9rpMq",
+  "doc_path": "/用友/数据接口问题/对账错误",
+  "record_id": "3g7atJew9E"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/对账错误",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

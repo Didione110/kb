@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241104-009",
+ "record_id": "q0i7i0xvCW",
+ "title": "某些地区，药店门诊需要按门诊流程调用接口\n智慧医保，增加门诊结算流程，门诊结算2201-2203-2204-2206-2207；\n",
+ "problem": "某些地区，药店门诊需要按门诊流程调用接口\n智慧医保，增加门诊结算流程，门诊结算2201-2203-2204-2206-2207；",
+ "cause": "某些地区，药店门诊需要按门诊流程调用接口",
+ "solution": "按要求调用智慧医保，门诊退款自行调用：2208-2205-2202；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "门诊结算"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN76b1KW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN76b1KW9dEq3XD",
+  "doc_path": "/自研/数据接口问题/某些地区，药店门诊需要按门诊流程调用接口 智慧医保，增加门诊结算流程，门诊结算2201-2203-2204-2206-2207；",
+  "record_id": "q0i7i0xvCW"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/某些地区，药店门诊需要按门诊流程调用接口 智慧医保，增加门诊结算流程，门诊结算2201-2203-2204-2206-2207；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

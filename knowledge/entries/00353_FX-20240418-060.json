@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240418-060",
+ "record_id": "8PPykYktT3",
+ "title": "有一台天联客户端无法登陆，提示“连接服务器失败，请检查网络并重试”",
+ "problem": "有一台天联客户端无法登陆，提示“连接服务器失败，请检查网络并重试”",
+ "cause": "环境问题",
+ "solution": "1. 测试其他客户端登录无误，重新安装无法登陆的天联客户端，没效果\n2. 手动结束GNTKProProxy (32 位)进程，使用安装路径下的GNESLClient登陆触发进程，成功登录一次后再次提示“连接服务器失败，请检查网络并重试”\n3. 联系金万维工程师，判断为客户为广电的网，慢的连进程都起不起来，在服务器上改了天联相关配置，加了个中转站，将GNESLClient发布至桌面，后期双击此程序启动天联即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Nginx"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "天联登录失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-04-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lebnw86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lebnw86EDybno",
+  "doc_path": "/其他/环境问题/有一台天联客户端无法登陆，提示连接服务器失败，请检查网络并重试",
+  "record_id": "8PPykYktT3"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/有一台天联客户端无法登陆，提示连接服务器失败，请检查网络并重试",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

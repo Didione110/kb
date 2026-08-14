@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230111-005",
+ "record_id": "Guvv257IkM",
+ "title": "建账日期错误",
+ "problem": "建账日期错误",
+ "cause": "建账日期错误",
+ "solution": "在还没有做业务数据的情况下，可以通过执行sql的方式调整\n需要修改的表是bd_glorgbook PK_STARTACCPERIOD 总账启用期间字段\nPK_STARTPERIOD_FA 固定资产启用期间字段\n修改之前先备份表\noracle ：create table bd_glorgbookbak as select * from bd_glorgbook\nsqlserver: select * into bd_glorgbookbak from bd_glorgbook\n然后修改总账启用日期\nupdate bd_glorgbook set PK_STARTACCPERIOD ='目标会计月份的主键' where GLORGBOOKCODE ='需要修改的会计账簿编码'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "建账日期"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-01-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Guvv257IkM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

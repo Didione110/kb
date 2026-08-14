@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251023-026",
+ "record_id": "PTAqbhxZNs",
+ "title": "更新最新ROOT后，所有的单据再现，都显示了企业名称\n如果是多企业多机构的用户，使用体验感很不好",
+ "problem": "更新最新ROOT后，所有的单据再现，都显示了企业名称\n如果是多企业多机构的用户，使用体验感很不好",
+ "cause": "root/common/dialog.js\n单据再现的时候引用的方法加载了企业名称，详细路径在\nqyDialog.show = function (param) {\n param.height += 27;\n var w = document.documentElement.clientWidth - 10;\n var h = document.documentElement.clientHeight - 10;\n if (typeof sys_ismobile == 'boolean' && sys_ismobile === true) {\n if (param.srcWindow) {\n param.width = param.srcWindow.document.documentElement.clientWidth;\n param.height = param.srcWindow.document.documentElement.clientHeight;\n } else {\n param.width = document.documentElement.clientWidth;\n param.height = document.documentElement.clientHeight;\n\n }\n } else {\n if (param.width > w) {\n param.width = w;\n\n }\n\n if (param.height > h) {\n param.height = h;\n\n\n }\n }\n let opts = {\n type: 2,\n\n title: param.title || '页面加载中...',\n maxmin: param.maxmin == null ? true : param.maxmin,\n area: [param.width + 'px', param.height + 'px'],\n content: param.url,\n shade: typeof param.shade == 'boolean' ? param.shade : undefined,\n cancel: function () {\n if (param.childWindow && param.childWindow.form) {\n param.childWindow.form.close();\n\n } else {\n if (param.formClose) {\n param.formClose.apply(param.context, [undefined]);\n\n }\n layer.close(index);\n\n }\n return false;\n\n },\n end: function () {\n if (param.srcWindow) {\n param.srcWindow.focus();\n\n }\n qyDialog.destory(index);\n\n },\n success: function(layero, index){\n try {\n let title = $(\"#layui-layer\" + index + \" .layui-layer-title\").text();\n let t_index = title.indexOf(\"】－\");\n \n if(t_index > 0) {\n title = title.substring(0, t_index + 1);\n $(\"#layui-layer\" + index + \" .layui-layer-title\").text(title)\n }\n } catch(e) {\n console.error(e)\n }\n }, \n resizing: sys_dialog_resize,\n full: sys_dialog_resize,\n restore: sys_dialog_resize\n\n };\n let onSuccess = param.onSuccess;\n if (onSuccess != 'undefined' && onSuccess != null && typeof onSuccess == 'function') {\n opts.success = onSuccess;\n\n }\n let index = layer.open(opts);\n this.sys_dialog_params[\"windows\" + index] = param;\n return index;\n\n}",
+ "solution": "重点在sucess回调部分，增加成功的回调即可。\n\n success: function(layero, index){\n try {\n let title = $(\"#layui-layer\" + index + \" .layui-layer-title\").text();\n let t_index = title.indexOf(\"】－\");\n \n if(t_index > 0) {\n title = title.substring(0, t_index + 1);\n $(\"#layui-layer\" + index + \" .layui-layer-title\").text(title)\n }\n } catch(e) {\n console.error(e)\n }\n },",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "企业名称显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-10-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PTAqbhxZNs"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

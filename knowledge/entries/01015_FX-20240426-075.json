@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240426-075",
+ "record_id": "Q0umdIWGFs",
+ "title": "收款单审核提示：有账户已经取消使用权",
+ "problem": "收款单审核提示：有账户已经取消使用权",
+ "cause": "查看收款单的收款银行账户与结算的本方账户不一致导致报错",
+ "solution": "修改收款单的收款银行账户与结算的本方账户一致",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "账户取消"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-04-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Q0umdIWGFs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

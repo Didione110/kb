@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250813-024",
+ "record_id": "tY1GEACXj7",
+ "title": "1.全文检索服务安装完成，索引无法新建生成。",
+ "problem": "1.全文检索服务安装完成，索引无法新建生成。",
+ "cause": "如果不设置全文检索默认密码的情况下，需要更改配置文件的elasticsearch.yml 文件中的 xpack.security.enabled: true 是开启状态，关闭它。",
+ "solution": "需要更改配置文件的elasticsearch.yml 文件中的 xpack.security.enabled: true 是开启状态，关闭它。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Shell",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "索引生成"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2025-08-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tY1GEACXj7"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

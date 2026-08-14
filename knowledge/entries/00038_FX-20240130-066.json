@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240130-066",
+ "record_id": "0tmxzsw8Ea",
+ "title": "项目档案上面显示终止了，后续业务单据都选不到",
+ "problem": "项目档案上面显示终止了，后续业务单据都选不到",
+ "cause": "是不小心终止，要取消终止",
+ "solution": "执行以下语句\nupdate b\nset b.CancelDate=null,b.IsCanceled=0,b.CanceledBy=''\nfrom CBO_Project b \nwhere b.code='项目编码'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "档案终止"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0tmxzsw8Ea"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

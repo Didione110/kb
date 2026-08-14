@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250623-028",
+ "record_id": "oUOmO6Nv65",
+ "title": "流程结束但要删除附件",
+ "problem": "流程结束但要删除附件",
+ "cause": "数据库无法处理，前台存储的是XML文件",
+ "solution": "先将流程视图从view变成edit，再按F12再控制台输入Com_Submit(document.kmReviewMainForm, 'update')再进行操作，注意：此方法不适用于低代码平台",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "附件删除"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-06-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oUOmO6Nv65"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240201-012",
+ "record_id": "DUnfIe7GK2",
+ "title": "图片附件上传保存时提示违反了 PRIMARY KEY 约束，不能在对象'dbo.KMATTACHMENT'中插入重复键。",
+ "problem": "图片附件上传保存时提示违反了 PRIMARY KEY 约束，不能在对象'dbo.KMATTACHMENT'中插入重复键。",
+ "cause": "原因为上传的billno与KMATTACHMENT表中的billno重复",
+ "solution": "调整billno生成的最大值，再上传就不会提示重复。调整syscode表中prefix列为A的recnum值",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "主键冲突"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1ydGzJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1ydGzJlemrZQ3",
+  "doc_path": "/时空/数据错误问题/图片附件上传保存时提示违反了 PRIMARY KEY 约束，不能在对象'dbo.KMATTACHMENT'中插入重复键。",
+  "record_id": "DUnfIe7GK2"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/图片附件上传保存时提示违反了 PRIMARY KEY 约束，不能在对象'dbo.KMATTACHMENT'中插入重复键。",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

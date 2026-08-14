@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-071",
+ "record_id": "MgYHTtCTFf",
+ "title": "点三OMS订单库存占用时机需要调整",
+ "problem": "点三OMS订单库存占用时机需要调整",
+ "cause": "客户因业务要求，需要将库存占用时间按下单时间节点进行占用。",
+ "solution": "调整系统设置中的库存占用时机配置项，调整成按下单时间占用库存",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存占用时机"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lov1o86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lov1o86EDybno",
+  "doc_path": "/其他/产品功能问题/点三OMS订单库存占用时机需要调整",
+  "record_id": "MgYHTtCTFf"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/点三OMS订单库存占用时机需要调整",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

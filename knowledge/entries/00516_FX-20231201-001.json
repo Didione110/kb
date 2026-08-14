@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231201-001",
+ "record_id": "CoefNfggAS",
+ "title": "大量单据连续扫描打印面单时 ，中间会有单据没有打印面单，期间也没有报错。所有单据扫完后，再去补打",
+ "problem": "大量单据连续扫描打印面单时 ，中间会有单据没有打印面单，期间也没有报错。所有单据扫完后，再去补打",
+ "cause": "扫码后，一张单据如果有多张报告单需要打印，在传输打印指令期间，再去扫下一张单据标签时，面单不会打印",
+ "solution": "扫标签时,扫完一个单据停顿2秒再扫下一个",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "漏打面单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2023-12-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMGmgjJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMGmgjJB5r9YAn",
+  "doc_path": "/自研/应用操作/大量单据连续扫描打印面单时 ，中间会有单据没有打印面单，期间也没有报错。所有单据扫完后，再去补打",
+  "record_id": "CoefNfggAS"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/大量单据连续扫描打印面单时 ，中间会有单据没有打印面单，期间也没有报错。所有单据扫完后，再去补打",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

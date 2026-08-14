@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241230-031",
+ "record_id": "E3cOqsCzc7",
+ "title": "费控服务-新增预付发票核销单单据，表头费用承担组织选到米婆婆生物，费用分摊区供应商就可以根据报销明细供应商字段带出来，但是表头费用承担组织选到老家荆楚费用分摊区供应商就带不出来",
+ "problem": "费控服务-新增预付发票核销单单据，表头费用承担组织选到米婆婆生物，费用分摊区供应商就可以根据报销明细供应商字段带出来，但是表头费用承担组织选到老家荆楚费用分摊区供应商就带不出来",
+ "cause": "因为老家荆楚配置了分摊区不按照客商带值",
+ "solution": "需要更改老家荆楚截图所示参数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "费用承担组织"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-12-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "E3cOqsCzc7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260203-009",
+ "record_id": "HF7Hjm5BKt",
+ "title": "由生产订单改制，把A工单的生产数量转出后，现在又不想改制了，能不能把转出数量，取消转出操作",
+ "problem": "由生产订单改制，把A工单的生产数量转出后，现在又不想改制了，能不能把转出数量，取消转出操作",
+ "cause": "由生产订单改制，把A工单的生产数量转出后，现在又不想改制了，能不能把转出数量，取消转出操作，目的是把生产订单删除",
+ "solution": "改制操作不可逆。建议删除改制后订单，然后再去改制前订单把生产数量改大，再去开工",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "追溯码",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "取消转出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HF7Hjm5BKt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

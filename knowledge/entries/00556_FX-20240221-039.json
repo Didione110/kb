@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240221-039",
+ "record_id": "Dc4QhZSjEA",
+ "title": "在总账修改业务系统传过来的凭证时，提示凭证本身禁止增删改分录",
+ "problem": "在总账修改业务系统传过来的凭证时，提示凭证本身禁止增删改分录",
+ "cause": "参数设置错误",
+ "solution": "1、在凭证模板定义节点，找到对应的控制条件，勾选是否修改，按照实际需求修改打勾;\n2、在凭证生成界面，找到选项，点击控制条件，找到对应单据修改:\n3、注意，在设置之前生成的凭证修改不了\n4、如果凭证生成和凭证模板定义界面均作了控制，则优先凭证模板定义界面的控制后按照凭证生成处\"选项\"里的控制，但有一个除外，即\"是否允许增删分录”这个控制只能在【凭证生成】节点的\"选项\"中勾选以后，方可生效;",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证禁止修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Dc4QhZSjEA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

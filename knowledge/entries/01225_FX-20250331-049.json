@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250331-049",
+ "record_id": "WIgK96lE22",
+ "title": "U818.0升级时报错：网络错误，准备模板文件出错，请重试。",
+ "problem": "U818.0升级时报错：网络错误，准备模板文件出错，请重试。",
+ "cause": "（1）把定时服务开启（账套备份服务需要正常启动、运行）；\n\n（2）以管理员身份运行系统管理；\n\n（3）再做账套升级即可正常。",
+ "solution": "（1）把定时服务开启（账套备份服务需要正常启动、运行）；\n\n（2）以管理员身份运行系统管理；\n\n（3）再做账套升级即可正常。",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "U8升级报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WIgK96lE22"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

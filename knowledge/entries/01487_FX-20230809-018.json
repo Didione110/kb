@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230809-018",
+ "record_id": "cfbztMO7sQ",
+ "title": "智友V10 V11 V12对资质颜色判断无对应解决方案，前期均靠实施人员根据自身经验和客户开发",
+ "problem": "智友V10 V11 V12对资质颜色判断无对应解决方案，前期均靠实施人员根据自身经验和客户开发",
+ "cause": "以前KSOA内基础资料存在zhengzzt字段，用于色标和证照效期判断，但智友后续取消了此功能甚是遗憾",
+ "solution": "根据MSSQL和ORACLE特性，单独开发表单和对应判断函数，以ORACLE为例子编写数据库公共函数和存储过程，然后实施人员在资料修改时发起即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "资质颜色判断"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cfbztMO7sQ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

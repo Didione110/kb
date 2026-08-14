@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230203-001",
+ "record_id": "iXlt2XavTf",
+ "title": "接口传递参数金额不易多传，销售订单只需要传原币无税单价",
+ "problem": "接口传递参数金额不易多传，销售订单只需要传原币无税单价",
+ "cause": "金额多传后，系统不会自动换算，导致可能存在小数位数差异，只传原币无税单价后，系统其他金额会自动换算。",
+ "solution": "只需要传原币无税单价",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "金额精简"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iXlt2XavTf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

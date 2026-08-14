@@ -1,0 +1,36 @@
+{
+ "id": "FX-20241029-040",
+ "record_id": "ghAIDHmjt1",
+ "title": "应收单，把 未税单价 拉到行里不显示",
+ "problem": "应收单，把 未税单价 拉到行里不显示",
+ "cause": "是应收单的参数设置，不是在个性化模板里设置的",
+ "solution": "应收管理-参数设置-应收单单价全部显示=√时就可以正常显示了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "未税单价"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-10-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ghAIDHmjt1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

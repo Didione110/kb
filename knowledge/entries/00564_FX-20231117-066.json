@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231117-066",
+ "record_id": "DoWqBMzqhG",
+ "title": "怎么按数量阶梯设置采购价格",
+ "problem": "怎么按数量阶梯设置采购价格",
+ "cause": "采购折扣节点，可按供应商设置数量或金额阶梯采购价格，设置上下限值，在采购订单业务流程中引用",
+ "solution": "采购订单表体显示折扣规则编码字段，系统逻辑是单据保存后生效",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "阶梯定价"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购服务",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-11-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DoWqBMzqhG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

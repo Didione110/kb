@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-060",
+ "record_id": "L6CKgq7Oq3",
+ "title": "客户要求在查询报表对某一列进行固定显示",
+ "problem": "客户要求在查询报表对某一列进行固定显示",
+ "cause": "无",
+ "solution": "打开方法里面新增\ngrid1.fixedCols = 1 //1代表字段的位置，第几个\nds\\_djmx.updateGrid();",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "列固定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjK4Oa8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjK4Oa8AgozOKL",
+  "doc_path": "/时空/应用操作/客户要求在查询报表对某一列进行固定显示",
+  "record_id": "L6CKgq7Oq3"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/客户要求在查询报表对某一列进行固定显示",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

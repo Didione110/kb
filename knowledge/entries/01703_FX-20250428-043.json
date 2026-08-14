@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250428-043",
+ "record_id": "iBeN2Fxwra",
+ "title": "报表权限改了单位用户权限，但是登录报表界面选择还是显示能看到全部的单位。",
+ "problem": "报表权限改了单位用户权限，但是登录报表界面选择还是显示能看到全部的单位。",
+ "cause": "环境问题 （u8c所有版本）",
+ "solution": "u8c所有报表所有这个问题需要打补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "权限未生效"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iBeN2Fxwra"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

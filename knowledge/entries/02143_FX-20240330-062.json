@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240330-062",
+ "record_id": "smxKcY2opR",
+ "title": "平板拣货模式，一段时间后会有卡顿情况",
+ "problem": "平板拣货模式，一段时间后会有卡顿情况",
+ "cause": "平板拣货提交会将数据插入zz_xjrwmx_his，但是这个表的数据整理不在转历史存储过程里，很容易忽略这个表的数据处理，数据量大了后会导致拣货环节卡顿",
+ "solution": "在转历史过程里增加zz_xjrwmx_his表的处理代码",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "平板卡顿"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-03-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "smxKcY2opR"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

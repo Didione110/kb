@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240429-085",
+ "record_id": "cTP6QGnaK8",
+ "title": "客户在u8c报表模板怎么取出上年累计数据",
+ "problem": "客户在u8c报表模板怎么取出上年累计数据",
+ "cause": "上年累计数无法通过公式取数",
+ "solution": "上年累计数据可以通过指标函数进行取数",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "上年累计"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cTP6QGnaK8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

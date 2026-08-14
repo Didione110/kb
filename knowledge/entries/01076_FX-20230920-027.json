@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230920-027",
+ "record_id": "RmQjlJAsIo",
+ "title": "录入单据无法选择内部客商的银行账户",
+ "problem": "录入单据无法选择内部客商的银行账户",
+ "cause": "从以下几点排查：1、内部客商是否是通过业务单元生成的客户和供应商 2、对应的银行账户档案使用权是否授权给该内部客商 3、银行账户档案是否勾选【交易账户】",
+ "solution": "从以下几点排查：1、内部客商是否是通过业务单元生成的客户和供应商 2、对应的银行账户档案使用权是否授权给该内部客商 3、银行账户档案是否勾选【交易账户】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "银行账户"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-09-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RmQjlJAsIo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

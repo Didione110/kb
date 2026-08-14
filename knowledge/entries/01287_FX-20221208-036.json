@@ -1,0 +1,39 @@
+{
+ "id": "FX-20221208-036",
+ "record_id": "XqtT8unUaw",
+ "title": "测试的外销合同不能编辑和删除，审批信息不能动",
+ "problem": "测试的外销合同不能编辑和删除，审批信息不能动",
+ "cause": "查询“销售订单”，选择关联全部单据无信息，语句查询显示订单已关闭",
+ "solution": "用操作员身份登陆，选择【打开】，再换到审核员DEMO取消所有审批后，删除单据成功",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "外销合同权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-12-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XqtT8unUaw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-035",
+ "record_id": "kLg7rwcNUW",
+ "title": "医保接口程序在下载结算数据时候直接崩溃",
+ "problem": "医保接口程序在下载结算数据时候直接崩溃",
+ "cause": "经过排查发现是因为医保调整了字段属性，现有的个别数字类型字段精度不够，最终在保存时抛错导致",
+ "solution": "调整对应表结构字段属性",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保崩溃"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOljMzo8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOljMzo8Zd1wyK0",
+  "doc_path": "/自研/安装部署问题/医保接口程序在下载结算数据时候直接崩溃",
+  "record_id": "kLg7rwcNUW"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/医保接口程序在下载结算数据时候直接崩溃",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

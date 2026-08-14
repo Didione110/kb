@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240201-005",
+ "record_id": "wgRQMDoWlL",
+ "title": "提取方案选择完毕后有字段的值带不出来，但是检查sql可以查询出字段值，对应的数据集字段名也没错",
+ "problem": "提取方案选择完毕后有字段的值带不出来，但是检查sql可以查询出字段值，对应的数据集字段名也没错",
+ "cause": "多个数据集存在相同字段名，导致赋值不上",
+ "solution": "将数据集的字段修改为不同名字段即可。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "字段值缺失"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wgRQMDoWlL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

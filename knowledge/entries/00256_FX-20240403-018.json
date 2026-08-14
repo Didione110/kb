@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240403-018",
+ "record_id": "66yZzPlmTb",
+ "title": "不合格销毁登记增加批量处理功能",
+ "problem": "不合格销毁登记增加批量处理功能",
+ "cause": "客户损溢单据较多，不合格销毁需要单品输入，操作繁琐！",
+ "solution": "自定义功能添加对应的不合格销毁批量登记功能，处理对应的不合格损溢单据",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "批量销毁登记"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DbpKXJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DbpKXJKMEvZBY",
+  "doc_path": "/其他/产品功能问题/不合格销毁登记增加批量处理功能",
+  "record_id": "66yZzPlmTb"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/不合格销毁登记增加批量处理功能",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

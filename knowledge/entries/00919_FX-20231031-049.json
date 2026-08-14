@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231031-049",
+ "record_id": "NKfF7tfXV5",
+ "title": "销售发票保存时提示检查销售订单开票数量失败",
+ "problem": "销售发票保存时提示检查销售订单开票数量失败",
+ "cause": "红字发票的来源需要否选是够退货",
+ "solution": "修改销售订单，勾选是够退货，重新做销售出库、销售发票",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "开票数量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NKfF7tfXV5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

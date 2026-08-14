@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240805-014",
+ "record_id": "qDAWLY5NMl",
+ "title": "诺诺发票客户问题查看，批量开票按钮点击没有效果，没有反应。",
+ "problem": "诺诺发票客户问题查看，批量开票按钮点击没有效果，没有反应。",
+ "cause": "客户电脑环境问题",
+ "solution": "建议客户安装.netframework4.8及以上解决；",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "批量开票失效"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbM7gjqJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbM7gjqJB5r9YAn",
+  "doc_path": "/自研/环境问题/诺诺发票客户问题查看，批量开票按钮点击没有效果，没有反应。",
+  "record_id": "qDAWLY5NMl"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/诺诺发票客户问题查看，批量开票按钮点击没有效果，没有反应。",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

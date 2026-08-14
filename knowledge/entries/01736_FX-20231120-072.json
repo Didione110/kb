@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231120-072",
+ "record_id": "jAjHVRtxoD",
+ "title": "自动备份文件夹里面为空，且以前的备份设置的是只保留3份，却在不停追加份数",
+ "problem": "自动备份文件夹里面为空，且以前的备份设置的是只保留3份，却在不停追加份数",
+ "cause": "环境问题",
+ "solution": "备份账套，打AA、FS、SMC、DP及附带补丁，执行账套",
+ "solution_types": [
+  "补丁更新",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "备份异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jAjHVRtxoD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

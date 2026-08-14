@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240507-032",
+ "record_id": "xN37fuYRLF",
+ "title": "数据库软件损坏无法通过图形界面还原数据库备份文件",
+ "problem": "数据库软件损坏无法通过图形界面还原数据库备份文件",
+ "cause": "数据库软件损坏无法通过图形界面还原数据库备份文件",
+ "solution": "数据库还原语句\nRESTORE DATABASE [目标数据库名] \nFROM DISK = 'D:\\Backups\\YourDatabaseBackup.bak' \nWITH MOVE 'YourDatabaseDataFile' TO 'D:\\SQLData\\目标数据库名.mdf', \nMOVE 'YourDatabaseLogFile' TO 'D:\\SQLData\\目标数据库名.ldf', \nREPLACE, -- 如果目标数据库已存在，则替换它 \nNORECOVERY; -- 如果你想在之后应用事务日志备份，则使用NORECOVERY",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "数据库损坏"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施4部",
+  "date": "2024-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xN37fuYRLF"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

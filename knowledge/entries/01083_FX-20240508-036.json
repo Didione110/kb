@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240508-036",
+ "record_id": "S42rh9sZOC",
+ "title": "使用await/async异步方法顺序执行报错\n",
+ "problem": "使用await/async异步方法顺序执行报错",
+ "cause": "async作用域位置错误",
+ "solution": "调整async作用域",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "async await 报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-05-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmanr2JGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmanr2JGlDd3mE",
+  "doc_path": "/自研/产品功能问题/使用await async异步方法顺序执行报错",
+  "record_id": "S42rh9sZOC"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/使用await async异步方法顺序执行报错",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250515-015",
+ "record_id": "UyPRBEm9Sa",
+ "title": "单据打印模板中取物料属性",
+ "problem": "单据打印模板中取物料属性",
+ "cause": "单据打印模板中取物料属性",
+ "solution": "getProductValue(“define!属性名称“,orderDetails.productId,salesOrgId)\n\n其中：\n\n①define! 自定义属性标识\n\n②属性名称 自定义属性名称\n\n③orderDetails.productId 物料ID\n\n④salesOrgId 组织ID",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "物料属性"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UyPRBEm9Sa"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

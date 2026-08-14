@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221205-032",
+ "record_id": "a3sVgg4BjS",
+ "title": "提取方案卡顿问题",
+ "problem": "提取方案卡顿问题",
+ "cause": "检索语句效率慢、没有击中索引",
+ "solution": "增加过滤条件，提取标识+日期范围过滤 ；\n优化索引",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "卡顿"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-12-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "a3sVgg4BjS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

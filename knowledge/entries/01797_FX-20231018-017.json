@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231018-017",
+ "record_id": "kgLhJMVtbc",
+ "title": "DHERP V12\n采购申请单，手工填写需要带出供应商（从商品资料中带出），不然提示没有供应商信息",
+ "problem": "DHERP V12\n采购申请单，手工填写需要带出供应商（从商品资料中带出），不然提示没有供应商信息",
+ "cause": "功能调整",
+ "solution": "开发工具找到采购申请单\n1.查数据项商品选择时用的方式为selecctor：sel_goods\n2.查看组件sel_goods，控件的方案类型为form，对应表单为3dpfbrf98tozexb9\n3.打开3dpfbrf98tozexb9（采购商品选择）表单，查看JS商品选择时调用的组件为ds_goodsdoc\n4.在ds_goodsdoc组件中增加数据项BusinessName（单位名称）和SuppliersId（供应商ID）\n5.sql集合-- sql_selsp\n插入查询\n e.businessname,e.businessid as SuppliersId\n插入联表（即GoodsDoc.a表与businessdoc.e表）\njoin businessdoc e(nolock) on a.businessid=e.businessid and a.entid=e.entid\n6.在采购申请单表单中数据项中，将businessname的标题改为“供应商名称”，使用自定义国际化且只读\n7.在采购申请单表单中打开JS中的uf_saveCheck()功能，插入\n if(ds_ddmx.getValueAt(i,\"SuppliersId\")=='') {\n form.alert(\"第：\"+kk+\"行商品供应商有误，请联系采购主管进行设置。\" )\n return false;\n }",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "JS",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "供应商带出"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kgLhJMVtbc"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

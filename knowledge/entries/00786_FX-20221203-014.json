@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221203-014",
+ "record_id": "K5MpV1XWwI",
+ "title": "在科情HR系统中考勤模块中，会出现日期格式计算间隔时间问题",
+ "problem": "在科情HR系统中考勤模块中，会出现日期格式计算间隔时间问题",
+ "cause": "在JS中，一般日期字段是字符串，需先将日期字符串转换为Date后，再进行相关计算；",
+ "solution": "通过该JS方法，进行计算\n//计算两个日期之差\nfunction GetDateDiff(startTime, endTime, diffType) \\{\n //将xxxx-xx-xx的时间格式，转换为 xxxx/xx/xx的格式\n startTime = startTime.replace(/-/g, \"/\");\n endTime = endTime.replace(/-/g, \"/\");\n //将计算间隔类性字符转换为小写\n diffType = diffType.toLowerCase();\n var sTime = new Date(startTime); //开始时间\n var eTime = new Date(endTime); //结束时间\n```\nif (sTime > eTime) {\n alert(\"开始时间不能大于结束时间!!!\");\n return false;\n }\n//作为除数的数字\nvar divNum = 1;\nswitch (diffType) {\ncase \"second\":\n divNum = 1000;\n break;\ncase \"minute\":\n divNum = 1000 * 60;\n break;\ncase \"hour\":\n divNum = 1000 * 3600;\n break;\ncase \"day\":\n divNum = 1000 * 3600 * 24;\n break;\ndefault:\n break;\n}\nreturn parseInt((eTime.getTime() - sTime.getTime()) / parseInt(divNum));\n\n```\n\n\\}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日期格式"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "科情HR",
+ "module": "",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "需求&KA部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0bowLVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0bowLVDOnGvpb",
+  "doc_path": "/自研/数据错误问题/在科情HR系统中考勤模块中，会出现日期格式计算间隔时间问题",
+  "record_id": "K5MpV1XWwI"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/在科情HR系统中考勤模块中，会出现日期格式计算间隔时间问题",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

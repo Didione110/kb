@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240305-022",
+ "record_id": "ywTBiAsYVC",
+ "title": "部分异地医保卡，没有刷卡凭证导致刷异地报错",
+ "problem": "部分异地医保卡，没有刷卡凭证导致刷异地报错",
+ "cause": "原因是异地卡当地刷卡限制必须提前知道凭证方式（电子社保卡、身份证、还是社保卡），但是湖北是刷卡时候才会进行选择并且不会返回凭证方式信息，",
+ "solution": "根据该需求在零售业务开票新增凭证方式选择，然后在刷卡时候将凭证方式进行传入",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "异地凭证"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ywTBiAsYVC"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230223-040",
+ "record_id": "MJMl0ut0l4",
+ "title": "U8服务器和客户端无法登录，提示：“由于系统缓冲区空间不足或队列已满，不能执行套接字上的操作”",
+ "problem": "U8服务器和客户端无法登录，提示：“由于系统缓冲区空间不足或队列已满，不能执行套接字上的操作”",
+ "cause": "服务器虚拟内存太小导致",
+ "solution": "加大虚拟内存量，右键单击我的电脑——>属性——>高级——>性能设置——>高级——>将虚拟内存的值加大，加大虚拟内存重启服务器后，登陆正常",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "套接字错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-02-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MJMl0ut0l4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

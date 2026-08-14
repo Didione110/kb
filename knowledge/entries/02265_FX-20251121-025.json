@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251121-025",
+ "record_id": "vqUd4tFmq3",
+ "title": "如何快速的关闭某个SPU关联的所有链接的库存同步",
+ "problem": "如何快速的关闭某个SPU关联的所有链接的库存同步",
+ "cause": "品种没库存了，但是短时间内可以回货，为了不影响店铺的销售。断开点三系统的库存同步，店铺后台手动填写库存，链接继续销售，等回货后再发货。",
+ "solution": "网店商品匹配功能中用SPU查询出所有链接，操作批量解除匹配关系，因为库存同步逻辑是匹配成功的链接才能执行库存同步任务，所以解除匹配关系后链接就不会同步库存。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存同步关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-11-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vqUd4tFmq3"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

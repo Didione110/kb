@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240805-013",
+ "record_id": "7WxI0ieyq5",
+ "title": "美团店铺订单商品明细实收金额出现负数。",
+ "problem": "美团店铺订单商品明细实收金额出现负数。",
+ "cause": "订单实收金额未包含平台服务费，明细分摊的金额本来就很少，如果不包含服务费就是负金额。",
+ "solution": "开启点三订单设置中的美团、饿了么、得物、京东到家平台订单包含服务费开关。实收金额就包含了平台服务费，避免负金额情况的出现。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "实收负数"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDLkaEW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDLkaEW6zbX04v",
+  "doc_path": "/其他/产品功能问题/美团店铺订单商品明细实收金额出现负数。",
+  "record_id": "7WxI0ieyq5"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/美团店铺订单商品明细实收金额出现负数。",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

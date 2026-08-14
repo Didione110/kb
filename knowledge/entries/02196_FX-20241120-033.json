@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241120-033",
+ "record_id": "uCKgHUHncv",
+ "title": "时空智友自带的右键插件里只有企业商品总账页，客户经常性需要的是批号账页，但是智友自带的帐页表中没有存储相关数据，故常规操作无法实现",
+ "problem": "时空智友自带的右键插件里只有企业商品总账页，客户经常性需要的是批号账页，但是智友自带的帐页表中没有存储相关数据，故常规操作无法实现",
+ "cause": "管理区新增一个插件，单独另存一个批号帐页的查询表单\nif (dataset.recordcount>0){\n if (FormUtil.existField(dataset,\"AngleId\")){\n var params = {};\n params.AngleId= dataset.field(\"AngleId\").value;\n form.open(\"1k4fcr4dceh4xk9i\", params, \"card\", \"\", 900, 600);\n }\n}",
+ "solution": "帐页表单页面在这里不做过多描述，有志之士可以自己去画，主要是为了分享oracle12c之后的sql语句计算批号结存数量和结存金额的语句，目的是使用开窗函数，来计算上下行的累积\n SELECT \n b.innum,\n b.inamt,\n b.outnum,\n b.outamt,\n COALESCE(SUM(b.innum - b.outnum) OVER (ORDER BY b.serialnum ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW), 0) AS balnum ,\n COALESCE(SUM(b.inamt - b.outamt) OVER (ORDER BY b.serialnum ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW), 0) AS balamt\n FROM \n goodacctmt a \n JOIN \n goodacctdt b \n ON \n a.acctpageid = b.acctpageid AND a.entid = b.entid\n WHERE \n b.AngleId = 'L4ILMVAKZQJ' AND a.entid = 'E4F2EAE2LNH' AND a.orgid = 'O4F2EAE35MX'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "批号账页"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uCKgHUHncv"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231228-071",
+ "record_id": "KLbH0v0pTS",
+ "title": "设置报表，报表在集团设置的，但是计算报表，切换每个公司单位计算都是计算出集团母公司的值。",
+ "problem": "设置报表，报表在集团设置的，但是计算报表，切换每个公司单位计算都是计算出集团母公司的值。",
+ "cause": "报表公式设置有问题",
+ "solution": "报表所有公式需要加上k('单位')，如：GLFS('6402','','',,,'本币','Y',k('单位'),'本币','')",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "报表计算错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-12-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KLbH0v0pTS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

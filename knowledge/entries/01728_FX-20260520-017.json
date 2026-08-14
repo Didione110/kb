@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260520-017",
+ "record_id": "irdwIx0nZd",
+ "title": "首营基础资料在审批时，textbox数据过长，无法查看完整数据",
+ "problem": "首营基础资料在审批时，textbox数据过长，无法查看完整数据",
+ "cause": "首营基础资料在审批时，textbox数据过长，无法查看完整数据",
+ "solution": "增加鼠标悬停功能显示完整数据\nfunction bindTooltip(ctrl, delay = 100) {\n if (!ctrl || !ctrl.dom) return;\n setTimeout(function() {\n var inputDom = ctrl.dom;\n var tooltip = document.getElementById('globalTooltip');\n if (!tooltip) {\n tooltip = document.createElement('div');\n tooltip.id = 'globalTooltip';\n tooltip.style.cssText = `\n position: absolute;\n background-color: #333;\n color: #fff;\n border-radius: 4px;\n padding: 4px 8px;\n font-size: 12px;\n white-space: nowrap;\n z-index: 10000;\n display: none;\n box-shadow: 0 2px 5px rgba(0,0,0,0.2);\n pointer-events: none;\n `;\n document.body.appendChild(tooltip);\n }\n var show = function() {\n var text = ctrl.getvalue ? ctrl.getvalue() : inputDom.value;\n if (!text) text = '暂无内容';\n tooltip.textContent = text;\n tooltip.style.display = 'block';\n var rect = inputDom.getBoundingClientRect();\n var scrollTop = window.pageYOffset || document.documentElement.scrollTop;\n tooltip.style.left = rect.left + 'px';\n tooltip.style.top = (rect.bottom + scrollTop + 5) + 'px';\n };\n var hide = function() {\n tooltip.style.display = 'none';\n };\n inputDom.addEventListener('mouseenter', show);\n inputDom.addEventListener('mouseleave', hide);\n }, delay);\n}\n\nvar textboxesToBind = [textbox3, textbox21]; // 按需添加\nfor (var i = 0; i < textboxesToBind.length; i++) {\n bindTooltip(textboxesToBind[i]);\n}\n\ntextbox3, textbox21为所需悬停功能的textbox name",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "首营资料审批"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2026-05-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "irdwIx0nZd"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

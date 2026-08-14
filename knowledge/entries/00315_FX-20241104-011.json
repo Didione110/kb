@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241104-011",
+ "record_id": "7W1xZV4dHo",
+ "title": "tomcat使用http协议导致明文协议风险",
+ "problem": "tomcat使用http协议导致明文协议风险",
+ "cause": "http协议在访问时存在账号、密码等数据明文传输问题",
+ "solution": "要求客户购买SSL证书，将SSL证书配置到Tomcat中，将http协议更换为https协议（具体修改方法可到知识库中下载查看）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密"
+ ],
+ "keywords": [
+  "HTTP明文"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlvlE48Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlvlE48Zd1wyK0",
+  "doc_path": "/时空/产品功能问题/tomcat使用http协议导致明文协议风险",
+  "record_id": "7W1xZV4dHo"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/tomcat使用http协议导致明文协议风险",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

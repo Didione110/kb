@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241130-098",
+ "record_id": "hhq3wa4Xiq",
+ "title": "WMS切换，ERP库存导入WMS后，绑架位会出现除数未0报错。",
+ "problem": "WMS切换，ERP库存导入WMS后，绑架位会出现除数未0报错。",
+ "cause": "原因是导入库存表的时候没有插入件包装字段(多仓版更新后，库存表有件包装字段，之前老版本没有)",
+ "solution": "导入库存时同时导入件包装或者导入后刷新库存表的件包装",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "绑架位报错"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hhq3wa4Xiq"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

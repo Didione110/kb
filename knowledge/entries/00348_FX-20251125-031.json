@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251125-031",
+ "record_id": "8HTSHORlj6",
+ "title": "审批中心不支持这种固定单据字段的查询，可进行特殊处理 客开方案：在审批中心加的金额字段，虽然不具备通用性，可针对这个类型的单据加个金额字段。 在下面请求中，直接到对应的数据库表中进行查询，入库类如下。 nccloud.web.riart.message.action.ListAction",
+ "problem": "审批中心不支持这种固定单据字段的查询，可进行特殊处理 客开方案：在审批中心加的金额字段，虽然不具备通用性，可针对这个类型的单据加个金额字段。 在下面请求中，直接到对应的数据库表中进行查询，入库类如下。 nccloud.web.riart.message.action.ListAction",
+ "cause": "客户需要在审批中心增加查询条件-金额，进行单据过滤",
+ "solution": "增加查询区域位置如附件截图所示，修改值的逻辑课参考内容选项的setContent，其他的不用动，会自动将新增的查询条件的带过去，源码申请路径uap/msgcenter/message/main，需要在源码上进行卡法处理",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "审批中心、金额字段、客开方案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "低代码开发平台",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-11-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pR3b48gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pR3b48gN7R35y",
+  "doc_path": "/用友/应用操作/审批中心不支持这种固定单据字段的查询，可进行特殊处理 客开方案：在审批中心加的金额字段，虽然不具备通用性，可针对这个类型的单据加个金额字段。 在下面请求中，直接到对应的数据库表中进行查询，入库类...",
+  "record_id": "8HTSHORlj6"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/审批中心不支持这种固定单据字段的查询，可进行特殊处理 客开方案：在审批中心加的金额字段，虽然不具备通用性，可针对这个类型的单据加个金额字段。 在下面请求中，直接到对应的数据库表中进行查询，入库类...",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

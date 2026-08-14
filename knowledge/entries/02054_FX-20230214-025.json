@@ -1,0 +1,37 @@
+{
+ "id": "FX-20230214-025",
+ "record_id": "qOjfy1NNB0",
+ "title": "调用采购收货单接口报“实到数量1交易和计价数量组间的数量不匹配”",
+ "problem": "调用采购收货单接口报“实到数量1交易和计价数量组间的数量不匹配”",
+ "cause": "数量字段传多了，只需要传一个数量字段即可",
+ "solution": "根据调用示例传值即可",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数量不匹配"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-02-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qOjfy1NNB0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

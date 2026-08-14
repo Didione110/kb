@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241128-059",
+ "record_id": "jmzvl6uEvo",
+ "title": "同一个岗位需要针对指定人员分配功能页面中的部分功能项",
+ "problem": "同一个岗位需要针对指定人员分配功能页面中的部分功能项",
+ "cause": "有些功能中的功能项操作影响较大，一般不会开给所有人员操作，比如订单取消功能。所以会只把这种功能项针对部分人员开启。",
+ "solution": "在页面权限设置功能中选择对应功能页面会显示当功能对应的功能项，可以针对权限组或者账号进行页面操作权限或者页面字段权限进行开启或者关闭。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限分配"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jmzvl6uEvo"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

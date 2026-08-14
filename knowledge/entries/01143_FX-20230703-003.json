@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230703-003",
+ "record_id": "TQObV0qnyI",
+ "title": "根据销售退回单据进行冲红时，原单包括多笔销售退回单据时，提示回写失败",
+ "problem": "根据销售退回单据进行冲红时，原单包括多笔销售退回单据时，提示回写失败",
+ "cause": "原单包括多笔销售退回单据时导致回写失败",
+ "solution": "SALEOUTMT aa表与k\\_nn\\_invmt bb表关联条件改为instr(bb.remark,aa.BillCode) \\>0",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "冲红失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAM2vm8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAM2vm8GXn6lpz",
+  "doc_path": "/自研/应用操作/根据销售退回单据进行冲红时，原单包括多笔销售退回单据时，提示回写失败",
+  "record_id": "TQObV0qnyI"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/根据销售退回单据进行冲红时，原单包括多笔销售退回单据时，提示回写失败",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

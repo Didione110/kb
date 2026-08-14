@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251203-008",
+ "record_id": "fTlXMPfiCt",
+ "title": "T3登录报错2147",
+ "problem": "T3登录报错2147",
+ "cause": "环境问题",
+ "solution": "这个原因是因为客户电脑有一个dll文件不在对应的位置中导致的，这个是系统的dll文件，可以在计算机c盘全盘搜索这个文件，文件名称是dao360.dll。将文件移动到对应位置即可，路径在下方，有些客户电脑可能没有dao的文件夹，可以自己手工增加dao的文件夹，将dao360.dll移动过来后手工注册dll文件",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "T3登录报错"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMZRxaJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMZRxaJB5r9YAn",
+  "doc_path": "/其他/环境问题/T3登录报错2147",
+  "record_id": "fTlXMPfiCt"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/T3登录报错2147",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

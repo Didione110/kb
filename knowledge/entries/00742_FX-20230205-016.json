@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230205-016",
+ "record_id": "JBfcVGB5FB",
+ "title": "数据库使用时间长了日志文件过大，导致备份时间长及占用磁盘空间过大",
+ "problem": "数据库使用时间长了日志文件过大，导致备份时间长及占用磁盘空间过大",
+ "cause": "数据库使用时间长了日志文件过大，导致备份时间长及占用磁盘空间过大",
+ "solution": "现将数据库恢复模式改为简单，然后使用数据库收缩功能对日志文件进行收缩操作",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志过大"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-02-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56LpKq8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56LpKq8xLq0Ee4",
+  "doc_path": "/时空/安装部署问题/数据库使用时间长了日志文件过大，导致备份时间长及占用磁盘空间过大",
+  "record_id": "JBfcVGB5FB"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/数据库使用时间长了日志文件过大，导致备份时间长及占用磁盘空间过大",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

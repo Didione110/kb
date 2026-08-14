@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250604-015",
+ "record_id": "OZDnOWcRm4",
+ "title": "不同商品同一单录入同一个监管码问题，系统自带拦截无法判断",
+ "problem": "不同商品同一单录入同一个监管码问题，系统自带拦截无法判断",
+ "cause": "原因是单独录入某一行商品监管码时候提前进行了数据集过滤",
+ "solution": "等全部监管码录入完成后，回到零售收款界面再进行监管码数据集整个进行判断，这里就不会存在过滤现象从而引起无法判断到的问题",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "监管码重复"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvE234VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvE234VMwvDqPk",
+  "doc_path": "/自研/产品功能问题/不同商品同一单录入同一个监管码问题，系统自带拦截无法判断",
+  "record_id": "OZDnOWcRm4"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/不同商品同一单录入同一个监管码问题，系统自带拦截无法判断",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

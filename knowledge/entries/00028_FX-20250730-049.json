@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250730-049",
+ "record_id": "0jnjm8C5rP",
+ "title": "分享V10录入监管码的扫码表单，不带解析，支持大中小包装和批扫功能",
+ "problem": "分享V10录入监管码的扫码表单，不带解析，支持大中小包装和批扫功能",
+ "cause": "无",
+ "solution": "界面截图",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "监管码扫码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7nQLRW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7nQLRW9dEq3XD",
+  "doc_path": "/时空/产品功能问题/分享V10录入监管码的扫码表单，不带解析，支持大中小包装和批扫功能",
+  "record_id": "0jnjm8C5rP"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/分享V10录入监管码的扫码表单，不带解析，支持大中小包装和批扫功能",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

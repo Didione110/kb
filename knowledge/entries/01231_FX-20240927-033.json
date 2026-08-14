@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240927-033",
+ "record_id": "WS9pLnY1N5",
+ "title": "YS凭证集成U9C\nYS凭证集成方案设置凭证状态参数，实现凭证是（保存/审核/记账）状态下传输",
+ "problem": "YS凭证集成U9C\nYS凭证集成方案设置凭证状态参数，实现凭证是（保存/审核/记账）状态下传输",
+ "cause": "想要设置凭证状态触发凭证传输，例如凭证记账后再传输",
+ "solution": "YS凭证集成方案来源数据将请求参数中voucherStatusList参数设置对应的凭证状态标识\n例如凭证记账再传输就是\"voucherStatusList\".[\"04\"]}",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "YS凭证集成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "连接集成服务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WS9pLnY1N5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

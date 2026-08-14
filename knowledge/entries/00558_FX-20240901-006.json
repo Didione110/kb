@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240901-006",
+ "record_id": "DeBakRhqeS",
+ "title": "导出大量数据excel效率太慢",
+ "problem": "导出大量数据excel效率太慢",
+ "cause": "客户电脑配置较低，一次性导出几十万条数据需要等待很长时间",
+ "solution": "使用以下函数导出CSV文件，导出后需要另存为excel文件\nFormUtil.exportCsv(openparam,openmode,filename ,variables,\\{charset:\"gb2312\",isExpCNFildName:\"Y\"\\});\n/\\*\\*\n- openparam sql语句\n- openmode 打开模式：'sql'\n- filename 文件名\n- variables sql参数\n- /",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "导出慢"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz12xvwJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz12xvwJ63zgkYA",
+  "doc_path": "/时空/应用操作/导出大量数据excel效率太慢",
+  "record_id": "DeBakRhqeS"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/导出大量数据excel效率太慢",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

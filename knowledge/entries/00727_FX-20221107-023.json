@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221107-023",
+ "record_id": "IfMdc8qpom",
+ "title": "订舱信息订单和订单的产品带不出来",
+ "problem": "订舱信息订单和订单的产品带不出来",
+ "cause": "出货安排查询中“出运通知状态”默认为“未安排+部分安排”",
+ "solution": "由于前期时间较长，有可能是出运通知的人做了审批，将查询条件清空后问题解决。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "订舱信息"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IfMdc8qpom"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

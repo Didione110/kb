@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251209-018",
+ "record_id": "hPahhGx4nC",
+ "title": "资产档案，需要设置消息提醒：到期30天前系统定时触发",
+ "problem": "资产档案，需要设置消息提醒：到期30天前系统定时触发",
+ "cause": "低代码应用，需要设置日期查询条件",
+ "solution": "注意事项：查询条件不要使用值类型“入参”，使用后，触发场景无法选到：定时触发；\n（技术老师在exp测试环境已验证验证：使用入参条件，V16.0、V17.0 触发场景均选不到定时触发）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "到期提醒"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EIS",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-12-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hPahhGx4nC"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

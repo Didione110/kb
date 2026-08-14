@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231017-014",
+ "record_id": "cJVB499fMS",
+ "title": "客户卡片，供应商卡片，商品卡片，打开后右上角有个资料权限设置，操作员如果不懂瞎点，会造成一些不必要的麻烦",
+ "problem": "客户卡片，供应商卡片，商品卡片，打开后右上角有个资料权限设置，操作员如果不懂瞎点，会造成一些不必要的麻烦",
+ "cause": "智友底层限制，无法通过代码取消",
+ "solution": "检查后发现是数据项里面有createinfo字段，去掉此数据项后，就没有了",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "资料权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cJVB499fMS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

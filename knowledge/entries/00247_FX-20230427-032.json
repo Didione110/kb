@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230427-032",
+ "record_id": "5mzpsccyLM",
+ "title": "数字控件设置公式后，8.1SP2支持”允许手动修改“功能，但是客户这边设置公式后，没有这个功能选择了",
+ "problem": "数字控件设置公式后，8.1SP2支持”允许手动修改“功能，但是客户这边设置公式后，没有这个功能选择了",
+ "cause": "数字控件格式不能调整，得保持默认的”无“才可使用该功能",
+ "solution": "修改显示格式”无“，即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "公式手动修改"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2023-04-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmjGbdV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmjGbdV3bzYmDO",
+  "doc_path": "/致远OA/产品功能问题/数字控件设置公式后，8.1SP2支持允许手动修改功能，但是客户这边设置公式后，没有这个功能选择了",
+  "record_id": "5mzpsccyLM"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/数字控件设置公式后，8.1SP2支持允许手动修改功能，但是客户这边设置公式后，没有这个功能选择了",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

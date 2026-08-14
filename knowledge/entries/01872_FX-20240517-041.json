@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240517-041",
+ "record_id": "mhGnkoxk7d",
+ "title": "客户反映，工程变更做现场变更会很卡，可能要花个10多分钟才行，然后在生产订单PO-0001重算备料也要花很长的时间，做工程变更录明细也很卡，生产订单共有801条BOM明细",
+ "problem": "客户反映，工程变更做现场变更会很卡，可能要花个10多分钟才行，然后在生产订单PO-0001重算备料也要花很长的时间，做工程变更录明细也很卡，生产订单共有801条BOM明细",
+ "cause": "生产管理-参数设置中，将参数“重算备料是否优化”勾上了\n默认False，如果等于True则先以旧备料匹配新BOM结构，再以新BOM结构匹配旧备料；否则只以新BOM结构匹配旧备料。",
+ "solution": "生产管理-参数设置中，将参数“重算备料是否优化”去掉勾选后解决问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "工程变更、现场变更、重算备料、BOM明细、系统卡顿"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-05-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mhGnkoxk7d"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

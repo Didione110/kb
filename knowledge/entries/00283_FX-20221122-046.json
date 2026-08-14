@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221122-046",
+ "record_id": "6cyCtBuKU0",
+ "title": "oracle导入时报 ORA-01017（：用户名/口令无效; 登录被拒绝）",
+ "problem": "oracle导入时报 ORA-01017（：用户名/口令无效; 登录被拒绝）",
+ "cause": "经检查账户密码都正确，但仍然报此错误提示，后查明是因为数据库中建立了多个实例",
+ "solution": "在存在多个实例时，导入备库需要指定实例名",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "ORA-01017"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2022-11-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmrBr583pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmrBr583pmz5aA",
+  "doc_path": "/时空/安装部署问题/oracle导入时报 ORA-01017（：用户名 口令无效; 登录被拒绝）",
+  "record_id": "6cyCtBuKU0"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/oracle导入时报 ORA-01017（：用户名 口令无效; 登录被拒绝）",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231117-067",
+ "record_id": "sbNd4CodE2",
+ "title": "凭证现金流当凭证审核后就不能进行修改，如何设置成凭证审核后也能修改现金流？",
+ "problem": "凭证现金流当凭证审核后就不能进行修改，如何设置成凭证审核后也能修改现金流？",
+ "cause": "系统标准功能，支持凭证审核后修改现金流，在总账-现金流量分析节点修改",
+ "solution": "系统标准功能，支持凭证审核后修改现金流，在总账-现金流量分析节点修改",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "现金流修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-11-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sbNd4CodE2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-016",
+ "record_id": "RltATWvO0V",
+ "title": "武汉市医保接口：991009医保局返回库存数据异常",
+ "problem": "武汉市医保接口：991009医保局返回库存数据异常",
+ "cause": "进、销接口上传批号有空格导致",
+ "solution": "将所有取数视图中批号字段做去空格处理后数据正常",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "医保库存异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RltATWvO0V"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

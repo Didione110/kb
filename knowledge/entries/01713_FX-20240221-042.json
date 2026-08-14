@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240221-042",
+ "record_id": "iPlUNuVU75",
+ "title": "传输精灵中自动记账模块提示单据mx或hz传入失败",
+ "problem": "传输精灵中自动记账模块提示单据mx或hz传入失败",
+ "cause": "可能是WMS中没有基础资料数据",
+ "solution": "报错单据hz传入失败：把billcode带入存储过程zz_wms_ftChuanRu对应单据标识下查询，为空检查客商资料表。\n报错单据mx传入失败:同上检查商品资料表",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自动记账失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iPlUNuVU75"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

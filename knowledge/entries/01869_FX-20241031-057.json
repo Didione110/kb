@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241031-057",
+ "record_id": "mc74LlpXWt",
+ "title": "客户部分的电脑报表页面一直停留在耗时操作中（谷歌浏览器）",
+ "problem": "客户部分的电脑报表页面一直停留在耗时操作中（谷歌浏览器）",
+ "cause": "客户的UCLINE和谷歌浏览器不兼容",
+ "solution": "方案一：重新装低版本得谷歌浏览器\n方案二：打补丁+、更新uclient",
+ "solution_types": [
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Chrome",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "报表卡顿"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mc74LlpXWt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

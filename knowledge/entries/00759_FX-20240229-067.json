@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240229-067",
+ "record_id": "JZyAGOcL0F",
+ "title": "打开所有的报表会转很长时间，并且打不开。",
+ "problem": "打开所有的报表会转很长时间，并且打不开。",
+ "cause": "报表端口：9023，没有打开。",
+ "solution": "1、先点击“启动或关闭windows防火墙”将windows防火墙打开\n2、点击“高级设置”\n3、设置入站规则（入站规则：别人电脑访问自己电脑；出站规则：自己电脑访问别人电脑），点击“新建规则”\n4、点选“端口”，单击 “下一步”\n5、选择相应的协议，如添加11520、1433端口，我们选择TCP，在我写本地端口处输入11520和1433，用逗号隔开\n6、选择“允许连接”，点击“下一步”\n7、勾选“域”，“专用”，“公司”，点击“下一步”\n8、输入端口名称，点“完成”即可\n详细步骤查看：https://success.yonyou.com/surl/B6iGVIMY。",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Tomcat",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "报表卡顿"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JZyAGOcL0F"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230904-009",
+ "record_id": "nFUyqPqkzZ",
+ "title": "客户端查明细账报错“运行时错误339\n部件MSCOMCT2.OCX或其附件之一不能正确注册：一个文件丢失或无效”",
+ "problem": "客户端查明细账报错“运行时错误339\n部件MSCOMCT2.OCX或其附件之一不能正确注册：一个文件丢失或无效”",
+ "cause": "文件mscomct2.ocx是win系统控件，这个控件损坏了，属于win系统问题",
+ "solution": "路径C:\\Windows\\SysWOW64\\mscomct2.ocx，首先检查报错客户端该路径下是否有此文件，如没有，检查杀毒程序是否误删，如不是误删，从其他相同版本windows客户端拷贝该文件到此路径下，然后执行注册（在以管理员身份运行的命令提示符中输入regsvr32 “C:\\Windows\\SysWOW64\\mscomct2.ocx”改为实际安装盘路径，重新注册），重新登陆解决",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "MSCOMCT2.OCX"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nFUyqPqkzZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

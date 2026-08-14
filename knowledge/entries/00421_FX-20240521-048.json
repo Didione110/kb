@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240521-048",
+ "record_id": "AATqnJnecl",
+ "title": "销售收款冲红，连续操作多笔冲红，提示settledt 重复，不允许保存，只能保存一单，界面关了重新打开",
+ "problem": "销售收款冲红，连续操作多笔冲红，提示settledt 重复，不允许保存，只能保存一单，界面关了重新打开",
+ "cause": "表单保存代码异常",
+ "solution": "导入表单覆盖",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "冲红重复"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-05-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvOqn6VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvOqn6VMwvDqPk",
+  "doc_path": "/时空/产品功能问题/销售收款冲红，连续操作多笔冲红，提示settledt 重复，不允许保存，只能保存一单，界面关了重新打开",
+  "record_id": "AATqnJnecl"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/销售收款冲红，连续操作多笔冲红，提示settledt 重复，不允许保存，只能保存一单，界面关了重新打开",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

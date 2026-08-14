@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250827-045",
+ "record_id": "Q8E2gHume9",
+ "title": "PC端公文管理-公文查询界面使用正常\n在钉钉配置的公文管理应用-公文库中使用放大镜搜索没有效果；",
+ "problem": "PC端公文管理-公文查询界面使用正常\n在钉钉配置的公文管理应用-公文库中使用放大镜搜索没有效果；",
+ "cause": "手机端放大镜使用的不是公文查询的筛选功能，使用的蓝凌统一搜索功能（全文检索）；统一搜索功能未配置导致搜索没数据",
+ "solution": "配置统一搜索服务并启动后即可使用",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "钉钉搜索失效"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "公文管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-08-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Q8E2gHume9"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

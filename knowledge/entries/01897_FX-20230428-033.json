@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230428-033",
+ "record_id": "n7ywQiydxK",
+ "title": "提示字段超长",
+ "problem": "提示字段超长",
+ "cause": "字段长度不够",
+ "solution": "执行语句：\nselect 'alter table '+(select name from sysobjects where id=syscolumns.id)+ ' alter column '+name+' nvarchar(300) null',* from syscolumns where name='invoicenums'\nand (select name from sysobjects where id=syscolumns.id) like 'T_%'\n查出有四条后再执行语句：\nalter table T_ExpenseProduct alter column InvoiceNums nvarchar(300) null\nalter table T_ApplyMoney alter column InvoiceNums nvarchar(300) null\nalter table T_CustMoney alter column InvoiceNums nvarchar(300) null\nalter table T_MakeInvoice alter column InvoiceNumS nvarchar(300) null",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字段超长"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n7ywQiydxK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

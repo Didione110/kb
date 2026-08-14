@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250228-036",
+ "record_id": "g98oYbDoQO",
+ "title": "之前有几十个公司采用的是核算账簿A 单体报表采用k单位公式设置都可以算出来。 现在新建了4个公司采用的是核算账簿B（科目方案也是采用的B）,现在设置单体报表公式，比如期末余额这种必须选对应主体和账簿才能算出来数据，但是现在有四个公司四个主体（不能分别设置四套报表分别选主体），怎么设置统一的公式取值？",
+ "problem": "之前有几十个公司采用的是核算账簿A 单体报表采用k单位公式设置都可以算出来。 现在新建了4个公司采用的是核算账簿B（科目方案也是采用的B）,现在设置单体报表公式，比如期末余额这种必须选对应主体和账簿才能算出来数据，但是现在有四个公司四个主体（不能分别设置四套报表分别选主体），怎么设置统一的公式取值？",
+ "cause": "针对不同的账簿需要设置对应不同主体的公式",
+ "solution": "特殊的四个单位可以参考附件设置私有公式处理",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "多账簿取数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "g98oYbDoQO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

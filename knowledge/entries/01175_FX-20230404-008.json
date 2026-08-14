@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230404-008",
+ "record_id": "UVl0smhuBl",
+ "title": "薪资反账不清除当月数据",
+ "problem": "薪资反账不清除当月数据",
+ "cause": "薪资管理——月末处理——取消月末处理下一步时按ctrl+h\n提示取消月末处理不清除当月数据即可",
+ "solution": "薪资管理——月末处理——取消月末处理下一步时按ctrl+h\n提示取消月末处理不清除当月数据即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "薪资反账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-04-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UVl0smhuBl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

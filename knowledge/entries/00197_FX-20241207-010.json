@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241207-010",
+ "record_id": "4XRSXUoksk",
+ "title": "一个textbox控件需要根据条件调通不同的检索方案",
+ "problem": "一个textbox控件需要根据条件调通不同的检索方案",
+ "cause": "一个textbox控件需要根据条件调通不同的检索方案",
+ "solution": "使用textbox.setSelector(\"检索方案名\")实现动态绑定",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "检索方案"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-12-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3mMjbWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3mMjbWkyEqBQm",
+  "doc_path": "/时空/实施问题/一个textbox控件需要根据条件调通不同的检索方案",
+  "record_id": "4XRSXUoksk"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/一个textbox控件需要根据条件调通不同的检索方案",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

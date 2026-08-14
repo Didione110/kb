@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250926-034",
+ "record_id": "wRA0FjiFw6",
+ "title": "需要设置出货后60天未收款不允许再次出库",
+ "problem": "需要设置出货后60天未收款不允许再次出库",
+ "cause": "需要设置出货后60天未收款不允许再次出库",
+ "solution": "需要启用信用管理结合逾期天数在出货单保持/审核节点进行拦截",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "收款管控"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-09-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wRA0FjiFw6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

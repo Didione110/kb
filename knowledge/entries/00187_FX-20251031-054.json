@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251031-054",
+ "record_id": "4IyR9PmJer",
+ "title": "sqlserver 判断字符串中是否有中文",
+ "problem": "sqlserver 判断字符串中是否有中文",
+ "cause": "sqlserver 判断字符串中是否有中文",
+ "solution": "有中文条件：UNICODE(字段) BETWEEN 0x4e00 AND 0x9fa5",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "中文判断"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAb4360W3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAb4360W3kdP0wQ",
+  "doc_path": "/时空/应用操作/sqlserver 判断字符串中是否有中文",
+  "record_id": "4IyR9PmJer"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/sqlserver 判断字符串中是否有中文",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250416-023",
+ "record_id": "q4nckl3YcF",
+ "title": "发货单列表筛选提示树形展开的列表不支持筛选功能,",
+ "problem": "发货单列表筛选提示树形展开的列表不支持筛选功能,",
+ "cause": "工具栏【显示模式】可以选仅母件或者仅子件就可以筛选了",
+ "solution": "工具栏【显示模式】可以选仅母件或者仅子件就可以筛选了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "树形筛选"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-04-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q4nckl3YcF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

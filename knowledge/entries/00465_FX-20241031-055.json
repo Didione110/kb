@@ -1,0 +1,36 @@
+{
+ "id": "FX-20241031-055",
+ "record_id": "BSrl4EjWEV",
+ "title": "无法参照采购发票做付款申请单，但是可以参照采购订单做付款申请单",
+ "problem": "无法参照采购发票做付款申请单，但是可以参照采购订单做付款申请单",
+ "cause": "若订单生成了多张入库单，入库单生成的发票，如果订单与发票，是一对多的关系；有可能是因为发票核销了，造成的余额为0，此情况当前发票不能生成付款申请单；但因为其他的发票可以生成付款申请单，所以订单也可以生成付款申请单。如果订单不能生成付款申请单，那么所有的发票均不能生成付款申请单。",
+ "solution": "若订单生成了多张入库单，入库单生成的发票，如果订单与发票，是一对多的关系；有可能是因为发票核销了，造成的余额为0，此情况当前发票不能生成付款申请单；但因为其他的发票可以生成付款申请单，所以订单也可以生成付款申请单。如果订单不能生成付款申请单，那么所有的发票均不能生成付款申请单。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "采购发票"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BSrl4EjWEV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

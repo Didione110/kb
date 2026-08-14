@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230116-013",
+ "record_id": "htKemegMds",
+ "title": "出纳管理-收支操作-出纳收款-农业银行-制单时报错“集合中的207已经加锁了，不能对集合中的数据进行加锁”",
+ "problem": "出纳管理-收支操作-出纳收款-农业银行-制单时报错“集合中的207已经加锁了，不能对集合中的数据进行加锁”",
+ "cause": "存在出纳制单异常记录",
+ "solution": "方案一：选中不能生单的那条按ctrl+u,然后再生单\n方案二：delete from CN_LockAcctBook",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "加锁冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "htKemegMds"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

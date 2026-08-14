@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230420-027",
+ "record_id": "pkEs1fXpHU",
+ "title": "3月份存在一张固定资产卡片未计提折旧，折旧分配表中没有该卡片",
+ "problem": "3月份存在一张固定资产卡片未计提折旧，折旧分配表中没有该卡片",
+ "cause": "固定资产卡片的使用状况为停用导致的",
+ "solution": "出现以上问题可以从以下三个方面排查，1.检查该固定资产的资产类别，是否计提折旧2.检查该固定资产的使用状况，是否是在用3.固定资产账簿信息是否是当月增加当月不提折旧，改资产是否是新增资产。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "未计提折旧"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-04-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pkEs1fXpHU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

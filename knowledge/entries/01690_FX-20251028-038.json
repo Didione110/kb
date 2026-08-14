@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251028-038",
+ "record_id": "hst1W0CczM",
+ "title": "生产订单没有关闭，上月有期末在制数量，本月没取到产量",
+ "problem": "生产订单没有关闭，上月有期末在制数量，本月没取到产量",
+ "cause": "生产订单没有关闭，上月有期末在制数量，本月没取到产量",
+ "solution": "检查上月是否做了成本会计模块的期末结账，如果没有做会导致本月取不到上月的在制数量。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "订单未关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hst1W0CczM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251009-012",
+ "record_id": "TUzblsksbh",
+ "title": "系统预置多栏账查询报错、辅助明细账，提示“Index 5 out of bounds for length 5”",
+ "problem": "系统预置多栏账查询报错、辅助明细账，提示“Index 5 out of bounds for length 5”",
+ "cause": "补丁编号：SUPPORT-YonBIP高级版2312-Patch-20250102161306-94862 ，补丁名称：2312_多栏账查询科目有上下级关系明细丢失AND数组越界",
+ "solution": "补丁编号：SUPPORT-YonBIP高级版2312-Patch-20250102161306-94862 ，补丁名称：2312_多栏账查询科目有上下级关系明细丢失AND数组越界，财务必打通版的补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "索引越界"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TUzblsksbh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

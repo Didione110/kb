@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240407-044",
+ "record_id": "8MAr6flH8U",
+ "title": "武汉医保进销存查询接口是进行了分页的，每次请求时只会返回一页的数据，如果数据记录多了，想要查具体某个品种，但又无法知道是在哪一页，很不方便查询",
+ "problem": "武汉医保进销存查询接口是进行了分页的，每次请求时只会返回一页的数据，如果数据记录多了，想要查具体某个品种，但又无法知道是在哪一页，很不方便查询",
+ "cause": "武汉医保进销存查询接口是进行了分页的，每次请求时只会返回一页的数据，如果数据记录多了，想要查具体某个品种，但又无法知道是在哪一页，很不方便查询",
+ "solution": "发送查询请求是加入商品过滤参数fixmedins\\_hilist\\_id\\_or\\_name，可以传时空的商品编码或商品名称进行查询过滤，并且支持模糊查询",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "分页查询"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNN4DnJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNN4DnJbkz3BRL",
+  "doc_path": "/自研/实施问题/武汉医保进销存查询接口是进行了分页的，每次请求时只会返回一页的数据，如果数据记录多了，想要查具体某个品种，但又无法知道是在哪一页，很不方便查询",
+  "record_id": "8MAr6flH8U"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/武汉医保进销存查询接口是进行了分页的，每次请求时只会返回一页的数据，如果数据记录多了，想要查具体某个品种，但又无法知道是在哪一页，很不方便查询",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

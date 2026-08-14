@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240802-005",
+ "record_id": "ryU5v0q2tU",
+ "title": "接口开发中下发单据所需字段多，sql组织，业务代码开发时间过长",
+ "problem": "接口开发中下发单据所需字段多，sql组织，业务代码开发时间过长",
+ "cause": "u9c单据字段关联关系不明确，关联关系过多",
+ "solution": "采购单,付款单,供应商,客户,料品,凭证,请购单,请款单,收款单,项目 sql样例及接口调用json样例",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "字段繁多"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ryU5v0q2tU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250724-033",
+ "record_id": "7HGRFmRXiz",
+ "title": "固定资产模拟折旧功能应用：对固定资产卡片变动折旧方法、使用月限等不同维度，需要看到不同的模拟折旧数据。",
+ "problem": "固定资产模拟折旧功能应用：对固定资产卡片变动折旧方法、使用月限等不同维度，需要看到不同的模拟折旧数据。",
+ "cause": "对现存固定资产卡片预测折旧情况",
+ "solution": "对固定资产卡片变动折旧方法、使用月限等不同维度，需要看到不同的模拟折旧数据。 \n【模拟折旧设置】节点中，“新增资产本币原值”统计的是未来预计可能增加的卡片的原值，如果项目没有，这里可以不填写。这样在【模拟折旧】节点，选择这个方案后，通过点击“明细”，可以看到卡片的模拟折旧数据。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "模拟折旧"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-07-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1XwZNJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1XwZNJyMoPYe1",
+  "doc_path": "/用友/应用操作/固定资产模拟折旧功能应用：对固定资产卡片变动折旧方法、使用月限等不同维度，需要看到不同的模拟折旧数据。",
+  "record_id": "7HGRFmRXiz"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/固定资产模拟折旧功能应用：对固定资产卡片变动折旧方法、使用月限等不同维度，需要看到不同的模拟折旧数据。",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

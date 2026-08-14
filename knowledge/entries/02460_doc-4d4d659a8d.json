@@ -1,0 +1,30 @@
+{
+ "id": "doc-4d4d659a8d",
+ "record_id": "",
+ "title": "无法查看系统操作日志",
+ "problem": "无法查看系统操作日志",
+ "cause": "系统默认不开启操作日志，需要手动开启",
+ "solution": "在admin.do中手动开启操作日志，开启后重启服务生效。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKg12nqlJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKg12nqlJqjMp697",
+  "doc_path": "/蓝凌OA/应用操作/无法查看系统操作日志"
+ },
+ "doc_path": "/蓝凌OA/应用操作/无法查看系统操作日志",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

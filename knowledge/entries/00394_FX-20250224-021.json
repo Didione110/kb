@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250224-021",
+ "record_id": "9TmLGnTIQw",
+ "title": "银行存款科目自定义核算，之前余额表双击科目会显示各账户余额，现在双击直接就到明细表了，无法显示自定义明细。",
+ "problem": "银行存款科目自定义核算，之前余额表双击科目会显示各账户余额，现在双击直接就到明细表了，无法显示自定义明细。",
+ "cause": "自定义项取消了辅助核算导致，进入总账-设置-选项-自定义核算项页签勾选对应自定义项，查询余额表后双击可以联查辅助账。",
+ "solution": "自定义项取消了辅助核算导致，进入总账-设置-选项-自定义核算项页签勾选对应自定义项，查询余额表后双击可以联查辅助账。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "自定义核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMZjbKJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMZjbKJB5r9YAn",
+  "doc_path": "/用友/应用操作/银行存款科目自定义核算，之前余额表双击科目会显示各账户余额，现在双击直接就到明细表了，无法显示自定义明细。",
+  "record_id": "9TmLGnTIQw"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/银行存款科目自定义核算，之前余额表双击科目会显示各账户余额，现在双击直接就到明细表了，无法显示自定义明细。",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230810-023",
+ "record_id": "FIOuUBF6FY",
+ "title": "为什么总账制单点新增凭证，凭证制单日期默认是最后一张凭证的日期，而不是系统当日登录日期？",
+ "problem": "为什么总账制单点新增凭证，凭证制单日期默认是最后一张凭证的日期，而不是系统当日登录日期？",
+ "cause": "填制凭证-选项-新增凭证日期，选择新增凭证类别最后一张日期，则制单日期为凭证类别最后一张的日期，如果选择的是登录日期，那么制单之日为登录日期。",
+ "solution": "修改了填制凭证-选项-新增凭证日期参数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "默认日期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-08-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FIOuUBF6FY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

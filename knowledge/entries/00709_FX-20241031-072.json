@@ -1,0 +1,47 @@
+{
+ "id": "FX-20241031-072",
+ "record_id": "IBndrKfY4l",
+ "title": "物流信息同步节点调整成打印面单就同步",
+ "problem": "物流信息同步节点调整成打印面单就同步",
+ "cause": "打印面单就同步物流信息的话可以减少退货的发生，但是对应的也会增加售后的工作量",
+ "solution": "调整物流同步设置项，物流信息同步的节点可以在以下3个时间点，分别是出库后、已审核订单获取面单后、打印物流单后。有些客户为了减少退货率，会设置已审核或打印物流单就回传物流信息给平台，但是大部分还是设置的出库后才上传物流信息。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "面单同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbE0YdVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbE0YdVzlwrZgb",
+  "doc_path": "/其他/产品功能问题/物流信息同步节点调整成打印面单就同步",
+  "record_id": "IBndrKfY4l"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/物流信息同步节点调整成打印面单就同步",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

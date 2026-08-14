@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231104-011",
+ "record_id": "nsgkBOkYI8",
+ "title": "债权转移单不能审核，提示应收单单据日期不在会计期间2023-10内，不能保存单据",
+ "problem": "债权转移单不能审核，提示应收单单据日期不在会计期间2023-10内，不能保存单据",
+ "cause": "该地方修改过效验，这个和两个地方有关系（随便修改其中一个即可）：\n1、一个是 应收处理单类型-债权转移单-新单立账日期取值来源=转移日期（修改此处会影响立账日期，可能影响账龄）；\n2、另一个就是 应收管理-参数设置-单据日期和记账期间严格匹配=√导致的，需要取消勾选（此处可保持源单的立账日期，不影响账龄）",
+ "solution": "为了不影响账龄报表查询，修改应收管理-参数设置-单据日期和记账期间严格匹配=√，取消勾选",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "会计期间"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-11-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nsgkBOkYI8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

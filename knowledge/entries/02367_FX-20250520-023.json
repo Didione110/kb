@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250520-023",
+ "record_id": "yDJEHm9juG",
+ "title": "在拦截了当前行重复录入追溯码后，还需要对当前整单进行追溯码重复扫码拦截，杜绝因门店操作问题导致的重复扫码",
+ "problem": "在拦截了当前行重复录入追溯码后，还需要对当前整单进行追溯码重复扫码拦截，杜绝因门店操作问题导致的重复扫码",
+ "cause": "在拦截了当前行重复录入追溯码后，还需要对当前整单进行追溯码重复扫码拦截，杜绝因门店操作问题导致的重复扫码",
+ "solution": "零售业务开票的拦截函数uf_saveCheck中增加代码：\n // 拦截重复录入追溯码\n //第一次明细加载完后\n var items ={};\n for(var i = 0 ; i < ds_imieHis.recordCount; i++) {//循环明细数据集\n if (ds_imieHis.getValueAt(i, \"imeino\") in items) {//如果集合里面存在该编号的商品则在该商品的total属性上进行累加\n items[ds_imieHis.getValueAt(i, \"imeino\")].num = 1;\n } else {//如果不存在则新建这个对象\n items[ds_imieHis.getValueAt(i, \"imeino\")] = {num : 0};\n }\n }\n // 遍历对象集合 \n for (var obj in items) {\n if (items[obj].num > 0 ) {\n var row = ds_imieHis.find(\"imeino = '\"+obj+\"'\");\n if(row != -1){\n await form.alert(\"当前销售存在重复录入追溯码，请检查！\");\n return false;\n }\n }\n }",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "重复扫码拦截"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-05-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yDJEHm9juG"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

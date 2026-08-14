@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260323-012",
+ "record_id": "4QlkpDcXEN",
+ "title": "某一人用户无法登录",
+ "problem": "某一人用户无法登录",
+ "cause": "勾选了ca用户",
+ "solution": "某一个用户登录提示驱动服务加载失败，尝试在其他电脑上登录此用户也是如些，清缓存或是删除整个目录重新添加都是如此；检查原因是此用户勾了是否ca用户，集团有3人勾了，2个没有在用软件只有他一人在用；尝试取消ca用户勾选 ，并修改登录认证方式为静态密码验证后，清缓存重新登录，正常",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-03-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4QlkpDcXEN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

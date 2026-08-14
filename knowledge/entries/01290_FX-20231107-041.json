@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231107-041",
+ "record_id": "XtHwWeKniX",
+ "title": "湖北医保处方登记，收银前台提取医保处方进行销售，并将数据返回",
+ "problem": "湖北医保处方登记，收银前台提取医保处方进行销售，并将数据返回",
+ "cause": "医保处方登记，收银前台提取医保处方进行销售，并将数据返回",
+ "solution": "添加对应的库表和存储过程，替换对应的文件，设置添加前台提取方案，回写后数据回传医保。已和客户测试对接完成",
+ "solution_types": [
+  "配置修改",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保处方"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XtHwWeKniX"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

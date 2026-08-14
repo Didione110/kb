@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240831-071",
+ "record_id": "XSetYkyYhU",
+ "title": "监管码品种出库后，退回再出库时扫码会被拦截，监管码已存在",
+ "problem": "监管码品种出库后，退回再出库时扫码会被拦截，监管码已存在",
+ "cause": "系统监管码拦截只判断了表里不能存在同一监管码",
+ "solution": "需要调整拦截功能，需要判断此品种是否是退回后再次销售",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "监管码重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-08-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYeQpALV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYeQpALV1waOeDk",
+  "doc_path": "/其他/应用操作/监管码品种出库后，退回再出库时扫码会被拦截，监管码已存在",
+  "record_id": "XSetYkyYhU"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/监管码品种出库后，退回再出库时扫码会被拦截，监管码已存在",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

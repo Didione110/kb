@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230304-006",
+ "record_id": "6AD4SLFG3v",
+ "title": "接口调用时，有时候报错只显示Null,没有其他返回信息",
+ "problem": "接口调用时，有时候报错只显示Null,没有其他返回信息",
+ "cause": "接口调用时，有时候报错只显示Null,没有其他返回信息",
+ "solution": "使用postman等调试工具，在Head请求中加入needStackTrace:Y，返回信息可以返回代码抛出的错误，便于排查问题",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Null报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1QwGLWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1QwGLWdqbropQ",
+  "doc_path": "/用友/产品功能问题/接口调用时，有时候报错只显示Null,没有其他返回信息",
+  "record_id": "6AD4SLFG3v"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/接口调用时，有时候报错只显示Null,没有其他返回信息",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

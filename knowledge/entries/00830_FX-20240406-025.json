@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240406-025",
+ "record_id": "LKv4iFoFyG",
+ "title": "市医保接口查询进销存记录时候提示“系统无法找到指定资源”",
+ "problem": "市医保接口查询进销存记录时候提示“系统无法找到指定资源”",
+ "cause": "原因是地址或端口访问不通",
+ "solution": "找医保专班管理网络人员开通端口访问(提示：客户信息员两天找的专班同一人，第一天回复没有做任何端口限制；第二天要求客户提供所有需要访问的端口和地址，他们去开通对应得访问；总结一点，网络问题还得找到专班解决，多找几次；)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "医保接口"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3EwrgJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3EwrgJakx1Z5N",
+  "doc_path": "/自研/环境问题/市医保接口查询进销存记录时候提示“系统无法找到指定资源”",
+  "record_id": "LKv4iFoFyG"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/市医保接口查询进销存记录时候提示“系统无法找到指定资源”",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

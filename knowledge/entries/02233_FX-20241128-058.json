@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241128-058",
+ "record_id": "vAaxtctcnu",
+ "title": "后台登录员工账号要按岗位分配菜单",
+ "problem": "后台登录员工账号要按岗位分配菜单",
+ "cause": "电商工作中不同岗位人员需要操作的功能各不一样，一般需按照工作岗位设置不同的权限组。",
+ "solution": "系统账号权限，权限组管理中可以新建组别，按照岗位性质分配对应菜单权限和数据权限。然后新建员工账号时在下方就可以设置关联对应权限组。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "岗位菜单分配"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vAaxtctcnu"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

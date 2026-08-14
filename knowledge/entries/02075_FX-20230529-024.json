@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230529-024",
+ "record_id": "qskHYA1ZzR",
+ "title": "输出excel表格打不开，找不到VCRUNTIME140_1.dll，无法继续执行代码",
+ "problem": "输出excel表格打不开，找不到VCRUNTIME140_1.dll，无法继续执行代码",
+ "cause": "组件缺失",
+ "solution": "1、需安装 Visual C++ 2、C:\\windows\\System32 目录下需有vcruntime140_1.dll",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "VCRUNTIME140_1.dll"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qskHYA1ZzR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

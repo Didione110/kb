@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240426-076",
+ "record_id": "ZyHxofg3bY",
+ "title": "产品做了产成品入库，但是在完工产品统计中没有取到数据\n",
+ "problem": "产品做了产成品入库，但是在完工产品统计中没有取到数据",
+ "cause": "完工产品统计取数时是取存货核算产成品入库单，如果产成品入库单不填写实收数量并且签字就无法传递单据到存货核算，就取不到数据",
+ "solution": "填写实收数量后，签字，重新对完工产品取数",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "完工统计"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-04-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZyHxofg3bY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

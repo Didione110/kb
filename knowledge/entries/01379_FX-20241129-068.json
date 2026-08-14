@@ -1,0 +1,48 @@
+{
+ "id": "FX-20241129-068",
+ "record_id": "ZoyaOdOCu4",
+ "title": "客户存在空进空出的现象",
+ "problem": "客户存在空进空出的现象",
+ "cause": "客户有部分货可能是进入就要出的，或者说货不在，只是系统有库存",
+ "solution": "为了防止系统分摊时，将这部分准备空出的货，分摊到有实物的货位上（意思就是A品种，既有空进空出，又怕正常库存有这个品种），ERP，WMS各建立一个虚拟库，这种空进空出的品种批号库存，就入虚拟库，出库选虚拟库就从虚拟库出，这种虚拟库也可在WMS走快速流程。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "空进空出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-11-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn159G9WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn159G9WrMqPxX6",
+  "doc_path": "/其他/应用操作/客户存在空进空出的现象",
+  "record_id": "ZoyaOdOCu4"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户存在空进空出的现象",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230824-041",
+ "record_id": "SwHQDBdOjE",
+ "title": "设置全部店铺所有库存减5同步。",
+ "problem": "设置全部店铺所有库存减5同步。",
+ "cause": "设置全部店铺所有库存减5同步。",
+ "solution": "点三系统库存同步策略中，百分比附加值设置-5。\n比如：库存是10件，拼多多店铺同步百分之70，结果会是10\\*0.7-5=2同步到平台。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "库存同步"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-08-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0BpqkVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0BpqkVDOnGvpb",
+  "doc_path": "/其他/数据错误问题/设置全部店铺所有库存减5同步。",
+  "record_id": "SwHQDBdOjE"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/设置全部店铺所有库存减5同步。",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

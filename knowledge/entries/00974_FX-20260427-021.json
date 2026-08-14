@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260427-021",
+ "record_id": "OnkKR0Bj1H",
+ "title": "如何实现产供销一体的分析智能体搭建",
+ "problem": "如何实现产供销一体的分析智能体搭建",
+ "cause": "如何实现产供销一体的分析智能体搭建",
+ "solution": "新增数据智能体，新增多维度语义模型，设置模型关系；增加业务知识同义词、提示词、企业自定义分析维度和自定义分析步骤。具体可参看附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "产供销一体"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "智能中台",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-04-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OnkKR0Bj1H"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

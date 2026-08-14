@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231106-018",
+ "record_id": "igoZpNskSJ",
+ "title": "顺丰快递面单无法打印，提示‘下单方式不符合’",
+ "problem": "顺丰快递面单无法打印，提示‘下单方式不符合’",
+ "cause": "顺丰快递，电商标快（247）业务，在获取快递信息配置中没有给IsNotice取值（如果没有传值，默认传0）",
+ "solution": "配置时 IsNotice 给默认值 1",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "下单方式"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbdpbZVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbdpbZVzlwrZgb",
+  "doc_path": "/自研/数据接口问题/顺丰快递面单无法打印，提示下单方式不符合",
+  "record_id": "igoZpNskSJ"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/顺丰快递面单无法打印，提示下单方式不符合",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

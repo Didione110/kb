@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250627-045",
+ "record_id": "N63oXrEI15",
+ "title": "委外发料批号关联不出库存可用量",
+ "problem": "委外发料批号关联不出库存可用量",
+ "cause": "推送数据错误，project节点如果没有项目数据则不能带项目节点不然会导致U9c关联批号出现问题",
+ "solution": "删除\"Project\": {\n \"Code\": \"\",\n \"ID\": 0,\n \"Name\": \"\"\n }",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "批号关联"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2025-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N63oXrEI15"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

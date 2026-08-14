@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250330-038",
+ "record_id": "bCmpPUnjBQ",
+ "title": "质检单列表需要拉出请购单的需求人员",
+ "problem": "质检单列表需要拉出请购单的需求人员",
+ "cause": "质检单列表需要拉出请购单的需求人员",
+ "solution": "设置私有段来源，如附件，新要求 条件表达式必须带“@”",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "需求人员"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施6部",
+  "date": "2025-03-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bCmpPUnjBQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250929-043",
+ "record_id": "LeiZO8yPal",
+ "title": "【工作流】通过接口发起流程,会多一个发起人节点\n在流程发起时，系统会自动生成一个发起者填写权限的节点，该节点并非流程模板中原有的设计。",
+ "problem": "【工作流】通过接口发起流程,会多一个发起人节点\n在流程发起时，系统会自动生成一个发起者填写权限的节点，该节点并非流程模板中原有的设计。",
+ "cause": "系统机制：当流程无法直接流转到下一个节点时，会自动添加发起者填写权限节点\n无法直接流转的常见情况包括：\n①流程需要选择分支路径\n②流程需要选择处理人员",
+ "solution": "遇到无法直接流转的情况时，会将流程存入\"待发\"状态\n用户可以从\"待发\"中手动发起，进行分支或人员选择操作",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "发起人节点"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-09-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pE7ed8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pE7ed8gN7R35y",
+  "doc_path": "/致远OA/应用操作/工作流通过接口发起流程会多一个发起人节点",
+  "record_id": "LeiZO8yPal"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/工作流通过接口发起流程会多一个发起人节点",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240424-071",
+ "record_id": "oy8l1dkWFY",
+ "title": "系统安装后，登录提示“您尚未绑定友互通，请联系系统管理员”",
+ "problem": "系统安装后，登录提示“您尚未绑定友互通，请联系系统管理员”",
+ "cause": "1、部署之前，未安装全iis组件\n\n2、web.config文件异常",
+ "solution": "1、iis组件在部署u9前就要勾选全，缺一不可，如下图\n\n windows server系统：附件二、附件三\n\n windows系统：附件四\n\n2、如步骤一组件都勾选全，登录界面仍异常，请更换正常环境的web.config文件至异常环境的yonyou\\U9CE\\Portal目录下。\n\n 各版本Web.config文件下载：\n\n https://pan.yonyou.com/s/Vp3zYFRRK0",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "未绑定友互通"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-04-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oy8l1dkWFY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

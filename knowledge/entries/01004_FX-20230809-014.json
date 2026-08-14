@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230809-014",
+ "record_id": "Pdp46LbmgI",
+ "title": "做杂发领料时，审核不通过，报负库存错误，但查询库存和明细账都是有库存的",
+ "problem": "做杂发领料时，审核不通过，报负库存错误，但查询库存和明细账都是有库存的",
+ "cause": "分析报错是报某某料品【期间可用量】不足，目前系统没有一个表可以查看期间可用量多少的，所以得用语句查，这种期间可用量错误，一般发生在制单后跨月审核领料，如在2月份制单，6月份才审领走的情况下，在当月制单当月领走就不会有这种错误，出现这种错误只有换制单日期或增加审核当月的库存，现场看是采购单缺少缺录",
+ "solution": "select a.ItemInfo_ItemID, StoreMainQty,b.FromDate,b.StoreQtyCU,c.FromDate,c.ToDate,b.AccountPeriod\nfrom InvTrans_WhQoh a\ninner join InvTrans_WhQohLine b on a.ID=b.WhQoh\nleft join Base_AccountingPeriod c on b.AccountPeriod=c.ID\nwhere ItemInfo_ItemCode='010201005-04' 更换料号",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "负库存"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Pdp46LbmgI"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

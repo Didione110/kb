@@ -1,0 +1,30 @@
+{
+ "id": "doc-d80c3e085d",
+ "record_id": "",
+ "title": "自定义表单日期时间控件限制用户只能选择整点或30分",
+ "problem": "自定义表单日期时间控件限制用户只能选择整点或30分",
+ "cause": "通过jsp对日期时间进行控制",
+ "solution": "增加JS片段：Com\\_Parameter\\['CalendarMinuteStep'\\] = 30;",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RxmlQn8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RxmlQn8AgozOKL",
+  "doc_path": "/蓝凌OA/应用操作/自定义表单日期时间控件限制用户只能选择整点或30分"
+ },
+ "doc_path": "/蓝凌OA/应用操作/自定义表单日期时间控件限制用户只能选择整点或30分",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

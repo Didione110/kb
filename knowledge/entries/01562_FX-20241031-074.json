@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241031-074",
+ "record_id": "etAhbJtQqO",
+ "title": "修改了事项分录模板允许修改分录不生效",
+ "problem": "修改了事项分录模板允许修改分录不生效",
+ "cause": "需要重新计算，部分业务单据需要重新生成",
+ "solution": "在事项分录查询里面重新生成事项分录 折旧需要取消过账重新过账生效",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "分录模板"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "etAhbJtQqO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

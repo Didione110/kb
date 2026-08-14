@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240802-004",
+ "record_id": "3u5f9c3CCy",
+ "title": "bom查出未展现出树形结构级联关系状态",
+ "problem": "bom查出未展现出树形结构级联关系状态",
+ "cause": "关联条件未找对",
+ "solution": "使用递归创建树形结构并算出母节点下所有子节点价格并汇中到母节点上\nList\\<BOM\\_D\\> children = getChildren(bom\\_ds1, b.getItemMaster());\n lg.info(\"children:\\{\\}\",JSONObject.toJSONString(children));\n for (BOM\\_D child : children)\n\nDecimalFormat decimalFormat = new DecimalFormat(\"#.#####\");\n```\npublic Double sumPrice(BOM_D children){\n Double sun = 0D;\n if (children.getIsLeaf()){\n List<BOM_D> d = children.getD();\n for (BOM_D bom_d : d) {\n sun+=sumPrice(bom_d);\n }\n }else {\n String priceTC = children.getPriceTC();\n if (!StringUtils.isEmpty(priceTC)){\n sun+=Double.parseDouble(priceTC);\n }\n }\n String format = decimalFormat.format(sun);\n children.setPriceTC(format);\n\n```\n\n// db\n insert\\_d(children);\n return sun;\n \\}\n```\npublic static List<BOM_D> getChildren(List<BOM_D> beanList,String parentId){\n //创建返回树结构数据集合\n List<BOM_D> treeList = new ArrayList<>();\n for (BOM_D bean : beanList) {\n //创建当前节点的bean\n BOM_D treeBean = new BOM_D();\n //创建当前节点下子节点的数据集合\n List<BOM_D> childrenList = new ArrayList<>();\n //如果当前节点等于【参数】父节点，则进行递归操作\n if (parentId.equals(bean.getPnote())){\n //将节点数据复制到当前bean下，也就是上面创建的【treeBean对象】\n BeanUtils.copyProperties(bean,treeBean);\n //递归查询当前节点是否有子节点\n childrenList = getChildren(beanList,bean.getItemMaster());\n //有则将子节点的数据集合添加到当前bean下,无节点则打上标识\n if (childrenList.size()>0){\n treeBean.setD(childrenList);\n treeBean.setIsLeaf(true);\n }else {\n treeBean.setIsLeaf(false);\n }\n //将当前构建的树对象放入返回集合中\n treeList.add(treeBean);\n }\n }\n return treeList;\n}\n\n```",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "树形结构"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-08-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3lrgeWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3lrgeWn4qY5Pr",
+  "doc_path": "/用友/数据错误问题/bom查出未展现出树形结构级联关系状态",
+  "record_id": "3u5f9c3CCy"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据错误问题/bom查出未展现出树形结构级联关系状态",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

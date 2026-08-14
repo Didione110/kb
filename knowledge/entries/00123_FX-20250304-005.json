@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250304-005",
+ "record_id": "2jFPmNwYRu",
+ "title": "诺诺发票单次开票提交，提示“税务分类编码或规格超长”，在界面上修改字段后还是提示",
+ "problem": "诺诺发票单次开票提交，提示“税务分类编码或规格超长”，在界面上修改字段后还是提示",
+ "cause": "就是按要求修改字段后还是提示拦截，没有触发行间校验",
+ "solution": "校验需要点击数量单价金额等计算项进行触发；\n可以点击后触发行间校验来更新拦截情况",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "税务编码超长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakzLOEJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakzLOEJgk9rpMq",
+  "doc_path": "/自研/应用操作/诺诺发票单次开票提交，提示“税务分类编码或规格超长”，在界面上修改字段后还是提示",
+  "record_id": "2jFPmNwYRu"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/诺诺发票单次开票提交，提示“税务分类编码或规格超长”，在界面上修改字段后还是提示",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

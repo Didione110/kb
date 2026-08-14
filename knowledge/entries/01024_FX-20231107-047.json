@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231107-047",
+ "record_id": "QCPViwZHFC",
+ "title": "新建表单打开对应表单报错，数据源无效",
+ "problem": "新建表单打开对应表单报错，数据源无效",
+ "cause": "数据源未选择",
+ "solution": "新建表单，或者修改模板表单时，对应的数据源需选择默认",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据源无效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pZGZK8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pZGZK8gN7R35y",
+  "doc_path": "/自研/应用操作/新建表单打开对应表单报错，数据源无效",
+  "record_id": "QCPViwZHFC"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/新建表单打开对应表单报错，数据源无效",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

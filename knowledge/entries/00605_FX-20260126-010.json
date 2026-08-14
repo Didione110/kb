@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260126-010",
+ "record_id": "EoXTy2pvWT",
+ "title": "期初委外入库保存报错，提示无权限，检查对应的节点权限已经存在",
+ "problem": "期初委外入库保存报错，提示无权限，检查对应的节点权限已经存在",
+ "cause": "还需要额外分配【成本域】的查看权限",
+ "solution": "还需要额外分配【成本域】的查看权限",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购供应",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EoXTy2pvWT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241130-090",
+ "record_id": "EMpOtkF3mH",
+ "title": "使用js从字符串提取中文、英文、数字",
+ "problem": "使用js从字符串提取中文、英文、数字",
+ "cause": "使用js从字符串提取中文、英文、数字",
+ "solution": "// 1. 提取中文 \nstr.replace(/\\[^\\\\u4E00-\\\\u9FA5\\]/g,'')\n\n// 2. 提取英文 \nstr.replace(/\\[^a-zA-Z\\]/g,'')\n\n// 3. 提取数字 \nstr.replace(/\\[^\\\\d\\]/g,'')",
+ "solution_types": [],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "中文提取"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmKpvYV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmKpvYV3bzYmDO",
+  "doc_path": "/时空/安装部署问题/使用js从字符串提取中文、英文、数字",
+  "record_id": "EMpOtkF3mH"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/使用js从字符串提取中文、英文、数字",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

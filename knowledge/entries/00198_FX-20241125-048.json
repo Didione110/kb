@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241125-048",
+ "record_id": "4dEKcb80U9",
+ "title": "生产管理-参数设置中显示该参数，参数中的值是进入成品入库单界面时单头该参数的默认值。",
+ "problem": "生产管理-参数设置中显示该参数，参数中的值是进入成品入库单界面时单头该参数的默认值。",
+ "cause": "需要跳过【完工申报】，直接在生产成品入库，不需要申报。",
+ "solution": "执行脚本调出隐藏参数。可以在生产管理-参数设置中显示该参数，参数中的值是进入入库单界面时单头该参数的默认值【是否无完工申报直接入库】。",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "默认值"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlQo078Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlQo078Zd1wyK0",
+  "doc_path": "/用友/产品功能问题/生产管理-参数设置中显示该参数，参数中的值是进入成品入库单界面时单头该参数的默认值。",
+  "record_id": "4dEKcb80U9"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/生产管理-参数设置中显示该参数，参数中的值是进入成品入库单界面时单头该参数的默认值。",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

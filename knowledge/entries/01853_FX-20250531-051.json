@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250531-051",
+ "record_id": "mDVBh6pir5",
+ "title": "应收票据做了收款后，但没有生成对应的收款单",
+ "problem": "应收票据做了收款后，但没有生成对应的收款单",
+ "cause": "应收票据做了收款后，但没有生成对应的收款单",
+ "solution": "用户没有现金银行模块，票据贴现或者票据到期收款时无法生成现金银行模块收款单，只能通过票据收款行为将分录里的“待核销票据收款”预收科目配到银行存款科目上。并且需要到收票据处理影响因素来源里添加结算方式、银行、账号的来源数据设置。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "应收票据收款"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mDVBh6pir5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

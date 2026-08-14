@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240930-045",
+ "record_id": "JDnXv8TqDN",
+ "title": "新老OMS系统切换时订单可能会2边系统都发货。",
+ "problem": "新老OMS系统切换时订单可能会2边系统都发货。",
+ "cause": "原始订单数据变动就会推送数据，新系统也会接受切换前的订单数据。",
+ "solution": "当客户之前使用的其他厂家OMS系统，系统切换点三时一般会约定切换时间，约定时间之前的订单全部由老系统处理完毕，之后的订单由新系统跑流程处理。设置点三不自动转单时间后，付款时间在此时间之前的订单都不会自动转达，手动转单也会有提示，避免新老系统发重订单。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "OMS切换、重复发货"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXm7DxdV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXm7DxdV3bzYmDO",
+  "doc_path": "/其他/数据接口问题/新老OMS系统切换时订单可能会2边系统都发货。",
+  "record_id": "JDnXv8TqDN"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/新老OMS系统切换时订单可能会2边系统都发货。",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

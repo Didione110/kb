@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230302-002",
+ "record_id": "cO9HpjvpvR",
+ "title": "12月总账结账提示出纳未结账，点开出纳结账提示12月已结账，请在下一年度开账",
+ "problem": "12月总账结账提示出纳未结账，点开出纳结账提示12月已结账，请在下一年度开账",
+ "cause": "部分出纳账户实际未结账",
+ "solution": "修改出纳参数配置取消同时结账的勾，单独一个户一户检查，其他有2个账户实际未结；在需要同时结账时此账户显示的12月已结账，取消后同时结账的勾后显示11月，单独结账后，正常；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "结账冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cO9HpjvpvR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

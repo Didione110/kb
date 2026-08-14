@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250825-036",
+ "record_id": "uMdwP2fseM",
+ "title": "订单因为缺货无法审单，怕其他人重复操作。",
+ "problem": "订单因为缺货无法审单，怕其他人重复操作。",
+ "cause": "需要跟其他订单做区分",
+ "solution": "在特殊情况下会有一些订单数据或者品种数据需要区别于正常数据进行标记，比如库存不足或者订单缺货。这时候可以用到标记功能进行字样或者颜色的标记区分。处理数据时就不会混淆。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "缺货锁单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uMdwP2fseM"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

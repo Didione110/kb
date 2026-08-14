@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250526-030",
+ "record_id": "c2wlGuyK17",
+ "title": "安全库存预警不提醒",
+ "problem": "安全库存预警不提醒",
+ "cause": "环境问题",
+ "solution": "1、检查安全库存预警配置，每天一次，通知所有人，但任务人都收不到消息，发现是由于同时勾了短信、邮件、门户；短信未购买，邮件未配置地址；取消至只保留门户，执行任务后，正常看到消息\n2、后面观察没有每天通知，发现是系统问题，停用旧任务，建立了一个新任务，同时在服务器上将定时任务停用重启一次，进行触发，观察正常按配置的每天下午3点通知\n3、部分用户收到通知后无法查看明细消息，原因是权限不足，需要给用户分配三个权限（1、公共目录-存货-存货档案，存货档案查询权限；2、库存管理-业务报表-分析表，查询超储存货查询3、库存管理-业务报表-分析表，查询短缺存货查询）",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Linux",
+  "Java"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "安全库存预警"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "c2wlGuyK17"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

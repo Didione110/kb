@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231201-002",
+ "record_id": "kFzpd7nz1K",
+ "title": "打开报表提示“未能解析此远程名称:uf10-16-9-23”",
+ "problem": "打开报表提示“未能解析此远程名称:uf10-16-9-23”",
+ "cause": "打开报表提示“未能解析此远程名称:uf10-16-9-23”",
+ "solution": "按照视频重新安装报表",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "远程名称"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-12-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kFzpd7nz1K"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

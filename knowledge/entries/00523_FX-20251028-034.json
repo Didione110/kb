@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251028-034",
+ "record_id": "D1ZHlZAWqS",
+ "title": "资产与总账对账，用户想用下级明细核对",
+ "problem": "资产与总账对账，用户想用下级明细核对",
+ "cause": "功能需求",
+ "solution": "可以在资产模块的选项中，将对账科目设置为明细科目，可以写多个，用英文逗号隔开，但最多只支持写10个，同时勾上按资产类别设置缺省科目，此配置可在未结账的月份随时调整对账模式",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "明细核对"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "D1ZHlZAWqS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

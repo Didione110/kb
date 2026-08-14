@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251222-027",
+ "record_id": "qRs4JxbsNd",
+ "title": "自定义表单的日期时间控件，需要限制用户只能选择整点或者30分，应该怎么限制",
+ "problem": "自定义表单的日期时间控件，需要限制用户只能选择整点或者30分，应该怎么限制",
+ "cause": "通过jsp对日期时间进行控制",
+ "solution": "增加JS片段：Com_Parameter['CalendarMinuteStep'] = 30;",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "整点 30分 日期 时间 限制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-12-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qRs4JxbsNd"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260302-002",
+ "record_id": "nnq5LF6Mf3",
+ "title": "物料创建时物料简称设置不根据物料名称自动带出",
+ "problem": "物料创建时物料简称设置不根据物料名称自动带出",
+ "cause": "后台赋值，导致自动带出",
+ "solution": "UI模板设置页面规则交互规则对简称赋值空或者需要的栏目",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "简称未带出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nnq5LF6Mf3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

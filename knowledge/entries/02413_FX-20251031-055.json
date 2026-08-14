@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251031-055",
+ "record_id": "zaSdOQqmtj",
+ "title": "WMS在做系统升级时，原系统中表的字段内容可能比标准产品长，实施时不注意上线后就会出异常",
+ "problem": "WMS在做系统升级时，原系统中表的字段内容可能比标准产品长，实施时不注意上线后就会出异常",
+ "cause": "WMS在做系统升级时，原系统中表的字段内容可能比标准产品长，实施时不注意上线后就会出异常",
+ "solution": "DECLARE @tname VARCHAR(30) = 'zzwms_ck_kpd_his'\n\nSELECT *\nFROM (\nSELECT b.name AS cname,b.length,b.xtype\nfrom skwms_hbkx_old..sysobjects a\njoin skwms_hbkx_old..syscolumns b on a.id=b.id\nWHERE a.name=@tname\n) a\nLEFT JOIN (\nSELECT b.name AS cname,b.length,b.xtype\nfrom sysobjects a\njoin syscolumns b on a.id=b.id\nWHERE a.name=@tname\n) B ON a.cname = b.cname\nWHERE (a.length>ISNULL(b.length,0)\nOR a.xtype <> b.xtype)\n用于对比两个库中表字段的差异，前面的表是原数据库的，后面的表是新库的，这样可以快速对比出新库里要加的字段，和字段长度问题",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段超长"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zaSdOQqmtj"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

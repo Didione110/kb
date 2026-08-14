@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240102-002",
+ "record_id": "hfSQlxkILC",
+ "title": "设置内部客商权限不允许下级公司增加，只能通过公司目录生成。",
+ "problem": "设置内部客商权限不允许下级公司增加，只能通过公司目录生成。",
+ "cause": "下级子公司在内部客商增加了，导致做账混乱",
+ "solution": "1、设置是否末级自定义项并引用到地区分类内部客商自定义项\n2、填写否，在是否末级\n3、设置单据模板的的验证公式",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "权限控制"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-01-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hfSQlxkILC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

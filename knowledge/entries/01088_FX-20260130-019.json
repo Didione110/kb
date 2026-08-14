@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260130-019",
+ "record_id": "SDSVoypXAY",
+ "title": "ys填制差旅费报销单  费用分摊区归属组织不一样",
+ "problem": "ys填制差旅费报销单 费用分摊区归属组织不一样",
+ "cause": "是否手动来回切换过表头和手动修改过费用分摊区的组织",
+ "solution": "表头选的哪个费用分摊区就选的哪个 如果表头变动了下面也跟着变动了 ，通过修改表头字段来修改费用分摊区字段",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "费用分摊"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SDSVoypXAY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

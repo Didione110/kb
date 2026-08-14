@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231206-019",
+ "record_id": "YJo8xfWC4z",
+ "title": "SQL判断是否数字",
+ "problem": "SQL判断是否数字",
+ "cause": "SQL判断是否数字",
+ "solution": "--返回0-则为纯数字(支持正负数，小数点)\n SELECT PATINDEX('%[^0-9|.|-|+]%','2.2')--返回0\n\n --返回0-则为纯整数\nselect PATINDEX('%[^0-9]%', '2.2')--返回非0",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数字判断"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YJo8xfWC4z"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

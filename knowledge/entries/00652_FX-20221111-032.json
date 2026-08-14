@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221111-032",
+ "record_id": "GL539WDP2R",
+ "title": "企业认证时提示该企业已认证，认证人非客户内部人员",
+ "problem": "企业认证时提示该企业已认证，认证人非客户内部人员",
+ "cause": "该企业已被他人认证",
+ "solution": "1. 填写企业信息（显示已认证且不认识的认证人），正常点击去关联\n2. 用申请人对应的畅捷通账号登录企业工作台，左边点击【我的企业】打开【我关联的认证】-点击界面右上角【移交认证人】\n3. 填写目前申请人的电话，移交成功后，认证账号会变化\n4. 移交认证人成功后，用新的认证人账号登陆【企业工作台】，点击左边【我的企业】-【我认证的企业】，然后点击“同意”即可",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "企业已认证"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DOmlKJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DOmlKJKMEvZBY",
+  "doc_path": "/其他/安装部署问题/企业认证时提示该企业已认证，认证人非客户内部人员",
+  "record_id": "GL539WDP2R"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/企业认证时提示该企业已认证，认证人非客户内部人员",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

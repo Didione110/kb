@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251031-060",
+ "record_id": "OSECs2iMfi",
+ "title": "客户的制管线调整，需要把长管委外到其他厂商生产；需要给供应商按公斤结算加工费（1公斤0.6元）。但是存在公差的情况，无法按照标准的重量在系统中体现。",
+ "problem": "客户的制管线调整，需要把长管委外到其他厂商生产；需要给供应商按公斤结算加工费（1公斤0.6元）。但是存在公差的情况，无法按照标准的重量在系统中体现。",
+ "cause": "因为原本是在自家生产，使用理论重量去计算即可。现在要给外部供应商结算加工费存在公差的情况，无法按照标准的重量在系统中体现。",
+ "solution": "在料品档案中取消【固定转换率】然后在料品档案的库存页签中勾选【库存单位结存数量为0时成本单位结存数量必须为0】。然后在做外协采购和委外收货的时候可以按照发票的重量和件数在系统中体现。然后系统就会自动计算库存的单重。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "公差结算"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OSECs2iMfi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

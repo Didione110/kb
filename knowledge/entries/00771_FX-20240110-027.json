@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240110-027",
+ "record_id": "JjvGdKgOeN",
+ "title": "根据身份证号码获取性别以及出生日期",
+ "problem": "根据身份证号码获取性别以及出生日期",
+ "cause": "蓝凌无标准公式可以设置，需要代码解决",
+ "solution": "先将性别以及出生日期改成公式加载控件，加载方式勾选为自动加载以及控件加载，经测试单行文本控件会报错，代码如下：\n出生日期：\nimport java.text.SimpleDateFormat; \nimport java.util.Date; \nString x=$身份证号$;//根据项目自行替换\n String a=x.substring(6,14);\n SimpleDateFormat sdf = new SimpleDateFormat(\"yyyyMMdd\");\n Date date= null;\n try {\n date = sdf.parse(a);\n } catch (ParseException e) {\n }\n sdf = new SimpleDateFormat(\"yyyy-MM-dd\");\n return sdf.format(date);\n\n性别：\nString idCardNumber = $身份证号$;//根据项目自行替换\nString genderCode = idCardNumber.substring(16, 17);\nif (Integer.parseInt(genderCode) % 2 == 0) {\n return \"女\";\n } else {\n return \"男\";\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "身份证、性别、出生日期"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JjvGdKgOeN"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

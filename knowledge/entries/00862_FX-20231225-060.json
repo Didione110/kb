@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231225-060",
+ "record_id": "MAQV5mnNP8",
+ "title": "WMS货主转换（批发，连锁2套资料），批发库存转为连锁库存，连锁发货时系统分配的整货件数和实物不一致",
+ "problem": "WMS货主转换（批发，连锁2套资料），批发库存转为连锁库存，连锁发货时系统分配的整货件数和实物不一致",
+ "cause": "连锁资料不准。",
+ "solution": "在做货主转换功能前，一定要检查转入库存方的商品基础资料准确性（件包装，分组，存储条件等重要参数），避免转库存后，仓库作业流程不顺。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "货主转换"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3EqLyJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3EqLyJakx1Z5N",
+  "doc_path": "/其他/实施问题/WMS货主转换批发库存转为连锁库存，连锁发货时系统分配的整货件数和实物不一致",
+  "record_id": "MAQV5mnNP8"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/WMS货主转换批发库存转为连锁库存，连锁发货时系统分配的整货件数和实物不一致",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

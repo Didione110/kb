@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251026-029",
+ "record_id": "vCw7eM12w4",
+ "title": "门店打印小票上面对应明细紧挨着显示监管码明细行功能需求",
+ "problem": "门店打印小票上面对应明细紧挨着显示监管码明细行功能需求",
+ "cause": "门店打印小票上面对应明细紧挨着显示监管码明细行功能需求",
+ "solution": "在商品明细下面挂一个明细数据打印插件，设置 过滤条件V11跟DHERP用 <ds_zsm.\"单据序号\">=<ds_mxls.\"单据序号\"> \n(注：V10的要用 [ds_zsm.\"单据序号\"]=[ds_mxls.\"单据序号\"] )\n两个单据序号 一个为商品明细的 一个为监管码的",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "监管码打印"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2025-10-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vCw7eM12w4"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

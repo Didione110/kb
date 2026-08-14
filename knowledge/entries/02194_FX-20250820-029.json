@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250820-029",
+ "record_id": "u3poqzMLVq",
+ "title": "同一单据使用同一打印模板需要打印出两套内容，打印后系统自带页码不会重新计算，同时只希望部分单位打印两套模板",
+ "problem": "同一单据使用同一打印模板需要打印出两套内容，打印后系统自带页码不会重新计算，同时只希望部分单位打印两套模板",
+ "cause": "打印后系统自带页码不会重新计算",
+ "solution": "在代码区配置参考如下\nvar page1_Current: Integer;\nvar page1_Total: Integer;\nvar page2_Current: Integer;\nvar page2_Total: Integer;\nvar i: Integer;\n\nprocedure Page1OnBeforePrint(Sender: TfrxComponent);\nbegin\n SetID(<dshz.\"单据ID\">,'0kxiupl34pb60z4m','4szcn61oa8b0tz79');\n if not Engine.FinalPass then\n begin\n page1_Current := page1_Current + 1;\n end;\nend;\n\nprocedure Page2OnBeforePrint(Sender: TfrxComponent);\nbegin\n if (<dshz.\"单位名称\"> <> '康笙园智慧药房（武汉）有限公司') and\n (<dshz.\"单位名称\"> <> '康笙园大药房（沈阳）有限公司') and\n (<dshz.\"单位名称\"> <> '赤壁市蒲圻办事处莼川社区卫生服务中心（赤壁市第二人民医院）') then\n page2.Visible := False\n\n else\n page2.Visible := True;\n if not Engine.FinalPass then\n begin\n page2_Current := page2_Current + 1;\n\n end;\n\nend;\n\nprocedure Memo50OnBeforePrint(Sender: TfrxComponent);\nbegin\n if not Engine.FinalPass then\n begin\n Page1_Total := Page1_Total+1 ;\n end;\nend;\n\nprocedure Memo74OnBeforePrint(Sender: TfrxComponent);\nbegin\n if not Engine.FinalPass then\n begin\n Page2_Total := Page2_Total+1 ;\n end;\nend;\n\nbegin\n\nend.\n\n同时需要再设置打印业务的配置地方修改为\n第[Page#]页/共[Page1_Total]页\n\n第[<Page#>-<Page1_Total>]页/共[Page2_Total]页\n\n即可实现效果，项目具体调整",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "双模板打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2025-08-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "u3poqzMLVq"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

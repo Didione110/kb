@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250723-025",
+ "record_id": "GLGhyLz92e",
+ "title": "实施导航打开显示无法加载DLL 'U8WindowShadow.dll'",
+ "problem": "实施导航打开显示无法加载DLL 'U8WindowShadow.dll'",
+ "cause": "组件缺失",
+ "solution": "<U8WindowShadow.dll文件依赖msvcp100d.dll和msvcr100d.dll，检查客户端环境C:\\Windows\\SysWOW64是否缺少msvcp100d.dll和msvcr100d.dll，需要从同系统拷贝过来后再进行操作。>",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "U8WindowShadow.dll"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-07-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GLGhyLz92e"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

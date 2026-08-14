@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250409-012",
+ "record_id": "n7BtiJ71ie",
+ "title": "mssql2008的数据库中毒损坏，只保留了mdf文件，无ldf文件，直接还原报错One or more files do not match the primary file of the database. If you are attempting to attach a database, retry the operation with the correct files. If this is an existing database, the file may be corrupted and should be restored from a backup.\n文件激活失败。物理文件名称'D:\\mssql2008\\data\\race_log.LDF'可能不正确。\n无法重新生成日志，原因是数据库关闭时存在打开的事务/用户，该数据库没有检查点或者该数据库是只读的。如果事务日志文件被手动删除或者由于硬件或环境问题而丢失，则可能出现此错误。",
+ "problem": "mssql2008的数据库中毒损坏，只保留了mdf文件，无ldf文件，直接还原报错One or more files do not match the primary file of the database. If you are attempting to attach a database, retry the operation with the correct files. If this is an existing database, the file may be corrupted and should be restored from a backup.\n文件激活失败。物理文件名称'D:\\mssql2008\\data\\race_log.LDF'可能不正确。\n无法重新生成日志，原因是数据库关闭时存在打开的事务/用户，该数据库没有检查点或者该数据库是只读的。如果事务日志文件被手动删除或者由于硬件或环境问题而丢失，则可能出现此错误。",
+ "cause": "原因是数据库关闭时存在打开的事务/用户，该数据库没有检查点或者该数据库是只读的。如果事务日志文件被手动删除或者由于硬件或环境问题而丢失，则可能出现此错误。",
+ "solution": "通过紧急模式重建日志‌\n\n‌新建同名空数据库‌：\nsql\nCopy Code\nCREATE DATABASE race; \n‌停止SQL Server服务‌：\n打开“服务”管理器（services.msc） → 停止SQL Server (MSSQLSERVER)服务。\n‌替换物理文件‌：\n删除新建的race.mdf和race_log.ldf文件。\n将原race.mdf文件复制到D:\\mssql2008\\data\\目录。\n‌重启SQL Server服务‌，并执行以下命令：\nsql\nCopy Code\nALTER DATABASE race SET EMERGENCY; \nALTER DATABASE race SET SINGLE_USER WITH ROLLBACK IMMEDIATE; \nALTER DATABASE race REBUILD LOG ON (NAME = race_log, FILENAME = 'D:\\mssql2008\\data\\race_log.ldf'); \nALTER DATABASE race SET MULTI_USER; \nALTER DATABASE race SET ONLINE; \n‌注意‌：\n若提示“文件访问被拒绝”，检查权限设置‌ 。\n若路径含空格或特殊字符，需用单引号包裹路径‌",
+ "solution_types": [
+  "SQL脚本",
+  "环境设置",
+  "重启服务",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "日志丢失"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-04-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n7BtiJ71ie"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

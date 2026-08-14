@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221115-037",
+ "record_id": "LmwDiX1KH8",
+ "title": "U8在线同步许可提示filed:1091 重新注册导入许可文件提示临时文件失败",
+ "problem": "U8在线同步许可提示filed:1091 重新注册导入许可文件提示临时文件失败",
+ "cause": "服务器非正常状态下关机，U8失去加密时自动生成的临时加密文件，该文件会影响软件加密的在线同步与重新导入",
+ "solution": "U8SOFT\\SoftSecurity\\data下会有个后缀为temp的临时许可文件，停止U8服务，将此文件移走，重启服务再次同步许可即可成功",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "许可同步失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2022-11-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LmwDiX1KH8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

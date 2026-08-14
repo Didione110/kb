@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231202-005",
+ "record_id": "xdcTxCIX3D",
+ "title": "医保5205接口按照要求，请求的就医地和参保地都选顾客的参保地；",
+ "problem": "医保5205接口按照要求，请求的就医地和参保地都选顾客的参保地；",
+ "cause": "医保5205接口按照文件要求，请求的就医地和参保地都选顾客的参保地；",
+ "solution": "更新智慧医保和KSOA医保接口dll",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "C# (.NET)",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "参保地"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-12-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xdcTxCIX3D"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

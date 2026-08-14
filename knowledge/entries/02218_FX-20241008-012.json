@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241008-012",
+ "record_id": "uikHRqlA8O",
+ "title": "部分接口与时空对接时需要在时空进行报文请求及MD5加密",
+ "problem": "部分接口与时空对接时需要在时空进行报文请求及MD5加密",
+ "cause": "部分接口与时空对接时需要在时空进行报文请求及MD5加密",
+ "solution": "将md5.js文件放到tomcat的ROOT\\form路径下，然后表单js全局中进行引入document.writeln(\"<script src=\\\"/form/md5.js\\\"></script>\")，调用示例：\nds_mast.field(\"serialno\").value = r.serialNo;\nvar token = \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJzeXN0ZW1Tb3VyY2VcIjpcImxzX3lnLTAwMlwifSIsImV4cCI6NDg3OTAxNTY1MX0.abb44xwVwhteG2gNbYRa9rAUGR_rEbVtVFxtSic4fgQ\";\nvar tenantId = \"guokong-hubei\"; //租户ID\nvar systemSource = \"ls_yg-002\"; //系统来源\nvar salt = \"GS_oR+01*2(NP!!QU\" //加密盐\nvar str = md5(tenantId + systemSource + salt + r.serialNo);",
+ "solution_types": [
+  "代码修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "时空对接"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uikHRqlA8O"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

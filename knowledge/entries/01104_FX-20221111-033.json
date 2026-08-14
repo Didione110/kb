@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221111-033",
+ "record_id": "SXeMxysDZr",
+ "title": "003-007账套凭证打印无反应，001/002账套正常",
+ "problem": "003-007账套凭证打印无反应，001/002账套正常",
+ "cause": "后台表失效",
+ "solution": "1. 备份003-007账套\n2. 后台数据库执行\n\ndrop table printex（打印格式设置表）\n select \\* into printex from ufdata\\_001\\_2021..printex\n drop table gl\\_mybooktype（总账帐簿套打格式设置表）\n select \\* into gl\\_mybooktype from ufdata\\_001\\_2021..gl\\_mybooktype\n drop table gl\\_myoutput（总账输出栏目定义表）\n select \\* into gl\\_myoutput from ufdata\\_001\\_2021..gl\\_myoutput\n（删除有问题的表，把正常账套的表复制过来）",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "账套打印"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAqgyvVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAqgyvVKe0xjE3",
+  "doc_path": "/其他/数据错误问题/003-007账套凭证打印无反应，001 002账套正常",
+  "record_id": "SXeMxysDZr"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/003-007账套凭证打印无反应，001 002账套正常",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

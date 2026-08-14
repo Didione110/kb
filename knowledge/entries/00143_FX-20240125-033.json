@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240125-033",
+ "record_id": "3QU1ac8rFh",
+ "title": "B2C复核台点击拼箱按钮后系统卡顿",
+ "problem": "B2C复核台点击拼箱按钮后系统卡顿",
+ "cause": "B2C复核台拼箱按钮会调用郑州时空的一个存储过程，这个过程取的是拣货视图(视图含正常数据和历史数据)执行效率较低",
+ "solution": "优化代码不直接取视图，如附件图，效率会提高很多",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "拼箱卡顿"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1R5gNWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1R5gNWkb4Mw9r",
+  "doc_path": "/其他/效率问题/B2C复核台点击拼箱按钮后系统卡顿",
+  "record_id": "3QU1ac8rFh"
+ },
+ "status": "active",
+ "doc_path": "/其他/效率问题/B2C复核台点击拼箱按钮后系统卡顿",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

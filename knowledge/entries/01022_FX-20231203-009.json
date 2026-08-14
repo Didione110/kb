@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231203-009",
+ "record_id": "Q7Kw47RRsr",
+ "title": "客户使用质检报告启动TOMCAT服务时，提示\n驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接\nCould not generate DH keypair",
+ "problem": "客户使用质检报告启动TOMCAT服务时，提示\n驱动程序无法通过使用安全套接字层(SSL)加密与 SQL Server 建立安全连接\nCould not generate DH keypair",
+ "cause": "系统JDK版本不对，版本过低",
+ "solution": "重新安装高版本JDK",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Tomcat",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "SSL加密"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7polLx8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7polLx8gN7R35y",
+  "doc_path": "/自研/软件无法使用/客户使用质检报告启动TOMCAT服务时，提示 驱动程序无法通过使用安全套接字层(SSL(加密与 SQL Server 建立安全连接 Could not generate DH keypair",
+  "record_id": "Q7Kw47RRsr"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/客户使用质检报告启动TOMCAT服务时，提示 驱动程序无法通过使用安全套接字层(SSL(加密与 SQL Server 建立安全连接 Could not generate DH keypair",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

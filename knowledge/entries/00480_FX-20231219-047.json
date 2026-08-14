@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231219-047",
+ "record_id": "BpByoM4efb",
+ "title": "U9c的标准版打完补丁后，进不去账套了，重启服务和iis也不行",
+ "problem": "U9c的标准版打完补丁后，进不去账套了，重启服务和iis也不行",
+ "cause": "windows系统环境问题，C盘的temp权限不足",
+ "solution": "C:\\Windows\\Temp权限不足导致，赋予权限后解决 最直接的是赋予文件夹Everyone权限，如附件",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "U9c 账套 登录"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2024-01-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BpByoM4efb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

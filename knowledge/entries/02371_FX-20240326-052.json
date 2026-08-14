@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240326-052",
+ "record_id": "yPTkUnCRm1",
+ "title": "京东平台同个客户下多个订单未自动合并订单",
+ "problem": "京东平台同个客户下多个订单未自动合并订单",
+ "cause": "部分京东店铺订单因收货信息加密问题，无法执行自动合并订单策略。",
+ "solution": "开启手动合并订单开关，按需要设置订单合并条件。审单功能中手动将需要合并的订单进行合单操作。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "订单未合并"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-03-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yPTkUnCRm1"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

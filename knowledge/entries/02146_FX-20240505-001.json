@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240505-001",
+ "record_id": "ss72heY3rm",
+ "title": "武汉市医保接口，购进3503在销售3505之后上传",
+ "problem": "武汉市医保接口，购进3503在销售3505之后上传",
+ "cause": "3503视图效率很低，索引啥都添加完成后还是没有明显改善，原因是数据量太大导致，客户从2016年至今未进行过任何结转",
+ "solution": "将医保测试库2024年之前的数据全部清空后正常",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保上传顺序"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-05-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAxgzNV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAxgzNV1DK0g6l",
+  "doc_path": "/自研/效率问题/武汉市医保接口，购进3503在销售3505之后上传",
+  "record_id": "ss72heY3rm"
+ },
+ "status": "active",
+ "doc_path": "/自研/效率问题/武汉市医保接口，购进3503在销售3505之后上传",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

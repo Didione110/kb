@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250527-037",
+ "record_id": "Zlfd6cRqiq",
+ "title": "审批人与撤回人不是同一人，怎么撤回",
+ "problem": "审批人与撤回人不是同一人，怎么撤回",
+ "cause": "审批人与撤回人不是同一人",
+ "solution": "关于审批流的撤回，有三种情况：\n制单人撤回\n最后一个审批人撤回\n管理员在流程调度或者任务调度撤回\n\n流程调度一是提供企业账号级内发起的所有流程实例的查询，二是为管理员对流程实例进行调整提供入口。 1）请在工作流设计中查看对应节点是否有设置工作流 2）如在企业账号级中找不到，可在流程调度的左上角切换到对应的组织再检查 3）检查筛选的条件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "权限冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-05-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Zlfd6cRqiq"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

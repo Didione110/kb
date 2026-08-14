@@ -1,0 +1,49 @@
+{
+ "id": "FX-20240301-004",
+ "record_id": "9xNgiILSoZ",
+ "title": "获取各种时间的方法",
+ "problem": "获取各种时间的方法",
+ "cause": "获取各种时间的方法",
+ "solution": "1. 当前系统日期、时间\n```SQL\nselect getdate()\n```\n2. dateadd 在向指定日期加上一段时间的基础上，返回新的 datetime 值\n\n例如：向日期加上2天\n```SQL\nselect dateadd(day,2,'2004-10-15') --返回：2004-10-17 00:00:00.000\n```\n1. datediff 返回跨两个指定日期的日期和时间边界数。\n```SQL\nselect datediff(day,'2004-09-01','2004-09-18') --返回：17\n```\n2. datepart 返回代表指定日期的指定日期部分的整数。\n```SQL\nSELECT DATEPART(month, '2004-10-15') --返回 10\n```\n3. datename 返回代表指定日期的指定日期部分的字符串\n```SQL\nSELECT datename(weekday, '2004-10-15') --返回：星期五\n```\n4. day(), month(),year() --可以与datepart对照一下\n```SQL\nselect 当前日期=convert(varchar(10),getdate(),120)\n,当前时间=convert(varchar(8),getdate(),114)\nselect datename(dw,'2004-10-15')\nselect 本年第多少周=datename(week,getdate())\n,今天是周几=datename(weekday,getdate())\n\n```\n\n函数 参数/功能\n\nGetDate( ) --返回系统目前的日期与时间\n\nDateDiff (interval,date1,date2) --以interval 指定的方式，返回date2 与date1两个日期之间的差值 date2-date1\n\nDateAdd (interval,number,date) --以interval指定的方式，加上number之后的日期\n\nDatePart (interval,date) 返回日期date中，interval指定部分所对应的整数值\n\nDateName (interval,date) --返回日期date中，interval指定部分所对应的字符串名称\n\n参数 interval的设定值如下：\n\n值 缩 写（Sql Server） Access 和 ASP 说明\n\nYear Yy yyyy 年 1753 ~ 9999\n\nQuarter Qq q 季 1 ~ 4\n\nMonth Mm m 月1 ~ 12\n\nDay of year Dy y 一年的日数,一年中的第几日 1-366\n\nDay Dd d 日，1-31\n\nWeekday Dw w 一周的日数，一周中的第几日 1-7\n\nWeek Wk ww 周，一年中的第几周 0 ~ 51\n\nHour Hh h 时0 ~ 23\n\nMinute Mi n 分钟0 ~ 59\n\nSecond Ss s 秒 0 ~ 59\n\nMillisecond Ms - 毫秒 0 ~ 999",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "时间获取"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2024-03-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lOPvA86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lOPvA86EDybno",
+  "doc_path": "/时空/实施问题/获取各种时间的方法",
+  "record_id": "9xNgiILSoZ"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/获取各种时间的方法",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

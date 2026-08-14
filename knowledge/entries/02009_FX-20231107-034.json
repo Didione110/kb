@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231107-034",
+ "record_id": "pNodCSs6E8",
+ "title": "自动记账报错：Wrapped javanet,ConnectException: Connection refused:urce>#272) in eUnknown sources at line number；\n问题背景：从正式环境迁移至测试环境运行时报错，通过数据库自动记账日志表、服务端运行报错跟踪以及tomcat日志都无法获取具体报错信息；但是重新换到正式环境自动记账正常运行不报错；",
+ "problem": "自动记账报错：Wrapped javanet,ConnectException: Connection refused:urce>#272) in eUnknown sources at line number；\n问题背景：从正式环境迁移至测试环境运行时报错，通过数据库自动记账日志表、服务端运行报错跟踪以及tomcat日志都无法获取具体报错信息；但是重新换到正式环境自动记账正常运行不报错；",
+ "cause": "自动记账tomcat运行环境问题",
+ "solution": "检查自动记账关于tomcat的配置，详情可见背景发版PPT",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "连接拒绝"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pNodCSs6E8"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

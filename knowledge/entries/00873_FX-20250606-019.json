@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250606-019",
+ "record_id": "MSlaGaTukh",
+ "title": "单据输出没有word格式",
+ "problem": "单据输出没有word格式",
+ "cause": "单据输出没有word格式",
+ "solution": "ea的参数设置开启允许输出docx，重启iis，并且需要按照附件配置",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "IIS",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "Word格式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-06-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MSlaGaTukh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

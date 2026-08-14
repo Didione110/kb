@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241223-021",
+ "record_id": "fUImtA2oLE",
+ "title": "销售成本结转单在凭证生成界面需要新增查询条件：是否发出商品",
+ "problem": "销售成本结转单在凭证生成界面需要新增查询条件：是否发出商品",
+ "cause": "客户需求，数据量较大，需要新增查询条件",
+ "solution": "查询模板走的是存货核算采购入库单的查询模板，到对应模板上新增是否发出商品v.boutestimate 条件即可，字段类型，选择逻辑",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存"
+ ],
+ "keywords": [
+  "发出商品"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-12-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fUImtA2oLE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

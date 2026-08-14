@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221203-016",
+ "record_id": "o3v40UgDM0",
+ "title": "NC65在辅助余额表中无法过滤出某个客商的余额；客户：cus202112080006，上海塞力斯医学检验实验室有限公司，在集团客户里确定已经分配给了0101业务单元，武汉塞力斯，而在查询辅助余额表时过滤不到此客户相关记录，不过滤查询所有客商时，又能看到此数据；",
+ "problem": "NC65在辅助余额表中无法过滤出某个客商的余额；客户：cus202112080006，上海塞力斯医学检验实验室有限公司，在集团客户里确定已经分配给了0101业务单元，武汉塞力斯，而在查询辅助余额表时过滤不到此客户相关记录，不过滤查询所有客商时，又能看到此数据；",
+ "cause": "前后台客商状态不一致导致；在后台的客商表里，此客户显示停用 3 的状态，修改为启用后正常；",
+ "solution": "SELECT * FROM Bd_cust_supplier where code='cus202112080006'\nupdate bd_cust_supplier set custenablestate = 2 where code='cus202112080006'",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "客商过滤"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "o3v40UgDM0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

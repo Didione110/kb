@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231120-074",
+ "record_id": "D06a5OQDyk",
+ "title": "WMS-B2C一键打印版本升级到支持小红书，视频号版本，抖音面单无法打印（调用点3接口获取面单信息模式）",
+ "problem": "WMS-B2C一键打印版本升级到支持小红书，视频号版本，抖音面单无法打印（调用点3接口获取面单信息模式）",
+ "cause": "一键打印升级后，存储过程组织数据里有参数需要调整",
+ "solution": "升级前调用点3接口模式下，打印参数encryptedData固定为空值。升级encryptedData参数需要固定为diansan（diansan’ as encryptedData）",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "抖音面单"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3OA5MV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3OA5MV47Z3je9",
+  "doc_path": "/其他/数据错误问题/WMS-B2C一键打印版本升级到支持小红书，视频号版本，抖音面单无法打印",
+  "record_id": "D06a5OQDyk"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/WMS-B2C一键打印版本升级到支持小红书，视频号版本，抖音面单无法打印",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

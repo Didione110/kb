@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251009-005",
+ "record_id": "lYNPjDeFuE",
+ "title": "快递鸟接口更新，增加参数 DeliveryMethod  送货方式（安能必填）",
+ "problem": "快递鸟接口更新，增加参数 DeliveryMethod 送货方式（安能必填）",
+ "cause": "客户使用安能快递，需要增加这个必填字段",
+ "solution": "修改程序增加参数，发布测试",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "送货方式"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakq52mJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakq52mJgk9rpMq",
+  "doc_path": "/自研/数据接口问题/快递鸟接口更新，增加参数 DeliveryMethod 送货方式安能必填",
+  "record_id": "lYNPjDeFuE"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/快递鸟接口更新，增加参数 DeliveryMethod 送货方式安能必填",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

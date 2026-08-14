@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231130-107",
+ "record_id": "DriubKJP86",
+ "title": "系统内的检索方案selector，在检索弹出的时候无法复制，且无法通过表单设计工具设置",
+ "problem": "系统内的检索方案selector，在检索弹出的时候无法复制，且无法通过表单设计工具设置",
+ "cause": "selector调用的的tomcat里的js文件，所以无法用设计器修改",
+ "solution": "ROOT/form/html/js/htmlselectDiv.js\n找到这个目录的js文件打开\n在new HtmlGrid的方法里面加入\"enablecopy\" : \"true\",\n然后重启tomcat生效",
+ "solution_types": [
+  "代码修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "检索方案复制"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj3DyO8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj3DyO8AgozOKL",
+  "doc_path": "/时空/软件补丁问题/系统内的检索方案selector，在检索弹出的时候无法复制，且无法通过表单设计工具设置",
+  "record_id": "DriubKJP86"
+ },
+ "status": "active",
+ "doc_path": "/时空/软件补丁问题/系统内的检索方案selector，在检索弹出的时候无法复制，且无法通过表单设计工具设置",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

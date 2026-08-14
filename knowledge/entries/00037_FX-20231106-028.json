@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231106-028",
+ "record_id": "0tJbiay2Hr",
+ "title": "WMS主动补货存盘提示插入汇总表重复",
+ "problem": "WMS主动补货存盘提示插入汇总表重复",
+ "cause": "检查发现是单号（生成的移库单号）重复插入，发现主动补货里生成单号取的是MAXBH表，但是WMS移库功能里取单号来源表是MXBHWMS，导致单号取值重复。",
+ "solution": "调整主动补货取单号的表，改为MXBHWMS。系统还有其他功能单号（在不同功能里生成的同类型单号），都需要排查，避免单号重复。",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "重复、补货、存盘"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1Y0aXWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1Y0aXWrMqPxX6",
+  "doc_path": "/其他/产品功能问题/WMS主动补货存盘提示插入汇总表重复",
+  "record_id": "0tJbiay2Hr"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/WMS主动补货存盘提示插入汇总表重复",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221204-027",
+ "record_id": "YNZcO4rwPu",
+ "title": "客户在使用一键打印的时候，使用了分组打印可以打印WMS拼箱后的多个销售出库清单。但每张清单上的当前页数和总页数无法显示。",
+ "problem": "客户在使用一键打印的时候，使用了分组打印可以打印WMS拼箱后的多个销售出库清单。但每张清单上的当前页数和总页数无法显示。",
+ "cause": "系统自带的当前页和总页数默认只能显示打印票样的内容，无法对分组的清单进行单独显示。",
+ "solution": "在存储过程k\\_prn\\_bill中添加((a.Billsort-1)/5)\\+1 as '页数',(select (count(1))/5 from race.dbo.SALEOUTDT where billno=a.billno and entid=a.entid)\\+1 as '总页数'。并在清单打印模板中设置按照Billsort进行排序。并添加函数，取到这两个字段显示的最大值，在页面中进行显示。",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "分组打印、页码显示"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYeq1zBV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYeq1zBV1waOeDk",
+  "doc_path": "/自研/实施问题/客户在使用一键打印的时候，使用了分组打印可以打印WMS拼箱后的多个销售出库清单。但每张清单上的当前页数和总页数无法显示。",
+  "record_id": "YNZcO4rwPu"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/客户在使用一键打印的时候，使用了分组打印可以打印WMS拼箱后的多个销售出库清单。但每张清单上的当前页数和总页数无法显示。",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

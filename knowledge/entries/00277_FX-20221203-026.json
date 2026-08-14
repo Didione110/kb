@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221203-026",
+ "record_id": "6UMgsrhkqm",
+ "title": "一键打印使用过程中，WMS中存在单据合单拣货情况，扫码标签条码的时候会显示多次的出库单，客户打印的清单的时候无法进显示，只能打印一个出库清单！",
+ "problem": "一键打印使用过程中，WMS中存在单据合单拣货情况，扫码标签条码的时候会显示多次的出库单，客户打印的清单的时候无法进显示，只能打印一个出库清单！",
+ "cause": "一键打印的清单模板中未能设置分组，不能将整个和单的单据都打印出来。",
+ "solution": "修改清单模板，设置分组字段解决此问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "合单拣货"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDDgj6W6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDDgj6W6zbX04v",
+  "doc_path": "/自研/产品功能问题/一键打印使用过程中，WMS中存在单据合单拣货情况，扫码标签条码的时候会显示多次的出库单，客户打印的清单的时候无法进显示，只能打印一个出库清单！",
+  "record_id": "6UMgsrhkqm"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/一键打印使用过程中，WMS中存在单据合单拣货情况，扫码标签条码的时候会显示多次的出库单，客户打印的清单的时候无法进显示，只能打印一个出库清单！",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250825-034",
+ "record_id": "FE6RjNMALC",
+ "title": "采购结算单列表，怎么用仓库名称做查询条件",
+ "problem": "采购结算单列表，怎么用仓库名称做查询条件",
+ "cause": "在结算单列表增加查询条件，标题、名称：仓库名称，编辑类型：参照，参照ID：Warehouse_AA，比较符：等于，数据源：(select cwhname from warehouse w left join rdrecord01 r on w.cwhcode=r.cwhcode where ccode=zpurpstail.cpivcode)。",
+ "solution": "在结算单列表增加查询条件，标题、名称：仓库名称，编辑类型：参照，参照ID：Warehouse_AA，比较符：等于，数据源：(select cwhname from warehouse w left join rdrecord01 r on w.cwhcode=r.cwhcode where ccode=zpurpstail.cpivcode)。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "仓库名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FE6RjNMALC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

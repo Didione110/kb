@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230828-045",
+ "record_id": "ZoxFrXO35b",
+ "title": "美团店铺订单商品出现负数金额，自动转单失败",
+ "problem": "美团店铺订单商品出现负数金额，自动转单失败",
+ "cause": "由于美团店铺跟平台签署了捐赠协议导致的问题，目前平台接口无法传递此字段。",
+ "solution": "给客户确认后本捐赠协助为不知情情况下签署，退订后续数据恢复正常。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "负数金额"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-08-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNyma0428xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNyma0428xkXOEP2",
+  "doc_path": "/其他/数据接口问题/美团店铺订单商品出现负数金额，自动转单失败",
+  "record_id": "ZoxFrXO35b"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/美团店铺订单商品出现负数金额，自动转单失败",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

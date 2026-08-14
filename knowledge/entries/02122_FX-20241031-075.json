@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-075",
+ "record_id": "s5SyHTqAZH",
+ "title": "团队出差，每个人填写自己的数据",
+ "problem": "团队出差，每个人填写自己的数据",
+ "cause": "团队出差，每个人需要填写自己的数据，出差申请出差人是多人",
+ "solution": "先设置好人员档案然后设置业务关系，报销单关联人员档案。筛选条件设置：人员档案表的姓名控件 in \n报销单的所有出差人。控件触发设置所有出差人，当控件值变化时\n会重新执行这个关联关系。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "出差填报"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "s5SyHTqAZH"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241202-001",
+ "record_id": "RlAyQxu4JI",
+ "title": "使用.net框架调用医保控件出现“0XX....”或闪退的系统错误，改用delphi来调用医保控件，delphi提供调用医保控件的服务。",
+ "problem": "使用.net框架调用医保控件出现“0XX....”或闪退的系统错误，改用delphi来调用医保控件，delphi提供调用医保控件的服务。",
+ "cause": "delphi提供的http服务入参和出参中文乱码",
+ "solution": "入参对字符串使用函数Utf8ToAnsi处理\n出参对字符串使用函数ansitoUTF8处理",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保控件调用"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-12-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3lxr5Wn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3lxr5Wn4qY5Pr",
+  "doc_path": "/自研/数据接口问题/使用.net框架调用医保控件出现0XX或闪退的系统错误，改用delphi来调用医保控件，delphi提供调用医保控件的服务。",
+  "record_id": "RlAyQxu4JI"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/使用.net框架调用医保控件出现0XX或闪退的系统错误，改用delphi来调用医保控件，delphi提供调用医保控件的服务。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

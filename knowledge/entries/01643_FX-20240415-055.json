@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240415-055",
+ "record_id": "h04t5Zt9XR",
+ "title": "U8打开登陆界面闪退",
+ "problem": "U8打开登陆界面闪退",
+ "cause": "环境问题",
+ "solution": "排查方式\n1、修改企业门户的文件名称中的大小写 N2\n2、重装silverlight程序，重新安装可通过安装包的3rdPrograms文件夹中找到程序安装；\n3、检查下 D:\\U8SOFT\\Cache\\UnableInterceptFiles\\PatchFilesInfo.xml这个文件是不存在或者被加密了。",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "IE"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "U8闪退"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "h04t5Zt9XR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

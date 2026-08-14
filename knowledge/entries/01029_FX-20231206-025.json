@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231206-025",
+ "record_id": "QGwmNmkkVZ",
+ "title": "开票软件报错  第2条明细中不含税单价和数量与不含税金额误差大于0.01",
+ "problem": "开票软件报错 第2条明细中不含税单价和数量与不含税金额误差大于0.01",
+ "cause": "含税金额会通过sql重新计算后带到开票界面，有时候单价位数不够多时重新计算后就会有差异",
+ "solution": "手动微调金额即可解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "不含税金额"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3Yb57Jakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3Yb57Jakx1Z5N",
+  "doc_path": "/自研/软件无法使用/开票软件报错  第2条明细中不含税单价和数量与不含税金额误差大于0.01",
+  "record_id": "QGwmNmkkVZ"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/开票软件报错  第2条明细中不含税单价和数量与不含税金额误差大于0.01",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

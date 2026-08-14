@@ -1,0 +1,39 @@
+{
+ "id": "FX-20221031-051",
+ "record_id": "uJihV4Ro22",
+ "title": "商品资料修改，资料修改审批完成后，资料没有更新",
+ "problem": "商品资料修改，资料修改审批完成后，资料没有更新",
+ "cause": "在pgprice表中这个商品存在多条beactive为Y的记录",
+ "solution": "将pgprice表中beactive改成N,只留一条为Y的记录",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PostgreSQL"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "资料未更新"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施7部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uJihV4Ro22"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

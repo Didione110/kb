@@ -1,0 +1,47 @@
+{
+ "id": "FX-20250730-044",
+ "record_id": "LzH5cePpjS",
+ "title": "针对追溯码PDA新增的条码查询功能，使用magicapi来进行数据返回，标准版无时空数据的匹配，操作员在扫货的时候，不能直观看出来是否存在未维护的商品内容",
+ "problem": "针对追溯码PDA新增的条码查询功能，使用magicapi来进行数据返回，标准版无时空数据的匹配，操作员在扫货的时候，不能直观看出来是否存在未维护的商品内容",
+ "cause": "标准magicapi未考虑到这一块，针对条码查询的querycode方法，增加时空商品信息的读取显示",
+ "solution": "import log\nimport env\nimport http\nimport response\n\nimport '@/token/validate' as tokenvalidate\n\nvar token\\_ret = tokenvalidate(token)\n\n//日期格式化\nlet fn\\_formatedate = (date\\_str) =\\> \\{\n```\nif (date_str.indexOf(\"/\") != -1) {\n return date_format(date_str::date(\"yyyy/mm/dd\"), \"yyyy-mm-dd\")\n} else if (date_str.indexOf(\"-\") == -1 && date_str.length() == 8) {\n return date_format(date_str::date(\"yyyymmdd\"), \"yyyy-mm-dd\")\n}\n\nreturn date_str\n\n```\n\n\\}\n\nif (token\\_ret.validate) \\{\n //平台解析OWNERID\n let ownerid = env.get(\"magic-api.alhealth.ownerid\", \"00000000\")\n```\nlet v_barcode = code\n\nlet platurl = String.format(\"https://plat.kq1997.net/magic/alihealth/drug/querycode?ownerid=%s&codes=%s\", ownerid, v_barcode)\n\ntry {\n let code_info = http.connect(platurl).get().getBody()\n\n if (code_info.code == 1) {\n if (!is_null(code_info?.data) && code_info.data.size() > 0) {\n let code_data = code_info.data.first();\n\n code_info.data = code_data;\n code_data.ent_name = code_data.ent_name + '\\n码上放心ID:【'+code_data.drug_ent_base_info_id+'】'\n let v_elecgoodscode = code_data.drug_ent_base_info_id.trim();\n let v_GoodsCode = db.lower().selectOne(\"\"\" select a.goodscode,b.k_pkg_ratio,c.unit from goodsdoc a join goodsattr b on a.goodsid = b.goodsid and a.entid = b.entid join pgprice c on c.goodsid = a.goodsid and c.entid = c.entid\n where b.elecgoodscode = #{v_elecgoodscode}\n \"\"\");\n // exit - 1, \"无相关追溯码信息QQQQQQ\"\n if(is_null(v_GoodsCode)){\n code_data.pkg_ratio = code_data.pkg_ratio + ' \\n时空商品编号：暂未维护'\n }else {\n code_data.pkg_ratio = code_data.pkg_ratio + ' \\n时空商品编号：' +v_GoodsCode.goodscode +'\\n时空商品单位：'+ v_GoodsCode.unit +'\\n时空已维护的包装转换比例：'+v_GoodsCode.k_pkg_ratio +'\\n 时空已维护的商品条目：'+v_GoodsCode.size()\n }\n if (!is_null(code_data?.produce_info_list) && code_data?.produce_info_list.size() > 0) {\n for (item in code_data.produce_info_list) {\n item.produce_date_str = fn_formatedate(item.produce_date_str)\n item.expire_date = fn_formatedate(item.expire_date)\n item.pkg_amount = item.pkg_amount::int \n item.package_level = code_data.package_level::int\n }\n }\n } else {\n exit - 1, \"无相关追溯码信息\"\n }\n }\n return response.json(code_info)\n} catch (e) {\n exit - 1, e.getMessage()\n}\n\n```\n\n\\} else",
+ "solution_types": [
+  "代码修改",
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PostgreSQL",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "条码查询"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDAm0bW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDAm0bW6zbX04v",
+  "doc_path": "/时空/应用操作/针对追溯码PDA新增的条码查询功能，使用magicapi来进行数据返回，标准版无时空数据的匹配，操作员在扫货的时候，不能直观看出来是否存在未维护的商品内容",
+  "record_id": "LzH5cePpjS"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/针对追溯码PDA新增的条码查询功能，使用magicapi来进行数据返回，标准版无时空数据的匹配，操作员在扫货的时候，不能直观看出来是否存在未维护的商品内容",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

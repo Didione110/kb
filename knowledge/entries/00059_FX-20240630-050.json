@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240630-050",
+ "record_id": "1LHKJznOD0",
+ "title": "sqldeveloper连接数据库报错（附件图）",
+ "problem": "sqldeveloper连接数据库报错（附件图）",
+ "cause": "sqldeveloper\\\\jdbc\\\\lib文件夹下的ojdbc8.jar版本问题",
+ "solution": "更换成ojdbc7.jar后，工具连接数据库正常",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "连接失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-06-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbbzMAVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbbzMAVzlwrZgb",
+  "doc_path": "/时空/环境问题/sqldeveloper连接数据库报错（附件图）",
+  "record_id": "1LHKJznOD0"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/sqldeveloper连接数据库报错（附件图）",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

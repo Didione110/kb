@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260228-022",
+ "record_id": "bPse9woIaR",
+ "title": "NCC及BIP高级版补丁工具云巡检版本升级方法\n",
+ "problem": "NCC及BIP高级版补丁工具云巡检版本升级方法",
+ "cause": "云巡检迭代更新",
+ "solution": "1、先升级客户端，客户端阿里云服务器可能存在部分进程问题，显示启动重复，需要覆盖集团老师刘文给的云巡检客户端补丁\n2、再去下载最新的服务端，需要停用当前的云巡检服务端，云盘（https://pan.yonyou.com/web/share.html?hash=NQNJE0XsRmo#）下载最新的适配openJRE17的服务端，把旧服务端里的【CloudInspectServer\\UMPRepo】文件复制到新的里（Linux系统需要给新服务端根目录下文件授权，新的CloudInspectServer目录下执行【chmod -R 755 ./】），再启动使用。新服务端正常使用后，把旧服务端删掉。\n3、在服务端下载最新的授权码\n4、在客户端的应用服务器输入授权码，保存测试连接后，再去服务端环境进行环境检测",
+ "solution_types": [
+  "补丁更新",
+  "环境设置",
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "补丁升级"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "连接集成服务",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bPse9woIaR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

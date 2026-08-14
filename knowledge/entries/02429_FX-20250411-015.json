@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250411-015",
+ "record_id": "zyGFsuG4h4",
+ "title": "采购订单本该显示为单据类型的表头标题莫名其妙变成了销售订单，但带出来的数据还是单据类型。",
+ "problem": "采购订单本该显示为单据类型的表头标题莫名其妙变成了销售订单，但带出来的数据还是单据类型。",
+ "cause": "可能是打了某个补丁，导致原来文本该显示单据类型的地方变成了销售订单，可能是北京补丁里带了什么专项脚本没有清理，这个脚本莫名其妙给系统创建了一个销售订单的私有段跟单据类型显示冲突了",
+ "solution": "在修改部件中，把这个莫名其妙出现的销售订单取消扩展就好了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "标题错乱"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zyGFsuG4h4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

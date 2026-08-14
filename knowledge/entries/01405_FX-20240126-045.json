@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240126-045",
+ "record_id": "aTaie799tj",
+ "title": "查询库存账簿时系统提示“查询出错：Caused by:一次性从数据库中读取数据过多:20000”",
+ "problem": "查询库存账簿时系统提示“查询出错：Caused by:一次性从数据库中读取数据过多:20000”",
+ "cause": "查询过多数据",
+ "solution": "1、供应链系统预置的查询数据返回值为一次20000条，超过这个控制系统就报错，因此推荐缩小查询条件来解决。\n2、如果项目确实要查询数据量比较大，要求放开控制，那么就需要修改代码中的配置文件：\nU8CERP21\\modules\\scmpub\\scmcustomer\\customerconfig.xml",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "数据量过大"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aTaie799tj"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

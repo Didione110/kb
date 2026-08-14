@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241125-049",
+ "record_id": "SzcEsdG3ZC",
+ "title": "如何设置数据权限：业务员仅允许操作本部门单据。",
+ "problem": "如何设置数据权限：业务员仅允许操作本部门单据。",
+ "cause": "为控制涉密内容，自己部门只允许看到自己部门的单据。",
+ "solution": "设置单据限制条件：PayReqFundHead.Transactor.Dept==GetCurrentOperatorDept ()",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "数据权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SzcEsdG3ZC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

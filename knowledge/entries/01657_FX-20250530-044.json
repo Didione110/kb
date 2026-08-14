@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250530-044",
+ "record_id": "hIE7uuq48Z",
+ "title": "远程审方系统，门店和药师视频时显示黑屏。",
+ "problem": "远程审方系统，门店和药师视频时显示黑屏。",
+ "cause": "原因为其他程序占用了摄像头。",
+ "solution": "关闭占用摄像头程序，重新呼叫视频咨询恢复正常。",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Edge",
+  "Chrome",
+  "360浏览器"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "黑屏"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-05-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbzdwBW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbzdwBW3kdP0wQ",
+  "doc_path": "/其他/产品功能问题/远程审方系统，门店和药师视频时显示黑屏。",
+  "record_id": "hIE7uuq48Z"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/远程审方系统，门店和药师视频时显示黑屏。",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250729-043",
+ "record_id": "5Upj3zXqtK",
+ "title": "请款单 屏蔽请款用途为【杂项】，因为杂项不参与核销。",
+ "problem": "请款单 屏蔽请款用途为【杂项】，因为杂项不参与核销。",
+ "cause": "请款单 想屏蔽请款用途为【杂项】，因为杂项不参与核销。",
+ "solution": "数据权限实体：付款请款单用途 动态视图类型：增删改： 视图条件：NewPayReqFundUse.ReqFundUse.Value!=FunEnum('付款请款单','杂项',4) 放在新增和修改视图下。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "杂项不核销"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-07-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3RY2AJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3RY2AJakx1Z5N",
+  "doc_path": "/用友/产品功能问题/请款单 屏蔽请款用途为【杂项】，因为杂项不参与核销。",
+  "record_id": "5Upj3zXqtK"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/请款单 屏蔽请款用途为【杂项】，因为杂项不参与核销。",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

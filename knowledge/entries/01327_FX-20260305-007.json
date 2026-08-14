@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260305-007",
+ "record_id": "YfSN1ogwzR",
+ "title": "反馈医保结算单余额显示异常，为负数",
+ "problem": "反馈医保结算单余额显示异常，为负数",
+ "cause": "由于余额字段有时返回为0，所以使用了原余额减去个人账户支付得到的余额，但是该账户金额为零，其使用了共济余额支付，所以算成了负数",
+ "solution": "算法里面加入共济支付余额",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "医保余额异常"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-03-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pDOBg8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pDOBg8gN7R35y",
+  "doc_path": "/自研/数据错误问题/反馈医保结算单余额显示异常，为负数",
+  "record_id": "YfSN1ogwzR"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/反馈医保结算单余额显示异常，为负数",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

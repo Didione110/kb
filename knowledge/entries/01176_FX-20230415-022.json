@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230415-022",
+ "record_id": "UWUJRMa5hh",
+ "title": "U9c系统所有的报表无法打开，各种报错，如：图片",
+ "problem": "U9c系统所有的报表无法打开，各种报错，如：图片",
+ "cause": "排查方向有两个：1、报表服务没有启动；2、需要彻底卸载重装报表服务器",
+ "solution": "在U9安装工具里卸载重装报表服务后重新配置，并启动报表服务，报表问题就能解决",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "报表异常"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UWUJRMa5hh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

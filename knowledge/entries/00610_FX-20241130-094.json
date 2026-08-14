@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241130-094",
+ "record_id": "F3ibjdT9Sm",
+ "title": "工单系统h5端使用uniapp开发，上传图片转化成formdata类型传输失败",
+ "problem": "工单系统h5端使用uniapp开发，上传图片转化成formdata类型传输失败",
+ "cause": "uniapp不能使用uni.request发送formdata类型请求，导致图片上传失败",
+ "solution": "使用uni.uploadFile上传图片",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "uniapp 上传失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yA5zGy8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yA5zGy8GXn6lpz",
+  "doc_path": "/自研/产品功能问题/工单系统h5端使用uniapp开发，上传图片转化成formdata类型传输失败",
+  "record_id": "F3ibjdT9Sm"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/工单系统h5端使用uniapp开发，上传图片转化成formdata类型传输失败",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

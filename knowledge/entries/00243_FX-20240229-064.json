@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240229-064",
+ "record_id": "5ik85z3Wc8",
+ "title": "新增了个值集，只想要料品分类1成品和2半成品，那值集的过滤条件怎么写",
+ "problem": "新增了个值集，只想要料品分类1成品和2半成品，那值集的过滤条件怎么写",
+ "cause": "以主分类编码1级下级，2及下级为例，过滤条件为 MainItemCategory.Code like '1%' or MainItemCategory.Code like '2%'",
+ "solution": "以主分类编码1级下级，2及下级为例，过滤条件为 MainItemCategory.Code like '1%' or MainItemCategory.Code like '2%'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "值集过滤"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5ik85z3Wc8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

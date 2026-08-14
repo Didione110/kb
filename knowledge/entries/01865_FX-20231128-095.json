@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231128-095",
+ "record_id": "mTweuexdb1",
+ "title": "客户问固定资产已计提完折旧的卡片为什么没有在账表里面查询出来",
+ "problem": "客户问固定资产已计提完折旧的卡片为什么没有在账表里面查询出来",
+ "cause": "已经计提完折旧的固定资产卡片默认不显示在报表数据里面",
+ "solution": "在固定资产统计分析表中，点击查询，查询条件勾选提足折旧，然后对查询结果联查明细就可以带出提完折旧的卡片",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "已提完折旧"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mTweuexdb1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

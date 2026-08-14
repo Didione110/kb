@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250627-043",
+ "record_id": "UINoVYPUpl",
+ "title": "操作:SMPullSrcDocSV的参数:SrcDocinfoDTO.SrcDocLineNo设置不正确,此异常出现的原因为该操作的调用方提供的参数值不正确导致,请该操作的调用方检查代码,以避免此异常出现。",
+ "problem": "操作:SMPullSrcDocSV的参数:SrcDocinfoDTO.SrcDocLineNo设置不正确,此异常出现的原因为该操作的调用方提供的参数值不正确导致,请该操作的调用方检查代码,以避免此异常出现。",
+ "cause": "SrcDocLineNo字段必填，不能为Null不能为空字符串",
+ "solution": "根据单据不同查询对应明细行行号",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "参数错误"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2025-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UINoVYPUpl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

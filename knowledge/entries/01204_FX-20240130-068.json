@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240130-068",
+ "record_id": "VeHZTR6MQk",
+ "title": "金税诺诺接口添加不同的企业时候，编写视图后查询提示最小的行大小超出了容许的8060个字节的最大值，导致无法查询",
+ "problem": "金税诺诺接口添加不同的企业时候，编写视图后查询提示最小的行大小超出了容许的8060个字节的最大值，导致无法查询",
+ "cause": "视图使用replace函数的时候，会将对应的视图字段行数长度变成最大8000，导致查询报错",
+ "solution": "在视图对应的字段添加字段强制转换函数convert()，将对应字段的长度变成适合的长度解决问题",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "金税诺诺、企业、视图、行大小、8060"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymZa2p8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymZa2p8xkXOEP2",
+  "doc_path": "/其他/实施问题/金税诺诺接口添加不同的企业时候，编写视图后查询提示最小的行大小超出了容许的8060个字节的最大值，导致无法查询",
+  "record_id": "VeHZTR6MQk"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/金税诺诺接口添加不同的企业时候，编写视图后查询提示最小的行大小超出了容许的8060个字节的最大值，导致无法查询",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

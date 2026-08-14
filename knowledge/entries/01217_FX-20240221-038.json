@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240221-038",
+ "record_id": "W993UegtHd",
+ "title": "固定资产无法生成凭证",
+ "problem": "固定资产无法生成凭证",
+ "cause": "凭证设置问题",
+ "solution": "1、科目分类定义中是否维护默认入账科目或对照表信息;\n2、企业建模平台-会计平台-入账规则定义，选中固定资产节点，查看默认入账主体默认入账账簿是否为空或者不正确，可修改刷新重新选择一下;\n3、涉及折旧摊销生成不了凭证的，除上述检查以外，还需要注意涉及影响因素的、辅助核算的，请在固定资产模块的【参数设置】节点的\"汇总方式\"把对应的字段拉到右侧去，然后重新计提折旧",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证生成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "W993UegtHd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251031-048",
+ "record_id": "ntNWUwxduE",
+ "title": "【协同】集团版，流程在已发能查到，集团管理员能查到，单位管理员查不到",
+ "problem": "【协同】集团版，流程在已发能查到，集团管理员能查到，单位管理员查不到",
+ "cause": "标准功能",
+ "solution": "若人员存在兼职、且集团管理 “启用模板流程发起部门”,人员发起流程的时候可选择 以xx单位（部门）作为发起单位（该参数只能由集团管理员设置，见附件；没有启用，则默认使用发起人主岗所在单位判断）；\n若以本单位发起，单位管理员-流程督办监控 则需要在发起者的单位查询该流程；\n若以兼职单位发起，则登录兼职单位",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ntNWUwxduE"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

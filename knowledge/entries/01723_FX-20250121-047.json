@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-047",
+ "record_id": "icoc4FMajU",
+ "title": "消息中心待办消息审批后直接关闭",
+ "problem": "消息中心待办消息审批后直接关闭",
+ "cause": "业务背景：\n能否实现有多个审批待审，审批了一个之后，设置直接跳到下一个审批项，直至全审批完；",
+ "solution": "1、Web端，目前仅能支持到审批完成回到消息列表；（系统管理-打开企业风格设置：勾选参数消息审批完成后自动关闭当前页）\n2、移动端，目前可以支持到审批完成后自动打开下一个审批单据详情",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "待办关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "icoc4FMajU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

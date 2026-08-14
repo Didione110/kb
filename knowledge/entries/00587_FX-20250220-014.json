@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250220-014",
+ "record_id": "EP2hvweB6U",
+ "title": "主tomcat启动，但是打开报注册",
+ "problem": "主tomcat启动，但是打开报注册",
+ "cause": "主tomcat打开异常，1009无法联通的情况提示注册",
+ "solution": "加入linux的守护进程，监控异常时重启，以下是shell程序内容:\n\n# !/bin/sh\n\ndeclare -a pathName\npathName\\[0\\]=TomcatV10\n\ndeclare -a ports\nports\\[0\\]=8088\n\nfor i in \\{0..0\\}; do\n # tomcat启动程序(这里注意tomcat实际安装的路径) \n StartTomcat=/opt/${pathName[$\ni\\]\\}/bin/startup.sh\n```\n# 定义要监控的页面地址\nWebUrl=http://localhost:${ports[$i]}\necho $WebUrl\n# 解析页面时间设定\nTIMETRANSFER=15\n\n# 缓存地址如果不需要可以不配置\n#TomcatCache=/opt/${pathName[$i]}/work/Catalina\n \n# 获取tomcat进程ID /opt/TomcatV101\nTomcatID=$(ps -ef |grep -w ${pathName[$i]}|grep -v 'grep\\|cronolog'|awk '{print $2}')\n\necho $TomcatID\n# 日志输出 \nTomcatMonitorLog=/opt/${pathName[$i]}/logs/Monitor1009_1009_$(date +%Y%m%d).log\n\nMonitor()\n{\n echo \"[info]开始监控tomcat注册服务...[$(date +'%F %H:%M:%S')]\"\n LicensePortCount=`netstat -an | grep \":1009\" | awk '$1 == \"tcp\" && $NF == \"LISTEN\" {print $0}' | wc -l`\n if [ $LicensePortCount -eq 0 ];then\n echo \"[error]注册服务端口异常，错误日志已输出到$GetPageInfo\"\n echo \"[error]注册服务端口异常，开始重启tomcat\"\n echo \"[error]注册服务端口异常，重启tomcat\"\n kill -9 $TomcatID # 杀掉原tomcat进程\n sleep 30s\n #rm -rf $TomcatCache # 清理tomcat缓存\n $StartTomcat\n \n else\n echo \"[info]注册服务端口测试完成...[$(date +'%F %H:%M:%S')]\"\n fi\n \n echo \"[info]注册服务监控测试完成tomcat...[$(date +'%F %H:%M:%S')]\"\n \n echo \"\"\n}\nMonitor>>$TomcatMonitorLog\n\n```\n\ndone",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Linux",
+  "Shell"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "注册失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-02-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAaKgwVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAaKgwVKe0xjE3",
+  "doc_path": "/时空/安装部署问题/主tomcat启动，但是打开报注册",
+  "record_id": "EP2hvweB6U"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/主tomcat启动，但是打开报注册",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

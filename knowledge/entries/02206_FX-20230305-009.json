@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230305-009",
+ "record_id": "uO9DTcVeRc",
+ "title": "致远OA系统中，费用报销单，流程经过超级接节点后，全部转向干预人账号，无法发送单据流向",
+ "problem": "致远OA系统中，费用报销单，流程经过超级接节点后，全部转向干预人账号，无法发送单据流向",
+ "cause": "该部门费用报销单流程上级审核人存在多个审批人，导致在添加超级节点审核后，无法为后面节点选择人员；；联系致远总部技术后，告知在流程集成中，如要使用超级节点，超级节点后审批节点审批人呢必须是唯一，不能设置成审批组或多个审批对象。",
+ "solution": "修改表单审批流程，将超级节点后移至只有一人审批节点前",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "超级节点"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uO9DTcVeRc"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "数据接口问题"
+ ]
+}

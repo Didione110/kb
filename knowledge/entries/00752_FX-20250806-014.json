@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250806-014",
+ "record_id": "JPvJVmX8oU",
+ "title": "郑州新版的电子标签软件如何去进行映射标签",
+ "problem": "郑州新版的电子标签软件如何去进行映射标签",
+ "cause": "郑州新版的电子标签软件如何去进行映射标签",
+ "solution": "在附件中，包含语句与说明",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "电子标签映射"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-08-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbrOqDJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbrOqDJxEKBD6p",
+  "doc_path": "/其他/安装部署问题/郑州新版的电子标签软件如何去进行映射标签",
+  "record_id": "JPvJVmX8oU"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/郑州新版的电子标签软件如何去进行映射标签",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

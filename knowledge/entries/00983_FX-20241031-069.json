@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-069",
+ "record_id": "P6d457CPW8",
+ "title": "超过一定期限的待办或待阅事项会自动消失",
+ "problem": "超过一定期限的待办或待阅事项会自动消失",
+ "cause": "系统默认开启清理超过90天的待办事项及60天的待阅事项；",
+ "solution": "在统一消息中心-待办-参数配置中自定义调整。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动消失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "P6d457CPW8"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

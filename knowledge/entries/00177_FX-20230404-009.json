@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230404-009",
+ "record_id": "482hyTXBKL",
+ "title": "天联客户端打印不弹出天联预览框并且系统自行选择了打印机进行打印",
+ "problem": "天联客户端打印不弹出天联预览框并且系统自行选择了打印机进行打印",
+ "cause": "天联客户端打印设置被调整导致无法打印",
+ "solution": "天联客户端设置——打印机设置，默认本地打印机选项选择“默认本地打印机”；勾选显示打印对话框，保存后再次测试恢复正常",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "天联打印预览"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-04-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "482hyTXBKL"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

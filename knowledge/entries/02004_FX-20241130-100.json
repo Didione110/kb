@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-100",
+ "record_id": "pFHpUL3jaP",
+ "title": "医保商品对码功能，选择医保数据显示无数据",
+ "problem": "医保商品对码功能，选择医保数据显示无数据",
+ "cause": "因为医保目录一致在持续更新，导致时空这边还没来的及更新医保目录，导致医保商品对码无法选择资料",
+ "solution": "调整医保商品对码功能，保证数据商品名称或者批准文号后可以检索已经存在的医保目录，如果检索无资料，客户也可以手动输入医保信息，进行医保信息维护，避免医保目录未导入，导致客户无法更新信息",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保对码"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pFHpUL3jaP"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

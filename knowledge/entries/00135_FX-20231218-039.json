@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231218-039",
+ "record_id": "3BPXmDpdlP",
+ "title": "怎么设置用户权限，只能查询和修改自己维护的凭证？",
+ "problem": "怎么设置用户权限，只能查询和修改自己维护的凭证？",
+ "cause": "需设置特殊数据权限，特殊数据权限-总账凭证-创建者权限。",
+ "solution": "需设置特殊数据权限，特殊数据权限-总账凭证-创建者权限。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-12-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1zka6WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1zka6WrMqPxX6",
+  "doc_path": "/用友/产品功能问题/怎么设置用户权限，只能查询和修改自己维护的凭证？",
+  "record_id": "3BPXmDpdlP"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/怎么设置用户权限，只能查询和修改自己维护的凭证？",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

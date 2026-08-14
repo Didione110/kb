@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241031-054",
+ "record_id": "fbp9lmv3DP",
+ "title": "服务器是虚拟机，电脑重启就会偶尔发生特征码变化，需要重新解绑和激活软件，这个特征码到底是依据什么来的？",
+ "problem": "服务器是虚拟机，电脑重启就会偶尔发生特征码变化，需要重新解绑和激活软件，这个特征码到底是依据什么来的？",
+ "cause": "虚拟机的特征码重启后一般不会变化的。虚拟机特征码跟新建虚拟机的集群，宿主机上的位置变化有关系，MAC地址变化有关。特征码变了，就是新建了虚拟机。即使CPU等配置一模一样。硬件特征码也会变。如果虚拟机在不同的宿主之间切换，会造成特征码前几位变化。如果虚拟机增加了TPM设备，特征码第一位会变。",
+ "solution": "虚拟机的特征码重启后一般不会变化的。虚拟机特征码跟新建虚拟机的集群，宿主机上的位置变化有关系，MAC地址变化有关。特征码变了，就是新建了虚拟机。即使CPU等配置一模一样。硬件特征码也会变。如果虚拟机在不同的宿主之间切换，会造成特征码前几位变化。如果虚拟机增加了TPM设备，特征码第一位会变。",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "虚拟机特征码"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fbp9lmv3DP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

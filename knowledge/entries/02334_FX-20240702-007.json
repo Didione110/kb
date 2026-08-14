@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240702-007",
+ "record_id": "xDh9ZDtrJa",
+ "title": "客户电脑上不能使用注册表组件microsoft.win32.registry 来获取文件类型",
+ "problem": "客户电脑上不能使用注册表组件microsoft.win32.registry 来获取文件类型",
+ "cause": "客户电脑环境问题",
+ "solution": "不另外安装组件了，改为FileExtensionContentTypeProvider获取文件类型",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "注册表访问"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xDh9ZDtrJa"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

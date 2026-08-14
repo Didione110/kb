@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250228-049",
+ "record_id": "0ng3EheNPd",
+ "title": "登录OA处理待办的时候，希望只能看到明细行选人控件是本人的明细行设置方法",
+ "problem": "登录OA处理待办的时候，希望只能看到明细行选人控件是本人的明细行设置方法",
+ "cause": "【应用场景】：维修申请单，明细表中会有很多明细行记录需要维修的信息，每个明细行都有对应的维修责任人，需要实现责任人处理待办的时候只能看到责任人是自己的维修信息明细行。申请人在已发事项打开可以看到所有明细行的维修情况。",
+ "solution": "具体设置见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "明细行权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0ng3EheNPd"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

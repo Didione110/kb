@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241031-068",
+ "record_id": "AdtGCi0GUZ",
+ "title": "附件转换中没有转换任务且无法新建",
+ "problem": "附件转换中没有转换任务且无法新建",
+ "cause": "未进行产品初始化",
+ "solution": "在运维管理-管理员工具箱-系统初始化中导入基础数据即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Java",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "转换任务"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "AdtGCi0GUZ"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

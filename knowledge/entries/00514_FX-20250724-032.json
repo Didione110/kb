@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250724-032",
+ "record_id": "ClX8PDb8nP",
+ "title": "已经引用过的用户定义属性，如果确认现存数据不再需要改字段，可后台修改引用属性",
+ "problem": "已经引用过的用户定义属性，如果确认现存数据不再需要改字段，可后台修改引用属性",
+ "cause": "已经引用过的用户定义属性，如果确认现存数据不再需要改字段，可后台修改引用属性",
+ "solution": "已经引用过的用户定义属性，如果确认现存数据不再需要改字段，可后台修改引用属性；注意备份",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "引用值"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-07-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ClX8PDb8nP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

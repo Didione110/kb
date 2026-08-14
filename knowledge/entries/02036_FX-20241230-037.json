@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241230-037",
+ "record_id": "q1x5eGblZS",
+ "title": "按照不同的料品分类增加的角色不同怎么设置，某个主分类必须某个角色的用户新增和维护",
+ "problem": "按照不同的料品分类增加的角色不同怎么设置，某个主分类必须某个角色的用户新增和维护",
+ "cause": "按照不同的料品分类增加的角色不同怎么设置，某个主分类必须某个角色的用户新增和维护",
+ "solution": "设置数据权限: 实体：料品： 类型：增删改类型： 视图条件：NewItemMaster.MainItemCategory.Code=='某分类编码' 放到新增和修改视图下",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "角色权限控制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-12-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q1x5eGblZS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

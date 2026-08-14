@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-061",
+ "record_id": "67D8RECzLo",
+ "title": "用户绑定了角色权限，但登录系统提示当前用户没有可用功能，不能登录系统",
+ "problem": "用户绑定了角色权限，但登录系统提示当前用户没有可用功能，不能登录系统",
+ "cause": "职员组织规划里面，该人员的直属机构和部门都没维护导致的",
+ "solution": "将该人员添加进直属机构或者部门即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "权限异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmB7De83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmB7De83pmz5aA",
+  "doc_path": "/时空/应用操作/用户绑定了角色权限，但登录系统提示当前用户没有可用功能，不能登录系统",
+  "record_id": "67D8RECzLo"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/用户绑定了角色权限，但登录系统提示当前用户没有可用功能，不能登录系统",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

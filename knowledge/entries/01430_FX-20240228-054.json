@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240228-054",
+ "record_id": "bCmHQnZzZ4",
+ "title": "需要调用ERP中档案数据，但是外网访问ERP数据库一直不通过",
+ "problem": "需要调用ERP中档案数据，但是外网访问ERP数据库一直不通过",
+ "cause": "防火墙不允许调用数据库端口",
+ "solution": "经与软件厂商沟通使用数据源要保证服务器之间能够互通即可，经与服务器厂家沟通两台服务器在同一子网内，随即更换为内网地址即可访问成功，随即在表单上经过配置即可直接调用ERP档案数据，注意配置过程尽量有熟悉数据库的同事协助，因为是直接对数据库表进行操作",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "外网访问失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "集成管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bCmHQnZzZ4"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "数据接口问题"
+ ]
+}

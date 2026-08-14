@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250507-007",
+ "record_id": "a6bEtOtm57",
+ "title": "已经安装过诺诺发票的电脑点开显示重新下载",
+ "problem": "已经安装过诺诺发票的电脑点开显示重新下载",
+ "cause": "经过排查被360杀了",
+ "solution": "重新下载安装后在360添加信任文件夹",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "诺诺发票"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-05-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1m4OYWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1m4OYWrMqPxX6",
+  "doc_path": "/自研/产品功能问题/已经安装过诺诺发票的电脑点开显示重新下载",
+  "record_id": "a6bEtOtm57"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/已经安装过诺诺发票的电脑点开显示重新下载",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

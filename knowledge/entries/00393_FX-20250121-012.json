@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250121-012",
+ "record_id": "9TkILybWcV",
+ "title": "扩展字段：实体项目、实体阶段 做联动 \n选了实体项目后，实体阶段自动带出项目类里的内容",
+ "problem": "扩展字段：实体项目、实体阶段 做联动 \n选了实体项目后，实体阶段自动带出项目类里的内容",
+ "cause": "系统自带的项目、任务可以办到，不用另外设置；\n但这个实施项目上是用的扩展字段，引用的是项目、任务实体",
+ "solution": "两个值集项目和任务，可以建立依赖，任务值集依赖项目字段，关联字段选择【Project.Code】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "联动"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakqPnBJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakqPnBJgk9rpMq",
+  "doc_path": "/用友/应用操作/扩展字段：实体项目、实体阶段 做联动 选了实体项目后，实体阶段自动带出项目类里的内容",
+  "record_id": "9TkILybWcV"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/扩展字段：实体项目、实体阶段 做联动 选了实体项目后，实体阶段自动带出项目类里的内容",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

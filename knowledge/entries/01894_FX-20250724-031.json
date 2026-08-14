@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250724-031",
+ "record_id": "n3hMo2jBeT",
+ "title": "T+单据生凭证看不到资产模块业务",
+ "problem": "T+单据生凭证看不到资产模块业务",
+ "cause": "个别账套异常导致",
+ "solution": "后台语句解决：update SM_VoucherType set disabled=0 where id in (64,63,22,7)",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "资产模块"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-07-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n3hMo2jBeT"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

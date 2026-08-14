@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231229-073",
+ "record_id": "f11r8TH71a",
+ "title": "客户档案注册资本字段需要录入美元符号",
+ "problem": "客户档案注册资本字段需要录入美元符号",
+ "cause": "客户档案注册资本字段需要录入美元符号",
+ "solution": "需要执行以下注册表文件，需要区分32位机器和64位机器，我的电脑属性中可以按到是32位还是64位，添加的特殊字符可以手工编辑。找到字符串键值BadStrException的值里添加需要的特殊字符即可。若没有添加字符串BadStrException也可。\n\n32位机器：Windows Registry Editor Version 5.00注册表[HKEY_LOCAL_MACHINE\\SOFTWARE\\Ufsoft\\WF\\V8.700\\Portal]”BadStrException”=”<>”\\|$”\n\n64位机器：Windows Registry Editor Version 5.00[HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Ufsoft\\WF\\V8.700\\Portal]”BadStrException”=”<>”\\|$”",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "美元符号"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "f11r8TH71a"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240731-055",
+ "record_id": "09pcUCC4Ck",
+ "title": "测试环境需要清除业务数据",
+ "problem": "测试环境需要清除业务数据",
+ "cause": "测试环境需要清除业务数据，把库复制到正式环境",
+ "solution": "用数据清理工具删除完业务数据",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "清除数据"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "09pcUCC4Ck"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

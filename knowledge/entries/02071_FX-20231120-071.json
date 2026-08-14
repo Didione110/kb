@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231120-071",
+ "record_id": "qmRPWpwMm8",
+ "title": "没有做数据权限控制，供应商参照不全",
+ "problem": "没有做数据权限控制，供应商参照不全",
+ "cause": "做了用户条件设置",
+ "solution": "参照界面-选项中设置了用户条件\n([供应商编码]=N'010006'\n或者 [供应商编码]=N'030095'\n或者 [供应商编码]=N'110013'\n或者 [供应商编码]=N'110043'\n或者 [供应商编码]=N'110044'\n或者 [供应商编码]=N'110048'\n或者 [供应商编码]=N'110055'\n或者 [供应商编码]=N'110056'\n或者 [供应商编码]=N'110057'\n或者 [供应商编码]=N'110064'\n或者 [供应商编码]=N'110066')\n清除即可，解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "数据权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qmRPWpwMm8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231107-052",
+ "record_id": "w00C7Xnl7V",
+ "title": "现在ERP与电商平台的对接越来越多，经常会获取到json格式的数据，需要对数据内容进行解析",
+ "problem": "现在ERP与电商平台的对接越来越多，经常会获取到json格式的数据，需要对数据内容进行解析",
+ "cause": "创建函数，快速解析json数据内容",
+ "solution": "解析函数内容如下：\nfunction Originaljson(obj){\n var type = typeof obj;\n if(type !== \"object\" || type === null){ \n if (/string|undefined|function/.test(type)){ \n obj = '\"' + obj + '\"'; \n } \n return String(obj); \n }else{ \n var json = [],arr = (obj && obj.constructor === Array); \n for(var k in obj){ \n var v = obj[k]; \n var type = typeof v; \n if (/string|undefined|function/.test(type)) { \n v = '\"' + v + '\"'; \n }else \n if (type === \"object\") { \n v = myJsonStringify(v); \n } \n json.push((arr ? \"\" : '\"' + k + '\":') + String(v)); \n } \n return (arr ? \"[\" : \"{\") + String(json) + (arr ? \"]\" : \"}\") \n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "JSON解析"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w00C7Xnl7V"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231207-029",
+ "record_id": "wLt4smEidD",
+ "title": "动态切换 el-form 表单中 el-form-item，导致rules校验下提示语位置错乱问题",
+ "problem": "动态切换 el-form 表单中 el-form-item，导致rules校验下提示语位置错乱问题",
+ "cause": "在 el-form 中 el-form-item 元素没有唯一标识，组件内部会误以为是同一个元素，导致切换时触发校验，提示语位置错乱",
+ "solution": "在每个 el-form-item 标签中添加相应的key，保证key的唯一性，即可解决。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "表单校验错位"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-12-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wLt4smEidD"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

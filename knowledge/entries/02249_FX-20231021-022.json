@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231021-022",
+ "record_id": "vcjZF8yAMU",
+ "title": "【报表查询】用户打开应收明细账时，界面卡顿，等待时间久，换不了查询方案",
+ "problem": "【报表查询】用户打开应收明细账时，界面卡顿，等待时间久，换不了查询方案",
+ "cause": "经过分析，查找原因在于用户在应收明细账报表拉的栏目多，条件日期的周期范围拉的大，且默认了当前的查询方案，也切换不了别的方案，导致卡顿",
+ "solution": "使用附件里的报表管理工具，可以查询到用户设置的方案，删掉，即可，不会影响到别的查询方案。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "卡顿、查询、方案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-10-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vcjZF8yAMU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

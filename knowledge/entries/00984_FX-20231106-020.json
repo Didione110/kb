@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231106-020",
+ "record_id": "P72K8D3YBm",
+ "title": "一键打印对接新的组件：小红书打印组件和微信视频号打印组件",
+ "problem": "一键打印对接新的组件：小红书打印组件和微信视频号打印组件",
+ "cause": "对接新平台的打印组件",
+ "solution": "1. 更新程序2.配置打印组件的连接方式",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "一键打印"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYA46lqV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYA46lqV1DK0g6l",
+  "doc_path": "/自研/数据接口问题/一键打印对接新的组件：小红书打印组件和微信视频号打印组件",
+  "record_id": "P72K8D3YBm"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/一键打印对接新的组件：小红书打印组件和微信视频号打印组件",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

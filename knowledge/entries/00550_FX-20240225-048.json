@@ -1,0 +1,37 @@
+{
+ "id": "FX-20240225-048",
+ "record_id": "DVznDOYaKF",
+ "title": "订单BOM全阶复制无法修改母件",
+ "problem": "订单BOM全阶复制无法修改母件",
+ "cause": "经核实确实复制的BOM无法修改母件，用友的说明文档中未详细注明此点，但与微客服核实确有此情况，复制的订单BOM可以修改子件但是无法修改母件",
+ "solution": "经核实确实复制的BOM无法修改母件，用友的说明文档中未详细注明此点，但与微客服核实确有此情况，复制的订单BOM可以修改子件但是无法修改母件",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "BOM复制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "生产制造管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DVznDOYaKF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

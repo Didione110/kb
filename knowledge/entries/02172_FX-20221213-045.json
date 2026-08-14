@@ -1,0 +1,39 @@
+{
+ "id": "FX-20221213-045",
+ "record_id": "tcljwwVwzG",
+ "title": "客户端使用过程中闪退，无任何提示报错",
+ "problem": "客户端使用过程中闪退，无任何提示报错",
+ "cause": "sliverlight异常",
+ "solution": "卸载sliverlight，到安装包3rdProgram文件夹下重新安装一遍",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "IE",
+  "Edge"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "闪退"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tcljwwVwzG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

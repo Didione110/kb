@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230322-023",
+ "record_id": "JLlMF7pNDY",
+ "title": "月末本地结算保存时，医保日志表显示保存完成，但是5262表中明细数据不全",
+ "problem": "月末本地结算保存时，医保日志表显示保存完成，但是5262表中明细数据不全",
+ "cause": "多个医保服务端同时在运行，同时触发了5262表插入，导致主键冲突，插入失败",
+ "solution": "保留一个医保服务端配置文件不变，将其余服务端配置文件中message\\_his\\_cron，message\\_process\\_cron 这两个配置项置空",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "数据不全"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2023-03-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNym9po78xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNym9po78xkXOEP2",
+  "doc_path": "/自研/安装部署问题/月末本地结算保存时，医保日志表显示保存完成，但是5262表中明细数据不全",
+  "record_id": "JLlMF7pNDY"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/月末本地结算保存时，医保日志表显示保存完成，但是5262表中明细数据不全",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

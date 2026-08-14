@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240725-031",
+ "record_id": "tzH9Ht4xU9",
+ "title": "快销小程序:van-checkbox-group组件分页、搜索数据后勾选状态不刷新",
+ "problem": "快销小程序:van-checkbox-group组件分页、搜索数据后勾选状态不刷新",
+ "cause": "小程序数据不是响应式，数据更新后造成勾选状态不刷新",
+ "solution": "数据更新时后，先清空van-checkbox-group组件绑定数据，再进行回显设置，勾选状态会进行刷新",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "勾选状态"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-07-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tzH9Ht4xU9"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

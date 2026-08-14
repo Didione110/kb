@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240229-073",
+ "record_id": "Zuum5dE2pm",
+ "title": "CAP4表单——自定义控件关联选择器的功能介绍",
+ "problem": "CAP4表单——自定义控件关联选择器的功能介绍",
+ "cause": "CAP4表单——自定义控件关联选择器的功能介绍",
+ "solution": "版本支持： V8.1SP1以上，流程表单可从无流程表单的数据中下拉搜索、选择、数据回填，避免弹出窗口进行无流程表单的数据选择。\n【应用场景】：\n在填写单据信息时，希望能快捷搜索筛选的方式快速选择到其他表单的数据，不需要\n点击按钮进入做查询后，再进行选择关联，从而提高填表效率，可采用关联选择器实现。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "自定义控件"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Zuum5dE2pm"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

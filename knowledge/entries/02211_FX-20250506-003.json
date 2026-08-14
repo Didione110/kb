@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250506-003",
+ "record_id": "uZZAbe6yU2",
+ "title": "智慧医保收集 各客户和实施人员反馈问题进行更新",
+ "problem": "智慧医保收集 各客户和实施人员反馈问题进行更新",
+ "cause": "按医保要求新增功能",
+ "solution": "1.增加一码付功能 \n2.是否明细审核传参控制，异地不进行明细审核\n3.处方药师审核去掉药师tocken必填的拦截校验\n4.2101不传监管码，2102传\n5.处方界面，药师编码可以通过服务端获取",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "智慧医保"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uZZAbe6yU2"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

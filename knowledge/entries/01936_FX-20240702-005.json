@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240702-005",
+ "record_id": "nxHQukS7hm",
+ "title": "使用U8的openapi需要在服务器上打开openapi的开放平台程序，在上面配置连接的数据库名和服务器地址等，客户那隔一段时间开放平台程序就配置失败了，连不上数据库连不上服务了。",
+ "problem": "使用U8的openapi需要在服务器上打开openapi的开放平台程序，在上面配置连接的数据库名和服务器地址等，客户那隔一段时间开放平台程序就配置失败了，连不上数据库连不上服务了。",
+ "cause": "集团有一台服务器也登录了相同api账号导致的。",
+ "solution": "协调确认开放平台程序部署在哪里，不能多地同时登录",
+ "solution_types": [],
+ "tech_stack": [
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "开放平台配置失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "行业产品",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nxHQukS7hm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

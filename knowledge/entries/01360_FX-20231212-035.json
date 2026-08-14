@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231212-035",
+ "record_id": "ZNc5XQKpwr",
+ "title": "T3能登录但财务报表打不开，提示不能登录到服务器",
+ "problem": "T3能登录但财务报表打不开，提示不能登录到服务器",
+ "cause": "环境问题",
+ "solution": "在客户端，双击ufsmart--ufo--selsrv.exe设置服务器ip地址或名称，重新登陆软件，打开报表即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "服务器登录"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3Dmg5WkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3Dmg5WkyEqBQm",
+  "doc_path": "/其他/软件无法使用/T3能登录但财务报表打不开，提示不能登录到服务器",
+  "record_id": "ZNc5XQKpwr"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/T3能登录但财务报表打不开，提示不能登录到服务器",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

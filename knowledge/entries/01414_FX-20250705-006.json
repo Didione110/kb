@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250705-006",
+ "record_id": "agnecxD0Yx",
+ "title": "协和医院采购平台新增了追溯码相关字段",
+ "problem": "协和医院采购平台新增了追溯码相关字段",
+ "cause": "有追溯码的传新增的5个字段，没有追溯码的传空会报错",
+ "solution": "没有追溯码的比如说中药，5个新增字段不传",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "追溯码"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-07-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAQRKP8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAQRKP8GXn6lpz",
+  "doc_path": "/自研/数据错误问题/协和医院采购平台新增了追溯码相关字段",
+  "record_id": "agnecxD0Yx"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/协和医院采购平台新增了追溯码相关字段",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

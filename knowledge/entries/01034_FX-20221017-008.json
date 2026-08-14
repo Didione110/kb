@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221017-008",
+ "record_id": "QUoOFKNB9K",
+ "title": "自定义预警问题处理方案",
+ "problem": "自定义预警问题处理方案",
+ "cause": "自定义预警问题处理方案",
+ "solution": "所以本文告知如何获得预警模型生成的sql，实施和支持可根据该sql去调整预警模型。2.一般做一个自定义预警的流程是：预警模型设计——>预警类型注册——>预警条目部署\n \n按以下步骤操作可获取生成的sql:\nA.打开 性能监控 这个节点，配置好自定义预警，点击确定\nB.配置完成后，触发一下已经配置好自定义预警，然后切回到性能监控节点处，点一下刷新，即可看到一条日志\nC.选中日志，右键 点击性能追踪，即可打开性能追踪框\nD.点击如下图所示 性能追踪里第二行数据，即可得到当前预警模型生成的sql\nE.可在数据库里执行该sql，根据数据或者sql本身，看下问题在哪里，然后去修改预警模型即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "预警方案"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2022-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QUoOFKNB9K"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "id": "FX-20240331-070",
+ "record_id": "8USmdDnwvA",
+ "title": "复核模块",
+ "problem": "复核模块",
+ "cause": "客户以整件为主，一个托盘一个货位，如果一个批号占多个托盘，且出库也是多托盘，那么复核的时候，就会分为多个明细，对于客户扫监管码很不友好。",
+ "solution": "修改复核的存储过程，以批号架位号分组进行合并，回写时，按单据回写，不按SN回写。\n注意事项:1.整个任务拣货完成才能进行复核。\n 2.这种合并的不能进行复核数量修改。不然就要进行分摊。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "复核"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeBn2qJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeBn2qJ2LD0oRE",
+  "doc_path": "/其他/产品功能问题/复核模块",
+  "record_id": "8USmdDnwvA"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/复核模块",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

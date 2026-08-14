@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240229-068",
+ "record_id": "3vUx50ZxtY",
+ "title": "票据到期做收款行为，生成的凭证分录有待核销票据收款的中间科目。",
+ "problem": "票据到期做收款行为，生成的凭证分录有待核销票据收款的中间科目。",
+ "cause": "客户没有现金管理模块，应收收款单的行为会在现金模块生成。",
+ "solution": "将待核销票据收款的会计科目模板设置为银行存款即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "待核销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3vUx50ZxtY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

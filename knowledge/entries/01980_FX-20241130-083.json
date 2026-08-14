@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-083",
+ "record_id": "oo3Y71rLYX",
+ "title": "YS在生成总账凭证界面展示会计事务上某些字段的信息的需求，例如展示供应商、客户等信息，方便客户根据业务信息查看、筛选数据",
+ "problem": "YS在生成总账凭证界面展示会计事务上某些字段的信息的需求，例如展示供应商、客户等信息，方便客户根据业务信息查看、筛选数据",
+ "cause": "YS在生成总账凭证界面展示会计事务上某些字段的信息的需求，例如展示供应商、客户等信息",
+ "solution": "1、在对应会计事务的事项分录模板的表头中新增业务关联信息，点击字段设置；新增业务关联信息1，\n2、在生成总账凭证界面点开列表设置，勾选刚增加的业务关联信息。\n注意事项：\n①选择要取值的字段，例如“客户”，注意需要选择字段名称，如果通过ID取值需要加上.name，通过取名称才能展示文本字段，通过ID取值会展示编码；\n②已经生成的事项分录需要重新生成事项分录触发新的模板规则即可展示。（详情见附件）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "总账凭证字段"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oo3Y71rLYX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

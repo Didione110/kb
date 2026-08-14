@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250804-008",
+ "record_id": "8WbdcCGYrx",
+ "title": "财务接口多张不同类型的凭证传入U8后体现在了一张凭证单上",
+ "problem": "财务接口多张不同类型的凭证传入U8后体现在了一张凭证单上",
+ "cause": "客户创建了多个凭证字，接口传入的时候没有区分导致合并到了一个凭证分类下",
+ "solution": "传入对应的凭证字，接口进行取值处理",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "凭证合并"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AARr5J5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AARr5J5daZ90D",
+  "doc_path": "/自研/产品功能问题/财务接口多张不同类型的凭证传入U8后体现在了一张凭证单上",
+  "record_id": "8WbdcCGYrx"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/财务接口多张不同类型的凭证传入U8后体现在了一张凭证单上",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

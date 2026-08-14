@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260331-022",
+ "record_id": "1KwdXrKzkO",
+ "title": "客户在2月份的时候，无任何生产业务，只有采购存货业务，无生产成品业务，成本如何操作",
+ "problem": "客户在2月份的时候，无任何生产业务，只有采购存货业务，无生产成品业务，成本如何操作",
+ "cause": "启用成本模块的需要在卷积计算，产品模块要进行空接处理",
+ "solution": "在【产品成本-卷积计算】节点，选择对应组织和期间后，点击计算，计算完成后，到【产品成本结账】节点，选择对应组织和期间后，点击结账检查，检查没有异常项，就可以进行结账了",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "无生产成本"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1KwdXrKzkO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

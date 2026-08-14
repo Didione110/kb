@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231220-048",
+ "record_id": "zR8j7mCcgS",
+ "title": "自动记账功能无法执行",
+ "problem": "自动记账功能无法执行",
+ "cause": "自动记账功能来源表，多半情况是系统自带表。如果是客开的情况下，请注意billno的值的来源表字段数据类型一定使用int，不能使用number或者其他类型。cast转换也测试过，不会报错，但无法进行执行记账过程。",
+ "solution": "billno的来源字段，修改数据类型为int，可以正常执行。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "SQL Server",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "自动记账失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-12-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zR8j7mCcgS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

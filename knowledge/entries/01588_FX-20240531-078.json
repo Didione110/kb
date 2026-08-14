@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240531-078",
+ "record_id": "fZ3wHaDhL2",
+ "title": "新增固定资产生成凭证为贷：应付账款。报错：应付账款为受控系统",
+ "problem": "新增固定资产生成凭证为贷：应付账款。报错：应付账款为受控系统",
+ "cause": "客户启用了应付模块，应付账款只能通过应付模块生成凭证",
+ "solution": "1、新增固定资产卡片，在【凭证生成】删除新增固定固定资产一行；\n2、新增应付单或者发票，生成凭证借：固定资产 贷：应付账款；\n3、固定资产对账，需要勾选未记账。",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "受控系统"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fZ3wHaDhL2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

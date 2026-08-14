@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231103-005",
+ "record_id": "S8BMc0ViY9",
+ "title": "计算完报表后保存显示报错信息如下：保存失败:报表保存失败:nc.pub.iufo.exception.UFOSrvException:exec statement is er...",
+ "problem": "计算完报表后保存显示报错信息如下：保存失败:报表保存失败:nc.pub.iufo.exception.UFOSrvException:exec statement is er...",
+ "cause": "项目档案名称或者客商档案名称作为指标或者动态区关键字，而名称又特别长，超出最大长度64个字节了",
+ "solution": "1、先进入保存报错的报表中，计算得到数据，将超长的关键字或者指标改为1，顺利保存。\n2、关掉报表之后，再重现打开，查看日志msql-log文件，找到对应时间点查询的数据库表，一般为iufo_measure_data_XXXX的样子。（查不到可以直接跳转到第三步）\n3、找到对应表之后，去数据库中查询对应的表，看改为1的一列对应的字段名称是什么（可以在数据库表中从上到下查找）\n4、执行脚本语句\nSQL脚本语句为：\nalter table <表名> alter column <字段名> 新类型名(长度)\n举例：\nalter table iufo_measure_data_fmnjnjde alter column keyvalue2 varchar(256)\n修改之后保存就没有报错了",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "报表保存失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-11-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "S8BMc0ViY9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

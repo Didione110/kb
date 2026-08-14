@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241130-091",
+ "record_id": "AN397lZ1FE",
+ "title": "js直接处理小数可能会出现浮点问题",
+ "problem": "js直接处理小数可能会出现浮点问题",
+ "cause": "js直接处理小数可能会出现浮点问题",
+ "solution": "/\\* Javascript设置要保留的小数位数，四舍五入。\n- toFeixd在进位时如果需要进位的末尾是5，如果5后不存在或是0则不进位，否则进位。\n- forDight(num,d):数值格式化函数，num,d要格式化的 数字，d要保留的小数位数。\n- 这里的方法是先乘以10的倍数，然后去掉小数，最后再除以10的倍数。 */ \nfunction forDight(num,d)\\{ \nnum = Math.round(num*Math.pow(10,d))/Math.pow(10,d); \nreturn num; \n\\}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "浮点误差"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1RvQX8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1RvQX8BQEx5rG",
+  "doc_path": "/时空/安装部署问题/js直接处理小数可能会出现浮点问题",
+  "record_id": "AN397lZ1FE"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/js直接处理小数可能会出现浮点问题",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

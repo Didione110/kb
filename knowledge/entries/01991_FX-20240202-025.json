@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240202-025",
+ "record_id": "oywOMn1NJA",
+ "title": "数据库查询语句xml类型转换",
+ "problem": "数据库查询语句xml类型转换",
+ "cause": "有时三方接口返回表数据结构为XML格式，需要转换为表字段格式，需用sql语句处理转换",
+ "solution": "使用cross apply content.nodes()函数，一键打印获取发票结果示例：\nselect b.billno,b.fphm,b.fpdm\n,a.r.value('@InvoiceNumber','varchar(50)') as InvoiceNumber,a.r.value('@CustomerName','varchar(50)') as businessname\n,a.r.value('@CustomerTaxCode','varchar(50)') as CustomerTaxCode,a.r.value('@AddressAndPhone','varchar(50)') as AddressAndPhone\n,a.r.value('@BankAndAccount','varchar(50)') as BankAndAccount,a.r.value('@SellerBankName','varchar(50)') as SellerBankName\n,a.r.value('@KHSJ', 'varchar(50)') as KHSJ,a.r.value('@KHYJ', 'varchar(50)') as KHYJ\n,a.r.value('@SellerAdrrPhone','varchar(50)') as SellerAdrrPhone,a.r.value('@SellerTaxCode','varchar(50)') as SellerTaxCode\n,a.r.value('@FPZL', 'varchar(50)') as FPZL,a.r.value('@InvoiceMemo', 'varchar(50)') as InvoiceMemo\n,a.r.value('@KPR', 'varchar(50)') as KPR,a.r.value('@SKR', 'varchar(50)') as SKR\n,a.r.value('@FHR', 'varchar(50)') as FHR,a.r.value('@FPHM', 'varchar(50)') as FPHM\n,a.r.value('@CHFPH', 'varchar(50)') as CHFPH,a.r.value('@Amount', 'varchar(50)') as Amount\n,a.r.value('@TaxAmount', 'varchar(50)') as TaxAmount,a.r.value('@InTaxAmount', 'varchar(50)') as InTaxAmount\n,a.r.value('@TaxRate', 'varchar(50)') as TaxRate,a.r.value('@IsListing', 'varchar(50)') as IsListing\n,a.r.value('@JEFS', 'varchar(50)') as JEFS,a.r.value('@RowCount', 'varchar(50)') as RowCount1\n,c.r.value('@ProductCode', 'varchar(50)') AS goodscode,c.r.value('@EntryNumber', 'varchar(50)') AS sn\n,c.r.value('@ProductName', 'varchar(50)') AS goodsname,c.r.value('@ProductModel', 'varchar(50)') AS goodsspec\n,c.r.value('@ProductUnit', 'varchar(50)') AS unit,c.r.value('@TaxRate', 'varchar(50)') AS TaxRate\n,c.r.value('@Quantity', 'varchar(50)') AS num,c.r.value('@Price', 'varchar(50)') AS Price\n,c.r.value('@HSDJ', 'varchar(50)') AS taxprice,c.r.value('@Amount', 'varchar(50)') AS Amount\n,c.r.value('@TaxAmount', 'varchar(50)') AS TaxAmount,c.r.value('@Flbm', 'varchar(50)') AS Flbm\nfrom (SELECT billno,fphm,fpdm,cast(content as xml) as content\nFROM dbo.k_prn_invoicelog ) b\ncross apply content.nodes('/Config/InvoiceList/InvHead') as a(r)\ncross apply content.nodes('/Config/InvoiceList/InvDetail/DetailEntry') as c(r)\nWHERE b.fphm = '05801268'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "XML转换"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oywOMn1NJA"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

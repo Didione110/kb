@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221230-059",
+ "record_id": "Fu9LEPLhTy",
+ "title": "0税率传值问题",
+ "problem": "0税率传值问题",
+ "cause": "zeroRateFlag=1/2/3；\nfavouredPolicyName =“免税” /“不征税”/“”；",
+ "solution": "免税标志不同，需要的传值也不同",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "0税率"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-12-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gzePyJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gzePyJxAZB1Gv",
+  "doc_path": "/自研/数据错误问题/0税率传值问题",
+  "record_id": "Fu9LEPLhTy"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/0税率传值问题",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

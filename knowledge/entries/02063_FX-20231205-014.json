@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231205-014",
+ "record_id": "qhGH5IEMw7",
+ "title": "货位调整单列表与货位调整汇总表同一期间入库数量不一致",
+ "problem": "货位调整单列表与货位调整汇总表同一期间入库数量不一致",
+ "cause": "，经查询得知有张调整单的修改日期是12月，导致期间查询错误，调整前货位的货位日期取单据日期，调整后货位的货位日期取登陆日期，是以12月份登陆录入的11月份的货位调整单，这样调整前货位的货位日期取单据日期11月，调整后货位的货位日期取登陆日期12月",
+ "solution": "以11月的日期登录找到该单据后弃审变动后重新再保存审核，再次查询货位调整单列表与货位调整汇总表同一期间入库数量一致",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "货位数量不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qhGH5IEMw7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

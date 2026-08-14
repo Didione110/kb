@@ -1,0 +1,37 @@
+{
+ "id": "FX-20221103-006",
+ "record_id": "jx2Q0jstLS",
+ "title": "客开提取方法进行传值做判断时候，一直报所传参数不存",
+ "problem": "客开提取方法进行传值做判断时候，一直报所传参数不存",
+ "cause": "原因就是JS严格区分大小写",
+ "solution": "保持定义的参数与获取参数时的大小写一致",
+ "solution_types": [],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "参数不存在"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2022-11-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jx2Q0jstLS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

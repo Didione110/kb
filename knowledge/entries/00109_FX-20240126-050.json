@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240126-050",
+ "record_id": "2PxWrYmRNI",
+ "title": "动态下拉设置",
+ "problem": "动态下拉设置",
+ "cause": "动态下来参选值可在表单控件上针对该控件设置，也可进入低代码平台设置公共参选档案，如果在表单控件上设置，则该参选值只能在该表单上可用，其他表单用此控件选不到这个参选值，而公共平台则可以",
+ "solution": "动态下来参选值可在表单控件上针对该控件设置，也可进入低代码平台设置公共参选档案，如果在表单控件上设置，则该参选值只能在该表单上可用，其他表单用此控件选不到这个参选值，而公共平台则可以",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "动态下拉"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2PxWrYmRNI"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

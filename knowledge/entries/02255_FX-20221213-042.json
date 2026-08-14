@@ -1,0 +1,38 @@
+{
+ "id": "FX-20221213-042",
+ "record_id": "vioRUSUbQr",
+ "title": "客户端登录U8，进程直接闪退",
+ "problem": "客户端登录U8，进程直接闪退",
+ "cause": "silverlight进行了自动更新，其版本比软件中自带程序版本高。",
+ "solution": "在控制面板中将silverlight卸载，然后使用安装程序中的silverlight安装程序重新安装后正常。",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "IE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U8闪退"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vioRUSUbQr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

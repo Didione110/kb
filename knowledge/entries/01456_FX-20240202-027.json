@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240202-027",
+ "record_id": "bxlR7dfdJt",
+ "title": "付款，收款，明细回写不全，结算金额正确",
+ "problem": "付款，收款，明细回写不全，结算金额正确",
+ "cause": "付款，收款结算时，明细回写时，将多条明细的金额回写到其中一条上，但整单结算金额正确，导致明细回写不对",
+ "solution": "if (dftje*1 > 0) {\n if (dftje*1 >= wftje*1) {\n ds_dftmx.setValueAt(j, \"jiesje\", wftje);\n ds_dftmx.setValueAt(j, \"issettle\", \"Y\");\n \n dftje = Utility.formatFloat(dftje - wftje, 2);\n \n } else {\n ds_dftmx.setValueAt(j, \"jiesje\", dftje);\n dftje = 0;\n }\n } else {\n if (dftje*1 <= wftje*1) {\n ds_dftmx.setValueAt(j, \"jiesje\", wftje);\n ds_dftmx.setValueAt(j, \"issettle\", \"Y\");\n dftje = Utility.formatFloat(dftje - wftje, 2);\n } else {\n ds_dftmx.setValueAt(j, \"jiesje\", dftje);\n dftje = 0;\n }\n }\n保存前函数，增加 *1 进行转换",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "回写不全"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bxlR7dfdJt"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

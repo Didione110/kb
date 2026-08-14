@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250401-001",
+ "record_id": "cEVtKEzZI4",
+ "title": "应付跟付款没有自动核销，且查询手工核销也没有找到单据",
+ "problem": "应付跟付款没有自动核销，且查询手工核销也没有找到单据",
+ "cause": "应付没有和下推的付款自动核销的原因是【AP07241209000008】此笔付款事务被用户挂起过，已挂起的事务不允许做后续的核销业务",
+ "solution": "付款事务详情页面，直接点击【取消挂起】即可，取消挂起后，事务即可继续自动核销",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "核销异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cEVtKEzZI4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

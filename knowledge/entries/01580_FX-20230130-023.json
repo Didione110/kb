@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230130-023",
+ "record_id": "fPFoftlmmM",
+ "title": "对账不平",
+ "problem": "对账不平",
+ "cause": "接口传递的凭证中某一个科目带了部门",
+ "solution": "后台查询异常的凭证号，前台修改select cdept_id * from GL_accvouch where ccode=’xxxx’ and cpdet_id<>’null‘",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "对账不平"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fPFoftlmmM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

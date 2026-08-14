@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241125-040",
+ "record_id": "HBR08zNwp7",
+ "title": "删除档案提示已使用，实际未使用",
+ "problem": "删除档案提示已使用，实际未使用",
+ "cause": "不确定，厂家建议后台删除",
+ "solution": "后台使用语句删除：\n执行下面语句 并提交事务 \n--1 备份\ncreate table gl_docfree10929 as select * from gl_docfree1 where F4 in ( '1001A6100000000RP7T5' ) \n--2 删除\ndelete from gl_docfree1 where F4 in ( '1001A6100000000RP7T5' )\n--3提交\ncommit;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "PolarDB",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "已使用"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-04-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HBR08zNwp7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

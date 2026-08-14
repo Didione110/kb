@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230223-041",
+ "record_id": "mjEAZsHkI0",
+ "title": "T3凭证打印，预览打印出来的全部是第1号凭证，打印不是当前页，未设置期间范围",
+ "problem": "T3凭证打印，预览打印出来的全部是第1号凭证，打印不是当前页，未设置期间范围",
+ "cause": "系统设置错误导致",
+ "solution": "“总账”--“凭证”--“打印凭证”--“预览”--“设置”--“横向压缩至一页”的勾选去掉",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "凭证预览错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-02-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mjEAZsHkI0"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240131-079",
+ "record_id": "X9uhlHsy70",
+ "title": "跨组织销售结算子仓与总仓税率不一致，结算单只能写一个税率",
+ "problem": "跨组织销售结算子仓与总仓税率不一致，结算单只能写一个税率",
+ "cause": "客户母公司为一般纳税人，子公司为小规模纳税人，税率不一致",
+ "solution": "在公司目录上维护子公司对应的纳税类型为小规模纳税人，内部结算时可以分别计算税率",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "税率不一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "X9uhlHsy70"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

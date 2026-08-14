@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260601-001",
+ "record_id": "q0Zk6Pn2pX",
+ "title": "科情定制的RF枪，在登录仓储手持软件后，扫描条码后，页面无反应，无录入。",
+ "problem": "科情定制的RF枪，在登录仓储手持软件后，扫描条码后，页面无反应，无录入。",
+ "cause": "设置问题。",
+ "solution": "打开手持自带的扫码软件IScanPlus,点击下发设置，找到扫码结果发送模式，改成‘焦点’ 模式",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "RF枪无响应"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2026-06-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q0Zk6Pn2pX"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

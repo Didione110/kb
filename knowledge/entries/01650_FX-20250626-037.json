@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250626-037",
+ "record_id": "hCGdRHJMtT",
+ "title": "杂发单审批报错：系统异常终止:流程导常栈已经被其他人删除，不能删除。svstem,seniceModelFaultException' lsvstem,ServiceModelExceptionDetail System.ServiceModel, Version=**.**.**.**, Culture=neutral, PublicKeyToken=b77a5c561934e089]] QQ13613666",
+ "problem": "杂发单审批报错：系统异常终止:流程导常栈已经被其他人删除，不能删除。svstem,seniceModelFaultException' lsvstem,ServiceModelExceptionDetail System.ServiceModel, Version=**.**.**.**, Culture=neutral, PublicKeyToken=b77a5c561934e089]] QQ13613666",
+ "cause": "异常数据，【流程监控】中止后设为开立重新提交即可。",
+ "solution": "异常数据，【流程监控】中止后设为开立重新提交即可。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "流程异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "项目化管理",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-06-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hCGdRHJMtT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

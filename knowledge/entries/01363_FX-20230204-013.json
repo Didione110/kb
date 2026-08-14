@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230204-013",
+ "record_id": "ZPirWEUQJz",
+ "title": "人福费用报销保存报错，无法正常对接诺诺票夹程序",
+ "problem": "人福费用报销保存报错，无法正常对接诺诺票夹程序",
+ "cause": "检查接口程序，发现程序正常，但是诺诺票夹提供API接口无法正常使用",
+ "solution": "联系诺诺厂商进行解决",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "人福报销报错"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-02-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1kQR3WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1kQR3WrMqPxX6",
+  "doc_path": "/自研/数据接口问题/人福费用报销保存报错，无法正常对接诺诺票夹程序",
+  "record_id": "ZPirWEUQJz"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/人福费用报销保存报错，无法正常对接诺诺票夹程序",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

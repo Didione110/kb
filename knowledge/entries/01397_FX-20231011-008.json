@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231011-008",
+ "record_id": "aBk0gZ9B6k",
+ "title": "老产品A8V5  system密码不正确",
+ "problem": "老产品A8V5 system密码不正确",
+ "cause": "老产品的数据库表与新产品不一样，多次输入错误后提示锁定",
+ "solution": "SELECT * FROM ORG_PRINCIPAL WHERE id='25' AND login_name='system'\nUPDATE ORG_PRINCIPAL SET CREDENTIAL_VALUE='L0tEW5Yk+cM2RjWYC8z1dYgp0c0=' WHERE ID=25 AND LOGIN_NAME='system'\n密码为：system，运行完后需要重启服务",
+ "solution_types": [
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密"
+ ],
+ "keywords": [
+  "A8V5密码"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-10-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aBk0gZ9B6k"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

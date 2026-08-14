@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-033",
+ "record_id": "rEo55Ontxb",
+ "title": "需要再B2B订货端直接由最终客户发起付款",
+ "problem": "需要再B2B订货端直接由最终客户发起付款",
+ "cause": "由客户在手机端付款传YS收款单",
+ "solution": "YS目前内置支持的线上支付方式只有支付宝、微信、收款通、好收银，需要商户自行在对应平台申请支付秘钥并绑定在YS上，其他的自定义项支付可参考附件对接字段",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "客户付款"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rEo55Ontxb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

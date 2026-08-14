@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251103-009",
+ "record_id": "AfUruzGIYO",
+ "title": "零售业务开票F10提原单退货效率很慢问题",
+ "problem": "零售业务开票F10提原单退货效率很慢问题",
+ "cause": "往日交易数据表中的数据量太大导致",
+ "solution": "1. 将历史数据转存；\n2. 将模糊的检索条件约定成固定的检索条件，并且根据该条件新增索引",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "开票退货效率"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlonEE8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlonEE8Zd1wyK0",
+  "doc_path": "/时空/效率问题/零售业务开票F10提原单退货效率很慢问题",
+  "record_id": "AfUruzGIYO"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/零售业务开票F10提原单退货效率很慢问题",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

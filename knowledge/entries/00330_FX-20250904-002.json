@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250904-002",
+ "record_id": "7rrWLRLaMT",
+ "title": "时空DHERP系统模板库WMS仓储管理模块中，采购入库验收、销售退回验收默认不拦截来源单据数量",
+ "problem": "时空DHERP系统模板库WMS仓储管理模块中，采购入库验收、销售退回验收默认不拦截来源单据数量",
+ "cause": "表单上未设置开关",
+ "solution": "增加保存拦截或在系统设置项中增加是否允许超出上游单据量开关设置为N",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "默认不拦截"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2025-09-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51Lwax8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51Lwax8zN67Mw4",
+  "doc_path": "/时空/产品功能问题/时空DHERP系统模板库WMS仓储管理模块中，采购入库验收、销售退回验收默认不拦截来源单据数量",
+  "record_id": "7rrWLRLaMT"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/时空DHERP系统模板库WMS仓储管理模块中，采购入库验收、销售退回验收默认不拦截来源单据数量",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

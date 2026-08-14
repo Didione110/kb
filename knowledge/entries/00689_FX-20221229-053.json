@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221229-053",
+ "record_id": "HbdE8aNfjC",
+ "title": "JAVA使用apache-cxf工具生成U9C标准接口JAVA代码目录层级过多不便于多接口开发部署",
+ "problem": "JAVA使用apache-cxf工具生成U9C标准接口JAVA代码目录层级过多不便于多接口开发部署",
+ "cause": "生成JAVA代码包层级默认为U9C指定目录结构",
+ "solution": "使用apache-cxf工具时添加 -p {包路径} 即可指定不同标准接口在不同包下放着，方便项目管理多个U9C标准接口开发不同接口类管理",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "目录冗余"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "产品开发部",
+  "date": "2022-12-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HbdE8aNfjC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

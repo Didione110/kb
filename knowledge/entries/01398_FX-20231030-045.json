@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231030-045",
+ "record_id": "aDOIT5pvc3",
+ "title": "销售订单自动带仓库",
+ "problem": "销售订单自动带仓库",
+ "cause": "销售订单自动带仓库",
+ "solution": "设置路由策略和路由设置，按照存货或者分类设置对应的仓库，手动新增的销售订单需要在销售订单界面点击寻仓带出仓库，B2B则修改参数启用路由策略可自动带出仓库",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "EAI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "自动带仓"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-10-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aDOIT5pvc3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

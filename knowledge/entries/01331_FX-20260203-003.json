@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260203-003",
+ "record_id": "YjSW24ZxQh",
+ "title": "已经被关闭的订单如何恢复",
+ "problem": "已经被关闭的订单如何恢复",
+ "cause": "因为一些误操作或者客诉原因，需要讲已经关闭的订单回传正常，继续发货",
+ "solution": "状态是已关闭的订单如果需要重新回到流程继续发货，就需要在订单管理中使用恢复功能。恢复后订单就会回到关闭前的订单状态。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "订单恢复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mE7lyJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mE7lyJ9ekBD76",
+  "doc_path": "/其他/应用操作/已经被关闭的订单如何恢复",
+  "record_id": "YjSW24ZxQh"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/已经被关闭的订单如何恢复",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

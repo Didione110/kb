@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260202-002",
+ "record_id": "Ivf3T9gZsx",
+ "title": "报表查询报错：引发类型为\"System.Web.HttpUn handledException\"的异常。请求因 HTTP状态401失败:Unauthorized.",
+ "problem": "报表查询报错：引发类型为\"System.Web.HttpUn handledException\"的异常。请求因 HTTP状态401失败:Unauthorized.",
+ "cause": "1、登录U9C管理控制台--报表服务器配置帐号和密码、报表服务器设置完成后，重启IIS 、U9服务和报表服务 以上已做过，还是报错",
+ "solution": "详见附件，简而言之，报表服务器得重新安装部署，至于原因，不详",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows",
+  "IIS"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "未授权"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2026-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Ivf3T9gZsx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

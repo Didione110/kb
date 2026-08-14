@@ -1,0 +1,58 @@
+name: 构建并发布知识库门户
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 启用 Corepack
+        run: corepack enable
+
+      - name: 安装依赖
+        working-directory: portal
+        run: pnpm install --frozen-lockfile
+
+      - name: 重新生成门户页面（如数据有更新）
+        working-directory: portal
+        run: node scripts/generate.mjs
+
+      - name: 构建静态站点
+        working-directory: portal
+        run: pnpm run build
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: portal/.vitepress/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

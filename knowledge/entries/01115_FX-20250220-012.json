@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250220-012",
+ "record_id": "SuregrTMLJ",
+ "title": "oracle用户过期/设置无限期用户/ORA-28001:the password has expired",
+ "problem": "oracle用户过期/设置无限期用户/ORA-28001:the password has expired",
+ "cause": "oracle默认情况下，新建的账户只有180天的有效期，在有效期到期前一周就会报警。而一旦过了有效期，账户就会被锁定无法登录。所以为了方便起见，要修改oracle用户的有效期为无限。",
+ "solution": "1.查看用户密码的有效期设置，一般默认的配置文件是DEFAULT\n\n SELECT * FROM dba_profiles WHERE profile='DEFAULT' AND resource_name='PASSWORD_LIFE_TIME';\n\n2. 将密码有效期修改成“无限期”，无需重启即可生效\n\n ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;\n\n如果没有即时看到信息，导致账户被锁定，那么就还需要解锁账户\n\n alter user 用户名 account unlock;\n commit;",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "密码过期"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SuregrTMLJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230621-004",
+ "record_id": "8m3moQw0iR",
+ "title": "登陆订货端时 提示友户通获取用户信息失败",
+ "problem": "登陆订货端时 提示友户通获取用户信息失败",
+ "cause": "对应客户只有企业账户级权限",
+ "solution": "需要在客商档案中分配对应的销售组织",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "友户通"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-06-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbzeMMW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbzeMMW3kdP0wQ",
+  "doc_path": "/用友/应用操作/登陆订货端时 提示友户通获取用户信息失败",
+  "record_id": "8m3moQw0iR"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/登陆订货端时 提示友户通获取用户信息失败",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

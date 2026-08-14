@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250930-050",
+ "record_id": "rC9kWeivUT",
+ "title": "客户想把凭证打印成彩色 u8c凭证打印模板上可以调整边框颜色和底色？",
+ "problem": "客户想把凭证打印成彩色 u8c凭证打印模板上可以调整边框颜色和底色？",
+ "cause": "需要调整打印模板",
+ "solution": "修改集团打印模板按照附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "彩色打印、U8C模板、边框颜色、底色调整"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rC9kWeivUT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

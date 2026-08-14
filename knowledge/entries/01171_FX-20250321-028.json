@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250321-028",
+ "record_id": "UNQjaviJoM",
+ "title": "智慧医保结算完成后收款界面失去焦点，快捷键F12没反应",
+ "problem": "智慧医保结算完成后收款界面失去焦点，快捷键F12没反应",
+ "cause": "医保结算完成后焦点错误",
+ "solution": "在收款结算界面智慧医保表单调用结束后，增加一个定时器将焦点设置为收款界面上随便一个文本框",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "焦点丢失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2025-03-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UNQjaviJoM"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

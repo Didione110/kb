@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230530-032",
+ "record_id": "jNrFLvP19I",
+ "title": "采购订单打印模板设置为横向保存后，再次进入还是为纵向，不生效（其他客户端没有问题）",
+ "problem": "采购订单打印模板设置为横向保存后，再次进入还是为纵向，不生效（其他客户端没有问题）",
+ "cause": "打印模板设置修改不生效",
+ "solution": "数据库执行语句\nselect * from VoucherCustomerInfo where fchrVoucherTemplateType='131447'\n（查询单据模板ID为131447的公用目录设置表）\ndelete from VoucherCustomerInfo where fchrOperator='叶珍' and fchrVoucherTemplateType='131447'\n（删除操作员为叶珍且单据模板ID为131447的公用目录设置表）\n清空参数设置的保存，重新进入系统设置横向触发保存",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "模板方向"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jNrFLvP19I"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

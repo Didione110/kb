@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230405-013",
+ "record_id": "5atmHigduK",
+ "title": "dnspy工具调试代码无法查看到U9C对应进程号",
+ "problem": "dnspy工具调试代码无法查看到U9C对应进程号",
+ "cause": "启动方式错误",
+ "solution": "右键以管理员方式启动",
+ "solution_types": [],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "dnspy 进程号 U9C"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-04-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn130KqJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn130KqJyMoPYe1",
+  "doc_path": "/用友/数据接口问题/dnspy工具调试代码无法查看到U9C对应进程号",
+  "record_id": "5atmHigduK"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/dnspy工具调试代码无法查看到U9C对应进程号",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

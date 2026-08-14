@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240406-029",
+ "record_id": "pqgpWrwgDD",
+ "title": "已新建料号2个版本的BOM，在库改制 改制后料品，选不到这个料号。",
+ "problem": "已新建料号2个版本的BOM，在库改制 改制后料品，选不到这个料号。",
+ "cause": "系统参数未勾选",
+ "solution": "生产管理-参数设置【改制是否支持原料品改制】勾选该参数即可实现同料品不同版本进行改制。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "BOM改制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pqgpWrwgDD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

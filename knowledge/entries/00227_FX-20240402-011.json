@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240402-011",
+ "record_id": "5OOh5nAyP0",
+ "title": "时空中，如果存在0金额的出库单，在发票登记中是无法记录的，同时金税接口也无法开具0金额的出库单。\n但是财务系统做账时，是按发票进行成本结转，故这部分的数据则需要进行成本结转登记发票记录",
+ "problem": "时空中，如果存在0金额的出库单，在发票登记中是无法记录的，同时金税接口也无法开具0金额的出库单。\n但是财务系统做账时，是按发票进行成本结转，故这部分的数据则需要进行成本结转登记发票记录",
+ "cause": "单独开发SQL存储过程，对这部分的数据进行集中处理，让其可以生成发票数据，从而实现成本结转\n1:查询到满足条件的结果集合\n2：根据结果集合来生成对应的循环\n3：对0金额的单据循环生成发票表数据\n4：回写出库单发票状态",
+ "solution": "CREATE PROC \\[dbo\\].\\[k\\_nn\\_writeback\\_zero\\]\nAS /\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\n 过程主题：发票回写ERP数据\n \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*/\nBEGIN\n --启动事务\n DECLARE @tran\\_point INT\n SET @tran\\_point = @@trancount \n IF @tran\\_point = 0\n BEGIN TRAN tran\\_invoice\\_writeback\n ELSE\n SAVE TRAN tran\\_invoice\\_writeback\n```\n DECLARE @return INT ,\n @i_FP_DM VARCHAR(20) ,\n @i_FP_HM VARCHAR(20) \n SET @return = 0\n \n SET @i_FP_DM = ''\n SET @i_FP_HM = ''\n\n DECLARE @sk_billno INT , --定义发票回写的billno\n @Entid VARCHAR(20) , --定义发票回写的Entid\n @OrgId VARCHAR(20) , -- 定义发票回写的Orgid\n @DeptId VARCHAR(20) , --定义发票回写的Deptid\n @KPR VARCHAR(20) , --定义发票回写的开票人\n @WriteBackStatus CHAR(1) ,--获取回写状态 \n @djzx_FORMID VARCHAR(20) ,--定义单据再现使用的FORMID\n @djzx_BILLNO INT , --定义单据再现使用的BILLNO\n @djzx_ENTID VARCHAR(20) , --定义单据再现使用的ENTID\n @djzx_ORGID VARCHAR(20) , --定义单据再现使用的ORGID\n @djzx_MODULEID VARCHAR(20) , --定义单据再现使用的MODULEID\n @djzx_USERORGID VARCHAR(20) --定义单据再现使用的USERORGID\n \n\n SET @djzx_FORMID = ( SELECT TOP 1 a.FORMID FROM dbo.FORMDOC a WHERE a.CAPTION = '销项发票管理' ) \n SET @djzx_MODULEID = ( SELECT TOP 1 a.MODULEID FROM dbo.FORMDOC a WHERE a.CAPTION = '销项发票管理' ) \n\n```\n\n--获取需要填充0金额发票的出库单列表\n```\n SELECT ROW_NUMBER() OVER ( ORDER BY a.BillNo ) AS now_sn , a.BillNo AS now_billno , a.BillCode AS now_billcode\n INTO #No1_Needlist\n FROM dbo.SALEOUTMT a\n WHERE a.IsInvoice = 'N'\n AND a.TaxAmount = 0\n AND ( SELECT COUNT (1) FROM dbo.SALEOUTDT b WHERE a.BillNo = b.BillNo\n AND b.IsInvoice = 'Y' ) = 0\n ORDER BY a.BillNo\n\n DECLARE @No1_Needlist_count INT\n SET @No1_Needlist_count = ( SELECT COUNT (1) FROM #No1_Needlist ); \n IF @No1_Needlist_count = 0\n BEGIN \n PRINT ( '当前无可用的需要回写0金额的出库单列表' )\n SET @return = 1\n GOTO err_lab\n END \n \n \n \n \n DECLARE @counter INT = 1; --循环初始值1\n\n WHILE @counter <= @No1_Needlist_count -- 循环开始\n BEGIN\n DECLARE @now_billno INT;--当前行的出库单的billno\n DECLARE @now_billcode VARCHAR(20);--当前行出库单的billcode\n SET @now_billno = ( SELECT a.now_billno FROM #No1_Needlist a WHERE a.now_sn = @counter ); \n SET @now_billcode = ( SELECT a.now_billcode FROM #No1_Needlist a WHERE a.now_sn = @counter ); \n\n```\n\n-蓝字回写ERP出库单明细已开发票数量 \n UPDATE a\n SET a.InvoiceNum = a.Num , a.InvoiceAmt = a.TaxAmount , a.IsInvoice = 'Y'\n FROM dbo.SALEOUTDT a\n WHERE a.BillNo = @now\\_billno\n IF @@error \\<\\> 0\n OR @@ROWCOUNT = 0\n BEGIN\n RAISERROR ('0金额单据明细回写出现了异常,速速联系网管',16,1)\n SET @return = 3\n GOTO err\\_lab\n END\n蓝字回写ERP出库单汇总的已开发票状态\n UPDATE",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "0金额出库单"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-04-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbyqQAVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbyqQAVzlwrZgb",
+  "doc_path": "/时空/产品功能问题/时空中，如果存在0金额的出库单，在发票登记中是无法记录的，同时金税接口也无法开具0金额的出库单。 但是财务系统做账时，是按发票进行成本结转，故这部分的数据则需要进行成本结转登记发票记录",
+  "record_id": "5OOh5nAyP0"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/时空中，如果存在0金额的出库单，在发票登记中是无法记录的，同时金税接口也无法开具0金额的出库单。 但是财务系统做账时，是按发票进行成本结转，故这部分的数据则需要进行成本结转登记发票记录",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

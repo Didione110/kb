@@ -1,0 +1,34 @@
+{
+ "id": "FX-20240429-091",
+ "record_id": "4fdiyPH9Ij",
+ "title": "文档中心文档历史版本管理说明",
+ "problem": "文档中心文档历史版本管理说明",
+ "cause": "文档管理员维护文档时，会不断的更新迭代，通过文档历史版本可以实时查询出原来的文档内容，并且也可以通过历史版本恢复原来的文档",
+ "solution": "操作方法见附件",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "文档版本管理"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "知识社区",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4fdiyPH9Ij"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

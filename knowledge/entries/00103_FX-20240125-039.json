@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240125-039",
+ "record_id": "2FfoFHrqCf",
+ "title": "未调度的单据生成补货单据明细可分配库存够还是报错",
+ "problem": "未调度的单据生成补货单据明细可分配库存够还是报错",
+ "cause": "调用存储过程zz_wms_zddb1时未将数量为0的过滤",
+ "solution": "加过滤sphwph表中shl >0的条件",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "补货单据库存"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2FfoFHrqCf"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

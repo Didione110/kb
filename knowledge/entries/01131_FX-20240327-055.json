@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240327-055",
+ "record_id": "TBNKmW4h3W",
+ "title": "客户反应现金管理-银行存款日记账账簿导出来没有客商",
+ "problem": "客户反应现金管理-银行存款日记账账簿导出来没有客商",
+ "cause": "客户打印导出操作不对",
+ "solution": "不要选择直接导出 要把每列调小选直接打印 然后输出Excel",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "客商缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TBNKmW4h3W"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

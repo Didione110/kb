@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250714-012",
+ "record_id": "yhBPJcp8ih",
+ "title": "审批流程结束，但是文档状态显示[待审]，点进去后却显示流程结束。",
+ "problem": "审批流程结束，但是文档状态显示[待审]，点进去后却显示流程结束。",
+ "cause": "流程文档状态异常",
+ "solution": "在流程监控中心-异常流程中 找到该流程 修复即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "状态异常"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-07-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yhBPJcp8ih"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

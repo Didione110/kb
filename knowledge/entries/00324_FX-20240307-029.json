@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240307-029",
+ "record_id": "7kbWWRX2jS",
+ "title": "数据接口传输的单位编码与第三方wms中的单位对应的不一致",
+ "problem": "数据接口传输的单位编码与第三方wms中的单位对应的不一致",
+ "cause": "经检查是在对码过程中使用了orgdoc中的catcode进行对码,该编码存在调整机构位置后变动的情况,导致双发数据不一致",
+ "solution": "后续使用orgid为唯一值进行对码调整,更新原有数据与提取方案;\n建议在后续接口对码中避开catcode字段;",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "单位编码不一致"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2024-03-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmanxOJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmanxOJqjMp697",
+  "doc_path": "/时空/数据接口问题/数据接口传输的单位编码与第三方wms中的单位对应的不一致",
+  "record_id": "7kbWWRX2jS"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/数据接口传输的单位编码与第三方wms中的单位对应的不一致",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

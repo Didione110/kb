@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250310-011",
+ "record_id": "AsP0D7rY1s",
+ "title": "极少情况会出现整货第一次刷卡打拣货单后，第2次刷卡确认失败",
+ "problem": "极少情况会出现整货第一次刷卡打拣货单后，第2次刷卡确认失败",
+ "cause": "wmspickmt,wmspickdt 的 isdone值为N，但是wmspickareadt的isdone值为Y",
+ "solution": "wmspickareadt的isdone修改成N",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "刷卡失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-03-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbrNKmW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbrNKmW3kdP0wQ",
+  "doc_path": "/时空/产品功能问题/极少情况会出现整货第一次刷卡打拣货单后，第2次刷卡确认失败",
+  "record_id": "AsP0D7rY1s"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/极少情况会出现整货第一次刷卡打拣货单后，第2次刷卡确认失败",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

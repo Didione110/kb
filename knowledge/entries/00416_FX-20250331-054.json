@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250331-054",
+ "record_id": "A37zHStYTV",
+ "title": "如何设置驳回默认回到上一节点而不是起草环节",
+ "problem": "如何设置驳回默认回到上一节点而不是起草环节",
+ "cause": "默认为拨回到起草节点",
+ "solution": "流程引擎-默认值设置-流程运行默认值-勾选“驳回时默认驳回到上一节点”即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "驳回节点"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "A37zHStYTV"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

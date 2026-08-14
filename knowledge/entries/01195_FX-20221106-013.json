@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221106-013",
+ "record_id": "VI6d53LIm6",
+ "title": "用友NC接口数据同步时，出现客户维护自定义字段内容超长，导致数据同步不成果",
+ "problem": "用友NC接口数据同步时，出现客户维护自定义字段内容超长，导致数据同步不成果",
+ "cause": "接口同步单据自定义字段内容超长，数据库存储字段长度过短",
+ "solution": "按照以下流程，扩展自定义字段长度\n\n-- 1、更改表中字段长度--可修改数据库表的字段长度\nalter table 表名 modify 字段名 varchar2(字段长度); \n\n-- 2、查询md_column中要改单据元数据中的所有字段信息\nselect * from MD_COLUMN where tableid = '表名'\n\n-- 3、修改要修改的元数据字段长度\nupdate MD_COLUMN set columnlength = 字段长度 where id = '表名@@@字段名'\n\n4、在md_class表中查找对应的id\n select * from md_class where defaulttablename='er_bxzb'\n在结果集中，查找displayname为‘报销单’的id的值 d9b9f860-4dc7-47fa-a7d5-7a5d91f39290\n\n6、查看在表md_property字段attrlength长度并修改\n select * from md_property where classid='d9b9f860-4dc7-47fa-a7d5-7a5d91f39290' and name = 'zyx1';\n update md_property set attrlength=500 where classid = 'd9b9f860-4dc7-47fa-a7d5-7a5d91f39290' and name = 'zyx1';\ncommit;\n\n最后需要重启中间件\n\n-- 4、修改用户定义属性表中的长度（如果没有设置用户定义属性不需要改这条）\n\n-- 4.1 找到单据对应的用户定义属性组主键\nselect pk_userdefrule,name from bd_userdefrule WHERE name like '%单据名称%'\n\n-- 4.2 找到单据对应的用户定义属性并修改字段输入长度\nupdate bd_userdefitem set inputlength = 字段长度 WHERE pk_userdefitem in (select pk_userdefitem from bd_userdefitem WHERE pk_userdefrule = '用户定义属性组主键' and propindex in ('单据字段位置'))\n\n-- 5、重启服务器NC服务",
+ "solution_types": [
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字段超长"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "特性",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VI6d53LIm6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

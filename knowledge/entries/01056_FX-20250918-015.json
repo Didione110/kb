@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250918-015",
+ "record_id": "R6ZUJPT0Pz",
+ "title": "无法查看系统操作日志",
+ "problem": "无法查看系统操作日志",
+ "cause": "系统默认不开启操作日志，需要手动开启",
+ "solution": "在admin.do中手动开启操作日志，开启后重启服务生效。",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "操作日志"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-09-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "R6ZUJPT0Pz"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

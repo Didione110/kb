@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250330-040",
+ "record_id": "DijCOBEeYG",
+ "title": "客户需要提取批发商品资料",
+ "problem": "客户需要提取批发商品资料",
+ "cause": "批发是sql 数据库 ，连锁是orcl 数据库，建立数据库链接比较麻烦，还要安装插件",
+ "solution": "通过时空系统自带的账套配置，建立账套链接配置，操作表单界面直接查询批发数据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "批发商品"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-03-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymXp2l8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymXp2l8xkXOEP2",
+  "doc_path": "/时空/应用操作/客户需要提取批发商品资料",
+  "record_id": "DijCOBEeYG"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/客户需要提取批发商品资料",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

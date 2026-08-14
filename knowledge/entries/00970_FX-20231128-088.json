@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231128-088",
+ "record_id": "OkFoPPQMYR",
+ "title": "弃审调差补料单提示报错：有后续的单子，但是联查后续的单子已经删除完成了",
+ "problem": "弃审调差补料单提示报错：有后续的单子，但是联查后续的单子已经删除完成了",
+ "cause": "后台应该卡数据了，导致虽然没有材料出库单，但是看备料计划上有累计出库数量",
+ "solution": "查看备料计划单，没有后续出库，但是有累计出库数量，在数据库清空累计出库数量update mm_pickm_b set ljcksl = 0 where pk_pickmid = '1002F8100000002F3IW9'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "联查删除"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OkFoPPQMYR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

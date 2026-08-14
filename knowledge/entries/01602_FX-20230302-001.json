@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230302-001",
+ "record_id": "fpxECl83gM",
+ "title": "V11打印预览，明细数据中有非数据集中数据时，会在空行也打印内容",
+ "problem": "V11打印预览，明细数据中有非数据集中数据时，会在空行也打印内容",
+ "cause": "IE壳更新",
+ "solution": "IE壳更新",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "IE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口",
+  "打印",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "空行打印"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2023-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fpxECl83gM"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

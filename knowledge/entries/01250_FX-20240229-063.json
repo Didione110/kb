@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240229-063",
+ "record_id": "WqhnfNumog",
+ "title": "单据怎么设计成 项目=受益项目 的关联设计",
+ "problem": "单据怎么设计成 项目=受益项目 的关联设计",
+ "cause": "需要使用个性化模板进行设置",
+ "solution": "进行了关联设计后，如果还是带不出来，是被带出的参照有模糊匹配多条导致，将目的字段参照设置为精确匹配即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "项目关联"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WqhnfNumog"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

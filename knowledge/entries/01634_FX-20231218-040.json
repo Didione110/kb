@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231218-040",
+ "record_id": "giazD3320e",
+ "title": "项目上安装了行业补丁后，需要回传至打行业补丁前",
+ "problem": "项目上安装了行业补丁后，需要回传至打行业补丁前",
+ "cause": "用不上",
+ "solution": "1、select * from system_InstalledAppModulePack -找到所有安装的补丁\n2、delete from system_InstalledAppModulePack where code='行业补丁code' -通过查到的code删掉行业补丁后重启服务即可",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "回退"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-12-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "giazD3320e"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

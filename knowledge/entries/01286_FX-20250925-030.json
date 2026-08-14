@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250925-030",
+ "record_id": "XqXyiJyryV",
+ "title": "【微协同集成】微协同绑定的时候提示”绑定失败，您使用的内部协同版本过低，请先升级内部协同!”或“非法参数，请重新绑定”或“非法参数，请重新绑定”",
+ "problem": "【微协同集成】微协同绑定的时候提示”绑定失败，您使用的内部协同版本过低，请先升级内部协同!”或“非法参数，请重新绑定”或“非法参数，请重新绑定”",
+ "cause": "由于用户已经绑定了微协同，但是此时OA后台微协同基础配置的协同服务器地址变更了，导致绑定时地址匹配不上；或者是用户绑定的时候服务器地址填写不规范从而引发该问题。",
+ "solution": "1、企业微信集成\n\n首先确认下OA地址是否有变更。如果不确定可以按照以下两个文档排查下。\n\n公有云集成：\nhttps://open.seeyoncloud.com/#/faq/faq/v1/share?url=Z2JySmU+ODEz\n\n私有化部署：\nhttps://open.seeyoncloud.com/#/faq/faq/v1/share?url=Z2JySmU+ODEy\n\n确认完毕后重新绑定即可，切记绑定的时候服务器地址需要携带协议头，并且后面不能携带斜杠“/”\n2、微信公众号“致远微协同”集成\n\n先在公众号页面对话框中输入“jcbd”\n然后重新点击底导航“微协同”开始绑定，切记绑定的时候服务器地址需要携带协议头，并且后面不能携带斜杠“/”",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "版本过低"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2025-09-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XqXyiJyryV"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "安装部署问题"
+ ]
+}

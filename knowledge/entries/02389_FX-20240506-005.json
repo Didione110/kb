@@ -1,0 +1,49 @@
+{
+ "id": "FX-20240506-005",
+ "record_id": "yuOHlqmXFx",
+ "title": "框架自带新增数据库数据操作效率低",
+ "problem": "框架自带新增数据库数据操作效率低",
+ "cause": "单条插入，重复申请数据库连接，资源占用过多",
+ "solution": "改批量操作",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "追溯码",
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "效率低"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yuOHlqmXFx"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

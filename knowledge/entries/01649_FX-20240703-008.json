@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240703-008",
+ "record_id": "h9hLysY4om",
+ "title": "修改流程，保存时提示“请选择显示明细”无法保存",
+ "problem": "修改流程，保存时提示“请选择显示明细”无法保存",
+ "cause": "预归档问题\n前期设置预归档到单位文档某个文件夹，由于该文件夹被删除导致；",
+ "solution": "重新修改预归档设置即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "显示明细"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-07-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "h9hLysY4om"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

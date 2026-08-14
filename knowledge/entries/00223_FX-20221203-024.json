@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221203-024",
+ "record_id": "5Ky9rrMOOz",
+ "title": "人福一键打印里，报错GDI错误，程序卡死，或者无响应等",
+ "problem": "人福一键打印里，报错GDI错误，程序卡死，或者无响应等",
+ "cause": "没有安装程序需要的.net frame work 版本",
+ "solution": "安装4.5版本提示机器已有，但是查看文件夹目录又没有，安装更高版本，如4.8解决",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "GDI错误"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmmzGLV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmmzGLV3bzYmDO",
+  "doc_path": "/自研/安装部署问题/人福一键打印里，报错GDI错误，程序卡死，或者无响应等",
+  "record_id": "5Ky9rrMOOz"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/人福一键打印里，报错GDI错误，程序卡死，或者无响应等",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

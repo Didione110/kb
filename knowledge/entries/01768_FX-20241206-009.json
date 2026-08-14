@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241206-009",
+ "record_id": "jxG0W7SfAp",
+ "title": "公文无法正常推动钉钉移动端进行审批，需要催办才可以收到",
+ "problem": "公文无法正常推动钉钉移动端进行审批，需要催办才可以收到",
+ "cause": "钉钉配置多了一个agnetid",
+ "solution": "①钉钉在后台建立一个公文应用来接受公文的审批及抄送，通过钉钉配置微应用入口来绑定应用agentid\n②删除钉钉微应用配置，即可正常推送",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "审批延迟"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jxG0W7SfAp"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250224-018",
+ "record_id": "htmRwO2a98",
+ "title": "OMS订单有一些指定品种需要拆单单独发货，如贵重或者易损易碎品种。",
+ "problem": "OMS订单有一些指定品种需要拆单单独发货，如贵重或者易损易碎品种。",
+ "cause": "贵重或者易损易碎品种需要发破损率较小的物流，比如京东、顺丰等。",
+ "solution": "设置系统订单自动拆分策略，按需求选择对应的拆分类型，指定店铺和添加好具体需要拆分的品种。系统在进行原始订单转单的过程中就会执行自动拆分策略，进行拆单。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "拆单发货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "htmRwO2a98"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230926-037",
+ "record_id": "Y7JvpLDVJS",
+ "title": "幸福时空税控接口一次性勾大量销售单时，出现明细数据缺失，数据不对的问题",
+ "problem": "幸福时空税控接口一次性勾大量销售单时，出现明细数据缺失，数据不对的问题",
+ "cause": "汇总单号是拼接成字符串作为条件传入明细取值，勾单太多后字符串超过varchar2最大长度导致被截断；实测oracle版本勾单极限值133单，超过133单会被截断",
+ "solution": "方案1.要求客户一次不允许勾选133单以上出库单，多次开票\n方案2.改为varchar2改为clob，（clob的空值判断比较特殊，如改字符类型，涉及到的字段都需要检查是否需要转化格式）\n\n建议使用方案1",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "数据缺失"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2023-09-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1P9b3JlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1P9b3JlemrZQ3",
+  "doc_path": "/自研/数据错误问题/幸福时空税控接口一次性勾大量销售单时，出现明细数据缺失，数据不对的问题",
+  "record_id": "Y7JvpLDVJS"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/幸福时空税控接口一次性勾大量销售单时，出现明细数据缺失，数据不对的问题",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

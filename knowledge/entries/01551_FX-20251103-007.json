@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251103-007",
+ "record_id": "eebjnRdLfz",
+ "title": "聚合支付接口手机显示扣款成功，但是时空未收款成功",
+ "problem": "聚合支付接口手机显示扣款成功，但是时空未收款成功",
+ "cause": "原因是支付反馈接口报文有三层data，其中第三层data取数错误，导致定义的变量为未识别的，最终判断提示逻辑无法正确识别",
+ "solution": "通过eval函数进行json传的转译，如果是多层data则多转译几次",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "扣款未到账"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O03pd2VDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O03pd2VDOnGvpb",
+  "doc_path": "/自研/安装部署问题/聚合支付接口手机显示扣款成功，但是时空未收款成功",
+  "record_id": "eebjnRdLfz"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/聚合支付接口手机显示扣款成功，但是时空未收款成功",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

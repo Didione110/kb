@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250807-019",
+ "record_id": "EAc5GdHjcn",
+ "title": "操作员打开手机端提示账号还未与T+用户绑定",
+ "problem": "操作员打开手机端提示账号还未与T+用户绑定",
+ "cause": "T\\+审批是免费云应用，账套启用云企业后没有授权这个云应用的界面，会导致操作员无法加入云企业从而出现该提示",
+ "solution": "找一个可试用的云应用授权给操作员后再取消授权，就可以将操作员加入到云企业中使用T\\+移动审批",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "账号未绑定"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-08-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AqEzkJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AqEzkJ5daZ90D",
+  "doc_path": "/其他/软件无法使用/操作员打开手机端提示账号还未与T+用户绑定",
+  "record_id": "EAc5GdHjcn"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/操作员打开手机端提示账号还未与T+用户绑定",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

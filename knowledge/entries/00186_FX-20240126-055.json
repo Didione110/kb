@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-055",
+ "record_id": "4Hr06MLMcA",
+ "title": "收银完成不自动打印小票",
+ "problem": "收银完成不自动打印小票",
+ "cause": "两个地方参数，只勾选了一个",
+ "solution": "检查收银机参数已勾选“完成结算时自动打印小票”，检查T+端未勾选“挂单时打印小票”，于是在系统管理-零售选项-勾选“挂单时打印小票“，pos端数据同步即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "小票不打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "质量部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4Hr06MLMcA"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

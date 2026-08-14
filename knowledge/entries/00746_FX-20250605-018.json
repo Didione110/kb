@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250605-018",
+ "record_id": "JEWYYJTjPc",
+ "title": "时空V10、11在引入一键打印打印图片过程中，均支持http://127.0.0.1:88/formservice?service=attachment.read&content=？方法\n但是在V12后不支持了，无法获取",
+ "problem": "时空V10、11在引入一键打印打印图片过程中，均支持http://127.0.0.1:88/formservice?service=attachment.read&content=？方法\n但是在V12后不支持了，无法获取",
+ "cause": "DHERP针对安全机制做了控制，获取图片附件的时候需要校验jwt的登录信息进行鉴权，故无法直接访问",
+ "solution": "找到tomcat的路径Tomcat\\\\webapps\\\\ROOT\\\\WEB-INF\\\\WEB.XML\n找到如下路径，param-value的值为N即可放开图片下载的鉴权服务\n imgcom.artery.form.ImageServletauthenticationY3",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "一键打印失效"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn156mmWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn156mmWrMqPxX6",
+  "doc_path": "/时空/安全问题/时空V10、11在引入一键打印打印图片过程中，均支持http   127.0.0.1 88 formservice service=attachment.read与content=？方法 但是在...",
+  "record_id": "JEWYYJTjPc"
+ },
+ "status": "active",
+ "doc_path": "/时空/安全问题/时空V10、11在引入一键打印打印图片过程中，均支持http   127.0.0.1 88 formservice service=attachment.read与content=？方法 但是在...",
+ "category": [
+  "时空",
+  "安全问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241031-053",
+ "record_id": "c5A0ouv1dd",
+ "title": "项目明细账输出报错，错误提示：不可识到的数据库格式'C:\\Users\\LenovolAppDatalLocaiTempvtempdb，mdb'",
+ "problem": "项目明细账输出报错，错误提示：不可识到的数据库格式'C:\\Users\\LenovolAppDatalLocaiTempvtempdb，mdb'",
+ "cause": "项目明细账输出报错，错误提示：不可识到的数据库格式'C:\\Users\\LenovolAppDatalLocaiTempvtempdb，mdb'",
+ "solution": "删除此文件'C:\\Users\\LenovolAppDatalLocaiTempvtempdb，mdb'",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据库格式错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "c5A0ouv1dd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

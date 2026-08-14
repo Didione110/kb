@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240821-046",
+ "record_id": "pA93pErQPW",
+ "title": "产品自带的‘应用’里面的待办、已办、待发、已发不展示低代码平台里面的流程，需要关闭。",
+ "problem": "产品自带的‘应用’里面的待办、已办、待发、已发不展示低代码平台里面的流程，需要关闭。",
+ "cause": "产品自带的‘应用’里面的待办、已办、待发、已发不展示低代码平台里面的流程，需要关闭。",
+ "solution": "后台管理-门户引擎-公司门户-编辑，去掉应用切换勾选项即可（具体见图）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "低代码流程"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "搜索功能配置",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pA93pErQPW"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231117-065",
+ "record_id": "la3fdgT8eC",
+ "title": "系统报表无法满足客户需求，希望开发自定义报表",
+ "problem": "系统报表无法满足客户需求，希望开发自定义报表",
+ "cause": "系统无自定义报表模块，需在低代码平台开发相应应用并发布，作为应用功能安装到对应产品中",
+ "solution": "开放平台编写脚本实现自定义报表。\n1、开发文档地址：https://doc.chanapp.chanjet.com/；\n2、存储过程如下：\ncreate PROCEDURE kq_def_Report \n@createTime varchar (50), \n@saleOrderCode varchar (50),\n@customerCode varchar (50),\n@userid varchar (50) as BEGIN \ndeclare \n@tablename varchar (100) \nif len (@userid)<>0 \nset @tablename = 'TEMP_0_kq_report' +'_' +@userid \nelse \nset @tablename = 'TEMP_0_kq_report' \nexec( 'if exists(select name from sysobjects where id=object_id (N''' +@tablename +''' )\nand OBJECTPROPERTY(id, N''IsUserTable'')= 1) drop table ' + @tablename) \ndeclare @startDate varchar(500) \ndeclare @endDate varchar(500) \nset @startDate = SUBSTRING(@createTime,1,CHARINDEX(',',@createTime)-1) \nset @endDate = SUBSTRING(@createTime,CHARINDEX(',',@createTime)+1,LEN(@createTime)) \ndeclare @sql varchar(3000)\nset @sql='select \na.code as xhdh\n,c.code as jhdh\n,e.code as khbm\n,e.name as khmc\n,b.pubuserdefdecm3 as xhdj\n,d.pubuserdefdecm1 as jcbj\n,b.taxPrice as xhsdj\n,b.quantity as num\n,b.taxRate as sl\n,d.taxPrice as jhsdj\n,(b.pubuserdefdecm3-d.pubuserdefdecm1) as cpml\n,((b.taxPrice-b.pubuserdefdecm3)*b.quantity*b.taxRate)-(\n(d.taxPrice-d.pubuserdefdecm1)*b.quantity*b.taxRate-(b.taxPrice-d.taxPrice)*0.18) as sjml\n,(b.pubuserdefdecm3-d.pubuserdefdecm1)+\n(((b.taxPrice-b.pubuserdefdecm3)*b.quantity*b.taxRate)-(\n(d.taxPrice-d.pubuserdefdecm1)*b.quantity*b.taxRate-(b.taxPrice-d.taxPrice)*0.18)) as mlhs\ninto ' +@tablename + ' from SA_SaleDelivery a \nleft join SA_SaleDelivery_b b on a.id=b.idSaleDeliveryDTO \nleft join PU_PurchaseArrival c on b.receiveVoucherCode=c.code \nleft join PU_PurchaseArrival_b d on c.id=d.idPurchaseArrivalDTO \nand b.idinventory=d.idinventory and b.batch = d.batch\nleft join AA_Partner e on a.idcustomer=e.id\nwhere 1=1\nand a.voucherdate >= '''+ @startDate +''' and a.voucherdate <=''' + @endDate +''''\nif len (@saleOrderCode)<>0 \nset @sql=@sql+'and a.code='''+@saleOrderCode+''''\nif len (@customerCode)<>0 \nset @sql=@sql+'and e.code='''+@customerCode+''''\n--print @sql\nexec(@sql) END",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自定义报表"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2023-11-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "la3fdgT8eC"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

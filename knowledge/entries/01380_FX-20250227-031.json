@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250227-031",
+ "record_id": "ZpSOkkNksP",
+ "title": "在完工申报上填写了序列号，但在成品入库单的时候，却可以参照到很多序列号，不是申报单上填写的序列号",
+ "problem": "在完工申报上填写了序列号，但在成品入库单的时候，却可以参照到很多序列号，不是申报单上填写的序列号",
+ "cause": "在完工申报上填写了序列号，但在成品入库单的时候，却可以参照到很多序列号，不是申报单上填写的序列号",
+ "solution": "申报单和入库单直接没有直接关联关系。只有当申报单单据类型设置了成品入库依完工申报=True,入库单单据类型设置了是否依赖完工申报=True,入库单和申报单之间才会有关联，这种情况下入库单参照的序列号是申报单上的序列号，否则入库单的序列号都是根据订单序列号来过滤的。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "序列号混乱"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施6部",
+  "date": "2025-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZpSOkkNksP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

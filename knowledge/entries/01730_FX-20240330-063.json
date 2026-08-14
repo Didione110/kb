@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240330-063",
+ "record_id": "itTPjTefoN",
+ "title": "WMS使用一段时间后，关联库存的查询检索的效率会降低，查询时长增加。",
+ "problem": "WMS使用一段时间后，关联库存的查询检索的效率会降低，查询时长增加。",
+ "cause": "库存sphwph表的数据量过大（特别是有货主转换业务的客户）",
+ "solution": "可以将过期的数据进行转历史，减少库存表数据，提高查询效率",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB",
+  "OceanBase",
+  "PolarDB-X"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "查询效率"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-03-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "itTPjTefoN"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

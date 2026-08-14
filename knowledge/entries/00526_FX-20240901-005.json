@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240901-005",
+ "record_id": "D5JMeAGC0M",
+ "title": "数据权限：杂收单行，即要满足生产相关又要满足部门为末级，这个权限怎么写？",
+ "problem": "数据权限：杂收单行，即要满足生产相关又要满足部门为末级，这个权限怎么写？",
+ "cause": "数据权限：杂收单行，即要满足生产相关又要满足部门为末级，这个权限怎么写？",
+ "solution": "动态视图类型：增、删、改 条件如下：NewMiscRcvTransL.MiscRcvTrans.MiscRcvDocType.IsMFG == NewMiscRcvTransL.IsMFG\nand NewMiscRcvTransL.BenefitDept.IsLeaf == 1",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "数据权限、杂收单行、生产相关、部门末级"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "D5JMeAGC0M"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

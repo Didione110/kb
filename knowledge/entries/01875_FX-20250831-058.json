@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250831-058",
+ "record_id": "miOjJoPlG7",
+ "title": "时空系统无自带的点三业务流程跟踪查询\n",
+ "problem": "时空系统无自带的点三业务流程跟踪查询",
+ "cause": "客户需要看到一个订单的业务流程走向，同时也方便软件查询方便",
+ "solution": "新增点三日志表，自动化配置存储表，通过系统化记录时间店，业务单据编号等信息，方便一个单号查询所有流程",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PostgreSQL",
+  "PolarDB",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "流程跟踪"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "miOjJoPlG7"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

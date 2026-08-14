@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240104-009",
+ "record_id": "8Fxe5BbzuC",
+ "title": "使用本地接口的医保小程序跟智友交互，接口内容超长（如处方密文很长），报错“网络异常，请检查！”",
+ "problem": "使用本地接口的医保小程序跟智友交互，接口内容超长（如处方密文很长），报错“网络异常，请检查！”",
+ "cause": "程序app配置中设置最大长度",
+ "solution": "修改配置文件config，现有的配置文件中，webHttpBinding中binding去掉name；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "IIS",
+  "C# (.NET)",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "接口超长"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAN3xx8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAN3xx8GXn6lpz",
+  "doc_path": "/自研/环境问题/使用本地接口的医保小程序跟智友交互，接口内容超长（如处方密文很长），报错“网络异常，请检查！”",
+  "record_id": "8Fxe5BbzuC"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/使用本地接口的医保小程序跟智友交互，接口内容超长（如处方密文很长），报错“网络异常，请检查！”",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

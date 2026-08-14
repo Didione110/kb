@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-027",
+ "record_id": "eLFF7lkS89",
+ "title": "刷单业务因为不会真实发货，或者获取面单了没有实际发出，导致平台判断为虚假发货而被罚款",
+ "problem": "刷单业务因为不会真实发货，或者获取面单了没有实际发出，导致平台判断为虚假发货而被罚款",
+ "cause": "刷单业务时，需要真实发出快递。避免平台判定违规",
+ "solution": "点三设置T单（刷单）策略，店铺存在刷单业务时，有时会存在拍A发B的业务场景。为了让订单能正常流转并且匹配指定的资料发货。避免平台判定虚假发货等违规行为",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "虚假发货"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O01qMyVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O01qMyVDOnGvpb",
+  "doc_path": "/其他/产品功能问题/刷单业务因为不会真实发货，或者获取面单了没有实际发出，导致平台判断为虚假发货而被罚款(1)",
+  "record_id": "eLFF7lkS89"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/刷单业务因为不会真实发货，或者获取面单了没有实际发出，导致平台判断为虚假发货而被罚款(1)",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

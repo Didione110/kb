@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221125-047",
+ "record_id": "UAFfChwDvR",
+ "title": "金万维远程到服务器提示远程桌面许可限制时间问题，并一个小时后金万维自动掉线",
+ "problem": "金万维远程到服务器提示远程桌面许可限制时间问题，并一个小时后金万维自动掉线",
+ "cause": "服务器电脑远程时间设置了限制",
+ "solution": "Windows Server 2012 没有远程桌面授权服务器可以提供许可证，远程会话被中断\nhttps://www.bbsmax.com/A/6pdDvYROJw/",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "许可限制"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施4部",
+  "date": "2022-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UAFfChwDvR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

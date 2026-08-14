@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260323-013",
+ "record_id": "esSP6J6wLT",
+ "title": "年末自动处理：本年利润结转到未分配利润 ",
+ "problem": "年末自动处理：本年利润结转到未分配利润",
+ "cause": "年末自动处理：本年利润结转到未分配利润",
+ "solution": "1、进入总账模块，选择规则凭证定义\n2、选择对应的会计主体后点击新增，编辑模板内容时业务类型选择“普通转账”\n3、设置借方科目为“本年利润”，金额取数公式为CloseBal(\"4103\"，\"I0 U\")，表示取该科目的期未余额\n4、贷方科目设为”利润分配-未分配利润”，金额取数公式使用AutoDcBal()以实现自动平衡\n5、完成上述设置并保存后，在期未结转节点下生成相应的凭证 。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "年末结转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-03-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "esSP6J6wLT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

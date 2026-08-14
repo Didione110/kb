@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241207-011",
+ "record_id": "79ybxP9a89",
+ "title": "收银时需要同时打印医保结算单以及小票",
+ "problem": "收银时需要同时打印医保结算单以及小票",
+ "cause": "收银时需要同时打印医保结算单以及小票",
+ "solution": "修改保护代码中的sys\\_printReceipt函数\nds\\_mast.field(\"k\\_isybdy\").value = \"N\";\nif(!Utility.isSpace(ds\\_mast.field(\"k\\_PosTraceNumber\").value))\\{\n ds\\_mast.field(\"k\\_isybdy\").value = \"Y\";\n\\}\nif (ds\\_mast.field(\"k\\_isybdy\").value == \"Y\") \\{\n Printer.print();\n ds\\_mast.field(\"k\\_isybdy\").value = \"N\"\n\\}\nif (ds\\_mast.field(\"k\\_isybdy\").value == \"N\") \\{\n Printer.print();\n\\}\n打印设计分类方案中增加：\nif(ds\\_mast.field(\"k\\_isybdy\").value == \"Y\" \n && ds\\_mast.field(\"ywlx\").value != \"TH\")\\{\n return \"4phy583mbd636c6l\" //医保结算\n \\}\n if(ds\\_mast.field(\"k\\_isybdy\").value == \"Y\" \n && ds\\_mast.field(\"ywlx\").value == \"TH\")\\{\n return \"3wl6g9na9a7ulkbx\" //医保撤销\n \\}else",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "打印"
+ ],
+ "keywords": [
+  "医保打印"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-12-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakk7xzJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakk7xzJgk9rpMq",
+  "doc_path": "/自研/实施问题/收银时需要同时打印医保结算单以及小票",
+  "record_id": "79ybxP9a89"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/收银时需要同时打印医保结算单以及小票",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

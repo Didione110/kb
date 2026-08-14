@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240830-062",
+ "record_id": "P9BZLru2sW",
+ "title": "出差报销单参照借款单生成，但是借款单上的借款日期和借款原因 没在出差报销单上带出来",
+ "problem": "出差报销单参照借款单生成，但是借款单上的借款日期和借款原因 没在出差报销单上带出来",
+ "cause": "ys默认借款单上的借款日期和借款原因 不在出差报销单上带出来，需要手动配置",
+ "solution": "需要在借款单上手动配置参照带出",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "借款信息缺失"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "P9BZLru2sW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

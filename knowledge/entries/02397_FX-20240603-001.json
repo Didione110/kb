@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240603-001",
+ "record_id": "zEqZAUEfPX",
+ "title": "NC65搜索失效",
+ "problem": "NC65搜索失效",
+ "cause": "索引有问题",
+ "solution": "尝试重启搜索服务及重启服务器都不行，可以尝试下述方案：\nD:\\yonyou\\SearchServer\\anteindex将此路径下的anteindex文件整个删除，然后重启搜索服务\n会自动建立新的文件；验证搜索正常",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "NC65搜索失效"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zEqZAUEfPX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

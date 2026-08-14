@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250122-066",
+ "record_id": "CGIfLO3lbU",
+ "title": "在对接金蝶资料接口时，返回的是多页的数据集，需进行循环存储至本地，但不清楚具体页数，不好判断循环次数",
+ "problem": "在对接金蝶资料接口时，返回的是多页的数据集，需进行循环存储至本地，但不清楚具体页数，不好判断循环次数",
+ "cause": "第三方接口返回数据存在多页时，无法有效判断存储返回数据",
+ "solution": "for (idx in range(1, 1000)) \\{\\}\n使用range方法，默认有1000页，在满足循环页数后，跳出循环",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Python",
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "分页循环"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1MBL2Wkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1MBL2Wkb4Mw9r",
+  "doc_path": "/自研/数据接口问题/在对接金蝶资料接口时，返回的是多页的数据集，需进行循环存储至本地，但不清楚具体页数，不好判断循环次数",
+  "record_id": "CGIfLO3lbU"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/在对接金蝶资料接口时，返回的是多页的数据集，需进行循环存储至本地，但不清楚具体页数，不好判断循环次数",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

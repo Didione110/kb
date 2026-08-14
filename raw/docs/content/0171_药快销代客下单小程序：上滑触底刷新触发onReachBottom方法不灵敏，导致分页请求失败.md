@@ -1,0 +1,33 @@
+<!-- META: {"nodeId": "kDnRL6jAJMEGBPbPhqn1aEP2JyMoPYe1", "title": "药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败", "docUrl": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1aEP2JyMoPYe1?utm_scene=team_space", "path": "/自研/产品功能问题/药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败", "fetchTime": "2026-08-13 23:57:04"} -->
+
+## 问题现象
+
+药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败
+
+## 问题原因
+
+最外层view滑动条触底才会触发onReachBottom，该页面滑动条为内层滑动条
+
+## 解决方案
+
+使用scroll-view组件自带滑动条触底方法分页
+
+---
+
+## 附加信息
+
+**对应版本**: 供应商平台
+
+**问题类型**: 产品功能问题
+
+**解决方案类型**: 代码修改
+
+**技术栈**: JS
+
+**技术关键词**: 接口
+
+**问题关键字**: 触底刷新
+
+**单据编号**: FX-20240322-047
+
+**提交人**: 肖阳  \|  **提交部门**: 研发1部  \|  **提交日期**: 2024-03-22

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240531-081",
+ "record_id": "ZsPCFpqyO8",
+ "title": "在使用系统中，需要重装系统后需要进行U9C的拷贝",
+ "problem": "在使用系统中，需要重装系统后需要进行U9C的拷贝",
+ "cause": "windows系统报错，提示无法使用HRESSULT 0x80131022，初始化语言运行时（CLR）v4.030319",
+ "solution": "需要手工拷贝U9C物理文件和数据库备份,按照附件进行恢复数据",
+ "solution_types": [
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U9C拷贝"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZsPCFpqyO8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

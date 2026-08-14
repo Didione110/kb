@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240422-065",
+ "record_id": "6aQdGcn9to",
+ "title": "【人力资源】-【薪酬管理】-【发放设置】-【账号分配】增加人员工资卡卡号信息的账号范围，这个起始账号和终止账号三个框怎么填写",
+ "problem": "【人力资源】-【薪酬管理】-【发放设置】-【账号分配】增加人员工资卡卡号信息的账号范围，这个起始账号和终止账号三个框怎么填写",
+ "cause": "无",
+ "solution": "先批量生成，导出错误的数据，在TXT中修改成对的数据，最后进行导入",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "账号范围"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-04-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DxQjGJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DxQjGJKMEvZBY",
+  "doc_path": "/用友/应用操作/【人力资源】-【薪酬管理】-【发放设置】-【账号分配】增加人员工资卡卡号信息的账号范围，这个起始账号和终止账号三个框怎么填写",
+  "record_id": "6aQdGcn9to"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/【人力资源】-【薪酬管理】-【发放设置】-【账号分配】增加人员工资卡卡号信息的账号范围，这个起始账号和终止账号三个框怎么填写",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

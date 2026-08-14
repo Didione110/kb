@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231107-050",
+ "record_id": "b0J03LE9NZ",
+ "title": "现在各类程序、接口很多都采用了tomcat的方式部署服务，如果同一服务器上tomcat存在多个，需要进行重启某一个tomcat时，不方便进行区别",
+ "problem": "现在各类程序、接口很多都采用了tomcat的方式部署服务，如果同一服务器上tomcat存在多个，需要进行重启某一个tomcat时，不方便进行区别",
+ "cause": "tomcat默认标题不好对程序进行区分",
+ "solution": "修改tomcat配置，让tomcat窗口标题采购自定义名称\ntomcat安装目录下：打开catalina.bat\n找到“setTITLE”关键字\n修改为：setTITLE=Tomcat_TEST\nTomcat_TEST：为自己修改后的标题名称",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "多实例识别"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b0J03LE9NZ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

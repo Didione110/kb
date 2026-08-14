@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240605-024",
+ "record_id": "MUBNuRgtMC",
+ "title": "DHERP器械专版没有采购订单运输登记表单",
+ "problem": "DHERP器械专版没有采购订单运输登记表单",
+ "cause": "DHERP器械专版没有采购订单运输登记表单",
+ "solution": "表单实例化如下\n新增表k_purddysdt，k_purddysmt,字段可参照V11",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "采购订单运输"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MUBNuRgtMC"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

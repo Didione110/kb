@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240219-031",
+ "record_id": "xEcg1XsCwQ",
+ "title": "供应商明细账点击全部输出，提示“不能更新，数据库或对象为只读”",
+ "problem": "供应商明细账点击全部输出，提示“不能更新，数据库或对象为只读”",
+ "cause": "可能是输出存放的路径名称较长或访问不了",
+ "solution": "更换输出文件的存储路径，在重新输出",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "只读错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-02-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xEcg1XsCwQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

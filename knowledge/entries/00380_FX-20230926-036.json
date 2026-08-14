@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230926-036",
+ "record_id": "99NT9fWo6q",
+ "title": "v12新功能：工作流批量审批\n当时V10和11里面没有",
+ "problem": "v12新功能：工作流批量审批\n当时V10和11里面没有",
+ "cause": "仔细分析了原因，主要是因为批量审批的时候需要调用workflow.autofoward()方法\n当时10和11里面不支持",
+ "solution": "没有方法，我们就自己创造方法\nTomcat\\\\webapps\\\\ROOT\\\\wf\\\\workflow.js\n在函数类里面加入\n\nWorkFlow.autoForward = async function () \\{\n let menus = form.parameters.workflowInfo.workflowmenu;\n for (var i = 0; i \\< menus.length; i\\+\\+) \\{\n var wfItem = menus\\[i\\];\n if (wfItem.MenuStyle == \"1\")\n```\n}\n\n```\n\n\\}\n然后在WorkFlow.forward方法内加入入参showSeccess\n if (showSeccess) \\{\n await form.alert(\"执行成功\");\n \\}\nform.close();",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "批量审批"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3oBO4V47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3oBO4V47Z3je9",
+  "doc_path": "/时空/环境问题/v12新功能：工作流批量审批 当时V10和11里面没有",
+  "record_id": "99NT9fWo6q"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/v12新功能：工作流批量审批 当时V10和11里面没有",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

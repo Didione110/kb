@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230430-036",
+ "record_id": "vuWdsuRfdC",
+ "title": "模版导出时有多个页签中，多个页签的信息都需要必填",
+ "problem": "模版导出时有多个页签中，多个页签的信息都需要必填",
+ "cause": "基础信息必填，有其余页签显示必填，但是可以不填，不需要的信息就不填",
+ "solution": "基础信息必填，以及相对应的必填，不太重要的一整页都不填写，即可导入",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "多页必填"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-04-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vuWdsuRfdC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

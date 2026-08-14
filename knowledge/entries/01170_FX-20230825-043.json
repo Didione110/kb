@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230825-043",
+ "record_id": "ULb6qSPro0",
+ "title": "财务发现当月合并报表审核不通过（下级所有母子公司单体报表都是审核通过的，但是集团合并报表审核不通过）",
+ "problem": "财务发现当月合并报表审核不通过（下级所有母子公司单体报表都是审核通过的，但是集团合并报表审核不通过）",
+ "cause": "其中一个子公司未出具所有者权益变动表（需要下级母子公司出具所有完整报表）",
+ "solution": "让子公司把单位所有者报表补充完整",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "合并审核不通过"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ULb6qSPro0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

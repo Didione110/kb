@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230205-017",
+ "record_id": "5maODZp1rE",
+ "title": "在需要跨服务器进行对数据库直接进行操作时，语句在数据库执行不报错，但在时空js部分调用时报分布式事务错误",
+ "problem": "在需要跨服务器进行对数据库直接进行操作时，语句在数据库执行不报错，但在时空js部分调用时报分布式事务错误",
+ "cause": "在需要跨服务器进行对数据库直接进行操作时，语句在数据库执行不报错，但在时空js部分调用时报分布式事务错误",
+ "solution": "js调用sql宏时使用DBUtil.update方法，而不要使用DBUtil.batchUpdate方法",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "分布式事务"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-02-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxb65YjJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxb65YjJxEKBD6p",
+  "doc_path": "/时空/数据接口问题/在需要跨服务器进行对数据库直接进行操作时，语句在数据库执行不报错，但在时空js部分调用时报分布式事务错误",
+  "record_id": "5maODZp1rE"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/在需要跨服务器进行对数据库直接进行操作时，语句在数据库执行不报错，但在时空js部分调用时报分布式事务错误",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

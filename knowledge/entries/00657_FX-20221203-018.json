@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221203-018",
+ "record_id": "Ga9PmOseCD",
+ "title": "采购订单保存后点新开单据选择供应商没有反应",
+ "problem": "采购订单保存后点新开单据选择供应商没有反应",
+ "cause": "检索方案有问题",
+ "solution": "按F12跟踪会弹出错误原因，根据报错内容进行处理",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "Chrome"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "新开单据"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAejraV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAejraV1DK0g6l",
+  "doc_path": "/时空/实施问题/采购订单保存后点新开单据选择供应商没有反应",
+  "record_id": "Ga9PmOseCD"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/采购订单保存后点新开单据选择供应商没有反应",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251112-017",
+ "record_id": "33M7gnWisX",
+ "title": "时空智友DHERP、V11、V10，在检索方案弹框出来的时候，里面的内容无法使用键盘Ctrl+C进行复制，\n很多客户反馈过，不方便使用",
+ "problem": "时空智友DHERP、V11、V10，在检索方案弹框出来的时候，里面的内容无法使用键盘Ctrl+C进行复制，\n很多客户反馈过，不方便使用",
+ "cause": "标准模板里没有相关配置，检索方案的弹框无法进行设置",
+ "solution": "找到tomcat\\\\webapps\\\\ROOT\\\\form\\\\html\\\\js\\\\selecthtmlDiv.js文件\nvar htmldataset1 = new SDataSet(\\{\n \"events\" : \\{\n \"dsevent\" : \\{\n \"ondblclick\" : \"uf\\_dbclick()\",\n \"beforeopen\" : \"uf\\_beforeopen()\",\n \"afteropen\" : \"uf\\_afteropen()\"\n \\},\n \"fieldevent\" : \\{\\}\n```\n },\n \"dsid\" : \"htmldataset1\",\n \"props\" : {\n \"idrule\" : \"serialno\"\n },\n \"CaptionHeight\" : \"30\"\n});\n\n```\n\nhtmldataset1.fields = \\[ \\];\n\nhtmldataset1.pageSize = dlgargs.param.select.pagesize;\nvar hasNav = htmldataset1.pageSize \\> -1;\nvar htmlgrid1 = new HtmlGrid(\\{\n nav\\_toolbar : hasNav,\n nav\\_toolbar\\_pagesize : htmldataset1.pageSize,\n \"bodyStyle\" : \"color:Black;background-color:White;\",\n \"gridid\" : \"htmlgrid1\",\n \"CrossInterval\" : \"1\",\n \"showCaption\" : \"False\",\n \"autoheight\" : \"Y\",\n \"tabindex\" : \"0\",\n \"fixedStyle\" : \"color:Black;\",\n \"class\" : \"HtmlGrid\",\n \"bind\\_dataset\" : \"htmldataset1\",\n \"caption\" : \"\",\n \"id\" : \"htmlgrid1\\_elm\",\n \"height\" : \"150\",\n \"width\" : \"150\",\n \"dataset\" : \"htmldataset1\",\n \"ShowLineNum\" : \"true\",\n /*\"CrossStyle\": \"color:#000000; background-color:#f0f0f0\",*/\n \"autowidth\" : \"Y\",\n \"enablecopy\" : \"true\",\n \"onclick\" : \"return form\\_onclick(event)\",\n Editable : \"false\",\n AutoAppend : \"N\"\n \\});\n\n增加了 \"enablecopy\" : \"true\", 这个属性后，刷新缓存重启即可生效",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "复制失效"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-11-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn16xwgWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn16xwgWrMqPxX6",
+  "doc_path": "/时空/安装部署问题/时空智友DHERP、V11、V10，在检索方案弹框出来的时候，里面的内容无法使用键盘Ctrl+C进行复制， 很多客户反馈过，不方便使用",
+  "record_id": "33M7gnWisX"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/时空智友DHERP、V11、V10，在检索方案弹框出来的时候，里面的内容无法使用键盘Ctrl+C进行复制， 很多客户反馈过，不方便使用",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241130-085",
+ "record_id": "zhHvYIm2S4",
+ "title": "需要新建数据库计划任务时，不会操作数据库工具新建作业时，可以用sql语句新建定时任务",
+ "problem": "需要新建数据库计划任务时，不会操作数据库工具新建作业时，可以用sql语句新建定时任务",
+ "cause": "使用sql语句新建数据库定时任务，或者停止定时任务",
+ "solution": "创建执行计划：每小时运行一次存储过程 \ndeclare\n job number;\nBEGIN\n DBMS_JOB.SUBMIT( \n JOB => job, /*自动生成JOB_ID*/ \n WHAT => 'testJob;', /*需要执行的存储过程名称或SQL语句*/ \n NEXT_DATE => sysdate, /*初次执行时间-立即执行*/ \n INTERVAL => 'trunc(sysdate,''mi'')+1/(24*60)' /*每隔1分钟执行一次*/\n ); \n commit;\nend;\n\n停止定时任务\ndeclare\nbegin \n dbms_job.broken(24,true,sysdate); /*停止一个job,jobId, job的ID,里面参数true也可是false，next_date（某一时刻停止）也可是sysdate（立刻停止）。 */\ncommit;\nend;",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "定时任务"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zhHvYIm2S4"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240506-026",
+ "record_id": "Oug8iMvR4H",
+ "title": "平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+ "problem": "平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+ "cause": "平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+ "solution": "平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "复核打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3RNxBWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3RNxBWn4qY5Pr",
+  "doc_path": "/其他/应用操作/平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+  "record_id": "Oug8iMvR4H"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/平板拣货，平板复核合并波次拣货复核，当复核某一家最后一条时，需要进行打印提示，告知客户进行打印。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

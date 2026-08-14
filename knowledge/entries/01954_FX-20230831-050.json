@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230831-050",
+ "record_id": "oFfGXghi3I",
+ "title": "客户上了聚水潭，然后传订单给ERP，但是淘系订单可能无法传给ERP",
+ "problem": "客户上了聚水潭，然后传订单给ERP，但是淘系订单可能无法传给ERP",
+ "cause": "可通过南昌时空的奇门接口，取发货单数据，传给ERP，然后ERP生成订单后传WMS",
+ "solution": "可通过南昌时空的奇门接口，取发货单数据，传给ERP，然后ERP生成订单后传WMS",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "聚水潭传单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oFfGXghi3I"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

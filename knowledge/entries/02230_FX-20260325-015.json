@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260325-015",
+ "record_id": "v6PolYfDwp",
+ "title": "客户要想在25年12A调整期单独出12A报表 不和12月报表数据在一起出具 是否可以实现",
+ "problem": "客户要想在25年12A调整期单独出12A报表 不和12月报表数据在一起出具 是否可以实现",
+ "cause": "需要更改报表单元格取数公式区分是否包含调整期凭证",
+ "solution": "以余额为例：GLAmt（）取数包含调整期数据，GLAmtinAdjPrd（）只取调整期数据，如果取不含调整期数据，可以使用GLAmt（） - GLAmtinAdjPrd（）。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "12A报表"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "企业绩效服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-03-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "v6PolYfDwp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

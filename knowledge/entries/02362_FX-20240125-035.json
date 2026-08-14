@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240125-035",
+ "record_id": "xxbBHZjMbs",
+ "title": "WMS冻结功能，如果1个整货位有2个品种，一起冻结后数据重复了，可销数位负数",
+ "problem": "WMS冻结功能，如果1个整货位有2个品种，一起冻结后数据重复了，可销数位负数",
+ "cause": "检查后发现，WMS冻结存储过程里，表关联的条件是错误的，导致数据异常",
+ "solution": "调整关联条件后冻结功能数据就是正常",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "冻结重复"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xxbBHZjMbs"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

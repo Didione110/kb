@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230328-029",
+ "record_id": "FLyK3c5PxG",
+ "title": "创建账套失败",
+ "problem": "创建账套失败",
+ "cause": "XPCmdshellEnabled未开启",
+ "solution": "用SQL管理工具打开外围应用配置期，修改XPCmdshellEnabled为True",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "账套创建失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FLyK3c5PxG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

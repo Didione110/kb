@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250806-010",
+ "record_id": "uBqq9DsBRc",
+ "title": "字典主键重复，无法保存",
+ "problem": "字典主键重复，无法保存",
+ "cause": "查询当前字典ID取值和系统不一致，人为调整过dictid",
+ "solution": "1、select recnum from specialcode where prefix = 'DIC'\n查询当前字典取值，确认是否和dictdoc最大值一致\n（select max(dictid) from dictdoc）\n2、修改recnum值",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "主键重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2025-08-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uBqq9DsBRc"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241125-044",
+ "record_id": "SmXMWHkUJT",
+ "title": "客户档案修改客户名称，保存时提示'未设置对象变量或 With block变量'",
+ "problem": "客户档案修改客户名称，保存时提示'未设置对象变量或 With block变量'",
+ "cause": "客户档案地址栏中有特殊字符导致报错",
+ "solution": "做好数据备份后清除特殊字符再修改客户名称",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "对象变量"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SmXMWHkUJT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

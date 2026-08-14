@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230630-013",
+ "record_id": "Ys5QsWfRfr",
+ "title": "采购订单执行情况里的【预付款金额】显示零，但现场这单是有预付款金额的，是什么原因不在报表里显示出呢",
+ "problem": "采购订单执行情况里的【预付款金额】显示零，但现场这单是有预付款金额的，是什么原因不在报表里显示出呢",
+ "cause": "在4月份报表取值逻辑进行了更新，不在取单据头上的预付款金额，而是明细行的预付款金额\n请款金额 :行正在请款金额 CurrentApplyPrePayMoneyAC + 行预付金额 PrePayMoneyAC\n预付款金额: 行预付金额 PrePayMoneyAC\n累计付款金额 :行付款金额 TotalPayedMnyAC（已付款金额(核币)）",
+ "solution": "采购订单执行情况是按照行统计的 ，所以不统计整单上的那个请款金额",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "预付款未显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Ys5QsWfRfr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

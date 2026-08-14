@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240131-073",
+ "record_id": "92qymXMYLj",
+ "title": "在分摊等过程中涉及到同时对变量、字段的更新，了解具体的具体原理有助于写出高质量的语句",
+ "problem": "在分摊等过程中涉及到同时对变量、字段的更新，了解具体的具体原理有助于写出高质量的语句",
+ "cause": "在分摊等过程中涉及到同时对变量、字段的更新，了解具体的具体原理有助于写出高质量的语句",
+ "solution": "在SQL Server中，UPDATE语句执行的顺序遵循以下逻辑步骤：\n1. WHERE子句筛选：\n\n在更新数据之前，UPDATE语句会根据WHERE子句条件来确定要更新哪些行。\n2. 赋值操作执行顺序（对于SET部分）：\n\n赋值操作按照从左到右的顺序进行计算。\n如果在SET子句中有多个字段同时被更新，并且它们之间存在相互依赖（如一个字段的值依赖于另一个字段的新值），那么这些赋值是按顺序处理的，但同一行内不同字段间的赋值是不确定的，不建议这样设计语句，以避免隐含的依赖问题。\n3. 若UPDATE语句中涉及了局部变量或全局变量的赋值，先对变量进行赋值，然后再将变量应用于字段更新。\n\n需要注意的是，尽管字段之间的赋值看似并行执行（即在同一行上同时生效），但在编写UPDATE语句时应确保没有循环依赖。此外，如果有复杂业务逻辑，可能会涉及到临时变量的使用，此时应该明确理解变量赋值与字段更新的先后关系，避免因并发控制或特定顺序需求而产生错误的结果",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "变量更新"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51LmDo8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51LmDo8zN67Mw4",
+  "doc_path": "/时空/应用操作/在分摊等过程中涉及到同时对变量、字段的更新，了解具体的具体原理有助于写出高质量的语句",
+  "record_id": "92qymXMYLj"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/在分摊等过程中涉及到同时对变量、字段的更新，了解具体的具体原理有助于写出高质量的语句",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

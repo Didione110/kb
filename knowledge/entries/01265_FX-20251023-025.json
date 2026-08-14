@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251023-025",
+ "record_id": "XJx8SnLvWr",
+ "title": "上传数据到码上放心平台时提示报错：\n \"没有操作权限.【AppKey:351***22,企业:XXXXXX药业有限公司\"",
+ "problem": "上传数据到码上放心平台时提示报错：\n \"没有操作权限.【AppKey:351***22,企业:XXXXXX药业有限公司\"",
+ "cause": "客户虽然申请了码上放心接口拿到了APPKEY，但是未申请对应的权限，例如：码上放心-零售药店权限、码上放心-WES权限",
+ "solution": "在接口平台中，继续申请授权，且绑定对应机构到APPKEY",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "权限不足"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "药监接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-10-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbeEopJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbeEopJxEKBD6p",
+  "doc_path": "/自研/数据接口问题/上传数据到码上放心平台时提示报错：没有操作权限",
+  "record_id": "XJx8SnLvWr"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/上传数据到码上放心平台时提示报错：没有操作权限",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

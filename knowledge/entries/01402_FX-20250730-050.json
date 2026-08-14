@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250730-050",
+ "record_id": "aO7PEtcHfL",
+ "title": "sql server 2008 R2  维护计划任务提示创建组件失败",
+ "problem": "sql server 2008 R2 维护计划任务提示创建组件失败",
+ "cause": "DTS服务未启动",
+ "solution": "打开运行（命令提示符）\n\n一、输入 cd c:\\windows\\syswow64 进入到c:\\windows\\syswow64路径中\n\n二、输入 regsvr32 \"C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\dts.dll\"\n\n然后重启数据库服务即可解决",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "组件失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aO7PEtcHfL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

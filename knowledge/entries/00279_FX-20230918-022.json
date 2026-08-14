@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230918-022",
+ "record_id": "6W0ae5ynwG",
+ "title": "固定资产模块打开提示“当前不是最新的会计日期”，无法打开模块",
+ "problem": "固定资产模块打开提示“当前不是最新的会计日期”，无法打开模块",
+ "cause": "固定资产模块3月份启用，电脑当前日期为2023年5月份，使用3月份登录和5月份登录均一样提示，后台表accinformation中固定资产的最新会计日期和最新会计期间不一致",
+ "solution": "备份账套，修改accinformation表中固定资产的最新会计日期和最新会计期间一致，重新登录即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "会计日期"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-09-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pDYzY8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pDYzY8gN7R35y",
+  "doc_path": "/用友/数据错误问题/固定资产模块打开提示当前不是最新的会计日期，无法打开模块",
+  "record_id": "6W0ae5ynwG"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据错误问题/固定资产模块打开提示当前不是最新的会计日期，无法打开模块",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

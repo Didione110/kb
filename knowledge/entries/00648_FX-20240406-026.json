@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240406-026",
+ "record_id": "GI0daFK48F",
+ "title": "医保接口测试环境中在你未修改任何配置情况下，前一秒好好得，突然各种调用失败，签到都失败等",
+ "problem": "医保接口测试环境中在你未修改任何配置情况下，前一秒好好得，突然各种调用失败，签到都失败等",
+ "cause": "医保接口测试环境维护人员在没有任何通知情况下进行维护，你打专班电话他们永远说正常",
+ "solution": "等待医保人员维护完",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保接口异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbAnrYVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbAnrYVzlwrZgb",
+  "doc_path": "/自研/环境问题/医保接口测试环境中在你未修改任何配置情况下，前一秒好好得，突然各种调用失败，签到都失败等",
+  "record_id": "GI0daFK48F"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/医保接口测试环境中在你未修改任何配置情况下，前一秒好好得，突然各种调用失败，签到都失败等",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

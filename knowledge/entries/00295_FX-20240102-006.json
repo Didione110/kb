@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240102-006",
+ "record_id": "72pkHP2GwO",
+ "title": "客户如果要求DHERP和WMS采购收货单允许调整数量",
+ "problem": "客户如果要求DHERP和WMS采购收货单允许调整数量",
+ "cause": "DHERP从PC端收货到PDA收货确认操作会有时间差异，一般不建议修改。\n如果业务需要一定需要调整，需要清理客户已经生成的收货数据和PC收货数据。",
+ "solution": "delete wmsrecemt where billno in (select billno from wmsrecedt where rfbillno =:billno )\ndelete wmsrecedt were rfbillno =:billno\ndelete wmsinmt where billno=:billno \n,delete tmp\\_pda\\_getingoods where rfbillno =:billno\nbillno参数为收货单billno\n采购收货单进行单据调整后保存，保证PC端收货数据和PDA收货数据是一致的。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "数量调整"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-01-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmBpyYX8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmBpyYX8yeZqMmz",
+  "doc_path": "/时空/产品功能问题/客户如果要求DHERP和WMS采购收货单允许调整数量",
+  "record_id": "72pkHP2GwO"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/客户如果要求DHERP和WMS采购收货单允许调整数量",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

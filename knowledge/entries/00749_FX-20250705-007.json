@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250705-007",
+ "record_id": "JKbN4sbZzD",
+ "title": "三医院IPS平台上传追溯码，追溯码太多，接口接收不了，显示报错 {\"code\":0,\"message\":\"Request body too large.\"}",
+ "problem": "三医院IPS平台上传追溯码，追溯码太多，接口接收不了，显示报错 {\"code\":0,\"message\":\"Request body too large.\"}",
+ "cause": "传入内容太多",
+ "solution": "在程序中按照单据号分组调用接口传递\n不需要实施人员修改存储过程",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "追溯码超限"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-07-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDXgY9W6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDXgY9W6zbX04v",
+  "doc_path": "/自研/数据接口问题/三医院IPS平台上传追溯码，追溯码太多，接口接收不了，显示报错 { code  0, message   Request body too large. }",
+  "record_id": "JKbN4sbZzD"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/三医院IPS平台上传追溯码，追溯码太多，接口接收不了，显示报错 { code  0, message   Request body too large. }",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

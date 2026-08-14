@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250313-018",
+ "record_id": "0d3XGHP0ML",
+ "title": "登录账户 左上角右下角 一个是手机号 一个是汉字",
+ "problem": "登录账户 左上角右下角 一个是手机号 一个是汉字",
+ "cause": "用户修改了手机号",
+ "solution": "重新同步用户，登录两者显示一致",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "账号显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-03-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0d3XGHP0ML"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

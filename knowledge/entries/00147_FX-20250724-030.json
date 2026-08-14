@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250724-030",
+ "record_id": "3Uv0V6cxph",
+ "title": "杞建飞，6月初用户做调动，调至天盛，在社保档案新增找不到此人",
+ "problem": "杞建飞，6月初用户做调动，调至天盛，在社保档案新增找不到此人",
+ "cause": "操作问题",
+ "solution": "1、检查是由于在天盛二级业务单元里而非天盛交社保，指导做人员调动，调至二级凯程，正常添加社保档案里的人员；\n2、添加人员时又选择不到对应现在在用的险种，检查原因是，用户6月的险种在原来发社保的天润公司，进入天润社保档案里，将各个险种删除后，成功在凯程添加了险种\n3、险种添加后，在社保缴交里又看不此人员，用人员查询能看到，客户一般用险种缴交；对比发现此人在加外6类险种有，只在养老里没有，检查原因是用户做了养老缴交的审核，取消审核后，重新添加人员时能正常看到7种险种；",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "社保档案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-07-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3Uv0V6cxph"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

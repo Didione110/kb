@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231231-079",
+ "record_id": "v4JuNN7SSi",
+ "title": "自动记账效率很低",
+ "problem": "自动记账效率很低",
+ "cause": "多企业共用一个单据类型的自动记账，例如A\\B两个企业共用一个销售出库的自动记账，A单据量少、B单据量特别大，但客户要求A需要优先出库",
+ "solution": "启用多个服务端计划和对应的函数将其分开处理得到解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Docker"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "效率低"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施3部",
+  "date": "2023-12-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "v4JuNN7SSi"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

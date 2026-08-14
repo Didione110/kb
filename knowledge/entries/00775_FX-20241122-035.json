@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241122-035",
+ "record_id": "JoWynaPoXw",
+ "title": "智友全系类产品，表单的复制权限默认是没开启的，而且只能在设计器里面开启\n如果客户需要对不通的操作员进行设置，是不可以的",
+ "problem": "智友全系类产品，表单的复制权限默认是没开启的，而且只能在设计器里面开启\n如果客户需要对不通的操作员进行设置，是不可以的",
+ "cause": "北京智友没考虑到这一块",
+ "solution": "在所有的表单的onload里引用加载获取表单复制权限\n1：制作人员表单权限复制表\ncreate table copyAuth(entid ,userid,formid)\n2：制作公共函数判断人员是否有表单复制的权限\nfunction srv\\_getCopyAuth() \\{\n //userid:操作员ID\n //formid:传入的表单ID\n var sql = \"select formid from CopyAuth \"\n \\+ \" where formid='\" \\+ param1 \\+ \"' and userid = '\" \\+ param2 \\+ \"'\";\n var ret = DBUtil.select(sql);\n if (ret.values.length \\> 0)\\{\n return 1;\n \\}\n else \\{\n return 0;\n \\}\n\\}\n\n3：在所有表单上引用此方法获取对应属性的设置\n```\n//获取当前操作员是否有表单复制的权限\nvar param = {};\nparam.moduleid=\"2k7rp7e252ww5bkn\";\nparam.funcName=\"srv_getCopyAuth\";\nvar subparam={};\nsubparam.param1 = form.id;\nsubparam.param2 = form.userinfo.userid;\nparam.param = subparam;\nvar result = WebService.call(\"exceFuction\", param, true); \nif( result == 1 ){ // 判断当前操作员的表单复制权限\n for (var i = 0 ; i < form.auxobjs.datagrids.length ; i++) { \n eval(form.auxobjs.datagrids[i]).enablecopy = \"true\"; \n }\n} else { //如果没有则返回false不让复制\n for (var i = 0 ; i < form.auxobjs.datagrids.length ; i++) { \n eval(form.auxobjs.datagrids[i]).enablecopy = \"false\"; \n } \n}\n//更新页面数据集合\nvar length = form.auxobjs.datasetobjects.length > form.auxobjs.datasets.length ? form.auxobjs.datasetobjects.length : form.auxobjs.datasets.length;\nfor (var i = 0 ; i < length ; i++) { \n if (form.auxobjs.datasetobjects.length > i){\n eval(form.auxobjs.datasetobjects[i]).updateGrid();\n }\n if (form.auxobjs.datasets.length > i){\n eval(form.auxobjs.datasets[i]).updateGrid();\n }\n} \n\n```",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限控制"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-11-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3ez2QV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3ez2QV47Z3je9",
+  "doc_path": "/时空/产品功能问题/智友全系类产品，表单的复制权限默认是没开启的，而且只能在设计器里面开启 如果客户需要对不通的操作员进行设置，是不可以的",
+  "record_id": "JoWynaPoXw"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/智友全系类产品，表单的复制权限默认是没开启的，而且只能在设计器里面开启 如果客户需要对不通的操作员进行设置，是不可以的",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

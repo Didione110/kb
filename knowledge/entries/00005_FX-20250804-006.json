@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250804-006",
+ "record_id": "09hScUQbM0",
+ "title": "玖宫格提单数据重复",
+ "problem": "玖宫格提单数据重复",
+ "cause": "玖宫格同商品同批次分了两行，并且没有给出唯一行号",
+ "solution": "1.玖宫格给出唯一行号；\n2.下载玖宫格单据时候我们来赋予唯一行号；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "打印"
+ ],
+ "keywords": [
+  "提单重复"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "09hScUQbM0"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

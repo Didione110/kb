@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251031-053",
+ "record_id": "hHNKq5YOZo",
+ "title": "在存货管理档案上设置了辅计量 固定换算率 ，但是在请购单、采购订单等单据上带不出来辅计量数量和换算率",
+ "problem": "在存货管理档案上设置了辅计量 固定换算率 ，但是在请购单、采购订单等单据上带不出来辅计量数量和换算率",
+ "cause": "存货档案上的换算率精度是4，但是公共参数 换算率精度只有2位，所以带不出来换算率",
+ "solution": "需要改一下公共参数数量的小数位数，后续就显示正常了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "辅计量缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hHNKq5YOZo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

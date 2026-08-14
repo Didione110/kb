@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230802-007",
+ "record_id": "DYeXOzfHuX",
+ "title": "U8凭证打印不想打页脚的制单人、审核人、记账人",
+ "problem": "U8凭证打印不想打页脚的制单人、审核人、记账人",
+ "cause": "客户需求",
+ "solution": "可以取消，操作步骤是：总账-设置-选项-凭证打印页签，打印凭证页脚姓名的勾取消",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "页脚信息"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DYeXOzfHuX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

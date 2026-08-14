@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240523-056",
+ "record_id": "3lbVwofsAX",
+ "title": "金万维连接不上\n测试连接无误，登录U8会提示“Critical Error：Verification of your TeamViewer version failed!TeamViewer will qut for security reasons. Please reinstal\nTeamViewer.”",
+ "problem": "金万维连接不上\n测试连接无误，登录U8会提示“Critical Error：Verification of your TeamViewer version failed!TeamViewer will qut for security reasons. Please reinstal\nTeamViewer.”",
+ "cause": "应用冲突",
+ "solution": "原因是服务器上安装了TeamViewer，卸载后没有提示，解决",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "TeamViewer版本验证失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-05-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmB41dJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmB41dJGlDd3mE",
+  "doc_path": "/其他/软件无法使用/金万维连接不上，测试连接无误，登录U8会提示Critical Error：Verification of your TeamViewer version failed",
+  "record_id": "3lbVwofsAX"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/金万维连接不上，测试连接无误，登录U8会提示Critical Error：Verification of your TeamViewer version failed",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

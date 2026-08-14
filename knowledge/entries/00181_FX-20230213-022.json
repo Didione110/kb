@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230213-022",
+ "record_id": "4E3ouV7NDX",
+ "title": "销售订单删除异常报错“删除后插件报错：构造U8UDHDocument.clsHandleUDHDOrder对象失败，原因：无效的类字符串（异常来自HRESULT：0x800401F3 ）”",
+ "problem": "销售订单删除异常报错“删除后插件报错：构造U8UDHDocument.clsHandleUDHDOrder对象失败，原因：无效的类字符串（异常来自HRESULT：0x800401F3 ）”",
+ "cause": "一般是U订货插件异常启用造成的",
+ "solution": "进入服务器U8程序菜单的\"API资源管理器\"，销售管理的销售订单审核，删除事件，插件类型下所有U订货相关插件属性，去掉“启用”勾选后正常。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "U8UDH插件异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4E3ouV7NDX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

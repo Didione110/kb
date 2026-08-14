@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230912-016",
+ "record_id": "apNmebLAtZ",
+ "title": "原始固定资产卡片月份未计提完毕，但没有计提出折旧数据",
+ "problem": "原始固定资产卡片月份未计提完毕，但没有计提出折旧数据",
+ "cause": "查看卡片，卡片上的残值率过高，导致残值与净值一致，当月没有数据计提折旧",
+ "solution": "修改残值率，显示当月计提的折旧额，后续可以正常计提折旧",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "折旧未提"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-09-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "apNmebLAtZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231204-010",
+ "record_id": "7DSk36hf9b",
+ "title": "u9c创建部门接口报错",
+ "problem": "u9c创建部门接口报错",
+ "cause": "缺失字段",
+ "solution": "CreatedOn,ModifiedOn为必填字段",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "U9C部门接口"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51vxgv8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51vxgv8zN67Mw4",
+  "doc_path": "/用友/数据接口问题/u9c创建部门接口报错",
+  "record_id": "7DSk36hf9b"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/u9c创建部门接口报错",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

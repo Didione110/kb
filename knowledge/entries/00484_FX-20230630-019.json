@@ -1,0 +1,47 @@
+{
+ "id": "FX-20230630-019",
+ "record_id": "ByrEriweCM",
+ "title": "客户的拣货标签灯不亮",
+ "problem": "客户的拣货标签灯不亮",
+ "cause": "因网络问题，电子标签回传状态时，未回写完成，导致该任务一直被读取，产生重复键",
+ "solution": "在电子标签软件中，将改任务删除即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "拣货灯不亮"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYApe5ZV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYApe5ZV1DK0g6l",
+  "doc_path": "/其他/应用操作/客户的拣货标签灯不亮",
+  "record_id": "ByrEriweCM"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户的拣货标签灯不亮",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

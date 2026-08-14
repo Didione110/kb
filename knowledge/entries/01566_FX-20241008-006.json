@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241008-006",
+ "record_id": "f14CzpU555",
+ "title": "工单系统复制输入框内容到粘贴板报错TypeError: Cannot read properties of undefined (reading 'writeText')\n",
+ "problem": "工单系统复制输入框内容到粘贴板报错TypeError: Cannot read properties of undefined (reading 'writeText')",
+ "cause": "vue3\\+vite项目复制内容使用writeText方法导致报错",
+ "solution": "临时构建一个input元素，将需要复制的内容赋值给input元素并选中，选择实例内容并复制， 删除临时input元素",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "粘贴板报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNkYYNJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNkYYNJbkz3BRL",
+  "doc_path": "/自研/产品功能问题/工单系统复制输入框内容到粘贴板报错TypeError Cannot read properties of undefined",
+  "record_id": "f14CzpU555"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/工单系统复制输入框内容到粘贴板报错TypeError Cannot read properties of undefined",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

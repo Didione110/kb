@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240322-047",
+ "record_id": "oaR0VhNfBU",
+ "title": "药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败",
+ "problem": "药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败",
+ "cause": "最外层view滑动条触底才会触发onReachBottom，该页面滑动条为内层滑动条",
+ "solution": "使用scroll-view组件自带滑动条触底方法分页",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "触底刷新"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-03-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1aEP2JyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1aEP2JyMoPYe1",
+  "doc_path": "/自研/产品功能问题/药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败",
+  "record_id": "oaR0VhNfBU"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/药快销代客下单小程序：上滑触底刷新触发onReachBottom方法不灵敏，导致分页请求失败",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

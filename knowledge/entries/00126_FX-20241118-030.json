@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241118-030",
+ "record_id": "2mLvy7n0Zp",
+ "title": "另存的一个采购入库单提取单据保存后未记账",
+ "problem": "另存的一个采购入库单提取单据保存后未记账",
+ "cause": "查询出有这个批次的批号信息，anglebalance 等库存信息为空",
+ "solution": "新增的记账表单要在管理区管理区 表单自定义控件中登记货位账和登记往来账中新增添加进去",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "未记账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-11-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn11BdbWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn11BdbWrMqPxX6",
+  "doc_path": "/时空/应用操作/另存的一个采购入库单提取单据保存后未记账",
+  "record_id": "2mLvy7n0Zp"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/另存的一个采购入库单提取单据保存后未记账",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250904-003",
+ "record_id": "2AH3Op1t3f",
+ "title": "客户五年换证检查是，数据库备份文件不足",
+ "problem": "客户五年换证检查是，数据库备份文件不足",
+ "cause": "各种原因导致客户数据库备份文件不是每天都有，可能缺失超过一年数据",
+ "solution": "通过.bat命令执行文件批量复制、批量修改文件名、创建时间等批量生成数据库备份文件",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "备份不足"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2025-09-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbbYOjVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbbYOjVzlwrZgb",
+  "doc_path": "/时空/效率问题/客户五年换证检查是，数据库备份文件不足",
+  "record_id": "2AH3Op1t3f"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/客户五年换证检查是，数据库备份文件不足",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

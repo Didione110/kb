@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251031-057",
+ "record_id": "sXR5j5kYfK",
+ "title": "生产现场使用PDA扫码领料的时候会出现少领料，多入库的情况。",
+ "problem": "生产现场使用PDA扫码领料的时候会出现少领料，多入库的情况。",
+ "cause": "因为生产现场无法做到100%的领料准确，可能会多可能会少。",
+ "solution": "针对这个现象，可以在BOM中设置“订单完工”齐套，系统在计算的齐套的时候考虑到了可超额完工的20%。那么如果领料83.3333件原材料就可以入库100件成品（因为当前原材料和成品是1：1。那么1的20%就是1.2。所以100/1.2=83.3333）测试结果满足客户领料至少80%的需求。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "扫码领料异常"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sXR5j5kYfK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

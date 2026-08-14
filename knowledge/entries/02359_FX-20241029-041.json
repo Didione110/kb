@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241029-041",
+ "record_id": "xv8j1p4bzS",
+ "title": "用户只分配了几个公司的报表权限，但是报表登录界面还是能看到全部的公司",
+ "problem": "用户只分配了几个公司的报表权限，但是报表登录界面还是能看到全部的公司",
+ "cause": "环境问题",
+ "solution": "需要打补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "权限过滤"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-10-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xv8j1p4bzS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

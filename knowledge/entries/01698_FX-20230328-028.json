@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230328-028",
+ "record_id": "i1V7mmtDRA",
+ "title": "客户端登录报错",
+ "problem": "客户端登录报错",
+ "cause": "端口未开通",
+ "solution": "检查报错提示的端口是否开通，开通端口即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "登录报错"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "i1V7mmtDRA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

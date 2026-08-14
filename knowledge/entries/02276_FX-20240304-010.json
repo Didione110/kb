@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240304-010",
+ "record_id": "vyylMxPUFU",
+ "title": "查询计算毛利率需要显示%符号",
+ "problem": "查询计算毛利率需要显示%符号",
+ "cause": "数值类型字段与字符串%拼接报错",
+ "solution": "语句改为：round((t7.Retailp-t5.gebjj) / t7.Retailp,4) * 100 end,'FM990.00')||'%'",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "PolarDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "毛利率、百分号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-03-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vyylMxPUFU"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

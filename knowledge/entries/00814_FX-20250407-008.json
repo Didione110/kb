@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250407-008",
+ "record_id": "L00bxetCYk",
+ "title": "小红书打印组件更新后，提示连不上打印组件，程序无法使用小红书打印组件",
+ "problem": "小红书打印组件更新后，提示连不上打印组件，程序无法使用小红书打印组件",
+ "cause": "小红书打印组件问题，14528端口，WebSocket报连不上，查看官网打印组件更新了，端口改成10818后成功连接；",
+ "solution": "小红书打印组件问题，14528端口，WebSocket报连不上，查看官网打印组件更新了，端口改成10818后成功连接；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "打印组件连接失败"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1pYoLWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1pYoLWkb4Mw9r",
+  "doc_path": "/自研/软件补丁问题/小红书打印组件更新后，提示连不上打印组件，程序无法使用小红书打印组件",
+  "record_id": "L00bxetCYk"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件补丁问题/小红书打印组件更新后，提示连不上打印组件，程序无法使用小红书打印组件",
+ "category": [
+  "自研",
+  "软件补丁问题"
+ ]
+}

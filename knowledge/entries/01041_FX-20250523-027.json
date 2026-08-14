@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250523-027",
+ "record_id": "QdTTeaSPJ6",
+ "title": "U9C菜单应用打开缓慢",
+ "problem": "U9C菜单应用打开缓慢",
+ "cause": "SQL数据库堵塞、性能下降和响应时间延长",
+ "solution": "1、清理占用的portal空间\n2、数据库属性，读提交快照处于打开状态改为true",
+ "solution_types": [
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U9C菜单卡"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-05-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QdTTeaSPJ6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "效率问题"
+ ]
+}

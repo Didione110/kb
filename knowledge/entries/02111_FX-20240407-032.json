@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240407-032",
+ "record_id": "rqM3tCAJb6",
+ "title": "针对客户的财务部门要求，需要每个月对公司所有的电子发票进行pdf归档",
+ "problem": "针对客户的财务部门要求，需要每个月对公司所有的电子发票进行pdf归档",
+ "cause": "不同的公司，不同的财务，对pdf文档的文件名要求不一样，目前电子发票回写到时空里的记录均为pdf的下载地址，传统方法是人工下载回来之后，逐个打开pdf对文件进行重命名，耗时耗力",
+ "solution": "找到个小工具，支持excel内容导入下载地址和文件名规则，提前维护好，即可根据指定的文件命名规则来下载pdf文件了，包括不仅限于pdf",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "电子发票归档"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rqM3tCAJb6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

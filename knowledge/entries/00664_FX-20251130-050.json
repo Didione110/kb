@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251130-050",
+ "record_id": "GtWmt49zhc",
+ "title": "生产将货物生产好了之后入待检仓自动生成批号，确定合格后将合格品调拨到合格品仓，但是调拨过去的货物在标准出货中无法选中本次生产的批号。",
+ "problem": "生产将货物生产好了之后入待检仓自动生成批号，确定合格后将合格品调拨到合格品仓，但是调拨过去的货物在标准出货中无法选中本次生产的批号。",
+ "cause": "因为做调拨单时系统没有自动把番号带过去，导致出货时选不到这批货物",
+ "solution": "在“调拨联动规则”模块中将番号的联动勾选上即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "批号不可选"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GtWmt49zhc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

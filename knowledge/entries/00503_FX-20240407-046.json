@@ -1,0 +1,48 @@
+{
+ "id": "FX-20240407-046",
+ "record_id": "CWBwQwjn9U",
+ "title": "客户打开诺诺开票界面 开票提示写入管道失败9999，然后客户端出现如下图所示",
+ "problem": "客户打开诺诺开票界面 开票提示写入管道失败9999，然后客户端出现如下图所示",
+ "cause": "客户使用的是单机版，诺诺客户端版本较低导致",
+ "solution": "删除软件，切换为通用版，或者安装最新的诺诺客户端即可",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "其他"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "打印",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "写入管道失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNde77y6J2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNde77y6J2LD0oRE",
+  "doc_path": "/自研/环境问题/客户打开诺诺开票界面 开票提示写入管道失败9999，然后客户端出现如下图所示",
+  "record_id": "CWBwQwjn9U"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/客户打开诺诺开票界面 开票提示写入管道失败9999，然后客户端出现如下图所示",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

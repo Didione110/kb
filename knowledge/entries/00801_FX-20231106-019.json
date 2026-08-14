@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231106-019",
+ "record_id": "KZK78xDx4T",
+ "title": "时空对接诺诺开具发票之后，客户经常查询销项发票记录，经常来回跳转诺诺下载文件夹、诺诺网页，客户觉得很麻烦",
+ "problem": "时空对接诺诺开具发票之后，客户经常查询销项发票记录，经常来回跳转诺诺下载文件夹、诺诺网页，客户觉得很麻烦",
+ "cause": "财务觉得影响业务员查询下载发票，处理方法在时空新增地址存储，查询下载功能",
+ "solution": "在销项发票查询新增诺诺发票地址，可以下载再现查询，无需来回跳转界面；var scr = ds\\_hz.field(\"AttachId\").value;\n window.open(scr);",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "发票查询"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3bX6wJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3bX6wJakx1Z5N",
+  "doc_path": "/时空/应用操作/时空对接诺诺开具发票之后，客户经常查询销项发票记录，经常来回跳转诺诺下载文件夹、诺诺网页，客户觉得很麻烦",
+  "record_id": "KZK78xDx4T"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/时空对接诺诺开具发票之后，客户经常查询销项发票记录，经常来回跳转诺诺下载文件夹、诺诺网页，客户觉得很麻烦",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

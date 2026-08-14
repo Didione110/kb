@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240813-038",
+ "record_id": "365FAvNZkr",
+ "title": "控制 调出生成的调入不允许删除",
+ "problem": "控制 调出生成的调入不允许删除",
+ "cause": "调出与调入数据需要保持一致",
+ "solution": "数据权限：对调入单设置增删改数据权限，放到删除视图下，NewTransferIn.TransInDocType.Code != \"TransIn001\"--单据类型",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "调入禁止删除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-09-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "365FAvNZkr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

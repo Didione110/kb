@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240910-025",
+ "record_id": "vgdZATWgWC",
+ "title": "金万维客户端访问U8软件偶尔提示“错误码:[TK-21]详细信息:[[hubeinyjs][数据通道异常]]”",
+ "problem": "金万维客户端访问U8软件偶尔提示“错误码:[TK-21]详细信息:[[hubeinyjs][数据通道异常]]”",
+ "cause": "服务器端检测正常，偶尔出现无法访问的情况，金万维判断环境问题",
+ "solution": "服务器和客户端更新GNTK替换工具",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密"
+ ],
+ "keywords": [
+  "数据通道异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-09-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vgdZATWgWC"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

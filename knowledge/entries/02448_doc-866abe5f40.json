@@ -1,0 +1,30 @@
+{
+ "id": "doc-866abe5f40",
+ "record_id": "",
+ "title": "动态下拉设置",
+ "problem": "动态下拉设置",
+ "cause": "动态下来参选值可在表单控件上针对该控件设置，也可进入低代码平台设置公共参选档案，如果在表单控件上设置，则该参选值只能在该表单上可用，其他表单用此控件选不到这个参选值，而公共平台则可以",
+ "solution": "动态下来参选值可在表单控件上针对该控件设置，也可进入低代码平台设置公共参选档案，如果在表单控件上设置，则该参选值只能在该表单上可用，其他表单用此控件选不到这个参选值，而公共平台则可以",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzxPmo7VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzxPmo7VMwvDqPk",
+  "doc_path": "/蓝凌OA/应用操作/动态下拉设置"
+ },
+ "doc_path": "/蓝凌OA/应用操作/动态下拉设置",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

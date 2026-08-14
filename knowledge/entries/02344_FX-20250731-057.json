@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250731-057",
+ "record_id": "xR3YNZA7sj",
+ "title": "个别单据无法调度，提示批号库存不足，但检查批号无误",
+ "problem": "个别单据无法调度，提示批号库存不足，但检查批号无误",
+ "cause": "收货单界面输入批号的，先输入了空格导致入库后批号生成错误，批号中存在左边空格导致单据无法调度",
+ "solution": "修改LJT_WMS_CGSH及LJT_WMS_SHYS存储过程，通过ltrim函数剔除空格存储批号解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "批号库存"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xR3YNZA7sj"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

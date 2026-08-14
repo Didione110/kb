@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230703-002",
+ "record_id": "WKQubonT4w",
+ "title": "报表分配时候看不到某个客户的账号",
+ "problem": "报表分配时候看不到某个客户的账号",
+ "cause": "系统偶发问题，无法排查原因",
+ "solution": "delete from iufo_userinfo where user_code = '15072363686' and unit_id = (select unit_id from iufo_unit_info where unit_code = '010202');删除时候提示下面两张表有数据，可以执行对应语句删除对应表数据delete from iufo_user_org where pk_user = (select user_id from iufo_userinfo where user_code = '15072363686' and unit_id = (select unit_id from iufo_unit_info where unit_code = '010202')); delete from iufo_user_role where user_id = (select user_id from iufo_userinfo where user_code = '15072363686' and unit_id = (select unit_id from iufo_unit_info where unit_code = '010202'));",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "客户账号"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WKQubonT4w"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

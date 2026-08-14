@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230222-039",
+ "record_id": "FzC5wJKWst",
+ "title": "保质期预警提示包含了现存量为0的料品信息",
+ "problem": "保质期预警提示包含了现存量为0的料品信息",
+ "cause": "标准产品批号实体上面没有现存量字段，需要通过SQL语句实现",
+ "solution": "比如预警保质期等于60天的料品，写如下预警条件\nID in (select m1.ID from UFIDA::U9::Lot::LotMaster m1 join UFIDA::U9::InvTrans::WhQoh::WhQoh q1 on q1.LotInfo.LotCode = m1.LotCode and m1.Item=q1.ItemInfo.ItemID\nwhere q1.StoreQty > 0 and sqlDaysBetweenFunc(Today(),m1.InvalidTime )=60)",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "C# (.NET)",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "保质期预警"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-02-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FzC5wJKWst"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

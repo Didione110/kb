@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250425-033",
+ "record_id": "xuY0HPaqs3",
+ "title": "需要规范研发生产订单的存储地点，不允许出现跨成本域",
+ "problem": "需要规范研发生产订单的存储地点，不允许出现跨成本域",
+ "cause": "需要规范研发生产订单的存储地点，不允许出现跨成本域",
+ "solution": "设置数据权限，不允许领料单和入库单的存储地点不等于研发仓\n1、not(NewIssueDoc.IssueDocLines.MO.MODocType.Code=='8' and NewIssueDoc.IssueDocLines.Wh.Code!='004')\n2、not(NewRcvRptDocLine.MO.MODocType.Code=='8' and NewRcvRptDocLine.Wh.Code!='004')",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "存储规范"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-04-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xuY0HPaqs3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240225-047",
+ "record_id": "rt6uH30Kzu",
+ "title": "查询产品成本明细表显示某产品费用材料与其BOM不匹配",
+ "problem": "查询产品成本明细表显示某产品费用材料与其BOM不匹配",
+ "cause": "生产领料核对该产品发料月份的公共材料与专用材料，一般在成本明细表中体现出来的BOM的材料分摊至某产品上都是公共材料，公共材料一般取自无生产订单的材料出库单或出库类别为生产领料的其他出库单",
+ "solution": "生产领料核对该产品发料月份的公共材料与专用材料，一般在成本明细表中体现出来的BOM的材料分摊至某产品上都是公共材料，公共材料一般取自无生产订单的材料出库单或出库类别为生产领料的其他出库单",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "BOM不匹配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rt6uH30Kzu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

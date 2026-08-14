@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250724-028",
+ "record_id": "PupaGAPs3U",
+ "title": "固定资产自定义项扩展字段长度，后台数据库执行库表长度语句及元数据长度语句后，导入固定资产期初数据均不生效，导入日志显示自定义字段超长",
+ "problem": "固定资产自定义项扩展字段长度，后台数据库执行库表长度语句及元数据长度语句后，导入固定资产期初数据均不生效，导入日志显示自定义字段超长",
+ "cause": "固定资产自定义项修改两个bmf文件进行元数据升级",
+ "solution": "根据附件文档进行元数据升级，注意备份home文件",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "字段超长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-07-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PupaGAPs3U"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

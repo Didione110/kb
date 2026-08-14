@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250121-018",
+ "record_id": "KYHr8vZPkh",
+ "title": "辅助余额查询异常",
+ "problem": "辅助余额查询异常",
+ "cause": "辅助余额点明细没有数据，实际凭证上有，由于24年新增合同号自定义辅助导致",
+ "solution": "在总账-结账界面按ctrl+Alt+A ,选择对应辅助，客商+合同号，进行刷新辅助项；\n然后在结账界面重建余额表，重新查询，正常；",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "余额异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KYHr8vZPkh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

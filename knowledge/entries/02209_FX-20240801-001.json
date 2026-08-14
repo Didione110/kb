@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240801-001",
+ "record_id": "uVEgCQzQon",
+ "title": "涉及到多机构多部门的企业，操作员在登录的时候，每次都要选机构，一旦机构企业过多，首页显示会非常挤非常丑，不忍直视",
+ "problem": "涉及到多机构多部门的企业，操作员在登录的时候，每次都要选机构，一旦机构企业过多，首页显示会非常挤非常丑，不忍直视",
+ "cause": "智友自带的页面没人去研究改漂亮一点",
+ "solution": "Tomcat\\webapps\\ROOT\\common\\verify\\js\\index.js文件\n\nfunction autoChange() {\n if (!needVerify) {\n $(\"#litorg\").css(\"height\", \"500px\");\n $(\"#litorg\").css(\"max-height\", \"500px\");\n }\n}\n\n新增max-height属性，拉高页面显示\n建议手里客户是连锁或者多机构的批发的时候注意看看",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "机构选择"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-08-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uVEgCQzQon"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221106-017",
+ "record_id": "Woq3d5VFSg",
+ "title": "1.集团公司多个金税接口，在回写销项发票是会覆盖之前的发票数据",
+ "problem": "1.集团公司多个金税接口，在回写销项发票是会覆盖之前的发票数据",
+ "cause": "1. 多个接口对接同一个数据库，大连以发票号为主键插入发票表的billno，当发票出现重复就会产生覆盖的现场",
+ "solution": "建立ORACLE序列号\\+碰撞方法，生成单独的唯一billno，大连金税接口获取生成的billno在插入",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "数据覆盖"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AgEO7J5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AgEO7J5daZ90D",
+  "doc_path": "/其他/安装部署问题/集团公司多个金税接口，在回写销项发票是会覆盖之前的发票数据",
+  "record_id": "Woq3d5VFSg"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/集团公司多个金税接口，在回写销项发票是会覆盖之前的发票数据",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

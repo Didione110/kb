@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250627-044",
+ "record_id": "wTQnyhrZjx",
+ "title": "pdf模板动态渲染时数据固定位置因数据长度问题不好定位",
+ "problem": "pdf模板动态渲染时数据固定位置因数据长度问题不好定位",
+ "cause": "创建表格，隐藏表格框来固定位置",
+ "solution": "private static PdfPTable createMainTable2(List<List<String>> dataDetail) throws IOException, DocumentException, com.itextpdf.text.DocumentException {\n // 主表格（列数根据表头定义）\n PdfPTable table = new PdfPTable(dataDetail.get(0).size());\n table.setWidthPercentage(100); // 宽度占满列宽\n table.setHorizontalAlignment(Element.ALIGN_LEFT);\n\n // 添加表头和数据\n for (List<String> row : dataDetail) {\n for (String cellValue : row) {\n PdfPCell cell = new PdfPCell(new Phrase(cellValue, getChineseFont()));\n cell.setMinimumHeight(30); // 最小行高\n cell.setPaddingLeft(15); // 左侧内边距15像素\n cell.setBorder(Rectangle.NO_BORDER); // 隐藏该单元格所有边框\n cell.setPadding(5);\n table.addCell(cell);\n }\n }\n return table;\n }",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "定位不准"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2025-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wTQnyhrZjx"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

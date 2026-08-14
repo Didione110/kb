@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250325-031",
+ "record_id": "Y0yhHi8McO",
+ "title": "sql数据库日志文件过大，数据库收缩无效果",
+ "problem": "sql数据库日志文件过大，数据库收缩无效果",
+ "cause": "数据库搭建了复制，没有清除干净，无法截断事物日志",
+ "solution": "执行查看：select name,log_reuse_wait_desc from sys.databases where name='数据库名'\n正常log_reuse_wait_desc为 nothing\n清除复制状态：exec sp_removedbreplication '数据库名'\n再进行收缩即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志收缩"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2025-03-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y0yhHi8McO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

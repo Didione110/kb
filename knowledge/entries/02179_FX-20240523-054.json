@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240523-054",
+ "record_id": "tmmXHciTP3",
+ "title": "导出序时账提示“电子数据表满”",
+ "problem": "导出序时账提示“电子数据表满”",
+ "cause": "不是U8产品问题",
+ "solution": "xls格式单个工作表最多支持65536行，256列。\nxlsx格式最多支持1048576行，16384列。\n少量多次导出",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "电子数据表满"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-05-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tmmXHciTP3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

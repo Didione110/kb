@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230901-002",
+ "record_id": "0K8ISB9W4p",
+ "title": "NC65销售发票保存提示自定义2字段超长",
+ "problem": "NC65销售发票保存提示自定义2字段超长",
+ "cause": "客户此字段内容需求过多，需要调整",
+ "solution": "-- 【修改元数据字段（需要重启服务器）】: 请先备份再进行更新操作\n-- 【备份】：\ncreate table md_property_backup_20230901 as select * from md_property\ncreate table md_column_backup_20230901 as select * from md_column\n-- 1更新表头元数据\n--1.1\nselect id from md_class where name='ia_i5bill' --i58ae7e1-0edf-4b7e-9aea-c203215f2bb4\n--1.2\nselect id from md_property where classid='i58ae7e1-0edf-4b7e-9aea-c203215f2bb4' and name='vdef2' --i56552d7-3e88-420e-bbfb-598713e6f871\n--1.3\nupdate md_property set attrlength=500 where ID='i56552d7-3e88-420e-bbfb-598713e6f871'\n--1.4\nselect ID from md_column where id like 'ia_i5bill@@@%' and name='vdef2' --ia_i5bill@@@vdef2\n--1.5\nupdate md_column set columnlength=500 where id='ia_i5bill@@@vdef2'\n-- 2更新明细表元数据\n--1.1\nselect id from md_class where name='ia_detailledger'--8ca7c90e-036a-4ea5-a4cf-9b858594b7c2\n--1.2\nselect id from md_property where classid='8ca7c90e-036a-4ea5-a4cf-9b858594b7c2' and name='vdef2' --8290d99e-8d18-4f23-9387-ff408dd6c0b2\n--1.3\nupdate md_property set attrlength=500 where ID='8290d99e-8d18-4f23-9387-ff408dd6c0b2'\n--1.4\nselect ID from md_column where id like 'ia_detailledger@@@%' and name='vdef2' --ia_detailledger@@@vdef2\n--1.5\nupdate md_column set columnlength=500 where id='ia_detailledger@@@vdef2'\n-- 3更新相关表的字段\nalter table ia_i5bill modify vdef2 varchar2(500)\nalter table ia_detailledger modify vdef2 varchar2(500)\nalter table IA_HISDETAILLEDGER modify vdef2 varchar2(500)",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "NC65、销售发票、字段超长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-09-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0K8ISB9W4p"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

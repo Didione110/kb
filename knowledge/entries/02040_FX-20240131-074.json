@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240131-074",
+ "record_id": "q62fEiwhWx",
+ "title": "在报表给这个用户同时分配了三个公司 ，但是在报表计算界面，选择报表单位这里不能切换三个公司，刷新了也没有三个公司，只显示当前登录公司。",
+ "problem": "在报表给这个用户同时分配了三个公司 ，但是在报表计算界面，选择报表单位这里不能切换三个公司，刷新了也没有三个公司，只显示当前登录公司。",
+ "cause": "分配了三个公司的权限，意味着切换登录单位时可以看到该三个单位 报表数据节点选择单位，只能选择当前登录单位和其下级单位",
+ "solution": "调整单位目录层级登录报表只能看到当前公司和当前公司的子层级次公司",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "报表单位切换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q62fEiwhWx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

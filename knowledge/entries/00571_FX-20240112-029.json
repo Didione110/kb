@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240112-029",
+ "record_id": "DsD0EFKBZN",
+ "title": "表中有索引，不走索引。\n按上次所以方式 ，重建索引方式无法解决",
+ "problem": "表中有索引，不走索引。\n按上次所以方式 ，重建索引方式无法解决",
+ "cause": "表中有索引，不走索引。\n按上次所以方式 ，重建索引方式无法解决",
+ "solution": "begin\n dbms\\_stats.gather\\_table\\_stats(ownname =\\> 'RACE',\n tabname =\\> 'K\\_YINHAI\\_MESSAGE',\n estimate\\_percent =\\> DBMS\\_STATS.AUTO\\_SAMPLE\\_SIZE,\n method\\_opt =\\> 'FOR ALL COLUMNS SIZE AUTO');\nend;\n\nOracle的GATHER\\_TABLE\\_STATS是一个用于收集表统计信息的过程。它可以帮助数据库优化器在执行查询时做出更好的决策，从而提高查询性能。\n\n具体来说，GATHER\\_TABLE\\_STATS可以收集以下统计信息：\n\n表的行数：统计表中的总行数。\n列的统计信息：包括每个列的最大值、最小值、平均值和离散度等。\n直方图：对于某些列，直方图可以提供更详细的分布信息，帮助优化器生成更准确的执行计划。\n索引统计信息：包括索引的高水位标记、可用空间和平均键长度等。\n通过收集这些统计信息，优化器可以更好地估计查询成本，并选择更合适的执行计划。这有助于避免不必要的全表扫描、索引失效或者其他查询效率低下的情况。\n\n通常情况下，我们建议定期使用GATHER\\_TABLE\\_STATS更新表的统计信息，特别是在数据量变化较大或者表结构发生变化时。这样可以确保数据库优化器基于最新的统计信息做出决策，提高查询性能和整体系统性能。\n\n参数说明:\n\nownname:要分析表的拥有者\n\ntabname:要分析的表名.\n\npartname:分区的名字,只对分区表或分区索引有用.\n\nestimate\\_percent:采样行的百分比,取值范围\\[0.000001,100\\],null为全部分析,不采样. 常量:DBMS\\_STATS.AUTO\\_SAMPLE\\_SIZE是默认值,由oracle决定最佳取采样值.\n\nmethod\\_opt:决定histograms信息是怎样被统计的.method\\_opt的取值如下(默认值为FOR ALL COLUMNS SIZE AUTO):",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "索引失效"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-01-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMPdweJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMPdweJB5r9YAn",
+  "doc_path": "/时空/效率问题/表中有索引，不走索引。 按上次所以方式 ，重建索引方式无法解决",
+  "record_id": "DsD0EFKBZN"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/表中有索引，不走索引。 按上次所以方式 ，重建索引方式无法解决",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

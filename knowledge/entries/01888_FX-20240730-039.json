@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240730-039",
+ "record_id": "n0efPLFeTc",
+ "title": "DHERP老ROOT换最新ROOT后，打开所有功能都报错",
+ "problem": "DHERP老ROOT换最新ROOT后，打开所有功能都报错",
+ "cause": "缓存问题",
+ "solution": "1、清除DHERP缓存\n2、清除浏览器缓存",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "ROOT兼容性"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n0efPLFeTc"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

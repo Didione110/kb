@@ -1,0 +1,38 @@
+{
+ "id": "FX-20221203-020",
+ "record_id": "RVJ1sx3TOJ",
+ "title": "客户提供相关资料可能存在中文与数字列在一起的情况，而我们需要分开成两个字段，比如银行账号，客户可能会将开户行与账号整到一列中",
+ "problem": "客户提供相关资料可能存在中文与数字列在一起的情况，而我们需要分开成两个字段，比如银行账号，客户可能会将开户行与账号整到一列中",
+ "cause": "客户提供相关资料可能存在中文与数字列在一起的情况，而我们需要分开成两个字段，比如银行账号，客户可能会将开户行与账号整到一列中",
+ "solution": "创建一个字符串中提取数字的标量值函数，如下：\nCREATE function [dbo].[GetNumber](@str nvarchar(500))\n returns varchar(max)\nas\nbegin\n while patindex('%[^0-9]%',@str)>0\n begin\n set @str=stuff(@str,patindex('%[^0-9]%',@str),1,'')\n end\n return convert(VARCHAR(max),@str)\nend\nGO",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "银行账号分离"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RVJ1sx3TOJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

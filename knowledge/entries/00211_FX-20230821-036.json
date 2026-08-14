@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230821-036",
+ "record_id": "52xYHTSHTs",
+ "title": "资产管理中做了资产变动，如使用部门变动等，固定资产模块未联动",
+ "problem": "资产管理中做了资产变动，如使用部门变动等，固定资产模块未联动",
+ "cause": "1、检查资产卡片是否勾选固定资产核算；2、交易规则设置中对应的交易类型是否配置消息接收设置",
+ "solution": "1、检查资产卡片是否勾选固定资产核算；2、交易规则设置中对应的交易类型是否配置消息接收设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "资产联动"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "资产管理",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "52xYHTSHTs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

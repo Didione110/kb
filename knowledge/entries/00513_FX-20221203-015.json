@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221203-015",
+ "record_id": "ClNMPX0xbO",
+ "title": "NC65管理员root锁定",
+ "problem": "NC65管理员root锁定",
+ "cause": "登录时密码输入错误次数过多",
+ "solution": "将相同版本，登录正常未锁定的root登录的文件复制替换报错的环境中的home替换，列举本次处理路径：\nE:\\WHKQ\\homezs\\ierp\\sf\\superadmin.xml",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "前端配置",
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "NC65锁账号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ClNMPX0xbO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

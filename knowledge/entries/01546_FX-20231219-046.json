@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231219-046",
+ "record_id": "eafW5XO5ir",
+ "title": "正式环境打不了补丁，测试环境是开着的，在测试环境中测试U9c补丁服务器是可以连接的，测试环境是虚拟机，ip可以ping通，所有的都检查了还是不行，报错如附件",
+ "problem": "正式环境打不了补丁，测试环境是开着的，在测试环境中测试U9c补丁服务器是可以连接的，测试环境是虚拟机，ip可以ping通，所有的都检查了还是不行，报错如附件",
+ "cause": "此时的处理问题思路就要从：确认各服务器是否同网段，host文件是否配置，需要telnet端口通来解决，不关U9c控制台的事儿了",
+ "solution": "host文件中需要把两台服务器的ip和机器名都加进去后，重启服务即可。",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "补丁连接失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-12-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eafW5XO5ir"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

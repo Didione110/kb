@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241029-042",
+ "record_id": "E9Ocnhapkh",
+ "title": "谷歌浏览器打开报表没反应。重新下载报表图标，清楚缓存，重新下载谷歌浏览器都打不开报表",
+ "problem": "谷歌浏览器打开报表没反应。重新下载报表图标，清楚缓存，重新下载谷歌浏览器都打不开报表",
+ "cause": "环境问题",
+ "solution": "需要打补丁后，清楚谷歌浏览器缓存，uclient更新到最新版本",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Chrome"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "报表打不开"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-10-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "E9Ocnhapkh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

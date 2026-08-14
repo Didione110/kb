@@ -1,0 +1,37 @@
+{
+ "id": "FX-20251126-033",
+ "record_id": "pwXos6C4Ay",
+ "title": "做了委外核销调整单，但是查询非成套领料列表的累计成本单位核销数量、累计核销数量、累计库存单位核销数量不一致",
+ "problem": "做了委外核销调整单，但是查询非成套领料列表的累计成本单位核销数量、累计核销数量、累计库存单位核销数量不一致",
+ "cause": "做了委外核销调整单，但是查询非成套领料列表的累计成本单位核销数量、累计核销数量、累计库存单位核销数量不一致",
+ "solution": "属于数据异常，需要在数据库调整（见附件），目前一直没有出具补丁",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "委外核销"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pwXos6C4Ay"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

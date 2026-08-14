@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231208-032",
+ "record_id": "gRAHGWafnq",
+ "title": "部分windows电脑安装oracle12c客户端会出现安装失败【INS-30131】执行安装程序验证所需要的初始设置失败",
+ "problem": "部分windows电脑安装oracle12c客户端会出现安装失败【INS-30131】执行安装程序验证所需要的初始设置失败",
+ "cause": "无法访问安装文件创建的临时位置",
+ "solution": "使用cmd命令进入安装文件夹目录,在setup.exe所在的文件夹\n执行setup.exe -ignorePrereq -J\"-Doracle.install.client.validate.clientSupportedOSCheck=false\"\n即可正常安装",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "Oracle安装失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2023-12-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gRAHGWafnq"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251125-028",
+ "record_id": "fdiHi5Vm93",
+ "title": "ERP库存和店铺库存不一致",
+ "problem": "ERP库存和店铺库存不一致",
+ "cause": "各店铺订单下载到OMS系统中后转单成功就会形成库存占用，审核前是待审核占用，审核后出库前是待出库占用。出库后就自动释放占用。",
+ "solution": "核实店铺库存是否与可销库存量一致，如果一致代表库存无问题。以下是库存关键值相互关系\n实际库存量（ERP库存）—待审核量—待出库量=可销库存量",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-11-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbNpXQJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbNpXQJxEKBD6p",
+  "doc_path": "/其他/数据错误问题/ERP库存和店铺库存不一致",
+  "record_id": "fdiHi5Vm93"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/ERP库存和店铺库存不一致",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250702-001",
+ "record_id": "eb647gZjll",
+ "title": "上下游单位资料委托人是具体商品委托是，选择商品资料无法进行多个商品资料检索",
+ "problem": "上下游单位资料委托人是具体商品委托是，选择商品资料无法进行多个商品资料检索",
+ "cause": "客户需要检索商品，因为有的单位会委托多个商品，同时还需要查看商品",
+ "solution": "调整委托商品界面，同时增加选择查看",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "多商品检索"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eb647gZjll"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

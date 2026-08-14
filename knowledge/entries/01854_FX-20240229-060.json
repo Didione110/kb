@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240229-060",
+ "record_id": "mE5AqW2jKv",
+ "title": "点三OMS系统内库存数据跟平台店铺后台库存不一致",
+ "problem": "点三OMS系统内库存数据跟平台店铺后台库存不一致",
+ "cause": "网店商品管理中查看同步失败原因记录“商品在资源位不能减少库存”，原因是此品种在店铺参与了活动，平台库存同步规则为品种在参加活动期间不在接收库存同步。",
+ "solution": "等待活动结束或者下架资源位，再同步库存回复正常。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mE5AqW2jKv"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

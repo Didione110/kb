@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-054",
+ "record_id": "yBOwQ1UYuH",
+ "title": "凭证打印缩在一团",
+ "problem": "凭证打印缩在一团",
+ "cause": "环境问题",
+ "solution": "总账维护工具，凭证打印-还原缺省模板",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "打印缩团"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "质量部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yBOwQ1UYuH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

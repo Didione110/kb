@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251009-008",
+ "record_id": "g9F6TEQuLl",
+ "title": "用户想在借款人借款明细表，加一列显示单据对应的凭证号显示出来\n",
+ "problem": "用户想在借款人借款明细表，加一列显示单据对应的凭证号显示出来",
+ "cause": "需求",
+ "solution": "一、尝试直接在动态建模平台-报表平台-自由报表预置中找到此表，编码2011050202_1进行格式设计，在单据编号后面插入一列，在右侧语义模型中拖凭证号字段保存，重新查询报表，不显示值；\n二、厂家远程处理解决，过程记录：\n1、在动态建模平台-报表平台-语义模型预置里找到借款明细账语义模板，进行设计；添加脚本：select substr(a.src_relationid, 0, 20) busiid, b.num,b.prepareddate voucher_date from fip_relation a, gl_voucher b where a.des_relationid = b.pk_voucher and a.src_system = 'erm'\n2、连接条件设置表-左连接-表1-单据PK-等于-BUSIID\n3、添加字段，表1的BUSIID、NUM、VOUCHER DATE都添加上\n4、再到自由报表中替换凭证号字段值为NUM\n5、查询报表，验证凭证号回写正常",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "凭证号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "g9F6TEQuLl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

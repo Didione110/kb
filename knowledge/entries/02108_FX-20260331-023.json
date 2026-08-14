@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260331-023",
+ "record_id": "rgxvqjEqKd",
+ "title": "产品成本模块月末关账检查未匹配到产品成本对象",
+ "problem": "产品成本模块月末关账检查未匹配到产品成本对象",
+ "cause": "生产订单审核后未生成产品成本对象",
+ "solution": "可以到管理会计>产品成本>基础设置>产品成本对象节点，订单异常日志检查是否有报错数据导致，如果有异常数据请勾选重新执行，如果重新执行还是报错，查看物料的财务属性正确",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "产品成本对象"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rgxvqjEqKd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

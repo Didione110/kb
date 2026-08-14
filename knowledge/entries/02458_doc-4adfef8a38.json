@@ -1,0 +1,30 @@
+{
+ "id": "doc-4adfef8a38",
+ "record_id": "",
+ "title": "如何通过钉钉后台清理OA用户未消失的待办",
+ "problem": "如何通过钉钉后台清理OA用户未消失的待办",
+ "cause": "如何通过钉钉后台清理OA用户未消失的待办",
+ "solution": "操作方法见附件\n注：已办的OA流程通过此方法也可删除，谨慎操作",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg4bvnKEJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg4bvnKEJA7depqY",
+  "doc_path": "/蓝凌OA/应用操作/如何通过钉钉后台清理OA用户未消失的待办"
+ },
+ "doc_path": "/蓝凌OA/应用操作/如何通过钉钉后台清理OA用户未消失的待办",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

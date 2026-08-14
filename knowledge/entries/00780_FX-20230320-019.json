@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230320-019",
+ "record_id": "JzMvsBplFH",
+ "title": "导出客户科目余额表，提示“未找到提供程序，该程序可能未正确安装”",
+ "problem": "导出客户科目余额表，提示“未找到提供程序，该程序可能未正确安装”",
+ "cause": "AccessDatabaseEngine.exe文件缺失",
+ "solution": "找到U8SOFT\\3rdPrograms\\AccessDatabaseEngine.exe文件，重新执行AccessDatabaseEngine.ｅxe安装后正常",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "未找到提供程序"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JzMvsBplFH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

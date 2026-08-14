@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251222-026",
+ "record_id": "Wb8W08hveA",
+ "title": "诺诺接口开票抬头项客户相关信息均为空值",
+ "problem": "诺诺接口开票抬头项客户相关信息均为空值",
+ "cause": "NNFP配置文件夹中XML文件导致",
+ "solution": "删除NNFP配置文件夹中xml文件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "客户信息空"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2025-12-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN71R0vW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN71R0vW9dEq3XD",
+  "doc_path": "/自研/数据接口问题/诺诺接口开票抬头项客户相关信息均为空值",
+  "record_id": "Wb8W08hveA"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/诺诺接口开票抬头项客户相关信息均为空值",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

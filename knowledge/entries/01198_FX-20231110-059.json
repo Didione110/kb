@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231110-059",
+ "record_id": "VQTPWBr46j",
+ "title": "客户设备为金税盘（一般UK开票慢一点，但是税盘一般很快），但是使用诺诺开票速度非常慢，经常开失败，提示请稍后重推；",
+ "problem": "客户设备为金税盘（一般UK开票慢一点，但是税盘一般很快），但是使用诺诺开票速度非常慢，经常开失败，提示请稍后重推；",
+ "cause": "经查电脑太卡，只有4G内存，文档打开都很慢，CPU经常100%",
+ "solution": "提升电脑配置；客户换了主机后开票速度很快很流程",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "开票慢"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2023-11-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY16L4XWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY16L4XWdqbropQ",
+  "doc_path": "/自研/应用操作/客户设备为金税盘（一般UK开票慢一点，但是税盘一般很快），但是使用诺诺开票速度非常慢，经常开失败，提示请稍后重推；",
+  "record_id": "VQTPWBr46j"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/客户设备为金税盘（一般UK开票慢一点，但是税盘一般很快），但是使用诺诺开票速度非常慢，经常开失败，提示请稍后重推；",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

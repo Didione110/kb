@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251117-020",
+ "record_id": "9AIMXQb2TH",
+ "title": "审核通用报销单中的待摊费用提示：应用[RBSM] 返回业务提示：“没有费用项目：维修费 的权限，请重新选择费用项目”，请联系该单据业务人员处理。",
+ "problem": "审核通用报销单中的待摊费用提示：应用[RBSM] 返回业务提示：“没有费用项目：维修费 的权限，请重新选择费用项目”，请联系该单据业务人员处理。",
+ "cause": "费用项目未分配到对应交易类型节点",
+ "solution": "【费用项目-交易类型】节点，为“维修费”添加对当前交易类型（如：报销单、摊销明细单、待摊费用单等）的使用权限即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限不足"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-11-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1lOkDJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1lOkDJMGjLRb3",
+  "doc_path": "/用友/应用操作/审核通用报销单中的待摊费用提示：应用(RBSM) 返回业务提示：没有费用项目：维修费 的权限，请重新选择费用项目，请联系该单据业务人员处理。",
+  "record_id": "9AIMXQb2TH"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/审核通用报销单中的待摊费用提示：应用(RBSM) 返回业务提示：没有费用项目：维修费 的权限，请重新选择费用项目，请联系该单据业务人员处理。",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

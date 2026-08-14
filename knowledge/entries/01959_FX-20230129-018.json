@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230129-018",
+ "record_id": "oIvZwgJ8iw",
+ "title": "暂估应付单生成财务凭证时经常出现部分分录能带出供应商辅助核算，部分分录无法带出供应商的情况",
+ "problem": "暂估应付单生成财务凭证时经常出现部分分录能带出供应商辅助核算，部分分录无法带出供应商的情况",
+ "cause": "经日志跟踪发现，该单据后台记录的是暂估应付单表体供应商字段，转换模板需配置表体供应商字段",
+ "solution": "将转换模板中对应的凭证分录辅助核算，设置的是表头供应商改为表体供应商即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-01-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oIvZwgJ8iw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

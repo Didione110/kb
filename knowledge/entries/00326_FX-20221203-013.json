@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221203-013",
+ "record_id": "7mUw8MJvdP",
+ "title": "时空销售数据对接后与平台进行核对时候发现数据统计后结果不一致",
+ "problem": "时空销售数据对接后与平台进行核对时候发现数据统计后结果不一致",
+ "cause": "经过反复排查发现平台没有批次概念，导致同商品多批次上传时候后一条记录覆盖前一条导致",
+ "solution": "经过与客户协商与平台保持一致，以批号为维度进行统计后上传；",
+ "solution_types": [],
+ "tech_stack": [
+  "WebService",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "数据不一致"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMzxG4JB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMzxG4JB5r9YAn",
+  "doc_path": "/时空/数据接口问题/时空销售数据对接后与平台进行核对时候发现数据统计后结果不一致",
+  "record_id": "7mUw8MJvdP"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/时空销售数据对接后与平台进行核对时候发现数据统计后结果不一致",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-023",
+ "record_id": "uiRsqVDkXO",
+ "title": "oracle数据库版本的时空查询数据时提示：ORA-01792:表或视图中的最大列数为1000",
+ "problem": "oracle数据库版本的时空查询数据时提示：ORA-01792:表或视图中的最大列数为1000",
+ "cause": "查询时，当查询的列没有达到1000，但是关联的表过多，关联表的总列数超过了1000的话，会报上面的错误。",
+ "solution": "用SysDba登录，执行以下这句话就可解决：alter system set \"_fix_control\"='17376322:OFF';",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "列数超限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uiRsqVDkXO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

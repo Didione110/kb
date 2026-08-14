@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241108-020",
+ "record_id": "9tKQBu7b1s",
+ "title": "离线模式root文件被锁定",
+ "problem": "离线模式root文件被锁定",
+ "cause": "离线模式root文件被锁定",
+ "solution": "替换\\*:\\\\u8cerp\\\\ierp\\\\bin下的account文件",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "离线锁定"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-11-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3wGmvWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3wGmvWn4qY5Pr",
+  "doc_path": "/用友/环境问题/离线模式root文件被锁定",
+  "record_id": "9tKQBu7b1s"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/离线模式root文件被锁定",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

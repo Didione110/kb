@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241021-026",
+ "record_id": "zxfCRCxsg6",
+ "title": "如何导出XML文件",
+ "problem": "如何导出XML文件",
+ "cause": "如何导出XML文件",
+ "solution": "function test() {\n// 创建一个 XML 文档对象\n var xmlDoc = new ActiveXObject(\"Microsoft.XMLDOM\");\n xmlDoc.async = false;\n xmlDoc.loadXML('<root><item>内容1</item><item>内容2</item></root>');\n\n// 创建一个保存对话框\n var fso = new ActiveXObject(\"Scripting.FileSystemObject\");\n var filePath = \"d:\\\\example.xml\";\n xmlDoc.save(filePath);\n\n alert(\"XML 文件已导出到：\" + filePath);\n}",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "JS",
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "XML导出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-10-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zxfCRCxsg6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

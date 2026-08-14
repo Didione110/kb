@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240708-013",
+ "record_id": "LNxiQnd5of",
+ "title": "银行日记账修改提示：记录号为:SC_BOOK0000425752的记录已经被用户加锁,不能对其进行[MD:修改]操作",
+ "problem": "银行日记账修改提示：记录号为:SC_BOOK0000425752的记录已经被用户加锁,不能对其进行[MD:修改]操作",
+ "cause": "单据被加锁，不能修改",
+ "solution": "1、在日记账界面多按几次ctrl+Q，没有生效，还是报错\n2、执行语句：查询出纳锁定表的报错的单号--select * from CN_LockAcctBook where id ='SC_BOOK0000425752'\n修改报错单号--update CN_LockAcctBook set id ='SC_BOOK0000425752_bak' where autoid =190378",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "记录被锁"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-07-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LNxiQnd5of"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

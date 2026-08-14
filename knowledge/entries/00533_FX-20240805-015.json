@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240805-015",
+ "record_id": "DBoaUbn2DE",
+ "title": "智慧医保-武汉上传查询 界面中，增加3507信息删除功能；",
+ "problem": "智慧医保-武汉上传查询 界面中，增加3507信息删除功能；",
+ "cause": "需要增加这个功能",
+ "solution": "在智慧医保-武汉上传查询 界面中，增加3507信息删除功能；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "医保删除"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3byLzWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3byLzWn4qY5Pr",
+  "doc_path": "/自研/数据接口问题/智慧医保-武汉上传查询 界面中，增加3507信息删除功能；",
+  "record_id": "DBoaUbn2DE"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/智慧医保-武汉上传查询 界面中，增加3507信息删除功能；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

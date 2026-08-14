@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230220-035",
+ "record_id": "KGGJcfPqJu",
+ "title": "还原数据库提示：数据无法在NNC_DATA03表中扩展",
+ "problem": "还原数据库提示：数据无法在NNC_DATA03表中扩展",
+ "cause": "表空间已满，需要扩展表空间",
+ "solution": "运行CMD，执行语句：alter tablespace NNC_DATA03 add datafile 'D/data/ORADATA/nnc_data03_02.dbf' size 500M autoextend on;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "空间不足"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KGGJcfPqJu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

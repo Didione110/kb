@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240131-069",
+ "record_id": "OskTNZMLP0",
+ "title": "U8C顾问环境盘在打开报表系统时可以导入报表表样但是不能导入报表公式",
+ "problem": "U8C顾问环境盘在打开报表系统时可以导入报表表样但是不能导入报表公式",
+ "cause": "使用的用户没有数据权限（root）。",
+ "solution": "顾问盘的U8C，需要切换登录用户为有总账权限的用户即demo1、demo2",
+ "solution_types": [],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "报表公式导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OskTNZMLP0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

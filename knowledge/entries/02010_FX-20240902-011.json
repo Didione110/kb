@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240902-011",
+ "record_id": "pOtrtI2SuD",
+ "title": "发票查询中点发票冲红，报错",
+ "problem": "发票查询中点发票冲红，报错",
+ "cause": "发票金额字段是null,到冲红界面取值时发生错误。发票金额从发票结果查询里得到的就没有这个字段。",
+ "solution": "需要诺诺开通api接口权限，查询发票结果里增加发票金额字段。\n还有发票明细节点在冲红的时候也需要。",
+ "solution_types": [
+  "配置修改",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "发票冲红"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-09-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbZr4GW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbZr4GW3kdP0wQ",
+  "doc_path": "/自研/数据接口问题/发票查询中点发票冲红，报错",
+  "record_id": "pOtrtI2SuD"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/发票查询中点发票冲红，报错",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

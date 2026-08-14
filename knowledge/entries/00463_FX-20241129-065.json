@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241129-065",
+ "record_id": "BRZ7VPbHhP",
+ "title": "客户测试环境因为没什么数据，现因为需要改物料编码规则，所以手工把系统的一些数据删除，删除料品发现已经被采购需求接口表用了（之前跑过MRP计划，但是没有用到采购需求表）现在这部分数据需要怎么删除？",
+ "problem": "客户测试环境因为没什么数据，现因为需要改物料编码规则，所以手工把系统的一些数据删除，删除料品发现已经被采购需求接口表用了（之前跑过MRP计划，但是没有用到采购需求表）现在这部分数据需要怎么删除？",
+ "cause": "勾选采购管理-参数设置-需求接口记录是否可删除即可",
+ "solution": "勾选采购管理-参数设置-需求接口记录是否可删除即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "物料删除、采购需求、MRP计划"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-11-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BRZ7VPbHhP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

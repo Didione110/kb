@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251121-026",
+ "record_id": "plPEOwYVJJ",
+ "title": "产品当月领用，当月产出，取消销售成本结转得时候材料出库也自动取消了，导致材料出库不能单独成本计算取结存金额，计算得材料出库成本高于销售出库成本",
+ "problem": "产品当月领用，当月产出，取消销售成本结转得时候材料出库也自动取消了，导致材料出库不能单独成本计算取结存金额，计算得材料出库成本高于销售出库成本",
+ "cause": "循环耗用的物料第一个月，需要手工指定一下参考成本或者计划单价，如果根据循环耗用参数取不到价格，结转前后就不一致",
+ "solution": "循环耗用的物料第一个月，需要手工指定一下参考成本或者计划单价，如果根据循环耗用参数取不到价格，结转前后就不一致",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "材料出库"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-11-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "plPEOwYVJJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

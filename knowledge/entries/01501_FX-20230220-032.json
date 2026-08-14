@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230220-032",
+ "record_id": "d6AlB8LLSR",
+ "title": "凭证实际打印出来比预览时少了2个科目",
+ "problem": "凭证实际打印出来比预览时少了2个科目",
+ "cause": "客户在2023年开账后，又去2022年增加了其他应付款-吴正祥和其他应付款-扬州诚达这两个科目做凭证，在打印时23年没有这两个科目的档案导致不显示",
+ "solution": "2023年手动增加科目档案保证与2022年一致，打印无误",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "科目缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "d6AlB8LLSR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

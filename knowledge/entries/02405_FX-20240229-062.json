@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240229-062",
+ "record_id": "zQCNPqDhIl",
+ "title": "有项目的调拨用一步式做不成功是为什么，必须要用两步式，用两步式也没把项目带到调拨的仓库",
+ "problem": "有项目的调拨用一步式做不成功是为什么，必须要用两步式，用两步式也没把项目带到调拨的仓库",
+ "cause": "调拨单分调入和调出。调入单的行是调入的信息，行下边的调出明细是调出的信息，如果调入和调出都需要带项目，需要调入和调出明细都录入项目。这种可以设置联动规则，设置调入和调出的联动，这样录入调入行或者调出明细的信息会携带另外行的数据。",
+ "solution": "参数设置，设置联动规则，设置调入和调出的联动，这样录入调入行或者调出明细的信息会携带另外行的数据。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "项目调拨失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zQCNPqDhIl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

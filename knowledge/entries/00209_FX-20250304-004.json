@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250304-004",
+ "record_id": "4zcrqmgKuu",
+ "title": "医保电子处方流转，医师审方时，有的地区，医师电子凭证可以不用扫码",
+ "problem": "医保电子处方流转，医师审方时，有的地区，医师电子凭证可以不用扫码",
+ "cause": "各地的医保政策不一样",
+ "solution": "医师电子凭证改为不是必填项，流程上可以跳过医师扫码",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "电子凭证"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxm6vq3JGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxm6vq3JGlDd3mE",
+  "doc_path": "/自研/应用操作/医保电子处方流转，医师审方时，有的地区，医师电子凭证可以不用扫码",
+  "record_id": "4zcrqmgKuu"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/医保电子处方流转，医师审方时，有的地区，医师电子凭证可以不用扫码",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

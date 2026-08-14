@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240306-025",
+ "record_id": "J6JfNExZzC",
+ "title": "省医保电子处方流转下载后直接进行提取，避免客户品种输入错误",
+ "problem": "省医保电子处方流转下载后直接进行提取，避免客户品种输入错误",
+ "cause": "省医保电子处方流转下载后直接进行提取，避免客户品种输入错误",
+ "solution": "方案详见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "电子处方流转"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-03-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmM7mMV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmM7mMV3bzYmDO",
+  "doc_path": "/时空/数据接口问题/省医保电子处方流转下载后直接进行提取，避免客户品种输入错误",
+  "record_id": "J6JfNExZzC"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/省医保电子处方流转下载后直接进行提取，避免客户品种输入错误",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

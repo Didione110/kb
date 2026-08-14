@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260203-011",
+ "record_id": "ySlrJIcI7n",
+ "title": "用户反馈系统银行日记账的日合计汇率计算错误",
+ "problem": "用户反馈系统银行日记账的日合计汇率计算错误",
+ "cause": "外币汇率一直是8，日合计算成了6，",
+ "solution": "外币折算方式为：外币*汇率=本位币的，公式是本币余额/原币余额反算的\n外币折算方式为：外币/汇率=本位币的，公式是原币余额/本币余额计算汇率\n上述为日合计汇率的计算公式，用户使用的后者外币折算公式，所以值的算法不一样",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "日合计汇率"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ySlrJIcI7n"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

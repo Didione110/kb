@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230809-013",
+ "record_id": "1vLhAsZmTN",
+ "title": "做通知消息：如在收货单行的存储地点为“006固定资产仓”，并且单据状态为审核后或业务关闭时，提醒设备管理员做资产卡片的新增（固定资产的采购）",
+ "problem": "做通知消息：如在收货单行的存储地点为“006固定资产仓”，并且单据状态为审核后或业务关闭时，提醒设备管理员做资产卡片的新增（固定资产的采购）",
+ "cause": "在设置好如下的通知管理规则：NewRcvLine.Status.Value==FunEnum('收货单状态','业务关闭',5) and RcvLine.Wh.Code=='006' 后，并没有成功",
+ "solution": "因为在有审批流的情况下，设置通知管理，此时需要去服务器把U9NotificationService_CE和IIS服务重启下，就是要把工作流重启下",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "固定资产"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1vLhAsZmTN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

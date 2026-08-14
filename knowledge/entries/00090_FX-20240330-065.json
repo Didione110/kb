@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240330-065",
+ "record_id": "22WQKjjsXE",
+ "title": "暂时注册续注报注册\n提示：同步平台验证证书失败，原因:Camtcormecttolicenseserver www.gr960.com.Socket can t connect the serverWwW.gr960.com",
+ "problem": "暂时注册续注报注册\n提示：同步平台验证证书失败，原因:Camtcormecttolicenseserver www.gr960.com.Socket can t connect the serverWwW.gr960.com",
+ "cause": "老版本指向注册服务器不对\nlicense.server,name=www. qy960.com\nlicense.server.port=2009",
+ "solution": "指向以下位置\n\nlicense.server.name=license.qy960.com\nlicense.server.port=2009",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "证书连接失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-03-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY11qa3WdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY11qa3WdqbropQ",
+  "doc_path": "/时空/安装部署问题/暂时注册续注报注册 提示：同步平台验证证书失败，原因 Camtcormecttolicenseserver www.gr960.com.Socket can t connect the serv...",
+  "record_id": "22WQKjjsXE"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/暂时注册续注报注册 提示：同步平台验证证书失败，原因 Camtcormecttolicenseserver www.gr960.com.Socket can t connect the serv...",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240729-036",
+ "record_id": "8y0ijn0aTA",
+ "title": "其他出库单“警示线”这个存货带不出金额",
+ "problem": "其他出库单“警示线”这个存货带不出金额",
+ "cause": "操作问题",
+ "solution": "经检查“警示线”这个存货的计价方式为个别计价，需要填写相关入库单才能带出金额",
+ "solution_types": [],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "警示线金额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-07-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4D6PpaJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4D6PpaJKMEvZBY",
+  "doc_path": "/其他/应用操作/其他出库单警示线这个存货带不出金额",
+  "record_id": "8y0ijn0aTA"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/其他出库单警示线这个存货带不出金额",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

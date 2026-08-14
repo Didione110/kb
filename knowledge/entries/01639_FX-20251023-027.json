@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251023-027",
+ "record_id": "gvyiTX1HpA",
+ "title": "存货管理档案打印需要显示主计量单位，辅计量单位，换算率",
+ "problem": "存货管理档案打印需要显示主计量单位，辅计量单位，换算率",
+ "cause": "需求，系统未显示",
+ "solution": "修改打印模板新增自定义变量\n计量单位：getColValue(bd_measdoc,measname,pk_measdoc,getColValue(bd_invbasdoc,pk_measdoc,pk_invbasdoc,c.pk_invbasdoc) )\n辅计量单位：\ngetcolvalue(bd_measdoc,measname,pk_measdoc,getcolvalue(bd_convert,pk_measdoc,pk_invbasdoc,getColValue(bd_invbasdoc, pk_invbasdoc, invcode, invcode)))\n换算率：\ngetColValue(bd_convert,mainmeasrate,pk_invbasdoc,getColValue(bd_invbasdoc, pk_invbasdoc,invcode,invcode))",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "计量单位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-10-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gvyiTX1HpA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

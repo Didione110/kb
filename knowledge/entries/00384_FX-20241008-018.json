@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241008-018",
+ "record_id": "9DUXaX83s9",
+ "title": "安装补丁、同步补丁和保存单据报错\"CLR_AllocSerials\"期间出现.NET Framework错误 或 执行数据库升级出错 或 在尝试加载程序集 ID 65536 时 Microsoft .NET Framework 出错。服务器可能资源不足，或者不信任该程序集。请重新运行查询，或检查有关的文档了解如何解决程序集信任问题......",
+ "problem": "安装补丁、同步补丁和保存单据报错\"CLR_AllocSerials\"期间出现.NET Framework错误 或 执行数据库升级出错 或 在尝试加载程序集 ID 65536 时 Microsoft .NET Framework 出错。服务器可能资源不足，或者不信任该程序集。请重新运行查询，或检查有关的文档了解如何解决程序集信任问题......",
+ "cause": "1、使用sql数据库工具还原库导致\n\n2、修改数据库sa密码",
+ "solution": "执行文档中的脚本",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "CLR、.NET、程序集"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYedPKnV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYedPKnV1waOeDk",
+  "doc_path": "/用友/软件补丁问题/安装补丁、同步补丁和保存单据报错 CLR_AllocSerials 期间出现.NET Framework错误 或 执行数据库升级出错 或 在尝试加载程序集 ID 65536 时 Microsof...",
+  "record_id": "9DUXaX83s9"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件补丁问题/安装补丁、同步补丁和保存单据报错 CLR_AllocSerials 期间出现.NET Framework错误 或 执行数据库升级出错 或 在尝试加载程序集 ID 65536 时 Microsof...",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

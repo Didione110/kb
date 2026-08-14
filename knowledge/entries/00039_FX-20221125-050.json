@@ -1,0 +1,37 @@
+{
+ "id": "FX-20221125-050",
+ "record_id": "0toy4cwrJc",
+ "title": "做固定资产变动时选不到对应的固定资产卡片：在卡片管理中可以查到对应卡片，但是针对卡片做变动时选择不到",
+ "problem": "做固定资产变动时选不到对应的固定资产卡片：在卡片管理中可以查到对应卡片，但是针对卡片做变动时选择不到",
+ "cause": "查看卡片做了变动管理，但相关变动单据未审核",
+ "solution": "审核或删除变动卡片后，在重新做资产减少的操作",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "卡片不可选"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0toy4cwrJc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

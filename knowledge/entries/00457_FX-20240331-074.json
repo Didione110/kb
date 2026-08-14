@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240331-074",
+ "record_id": "BF8YKgZym1",
+ "title": "U8C分辨率调整",
+ "problem": "U8C分辨率调整",
+ "cause": "U8C分辨率调整",
+ "solution": "Uclient分辨率调整\n先退出Uclient，再在桌面上右键点击Uclient.exe，选择属性按钮，勾选 禁用全屏优 替代高DPI缩放 化重启电脑",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U8C分辨率"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BF8YKgZym1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

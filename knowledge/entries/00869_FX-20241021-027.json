@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241021-027",
+ "record_id": "MKL7o4JXLh",
+ "title": "Oracle数据库生成AWR报告方法",
+ "problem": "Oracle数据库生成AWR报告方法",
+ "cause": "Oracle数据库生成AWR报告方法",
+ "solution": "Oracle数据库生成AWR报告方法\n\n切换用户\n使用oralce用户登陆操作系统，如果不知道oracle用户密码，可从root用户\nsu -oracle\n\nsqlplus连接数据库\n在oracle用户下执行 sqlplus /as sysdba命令，连接到oracle数据库:\n\n在sqlplus中执行 @?/rdbms/admin/awrrpt.sql\n\n输入导出报告的格式\n在执行@?rdbms/admin/awrrpt.sql命令后，会提示输入导出报告的格式，默认格式为html，如果想导出html格式，直接Enter即可:\n\n输入导出天数\n根据需要，输入导出的报告的具体天数，即当前时间N天之内的所有信息:\n\n输入要导出的snap的开始ID\n在输入要导出的天数之后，oracle会列出所有满足预期天数的snap的信息，根据需要，输入snap的开始ID:\n\n输入要导出的snap的截止ID\n输入开始ID之后，会提示输入截止ID，根据需要输入截止ID:\n\n设置导出的报告名称\n导出报告时，如果需要设置导出的报告名称，可根据提示进行修改:\n\n查看报告\n输入报告名称之后并敲击回车之后，oracle会自动生成AWR报告，可退出sqlplus进行查看",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "AWR报告"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-10-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDANvGW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDANvGW6zbX04v",
+  "doc_path": "/时空/环境问题/Oracle数据库生成AWR报告方法",
+  "record_id": "MKL7o4JXLh"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/Oracle数据库生成AWR报告方法",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

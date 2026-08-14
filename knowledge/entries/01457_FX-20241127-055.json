@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241127-055",
+ "record_id": "byXempwjrR",
+ "title": "总账资产负债表报错：Double fieldID of column attribute!",
+ "problem": "总账资产负债表报错：Double fieldID of column attribute!",
+ "cause": "总账模块—财务报告界面，先选择账簿，然后设置三大报表对应的栏目一 、栏目二，注意栏目一和栏目二不能有重复",
+ "solution": "总账模块—财务报告界面，先选择账簿，然后设置三大报表对应的栏目一 、栏目二，注意栏目一和栏目二不能有重复",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字段重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "byXempwjrR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

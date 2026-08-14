@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240730-040",
+ "record_id": "HeQ8g6CQTC",
+ "title": "发出商品与总账对账业务系统取不到数据，查询发出商品明细表，出货成本金额跟总账的余额也对上了",
+ "problem": "发出商品与总账对账业务系统取不到数据，查询发出商品明细表，出货成本金额跟总账的余额也对上了",
+ "cause": "发出商品汇总表数据没有更新 导致没取到数 查一下汇总表即可",
+ "solution": "发出商品汇总表数据没有更新 导致没取到数 查一下汇总表即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "对账异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HeQ8g6CQTC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

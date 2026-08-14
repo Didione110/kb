@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240401-009",
+ "record_id": "6wI58uEku8",
+ "title": "存盘后打印控制，开关开启后，打印弹窗未变化，无法区分是否打印过",
+ "problem": "存盘后打印控制，开关开启后，打印弹窗未变化，无法区分是否打印过",
+ "cause": "需要更新tomcat文件",
+ "solution": "将文件复制到 /form/html/selection.htm",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "打印弹窗"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlvX1A8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlvX1A8Zd1wyK0",
+  "doc_path": "/时空/产品功能问题/存盘后打印控制，开关开启后，打印弹窗未变化，无法区分是否打印过",
+  "record_id": "6wI58uEku8"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/存盘后打印控制，开关开启后，打印弹窗未变化，无法区分是否打印过",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

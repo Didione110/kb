@@ -1,0 +1,24 @@
+# 依赖
+node_modules/
+**/node_modules/
+
+# 构建产物
+portal/.vitepress/dist/
+portal/.vitepress/cache/
+portal/.vitepress/.temp/
+
+# 系统文件
+.DS_Store
+*.log
+
+# 环境与凭证
+.env
+.env.local
+!**/.env.example
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# pnpm
+.pnpm-store/

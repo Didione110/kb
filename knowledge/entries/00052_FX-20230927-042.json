@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230927-042",
+ "record_id": "1C2xUwli2X",
+ "title": "智友系列陈年老BUG问题\n在修改客户卡片信息时，有多个数据集合，如证照。委托书。地址，等\n标准操作方法：修改完客户信息保存后，再去委托书修改发起，再去证照修改发起，再去地址修改发起\n问题：操作异常麻烦，几乎所有的客户都抱怨过",
+ "problem": "智友系列陈年老BUG问题\n在修改客户卡片信息时，有多个数据集合，如证照。委托书。地址，等\n标准操作方法：修改完客户信息保存后，再去委托书修改发起，再去证照修改发起，再去地址修改发起\n问题：操作异常麻烦，几乎所有的客户都抱怨过",
+ "cause": "标准方案无对应解决方案",
+ "solution": "魔改代码\n在表单save的时候，同时发起N个工作流，记录修改审批的内容\n然后审批后生效，案例代码如下\n//判断证照列表是否做过数据修改,如果修改,则手动发起修改工作流\n if (form.parameters.action == \"modify\" && typeof form.args.isSetPass == \"undefined\") {\n var zzmxxgzt = \"N\";//初始化默认值给N\n for (var i = 0; i < ds_djmx.recordCount; i++) { //无需翻译经营范围，取消\n if(ds_djmx.getRowState(i) != 0){\n zzmxxgzt = \"Y\";\n }\n }\n //记录存在修改的时候 发起工作流 记录证照修改历史 \n if(zzmxxgzt == \"Y\"){\n var zzmxxgbillno = FormUtil.getIdentity(\"billno\", \"\", \"\") ;\n var zzmxxgbillcode = FormUtil.getIdentity(\"billcode\", \"61ntc7e0a0kgsljr\", \"\") ;\n for (var i = 0; i < ds_djmx.recordCount; i++) { \n ds_djmx.setValueAt(i,\"billno\",zzmxxgbillno);\n ds_djmx.setValueAt(i,\"billsn\",i+1);\n }\n ds_djhz.openEmpty();\n ds_djhz.append();\n ds_djhz.setValue(\"EntId\",form.userinfo.entid);\n ds_djhz.setValue(\"billno\",zzmxxgbillno);\n ds_djhz.setValue(\"billcode\",zzmxxgbillcode);\n ds_djhz.setValue(\"RuleId\",\"61ntc7e0a0kgsljr\");\n ds_djhz.setValue(\"Dates\",DateUtil.curDate());\n ds_djhz.setValue(\"SysDates\",DateUtil.getServerDate());\n ds_djhz.setValue(\"OrgId\",form.userinfo.orgid);\n ds_djhz.setValue(\"DeptId\",form.userinfo.deptid);\n ds_djhz.setValue(\"BusinessId\",DsMain.field(\"BusinessId\").value);\n ds_djhz.setValue(\"OnTime\",DateUtil.curTime());\n ds_djhz.setValue(\"caozy\",form.userinfo.staffid);\n ds_djhz.setValue(\"Summaries\",\"客户证照资质变更\");\n ds_djhz.setValue(\"Remark\",\"证照更新\"); \n ds_djhz.setValue(\"ChangeType\",\"khzz\"); \n form.saveDatasets(ds_djhz,ds_djmx);//数据存入变更历史 \n //存盘后发起工作流审批\n var par = {};\n par.v_billno = zzmxxgbillno;\n par.v_billcode = zzmxxgbillcode;\n par.summaries = form.userinfo.staffname+\",\"+DsMain.field(\"BusinessName\").value ;\n par.remark = \"证照更新\"\n par.wfid = \"45jj4cw40mweepmb\";\n par.ruleid = \"61ntc7e0a0kgsljr\";\n par.formid = \"4sdxxamp58kczekn\";\n FormUtil.executeServerScript(\"srv_createWorkFlow\",par,ds_djhz);\n }\n }\nfunction srv_createWorkFlow(par){\n var v_billno = par.v_billno ; \n var v_billcode = par.v_billcode;\n var summaries = par.summaries\n var remark = par.remark ;\n var wfid = par.wfid ;\n var formid = par.formid ;\n var ruleid = par.ruleid ;\n FormUtil.addBillReviewItem(formid, v_billno); \n FormUtil.startWorkflow(v_billno, v_billcode, wfid, 'save', ruleid, summaries ,remark )\n \n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "多集合修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1C2xUwli2X"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

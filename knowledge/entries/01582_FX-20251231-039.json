@@ -1,0 +1,36 @@
+{
+ "id": "FX-20251231-039",
+ "record_id": "fSvG8dT6ks",
+ "title": "库存模块下的库龄分析表查询结果如何显示仓库一列？存在不同仓库同一物料的问题  需要按仓库区分。",
+ "problem": "库存模块下的库龄分析表查询结果如何显示仓库一列？存在不同仓库同一物料的问题 需要按仓库区分。",
+ "cause": "库龄分析表不支持显示仓库，如果要查看仓库可以点击明细，明细列有仓库字段；如果要查询某一个仓库的库龄分析，需要在查询条件中勾选【包含调拨业务】并维护仓库进行查询。",
+ "solution": "库龄分析表不支持显示仓库，如果要查看仓库可以点击明细，明细列有仓库字段；如果要查询某一个仓库的库龄分析，需要在查询条件中勾选【包含调拨业务】并维护仓库进行查询。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "仓库区分"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-12-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fSvG8dT6ks"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

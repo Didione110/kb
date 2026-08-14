@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230228-052",
+ "record_id": "ZAZaZqatlo",
+ "title": "银行对账单导入后，银行账户选择的是基本户建行，但单位银行账取数会把一般户招行的数据也一并取上，导致其他银行数据变成未达",
+ "problem": "银行对账单导入后，银行账户选择的是基本户建行，但单位银行账取数会把一般户招行的数据也一并取上，导致其他银行数据变成未达",
+ "cause": "后面有新加银行，银行对账方案设置中包含了所有银行，需要调整银行对账方案",
+ "solution": "反至无差异的账期，重新设置银行对账方案，把原来的方案停用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "账户混淆"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZAZaZqatlo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

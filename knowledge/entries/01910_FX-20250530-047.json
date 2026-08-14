@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250530-047",
+ "record_id": "nSLoHK3X5n",
+ "title": "要想导入会计科目 但是导入模板没有会计科目的英文名称CN导入字段，怎么导入会计科目的时候把英文名称也一起导入进去，还是只能中文导入进去后，一个个手输入英文名称? ",
+ "problem": "要想导入会计科目 但是导入模板没有会计科目的英文名称CN导入字段，怎么导入会计科目的时候把英文名称也一起导入进去，还是只能中文导入进去后，一个个手输入英文名称?",
+ "cause": "没有下载正确外语模板",
+ "solution": "目前科目导入时支持同时导入英文名称和中文名称，在下载新增模版时在更多设置下点多语模版设置，勾选需要导入的语言即可，如附件截图所示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "英文名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nSLoHK3X5n"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

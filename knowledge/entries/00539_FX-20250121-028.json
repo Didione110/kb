@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250121-028",
+ "record_id": "DMgxCJ5aWR",
+ "title": "店铺促销时或者直播卖货时，会承诺达到一定条件可以赠送指定商品。但是实际订单中不会有对应明细，正常就需要做补发单单独发赠品。",
+ "problem": "店铺促销时或者直播卖货时，会承诺达到一定条件可以赠送指定商品。但是实际订单中不会有对应明细，正常就需要做补发单单独发赠品。",
+ "cause": "通常只是口头承诺或者商品促销宣城承诺，因为条件的限制无法灵活的做成套餐处理。",
+ "solution": "点三支持设置赠品策略，当指定的店铺达到指定的活动条件，订单转单时就会匹配执行对应的赠品策略。从而在订单中添加上对应赠品。避免还需要人为干预",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "赠品补发"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNde2E7eJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNde2E7eJ2LD0oRE",
+  "doc_path": "/其他/产品功能问题/店铺促销时或者直播卖货时，会承诺达到一定条件可以赠送指定商品。但是实际订单中不会有对应明细，正常就需要做补发单单独发赠品。",
+  "record_id": "DMgxCJ5aWR"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/店铺促销时或者直播卖货时，会承诺达到一定条件可以赠送指定商品。但是实际订单中不会有对应明细，正常就需要做补发单单独发赠品。",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

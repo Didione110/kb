@@ -1,0 +1,34 @@
+{
+ "id": "FX-20240303-005",
+ "record_id": "bK23kOkwDV",
+ "title": "总账与业务系统对账不平",
+ "problem": "总账与业务系统对账不平",
+ "cause": "总账与业务系统对账不平",
+ "solution": "按照撰写的手册进行核对",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "对账不平"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-03-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bK23kOkwDV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

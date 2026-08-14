@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240126-053",
+ "record_id": "vPiT71aRQl",
+ "title": "凭证没有现金流，系统自动生成了一个现金流，用修改想去掉现金流，系统又提示“无现金流科目，不能录入”",
+ "problem": "凭证没有现金流，系统自动生成了一个现金流，用修改想去掉现金流，系统又提示“无现金流科目，不能录入”",
+ "cause": "分录没有自动刷新",
+ "solution": "勾选系统自动更新现金流量，去应付那里查询凭证进行修改，增加然后删除两行分录，触发系统自动更新这个凭证的现金流量分配，完成删除现金流",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "现金流冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "质量部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vPiT71aRQl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

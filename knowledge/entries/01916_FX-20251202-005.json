@@ -1,0 +1,36 @@
+{
+ "id": "FX-20251202-005",
+ "record_id": "natTO408fc",
+ "title": "发货统计表与发货单列表的开票数量不一致",
+ "problem": "发货统计表与发货单列表的开票数量不一致",
+ "cause": "发货统计表是个期间表，开票数、结存数会根据查询条件的日期条件统计显示，而发货单列表是只要开了票就必然会有开票数量显示和查询条件无关。另外发货统计查询表默认也会包括委托代销发货单。所以二者直接按所谓的相同日期期间去查询，实际上结果往往是不同的",
+ "solution": "发货统计表是个期间表，开票数、结存数会根据查询条件的日期条件统计显示，而发货单列表是只要开了票就必然会有开票数量显示和查询条件无关。另外发货统计查询表默认也会包括委托代销发货单。所以二者直接按所谓的相同日期期间去查询，实际上结果往往是不同的",
+ "solution_types": [],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "开票数量不一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-12-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "natTO408fc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

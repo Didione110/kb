@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251130-054",
+ "record_id": "K4dwgW2UGr",
+ "title": "v12医保读卡无法获取多病种",
+ "problem": "v12医保读卡无法获取多病种",
+ "cause": "v12医保读卡获取病种失败",
+ "solution": "新增v12病种获取表单，调选择病种界面",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "医保读卡"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lDRPG86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lDRPG86EDybno",
+  "doc_path": "/时空/产品功能问题/v12医保读卡无法获取多病种",
+  "record_id": "K4dwgW2UGr"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/v12医保读卡无法获取多病种",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

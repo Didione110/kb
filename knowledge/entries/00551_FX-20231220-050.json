@@ -1,0 +1,36 @@
+{
+ "id": "FX-20231220-050",
+ "record_id": "DWmUqL0EB3",
+ "title": "采购订单行采购确认数量没有考虑采购倍量",
+ "problem": "采购订单行采购确认数量没有考虑采购倍量",
+ "cause": "采购订单的单据类型勾选了“补单”，对于补单的采购订单，是不处理采购倍量的。 另外，使用时还要注意，采购倍量是在保存时计算的，供应商-料品交叉档和料品主档上都有此参数",
+ "solution": "采购订单的单据类型勾选了“补单”，对于补单的采购订单，是不处理采购倍量的。 另外，使用时还要注意，采购倍量是在保存时计算的，供应商-料品交叉档和料品主档上都有此参数",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "采购倍量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-12-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DWmUqL0EB3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

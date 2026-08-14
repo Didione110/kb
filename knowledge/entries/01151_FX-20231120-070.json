@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231120-070",
+ "record_id": "Tgx4l15f6Z",
+ "title": "做了期间损益结转，检查所有损益类发生额已全部结转，但科目余额表里面收入、成本还有销售费用-差旅费这几个的余额不是0",
+ "problem": "做了期间损益结转，检查所有损益类发生额已全部结转，但科目余额表里面收入、成本还有销售费用-差旅费这几个的余额不是0",
+ "cause": "查询从2月开始有问题，判断问题原因是这几个损益类科目挂了自定义辅助项",
+ "solution": "损益类科目用了自定义项，那么就需要做以下操作\n1.在总账-设置-选项-自定义项辅助核算中，需要将对应的自定义项勾选。\n2.在转账生成-期间损益结转的时候，下方选择“按科目+辅助核算+自定义项展开”。\n完成以上两点设置后，结转生成的凭证，损益类科目就会显示自定义项内容了，余额也正常了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "期间损益结转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Tgx4l15f6Z"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

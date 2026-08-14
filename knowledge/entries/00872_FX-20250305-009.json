@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250305-009",
+ "record_id": "MR9sarbl2L",
+ "title": "数据库版本从2008换到了2016，还原数据库备份报错：Microsott,Daka,sglclient,sglEmor; 无法执行BACKUP LOG，因为当前没有数据库备份。",
+ "problem": "数据库版本从2008换到了2016，还原数据库备份报错：Microsott,Daka,sglclient,sglEmor; 无法执行BACKUP LOG，因为当前没有数据库备份。",
+ "cause": "在还原数据库时，选择了结尾日志备份，但没有找到相应的BACKUP LOG文件",
+ "solution": "1. 检查恢复模式：确保数据库的恢复模式设置为FULL。如果恢复模式被意外更改为SIMPLE，需要将其改回FULL，以确保可以进行尾日志备份。\n2. 取消结尾日志备份选项：在还原数据库时，不要勾选“还原前进行结尾日志备份”选项，这样可以避免因找不到结尾日志备份文件而导致的错误",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "备份日志"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-03-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYe7rdOV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYe7rdOV1waOeDk",
+  "doc_path": "/时空/安装部署问题/数据库版本从2008换到了2016，还原数据库备份报错：Microsott,Daka,sglclient,sglEmor; 无法执行BACKUP LOG，因为当前没有数据库备份。",
+  "record_id": "MR9sarbl2L"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/数据库版本从2008换到了2016，还原数据库备份报错：Microsott,Daka,sglclient,sglEmor; 无法执行BACKUP LOG，因为当前没有数据库备份。",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

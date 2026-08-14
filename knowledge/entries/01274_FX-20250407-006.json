@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250407-006",
+ "record_id": "XaofYOU0Td",
+ "title": "零售汇总查询数据与零售小票数据金额不一致",
+ "problem": "零售汇总查询数据与零售小票数据金额不一致",
+ "cause": "原因是零售小票查询增加了对于金额的判断，界面默认输入值是-10000~100000，但是由于在判断的时候字段类型的问题导致部门结果被过滤",
+ "solution": "将界面取值转换成实数类型",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-04-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XaofYOU0Td"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

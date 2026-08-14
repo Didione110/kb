@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250121-014",
+ "record_id": "OXvkDMVI8b",
+ "title": "能不能根据销售出货单的单据类型，默认存储地点？ 比如单据类型选A，存储订单默认为成品仓，用关联赋值？",
+ "problem": "能不能根据销售出货单的单据类型，默认存储地点？ 比如单据类型选A，存储订单默认为成品仓，用关联赋值？",
+ "cause": "能不能根据销售出货单的单据类型，默认存储地点？ 比如单据类型选A，存储订单默认为成品仓，用关联赋值？",
+ "solution": "可以设置关联赋值方案 设置单据类型值变更 当单据类型=A 单头存储地点=成品仓 后续拉单行存储地点自动根据单头存储地点带出",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "关联赋值"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OXvkDMVI8b"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

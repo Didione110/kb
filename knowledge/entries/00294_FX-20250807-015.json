@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250807-015",
+ "record_id": "707wmdwept",
+ "title": "IUFO报表登录提示：UserMngBO:Exception\n",
+ "problem": "IUFO报表登录提示：UserMngBO:Exception",
+ "cause": "一般是修改过昵称（用户名）就会存在该问题",
+ "solution": "请iufo管理员登录根组织（报表的一级公司），系统设置--用户--把出问题的用户删除--��重新添加用户分配角色",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "UserMngBO"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-08-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3ZO3gWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3ZO3gWkyEqBQm",
+  "doc_path": "/用友/应用操作/IUFO报表登录提示：UserMngBO Exception",
+  "record_id": "707wmdwept"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/IUFO报表登录提示：UserMngBO Exception",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

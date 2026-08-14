@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230518-015",
+ "record_id": "vtc4gIzQsp",
+ "title": "存货核算结账提示：存货总账表和单据汇总金额不一致，需要调整存货总账当前结存",
+ "problem": "存货核算结账提示：存货总账表和单据汇总金额不一致，需要调整存货总账当前结存",
+ "cause": "可能存在多次成本计算，导致数据缓存问题",
+ "solution": "在 存货核算-基础设置中操作下“数据修正”，可以重新计算单据中的数据以保证总账与单据汇总金额的一致",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "存货结账异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-05-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vtc4gIzQsp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

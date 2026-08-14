@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250219-010",
+ "record_id": "9o4cX76C8m",
+ "title": "审核销售订单存在结算关闭的订单行审核失败",
+ "problem": "审核销售订单存在结算关闭的订单行审核失败",
+ "cause": "前期修改的流程配置有误",
+ "solution": "修改业务流程配置，先配置出库传结算，再配置出库传发票",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "结算关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-02-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mLpM0J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mLpM0J9ekBD76",
+  "doc_path": "/用友/应用操作/审核销售订单存在结算关闭的订单行审核失败",
+  "record_id": "9o4cX76C8m"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/审核销售订单存在结算关闭的订单行审核失败",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230224-043",
+ "record_id": "B2hCbkh7no",
+ "title": "微应用pc端多路由携带不同参数跳转同一界面,界面数据不更新",
+ "problem": "微应用pc端多路由携带不同参数跳转同一界面,界面数据不更新",
+ "cause": "不同路由跳转同一界面，路由改变，数据是首次路由得参数",
+ "solution": "使用页面监听路由更新界面数据",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "路由参数缓存"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-02-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakgoZ7Jgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakgoZ7Jgk9rpMq",
+  "doc_path": "/自研/产品功能问题/微应用pc端多路由携带不同参数跳转同一界面,界面数据不更新",
+  "record_id": "B2hCbkh7no"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/微应用pc端多路由携带不同参数跳转同一界面,界面数据不更新",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250220-013",
+ "record_id": "iM8Ec3rzES",
+ "title": "隐藏Tomcat异常页面中的版本信息，Tomcat服务器版本号泄露",
+ "problem": "隐藏Tomcat异常页面中的版本信息，Tomcat服务器版本号泄露",
+ "cause": "Tomcat/8.5.xx相关版本号等信息，是不安全的。这会被黑客获取到，利用该版本的其他漏洞对服务器进行异常操作，所以需要隐藏掉。",
+ "solution": "进入tomcat安装目录\napache-tomcat-8.5.95/lib/catalina.jar\n查找ServerInfo.properties文件进行修改\norg/apache/catalina/util/ServerInfo.properties\n\n把版本信息给删除掉保存退出即可\nserver.info=\nserver.number=\nserver.built=",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "版本泄露"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iM8Ec3rzES"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230802-005",
+ "record_id": "Yg3WNGo6ev",
+ "title": "U8查询账表提示COM类报错",
+ "problem": "U8查询账表提示COM类报错",
+ "cause": "电脑环境问题，若只有客户端报错，则修改客户端电脑环境即可，若服务器端报错则修改服务器端环境",
+ "solution": "修改电脑注册表：\nHKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\SubSystems\\Windows --> SharedSection = 1024,3072,512把这个512(或768)替换为1024或者2048或者20480。\n修改后重启即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "COM类报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Yg3WNGo6ev"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

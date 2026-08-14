@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241031-059",
+ "record_id": "A30TLnyQm4",
+ "title": "sql链接oracle服务器新建存储过程能单独执行，放在维护计划执行报错",
+ "problem": "sql链接oracle服务器新建存储过程能单独执行，放在维护计划执行报错",
+ "cause": "未勾选对应链接服务器允许进程内",
+ "solution": "勾选对应链接服务器允许进程内",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "权限、环境、上下文"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmEnAYJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmEnAYJGlDd3mE",
+  "doc_path": "/时空/安装部署问题/sql链接oracle服务器新建存储过程能单独执行，放在维护计划执行报错",
+  "record_id": "A30TLnyQm4"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/sql链接oracle服务器新建存储过程能单独执行，放在维护计划执行报错",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

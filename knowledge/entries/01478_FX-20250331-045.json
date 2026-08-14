@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250331-045",
+ "record_id": "cTvfliBzlO",
+ "title": "任务定义批量规则时有个公司一选择就报错（其他公司批量规则选择正常，这个公司不管选哪个用户定义批量规则都报错）",
+ "problem": "任务定义批量规则时有个公司一选择就报错（其他公司批量规则选择正常，这个公司不管选哪个用户定义批量规则都报错）",
+ "cause": "该报错是服务器物理防火墙拦截导致问题，需要检查防火墙拦截日志和网络拦截日志",
+ "solution": "由于服务器电脑上设置了防火墙拦截，此操作不在客户端电脑上设置，去服务器电脑或者客户内网环境进行设置即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "公司报错"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cTvfliBzlO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

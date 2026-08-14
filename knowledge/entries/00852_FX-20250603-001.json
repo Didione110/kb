@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250603-001",
+ "record_id": "M1NRy7GaBX",
+ "title": "存货核算明细账发出明细实际合计与明细账所计算的明细不一致",
+ "problem": "存货核算明细账发出明细实际合计与明细账所计算的明细不一致",
+ "cause": "检查发出记录无问题，明细表合计统计数据错误，做数据修正恢复",
+ "solution": "存货核算-基础设置-数据修正",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "核算不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "M1NRy7GaBX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

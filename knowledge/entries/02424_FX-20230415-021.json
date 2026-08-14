@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230415-021",
+ "record_id": "zvWumz225K",
+ "title": "U9c测试服务器重启后，无法登录系统，登录管理控制台失败，提示：HTTP无法注册URL，因为另一个程序正在使用端口80。",
+ "problem": "U9c测试服务器重启后，无法登录系统，登录管理控制台失败，提示：HTTP无法注册URL，因为另一个程序正在使用端口80。",
+ "cause": "原因是在同一台服务器中U9服务器80端口被另外的服务程序（FTP）80端口占用了，U9的服务端口默认为80。",
+ "solution": "链接为怎么查找端口被占用了方法\nhttps://jingyan.baidu.com/article/64d05a029f3426de55f73bb0.html",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "端口冲突"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zvWumz225K"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

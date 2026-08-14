@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240429-087",
+ "record_id": "H4jGdAYLGy",
+ "title": "U8C报表想要定时批量计算所有公司的报表  比如每个月15号 自动计算所有单位的报表",
+ "problem": "U8C报表想要定时批量计算所有公司的报表 比如每个月15号 自动计算所有单位的报表",
+ "cause": "关于集团财务 集团四十多个公司 每个公司无法统一时间进去执行报表计算 计算数据量大",
+ "solution": "可以设置批量报表计算定时规则 每月定时执行报表计算",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "U8C定时报表"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "H4jGdAYLGy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

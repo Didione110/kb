@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240416-056",
+ "record_id": "gwtGdm5ld9",
+ "title": "致远OA长时间误操作自动下线，如何设置时间",
+ "problem": "致远OA长时间误操作自动下线，如何设置时间",
+ "cause": "目前OA无长时间未操作自动掉线的功能，可以检查是否是电脑做了屏保和待机睡眠，原因是电脑睡眠后，浏览器就不会向后台发送心跳，没有心跳（心跳是每30秒发送一次），超过设置的离线时间（离线计时器时间），就会被自动清理下线，正常掉线。",
+ "solution": "无法设置，原因详见上栏【问题原因】。",
+ "solution_types": [],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "Chrome"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "自动下线"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-04-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gwtGdm5ld9"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251220-024",
+ "record_id": "i161eWjdwP",
+ "title": "提取上游码上放心出库数据时，需要存储最小码",
+ "problem": "提取上游码上放心出库数据时，需要存储最小码",
+ "cause": "常规方案需要拼接多段SQL，开销比较大，使用Oracle递归查询方案",
+ "solution": "使用Oracle递归查询方案，会递归查询大转中，中转小。示例：\nwith jgm (entid,orgid,rfbillno,rfbillcode,rfbillsn\n ,goodsid,batchcode,IMEINO,rfid,rfname)\nas (\n select a.entid,a.orgid\n ,a.billno as rfbillno,a.billcode as rfbillcode,b.billsn as rfbillsn\n ,b.goodsid,b.batchcode\n ,to_char(f.ecode) as IMEINO\n ,j.orgid as rfid,j.orgname as rfname\n from gspinmt a\n join gspindt b on a.billno=b.billno and a.entid=b.entid\n join joinpurdt c on b.rfbillno=c.billno and b.rfbillsn=c.billsn and b.entid=c.entid\n join joinoutdt d on c.rebillno=d.billno and c.rebillsn=d.billsn and c.entid=d.entid\n join kq_hbcbwms_outact_b e on d.rfbillcode=to_char(e.docid)||'.0' and d.rfbillsn=e.lno and b.batchcode=e.lotno\n join kq_hbcbwms_zsm f on e.wltxm=f.erporderno and e.lno=f.erpordernodtl and e.lotno=f.lotno\n join orgdoc j on a.supplyid=j.orgid and a.entid=j.entid\n where a.entid='E3ACDA7KPUA' and a.billno = 11217483 \n UNION ALL\n SELECT a.entid,a.orgid\n ,a.rfbillno,a.rfbillcode,a.rfbillsn\n ,a.goodsid,a.batchcode\n ,to_char(g.code) as IMEINO\n ,a.rfid,a.rfname\n FROM JGM a\n join k_lsyd_drugcode g on a.IMEINO=g.parent_code \n)\n\nselect * from jgm ;",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "最小码"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-12-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "i161eWjdwP"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

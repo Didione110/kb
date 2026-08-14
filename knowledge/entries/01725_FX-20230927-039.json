@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230927-039",
+ "record_id": "ioZslC9x6M",
+ "title": "生产反映生产调料23091811,23091812调出订单是灰的，无法选订单做调料",
+ "problem": "生产反映生产调料23091811,23091812调出订单是灰的，无法选订单做调料",
+ "cause": "出库单上实发大于应发，备料计划就应该判断单子已经完成，不会在出库，所以就成了完成状态，完成状态的就不能做调料",
+ "solution": "修改备料计划上的单据状态，将完成改成审核",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "订单灰显"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ioZslC9x6M"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

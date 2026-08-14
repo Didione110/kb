@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230203-002",
+ "record_id": "JUfD5yEFwW",
+ "title": "接口重推销售订单，订单显示已存在，但是再U8C找不到单据。",
+ "problem": "接口重推销售订单，订单显示已存在，但是再U8C找不到单据。",
+ "cause": "U8C有个领用表，部分操作问题会导致领用表得单据号没有失效。",
+ "solution": "数据库执行语句select * from pub_billcode_fetched where billcode ='具体单据号'",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "订单重复"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JUfD5yEFwW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

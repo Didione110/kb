@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231206-021",
+ "record_id": "wAVKjnZarx",
+ "title": "退补价单按金额进行退补，需要人为计算分摊到原单明细中，除不尽的情况下导致客户不知道该如何填写",
+ "problem": "退补价单按金额进行退补，需要人为计算分摊到原单明细中，除不尽的情况下导致客户不知道该如何填写",
+ "cause": "退补价单按金额进行退补，需要人为计算分摊到原单明细中，除不尽的情况下导致客户不知道该如何填写",
+ "solution": "直接填写折扣金额，系统根据金额比例自动进行分摊，js代码如下：\nfunction uf_dedamt(){\n var zkamt = dshz.field(\"k_dedamt\").value;\n var taxamount = dshz.field(\"taxamount\").value;\n var ft_TaxAmount = 0;\n for(var k = 0; k < dsmx.recordCount;k++){\n //分摊逻辑：分摊比例=明细金额/总金额\n dsmx.setValueAt(k,\"TaxAmount\",Utility.formatFloat(zkamt * Utility.formatFloat(dsmx.getValueAt(k,\"OldTaxAmount\") / taxamount,2),2));\n dsmx.setValueAt(k,\"TaxPrice\",Utility.formatFloat(dsmx.getValueAt(k,\"TaxAmount\") / dsmx.getValueAt(k,\"Num\"),3));\n dsmx.setValueAt(k,\"Price\",Utility.formatFloat(dsmx.getValueAt(k,\"TaxAmount\") / dsmx.getValueAt(k,\"Num\"),3) / (1 + dsmx.getValueAt(k,\"Rate\") / 100));\n dsmx.setValueAt(k,\"BaseTaxPrice\",Utility.formatFloat(dsmx.getValueAt(k,\"TaxAmount\") / dsmx.getValueAt(k,\"Num\"),3));\n dsmx.setValueAt(k,\"BasePrice\",Utility.formatFloat(dsmx.getValueAt(k,\"TaxAmount\") / dsmx.getValueAt(k,\"Num\"),3) / (1 + dsmx.getValueAt(k,\"Rate\") / 100));\n dsmx.setValueAt(k,\"Amount\",Utility.formatFloat(dsmx.getValueAt(k,\"Price\") * dsmx.getValueAt(k,\"Num\")))\n dsmx.setValueAt(k,\"NewTaxPrice\",Utility.formatFloat(dsmx.getValueAt(k,\"OldTaxPrice\") + dsmx.getValueAt(k,\"TaxPrice\")));\n dsmx.setValueAt(k,\"NewPrice\",Utility.formatFloat(dsmx.getValueAt(k,\"OldPrice\") + dsmx.getValueAt(k,\"Price\")));\n dsmx.setValueAt(k,\"NewBaseTaxPrice\",Utility.formatFloat(dsmx.getValueAt(k,\"OldTaxPrice\") + dsmx.getValueAt(k,\"TaxPrice\")));\n dsmx.setValueAt(k,\"NewBasePrice\",Utility.formatFloat(dsmx.getValueAt(k,\"OldPrice\") + dsmx.getValueAt(k,\"Price\")));\n dsmx.setValueAt(k,\"Tax\",dsmx.getValueAt(k,\"TaxAmount\") - dsmx.getValueAt(k,\"Amount\"));\n }\n\n //为避免分摊后的金额与输入金额有差异，差异强制计算到第一条\n for(var j = 0; j < dsmx.recordCount;j++){\n ft_TaxAmount += dsmx.getValueAt(j,\"TaxAmount\");\n }\n if(ft_TaxAmount != zkamt){\n var diff = zkamt - ft_TaxAmount;\n dsmx.setValueAt(0,\"TaxAmount\",dsmx.getValueAt(0,\"TaxAmount\") + diff);\n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "退补分摊"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wAVKjnZarx"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

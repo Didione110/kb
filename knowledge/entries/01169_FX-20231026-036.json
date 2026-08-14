@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231026-036",
+ "record_id": "ULLqaCRjMK",
+ "title": "测试环境更新补丁报【SPS许可不一致，请检查许可有效期或硬件信息】的错误，但现场又没有更换过硬件，许可也正常",
+ "problem": "测试环境更新补丁报【SPS许可不一致，请检查许可有效期或硬件信息】的错误，但现场又没有更换过硬件，许可也正常",
+ "cause": "SPS许可不一致，请检查许可有效期或硬件信息",
+ "solution": "sps许可异常要去管理控制台--许可证获取sps注册请求信息，到hub申请sps许可后下载导入即可，如是测试环境报的错，就申请测试环境的许可信息导入。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "SPS许可"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-10-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ULLqaCRjMK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240422-064",
+ "record_id": "zu7yToCDhY",
+ "title": "银企直连进行支付时提示银行信息不对，但是核实没有问题",
+ "problem": "银企直连进行支付时提示银行信息不对，但是核实没有问题",
+ "cause": "对私支付只要打补丁",
+ "solution": "对私支付只要打补丁，本次问题是对私支付，补丁需要提问",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "银企直连"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-04-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zu7yToCDhY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

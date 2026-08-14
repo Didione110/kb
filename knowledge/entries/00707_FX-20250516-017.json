@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250516-017",
+ "record_id": "I9sB72PRzr",
+ "title": "费用分配表中，制造费用 邮电费（43个订单）和制造费用 办公费（45个订单）各自分配的订单数量不一样。",
+ "problem": "费用分配表中，制造费用 邮电费（43个订单）和制造费用 办公费（45个订单）各自分配的订单数量不一样。",
+ "cause": "系统采用的标准工时作为分摊系数，由于该产品标准工时小数位太小，且产量也少。相乘后不足产生分配比例。",
+ "solution": "订单的定额工时太小，可以忽略此项。",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "分配不均"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-05-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "I9sB72PRzr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

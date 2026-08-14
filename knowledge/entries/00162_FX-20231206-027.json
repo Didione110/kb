@@ -1,0 +1,48 @@
+{
+ "id": "FX-20231206-027",
+ "record_id": "3rsf8jcTtS",
+ "title": "给客户配置完数电票信息之后，进行开票时提示触发风险或实名认证已过期",
+ "problem": "给客户配置完数电票信息之后，进行开票时提示触发风险或实名认证已过期",
+ "cause": "配置数电票的实名认证信息过期了，需要重新认证，目前可设置的认证最大效期好像是24小时，每过24小时就需要重新扫码认证",
+ "solution": "在诺诺网页版的数电票配置里面，重新扫码认证实名信息，再重启服务开票",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "风险认证过期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51R5po8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51R5po8zN67Mw4",
+  "doc_path": "/自研/应用操作/给客户配置完数电票信息之后，进行开票时提示触发风险或实名认证已过期",
+  "record_id": "3rsf8jcTtS"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/给客户配置完数电票信息之后，进行开票时提示触发风险或实名认证已过期",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

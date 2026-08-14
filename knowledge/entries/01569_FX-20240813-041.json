@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240813-041",
+ "record_id": "f9x0vkP1ma",
+ "title": "调拨单生成的其他入库单没有单价",
+ "problem": "调拨单生成的其他入库单没有单价",
+ "cause": "调拨单上有单价出入库单就取调拨单的，调拨单没有单价，入库单就取的出库单的单价，则需记账后才有，经检查发现其余单据都有单价，就有一单没有，客户填写调拨单的时候误操作将金额改成了0",
+ "solution": "调拨单上有单价出入库单就取调拨单的，调拨单没有单价，入库单就取的出库单的单价，则需记账后才有，经检查发现其余单据都有单价，就有一单没有，客户填写调拨单的时候误操作将金额改成了0",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "单价缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-08-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "f9x0vkP1ma"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240131-077",
+ "record_id": "kUQleiVOY2",
+ "title": "导销售订单时候进去的时候只显示编码，不显示名称",
+ "problem": "导销售订单时候进去的时候只显示编码，不显示名称",
+ "cause": "导入模板上的字段使用的不对",
+ "solution": "自定义项是统计型的，Exce1上维护[pk_defdoc1]字段值(填写自定义编码即可)，如果自定义项是非统计型的，那么Exce1上维护[vdef1])",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "销售订单名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kUQleiVOY2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

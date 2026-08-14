@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-074",
+ "record_id": "LHK5mCRN6h",
+ "title": "采购退货单审批流中设置采购订单制单人作为审核处理人",
+ "problem": "采购退货单审批流中设置采购订单制单人作为审核处理人",
+ "cause": "1、先在收货单上设置私有段，然后取值采购订单的创建人。\n2、退货单上设置私有段，取值收货单的私有段。\n3、工作流设计里面。取审核人为 退货单的私有段。",
+ "solution": "1、先在收货单上设置私有段，然后取值采购订单的创建人。\n2、退货单上设置私有段，取值收货单的私有段。\n3、工作流设计里面。取审核人为 退货单的私有段。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "采购退货审批"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LHK5mCRN6h"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

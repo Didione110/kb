@@ -1,0 +1,47 @@
+{
+ "id": "FX-20250121-031",
+ "record_id": "LHvHpjkvGD",
+ "title": "处方流转界面做了升级，多步合并简化了操作步骤，在界面上显示了处方的PDF。客户反应很好，欢迎大家升级。",
+ "problem": "处方流转界面做了升级，多步合并简化了操作步骤，在界面上显示了处方的PDF。客户反应很好，欢迎大家升级。",
+ "cause": "之前是测试阶段，一步调用一个接口，比较繁琐。",
+ "solution": "能合并的都合并了，现在步骤就是 扫顾客码 ，扫药师码 2步。\n医保电子处方流转目前要求处方流转后结算必须体现提取过程，不能是手敲断档的。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "处方流转升级"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbaNlQW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbaNlQW3kdP0wQ",
+  "doc_path": "/自研/应用操作/处方流转界面做了升级，多步合并简化了操作步骤，在界面上显示了处方的PDF。客户反应很好，欢迎大家升级。",
+  "record_id": "LHvHpjkvGD"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/处方流转界面做了升级，多步合并简化了操作步骤，在界面上显示了处方的PDF。客户反应很好，欢迎大家升级。",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

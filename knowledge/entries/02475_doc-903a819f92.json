@@ -1,0 +1,30 @@
+{
+ "id": "doc-903a819f92",
+ "record_id": "",
+ "title": "附件存储目录的空间不足了，并且磁盘当前盘符无法扩展空间，怎么办？",
+ "problem": "附件存储目录的空间不足了，并且磁盘当前盘符无法扩展空间，怎么办？",
+ "cause": "蓝凌EKP附件机制相关答疑",
+ "solution": "方案一：将附件迁移到E盘某个目录下\n修改admin.do的附件目录路径，改为: E:/ekpfw/attment,然后停用tomcat服务，将D:/ekpfw/attment下所有的文件，拷贝到E:/ekpfw/attment目录下，然后启动tomcat即可。\n\n方案二：不移动原有附件目录，将新的附件存放到其他的目录\n此方案不能通过直接修改admin.do的配置来处理，因为历史的附件目录都是根据admin.do配置来读取的，所以修改admin.do的附件存储路径，就必须要将附件拷贝到对应的路径。\n可以利用附件机制设置的多附件目录功能，访问路径：/sys/attachment.index，\n然后创建一个附件目录配置，并设置为默认\n新建的文档上传的附件都会存储到E:/attment.",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn36nrObJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn36nrObJ9ekBD76",
+  "doc_path": "/蓝凌OA/应用操作/附件存储目录的空间不足了，并且磁盘当前盘符无法扩展空间，怎么办？"
+ },
+ "doc_path": "/蓝凌OA/应用操作/附件存储目录的空间不足了，并且磁盘当前盘符无法扩展空间，怎么办？",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

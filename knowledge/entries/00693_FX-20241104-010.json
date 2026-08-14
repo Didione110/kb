@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241104-010",
+ "record_id": "HkyayjAzZW",
+ "title": "需要新增得物打印组件",
+ "problem": "需要新增得物打印组件",
+ "cause": "客户有需求",
+ "solution": "在一键打印里增加得物打印组件的连接和使用\n发布更新包给实施人员",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "得物打印组件"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmwNekJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmwNekJqjMp697",
+  "doc_path": "/自研/数据接口问题/需要新增得物打印组件",
+  "record_id": "HkyayjAzZW"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/需要新增得物打印组件",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

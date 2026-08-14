@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251103-008",
+ "record_id": "MDzYO5M7Zi",
+ "title": "拉卡拉支付提示权限受限",
+ "problem": "拉卡拉支付提示权限受限",
+ "cause": "因为F07门店之前在拉卡拉中做过转企业",
+ "solution": "将F07企业重新绑定到新的企业下，完成接口转企业",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "权限受限"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDEwQzW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDEwQzW6zbX04v",
+  "doc_path": "/自研/环境问题/拉卡拉支付提示权限受限",
+  "record_id": "MDzYO5M7Zi"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/拉卡拉支付提示权限受限",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240627-046",
+ "record_id": "rUwzImmvJG",
+ "title": "系统客商银行查询需要查询开户银行",
+ "problem": "系统客商银行查询需要查询开户银行",
+ "cause": "对应表单为查询引擎编制，要对应修查询条件",
+ "solution": "字段存放表单名：bd_bankdoc\n表连接条件bd_bankaccbas.pk_bankdoc=bd_bankdoc.pk_bankdoc",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "开户银行"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rUwzImmvJG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

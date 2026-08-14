@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250828-047",
+ "record_id": "dY4cfIZHn2",
+ "title": "客户想要一次性查询合并组织下面多个公司的当月抵消分录，但是这里多选单位不生效",
+ "problem": "客户想要一次性查询合并组织下面多个公司的当月抵消分录，但是这里多选单位不生效",
+ "cause": "环境问题",
+ "solution": "请打上补丁，重启服务",
+ "solution_types": [
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "多选单位"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-08-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dY4cfIZHn2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

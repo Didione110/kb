@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250121-022",
+ "record_id": "vnCtllqUYK",
+ "title": "系统与钉钉集成后无法访问配置的应用",
+ "problem": "系统与钉钉集成后无法访问配置的应用",
+ "cause": "配置问题",
+ "solution": "需要配置网页地址及PC端地址。\n案例：\n这是流程管理模块的配置，流程管理模块是km/review\n移动地址：EKP系统域名+/km/review/mobile/index.jsp?oauth=ekp\nPC地址：EKP系统域名+ /third/ding/pc/pcpg.jsp?pg=/km/review&oauth=ekp\n\n你可以配置到钉钉工作台自建应用试试",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx",
+  "Java"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "钉钉集成故障"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "移动办公",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vnCtllqUYK"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

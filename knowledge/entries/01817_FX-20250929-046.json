@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250929-046",
+ "record_id": "lEmlBlzGDx",
+ "title": "标准采购有一单做重复了，也收货了，然后批量生成的应付单和实际发票上的金额对不上。",
+ "problem": "标准采购有一单做重复了，也收货了，然后批量生成的应付单和实际发票上的金额对不上。",
+ "cause": "采购员下采购订单的时候其中一行料品重复，导致收货数量多了，且大部分库存都已经生产领料或者销售出库。在收到发票后做应付单才发现多收了一行，导致与实际发票金额不符。",
+ "solution": "可以做一张退货单，在应付单开票时将收货单和退货单合并开票即可。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "重复收货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-09-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lEmlBlzGDx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

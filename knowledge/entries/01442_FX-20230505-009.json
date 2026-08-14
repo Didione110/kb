@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230505-009",
+ "record_id": "bQTt2pNh6e",
+ "title": "客户在使用诺诺自动开电票的时候，提示保存数据库失败，无法继续自动开票",
+ "problem": "客户在使用诺诺自动开电票的时候，提示保存数据库失败，无法继续自动开票",
+ "cause": "一般是由于客户开票的地址、银行名称等字段长度超过预处理表的字段长度，导致预处理失败",
+ "solution": "加大k\\_nn\\_tempinv、k\\_nn\\_invmt 等表对应超长字段的长度再重试即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "保存失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2023-05-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbPa3eW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbPa3eW3kdP0wQ",
+  "doc_path": "/自研/数据错误问题/客户在使用诺诺自动开电票的时候，提示保存数据库失败，无法继续自动开票",
+  "record_id": "bQTt2pNh6e"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/客户在使用诺诺自动开电票的时候，提示保存数据库失败，无法继续自动开票",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

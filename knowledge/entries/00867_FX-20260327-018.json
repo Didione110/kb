@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260327-018",
+ "record_id": "MGa9Vxp4Rb",
+ "title": "接口传递了一个资产原币原值变动单打开报错，单据无法跳转呈现，接口返回日志是成功的",
+ "problem": "接口传递了一个资产原币原值变动单打开报错，单据无法跳转呈现，接口返回日志是成功的",
+ "cause": "资产卡片表头信息调整不能给账簿\n表体财务信息变更，可以给账簿也可以不给，但是给账簿就要双边都给，不给账簿系统默认调整双边",
+ "solution": "OA传递接口需要跳转账簿字段值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "资产单报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MGa9Vxp4Rb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

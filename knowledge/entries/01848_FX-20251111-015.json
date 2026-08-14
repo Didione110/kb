@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251111-015",
+ "record_id": "m8sr9aP4L2",
+ "title": "所有分支条件均不满足，流程无法继续\n流程仿真提示“分支条件不满足”\n条件满足却错误走入了排他分支\n实际流程未按设定条件流转\n客户反馈某日所有流程异常走向排他分支\n底表触发失败，提示：“通过业务关系《xx》更新记录失败！”\n定时触发未执行\n调用表单提示：“操作异常，请稍后再试！”\n模板调用报错，出现黄色感叹号或类似 actionId false value true formCondition\n自定义函数校验通过但不生效\n表单公式计算结果错误",
+ "problem": "所有分支条件均不满足，流程无法继续\n流程仿真提示“分支条件不满足”\n条件满足却错误走入了排他分支\n实际流程未按设定条件流转\n客户反馈某日所有流程异常走向排他分支\n底表触发失败，提示：“通过业务关系《xx》更新记录失败！”\n定时触发未执行\n调用表单提示：“操作异常，请稍后再试！”\n模板调用报错，出现黄色感叹号或类似 actionId false value true formCondition\n自定义函数校验通过但不生效\n表单公式计算结果错误",
+ "cause": "Groovy 异常引起。",
+ "solution": "停止 OA 服务\n备份原始目录：\\base\\script（复制到非 OA 目录）\n删除原目录：\\base\\script\n启动 OA 服务，系统将自动重新加载 Groovy 缓存文件",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "流程异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2025-11-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "m8sr9aP4L2"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

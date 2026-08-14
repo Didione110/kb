@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230530-031",
+ "record_id": "RjCmupaciQ",
+ "title": "某一客户端，打开供应商明细账提示“运行时错误372，从UFFlexGrid.ocx 加载控件UFFlexGridctl' 失败，您的UFFlexGrid.ocx 版本可能已过期。确认您使用的控件版本是同您的应用程序一起提供的。”",
+ "problem": "某一客户端，打开供应商明细账提示“运行时错误372，从UFFlexGrid.ocx 加载控件UFFlexGridctl' 失败，您的UFFlexGrid.ocx 版本可能已过期。确认您使用的控件版本是同您的应用程序一起提供的。”",
+ "cause": "UFFlexGrid.ocx控件损坏",
+ "solution": "去正常的客户端:\\U8SOFT\\ufcomsql目录下拷贝UFFlexGrid.ocx控件到有问题客户端的:\\U8SOFT\\ufcomsql目录下进行替换，然后通过管理员身份运行命令提示符-输入：regsvr32 D:\\U8SOFT\\ufcomsql\\UFFlexGrid.ocx 进行控件注册（提示：路径应修改为实际路径）",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "UFFlexGrid.ocx"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RjCmupaciQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

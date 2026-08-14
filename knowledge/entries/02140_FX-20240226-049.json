@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240226-049",
+ "record_id": "shOMD1vRUg",
+ "title": "接口数据对应功能（传输工具，前置调度等）效率不高",
+ "problem": "接口数据对应功能（传输工具，前置调度等）效率不高",
+ "cause": "接口库数据量过大",
+ "solution": "需要每日对接口库数据进行转历史工作",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "OceanBase",
+  "TiDB",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "效率不高"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-02-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "shOMD1vRUg"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

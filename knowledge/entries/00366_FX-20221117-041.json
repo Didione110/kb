@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221117-041",
+ "record_id": "8pscNCWbyw",
+ "title": "用心人小程序盘点时每次拉起键盘需要切换为数字键盘",
+ "problem": "用心人小程序盘点时每次拉起键盘需要切换为数字键盘",
+ "cause": "手机默认拉起键盘是字母键盘",
+ "solution": "自定义数字键盘，每次拉起的键盘默认为自定义数字键盘",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数字键盘"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "产品开发部",
+  "date": "2022-11-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DbrXvJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DbrXvJKMEvZBY",
+  "doc_path": "/自研/产品功能问题/用心人小程序盘点时每次拉起键盘需要切换为数字键盘",
+  "record_id": "8pscNCWbyw"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/用心人小程序盘点时每次拉起键盘需要切换为数字键盘",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250228-047",
+ "record_id": "RSykuzVbpd",
+ "title": "不记得U8友户通企业管理员账号怎么办？\n\n",
+ "problem": "不记得U8友户通企业管理员账号怎么办？",
+ "cause": "1.如果友户通账号是该企业账号的员工，可以通过【企业服务中心】→右上角【用户中心】→【我的企业】→【我加入的租户】→【联系管理员】进行管理员查找。\n2.若无法联系管理员，可以发起【友户通企业账号管理员（信息）变更】表单申请变更管理员；\n具体操作：需要在【友空间工作台】—【协同云】—【审批】—【发起流程】-【友户通企业账号管理员（信息）变更】表单，进行更换管理员操作。\n提示：客户需要联系分销商或服务商进行管理员变更表单申请",
+ "solution": "审批流填报时，有任何疑问请联系姬巧巧 19801695085/张金灿 15311857973；\n紧急问题协调请联系张林13910200666；",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "U8友户通账号"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "行业产品",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RSykuzVbpd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

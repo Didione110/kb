@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231130-120",
+ "record_id": "jEWsYDpXER",
+ "title": "审批流程指定对应人员审批",
+ "problem": "审批流程指定对应人员审批",
+ "cause": "审批流程指定对应人员审批",
+ "solution": "添加脚本\naddUser(DBUtil.uniqueValue(\"select zgShr from CrmSellMt where entid = :_entid and billno = :billno\",{billno:wfresult.billNo}))\nzgShr 为 userid",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS",
+  "Java"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "审批人"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jEWsYDpXER"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

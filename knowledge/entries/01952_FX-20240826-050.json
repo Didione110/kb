@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240826-050",
+ "record_id": "oEkYMENtNR",
+ "title": "长期待摊费用设置按月自动摊销",
+ "problem": "长期待摊费用设置按月自动摊销",
+ "cause": "有固定资产模块的，可以通过新增资产类别“长期待摊” 然后新增对应的资产，和其他资产的处理是一样的，按月计提摊销即可；没有固定资产或者不打算使用固定资产，只使用总账的话，通过【周期凭证定义】【周期凭证执行】来实现，每月定时执行一次",
+ "solution": "有固定资产模块的，可以通过新增资产类别“长期待摊” 然后新增对应的资产，和其他资产的处理是一样的，按月计提摊销即可；没有固定资产或者不打算使用固定资产，只使用总账的话，通过【周期凭证定义】【周期凭证执行】来实现，每月定时执行一次",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "自动摊销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-08-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oEkYMENtNR"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

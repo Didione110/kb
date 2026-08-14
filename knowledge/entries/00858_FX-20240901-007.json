@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240901-007",
+ "record_id": "M8cDc2U0R7",
+ "title": "多企业下，临时功能授权到其中一个企业，结果所有企业都授权了",
+ "problem": "多企业下，临时功能授权到其中一个企业，结果所有企业都授权了",
+ "cause": "tomcat菜单设置没有管理entid",
+ "solution": "更新tomcat文件\nROOT/WEB-INF/lib/artery\\_base.jar\nROOT/WEB-INF/lib/artery\\_release.v12.jar\nROOT/WEB-INF/classes/ArteryKernel.dll\nROOT/WEB-INF/classes/ArteryKernel.so\nROOT/WEB-INF/classes/ArteryKernel64.dll\nROOT/WEB-INF/classes/cert.dat",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "授权越界"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn120DpJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn120DpJyMoPYe1",
+  "doc_path": "/时空/应用操作/多企业下，临时功能授权到其中一个企业，结果所有企业都授权了",
+  "record_id": "M8cDc2U0R7"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/多企业下，临时功能授权到其中一个企业，结果所有企业都授权了",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

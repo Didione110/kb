@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250121-056",
+ "record_id": "eQ7DAt1x3v",
+ "title": "自动记账提示javalang.NullPointerException的几种原因",
+ "problem": "自动记账提示javalang.NullPointerException的几种原因",
+ "cause": "自动记账提示javalang.NullPointerException的几种原因",
+ "solution": "1.检查公共函数里面插件设置的部门、人员等字段值是否正确\n2.Tomcat中artery.properties文件中localHose属性设置的地址及端口号是否正确\n3.存储过程是否能正常查询出来数据",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "空指针异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eQ7DAt1x3v"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

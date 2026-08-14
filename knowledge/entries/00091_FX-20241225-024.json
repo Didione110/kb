@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241225-024",
+ "record_id": "24p2cKhjzg",
+ "title": "在产品测试的时候，对于已经取消质押的票据在删除的时候报错存在后续票据行为不允许删除。",
+ "problem": "在产品测试的时候，对于已经取消质押的票据在删除的时候报错存在后续票据行为不允许删除。",
+ "cause": "应收票据在执行质押后取消质押，同时撤销也无法撤销以上的票据行为，系统是不允许删除票据的",
+ "solution": "脚本执行（在数据库中删除票据行为），请查看附件。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "OceanBase"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "票据删除报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-12-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rjq2mr8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rjq2mr8AgozOKL",
+  "doc_path": "/用友/产品功能问题/在产品测试的时候，对于已经取消质押的票据在删除的时候报错存在后续票据行为不允许删除。",
+  "record_id": "24p2cKhjzg"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/在产品测试的时候，对于已经取消质押的票据在删除的时候报错存在后续票据行为不允许删除。",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

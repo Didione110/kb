@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241024-033",
+ "record_id": "5ICekBN0GC",
+ "title": "远程桌面提示账户已锁定",
+ "problem": "远程桌面提示账户已锁定",
+ "cause": "与U8软件无关，出现锁定问题的原因，是因为开机电脑登录帐户时自己误操作(或其他人操作)在30分钟内连续5次输入错误密码造成的",
+ "solution": "解决：1、在锁定后等30分钟以上再输入正确密码，即可。\n 2、若系统登录界面可以切换别的帐户，比如管理员帐户，则用别的帐户登录进入\n 3、系统重新启动，按F8进入安全模式，在安全模式下输入密码，可正常进入系统，不受锁定限制。\n解除输错次数控制的方法：进入“控制面板”-》“管理工具”-》“本地安全策略”，在左侧栏“安全设置”中，选择“帐户策略”-》“帐户锁定策略”，右侧栏出现“帐户锁定时间【默认30分钟】”、“帐户锁定阈值【默认5次无效登录】”、“重置帐户锁定计数器【默认30分钟】”三种策略(三种策略的含义可双击后查看其说明)。双击“帐户锁定阈值”，将默认的“5次无效登录”改为“0”次。确定退出界面",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "账户锁定"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-10-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX30mbjV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX30mbjV47Z3je9",
+  "doc_path": "/用友/环境问题/远程桌面提示账户已锁定(1)",
+  "record_id": "5ICekBN0GC"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/远程桌面提示账户已锁定(1)",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

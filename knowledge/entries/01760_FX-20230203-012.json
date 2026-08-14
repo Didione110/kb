@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230203-012",
+ "record_id": "js7zsJsrYi",
+ "title": "同单位多单据合并开票，出库，退货，退补价单据都有。",
+ "problem": "同单位多单据合并开票，出库，退货，退补价单据都有。",
+ "cause": "提前校验是否有合并商品后，金额小于0的商品明细，避免提交到开票后报错。",
+ "solution": "增加提示和拦截，合并商品后，金额小于0的商品明细",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "多单合并"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjNjwE8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjNjwE8AgozOKL",
+  "doc_path": "/自研/数据接口问题/同单位多单据合并开票，出库，退货，退补价单据都有。",
+  "record_id": "js7zsJsrYi"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/同单位多单据合并开票，出库，退货，退补价单据都有。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

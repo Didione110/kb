@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240723-027",
+ "record_id": "XkPVigRjR7",
+ "title": "费用报销单，流程结束，制单推凭证到NC，报客商辅助核算翻译错误",
+ "problem": "费用报销单，流程结束，制单推凭证到NC，报客商辅助核算翻译错误",
+ "cause": "个性化客开部署丢失，使得自定义类的辅助核算，单据映射配置后，预览制证“核算/编码”的原因，导致翻译失败，无法转换推送成功，正确的翻译模式应该是“编码/核算”",
+ "solution": "重新部署个性化NC推送凭证的客开插件包，并重启服务后，重新配置一次单据映射的自定义类的辅助核算字段，重新制单推送，成功\n\n注意，后期NC凭证集成这一块，检查推送翻译规则，得是“编码/核算”的显示才能成功",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "客商核算"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-07-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XkPVigRjR7"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "数据接口问题"
+ ]
+}

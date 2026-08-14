@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240604-012",
+ "record_id": "udlmROLPaR",
+ "title": "要求在医保网内提供服务，不能上外网，智慧医保的服务端不能联网，就不能通过云服务验证科情产品",
+ "problem": "要求在医保网内提供服务，不能上外网，智慧医保的服务端不能联网，就不能通过云服务验证科情产品",
+ "cause": "支持本地文件验证，在云服务https://plat.kq1997.net/#/，可以下载配置信息文件到本地，例如 EF5EOR9JCSY_D8B47PLEFIF.license 放在程序目录下，实现验证；",
+ "solution": "服务端程序升级，支持本地文件验证，代替之前的联网验证。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "内网隔离"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "udlmROLPaR"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

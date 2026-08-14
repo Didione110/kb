@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230801-003",
+ "record_id": "vNa6luJI6M",
+ "title": "销售订单不勾选退货，填负数的情况下，系统能否报错 ，不允许订单保存",
+ "problem": "销售订单不勾选退货，填负数的情况下，系统能否报错 ，不允许订单保存",
+ "cause": "订单填的负数，但是没有勾选退货，导致在出库环节就会报错，客户需要在订单环节做到控制",
+ "solution": "使用验证公式$Error->iif(ntotalnum<0&!(bretinvflag),数量小于0未勾选退货标志,\"\")来实现，提示当表头合计数量为负数，不勾选退货标志，在保存时给出错误提示",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "负数保存校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-08-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vNa6luJI6M"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

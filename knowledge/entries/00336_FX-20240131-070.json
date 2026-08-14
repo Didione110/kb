@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240131-070",
+ "record_id": "85Hg9uJ6KX",
+ "title": "总账结账中重建余额表是灰色的。",
+ "problem": "总账结账中重建余额表是灰色的。",
+ "cause": "客户在重建余额表后，总账结账节点的所有按钮都是灰色的。",
+ "solution": "在系统监视器中查看是否多人同时打开了结账界面。可以在系统监视器中终止用户，或者让这些用户退出总账的结账节点。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "重建余额表"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1Kx6rWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1Kx6rWrMqPxX6",
+  "doc_path": "/用友/数据错误问题/总账结账中重建余额表是灰色的。",
+  "record_id": "85Hg9uJ6KX"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据错误问题/总账结账中重建余额表是灰色的。",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

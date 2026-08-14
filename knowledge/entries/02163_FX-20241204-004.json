@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241204-004",
+ "record_id": "tFOO9IFKou",
+ "title": "读卡之后预结算提示  ‘Microsoft Visual C++ Runtime Library’，结算失败  ",
+ "problem": "读卡之后预结算提示 ‘Microsoft Visual C++ Runtime Library’，结算失败",
+ "cause": "客户电脑之前硬盘损坏，重新跟换硬盘何操作系统，操作系统补丁不全",
+ "solution": "执行运行库，结算恢复正常",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "运行库错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2024-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3NgYeV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3NgYeV47Z3je9",
+  "doc_path": "/自研/环境问题/读卡之后预结算提示Microsoft Visual C++ Runtime Library结算失败",
+  "record_id": "tFOO9IFKou"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/读卡之后预结算提示Microsoft Visual C++ Runtime Library结算失败",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

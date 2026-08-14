@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241218-019",
+ "record_id": "0d1CtEd2Wp",
+ "title": "收文登记时 无法自定义添加发文单位",
+ "problem": "收文登记时 无法自定义添加发文单位",
+ "cause": "没有添加单位的权限",
+ "solution": "在权限中增加单位维护权限",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "发文单位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "公文管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-12-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0d1CtEd2Wp"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

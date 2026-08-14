@@ -1,0 +1,38 @@
+{
+ "id": "FX-20221102-002",
+ "record_id": "eSALT7Ti7k",
+ "title": "NC65新加子公司的现金流量如何初始化",
+ "problem": "NC65新加子公司的现金流量如何初始化",
+ "cause": "配置不全",
+ "solution": "1.在现金流量项目-集团中给对应子公司分配现金流量项目；\n2.在科目关系设置-组织检查科目关系设置是否正常存在，能否增删改；\n3.在总账-现金流量表-现金流量分析处进行流量自动分析即可；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "现金流量初始化"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eSALT7Ti7k"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

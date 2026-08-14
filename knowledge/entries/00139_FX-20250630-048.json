@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250630-048",
+ "record_id": "3J1HSxzesH",
+ "title": "客户目前需要设置现金流量的科目关系设置，现在流量区分内部和外部，例如2202应付账款的客商辅助为外部公司（客商分类）设置A现金流量项目，当客商为内部公司（客商分类）设置B现金流量项目",
+ "problem": "客户目前需要设置现金流量的科目关系设置，现在流量区分内部和外部，例如2202应付账款的客商辅助为外部公司（客商分类）设置A现金流量项目，当客商为内部公司（客商分类）设置B现金流量项目",
+ "cause": "同样科目需要按照供应商的分类进行内部和外部现金流的判断",
+ "solution": "科目关系设置可以按科目+辅助设置，项目如果想要按客商区分，就按客商辅助设置对应关系就行\n一套按照科目的设置不带辅助核算的现金流，一套按照科目+供应商辅助核算的设置不带辅助核算的现金流",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "现金流量科目"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3J1HSxzesH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

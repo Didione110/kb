@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240806-023",
+ "record_id": "weukZPXC9U",
+ "title": "开发票时报错，提示 返回:JsoN parse error: Unexpected end-of-input in",
+ "problem": "开发票时报错，提示 返回:JsoN parse error: Unexpected end-of-input in",
+ "cause": "商品规格 0.25g(按赖氨匹林(C1522W 中有特殊字段 删除点就好了",
+ "solution": "删除特殊字符，开票成功",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "JSON解析错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2024-08-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "weukZPXC9U"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

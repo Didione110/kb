@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250919-021",
+ "record_id": "66xU8l3KMd",
+ "title": "商品资料同步失败，同步日志记录报错原因为没有对应的商品单位XX。",
+ "problem": "商品资料同步失败，同步日志记录报错原因为没有对应的商品单位XX。",
+ "cause": "原因是商品资料对应的商品单位数据未同步到点三。点三接收新增的商品资料时无法匹配到对应的商品单位，所以推送失败。",
+ "solution": "解决方法是先将商品单位数据同步完成之后在推送商品资料数据，或者是在点三直接导入商品单位数据。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "商品单位"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-09-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7M1P2W9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7M1P2W9dEq3XD",
+  "doc_path": "/其他/数据接口问题/商品资料同步失败，同步日志记录报错原因为没有对应的商品单位XX。",
+  "record_id": "66xU8l3KMd"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/商品资料同步失败，同步日志记录报错原因为没有对应的商品单位XX。",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

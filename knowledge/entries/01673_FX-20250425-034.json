@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250425-034",
+ "record_id": "hZ7k7IiDeT",
+ "title": "BIP高级版目前与友互通关联，正式授权导入后，用户需要注册激活用友云账户，项目上需要让系统管理员账号绕过云账号注册激活校验，无账号绑定；",
+ "problem": "BIP高级版目前与友互通关联，正式授权导入后，用户需要注册激活用友云账户，项目上需要让系统管理员账号绕过云账号注册激活校验，无账号绑定；",
+ "cause": "BIP高级版目前与友互通关联；用户需要注册用友云账户",
+ "solution": "用户绕过云注册校验\n没有激活手机号的用户，可以在sm_refresh_token表中插入一条管理员数据，字段busicentercode账套编码，pk_user主键，pk_refresh_token该表主键，其他字段随意设置，后期如果改为离线模式，bip基础功能不影响，只是一些友互通功能不可使用；pk_refresh_token依次编写\nINSERT INTO sm_refresh_token (busicentercode, pk_user, pk_refresh_token, isrealauth)\nVALUES \n ('001', '0001A910000000006030', '1001A910000001119UZ1', '0'),\n ('001', '0001A91000000000603D', '1001A910000001119UZ2', '0'),\n ('001', '0001A91000000000603L', '1001A910000001119UZ3', '0'),\n ('001', '1001A910000000000450', '1001A910000001119UZ5', '0'),\n ('001', '1001A91000000000044Q', '1001A910000001119UZ6', '0');",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "绕过激活"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-04-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hZ7k7IiDeT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

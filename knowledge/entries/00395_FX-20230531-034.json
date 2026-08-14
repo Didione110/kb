@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230531-034",
+ "record_id": "9U0tarKHhD",
+ "title": "wms复核需要扫电子监管码",
+ "problem": "wms复核需要扫电子监管码",
+ "cause": "相关参数没有设置",
+ "solution": "需要设置3个参数 ：1电子监管码扫码拦截 设置为是 2.电子监管码数量拦截 设置为 y（小写） 3.实际修改数量拦截 设置为是",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "电子监管码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymL6jP8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymL6jP8xkXOEP2",
+  "doc_path": "/其他/产品功能问题/wms复核需要扫电子监管码",
+  "record_id": "9U0tarKHhD"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/wms复核需要扫电子监管码",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

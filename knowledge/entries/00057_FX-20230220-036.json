@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230220-036",
+ "record_id": "1Hkni8zyrs",
+ "title": "win10升级到win11后sql服务无法启动：请求失败或服务未及时响应",
+ "problem": "win10升级到win11后sql服务无法启动：请求失败或服务未及时响应",
+ "cause": "在运行 Win11系统上，某些新的存储设备和设备驱动程序将公开支持大于4 KB 扇区大小的磁盘扇区大小。\n发生这种情况时，由于文件系统不受支持，SQL Server将无法启动，因为SQL Server当前支持512字节和 4KB 的扇区存储大小。",
+ "solution": "在SQL Server实列的启动参数中添加“-T1800”跟踪标志，然后再启动SQL Server\n默认情况下不启用此跟踪标志。 跟踪标志1800强制SQL Server使用4 KB 作为所有读取和写入操作的扇区大小。 在物理扇区大小大于4 KB 的磁盘上运行SQL Server时，使用跟踪标志1800将模拟本机4 KB 驱动器，这是SQL Server支持的扇区大小。",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "SQL服务启动"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41w9jzJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41w9jzJA7depqY",
+  "doc_path": "/用友/环境问题/win10升级到win11后sql服务无法启动：请求失败或服务未及时响应",
+  "record_id": "1Hkni8zyrs"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/win10升级到win11后sql服务无法启动：请求失败或服务未及时响应",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

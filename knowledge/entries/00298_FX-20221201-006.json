@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221201-006",
+ "record_id": "7CCjl0Gm9G",
+ "title": "无法批量修改客户属性",
+ "problem": "无法批量修改客户属性",
+ "cause": "没有选择范围",
+ "solution": "批改--选择【所属地区】--全选显示记录--【是否收付协同】打勾--确定",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "批量修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-12-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1Q7YLWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1Q7YLWdqbropQ",
+  "doc_path": "/用友/应用操作/无法批量修改客户属性",
+  "record_id": "7CCjl0Gm9G"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/无法批量修改客户属性",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

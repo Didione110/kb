@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240506-004",
+ "record_id": "XnaFl4IKub",
+ "title": "OPEN API采购审批接口调用提示ExceptionMessage\":\"找不到方法:“Void UFIDA.U9.ISV.PUB.RestSV.Model.Pub.ResultDTORData.set_Success(Boolean)",
+ "problem": "OPEN API采购审批接口调用提示ExceptionMessage\":\"找不到方法:“Void UFIDA.U9.ISV.PUB.RestSV.Model.Pub.ResultDTORData.set_Success(Boolean)",
+ "cause": "更新补丁有遗漏",
+ "solution": "打上最新补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "方法未找到"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XnaFl4IKub"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

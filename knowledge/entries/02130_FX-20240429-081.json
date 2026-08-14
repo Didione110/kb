@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240429-081",
+ "record_id": "sXMnahlnOG",
+ "title": "应付单立账时报错：Enterprise[01]不存在!",
+ "problem": "应付单立账时报错：Enterprise[01]不存在!",
+ "cause": "环境出现问题，显示01账簿不存在。",
+ "solution": "1、在系统管理-JOB引擎配置中对该企业进行配置，然后重启下JOB服务\n2、重启服务器",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "Enterprise不存在"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sXMnahlnOG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

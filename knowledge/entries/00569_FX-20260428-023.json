@@ -1,0 +1,37 @@
+{
+ "id": "FX-20260428-023",
+ "record_id": "DrJnD9jxtZ",
+ "title": "客户问：总账未结账，下月存货核算可以提前记账吗？有参数控制吗？",
+ "problem": "客户问：总账未结账，下月存货核算可以提前记账吗？有参数控制吗？",
+ "cause": "没有对应参数控制",
+ "solution": "存货核算是否记账不影响总账，存货核算可以单独提前结账",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "总账结账、存货核算、提前记账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DrJnD9jxtZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

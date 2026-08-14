@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240305-020",
+ "record_id": "skh0JbwPBx",
+ "title": "ERP下发WMS后无法找到对应批次出库导致卡单",
+ "problem": "ERP下发WMS后无法找到对应批次出库导致卡单",
+ "cause": "经过排查发现原因是WMS多组织之间做了货主调拨后，调入组织会生成新的批次ID不是直接引用调出组织的批次ID",
+ "solution": "提取调拨入库提取时候取WMS传入的新批次ID",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "批次缺失"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "skh0JbwPBx"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

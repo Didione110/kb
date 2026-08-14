@@ -1,0 +1,49 @@
+{
+ "id": "FX-20251201-001",
+ "record_id": "8vwgDMDwCt",
+ "title": "语义模型-预置节点缺少预置的报表；财务会计模块没有任何语义模型",
+ "problem": "语义模型-预置节点缺少预置的报表；财务会计模块没有任何语义模型",
+ "cause": "财务会计的语义模型在存货核算模块中，不存在存货核算模块需要单独插入模型",
+ "solution": "执行语句：\n插入财务会计目录：INSERT INTO BI\\_SMART\\_DIR (ASSETINDUSTRY, ASSETLAYER, CREATIONTIME, CREATOR, DIRNAME, DIRNAME2, DIRNAME3, DIRNAME4, DIRNAME5, DIRNAME6, DR, MODIFIEDTIME, MODIFIER, MODULEID, NOTE, PK\\_DIR, PK\\_GROUP, PK\\_ORG, PK\\_PARENT, SEQNUMBER, SYSINIT, TS) VALUES(NULL, NULL, '2011-03-11 09:56:46', '1003Z810000000001VWJ', '财务会计', '財務會計', 'Financial Accounting', NULL, NULL, NULL, 0, NULL, NULL, 'IA', NULL, '1003Z810000000003XZ5', '~', 'GLOBLE00000000000000', NULL, NULL, 'Y', '2024-01-05 16:37:19');",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "语义模型、预置节点、报表缺失、财务会计"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-12-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1OqbwJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1OqbwJyMoPYe1",
+  "doc_path": "/用友/应用操作/语义模型-预置节点缺少预置的报表；财务会计模块没有任何语义模型",
+  "record_id": "8vwgDMDwCt"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/语义模型-预置节点缺少预置的报表；财务会计模块没有任何语义模型",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230304-007",
+ "record_id": "t6S7gDYbb9",
+ "title": "单据上自定义字段不够用",
+ "problem": "单据上自定义字段不够用",
+ "cause": "通过接口传递信息到U8C，自定义字段在程序中只有20个，新增的自定义字段能在U8C界面显示，但是不能通过接口新增。",
+ "solution": "新增多个自定义字段，然后在新增的自定义字段值补充如下公式\nstart1 -> indexof(vdef10, \"string1:\");\nsubstr1 -> mid(vdef10, start1, length(vdef10));\nstring1 -> mid(substr1, length(\"string1:\"), indexof(substr1, \",\"));\n将接口能使用的自定义字段与新增的字段进行关联拆分",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "字段不足"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-03-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "t6S7gDYbb9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

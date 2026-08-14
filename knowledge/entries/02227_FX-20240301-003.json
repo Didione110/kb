@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240301-003",
+ "record_id": "uttVVV3dSn",
+ "title": "报表无法登录，提示单点登录失败；",
+ "problem": "报表无法登录，提示单点登录失败；",
+ "cause": "浏览器原因",
+ "solution": "在控制面板，网络和internet中打开internet选项，高级中取消启用第三方浏览器扩展的勾后，重新登录正常；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "单点登录失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-03-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uttVVV3dSn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

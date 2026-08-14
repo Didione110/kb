@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240921-028",
+ "record_id": "1VLYUMZy33",
+ "title": "协同BPM，流程督办监控，未结束流程，后台编辑流程时，无法选择部门对应管理角色，进行流程编辑调整",
+ "problem": "协同BPM，流程督办监控，未结束流程，后台编辑流程时，无法选择部门对应管理角色，进行流程编辑调整",
+ "cause": "产品标准功能即如此，不支持部门对应管理角色进行后台在途流程的编辑调整，督办权限亦是如此",
+ "solution": "标准功能，无法修改，注意后期客户使用的时候，引导即可",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "部门角色"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-09-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yARpMM8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yARpMM8GXn6lpz",
+  "doc_path": "/致远OA/产品功能问题/协同BPM，流程督办监控，未结束流程，后台编辑流程时，无法选择部门对应管理角色，进行流程编辑调整",
+  "record_id": "1VLYUMZy33"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/协同BPM，流程督办监控，未结束流程，后台编辑流程时，无法选择部门对应管理角色，进行流程编辑调整",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

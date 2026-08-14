@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231107-053",
+ "record_id": "XAtHv9zyQe",
+ "title": "时空v11tomcat部署时报错",
+ "problem": "时空v11tomcat部署时报错",
+ "cause": "jdk版本不对，v11tomcat要求的jdk版本为1.7",
+ "solution": "替换jdk为对应版本",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "部署报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XAtHv9zyQe"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

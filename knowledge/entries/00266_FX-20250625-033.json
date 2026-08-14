@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250625-033",
+ "record_id": "6FyIu55XEv",
+ "title": "MRP运算，需要先算生产订单，在计算采购单",
+ "problem": "MRP运算，需要先算生产订单，在计算采购单",
+ "cause": "客户需求，BOM版本无法确认时，需要按层级运算",
+ "solution": "在MRP运算时勾选层级运算，先算生产订单，在根据生产订单运算采购",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "MRP顺序"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-06-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "6FyIu55XEv"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

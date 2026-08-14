@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221117-039",
+ "record_id": "oXPKGxF8H8",
+ "title": "增加的自定义字段，在单据上有值，列表无值",
+ "problem": "增加的自定义字段，在单据上有值，列表无值",
+ "cause": "该字段是接口传值，存在传值方式不对的情况",
+ "solution": "在基础设置-集团-实体扩展字段-操作-同步当前段组合名称，找到该字段后执行，列表值已出现",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "字段同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2022-11-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oXPKGxF8H8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

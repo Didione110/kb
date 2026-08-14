@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251016-023",
+ "record_id": "9ucLTW8cmN",
+ "title": "U8发货单列表输出报错提示：未能找到office数据引警，请先安装Office数据引警安装路径:D:U8SOFT 3rdPrograms AccessDatabaseEngine.exe若本机没有安装Office软件，请洗择输出为97-03格式的excel文件Microsoft Excel 97-2003(*xls)",
+ "problem": "U8发货单列表输出报错提示：未能找到office数据引警，请先安装Office数据引警安装路径:D:U8SOFT 3rdPrograms AccessDatabaseEngine.exe若本机没有安装Office软件，请洗择输出为97-03格式的excel文件Microsoft Excel 97-2003(*xls)",
+ "cause": "重新安装Office数据引警D:U8SOFT 3rdPrograms AccessDatabaseEngine.exe",
+ "solution": "重新安装后，列表输出正常",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "OfficeTrans"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Office缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2025-10-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbKwp7W3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbKwp7W3kdP0wQ",
+  "doc_path": "/用友/应用操作/U8发货单列表输出报错提示：未能找到office数据引警，请先安装Office数据引警安装路径 D U8SOFT 3rdPrograms AccessDatabaseEngine.exe若本机没...",
+  "record_id": "9ucLTW8cmN"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/U8发货单列表输出报错提示：未能找到office数据引警，请先安装Office数据引警安装路径 D U8SOFT 3rdPrograms AccessDatabaseEngine.exe若本机没...",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

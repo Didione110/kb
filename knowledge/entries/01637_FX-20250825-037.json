@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250825-037",
+ "record_id": "gjBhbyycPq",
+ "title": "订单管理中操作关闭订单需要选择原因，不然无法关闭。但是有没有可选的原因",
+ "problem": "订单管理中操作关闭订单需要选择原因，不然无法关闭。但是有没有可选的原因",
+ "cause": "订单关闭的原因管理没有维护",
+ "solution": "在订单或者出库单,售后单操作关闭或者驳回操作时，往往需要记录具体的操作原因。就可以先提前在原因功能功能中编辑好各个功能应用常用的原因选项。在操作时就可以直接选择，避免在临时创建原因。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "原因缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-08-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1q7KQ8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1q7KQ8BQEx5rG",
+  "doc_path": "/其他/应用操作/订单管理中操作关闭订单需要选择原因，不然无法关闭。但是有没有可选的原因",
+  "record_id": "gjBhbyycPq"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/订单管理中操作关闭订单需要选择原因，不然无法关闭。但是有没有可选的原因",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

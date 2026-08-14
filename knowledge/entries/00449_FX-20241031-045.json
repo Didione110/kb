@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241031-045",
+ "record_id": "AumIelX5gy",
+ "title": "健康人医保收款出现总是出现多出一种支付方式且多出一分钱",
+ "problem": "健康人医保收款出现总是出现多出一种支付方式且多出一分钱",
+ "cause": "客户对总账是对的，但是对支付方式明细会存在差异",
+ "solution": "新增支付方修改功能，包含修改支付金额，修改支付方式，删除支付方式明细等，客户可以自行解决",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "医保多付"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX12XwNWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX12XwNWkb4Mw9r",
+  "doc_path": "/时空/应用操作/健康人医保收款出现总是出现多出一种支付方式且多出一分钱",
+  "record_id": "AumIelX5gy"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/健康人医保收款出现总是出现多出一种支付方式且多出一分钱",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

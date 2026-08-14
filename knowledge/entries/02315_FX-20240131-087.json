@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240131-087",
+ "record_id": "wkagePWmtK",
+ "title": "分析报告无法选择web端创建的数据集或数据模型",
+ "problem": "分析报告无法选择web端创建的数据集或数据模型",
+ "cause": "分析报告，只能调用Excel设计器创建数据集或数据模型。",
+ "solution": "通过Excel设计器重新创建对应数据集或数据模型",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据集选择"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "思迈特BI-SmartBI",
+ "module": "",
+ "meta": {
+  "submitter": "彭宇翔",
+  "department": "实施5部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wkagePWmtK"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

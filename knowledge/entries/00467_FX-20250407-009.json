@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250407-009",
+ "record_id": "BWADUPZeZF",
+ "title": "天猫订单获取明文的顾客敏感信息（姓名地址电话）失败，返回空\n导致不能打单发货",
+ "problem": "天猫订单获取明文的顾客敏感信息（姓名地址电话）失败，返回空\n导致不能打单发货",
+ "cause": "天猫淘系订单，需要在聚石塔上发布一个接口服务供程序调用，通过订单的OAID获取明文信息；",
+ "solution": "客户的这个聚石塔上的云服务器卡掉了，重启聚石塔服务器，重启接口服务程序 。",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "敏感信息获取失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3GmYBJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3GmYBJakx1Z5N",
+  "doc_path": "/自研/数据接口问题/天猫订单获取明文的顾客敏感信息（姓名地址电话）失败，返回空 导致不能打单发货",
+  "record_id": "BWADUPZeZF"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/天猫订单获取明文的顾客敏感信息（姓名地址电话）失败，返回空 导致不能打单发货",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

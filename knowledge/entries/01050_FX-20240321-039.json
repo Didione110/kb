@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240321-039",
+ "record_id": "QokFEX1K6v",
+ "title": "在查询引擎表中新增的字段，即使调整了SQL设计--选择字段的顺序，但是查询时候显示还是会在最后一个字段",
+ "problem": "在查询引擎表中新增的字段，即使调整了SQL设计--选择字段的顺序，但是查询时候显示还是会在最后一个字段",
+ "cause": "之前画表时候格式设计保存了格式",
+ "solution": "调整选择字段的顺序后，还需要在格式设计中做一遍保存操作",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段顺序"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-03-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QokFEX1K6v"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

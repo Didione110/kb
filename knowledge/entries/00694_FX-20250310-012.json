@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250310-012",
+ "record_id": "HoM7esuZRs",
+ "title": "零货拣货完成后，复核台提取不到任务",
+ "problem": "零货拣货完成后，复核台提取不到任务",
+ "cause": "WmsUnpackdt表的复核台id字段statid值错误",
+ "solution": "调整statid为正确复核台id",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "复核任务"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-03-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3Gq1bWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3Gq1bWkyEqBQm",
+  "doc_path": "/时空/产品功能问题/零货拣货完成后，复核台提取不到任务",
+  "record_id": "HoM7esuZRs"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/零货拣货完成后，复核台提取不到任务",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

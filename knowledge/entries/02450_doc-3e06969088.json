@@ -1,0 +1,30 @@
+{
+ "id": "doc-3e06969088",
+ "record_id": "",
+ "title": "日期时间控件常见运用（时间差与时间推算）",
+ "problem": "日期时间控件常见运用（时间差与时间推算）",
+ "cause": "日期时间控件常见运用（时间差&时间推算）",
+ "solution": "见附件\n举一反三：如果你需要计算 N天前 的日期，只需将 \\+ 改为 - 即可：\nnew Date($时间.当前时间$\n().getTime() - N*24*60*60*1000L)",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmx6M6z8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmx6M6z8yeZqMmz",
+  "doc_path": "/蓝凌OA/应用操作/日期时间控件常见运用（时间差与时间推算）"
+ },
+ "doc_path": "/蓝凌OA/应用操作/日期时间控件常见运用（时间差与时间推算）",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

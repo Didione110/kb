@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-052",
+ "record_id": "HoZ0WXxmAr",
+ "title": "时空无法导出xml文件导入到码上放心",
+ "problem": "时空无法导出xml文件导入到码上放心",
+ "cause": "时空无法导出xml文件导入到码上放心",
+ "solution": "新做了批量导出的xml文件的功能表单",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "XML导出失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gr3P6JxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gr3P6JxAZB1Gv",
+  "doc_path": "/时空/产品功能问题/时空无法导出xml文件导入到码上放心",
+  "record_id": "HoZ0WXxmAr"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/时空无法导出xml文件导入到码上放心",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

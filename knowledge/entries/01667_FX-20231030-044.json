@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231030-044",
+ "record_id": "hTeaDaHi4u",
+ "title": "YS销售订单默认带部门",
+ "problem": "YS销售订单默认带部门",
+ "cause": "YS销售订单默认带部门",
+ "solution": "在UI模板中在对应销售订单单据上上设置页面规则条件，触发时机选择页面变化，注意，该触发条件对列表查询不生效",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "部门默认"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-10-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hTeaDaHi4u"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

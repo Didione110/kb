@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241129-067",
+ "record_id": "q9P9xuG4Cg",
+ "title": "客户同一品种同一批号一整件，开了几个抬头单据，但是要求仓库发货为整件",
+ "problem": "客户同一品种同一批号一整件，开了几个抬头单据，但是要求仓库发货为整件",
+ "cause": "客户一整件开多个抬头，实际按流程来应该是补货后发零货",
+ "solution": "让客户开单时，需要这种合单的，进行合单勾选，WMS看到后，让调度前先进行合单操作（就是将需要合单的单据选择，点击合单，系统来判断几个合单单据是否为一整件，顺便生成一个同一编码），然后调度时，这种单据的件包装默认为1，通过整件刷卡来拣货。\n例如，一件60，开2单，20,40数量，两单开单选合单，生成统一编码，这样系统会让其整件刷卡拣货，拣货时刷两张标签，一个40，一个20，全部显示编码，合单：编码。客户然后自己识别去拿整件。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "整件发货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-11-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q9P9xuG4Cg"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

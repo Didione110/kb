@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240201-009",
+ "record_id": "UrXNV3Lsmm",
+ "title": "任何功能保存提示都变成了英文",
+ "problem": "任何功能保存提示都变成了英文",
+ "cause": "无",
+ "solution": "管理群清理缓存的界面：系统初始化信息-自定义国际化信息点刷新即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "语言设置"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UrXNV3Lsmm"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

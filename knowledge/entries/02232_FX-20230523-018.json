@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230523-018",
+ "record_id": "v7M1Qkmnjf",
+ "title": "做凭证的时候，提示：凭证差异校验不通过",
+ "problem": "做凭证的时候，提示：凭证差异校验不通过",
+ "cause": "无",
+ "solution": "参数设置-财务会计-总账：“ ZK003 凭证保存时是否校验预算结余和财务盈余平衡” 参数值设置为：否，或者在制单界面，点击凭证-差异分析，把涉及损益类科目的分录，录入到差异分析里面即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证差异"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-05-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "v7M1Qkmnjf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

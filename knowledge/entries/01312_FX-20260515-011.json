@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260515-011",
+ "record_id": "YHZGEq2oTE",
+ "title": "客户想要固定资产业务在入库单里面反映",
+ "problem": "客户想要固定资产业务在入库单里面反映",
+ "cause": "需要设置固定资产存货和新建固定资产业务流程",
+ "solution": "需要设置固定资产存货和新建固定资产业务流程，已经编制解决方案操作手册按照附件设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "资产业务"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YHZGEq2oTE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

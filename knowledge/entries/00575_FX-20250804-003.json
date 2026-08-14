@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250804-003",
+ "record_id": "E2Izn104vM",
+ "title": "sftp数据上传接口，.NET Core程序连接SFTP时出现的\"failed to negotiate key exchange algorithm\"，",
+ "problem": "sftp数据上传接口，.NET Core程序连接SFTP时出现的\"failed to negotiate key exchange algorithm\"，",
+ "cause": "密钥交换算法问题，可能是默认算法列表中没有包含服务器要求的算法。",
+ "solution": "简单解决：升级ssh的组件dll，包含更多的算法，发送客户测试成功。\n精确解决：查看服务器支持的算法列表。在程序中添加这个算法。",
+ "solution_types": [
+  "补丁更新",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "密钥协商失败"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1bMYBWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1bMYBWdqbropQ",
+  "doc_path": "/自研/软件补丁问题/sftp数据上传接口，.NET Core程序连接SFTP时出现的 failed to negotiate key exchange algorithm ，",
+  "record_id": "E2Izn104vM"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件补丁问题/sftp数据上传接口，.NET Core程序连接SFTP时出现的 failed to negotiate key exchange algorithm ，",
+ "category": [
+  "自研",
+  "软件补丁问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241009-022",
+ "record_id": "8t2IfiB7G0",
+ "title": "用sqldeveloper工具连接oracle数据库时提示Undefined error",
+ "problem": "用sqldeveloper工具连接oracle数据库时提示Undefined error",
+ "cause": "一般是由于ojdbc的jar版本和oracel数据库版本不兼容导致",
+ "solution": "找到SQLDeveloper目录下的jdbc里的lib用低版本ojdbc.jar替换里面的ojdbc.jar\n附件为低版本的ojdbc压缩包",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "SQL Developer"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2024-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mz3LzJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mz3LzJ9ekBD76",
+  "doc_path": "/时空/环境问题/用sqldeveloper工具连接oracle数据库时提示Undefined error",
+  "record_id": "8t2IfiB7G0"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/用sqldeveloper工具连接oracle数据库时提示Undefined error",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

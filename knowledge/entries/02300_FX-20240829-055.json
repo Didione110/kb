@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240829-055",
+ "record_id": "wYyysB3wTN",
+ "title": "T+凭证打印预览、账表、固定资产等预览提示“应用程序错误，内存不能为written”",
+ "problem": "T+凭证打印预览、账表、固定资产等预览提示“应用程序错误，内存不能为written”",
+ "cause": "该电脑打印预览office文件均正常，客户端打印预览也正常，软件其他使用无问题，卸载T+浏览器后重新安装后正常，T+浏览器程序异常",
+ "solution": "该电脑打印预览office文件均正常，客户端打印预览也正常，软件其他使用无问题，卸载T+浏览器后重新安装后正常，T+浏览器程序异常",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "内存错误"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-08-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wYyysB3wTN"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

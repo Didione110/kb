@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231130-111",
+ "record_id": "7JeGMTYTkW",
+ "title": "电商单据存在，单据传入仓储，但是客户取消的情况",
+ "problem": "电商单据存在，单据传入仓储，但是客户取消的情况",
+ "cause": "电商单据存在，单据传入仓储，但是客户取消的情况",
+ "solution": "建立取消中间表，客户取消后，消息自动传入WMS，WMS根据取消表信息在调度或复核的时候对单据进行拦截，尽量避免货发走现象。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "单据取消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yANmdj8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yANmdj8GXn6lpz",
+  "doc_path": "/其他/应用操作/电商单据存在，单据传入仓储，但是客户取消的情况",
+  "record_id": "7JeGMTYTkW"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/电商单据存在，单据传入仓储，但是客户取消的情况",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

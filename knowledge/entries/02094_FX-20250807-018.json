@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250807-018",
+ "record_id": "rMtHxEv89I",
+ "title": "出库单保存报错，数据截断，排查业务单据字段未发现任何问题",
+ "problem": "出库单保存报错，数据截断，排查业务单据字段未发现任何问题",
+ "cause": "单位往来余额过大，导致出库单保存插入往来资料表字段数据溢出",
+ "solution": "调整wlzhk，wldxjc表中ye字段长度",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据截断"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2025-08-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rMtHxEv89I"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

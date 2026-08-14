@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230805-011",
+ "record_id": "DNx1RVOfTB",
+ "title": "系统自带的分页功能在查询报表不生效问题（实际数据有1462条，但是默认查询处理只有500条页数只有一页）",
+ "problem": "系统自带的分页功能在查询报表不生效问题（实际数据有1462条，但是默认查询处理只有500条页数只有一页）",
+ "cause": "查询的sql语句中结尾添加了 order by 排序，导致跟tomcat里面写好的分页方法冲突",
+ "solution": "去掉查询sql里面的order by 就可以了",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "分页失效"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mkN9xJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mkN9xJ9ekBD76",
+  "doc_path": "/时空/产品功能问题/系统自带的分页功能在查询报表不生效问题（实际数据有1462条，但是默认查询处理只有500条页数只有一页）",
+  "record_id": "DNx1RVOfTB"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/系统自带的分页功能在查询报表不生效问题（实际数据有1462条，但是默认查询处理只有500条页数只有一页）",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250218-009",
+ "record_id": "SEkjDeaGYh",
+ "title": "分录模板需要取扩展字段，但扩展字段存的编码",
+ "problem": "分录模板需要取扩展字段，但扩展字段存的编码",
+ "cause": "扩展字段参照的供应商，存储的编码",
+ "solution": "使用函数GetFlexSegNameValue('S002',AssetCardAccountInformation.AssetCard.DescFlexField.PubDescSeg25)，参数1 S002为扩展字段对应值集，参数2 为对应字段",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "扩展字段"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-02-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SEkjDeaGYh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

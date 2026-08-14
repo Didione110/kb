@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231202-003",
+ "record_id": "qY0ejKYUqc",
+ "title": "诺诺发票程序在http://invoice.ins.kq1997.net/公司服务器发布，自动更新，有的人需求卸载后重新安装，没有卸载干净，重新安装失败",
+ "problem": "诺诺发票程序在http://invoice.ins.kq1997.net/公司服务器发布，自动更新，有的人需求卸载后重新安装，没有卸载干净，重新安装失败",
+ "cause": "没有卸载干净，重新安装失败",
+ "solution": "删除C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Apps目录下所有内容，删除干净再安装",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "卸载残留"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-12-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYedKNDV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYedKNDV1waOeDk",
+  "doc_path": "/自研/安装部署问题/诺诺发票程序在公司服务器发布，自动更新，有的人需求卸载后重新安装，没有卸载干净，重新安装失败",
+  "record_id": "qY0ejKYUqc"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/诺诺发票程序在公司服务器发布，自动更新，有的人需求卸载后重新安装，没有卸载干净，重新安装失败",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

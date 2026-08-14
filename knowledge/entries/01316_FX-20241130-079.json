@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241130-079",
+ "record_id": "YKo2Ud7ujt",
+ "title": "u8c报表打不开问题",
+ "problem": "u8c报表打不开问题",
+ "cause": "需要更打补丁",
+ "solution": "更打补丁，需要清除谷歌浏览器缓存",
+ "solution_types": [
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Chrome"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U8C报表打不开"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YKo2Ud7ujt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

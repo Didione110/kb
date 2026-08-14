@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230304-005",
+ "record_id": "HWfAr09JhY",
+ "title": "tomcat部署后，运行闪退问题",
+ "problem": "tomcat部署后，运行闪退问题",
+ "cause": "1. 检查电脑环境变量是否有JAVA\\_HOME配置\n2. 检查JDK是否安装\n3. 检查tomcat配置端口号是否冲突\n4. 检查tomcat是否重复开启",
+ "solution": "1. 检查电脑环境变量是否有JAVA\\_HOME配置\n2. 检查JDK是否安装\n3. 检查tomcat配置端口号是否冲突\n4. 检查tomcat是否重复开启",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Tomcat闪退"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAppbAV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAppbAV1DK0g6l",
+  "doc_path": "/自研/安装部署问题/tomcat部署后，运行闪退问题",
+  "record_id": "HWfAr09JhY"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/tomcat部署后，运行闪退问题",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

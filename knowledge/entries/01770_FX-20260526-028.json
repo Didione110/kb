@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260526-028",
+ "record_id": "jzsdtRejse",
+ "title": "某个客户端无法登录，十六进制值0x00是无效字符",
+ "problem": "某个客户端无法登录，十六进制值0x00是无效字符",
+ "cause": "文件损坏",
+ "solution": "从正常的电脑拷贝替换u8soft下Portal\\UFIDA.U8.Portal.Options.xml后，重启机器即可",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jzsdtRejse"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

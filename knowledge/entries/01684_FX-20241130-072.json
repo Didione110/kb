@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241130-072",
+ "record_id": "hmuFfINYTc",
+ "title": "财务对凭证记账时报错：不能在具有唯一索引UFIDA U9 InvIrans InvTotslAccountFeriod AccoutPeriodLine BusinessKey Index”的对”中插入重复键的dbo.InvTraPerioATi。重复键值为(10016107ECB28428170BCAAA471)语句已终止。",
+ "problem": "财务对凭证记账时报错：不能在具有唯一索引UFIDA U9 InvIrans InvTotslAccountFeriod AccoutPeriodLine BusinessKey Index”的对”中插入重复键的dbo.InvTraPerioATi。重复键值为(10016107ECB28428170BCAAA471)语句已终止。",
+ "cause": "是由于手工做的会计期间统计更新同系统库存管理下-基础设置-会计期间实时更新参数冲突，在日常业务进行中偶发，",
+ "solution": "取消参数设置中的实时统计更新手工进行会计期间统计更新即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "唯一索引"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hmuFfINYTc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

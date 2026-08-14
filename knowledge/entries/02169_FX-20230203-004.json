@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230203-004",
+ "record_id": "tVKWVZ0l0c",
+ "title": "java调用U9C客户档案接口成功后页面查看中文乱码",
+ "problem": "java调用U9C客户档案接口成功后页面查看中文乱码",
+ "cause": "编码错误",
+ "solution": "代码编码格式设置为utf-8",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "乱码"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tVKWVZ0l0c"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

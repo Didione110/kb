@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251103-004",
+ "record_id": "UX05YVIc0e",
+ "title": "之前智慧医保中的 明细审核，3101，3102，3103 都是依次执行，安装配置文件是否拦截，来判断3103的反馈内容上传",
+ "problem": "之前智慧医保中的 明细审核，3101，3102，3103 都是依次执行，安装配置文件是否拦截，来判断3103的反馈内容上传",
+ "cause": "医保检查要看到明细审核详细界面 和 操作",
+ "solution": "明细审核增加弹框和是否遵从选项\n店员可以手动选择是拦截还是继续结算",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "明细审核"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeZzBRJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeZzBRJ2LD0oRE",
+  "doc_path": "/自研/产品功能问题/之前智慧医保中的 明细审核，3101，3102，3103 都是依次执行，安装配置文件是否拦截，来判断3103的反馈内容上传",
+  "record_id": "UX05YVIc0e"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/之前智慧医保中的 明细审核，3101，3102，3103 都是依次执行，安装配置文件是否拦截，来判断3103的反馈内容上传",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

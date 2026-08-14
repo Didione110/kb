@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250821-033",
+ "record_id": "mH0IJ5mGj8",
+ "title": "由于用户账套数多，数据量大，自动备份时间较大，导致部分账套无法自动备份",
+ "problem": "由于用户账套数多，数据量大，自动备份时间较大，导致部分账套无法自动备份",
+ "cause": "后台时长设置问题",
+ "solution": "原本系统预置最长为9小时，客户数据量大9小时备份不完，故后台调整时长；\n先配置计划，再执行语句，外面就会变成12，双击打开显示2，是正常的（因为系统只让显示一位）\nupdate ufsystem..ua_backupplan set i0ccurshours=12",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "账套多、数据量大、备份慢"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mH0IJ5mGj8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

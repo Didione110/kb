@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240830-064",
+ "record_id": "kS53bPeMPn",
+ "title": "分配了项目-人员 但是在填制报销单的时候 还是可以选到所有的项目档案 ",
+ "problem": "分配了项目-人员 但是在填制报销单的时候 还是可以选到所有的项目档案",
+ "cause": "需要修改报账参数 费用填单项目控制参数",
+ "solution": "修改如图参数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "项目权限"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "报账服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kS53bPeMPn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

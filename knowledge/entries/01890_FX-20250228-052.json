@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250228-052",
+ "record_id": "n1x3S0T9hx",
+ "title": "免费品类型=赠品或者备损件的时候，金额必填0 ，目前标准产品没有校验必填",
+ "problem": "免费品类型=赠品或者备损件的时候，金额必填0 ，目前标准产品没有校验必填",
+ "cause": "免费品类型=赠品或者备损件的时候，金额必填0 ，目前标准产品没有校验必填",
+ "solution": "设置数据权限： 实体：销售订单行： 类型：增删改类型： 视图条件：not ( ( NewSOLine.FreeType.Value == FunEnum ('', '赠品', 0) or NewSOLine.FreeType.Value == FunEnum ('', '备损品', 1) ) and NewSOLine.FinallyPriceTC != 0 ) 放在新增和修改视图下",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "赠品金额校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n1x3S0T9hx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

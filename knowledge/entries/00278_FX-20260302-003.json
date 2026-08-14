@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260302-003",
+ "record_id": "6VbwyL1x1h",
+ "title": "凭证有主营业务成本科目的发生但是余额表不显示这个科目",
+ "problem": "凭证有主营业务成本科目的发生但是余额表不显示这个科目",
+ "cause": "科目的期初、借方、贷方都为0，则余额表不会显示",
+ "solution": "可以通过【明细账】节点查看科目明细发生数据，如果是发生在同一方向的一正一负金额，合计为0，这种在余额表是不显示的",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目余额不平"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-03-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAqXaBVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAqXaBVKe0xjE3",
+  "doc_path": "/用友/应用操作/凭证有主营业务成本科目的发生但是余额表不显示这个科目",
+  "record_id": "6VbwyL1x1h"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/凭证有主营业务成本科目的发生但是余额表不显示这个科目",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

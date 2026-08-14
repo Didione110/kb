@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251229-036",
+ "record_id": "3Z0v4siIX1",
+ "title": "U9C组织A的供应商LJ01078下发给了组织B，YS里面供应商怎么同步数据权限？",
+ "problem": "U9C组织A的供应商LJ01078下发给了组织B，YS里面供应商怎么同步数据权限？",
+ "cause": "YS需要设置基础数据分级管理",
+ "solution": "1、YS【基础数据分级管理】节点选择“供应商档案”，设置组织A分配规则，勾选 组织B；\n2、YS数据同步任务，选择方案“供应商分配关系”立即执行；\n3、YS供应商创建 查询LJ01078，适用范围已新增组织：B；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "数据权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-12-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3Z0v4siIX1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

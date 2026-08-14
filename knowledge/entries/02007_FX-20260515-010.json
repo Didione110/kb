@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260515-010",
+ "record_id": "pJlg8CNEvT",
+ "title": "入库的时候需要推送代办给采购员",
+ "problem": "入库的时候需要推送代办给采购员",
+ "cause": "此处类似抄送，不需要真实审批",
+ "solution": "不动菜单的情况下新增工作流，复制出流程id以及单据的ruleid,替换下语句，此处使用采购入库单\n服务端after save添加\n // FormUtil.startWorkflow(_keyfield, _billcode, '流程ID', 'save', 'ruleid', '有一条新的采购入库记录，请注意查收', '采购入库');\nJS区代码，菜单栏调用此函数即可\nV10/V11\n\nfunction uf_close() {\n try {\n var wf;\n if (WorkFlow.formMenuId.indexOf(\".\") > -1) {\n var ids = WorkFlow.formMenuId.split(\".\");\n wf = new WorkFlow(ids[0], ids[1]);\n } else {\n wf = new WorkFlow(WorkFlow.formMenuId);\n }\n \n var wfInfo = wf.buildWfInfo();\n if (wfInfo && typeof wfInfo === \"object\" && wfInfo.then) {\n form.alert(\"系统不支持异步工作流，请联系管理员\");\n return;\n }\n \n var optionXml = \"<option\"\n + \" moduleid=\\\"\" + form.parameters.moduleid + \"\\\"\"\n + \" orgno=\\\"\" + form.userinfo.orgno + \"\\\"\"\n + \" formid=\\\"\" + form.formid + \"\\\"\"\n + \" keyfield=\\\"\" + form.parameters.keyfield + \"\\\"\"\n + \" idprefix=\\\"\" + form.parameters.idprefix + \"\\\"\"\n + \" billno=\\\"\" + form.billno + \"\\\"\"\n + \" isworkflow=\\\"true\\\"\"\n + \" wfinfo=\\\"\" + Utility.xmlEncode(Utility.toJSONString(wfInfo)) + \"\\\"\"\n + \"/>\";\n \n var service = \"workflow.forward\";\n var url = form.parameters.contextpath + \"/formservice?service=\" + service + form.serviceprefix;\n \n var xhr;\n if (typeof XMLHttpRequest !== \"undefined\") {\n xhr = new XMLHttpRequest();\n } else if (typeof ActiveXObject !== \"undefined\") {\n xhr = new ActiveXObject(\"Microsoft.XMLHTTP\");\n } else {\n form.alert(\"浏览器不支持XMLHttpRequest\");\n return;\n }\n \n xhr.open(\"POST\", url, false);\n xhr.send(optionXml);\n \n // 延时 500ms 关闭表单，让服务端处理完\n setTimeout(function() {\n form.close();\n }, 500);\n \n } catch (e) {\n form.alert(\"待办关闭失败：\" + e.message);\n }\n}\n\ndherp\n\nasync function uf_close() {\n console.log('开始执行待办关闭...');\n \n try {\n var wfInfo = WorkFlow.wfInfo;\n if(!wfInfo) {\n // 如果 wfInfo 不存在，需要先构建\n var ids, wf;\n if(WorkFlow.formMenuId.indexOf(\".\") > -1) {\n ids = WorkFlow.formMenuId.split(\".\");\n wf = new WorkFlow(ids[0], ids[1]);\n } else {\n wf = new WorkFlow(WorkFlow.formMenuId);\n }\n wfInfo = await wf.buildWfInfo();\n WorkFlow.wfInfo = wfInfo;\n }\n \n // 构建 option XML\n var buf = [];\n buf.push('<option');\n buf.push(' moduleid=\"' + form.parameters.moduleid + '\"');\n buf.push(' orgno=\"' + form.userinfo.orgno + '\"');\n buf.push(' formid=\"' + form.formid + '\"');\n buf.push(' keyfield=\"' + form.parameters.keyfield + '\"');\n buf.push(' idprefix=\"' + form.parameters.idprefix + '\"');\n buf.push(' billno=\"' + form.billno + '\"');\n buf.push(' isworkflow=\"true\"');\n buf.push(' wfinfo=\"' + Utility.xmlEncode(Utility.toJSONString(wfInfo)) + '\"');\n buf.push('/>');\n var optionXml = buf.join('');\n \n // 直接发请求\n var service = \"workflow.forward\";\n var url = form.parameters.contextpath + \"/formservice?service=\" + service + form.serviceprefix;\n var result = WebService.directCall(url, optionXml, \"POST\", null);\n \n console.log('✅ 待办关闭成功！');\n await form.close();\n \n } catch (e) {\n console.error('❌ 失败：', e.message);\n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "代办推送"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pJlg8CNEvT"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

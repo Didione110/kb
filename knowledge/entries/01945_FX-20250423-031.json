@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250423-031",
+ "record_id": "o7dOuH1DP6",
+ "title": "【致信】单聊消息已读未读状态在另一台设备上未同步",
+ "problem": "【致信】单聊消息已读未读状态在另一台设备上未同步",
+ "cause": "服务端不存储消息状态，收到推送过来的新消息后，已读未读状态会记录在设备本地，此后更换设备，历史消息可以同步下来，但已读状态没有",
+ "solution": "致远研发回复：此现象不是状态不对问题，基于目前的逻辑机制，是正常现象",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "JS",
+  "IOS",
+  "Java"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "消息同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "致信",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-04-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "o7dOuH1DP6"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

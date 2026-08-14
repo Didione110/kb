@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241127-056",
+ "record_id": "1k1BbR2tvW",
+ "title": "单独一个账号所有查询时间是乱码",
+ "problem": "单独一个账号所有查询时间是乱码",
+ "cause": "用户设置中手工选错了时区，没有使用系统默认时区",
+ "solution": "将时区改回默认时区",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "时间乱码"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施4部",
+  "date": "2024-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1k1BbR2tvW"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

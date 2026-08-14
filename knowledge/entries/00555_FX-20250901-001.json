@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250901-001",
+ "record_id": "DaJrc91wrQ",
+ "title": "智慧医保发布2.0.0.21，接口输入字符串转json再转string输入；",
+ "problem": "智慧医保发布2.0.0.21，接口输入字符串转json再转string输入；",
+ "cause": "医保接口报错闪退问题\n在调用医保接口前，将输入数据进行了处理，输入字符串转json再转string输入",
+ "solution": "目前测试较少，反馈还行，欢迎大家更新测试",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字符串转换"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-09-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA34NgnWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA34NgnWn4qY5Pr",
+  "doc_path": "/自研/数据接口问题/智慧医保发布2.0.0.21，接口输入字符串转json再转string输入；",
+  "record_id": "DaJrc91wrQ"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/智慧医保发布2.0.0.21，接口输入字符串转json再转string输入；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

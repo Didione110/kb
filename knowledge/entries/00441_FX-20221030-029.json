@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221030-029",
+ "record_id": "AiDGuzWEbe",
+ "title": "门店进行异地慢病测试后，卸载测试控件，再安装正式升级控件报错，无法安装",
+ "problem": "门店进行异地慢病测试后，卸载测试控件，再安装正式升级控件报错，无法安装",
+ "cause": "先安装最开始得正式控件，再安装升级控件",
+ "solution": "先安装最开始得正式控件，再安装升级控件",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "异地安装报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "李维",
+  "department": "实施7部",
+  "date": "2022-10-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjEkR28AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjEkR28AgozOKL",
+  "doc_path": "/时空/安装部署问题/门店进行异地慢病测试后，卸载测试控件，再安装正式升级控件报错，无法安装",
+  "record_id": "AiDGuzWEbe"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/门店进行异地慢病测试后，卸载测试控件，再安装正式升级控件报错，无法安装",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

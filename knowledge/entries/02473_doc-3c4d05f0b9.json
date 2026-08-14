@@ -1,0 +1,30 @@
+{
+ "id": "doc-3c4d05f0b9",
+ "record_id": "",
+ "title": "公文无法正常推动钉钉移动端审批需要催办才收到",
+ "problem": "公文无法正常推动钉钉移动端审批需要催办才收到",
+ "cause": "钉钉配置多了一个agnetid",
+ "solution": "①钉钉在后台建立一个公文应用来接受公文的审批及抄送，通过钉钉配置微应用入口来绑定应用agentid\n②删除钉钉微应用配置，即可正常推送",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNaK41ZW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNaK41ZW6zbX04v",
+  "doc_path": "/蓝凌OA/环境问题/公文无法正常推动钉钉移动端审批需要催办才收到"
+ },
+ "doc_path": "/蓝凌OA/环境问题/公文无法正常推动钉钉移动端审批需要催办才收到",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "环境问题"
+ ]
+}

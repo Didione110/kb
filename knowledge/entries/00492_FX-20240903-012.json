@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240903-012",
+ "record_id": "CHMJDpGkxT",
+ "title": "系统查询功能中，右键，记录汇总之后，数据无法复制",
+ "problem": "系统查询功能中，右键，记录汇总之后，数据无法复制",
+ "cause": "表单开发平台没有对应的表单和设置项",
+ "solution": "在tomcat路径下webapps\\\\ROOT\\\\form\\\\html\\\\找到showdataset.htm文件 增加属性",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "复制失败"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2024-09-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv519ylg8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv519ylg8zN67Mw4",
+  "doc_path": "/时空/效率问题/系统查询功能中，右键，记录汇总之后，数据无法复制",
+  "record_id": "CHMJDpGkxT"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/系统查询功能中，右键，记录汇总之后，数据无法复制",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

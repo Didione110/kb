@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230815-032",
+ "record_id": "0R3XnhCA9b",
+ "title": "备份引入时一直提示：备份的是未完成账套",
+ "problem": "备份引入时一直提示：备份的是未完成账套",
+ "cause": "LST文件类型不对",
+ "solution": "用记事本打开lst文件，另存的时候，编码选择ansi",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "未完成账套"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-08-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0R3XnhCA9b"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

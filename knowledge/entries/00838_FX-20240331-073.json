@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240331-073",
+ "record_id": "LW6SDOwXEv",
+ "title": "自定义界面导入问题",
+ "problem": "自定义界面导入问题",
+ "cause": "郑州开发的独立开发工具，以前在wms主程序上写的自定义功能，只要不是隔开太久，可以进行导入使用。已测试",
+ "solution": "郑州开发的独立开发工具，以前在wms主程序上写的自定义功能，只要不是隔开太久，可以进行导入使用。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "界面导入"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDjnbEW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDjnbEW6zbX04v",
+  "doc_path": "/其他/产品功能问题/自定义界面导入问题",
+  "record_id": "LW6SDOwXEv"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/自定义界面导入问题",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230905-011",
+ "record_id": "1XPdm9dWxp",
+ "title": "十堰地区医保月结申请经常提示和中心对账不平，但总金额没错",
+ "problem": "十堰地区医保月结申请经常提示和中心对账不平，但总金额没错",
+ "cause": "十堰地区使用清算经办机构作为结算中心，不是按参保区划来结算",
+ "solution": "5262表添加clr_optins(清算经办机构)字段，并在时空结算申请表单中替换原参保区划字段",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "对账不平"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2023-09-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1XPdm9dWxp"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

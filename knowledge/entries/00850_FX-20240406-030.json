@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240406-030",
+ "record_id": "LukdIREfQK",
+ "title": "采购业务中，税率取值优先顺序及逻辑是怎样的？",
+ "problem": "采购业务中，税率取值优先顺序及逻辑是怎样的？",
+ "cause": "料品档案、供应商档案、税组合中都可以定义税率。系统有固定的取值逻辑。",
+ "solution": "1、单头.税组合，取值逻辑：\n 1）、新增，此时供应商为空，按【税优先】取值。【模块-参数设置】设置了默认税组合，且【税优先】有选 组织，则取【参数设置】中的税组合。\n 2）、录供应商，按【税优先】取值。 \n3）、修改供应商位置，系统不触发重取税合。 \n\n2、单行.税组合，取值逻辑： \n1）、先取【单头—商务页签—税组合】。 \n2）、如单头税组合为空，再按【参数设置—税优先原则】顺序取。如为空则不取，不为空请记下编码。 3）、打开【基础设置—税优先】，按编码查出该税优先原则，系统按此顺序取税组合。可根据实际需要调整顺序。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "税率优先级"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LukdIREfQK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

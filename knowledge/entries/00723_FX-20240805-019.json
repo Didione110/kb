@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240805-019",
+ "record_id": "Ie9XIzMrpA",
+ "title": "3503入库视图取数时候，由于新增两个判断条件，分别是否启用新医保接口和医保转正日期判断后，导致sql整体取入库单数据时候直接无法查询出结果，具体看图",
+ "problem": "3503入库视图取数时候，由于新增两个判断条件，分别是否启用新医保接口和医保转正日期判断后，导致sql整体取入库单数据时候直接无法查询出结果，具体看图",
+ "cause": "sql运算逻辑效率问题",
+ "solution": "先将目标数据全部取出来，最后再去匹配机构资料表来判断是否启用新医保接口和医保转正日期",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保接口、转正日期、SQL查询"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmplZrJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmplZrJGlDd3mE",
+  "doc_path": "/自研/效率问题/3503入库视图取数时候，由于新增两个判断条件，分别是否启用新医保接口和医保转正日期判断后，导致sql整体取入库单数据时候直接无法查询出结果，具体看图",
+  "record_id": "Ie9XIzMrpA"
+ },
+ "status": "active",
+ "doc_path": "/自研/效率问题/3503入库视图取数时候，由于新增两个判断条件，分别是否启用新医保接口和医保转正日期判断后，导致sql整体取入库单数据时候直接无法查询出结果，具体看图",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

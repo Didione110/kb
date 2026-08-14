@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-064",
+ "record_id": "KsxIYNlsD0",
+ "title": "会计主体上，总账/固定资产启用是灰色的",
+ "problem": "会计主体上，总账/固定资产启用是灰色的",
+ "cause": "总账/固定资产账簿分类没有选择",
+ "solution": "检查：1.总账/固定资产模块是否启用2.总账/固定资产账簿分类是否选择。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "启用灰色"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KsxIYNlsD0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

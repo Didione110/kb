@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251228-029",
+ "record_id": "CLB6ij9QkF",
+ "title": "网关连接配置提示报错：连接配置参数配置有误,返回结果:解密失败Decryption error",
+ "problem": "网关连接配置提示报错：连接配置参数配置有误,返回结果:解密失败Decryption error",
+ "cause": "网关连接配置提示报错：连接配置参数配置有误,返回结果:解密失败Decryption error",
+ "solution": "一般是应用公钥或者应用秘钥填写错误，重新再检查下。 应用公钥：系统管理员登录 YonBIP 高级版系统，打开节点 OpenAPI 应用管理卡片页面，复制“公钥”至此 应用秘钥：系统管理员登录 YonBIP 高级版系统，打开节点 OpenAPI 应用管理卡片页面，复制“应用密文",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "OpenAPI",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "解密失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-12-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CLB6ij9QkF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

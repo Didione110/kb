@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250121-025",
+ "record_id": "L4eLEmPkDG",
+ "title": "YS如何新增下一年度会计期间",
+ "problem": "YS如何新增下一年度会计期间",
+ "cause": "进入【数字化建模-基础数据-会计期间】，先检查新年度会计期间是否存在，如果不存在，则进行添加新年的会计期间。如果存在，则无需进行创建新的会计期间。\n\n新增会计期时，选择企业使用的会计期间方案，点击【新增期间】按钮，系统就会根据会计期间方案自动创建下一年会计期间。 如：点击新增后自动新增2025的会计期间。",
+ "solution": "进入【数字化建模-基础数据-会计期间】，先检查新年度会计期间是否存在，如果不存在，则进行添加新年的会计期间。如果存在，则无需进行创建新的会计期间。\n\n新增会计期时，选择企业使用的会计期间方案，点击【新增期间】按钮，系统就会根据会计期间方案自动创建下一年会计期间。 如：点击新增后自动新增2025的会计期间。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "会计期间"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "L4eLEmPkDG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230227-045",
+ "record_id": "Qup7nczAK8",
+ "title": "存货档案计价方式默认值",
+ "problem": "存货档案计价方式默认值",
+ "cause": "修改存货档案计价方式默认值",
+ "solution": "在[企业建模平台] ->[基础档案]->[其他信息]->[值域管理]节点，查询出表名称bd_produce(物料生产档案)，找到字段名称为pricemethod（单据模板“计价方式”的项目主键），修改对应物料档案模板的计价方式固定值，以对应的编码填列",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "计价方式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Qup7nczAK8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

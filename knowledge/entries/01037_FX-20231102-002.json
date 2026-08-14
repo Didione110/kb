@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231102-002",
+ "record_id": "QZzIkVXfJd",
+ "title": "采购订单执行情况表里拉出请购单的需求数量，且要有需求数量的合计",
+ "problem": "采购订单执行情况表里拉出请购单的需求数量，且要有需求数量的合计",
+ "cause": "语句正常写：select UFIDA::U9::PR::PurchaseRequest::PR.PRLineList.ReqQtyTU as 请购单行_需求数量1 from UFIDA::U9::PR::PurchaseRequest::PR where UFIDA::U9::PR::PurchaseRequest::PR.Org.ID=U_DF.GetQLValue(Contexts!OrgID.Value) and UFIDA::U9::PR::PurchaseRequest::PR.PRLineList.DocLineNo=U_DF.GetQLValue(Fields!SrcDocInfo_SrcDocLineNo.Value)",
+ "solution": "需求数量合计的显示方法：在UBF报表栏目界面，增加一栏，放需求数量，合计行使用公式sum（select UFIDA::U9::PR::PurchaseRequest::PR.PRLineList.ReqQtyTU as 请购单行_需求数量1 from UFIDA::U9::PR::PurchaseRequest::PR where UFIDA::U9::PR::PurchaseRequest::PR.Org.ID=U_DF.GetQLValue(Contexts!OrgID.Value) and UFIDA::U9::PR::PurchaseRequest::PR.PRLineList.DocLineNo=U_DF.GetQLValue(Fields!SrcDocInfo_SrcDocLineNo.Value)），保存即可。\n一般来说增加自定义字段就行了，但要求求和和修改格式如小数点位数，就要在栏目界面增加一栏，如此来修改。",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "需求数量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QZzIkVXfJd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

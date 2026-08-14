@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-037",
+ "record_id": "5v7YXCYUXc",
+ "title": "客户连锁门店的订单太大，导致拣货量太大，一车拣不完，且暂存位放不下，堆积在地下",
+ "problem": "客户连锁门店的订单太大，导致拣货量太大，一车拣不完，且暂存位放不下，堆积在地下",
+ "cause": "连锁请货单量太大",
+ "solution": "按体积对大单进行拆分拣货，然后拆分的单子，要分到不同复核台上。这样就不会堆积到地下",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "订单过大"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1vd6lWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1vd6lWdqbropQ",
+  "doc_path": "/其他/应用操作/客户连锁门店的订单太大，导致拣货量太大，一车拣不完，且暂存位放不下，堆积在地下",
+  "record_id": "5v7YXCYUXc"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户连锁门店的订单太大，导致拣货量太大，一车拣不完，且暂存位放不下，堆积在地下",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

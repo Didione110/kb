@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230919-025",
+ "record_id": "wViNQ5mfnu",
+ "title": "成本卷积提示：当IDENTITY_INSERT 设置为 OFF 时，不能为表#IA Summary' 中的标识列插入显式值。",
+ "problem": "成本卷积提示：当IDENTITY_INSERT 设置为 OFF 时，不能为表#IA Summary' 中的标识列插入显式值。",
+ "cause": "数据库后台问题",
+ "solution": "安装Slserver 2019版本最新的补丁解决(高于KB5004524版本)",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "IDENTITY_INSERT"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "实施8部",
+  "date": "2023-09-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wViNQ5mfnu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

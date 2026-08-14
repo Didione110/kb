@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221031-040",
+ "record_id": "AWaugoRfOX",
+ "title": "凭证保存后无法自动做现金流量分析，手动操作无法选现金流量项目",
+ "problem": "凭证保存后无法自动做现金流量分析，手动操作无法选现金流量项目",
+ "cause": "现金流量项目未分配到相关的组织中；未设置对照关系；",
+ "solution": "需分配现金流量项目到相关的组织中；再设置对照关系，哪些现金流量项目对应哪些科目；\n检查组织级参数GL089，需要设置凭证保存事检查主表项",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "现金流量分析"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYew4BaV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYew4BaV1waOeDk",
+  "doc_path": "/用友/应用操作/凭证保存后无法自动做现金流量分析，手动操作无法选现金流量项目",
+  "record_id": "AWaugoRfOX"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/凭证保存后无法自动做现金流量分析，手动操作无法选现金流量项目",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

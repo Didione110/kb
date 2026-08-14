@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231231-075",
+ "record_id": "SR5aR1nbwz",
+ "title": "彩色枚举功能介绍     版本要求：V8.2以上\n应用场景：项目计划档案记录着项目计划完成情况，领导可以通过枚举的颜色快速识别\n到计划的完成情况，",
+ "problem": "彩色枚举功能介绍 版本要求：V8.2以上\n应用场景：项目计划档案记录着项目计划完成情况，领导可以通过枚举的颜色快速识别\n到计划的完成情况，",
+ "cause": "彩色枚举功能介绍（V8.2新功能）",
+ "solution": "彩色枚举支持流程表单、无流程表单，案例场景用无流程表单进行介绍（操作详情见附件）",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "彩色枚举"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbZamnW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbZamnW3kdP0wQ",
+  "doc_path": "/致远OA/产品功能问题/彩色枚举功能介绍",
+  "record_id": "SR5aR1nbwz"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/彩色枚举功能介绍",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

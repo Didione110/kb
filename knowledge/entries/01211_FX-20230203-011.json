@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230203-011",
+ "record_id": "VtWLfaMVcw",
+ "title": "原发票拆分逻辑，同一商品的负数明细，正数冲抵明细行金额超过开票限额，这种情况需要手动调整数据进行开票",
+ "problem": "原发票拆分逻辑，同一商品的负数明细，正数冲抵明细行金额超过开票限额，这种情况需要手动调整数据进行开票",
+ "cause": "拆分算法，商品明细行超过开票限额会新开一张",
+ "solution": "修改拆分规则，存在负数商品明细的，用正数冲抵完成后，多的再新开一张",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "发票拆分限额"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP322QEJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP322QEJakx1Z5N",
+  "doc_path": "/自研/数据接口问题/原发票拆分逻辑，同一商品的负数明细，正数冲抵明细行金额超过开票限额，这种情况需要手动调整数据进行开票",
+  "record_id": "VtWLfaMVcw"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/原发票拆分逻辑，同一商品的负数明细，正数冲抵明细行金额超过开票限额，这种情况需要手动调整数据进行开票",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

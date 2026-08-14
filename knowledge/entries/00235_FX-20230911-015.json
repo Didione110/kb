@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230911-015",
+ "record_id": "5aVM8phEQV",
+ "title": "DEE账号登录DEE引擎提示账号锁定，请联系管理员",
+ "problem": "DEE账号登录DEE引擎提示账号锁定，请联系管理员",
+ "cause": "密码错误导致",
+ "solution": "A8系统管理员登录-系统维护-锁定用户没有锁定记录，400客服说需要重装，但是重启DEE服务后可以正常登录，所以DEE重装需慎重！",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "账号锁定"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "dee数据引擎",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj2a908AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj2a908AgozOKL",
+  "doc_path": "/致远OA/软件无法使用/DEE账号登录DEE引擎提示账号锁定，请联系管理员",
+  "record_id": "5aVM8phEQV"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/软件无法使用/DEE账号登录DEE引擎提示账号锁定，请联系管理员",
+ "category": [
+  "致远OA",
+  "软件无法使用"
+ ]
+}

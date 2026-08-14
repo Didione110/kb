@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231028-042",
+ "record_id": "iNkZvhJOJD",
+ "title": "新旧系统的图片数据导入",
+ "problem": "新旧系统的图片数据导入",
+ "cause": "老系统ksoa用的科情自主研发的质检报告单系统\n新系统用的智友自带的图片管理\n因数据格式不一样，图片数据导入较为困难",
+ "solution": "自行编写了一个ksoa图片导入智友的方案，供各位同仁参考。\n目前测试了几十万张图片没问题\n对SQL技能稍微有点要求，MSSQL数据库直连Oracle12c对端导入",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "图片导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iNkZvhJOJD"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

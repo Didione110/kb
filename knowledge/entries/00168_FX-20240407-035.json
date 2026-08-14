@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240407-035",
+ "record_id": "3ypNtPvd9f",
+ "title": "PC、移动端空间栏目，数据指标累计展示，无法进行当日数据的联动展示",
+ "problem": "PC、移动端空间栏目，数据指标累计展示，无法进行当日数据的联动展示",
+ "cause": "使用空间栏目的“筛选条件”即可",
+ "solution": "添加PC、移动端的筛选条件栏目，并设置相关查询统计表的联动，已解决",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "联动展示"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A6",
+ "module": "门户空间",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXm1DY2V3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXm1DY2V3bzYmDO",
+  "doc_path": "/致远OA/产品功能问题/PC、移动端空间栏目，数据指标累计展示，无法进行当日数据的联动展示",
+  "record_id": "3ypNtPvd9f"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/PC、移动端空间栏目，数据指标累计展示，无法进行当日数据的联动展示",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

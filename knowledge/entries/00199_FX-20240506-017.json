@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240506-017",
+ "record_id": "4eMeDmClJy",
+ "title": "市医保接口：某个门店，视图有数据，但是数据没有正常上传，没有明确的报错，排查了很长时间",
+ "problem": "市医保接口：某个门店，视图有数据，但是数据没有正常上传，没有明确的报错，排查了很长时间",
+ "cause": "因为后台账户维护漏掉账户类型没有维护",
+ "solution": "该字段值去默认值处理‘武汉医保代理’",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口"
+ ],
+ "keywords": [
+  "医保上传异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDkZxgW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDkZxgW6zbX04v",
+  "doc_path": "/时空/数据接口问题/市医保接口：某个门店，视图有数据，但是数据没有正常上传，没有明确的报错，排查了很长时间",
+  "record_id": "4eMeDmClJy"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/市医保接口：某个门店，视图有数据，但是数据没有正常上传，没有明确的报错，排查了很长时间",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

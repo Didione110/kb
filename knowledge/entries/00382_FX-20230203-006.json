@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230203-006",
+ "record_id": "9C0DNDAv1e",
+ "title": "采购订单创建报错\"订单计划行数量不允许为0\"",
+ "problem": "采购订单创建报错\"订单计划行数量不允许为0\"",
+ "cause": "使用webservice工具传参缺失问题",
+ "solution": "查看是否给Decimal类型的字段赋值，赋值得字段名\\+Specified进行搜索修改false为true",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "计划行数量"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3L2dgV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3L2dgV47Z3je9",
+  "doc_path": "/用友/数据错误问题/采购订单创建报错 订单计划行数量不允许为0",
+  "record_id": "9C0DNDAv1e"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据错误问题/采购订单创建报错 订单计划行数量不允许为0",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

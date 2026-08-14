@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260203-013",
+ "record_id": "s2W5jZLWwk",
+ "title": "DHERP配送开票单一直报价税不平",
+ "problem": "DHERP配送开票单一直报价税不平",
+ "cause": "配送开票单取值batchcode表中的batchrate，在选择完批号后重新针对rate字段进行赋值，导致行提交的时候重算了baseprice和basetaxprice",
+ "solution": "切换时候导库存记得导入batchrate字段",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "报价税不平"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "s2W5jZLWwk"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

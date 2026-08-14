@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240927-035",
+ "record_id": "orE3QzUYKV",
+ "title": "订单价格修改幅度控制",
+ "problem": "订单价格修改幅度控制",
+ "cause": "例如当订单载入价格本单价100，设置修改幅度10%-20%不提示，超过20%提示，当价格修改为120的时候，系统不控制，修改到130时，系统控制",
+ "solution": "通过价盘管理进行控制",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "价格调控"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "orE3QzUYKV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

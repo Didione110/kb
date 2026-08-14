@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260126-011",
+ "record_id": "K5SVujchAH",
+ "title": "目前申请单与报销单是一对一，是否可以一张申请单对应多张报销单",
+ "problem": "目前申请单与报销单是一对一，是否可以一张申请单对应多张报销单",
+ "cause": "无",
+ "solution": "申请规则中新增规则，允许申请单多次报销，修改规则后如申请单已报销过，则不生效",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "一对多"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "K5SVujchAH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

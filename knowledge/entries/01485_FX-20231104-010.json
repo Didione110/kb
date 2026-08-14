@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231104-010",
+ "record_id": "ceosGIYZpA",
+ "title": "抖店打印组件未收到一键打印推送websocket请求，导致面单大量堆积",
+ "problem": "抖店打印组件未收到一键打印推送websocket请求，导致面单大量堆积",
+ "cause": "1：服务器网络原因\n2：一键打印卡死\n3：抖店创建的面单模板异常导致抖店打印组件识别失败",
+ "solution": "1：重启一键打印程序\n2：更新抖店面单打印模板",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "打印堆积"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvGPzoVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvGPzoVMwvDqPk",
+  "doc_path": "/自研/应用操作/抖店打印组件未收到一键打印推送websocket请求，导致面单大量堆积",
+  "record_id": "ceosGIYZpA"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/抖店打印组件未收到一键打印推送websocket请求，导致面单大量堆积",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230529-028",
+ "record_id": "8AaV4zfUIs",
+ "title": "收货单生成交易分录取会计科目【项目】错误，该项目是私有段",
+ "problem": "收货单生成交易分录取会计科目【项目】错误，该项目是私有段",
+ "cause": "私有段需要配置影响因素来源，配置收货行的影响因素来源。自动会计类型是：收货行，业务对象是收货行分发记录，取值是分发记录的私有段。",
+ "solution": "1、新增影响因素；2、设置数据来源；3、新增科目影响因素；4、新增科目模板",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "项目错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-05-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51Pk6k8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51Pk6k8zN67Mw4",
+  "doc_path": "/用友/应用操作/收货单生成交易分录取会计科目【项目】错误，该项目是私有段",
+  "record_id": "8AaV4zfUIs"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/收货单生成交易分录取会计科目【项目】错误，该项目是私有段",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

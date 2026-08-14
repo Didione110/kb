@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230903-006",
+ "record_id": "CAh3lTMIXS",
+ "title": "诺诺接口开发票时显示开票提交成功，弹框：保存数据库失败，是否重试？在诺诺发票网页查询已经开票成功，税控开票软件查询不到",
+ "problem": "诺诺接口开发票时显示开票提交成功，弹框：保存数据库失败，是否重试？在诺诺发票网页查询已经开票成功，税控开票软件查询不到",
+ "cause": "查看日志原因为中间表字段超长",
+ "solution": "诺诺接口中间表字段长度加长即可解决",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "数据库失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2023-09-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3bz2dWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3bz2dWn4qY5Pr",
+  "doc_path": "/自研/安装部署问题/诺诺接口开发票时显示开票提交成功，弹框：保存数据库失败，是否重试？在诺诺发票网页查询已经开票成功，税控开票软件查询不到",
+  "record_id": "CAh3lTMIXS"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/诺诺接口开发票时显示开票提交成功，弹框：保存数据库失败，是否重试？在诺诺发票网页查询已经开票成功，税控开票软件查询不到",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

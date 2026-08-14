@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250122-065",
+ "record_id": "BDVvA83b5m",
+ "title": "数据库连接配置项设置，提高连接效率",
+ "problem": "数据库连接配置项设置，提高连接效率",
+ "cause": "数据库连接配置项设置，提高连接效率",
+ "solution": "",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "连接配置"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51G4jY8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51G4jY8zN67Mw4",
+  "doc_path": "/自研/安装部署问题/数据库连接配置项设置，提高连接效率",
+  "record_id": "BDVvA83b5m"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/数据库连接配置项设置，提高连接效率",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

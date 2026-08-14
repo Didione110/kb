@@ -1,0 +1,37 @@
+{
+ "id": "FX-20221031-033",
+ "record_id": "tgHXphzKf6",
+ "title": "财务和内勤提出的已核销但是在《收款明细查询报表》中显示未核销的问题",
+ "problem": "财务和内勤提出的已核销但是在《收款明细查询报表》中显示未核销的问题",
+ "cause": "1、财务部和内勤部认为核销动作不一致\n2、财务部和内勤部操作层面不规范",
+ "solution": "1、建议两个部门统一认知，使用同一个报表查询核销情况\n2、建议加强内部正确流程操作宣传，如业务部门有需求，可与项目组协商安排核销培训\n3、与相关领导开会，充分对称此次问题，表明问题根因",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "核销异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tgHXphzKf6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250722-022",
+ "record_id": "Xm9ETy6dm4",
+ "title": "订单出库后订单数据没有到ERP系统",
+ "problem": "订单出库后订单数据没有到ERP系统",
+ "cause": "当订单出库后，正常情况订单数据会推送到ERP系统中进行发货记账流程。但是由于程序、网络、数据库等方面的原因。可能导致订单数据推送失败。",
+ "solution": "这个时候就需要到推送管理中查看执行失败的数据。如果是出库单可以尝试重新推送，如果是出库计划单就需要到出库计划单管理内尝试重新通知。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "出库未同步"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-07-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY101qKWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY101qKWdqbropQ",
+  "doc_path": "/其他/数据接口问题/订单出库后订单数据没有到ERP系统",
+  "record_id": "Xm9ETy6dm4"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/订单出库后订单数据没有到ERP系统",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

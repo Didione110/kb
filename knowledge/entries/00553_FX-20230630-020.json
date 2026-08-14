@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230630-020",
+ "record_id": "DZI6uTr76B",
+ "title": "小车拣货，四个箱子一拣货，但有时拣货超过四个箱子，不方便且容易放错。",
+ "problem": "小车拣货，四个箱子一拣货，但有时拣货超过四个箱子，不方便且容易放错。",
+ "cause": "客户一个单据的品种数太多",
+ "solution": "1、让客户维护体积\n2、初步根据品种数判断大单，中单，小单，然后进行不同数量合并波次，例大单一单一拣货，中单二单一拣等",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "拣货超量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3nAdgWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3nAdgWkyEqBQm",
+  "doc_path": "/其他/应用操作/小车拣货，四个箱子一拣货，但有时拣货超过四个箱子，不方便且容易放错。",
+  "record_id": "DZI6uTr76B"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/小车拣货，四个箱子一拣货，但有时拣货超过四个箱子，不方便且容易放错。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

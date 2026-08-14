@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-026",
+ "record_id": "xOsVKw34V6",
+ "title": "C端订单商品数量较大，仓库一个快递无法发出，又无法重新获取一个面单发货",
+ "problem": "C端订单商品数量较大，仓库一个快递无法发出，又无法重新获取一个面单发货",
+ "cause": "没有提前预知订单内产品数量较多，超过一个快递包裹能够发出的量。没有提前拆单发货",
+ "solution": "指定金额或者指定商品数量客审拦截，一般订单金额或者商品数量达到一定数值，需要进行拆单，因为仓库一个包裹发不了。但是操作人员不注意就会审单通过，设置好客审拦截策略后，可以有效的防止这类情况",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "面单不足"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xOsVKw34V6"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

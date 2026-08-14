@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240125-037",
+ "record_id": "XQg6Bid5Ch",
+ "title": "新版本程序，语音复核时，如果退出重进，明细排序会乱，导致复核的品种也会乱，例如，复核A品种，然后退出重进，再看时可能会显示复核的是B品种，A品种未复核。",
+ "problem": "新版本程序，语音复核时，如果退出重进，明细排序会乱，导致复核的品种也会乱，例如，复核A品种，然后退出重进，再看时可能会显示复核的是B品种，A品种未复核。",
+ "cause": "复核明细排序乱了",
+ "solution": "存储过程显示复核明细的语句中，加入唯一标识排序，例如fhdj\\_sn等",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "语音复核排序"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeADEzJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeADEzJ2LD0oRE",
+  "doc_path": "/其他/产品功能问题/新版本程序，语音复核时，如果退出重进，明细排序会乱，导致复核的品种也会乱",
+  "record_id": "XQg6Bid5Ch"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/新版本程序，语音复核时，如果退出重进，明细排序会乱，导致复核的品种也会乱",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

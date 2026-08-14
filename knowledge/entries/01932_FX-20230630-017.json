@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230630-017",
+ "record_id": "nrshxzJyp9",
+ "title": "如何修改工资类别名称",
+ "problem": "如何修改工资类别名称",
+ "cause": "操作问题",
+ "solution": "在人力资源-薪资管理-设置-发放次数管理里，选中对应工资类别点修改，即可在下看看到请输入工资类别名称的地方，按修改后的录入，确定即可；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "工资类别名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nrshxzJyp9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

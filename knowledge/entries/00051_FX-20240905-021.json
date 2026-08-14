@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240905-021",
+ "record_id": "1Ay7gxCeT3",
+ "title": "武汉云服务器只允许有固定IP的网段进行公网访问，没有固定IP的普通商业宽带无法访问武汉云映射的公网",
+ "problem": "武汉云服务器只允许有固定IP的网段进行公网访问，没有固定IP的普通商业宽带无法访问武汉云映射的公网",
+ "cause": "武汉云安全防护策略",
+ "solution": "使用Nginx在固定IP局域网内的电脑上做转发，不在固定IP局域网内的电脑通过客户公司映射的Nginx端口进行访问",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Nginx"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "IP白名单"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-09-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1wKKDJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1wKKDJ63zgkYA",
+  "doc_path": "/时空/环境问题/武汉云服务器只允许有固定IP的网段进行公网访问，没有固定IP的普通商业宽带无法访问武汉云映射的公网",
+  "record_id": "1Ay7gxCeT3"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/武汉云服务器只允许有固定IP的网段进行公网访问，没有固定IP的普通商业宽带无法访问武汉云映射的公网",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

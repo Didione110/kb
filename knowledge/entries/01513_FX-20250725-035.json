@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250725-035",
+ "record_id": "dTUp0Tf7bw",
+ "title": "POS提取退单后，补录追溯码后，实际售价变为0",
+ "problem": "POS提取退单后，补录追溯码后，实际售价变为0",
+ "cause": "ds_mxls行提交前事件中，调用了自定义促销活动，导致价格被更改",
+ "solution": "退单按照原单价格退货，不需要重算单价，自定义促销活动调用前 添加ds_mast.field(\"ywlx\") !='TH' 条件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "退单追溯码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-07-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dTUp0Tf7bw"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

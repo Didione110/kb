@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240429-083",
+ "record_id": "g30GlfXjLl",
+ "title": "利润表跨表取数",
+ "problem": "利润表跨表取数",
+ "cause": "客户需要在利润表中取到资产负债表的上月未分配利润以及年初未分配利润。",
+ "solution": "上月值：\"取数表路径\"-> A5 Relation 月 with \"取数表路径\"->月+1\n年初值：\"取数表路径\"-> A5 Relation 月 with \"取数表路径\"->月",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "跨表取数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "g30GlfXjLl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

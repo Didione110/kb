@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260531-035",
+ "record_id": "5WdvXbLHZa",
+ "title": "管理会计-产品成本-恢复卷积提示系统已经提交了相关的凭证数据，请先撤销凭证",
+ "problem": "管理会计-产品成本-恢复卷积提示系统已经提交了相关的凭证数据，请先撤销凭证",
+ "cause": "针对该场景，需要如下操作：\n在【成本中心过账】节点，选择对应的会计主体、账簿和期间，查看“已过账”的数据，点击批量取消过账按钮，完成后，再到【卷积计算】节点，选择相应会计主体和期间，点击“恢复”按钮即可",
+ "solution": "针对该场景，需要如下操作：\n在【成本中心过账】节点，选择对应的会计主体、账簿和期间，查看“已过账”的数据，点击批量取消过账按钮，完成后，再到【卷积计算】节点，选择相应会计主体和期间，点击“恢复”按钮即可",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "恢复卷积"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5WdvXbLHZa"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

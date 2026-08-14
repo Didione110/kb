@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240731-051",
+ "record_id": "VcwbnMokzV",
+ "title": "DHERP数据库从正式库备份下来后，还原到新实施的公司数据库，但是打开表单报:beyondthedatascalelimits of the trialversion错误",
+ "problem": "DHERP数据库从正式库备份下来后，还原到新实施的公司数据库，但是打开表单报:beyondthedatascalelimits of the trialversion错误",
+ "cause": "1.一个注册证号不能开两个库，所以要取消注册\n2.billno的最大值超过1万",
+ "solution": "登录企业管理员，注册服务，取消激活。再到设计器中改Svscode表中标识F行的序号，改到100以下。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "试用版限制"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VcwbnMokzV"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

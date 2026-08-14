@@ -1,0 +1,99 @@
+<!-- META: {"nodeId": "amweZ92PV6kMBpApuMxbeGe2JxEKBD6p", "title": "涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后 可能存在多包装的问题，造成无法对码数量进行解析", "docUrl": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbeGe2JxEKBD6p?utm_scene=team_space", "path": "/时空/数据接口问题/涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后 可能存在多包装的问题，造成无法对码数量进行解析", "fetchTime": "2026-08-14 00:02:09"} -->
+
+## 问题现象
+
+涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug\_ent\_base\_info\_id后
+可能存在多包装的问题，造成无法对码数量进行解析
+
+## 问题原因
+
+涉及到大中小条码关系解析，
+单独新增接口https://plat.kq1997.net/magic/alihealth/drug/getdruginfo/class?
+时空内进行二次子级解析存储
+
+## 解决方案
+
+原始选择商品的函数后加入后事件
+await uf\_getdrugclass(ElecGoodsCode) ;//生成商品电子监管分类数据
+对应SQL集合中增加防御性建表脚本
+-- 声明一个变量用于存储表是否存在的标志
+DECLARE
+ table\_exists NUMBER;
+BEGIN
+ -- 查询 ALL\_TABLES 视图，判断表 k\_drugclass 是否存在
+ SELECT COUNT(1) INTO table\_exists 
+ FROM ALL\_TABLES 
+ WHERE table\_name = 'K\_DRUGCLASS' AND owner = USER;
+```
+-- 如果表不存在
+IF table_exists = 0 THEN
+    -- 使用 EXECUTE IMMEDIATE 动态执行 CREATE TABLE 语句
+    EXECUTE IMMEDIATE 'CREATE TABLE k_drugclass(
+        EntId char(11),
+        ElecGoodsCode varchar2(60),
+        produce_name varchar2(100),
+        prepn_type_desc varchar2(200),
+        prepn_spec varchar2(200),
+        pkg_spec_crit varchar2(200),
+        approve_no varchar2(200),
+        produce_subcode varchar2(100),
+        drug_classcode varchar2(100),
+        pkg_ratio varchar2(100),
+        package_level varchar2(20),
+        package_amount varchar2(20) 
+    )';
+    DELETE FROM TbIndexMt WHERE upper(TbName) = 'K_DRUGCLASS';
+    DELETE FROM TbIndexDt WHERE upper(TbName) = 'K_DRUGCLASS';
+
+    DELETE FROM TbList WHERE TbName = 'k_drugclass';
+    INSERT INTO TbList (TbName, TbCode, TbDesc, Explains, TbType, CatFlag, Attr, Conditions,DeveloperId, ModuleId, PTbName, idkey, codefld, idflag, namefld, createlgfld, catcodefld, logogramfld, sqlcont, issync) 
+      VALUES ('k_drugclass', '', '商品电子监管分类子表', '', 'bus', '应用基础', 'Y', '', 'E03BEXVRQBE', '18u8okrne0xnik0i', '', '', '', '', '', '', '', '', '', '');
+
+    DELETE FROM TbStru WHERE upper(TbName) = 'K_DRUGCLASS';
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 1, 'EntId', '企业ID', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 2, 'ElecGoodsCode', '阿里健康药品编码', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 3, 'produce_name', '阿里商品名称', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 4, 'prepn_type_desc', '阿里商品剂型', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 5, 'prepn_spec', '阿里制剂规格', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 6, 'pkg_spec_crit', '阿里包装规格', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 7, 'approve_no', '阿里国药准字', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 8, 'produce_subcode', '阿里子类编码', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 9, 'drug_classcode', '阿里子类别码', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 10, 'pkg_ratio', '阿里包装比例', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) 
+      VALUES ('k_drugclass', 11, 'package_level', '阿里包装级别', 'Y', '', '', 'N');
+    INSERT INTO TbStru (TbName, SortNum, FdName, F
+
+```
+
+---
+
+## 附加信息
+
+**对应版本**: 时空智友
+
+**对应模块**: 供应链管理系统
+
+**问题类型**: 数据接口问题
+
+**解决方案类型**: SQL脚本, 代码修改, 数据库操作
+
+**技术栈**: Oracle, REST API
+
+**技术关键词**: 追溯码
+
+**问题关键字**: 多包装
+
+**单据编号**: FX-20250508-009
+
+**提交人**: 汪松  \|  **提交部门**: 经理办  \|  **提交日期**: 2025-05-08

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240730-043",
+ "record_id": "BolWiiA0JK",
+ "title": "盘点数据补导入",
+ "problem": "盘点数据补导入",
+ "cause": "根据历史库存内容，盘点数据补导入，不包含盘损盘溢内容",
+ "solution": "导入脚本可以参考",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Python",
+  "Shell"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "盘点补录"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1xlqM8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1xlqM8BQEx5rG",
+  "doc_path": "/时空/应用操作/盘点数据补导入(1)",
+  "record_id": "BolWiiA0JK"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/盘点数据补导入(1)",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

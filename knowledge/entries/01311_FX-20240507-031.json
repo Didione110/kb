@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240507-031",
+ "record_id": "YHKaq8u81I",
+ "title": "打印方案设置默认打印无效",
+ "problem": "打印方案设置默认打印无效",
+ "cause": "windows系统环境",
+ "solution": "win10电脑无法设置，需要在win7的电脑上面设置好",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "默认打印"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YHKaq8u81I"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

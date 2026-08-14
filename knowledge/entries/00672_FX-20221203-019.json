@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221203-019",
+ "record_id": "H86bAFIuVP",
+ "title": "sql2008数据库自动备份经常停止无法自动备份",
+ "problem": "sql2008数据库自动备份经常停止无法自动备份",
+ "cause": "需要安装sp2补丁",
+ "solution": "下载安装sp2补丁即可",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "SQL2008备份停止"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1A44DJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1A44DJyMoPYe1",
+  "doc_path": "/时空/软件补丁问题/sql2008数据库自动备份经常停止无法自动备份",
+  "record_id": "H86bAFIuVP"
+ },
+ "status": "active",
+ "doc_path": "/时空/软件补丁问题/sql2008数据库自动备份经常停止无法自动备份",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

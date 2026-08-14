@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221031-030",
+ "record_id": "4Ls6bLD8Vr",
+ "title": "T+销售订单附件下载报错：The difference between the request time and the current time is too large",
+ "problem": "T+销售订单附件下载报错：The difference between the request time and the current time is too large",
+ "cause": "服务器电脑时间有异常，与实时时间有差导致下载失败",
+ "solution": "服务器电脑时间有异常，需要调整服务器电脑时间为当前实际北京时间",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "时间偏差"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yADQYX8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yADQYX8GXn6lpz",
+  "doc_path": "/其他/环境问题/T+销售订单附件下载报错：The difference between the request time and the current time is too large",
+  "record_id": "4Ls6bLD8Vr"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/T+销售订单附件下载报错：The difference between the request time and the current time is too large",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

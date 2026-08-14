@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250402-005",
+ "record_id": "axhmfk9xgq",
+ "title": "零售收款输入份数库存不足时，数量、原份数、份数未重置，导致下一次份数调整，明细数量计算错误",
+ "problem": "零售收款输入份数库存不足时，数量、原份数、份数未重置，导致下一次份数调整，明细数量计算错误",
+ "cause": "份数和原份数未重置，导致下一次计算错误",
+ "solution": "例：\n初始数量: 2 \n份数 : 3 数量:6 \n份数调整为:4 库存满足 6/3*4 =8 新数量=原数量/原份数*新份数\n 库存不足 8/4 =2 库存不足时数量还原到初始数量,同时将原份数和新份数重置为1\n\n调整份数在库存不足情况时对数量和份数进行初始化计算处理：\nasync function uf_copis(){\n var params = {};\n params.copies = ds_mast.field(\"copies\").value;\n \n for(var i = 0; i < ds_mxls.recordCount; i++)\n {\n if (ds_mxls.getValueAt(i, \"IsStocks\") != \"N\")\n {\n \n await ds_mxls.setValueAt(i, \"num\", ds_mxls.getValueAt(i, \"num\") * params.copie \n s / ds_mast.getValue(\"old_copies\"));\n uf_detailCalc(\"num\", i);\n \n }\n }\n \n ds_mast.setValue(\"old_copies\",ds_mast.field(\"copies\").value) ; //zs\n\n for(var j =0 ;j<ds_mxls.recordCount;j++) {\n \n if (ds_mxls.getValueAt(j, \"IsControl\") != \"N\")\n {\n \n if(ds_mxls.getValueAt(j,'BeSaleNum') < ds_mxls.getValueAt(j,'num')){\n \n await form.alert(\"第\" + (j + 1) + \"行商品数量大于可销数量,增加份数无效！\");\n \n \n for(var j1 =0 ;j1<ds_mxls.recordCount;j1++) {\n\n await ds_mxls.setValueAt(j1, \"num\", ds_mxls.getValueAt(j1, \"num\") /ds_m \n ast.field(\"copies\").value );\n \n \n }\n ds_mast.field(\"copies\").value=1;\n ds_mast.field(\"old_copies\").value=1; \n ds_mxls.update();\n \n \n } \n }\n }\n \n\n ds_mxls.update();\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "份数重置"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-04-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "axhmfk9xgq"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

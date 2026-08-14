@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-034",
+ "record_id": "Y32tMpfTu4",
+ "title": "库存现存量里面显示还有48个   但是只领料30个，体统提示库存不足，还差7个",
+ "problem": "库存现存量里面显示还有48个 但是只领料30个，体统提示库存不足，还差7个",
+ "cause": "其他领料申请单没有出库占用了该物料的可用量，导致不能在领料",
+ "solution": "1、找出被占用的单据，删除该单据或删除该单据上的明细行（被占用单据难查，一般在领料申请、转库单、调拨单中被占用较多）\n2、调整本次领料的数量",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "库存不足"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y32tMpfTu4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

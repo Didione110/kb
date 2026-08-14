@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240311-030",
+ "record_id": "Y8FRTpQR1p",
+ "title": "有些客户在实施完诺诺发票后，希望给客户或者业务员发送邮件，目前的诺诺接口是支持利用诺诺的sass发送发票邮件，但是因为是sass标准化产品，所以不能在邮件里自定义内容",
+ "problem": "有些客户在实施完诺诺发票后，希望给客户或者业务员发送邮件，目前的诺诺接口是支持利用诺诺的sass发送发票邮件，但是因为是sass标准化产品，所以不能在邮件里自定义内容",
+ "cause": "但是因为是sass标准化产品，所以不能在邮件里自定义内容",
+ "solution": "用发散思维，其实可以自行部署SMTP邮件服务 ，如果是MSSQL数据库是支持SMTP协议的，于是乎我就编写了一份语句，提供大家参考，延伸开来其实可以应用于其他多种业务场景，如：采购付款申请做了后邮件通知审批人？发票开完后邮件通知客户？首营做完后邮件通知质管？快递发完后邮件通知收货人？等等\n\n DECLARE @body VARCHAR(500)\n DECLARE @subject VARCHAR(500)\n DECLARE @recipients VARCHAR(500)\n SET @body = ( SELECT TOP 1\n '你好，当前发送：' + a.buyerName + '的发票,发票号：' + CAST(a.invoiceNo AS VARCHAR(30)) + '，开票日期' + a.invoiceDate + ',开票含税金额：'\n + CAST(a.orderAmount AS VARCHAR(50)) + ' ,发票下载地址：' + a.pdfUrl\n FROM v_nn_invoice a\n WHERE a.orderNo = 'SCK2024030800678-bs--20240309170318366-001'\n AND a.invoiceNo = '24422000000018027740' )\n SET @subject = ( SELECT TOP 1\n '你好，当前发送：' + a.buyerName + '的发票,发票号：' + CAST(a.invoiceNo AS VARCHAR(30))\n FROM v_nn_invoice a\n WHERE a.orderNo = 'SCK2024030800678-bs--20240309170318366-001'\n AND a.invoiceNo = '24422000000018027740' )\n SET @recipients = '50534205@qq.com'\n \n \n EXEC [msdb].[dbo].[sp_send_dbmail] @profile_name = 'race_mail' --这里和定义的配置需要相同\n , @recipients = @recipients , @body = @body , @subject = @subject \n \n效果图如附件所示",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "邮件自定义"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-03-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y8FRTpQR1p"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

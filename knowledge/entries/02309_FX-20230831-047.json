@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230831-047",
+ "record_id": "wg5nQZWqTT",
+ "title": "医保改革后，B端客户对于品种医保类型也是比较关注。不同医保类型对应的报销比例不同。有客户提出电商平台也应该展现医保类型。便于客户采购",
+ "problem": "医保改革后，B端客户对于品种医保类型也是比较关注。不同医保类型对应的报销比例不同。有客户提出电商平台也应该展现医保类型。便于客户采购",
+ "cause": "商城商品资料接口有医保类型字段提供同步，但是大部分客户erp内没有对应数据。",
+ "solution": "利用商城商品标签功能，新增标签医保甲类、乙类、丙类，将对应商品关联标签。这样，不管是前台楼层、搜索页、详情页都会在显眼的地方展示对应标签。解决问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保类型"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wg5nQZWqTT"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

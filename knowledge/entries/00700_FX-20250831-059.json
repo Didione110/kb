@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250831-059",
+ "record_id": "HxjOFLhDiL",
+ "title": "客户新增药店系统，要求修改批发资料后，药店资料同步修改",
+ "problem": "客户新增药店系统，要求修改批发资料后，药店资料同步修改",
+ "cause": "客户药店从批发进货，资料从批发提取的",
+ "solution": "新增商品资料触发器，当修改批发企业的时候，先删除药店的商品资料，同时插入一下最新的商品资料",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "同步更新"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-08-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41D2PrJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41D2PrJA7depqY",
+  "doc_path": "/时空/应用操作/客户新增药店系统，要求修改批发资料后，药店资料同步修改",
+  "record_id": "HxjOFLhDiL"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/客户新增药店系统，要求修改批发资料后，药店资料同步修改",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

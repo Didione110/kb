@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240401-006",
+ "record_id": "fu0OrjLi4Z",
+ "title": "打印问题：多组织，单据打印的时候，自动获取现存量",
+ "problem": "打印问题：多组织，单据打印的时候，自动获取现存量",
+ "cause": "现存量：select sum(UFIDA::U9::InvTrans::WhQoh::WhQoh.StoreQty) as 库存在手量_数量 from UFIDA::U9::InvTrans::WhQoh::WhQoh where UFIDA::U9::InvTrans::WhQoh::WhQoh.ItemInfo.ItemCode=(select top 1 UFIDA::U9::PM::Rcv::Receivement.RcvLines.ItemInfo.ItemCode as 料品_料号 from UFIDA::U9::PM::Rcv::Receivement where UFIDA::U9::PM::Rcv::Receivement.Org.ID=Contexts!OrgID.Value and UFIDA::U9::PM::Rcv::Receivement.RcvLines.DocLineNo=Fields!Receivement_RcvLines_DocLineNo.Value and UFIDA::U9::PM::Rcv::Receivement.DocNo=Fields!Receivement_DocNo.Value )",
+ "solution": "and 组织条件 ：UFIDA::U9::InvTrans::WhQoh::WhQoh.LogisticOrg.ID=Contexts!OrgID.Value",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "库存",
+  "权限"
+ ],
+ "keywords": [
+  "打印现存量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fu0OrjLi4Z"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

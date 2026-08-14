@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241008-008",
+ "record_id": "l07xwWWhkS",
+ "title": "部分异地区域刷卡时提示就诊凭证类型不能为身份证",
+ "problem": "部分异地区域刷卡时提示就诊凭证类型不能为身份证",
+ "cause": "预结算时湖北省统一默认就诊凭证类型字段mdtrt\\_cert\\_type传的02，即身份证，但部分地区要求按实际传入",
+ "solution": "在零售收款界面增加读卡类型字段提前进行选择，当该字段为空时传默认值，不为空时按实际选择值传入医保",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "就诊凭证"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5Az96PJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5Az96PJ5daZ90D",
+  "doc_path": "/自研/实施问题/部分异地区域刷卡时提示就诊凭证类型不能为身份证",
+  "record_id": "l07xwWWhkS"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/部分异地区域刷卡时提示就诊凭证类型不能为身份证",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

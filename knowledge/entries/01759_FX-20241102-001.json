@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241102-001",
+ "record_id": "jrlbsLWDdC",
+ "title": "1、根据技术文档无法确认fdModelId、fdFlowId；\n2、凭证中辅助核算在科目下级的表单无法设计",
+ "problem": "1、根据技术文档无法确认fdModelId、fdFlowId；\n2、凭证中辅助核算在科目下级的表单无法设计",
+ "cause": "1、fdModelId、fdFlowId文档没有明显说明；\n2、明细表不支持嵌套明细表",
+ "solution": "1、fdModelId从\"表单设计地址栏获取fdAppModelId\"、fdFlowId从\"流程配置界面获取fdid\"；\n2、理论上低代码公式写自定义代码可实现（实践中代码未生效），后采用中台程序自动补全。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "辅助核算、fdModelId、fdFlowId"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EIS",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2024-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jrlbsLWDdC"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "数据接口问题"
+ ]
+}

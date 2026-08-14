@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250324-030",
+ "record_id": "fJ7FPYuDUJ",
+ "title": "查找生产订单上业务关闭时间来源于哪张单据",
+ "problem": "查找生产订单上业务关闭时间来源于哪张单据",
+ "cause": "查找生产订单上业务关闭时间来源于哪张单据",
+ "solution": "生产订单上业务关闭时间来源查询脚本，对应替换组织编码、生产订单号",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "业务关闭时间"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-03-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fJ7FPYuDUJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

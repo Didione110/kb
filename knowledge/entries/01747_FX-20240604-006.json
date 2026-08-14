@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240604-006",
+ "record_id": "jRb4gtotFf",
+ "title": "使用mybatis xml <foreach>标签循环遍历数据报：无效字符",
+ "problem": "使用mybatis xml <foreach>标签循环遍历数据报：无效字符",
+ "cause": "在insert/select/delete中close参数带了‘;’导致报错",
+ "solution": "insert/delete close带';'.select close不带\n例2 ：\ndelete K\\_YN\\_BATCHCOUPON where SCHEMEID in\n \n #\\{d.schemeId\\}\n \n insert into K\\_YN\\_BATCHCOUPON\n (SCHEMEID,SCHEMENAME,CREATETIME,EFFECTSTARTTIME,EFFECTENDTIME,DISCOUNT,THRESHOLD,DESCRIPTION)\n values\n (#\\{db.schemeId\\},#\\{db.schemeName\\},#\\{db.createTime\\},#\\{db.effectStartTime\\},#\\{db.effectEndTime\\},#\\{db.discount\\},#\\{db.threshold\\},#\\{db.description\\}); \n\n例2：\n\n select \\* from test001 where couponNo in\n \n '\\$\\{d\\}'",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "无效字符"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gr5lzJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gr5lzJxAZB1Gv",
+  "doc_path": "/自研/数据错误问题/使用mybatis xml foreach标签循环遍历数据报无效字符",
+  "record_id": "jRb4gtotFf"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/使用mybatis xml foreach标签循环遍历数据报无效字符",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

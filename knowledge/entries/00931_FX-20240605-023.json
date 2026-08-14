@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240605-023",
+ "record_id": "NttxIEt5eO",
+ "title": "系统导出所有文件名都叫“智友导出文件”",
+ "problem": "系统导出所有文件名都叫“智友导出文件”",
+ "cause": "Grid插件管理中设置了默认值“智友导出文件”",
+ "solution": "取消默认值，去当前表单的标题为导出文件名",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "文件名重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NttxIEt5eO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

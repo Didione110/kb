@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240812-034",
+ "record_id": "IfLUZ16CPI",
+ "title": "美团接口中客户需要区分商家优惠与平台优惠，",
+ "problem": "美团接口中客户需要区分商家优惠与平台优惠，",
+ "cause": "科情自研美团接口中优惠信息存储表k\\_meituan\\_orderextras存储字段reduce\\_fee为优惠合计，新增字段 mt\\_charge 平台优惠，poi\\_charge 商家优惠区分；",
+ "solution": "新增字段后重启接口解决（接口不需要更新，接口会对同名字段进行默认插入）",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "优惠区分"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-08-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmqjPMJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmqjPMJqjMp697",
+  "doc_path": "/自研/数据接口问题/美团接口中客户需要区分商家优惠与平台优惠，",
+  "record_id": "IfLUZ16CPI"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/美团接口中客户需要区分商家优惠与平台优惠，",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

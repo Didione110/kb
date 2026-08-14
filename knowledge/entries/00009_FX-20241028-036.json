@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241028-036",
+ "record_id": "0IVGJJxTge",
+ "title": "零售录入追溯码时需要有重复录入校验",
+ "problem": "零售录入追溯码时需要有重复录入校验",
+ "cause": "零售录入追溯码时需要有重复录入校验",
+ "solution": "1. 零售收银服务端插入监管码表Imeihis的代码中更改oldstate的值区分正负单，见附件1\n```\n if(ds_mast.field(\"ywlx\").value.equals(\"XS\")){\n ds_imieHis.setValueAt(i,\"OldState\",0);\n ds_imieHis.setValueAt(i,\"NewState\",1); \n }else{\n ds_imieHis.setValueAt(i,\"OldState\",1);\n ds_imieHis.setValueAt(i,\"NewState\",0); \n }\n\n```\n2. 追溯码输入事件中增加重复校验代码，见附件2\n\n//历史重复扫描校验\n var chk\\_imeino = DBUtil.uniqueValue(\"uf\\_sel\\_imeino\",\\{\"imeino\":IMEINo\\});\n if(chk\\_imeino \\> 0)\n\n对应校验SQL:\nSELECT COUNT(\\*) as tm\nFROM dbo.IMEIHIS a\nWHERE a.OldState =0 AND a.IMEINo= :imeino\nAND NOT EXISTS (SELECT 1 FROM dbo.IMEIHIS b WHERE a.IMEINo=b.IMEINo AND b.OldState=1)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "JS"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "重复校验"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-10-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNZex9Jbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNZex9Jbkz3BRL",
+  "doc_path": "/时空/产品功能问题/ÁãÊÛ¼Èë׷ËÝÂëʱÐèҪÓÐÖظ´¼ÈëУÑé",
+  "record_id": "0IVGJJxTge"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/ÁãÊÛ¼Èë׷ËÝÂëʱÐèҪÓÐÖظ´¼ÈëУÑé",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

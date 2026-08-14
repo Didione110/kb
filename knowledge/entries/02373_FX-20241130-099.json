@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241130-099",
+ "record_id": "yQWZe2FM66",
+ "title": "V12医保月结提交数据显示部分行号无可结算的数据,调用结算打印显示部分提交成功",
+ "problem": "V12医保月结提交数据显示部分行号无可结算的数据,调用结算打印显示部分提交成功",
+ "cause": "V12月结月结功能延用襄阳已上线的月结功能，经过详细对比，襄阳那边可以分区域提交，武汉这边不允许分区域提交，需要合并提交月结数据",
+ "solution": "整理V12月结数据，调整为汇总数据提交，并且打印预览与医保对账以及和提交的汇总数据一致",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "医保月结异常"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yQWZe2FM66"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230203-008",
+ "record_id": "N7wNk2N5oq",
+ "title": "T6销售出库单报错,339部件T6QuickInput.ocx丢失",
+ "problem": "T6销售出库单报错,339部件T6QuickInput.ocx丢失",
+ "cause": "环境问题",
+ "solution": "在其他正常电脑上拷了T6QuickInput.ocx替换后正常；\n一般路径是C盘sys32或64的ufcomsql里；",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "T6出库报错"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N7wNk2N5oq"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241008-017",
+ "record_id": "0Rgmac0sXg",
+ "title": "客户一张单据明细非常多，诺诺开票有限制，明细行不超过2000条。",
+ "problem": "客户一张单据明细非常多，诺诺开票有限制，明细行不超过2000条。",
+ "cause": "客户多选单据后开票，明细超过2000行，需要增加多选拦截",
+ "solution": "诺诺更新2.0.6，勾选的多张单据明细条目数不超过2K条，一张单据允许超过2K条；",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "明细超限"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0Rgmac0sXg"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

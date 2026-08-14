@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231025-031",
+ "record_id": "IOlzdyWL5u",
+ "title": "NC65新公司添加的客商提交后，审批人看不到审批单",
+ "problem": "NC65新公司添加的客商提交后，审批人看不到审批单",
+ "cause": "审批流定义问题",
+ "solution": "动态建模平台--流程管理--审批流定义集团，修改对应流程中使用组织，勾选上新的业务单元，然后再到流程里，停用旧流程，启用新保存的流程，最后让提交人收回单据，重新提交，触发审批流即可；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "审批单不可见"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-10-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IOlzdyWL5u"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

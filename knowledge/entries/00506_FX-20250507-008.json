@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250507-008",
+ "record_id": "CZzOCXeI1A",
+ "title": "退货时候提示大于原单数量",
+ "problem": "退货时候提示大于原单数量",
+ "cause": "第一次提原单退货后由于各种原因导致了单据删除，第二次再提的时候就提示超原单数量",
+ "solution": "单据删除的时候新增回写原单退货数量",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存"
+ ],
+ "keywords": [
+  "退货超量"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-05-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0YKbbVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0YKbbVDOnGvpb",
+  "doc_path": "/时空/产品功能问题/退货时候提示大于原单数量",
+  "record_id": "CZzOCXeI1A"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/退货时候提示大于原单数量",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

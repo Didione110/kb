@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230104-002",
+ "record_id": "ybl1A95zwY",
+ "title": "不能显示NC登陆界面",
+ "problem": "不能显示NC登陆界面",
+ "cause": "清除缓存失败",
+ "solution": "1、将UCLIENT卸载，并删除所在文件夹\n2、重新下载UCLIENT并安装\n3、清除缓存，第一次登陆很慢是正常现象",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "NC登录界面"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ybl1A95zwY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

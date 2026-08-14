@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230627-009",
+ "record_id": "uI62MELjbN",
+ "title": "客户端操作系统管理办法",
+ "problem": "客户端操作系统管理办法",
+ "cause": "系统管理程序一般都是部署在服务器上，只有服务器可以操作，当服务器不方便远程而需要用系统管理时，可用客户端直接打开系统管理程序进行操作",
+ "solution": "客户端——系统服务——系统管理",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "操作系统管理"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uI62MELjbN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231206-024",
+ "record_id": "z8pgs8HQ9s",
+ "title": "开票软件报错 【9999】离线开票时间超时",
+ "problem": "开票软件报错 【9999】离线开票时间超时",
+ "cause": "未知",
+ "solution": "查看诺诺客户端是否显示正常，显示正常还是开不了票就退出诺诺客户端重新进，显示不正常联系诺诺那边的工程师查看",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "SSL"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "离线开票超时"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "z8pgs8HQ9s"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

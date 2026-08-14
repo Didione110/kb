@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221102-003",
+ "record_id": "pSkeVtg79a",
+ "title": "NC65新子公司在物料计价方式初始设置里无法选择对应成本域；",
+ "problem": "NC65新子公司在物料计价方式初始设置里无法选择对应成本域；",
+ "cause": "配置问题",
+ "solution": "1.先检查对应成本域是否存在；2.再检查相应业务类角色是否有此职责及组织权限；3.所有检查正常后仍无法分配，最终发现是初始化时在财务核算账簿里存货核算模块未启用；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "库存",
+  "权限"
+ ],
+ "keywords": [
+  "成本域"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pSkeVtg79a"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

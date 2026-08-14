@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-050",
+ "record_id": "N0Y6eBN1Pa",
+ "title": "oracle创建用户报错ORA-65096:公用用户名或角色名无效",
+ "problem": "oracle创建用户报错ORA-65096:公用用户名或角色名无效",
+ "cause": "oracle数据安装时，勾选了安装容器",
+ "solution": "12C如果安装了pdborcl需要启动容器数据库\nalter pluggable database pdborcl open ;\n\n--用来查看当前CDB容器中包含的PDB容器\nselect name,open_mode from v$pdbs; \n\nSELECT PDB_NAME, STATUS FROM DBA_PDBS;\n\nalter session set container=pdborcl;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "公用用户"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N0Y6eBN1Pa"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

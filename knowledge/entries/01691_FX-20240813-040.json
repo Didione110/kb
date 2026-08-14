@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240813-040",
+ "record_id": "htJjBfchFF",
+ "title": "打印问题：点击【快打】，打印出的纸张留白太多，由于客户大都是针式打印机，快打打印出的效果不好，且不想启用新版打印控制，因为单据打印模板不唯一，需根据实际场景选择不同的打印模板，此时想不弹出打印预览界面，直接打印，节约打印时间。",
+ "problem": "打印问题：点击【快打】，打印出的纸张留白太多，由于客户大都是针式打印机，快打打印出的效果不好，且不想启用新版打印控制，因为单据打印模板不唯一，需根据实际场景选择不同的打印模板，此时想不弹出打印预览界面，直接打印，节约打印时间。",
+ "cause": "打印问题：点击【快打】，打印出的纸张留白太多，由于客户大都是针式打印机，快打打印出的效果不好，且不想启用新版打印控制，因为单据打印模板不唯一，需根据实际场景选择不同的打印模板，此时想不弹出打印预览界面，直接打印，节约打印时间。",
+ "solution": "需要第三方软件的支持：推荐 Adobe Acrobat XI PDF阅读工具，且要把系统的打印机尺寸的纸张，如仓库“ERP”设置成默认的纸张尺寸，点打印后，打印控制=直接打印",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "快打留白"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-08-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "htJjBfchFF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

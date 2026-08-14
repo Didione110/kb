@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260116-004",
+ "record_id": "jwvDjik19Q",
+ "title": "新建卡片上的已计提期数根据开始使用日期推算，但是可能由于人工修改了已计提期数，折旧摊销时都根据卡片上期初的财务信息计算折旧额\n\n",
+ "problem": "新建卡片上的已计提期数根据开始使用日期推算，但是可能由于人工修改了已计提期数，折旧摊销时都根据卡片上期初的财务信息计算折旧额",
+ "cause": "人工修改了已计提期数，期初已计提期数错误",
+ "solution": "1、首先新增固定资产变动单，调整已计提期数\n2、后台修改期初财务信息已计提期数\n需要把期初的那条财务信息的usedmonth改为正确的根据开始使用日期到建卡日期之间的数字\n期初标识：laststate_flag='N'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "已计提期数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2026-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jwvDjik19Q"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

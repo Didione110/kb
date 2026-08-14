@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241125-037",
+ "record_id": "XPePi2XhsT",
+ "title": "新年度没有做开账结转直接导入凭证，会导致点击总账任何节点提示本年度未开账，但进入系统中的新年度的期初余额节点会显示已开账，开账节点为灰色，且无法结转",
+ "problem": "新年度没有做开账结转直接导入凭证，会导致点击总账任何节点提示本年度未开账，但进入系统中的新年度的期初余额节点会显示已开账，开账节点为灰色，且无法结转",
+ "cause": "没有进行开账结转操作，直接导入了2022年凭证，系统默认为已开账，实际库表中未开账",
+ "solution": "1.备份账套\n2.select * from GL_YearState\n update GL_YearState set iOpenFlag='1' where iyear='2022'\n update GL_YearState set iInitFlag='1' where iyear='2022'\n3.可以结转，解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "未开账结转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XPePi2XhsT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

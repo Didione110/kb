@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250311-013",
+ "record_id": "ZP42QLqYso",
+ "title": "sql数据库收缩报错",
+ "problem": "sql数据库收缩报错",
+ "cause": "数据库文件有损坏",
+ "solution": "1.检查数据库的完整性：DBCC CHECKDB ('数据库名') WITH NO_INFOMSGS;\n如果发现有损坏：\n2.将数据库改为单用户模式ALTER DATABASE [数据库名] SET SINGLE_USER WITH ROLLBACK IMMEDIATE；\n3.修复：DBCC CHECKDB ('数据库名', REPAIR_ALLOW_DATA_LOSS);\n4.将数据库还原回多用户模式：ALTER DATABASE [数据库名] SET MULTI_USER;\n再右键数据库收缩成功",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "数据库收缩报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2025-03-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZP42QLqYso"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

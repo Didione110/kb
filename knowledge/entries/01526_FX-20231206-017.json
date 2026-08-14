@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231206-017",
+ "record_id": "e18UJVCQn6",
+ "title": "客户sql数据库使用一段时间后，日志文件变大，且通过备份、压缩等方式无法减小",
+ "problem": "客户sql数据库使用一段时间后，日志文件变大，且通过备份、压缩等方式无法减小",
+ "cause": "采用语句执行",
+ "solution": "--查询指定数据库的日志文件名称\n USE [ksoa] \nGO \nSELECT name FROM SYS.database_files WHERE type_desc='LOG' \n数据库压缩 \nUSE [master]\n GO \nALTER DATABASE [ksoa] \nSET RECOVERY SIMPLE WITH NO_WAIT \nGO \nALTER DATABASE [ksoa] SET RECOVERY SIMPLE \nGO \n\nUSE [ksoa] \nGO \nDBCC SHRINKFILE (N'ksoa_zuizhong_Log' , 0,TRUNCATEONLY) \nGO \n\nUSE [master]\n GO \nALTER DATABASE [ksoa] SET RECOVERY FULL WITH NO_WAIT\n GO \nALTER DATABASE [ksoa] SET RECOVERY FULL \nGO",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志膨胀"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "e18UJVCQn6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

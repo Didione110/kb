@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230411-019",
+ "record_id": "cDTShpINvM",
+ "title": "OA中如何实现固定资产按照资产类别代码自动生成“分类代码+5位数流水号”",
+ "problem": "OA中如何实现固定资产按照资产类别代码自动生成“分类代码+5位数流水号”",
+ "cause": "日常应用中很多场景需要用到分类别自动流水号设置，如固定资产编码流水，在ERP系统中，固定资产编码可以按照系统规则自动生成，在OA系统中类似场景可以通过CAP4设置流水号生成规则。",
+ "solution": "具体解决方案见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "固定资产、资产类别、流水号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2023-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cDTShpINvM"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

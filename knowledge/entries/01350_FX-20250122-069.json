@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250122-069",
+ "record_id": "Z8D7M53h5B",
+ "title": "医院年底检查，缺少文件，2600个临时上传的文件后台更改日期后，实际前台文件顺序还是按照之前的上传日期排序",
+ "problem": "医院年底检查，缺少文件，2600个临时上传的文件后台更改日期后，实际前台文件顺序还是按照之前的上传日期排序",
+ "cause": "医院年底检查，缺少文件，2600个临时上传的文件后台更改日期后，实际前台文件顺序还是按照之前的上传日期排序",
+ "solution": "前台手动排序，根据更改后新的时间",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "文件排序"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "文化建设",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z8D7M53h5B"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "安全问题"
+ ]
+}

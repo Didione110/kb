@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221205-031",
+ "record_id": "8O85n9uQNE",
+ "title": "如何对表单进行企业实例化",
+ "problem": "如何对表单进行企业实例化",
+ "cause": "针对企业对该表单进行修改处理",
+ "solution": "insert into FormInstance (formid,orgid,rftype,captionlocale,caption,ver,formentity)\nselect '1lr6m3vxbduyek5d','E3RKD80R24M','B',captionlocale,'九宸销售订单','1.1.398.4084',formentity\nfrom FormInstance where formid = '1lr6m3vxbduyek5d' and caption = '销售订单';\n//销售订单保存没有编号\n--insert into billcode\nselect '5lomg2cd75q3obto','E3RI5W2UDQA','00000000000' ,0,0,30,'###' from dual",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "企业实例化"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2022-12-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAzn1aV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAzn1aV1DK0g6l",
+  "doc_path": "/时空/产品功能问题/如何对表单进行企业实例化",
+  "record_id": "8O85n9uQNE"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/如何对表单进行企业实例化",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

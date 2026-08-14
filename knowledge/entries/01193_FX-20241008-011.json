@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241008-011",
+ "record_id": "VE58pPwByF",
+ "title": "后台删除客户档案",
+ "problem": "后台删除客户档案",
+ "cause": "用户误操作增加了一个集团客户，无法删除，检查并未分配，且检查查询引用也无结果，就是无法删除，提示已使用，提交ISM，按厂家给的语句后台处理完成",
+ "solution": "--1 备份\ncreate table gl_docfree10929 as select * from gl_docfree1 where F4 in ( '1001A6100000000RP7T5' ) \n--2 删除\ndelete from gl_docfree1 where F4 in ( '1001A6100000000RP7T5' )\n--3提交\ncommit;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "客户删除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VE58pPwByF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

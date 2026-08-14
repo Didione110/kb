@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230620-003",
+ "record_id": "L7eRoZHtdV",
+ "title": "C端复核台(带光栅)，电子标签出现 ..E.F.. 的错误信息",
+ "problem": "C端复核台(带光栅)，电子标签出现 ..E.F.. 的错误信息",
+ "cause": "电子标签配套的2个光栅未对齐导致标签出现异常信息",
+ "solution": "调整光栅位置并固定",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "光栅异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-06-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMNmoBJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMNmoBJB5r9YAn",
+  "doc_path": "/其他/环境问题/C端复核台带光栅，电子标签出现E.F的错误信息",
+  "record_id": "L7eRoZHtdV"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/C端复核台带光栅，电子标签出现E.F的错误信息",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

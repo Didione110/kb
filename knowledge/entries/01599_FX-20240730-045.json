@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240730-045",
+ "record_id": "flRxya5FcZ",
+ "title": "oracle中得到月份最后一天",
+ "problem": "oracle中得到月份最后一天",
+ "cause": "oracle中得到月份最后一天",
+ "solution": "oracle 最后一天\nselect last_day(to_date('201409','yyyymm')) from dual;",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "月末日期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "flRxya5FcZ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

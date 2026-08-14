@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250806-013",
+ "record_id": "ybIv5gUbSS",
+ "title": "凭证作废后无法整理，提示：记-1凭证重号，不能进行凭证整理",
+ "problem": "凭证作废后无法整理，提示：记-1凭证重号，不能进行凭证整理",
+ "cause": "同一期间系统一般不会出现重复凭证号，估计是环境卡顿导致的延迟凭证号起了冲突，软件进行凭证整理的时候又会校验重复凭证号，这就导致了循环错误。",
+ "solution": "在数据库执行语句，找到重复的凭证号进行修改，再去系统重新反记账触发，再进行作废整理删除\n例：\nselect * from GL_accvouch where iperiod='7' and iyear='2025' and cdigest='期间损益结转'\n\nselect * from GL_accvouch where i_id in ('26843','26844','26845','26846','26847','26848','26849','26850','26851','26852')\n\nupdate GL_accvouch set ino_id='2' where i_id in ('26843','26844','26845','26846','26847','26848','26849','26850','26851','26852')",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证重号"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-08-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ybIv5gUbSS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

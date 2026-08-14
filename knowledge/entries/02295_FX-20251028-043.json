@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251028-043",
+ "record_id": "wSk5LrFA7W",
+ "title": "审批中心消息出现问题数据，单据已删除，单审批消息仍然存在；流程实例监控无法操作终止",
+ "problem": "审批中心消息出现问题数据，单据已删除，单审批消息仍然存在；流程实例监控无法操作终止",
+ "cause": "单据已被删除，审批流未收回",
+ "solution": "根据集团出具的修复方法调整执行sql语句",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "消息残留"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wSk5LrFA7W"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251128-047",
+ "record_id": "eCB01xgAoD",
+ "title": "诺诺税控接口个别单据点击开票界面显示空白",
+ "problem": "诺诺税控接口个别单据点击开票界面显示空白",
+ "cause": "检查k\\_nn\\_tempinv表中存在税率为null的数据导致界面无法显示商品信息",
+ "solution": "修改v\\_nn\\_billdt 视图中税率的默认值不容许为null.或者修改对应商品税率为null的数据解决",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "诺诺税控开票空白"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYALrOjV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYALrOjV1DK0g6l",
+  "doc_path": "/自研/数据错误问题/诺诺税控接口个别单据点击开票界面显示空白",
+  "record_id": "eCB01xgAoD"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/诺诺税控接口个别单据点击开票界面显示空白",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

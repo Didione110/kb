@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240229-058",
+ "record_id": "UA9spszTK5",
+ "title": "点三OMS系统订单数据推送失败",
+ "problem": "点三OMS系统订单数据推送失败",
+ "cause": "短时间内大批量审单，由于Erp数据库处理订单数据效率可能不及时，回传超10s。点三会记录返回超时，数据推送失败，再次重试时由于检测到订单表中实际已有订单就会记录计划单已存在。",
+ "solution": "关闭程序后台的重复单据拦截开关",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "订单推送失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmvbLXJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmvbLXJGlDd3mE",
+  "doc_path": "/其他/数据接口问题/点三OMS系统订单数据推送失败",
+  "record_id": "UA9spszTK5"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/点三OMS系统订单数据推送失败",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

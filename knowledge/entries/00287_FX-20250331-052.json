@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250331-052",
+ "record_id": "6jl9oaI8aj",
+ "title": "订单分配调度界面，无法看到传过来的销售单",
+ "problem": "订单分配调度界面，无法看到传过来的销售单",
+ "cause": "正常来说，如果传过来的表数据无问题情况下，那就是开关有问题。",
+ "solution": "需要把自动调度的开关给关了，如果需要自动调度，那wmsoutmt表的isdone要为z，则会自动调度。",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "销售单不可见"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0Xpx3VDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0Xpx3VDOnGvpb",
+  "doc_path": "/时空/应用操作/订单分配调度界面，无法看到传过来的销售单",
+  "record_id": "6jl9oaI8aj"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/订单分配调度界面，无法看到传过来的销售单",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

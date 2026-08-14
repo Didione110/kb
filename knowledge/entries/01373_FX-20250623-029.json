@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250623-029",
+ "record_id": "Zjtvnjmf8v",
+ "title": "标准出货单列表怎么显示上游单据标准销售行的交期",
+ "problem": "标准出货单列表怎么显示上游单据标准销售行的交期",
+ "cause": "标准产品不能直接拉取上游单据的交期",
+ "solution": "在出货单加上私有段，记录销售订单行交期，然后列表放出这个私有段",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "交期显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-06-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Zjtvnjmf8v"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

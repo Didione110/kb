@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250228-046",
+ "record_id": "brfzJDpZIT",
+ "title": "零售上传追溯码后，无法查询追溯码是否上传成功",
+ "problem": "零售上传追溯码后，无法查询追溯码是否上传成功",
+ "cause": "武汉医保接口返回追溯码，时空系统暂时未开发此项查询",
+ "solution": "新增DHERP 武汉医保接口查询991011查询追溯码，客户可以自行查看数据上传情况",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "WebService"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "追溯码查询"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "brfzJDpZIT"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

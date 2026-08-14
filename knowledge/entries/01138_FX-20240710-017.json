@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240710-017",
+ "record_id": "TK0KZSgthM",
+ "title": "23年1月份启用了成本会计模块，但是一直未使用，24年6月份想要开始使用，怎么处理",
+ "problem": "23年1月份启用了成本会计模块，但是一直未使用，24年6月份想要开始使用，怎么处理",
+ "cause": "成本会计模块是不支持空结账的，且以前月份也不能重新成本计算；所以首先使用ea工具修改模块启用时间，6月份以前的生产订单的结存成本，使用成本会计→期初成本开账单录入期初的成本",
+ "solution": "成本会计模块是不支持空结账的，且以前月份也不能重新成本计算；所以首先使用ea工具修改模块启用时间，6月份以前的生产订单的结存成本，使用成本会计→期初成本开账单录入期初的成本",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "成本启用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-07-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TK0KZSgthM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

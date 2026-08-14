@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250228-037",
+ "record_id": "5vvlDjJZoO",
+ "title": "报表的公式替换功能没有效果",
+ "problem": "报表的公式替换功能没有效果",
+ "cause": "如果是在表样中进行替换，替换的是表样，不是公式",
+ "solution": "如果公式希望进行替换，可以在报表表样--格式设计--数据--批量公式--导出后--替换好再导入",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "公式替换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5vvlDjJZoO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

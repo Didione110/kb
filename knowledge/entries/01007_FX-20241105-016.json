@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241105-016",
+ "record_id": "Pkhm6xDgWl",
+ "title": "本轮武汉市医保检查接近尾声，还有一小部分门店或者是定义为新开办门店需要现场检查，现场检查由医保中心委派第三方公司检查，第三方公司严重扣条款，前期没有检查省医保进销存记录，本轮现场认证作为了必要项目",
+ "problem": "本轮武汉市医保检查接近尾声，还有一小部分门店或者是定义为新开办门店需要现场检查，现场检查由医保中心委派第三方公司检查，第三方公司严重扣条款，前期没有检查省医保进销存记录，本轮现场认证作为了必要项目",
+ "cause": "没有上传省医保进销存",
+ "solution": "测试环境搭建省医保进销存上传",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "进销存认证"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-11-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYArw7pV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYArw7pV1DK0g6l",
+  "doc_path": "/自研/安装部署问题/本轮武汉市医保检查接近尾声，还有一小部分门店或者是定义为新开办门店需要现场检查，现场检查由医保中心委派第三方公司检查，第三方公司严重扣条款，前期没有检查省医保进销存记录，本轮现场认证作为了必要项目",
+  "record_id": "Pkhm6xDgWl"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/本轮武汉市医保检查接近尾声，还有一小部分门店或者是定义为新开办门店需要现场检查，现场检查由医保中心委派第三方公司检查，第三方公司严重扣条款，前期没有检查省医保进销存记录，本轮现场认证作为了必要项目",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

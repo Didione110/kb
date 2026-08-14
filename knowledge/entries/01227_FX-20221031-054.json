@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-054",
+ "record_id": "WJ3NxaOmHi",
+ "title": "启动u8c时服务卡在start servers with domain configuration",
+ "problem": "启动u8c时服务卡在start servers with domain configuration",
+ "cause": "u8cSysconfig中server页签配置ip错误",
+ "solution": "server页签配置ip错误，不是本机实际ip，可以删除ip或修改成正确ip后启动",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "WebLogic",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "U8C启动卡顿"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施4部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WJ3NxaOmHi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

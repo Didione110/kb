@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250929-040",
+ "record_id": "4m1Ylxibmk",
+ "title": "U9Cloud各项报表导出时，会产生很多合并单元格。非常影响导出后的统计分析。",
+ "problem": "U9Cloud各项报表导出时，会产生很多合并单元格。非常影响导出后的统计分析。",
+ "cause": "在报表设计阶段，没有对表头和表体数据列进行对齐。",
+ "solution": "按以下操作可手动在UBF中进行对齐。\nhttps://share.note.youdao.com/ynoteshare/index.html?id=d3f9721c0dcd6b26d9d19abeba40cc32&type=note&_time=1759107960065\n另外：在查询条件中增加【导出时自动对齐表头表尾文本框到表格列】=是\n可大大减少此类问题。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "合并单元格"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-09-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4m1Ylxibmk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

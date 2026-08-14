@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230203-009",
+ "record_id": "klsSyKyYKZ",
+ "title": "U8服务器打开软件报错，其他客户端正常",
+ "problem": "U8服务器打开软件报错，其他客户端正常",
+ "cause": "环境问题",
+ "solution": "检查u8soft\\appserver中的UFSoft.U8.Framework.Login.BO.config，内容是否是空的，从正常客户端上拷贝此文件覆盖后，重新配置数据源，未解决；\n如果还是报错 把U8SOFT\\Framework\\UFIDA.U8.Framework.Login.UIForm.dll.resource这个文件剪切到桌面上，再去登录；解决；",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "UI模板",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "U8服务器"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "klsSyKyYKZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

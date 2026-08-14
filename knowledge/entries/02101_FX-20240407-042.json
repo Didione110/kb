@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240407-042",
+ "record_id": "rVmj9ZcIlJ",
+ "title": "针对武汉云服务器，如果代理机是Liunx系统，使用互联网yum源安装Nginx的方法",
+ "problem": "针对武汉云服务器，如果代理机是Liunx系统，使用互联网yum源安装Nginx的方法",
+ "cause": "针对武汉云服务器，如果代理机是Liunx系统，使用互联网yum源安装Nginx的方法",
+ "solution": "如果没有安装epel先用下面命令安装，已经安装了的直接运行安装nginx命令：\n1. 安装epel库：sudo yum install epel-release\n2. 清除yum缓存：sudo yum clean all\n3. 生成新得缓存：sudo yum makecache\n4. 安装nginx：sudo yum install nginx\n5. 启动nginx：sudo systemctl start nginx\n6. 查看nginx运行状态：sudo systemctl status nginx",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Nginx"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "武汉云、Linux、yum、Nginx"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1D00XJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1D00XJMGjLRb3",
+  "doc_path": "/自研/安装部署问题/针对武汉云服务器，如果代理机是Liunx系统，使用互联网yum源安装Nginx的方法",
+  "record_id": "rVmj9ZcIlJ"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/针对武汉云服务器，如果代理机是Liunx系统，使用互联网yum源安装Nginx的方法",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

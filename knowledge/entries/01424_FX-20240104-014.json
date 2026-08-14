@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240104-014",
+ "record_id": "b0Jc3qMJAy",
+ "title": "oracle批量插入表数据时id字段想自动生成",
+ "problem": "oracle批量插入表数据时id字段想自动生成",
+ "cause": "无",
+ "solution": "select 'D' || dbms_random.string('x',10) as businessid from dual",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "自增ID"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b0Jc3qMJAy"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

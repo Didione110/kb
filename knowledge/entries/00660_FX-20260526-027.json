@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260526-027",
+ "record_id": "GmquaHZYXn",
+ "title": "某一台客户端，打开某个节点报错Automation 错误",
+ "problem": "某一台客户端，打开某个节点报错Automation 错误",
+ "cause": "环境异常",
+ "solution": "打开cmd，然后命令框输入for %1 in (d:\\u8soft\\ufcomsql*.dll) do regsvr32.exe /s %1，此命令可直接粘贴到cmd命令框中，需注意修改盘符和路径\n完成后重启电脑，解决",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Automation错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GmquaHZYXn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

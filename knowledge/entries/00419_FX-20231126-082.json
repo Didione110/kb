@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231126-082",
+ "record_id": "A837kWq9Ll",
+ "title": "采购订单需要设置付款计划，按照计划进行付款，",
+ "problem": "采购订单需要设置付款计划，按照计划进行付款，",
+ "cause": "请款单没有按照付款比例自动带出金额，且没有回写实际付款金额",
+ "solution": "1、在采购订单中维护分期付款计划，可以及时追踪订单的付款情况。\n2、在付款单用途行中指定对应的付款计划分期，如果对应多个分期，则拆分用途行后指定付款计划分期\n3、在收款单用途行中指定对应的付款计划分期，冲减实际付款金额",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "付款计划"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-11-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvmn9bVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvmn9bVMwvDqPk",
+  "doc_path": "/用友/应用操作/采购订单需要设置付款计划，按照计划进行付款，",
+  "record_id": "A837kWq9Ll"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/采购订单需要设置付款计划，按照计划进行付款，",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

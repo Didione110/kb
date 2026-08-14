@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251028-036",
+ "record_id": "UXhssu21Ub",
+ "title": "张三想从A组织兼职到B组织，操作失败",
+ "problem": "张三想从A组织兼职到B组织，操作失败",
+ "cause": "产品bug",
+ "solution": "检查B组织有相关部门档案，而在兼职界面操作时能选择B公司，选择兼职到B公司的某部门时，界面空白，有异常，咨询厂家需要更新补丁NC_HR_HI-NC6.5-Patch-2019078-206133922\n，备份更新后，问题解决",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "WebLogic",
+  "Java",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "兼职失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UXhssu21Ub"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230831-049",
+ "record_id": "lIAU22KvBp",
+ "title": "C端复核台不上光栅，标签设备",
+ "problem": "C端复核台不上光栅，标签设备",
+ "cause": "可能会放错，也有点浪费效率",
+ "solution": "C端单据合单时，应该分两个类型的去合波，第一个是一单一品，第二个是一单多品。一单一品的不用依赖设备，复核一个打包一个，效率会更快，一单多品的则需要按篮子号准确投放。",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "复核台、光栅、标签"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lIAU22KvBp"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

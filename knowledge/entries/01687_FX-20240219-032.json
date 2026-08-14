@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240219-032",
+ "record_id": "hneyCg27w6",
+ "title": "在U8界面打开实施导航提示“索引超出了数组界限”",
+ "problem": "在U8界面打开实施导航提示“索引超出了数组界限”",
+ "cause": "环境问题",
+ "solution": "方法一：安装最新的实施导航exec结尾补丁\n方法二：U8文件夹下的实施导航节点可以进入，将此节点设置为桌面快捷方式，后期从桌面的实施导航节点进入",
+ "solution_types": [
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "IE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "索引越界"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-02-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hneyCg27w6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

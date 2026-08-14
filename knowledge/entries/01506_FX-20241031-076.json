@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-076",
+ "record_id": "dBrQvnpw2k",
+ "title": "销售订单单据调整时，选择完单据，未保存也未退出功能，继续点单据调整选择其他单据，单据编号不会重置，显示为第一次选择的单据编号，保存后单据编号会变成第一次选择的单据编号，并覆盖单据",
+ "problem": "销售订单单据调整时，选择完单据，未保存也未退出功能，继续点单据调整选择其他单据，单据编号不会重置，显示为第一次选择的单据编号，保存后单据编号会变成第一次选择的单据编号，并覆盖单据",
+ "cause": "单据调整提取方案需要重置单据编号",
+ "solution": "单据调整提取方案JS里面最开始新增：ds_ddhz.field(\"billcode\").value=\"SKP草\"即可解决",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "单据覆盖"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dBrQvnpw2k"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

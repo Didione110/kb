@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260417-011",
+ "record_id": "gj2fh09Rd6",
+ "title": "自动开票场景，由于诺诺报错或者其他问题会让自动开票取消勾选",
+ "problem": "自动开票场景，由于诺诺报错或者其他问题会让自动开票取消勾选",
+ "cause": "自动开票场景，由于诺诺报错或者其他问题会让自动开票取消勾选",
+ "solution": "根据autohotkey以及AI编写脚本，（下载地址：https://www.autohotkey.com/download/2.0/AutoHotkey\\_2.0.23\\_setup.exe），根据坐标以及颜色定位，编写定时任务，当勾选掉了的时候脚本自动勾选，避免由于报错导致开票效率低，发票积压等问题，具体脚本见附件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动开票取消"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2026-04-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlYYAm8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlYYAm8Zd1wyK0",
+  "doc_path": "/其他/效率问题/自动开票场景，由于诺诺报错或者其他问题会让自动开票取消勾选",
+  "record_id": "gj2fh09Rd6"
+ },
+ "status": "active",
+ "doc_path": "/其他/效率问题/自动开票场景，由于诺诺报错或者其他问题会让自动开票取消勾选",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

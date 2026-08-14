@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240830-070",
+ "record_id": "xEezdlY9VN",
+ "title": "T+打印取消畅捷通字样",
+ "problem": "T+打印取消畅捷通字样",
+ "cause": "T+打印取消畅捷通字样",
+ "solution": "admin登陆系统管理，进入之后直接按CTRL+ALT+Y，弹出打印附加信息的对话框，把勾取消",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "打印取消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xEezdlY9VN"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

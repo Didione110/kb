@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-029",
+ "record_id": "mQXgUQedim",
+ "title": "安装Oracle19C时报错【INS-30014】无法检查指定的位置是否位于CFS上的解决办法",
+ "problem": "安装Oracle19C时报错【INS-30014】无法检查指定的位置是否位于CFS上的解决办法",
+ "cause": "计算机机器名过长导致校验不通过",
+ "solution": "修改计算机机器名",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "INS-30014"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mQXgUQedim"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-036",
+ "record_id": "2RwgAtq7r3",
+ "title": "关于设置货位类型中，几个字段属性的讲解。",
+ "problem": "关于设置货位类型中，几个字段属性的讲解。",
+ "cause": "包装起始量、包装截止量：单位为件，例如我设置为1到5，那该类型区域来货件数在一到五之内才能上架。\n库存上下限：这个是补货判断，例如设置为1，如果同一品种批号补货补两件，分配就会分配两个货位。和入库上架无关系。\n商品资料里面也有个库存上下限，这个是用来判断该品种是否需要补货。",
+ "solution": "包装起始量、包装截止量：单位为件，例如我设置为1到5，那该类型区域来货件数在一到五之内才能上架。\n库存上下限：这个是补货判断，例如设置为1，如果同一品种批号补货补两件，分配就会分配两个货位。和入库上架无关系。\n商品资料里面也有个库存上下限，这个是用来判断该品种是否需要补货。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "货位类型字段"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNNwjvJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNNwjvJbkz3BRL",
+  "doc_path": "/时空/应用操作/关于设置货位类型中，几个字段属性的讲解。",
+  "record_id": "2RwgAtq7r3"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/关于设置货位类型中，几个字段属性的讲解。",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

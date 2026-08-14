@@ -1,0 +1,47 @@
+{
+ "id": "FX-20251117-021",
+ "record_id": "GvmK3Bgjn1",
+ "title": "erp删除的凭证数据OA更新凭证提示：ERP中没有数据",
+ "problem": "erp删除的凭证数据OA更新凭证提示：ERP中没有数据",
+ "cause": "凭证已经删除无法匹配数据",
+ "solution": "需要勾选一条erp没有进行删除的数据和当前已经删除的数据进行更新",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "凭证同步"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2025-11-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AGaAxJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AGaAxJ5daZ90D",
+  "doc_path": "/致远OA/应用操作/erp删除的凭证数据OA更新凭证提示：ERP中没有数据",
+  "record_id": "GvmK3Bgjn1"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/erp删除的凭证数据OA更新凭证提示：ERP中没有数据",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

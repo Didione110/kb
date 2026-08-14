@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240305-016",
+ "record_id": "JYrMTqmb6d",
+ "title": "一张采购发票与采购订单的金额不一致，其余都是一致的",
+ "problem": "一张采购发票与采购订单的金额不一致，其余都是一致的",
+ "cause": "采购订单、采购入库、采购发票金额字段放出来全部对比，发现只有发票金额不一致，选择修改采购参数",
+ "solution": "修改采购取价参数，重新做采购发票",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流"
+ ],
+ "keywords": [
+  "金额不符"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JYrMTqmb6d"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

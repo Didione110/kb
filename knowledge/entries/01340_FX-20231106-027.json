@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231106-027",
+ "record_id": "YsocI6I08W",
+ "title": "郑州WMS多仓版本，如果把客户正式库还原测试库用于调功能，登录会遇到报错",
+ "problem": "郑州WMS多仓版本，如果把客户正式库还原测试库用于调功能，登录会遇到报错",
+ "cause": "测试注册所需要的中心大仓数量和正式库不一样",
+ "solution": "修改测试库一级中心仓库资料，资料表需要6个中心仓库资料，数量必须为6才能登录测试环境",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "多仓登录报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lqYxG86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lqYxG86EDybno",
+  "doc_path": "/其他/安装部署问题/郑州WMS多仓版本，如果把客户正式库还原测试库用于调功能，登录会遇到报错",
+  "record_id": "YsocI6I08W"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/郑州WMS多仓版本，如果把客户正式库还原测试库用于调功能，登录会遇到报错",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

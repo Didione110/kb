@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-037",
+ "record_id": "LWk80sxuNW",
+ "title": "客户DHERP-WMS品种开票数量是198，然后改成200，传入WMS开始作业，发现手持APP拣货及WMS作业流程中的数量是198",
+ "problem": "客户DHERP-WMS品种开票数量是198，然后改成200，传入WMS开始作业，发现手持APP拣货及WMS作业流程中的数量是198",
+ "cause": "检查发现是销售开票明细表的开票数量和基本数量不一致导致",
+ "solution": "开票增加开票数量和基本数量不一致的拦截",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "数量不一致"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3x7RLWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3x7RLWkyEqBQm",
+  "doc_path": "/时空/产品功能问题/客户DHERP-WMS品种开票数量是198，然后改成200，传入WMS开始作业，发现手持APP拣货及WMS作业流程中的数量是198",
+  "record_id": "LWk80sxuNW"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/客户DHERP-WMS品种开票数量是198，然后改成200，传入WMS开始作业，发现手持APP拣货及WMS作业流程中的数量是198",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

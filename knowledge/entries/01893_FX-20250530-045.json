@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250530-045",
+ "record_id": "n3cMyQOTB9",
+ "title": "远程审方人脸认证是显示的身份证信息和人员信息不一致。",
+ "problem": "远程审方人脸认证是显示的身份证信息和人员信息不一致。",
+ "cause": "后台录入人脸信息登录非管理员账号，系统默认将第一个录入的身份证信息跟人脸信息绑定。",
+ "solution": "后台录入人脸时，需使用管理员账号登录，再使用身份证录入人脸信息。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "人脸认证不一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n3cMyQOTB9"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240508-035",
+ "record_id": "MAKRZ1xGUk",
+ "title": "在产产品不分摊公共材料",
+ "problem": "在产产品不分摊公共材料",
+ "cause": "在产品分配率选则了按完工定额倒挤，公共料费选则了不分摊，那么在材料分配时，会将公共材料与专用材料分开进行分摊而非按公共材料+专用材料合计进行分摊，且所有的公共材料都分摊给完工",
+ "solution": "修改在产品分配率中公共料费分摊方式，常规选择按产品约当产量进行分摊，维护了约当系数后，在管理会计——数据录入——产品材料定额每月变动表中展开子件再卷积\n那么在材料分配时，会按（公共材料+专用材料）*约当系数/完工数量与在产数量进行分摊材料",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "不分摊"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-05-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MAKRZ1xGUk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

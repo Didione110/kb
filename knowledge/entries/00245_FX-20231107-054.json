@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231107-054",
+ "record_id": "5lmJKK84hA",
+ "title": "智慧医保小程序5262结算记录无法保存记录到时空",
+ "problem": "智慧医保小程序5262结算记录无法保存记录到时空",
+ "cause": "1）配置文件维护错误，包括1.数据地址未正确维护服务器指向；2.机构ID等维护错误\n2）时空数据表为定义主键或者保存数据与现有数据主键重复，可查询服务端日志排查",
+ "solution": "1）检查配置文件\n2）查询服务端日志排查",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "结算失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5lmJKK84hA"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250428-044",
+ "record_id": "tjMaaYtFPs",
+ "title": "接上述问题（报表权限改了单位用户权限，但是登录报表界面选择还是显示能看到全部的单位）这个问题打完补丁后 出现下列现象：合并报表设置抵消分录模板 选完报表指标后保存一直报错",
+ "problem": "接上述问题（报表权限改了单位用户权限，但是登录报表界面选择还是显示能看到全部的单位）这个问题打完补丁后 出现下列现象：合并报表设置抵消分录模板 选完报表指标后保存一直报错",
+ "cause": "由于（报表权限改了单位用户权限，但是登录报表界面选择还是显示能看到全部的单位）这个问题打过补丁。导致出现的报错",
+ "solution": "需要再打一个补丁更改home结构",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "抵消模板报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tjMaaYtFPs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

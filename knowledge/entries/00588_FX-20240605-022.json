@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240605-022",
+ "record_id": "EP89sHRoUz",
+ "title": "DHERP器械专版创建批号公共函数批号计价改批次计价",
+ "problem": "DHERP器械专版创建批号公共函数批号计价改批次计价",
+ "cause": "DHERP器械专版创建批号公共函数批号计价改批次计价",
+ "solution": "DHERP器械专版创建批号公共函数批号计价改批次计价",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "批号计价"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbP17BW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbP17BW3kdP0wQ",
+  "doc_path": "/时空/应用操作/DHERP器械专版创建批号公共函数批号计价改批次计价",
+  "record_id": "EP89sHRoUz"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/DHERP器械专版创建批号公共函数批号计价改批次计价",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

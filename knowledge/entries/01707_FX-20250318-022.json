@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250318-022",
+ "record_id": "iFYonQHVaC",
+ "title": "阿里云polarDB数据库安装部署",
+ "problem": "阿里云polarDB数据库安装部署",
+ "cause": "1.根据《YonBIP V3.0(R5_2312_1) 高级版适配polarDB-O配置指南》中的脚本语句创建数据库架构及数据库。创建数据库用户并授权相关权限\n2.将《驱动》解压，将解压文件夹下的文件按照路径替换对应应用服务环境home路径下的文件（需按末级目录逐个添加及替换）",
+ "solution": "1.根据《YonBIP V3.0(R5_2312_1) 高级版适配polarDB-O配置指南》中的脚本语句创建数据库架构及数据库。创建数据库用户并授权相关权限\n2.将《驱动》解压，将解压文件夹下的文件按照路径替换对应应用服务环境home路径下的文件（需按末级目录逐个添加及替换）",
+ "solution_types": [
+  "SQL脚本",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "PolarDB部署"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "彭宇翔",
+  "department": "实施6部",
+  "date": "2025-03-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iFYonQHVaC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

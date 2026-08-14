@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260228-023",
+ "record_id": "WdMF5HWuUL",
+ "title": "科目余额表另存新方案时输入新方案名称，输入时只能输入单个字符，输入符号就消失了，另外单据上的查询方案中选择自定义字段查询条件输入也有这种问题",
+ "problem": "科目余额表另存新方案时输入新方案名称，输入时只能输入单个字符，输入符号就消失了，另外单据上的查询方案中选择自定义字段查询条件输入也有这种问题",
+ "cause": "前端输入问题",
+ "solution": "集团提供前端修复补丁SUPPORT-YonBIP高级版2312-Special-20260107145455-144110",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "输入异常"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WdMF5HWuUL"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

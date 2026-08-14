@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260327-019",
+ "record_id": "CdlRjH6lgY",
+ "title": "银行对账单导入报错，导入文件失败；spr显示账号错误，系统中不存在所属银行代码icbc账户号为741-846083-274的账户档案，该银行类别是香港汇丰银行，自己加的银行类别；",
+ "problem": "银行对账单导入报错，导入文件失败；spr显示账号错误，系统中不存在所属银行代码icbc账户号为741-846083-274的账户档案，该银行类别是香港汇丰银行，自己加的银行类别；",
+ "cause": "根据《增加banktype和银行导入模板-马来西亚银行+-+副本.docx》文件配置home文件并更新导入模板；重启中间件",
+ "solution": "根据《增加banktype和银行导入模板-马来西亚银行+-+副本.docx》文件配置home文件并更新导入模板；重启中间件",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "银行账户校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CdlRjH6lgY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

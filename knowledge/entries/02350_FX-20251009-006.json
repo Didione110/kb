@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251009-006",
+ "record_id": "xfVQz0YbGZ",
+ "title": "医保接口，输入输出内容中存在生僻字，特殊字符的，会造成程序闪退，问题100%重现，那目前医保程序闪退的原因确定是字符问题。",
+ "problem": "医保接口，输入输出内容中存在生僻字，特殊字符的，会造成程序闪退，问题100%重现，那目前医保程序闪退的原因确定是字符问题。",
+ "cause": "我们开发的程序是使用.NET 环境，医保接口com组件，.NET 和 COM 之间的字符串编码或内存分配出现了问题。这类问题在 COM 组件只支持 ANSI 或者没有正确处理 Unicode 字符时非常常见，尤其是遇到生僻字（超出 ANSI 范围的字符）时。",
+ "solution": "还是使用delphi调用医保接口，Delphi 的 WideString/UnicodeString 与 COM 的 BSTR 完全兼容，封送和内存管理机制与 COM 规范一致。\n目前已尝试过的:1、使用delphi开发的dll,接口参数长度太大时也会发生错误。2、使用delphi开发的接口服务，调用医保接口没有问题，就是会开启2个程序图标不太方便。\n目前使用方案3，使用delphi开发的dll,接口参数使用txt文档传递。已发布测试。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "生僻字"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xfVQz0YbGZ"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

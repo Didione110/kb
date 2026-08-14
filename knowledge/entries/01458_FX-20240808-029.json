@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240808-029",
+ "record_id": "c0hV3uW6HF",
+ "title": "早期的时空智友V10 V11 V12 针对基础资料修改，是通过pf_dataModRec函数进行对比更新生成历史记录，但是存在的问题是，只能通过单数据集单行的数据进行对比，涉及到grid多行数据时即无法比较",
+ "problem": "早期的时空智友V10 V11 V12 针对基础资料修改，是通过pf_dataModRec函数进行对比更新生成历史记录，但是存在的问题是，只能通过单数据集单行的数据进行对比，涉及到grid多行数据时即无法比较",
+ "cause": "早期智友无此问题的相关经验，在最近的dherp的root里已经解决此问题，新增了pf_dataModRec_all函数",
+ "solution": "基础资料修改以及单据修改的表单中，遵循以下代码原则\n首先在表单加载前，定义dataset的模型\n//keyFlds 是主键，preFlds 是监测修改内容的字段名称 ，ignoreFlds是忽略字段\nvar datasets = [\n {dataset: DsMain, keyFlds : \"BusinessId,EntId\", preFlds : \"\",ignoreFlds:\"BusinessCont,LastStfId\"},\n {dataset: ds_djmx, keyFlds : \"CertName\", preFlds : \"CertName,CertCode,AuthDate,ValDate\"},\n {dataset: ds_wtsmx, keyFlds : \"ContactId\", preFlds : \"ConsCert,Contact,Telephone,IdCard,IdCardDate,ConsCertDate,ConType,ConScope\", ignoreFlds:\"\"},\n {dataset: ds_address, keyFlds : \"AddressId\", preFlds : \"Address,k_province,k_city,k_area\", ignoreFlds:\"\"}\n ];\n\nonload加载时\n if (form.parameters.action == \"modify\" && regLog == \"Y\") {\n if (typeof form.args.isSetPass != \"undefined\") { //工作流审批修改的时候\n DsMain.openEmpty();\n ds_djmx.openEmpty();\n ds_wtsmx.openEmpty();\n ds_address.openEmpty();\n var jsonArr = await form.args.jsonArr; \n await pf_dataModRec_all(2, datasets, jsonArr, {}, \"\", 0);\n } else {\n jsonArrOld = await pf_dataModRec_all(1, datasets, {}, {}); //正常情况下首次打开的时候是这样的\n }\n }\nsave存盘时\nif (form.parameters.action == \"modify\" && regLog == \"Y\" && typeof form.args.isSetPass == \"undefined\") {\njsonArrNew = await pf_dataModRec_all(1, datasets, {}, {});\n\n await pf_dataModRec_all(4, datasets, jsonArrOld, jsonArrNew, businessid, 1, parMod);\n\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "多行对比"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-08-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "c0hV3uW6HF"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241231-038",
+ "record_id": "8KyJsKBBmr",
+ "title": "WMS使用一段时间后，部分查询（如：拣货单查询等）耗时比较长，效率比较低",
+ "problem": "WMS使用一段时间后，部分查询（如：拣货单查询等）耗时比较长，效率比较低",
+ "cause": "WMS的数据分为正式数据和历史数据，分别存对应的表。部分查询掉用的是视图，视图里用union all把正式数据和历史数据进行了组合，调用视图就可以一次性查到所有数据。这样做法在数据量达到一定量后会使得查询很慢。",
+ "solution": "不取视图数据，直接在查询里用union all 组合正式数据和历史数据，这样比直接调用视图会快很多",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "查询慢"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-12-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj2b2a8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj2b2a8AgozOKL",
+  "doc_path": "/其他/效率问题/WMS使用一段时间后，部分查询（如：拣货单查询等）耗时比较长，效率比较低",
+  "record_id": "8KyJsKBBmr"
+ },
+ "status": "active",
+ "doc_path": "/其他/效率问题/WMS使用一段时间后，部分查询（如：拣货单查询等）耗时比较长，效率比较低",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

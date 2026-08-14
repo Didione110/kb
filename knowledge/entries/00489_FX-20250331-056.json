@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250331-056",
+ "record_id": "CE3zMg6cBw",
+ "title": "结账提示错误",
+ "problem": "结账提示错误",
+ "cause": "对应凭证模板科目分类设置错误",
+ "solution": "科目分类定义设置好对应凭证模版后 还需要重新生成实时凭证",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "结账错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CE3zMg6cBw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

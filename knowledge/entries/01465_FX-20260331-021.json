@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260331-021",
+ "record_id": "cBO46oH0Ts",
+ "title": "产品成本的期数数据错误，请问业务操作如何实现",
+ "problem": "产品成本的期数数据错误，请问业务操作如何实现",
+ "cause": "成本计算错误，期初的在产金额错误",
+ "solution": "1、在【会计服务-财务公共-账簿设置】节点选择账簿，点击启用按钮，把产品成本和成本中心取消勾选2、【数字化建模-组织管理-组织机构-业务单元】找到对应的业务单元，打开后右上角的期初设置，把产品成本和成本中心的期初删除",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "成本期数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cBO46oH0Ts"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

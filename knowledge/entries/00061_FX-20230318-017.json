@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230318-017",
+ "record_id": "1MQlEwCyaw",
+ "title": "财务总账：使用UBF打印工具设计凭证套打模板时，报如：未将对象引用设置到对象的实例 错误",
+ "problem": "财务总账：使用UBF打印工具设计凭证套打模板时，报如：未将对象引用设置到对象的实例 错误",
+ "cause": "套打式凭证模板凭证方面固定必须有附件信息",
+ "solution": "即使现场不要求有附件信息，也不能把预置套打凭证的附件字段删掉，可将该字段隐藏。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "UBF凭证套打"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-03-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1MQlEwCyaw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

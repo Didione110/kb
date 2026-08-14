@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240605-021",
+ "record_id": "Ca6gGNZkBc",
+ "title": "文档中心，批量下载文档，最大只能一次下载10个文档",
+ "problem": "文档中心，批量下载文档，最大只能一次下载10个文档",
+ "cause": "浏览器环境问题，需要IE内核及兼容模式下进行可以批量全部下载",
+ "solution": "调整浏览器设置，兼容模式，\n如果有兼容模式下，无法显示“批量下载”功能的，需要浏览器设置里启用active控件，并更新辅助程序里的常用控件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "IE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "批量下载限制"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "知识社区",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbj1pGW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbj1pGW3kdP0wQ",
+  "doc_path": "/致远OA/环境问题/文档中心，批量下载文档，最大只能一次下载10个文档",
+  "record_id": "Ca6gGNZkBc"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/环境问题/文档中心，批量下载文档，最大只能一次下载10个文档",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

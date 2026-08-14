@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230928-044",
+ "record_id": "R2cIotTEq7",
+ "title": "手动备份提示无法打开备份设备",
+ "problem": "手动备份提示无法打开备份设备",
+ "cause": "系统库中账套存放路径和实际物理文件存放路径不一致",
+ "solution": "修改系统库UFSYSTEM中的ua\\_account表中的cacc\\_path字段的值为实际物理文件的存放路径",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "备份设备"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3RbzgJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3RbzgJakx1Z5N",
+  "doc_path": "/其他/产品功能问题/手动备份提示无法打开备份设备",
+  "record_id": "R2cIotTEq7"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/手动备份提示无法打开备份设备",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

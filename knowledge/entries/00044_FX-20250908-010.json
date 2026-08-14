@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250908-010",
+ "record_id": "10x0O7iSul",
+ "title": "智慧医保电子处方流转，界面中的\"药品销售出库明细上传\"按钮，在线下处方是灰色的",
+ "problem": "智慧医保电子处方流转，界面中的\"药品销售出库明细上传\"按钮，在线下处方是灰色的",
+ "cause": "药品销售出库明细上传,7207接口，线下处方，需要ERP下账时提交，在预结算和结算之间传7207；",
+ "solution": "线上处方，这个按钮是可以点击的，在处方审核之后点做7207出库，因为线上处方在线上收款了，不用在ERP进行医保结算，所以要另外传7207；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口"
+ ],
+ "keywords": [
+  "药品出库"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-09-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "10x0O7iSul"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

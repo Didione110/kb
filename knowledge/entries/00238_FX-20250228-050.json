@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250228-050",
+ "record_id": "5bblL1EiP8",
+ "title": "上架明细和传来的验收明细数量有不一致",
+ "problem": "上架明细和传来的验收明细数量有不一致",
+ "cause": "极少情况下APP上架存储过程APP\\_WMS\\_CGSJ，在调整上架架位号的时候会出现，上架临时表tmp\\_sjmx数据异常，导致插入到上架的数据异常。",
+ "solution": "系统自动的拦截只判断了插入上架表的明细和临时表的对比。这个判断不严谨，需要增加上架表总数量和验收明细进行总数量对比。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "数量不一致"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYegoOXV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYegoOXV1waOeDk",
+  "doc_path": "/其他/产品功能问题/上架明细和传来的验收明细数量有不一致",
+  "record_id": "5bblL1EiP8"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/上架明细和传来的验收明细数量有不一致",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

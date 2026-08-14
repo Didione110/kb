@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240905-017",
+ "record_id": "obBqBwuqiB",
+ "title": "零售收款单据个别单据没有生成时间",
+ "problem": "零售收款单据个别单据没有生成时间",
+ "cause": "目前未跟踪出BUG产生原因",
+ "solution": "在单据存盘校验事件添加判断，如果为空则重新获取服务器时间进行赋值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "生成时间"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-09-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "obBqBwuqiB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

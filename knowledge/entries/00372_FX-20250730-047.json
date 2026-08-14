@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250730-047",
+ "record_id": "8uZWhefF6Q",
+ "title": "客户想要科目辅助余额表无余额的行数不显示 怎么设置？查询条件没有这个选项",
+ "problem": "客户想要科目辅助余额表无余额的行数不显示 怎么设置？查询条件没有这个选项",
+ "cause": "需要打补丁",
+ "solution": "做好备份，打上补丁，重启服务后清除缓存就能有这个查询条件了",
+ "solution_types": [
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "辅助余额表"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAkneO8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAkneO8GXn6lpz",
+  "doc_path": "/用友/软件补丁问题/客户想要科目辅助余额表无余额的行数不显示 怎么设置？查询条件没有这个选项",
+  "record_id": "8uZWhefF6Q"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件补丁问题/客户想要科目辅助余额表无余额的行数不显示 怎么设置？查询条件没有这个选项",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

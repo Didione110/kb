@@ -1,0 +1,47 @@
+{
+ "id": "FX-20250731-056",
+ "record_id": "dLbeCj66H4",
+ "title": "个别单据无法开票，提示明细数据校验不通过，请检查税务分类编码，商品规格不超过40位等!\n",
+ "problem": "个别单据无法开票，提示明细数据校验不通过，请检查税务分类编码，商品规格不超过40位等!",
+ "cause": "税务分类编码未定义，商品规格长度无误，v\\_nn\\_billdt视图中的goodsspec字段存在空格，导致和k\\_nn\\_tempinv中goodsspec字段不一致",
+ "solution": "修改v\\_nn\\_billdt视图中的goodsspec处理空格解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "税务校验"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmKBG0JqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmKBG0JqjMp697",
+  "doc_path": "/自研/数据错误问题/个别单据无法开票，提示明细数据校验不通过，请检查税务分类编码，商品规格不超过40位等!",
+  "record_id": "dLbeCj66H4"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/个别单据无法开票，提示明细数据校验不通过，请检查税务分类编码，商品规格不超过40位等!",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

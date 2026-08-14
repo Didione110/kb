@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230621-005",
+ "record_id": "tnqyDZDUmd",
+ "title": "T+服务管理器web服务点启动没有反应",
+ "problem": "T+服务管理器web服务点启动没有反应",
+ "cause": "端口号被占用",
+ "solution": "服务管理器中点击修改端口号后即可启动",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "IIS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "T+服务启动"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-06-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tnqyDZDUmd"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

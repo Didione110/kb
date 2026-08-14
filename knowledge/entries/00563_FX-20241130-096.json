@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241130-096",
+ "record_id": "DksaIWpj1k",
+ "title": "客户输送线加电子标签，用手持提交任务时，显示拣货未完成（实际拣货是完成了）",
+ "problem": "客户输送线加电子标签，用手持提交任务时，显示拣货未完成（实际拣货是完成了）",
+ "cause": "WMS的拣货完成状态与电子标签相关联，查看电子标签接口表的完成状态是否更新。",
+ "solution": "如果未更新，在电子标签软件中，将任务重送触发，客户重新拍灯即可。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "拣货未完成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbrNPkVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbrNPkVzlwrZgb",
+  "doc_path": "/其他/应用操作/客户输送线加电子标签，用手持提交任务时，显示拣货未完成（实际拣货是完成了）",
+  "record_id": "DksaIWpj1k"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户输送线加电子标签，用手持提交任务时，显示拣货未完成（实际拣货是完成了）",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

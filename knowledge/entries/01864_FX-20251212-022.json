@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251212-022",
+ "record_id": "mSh6BQD86A",
+ "title": "非系统预置的数据权限管控字段，需要做数据权限管控设置",
+ "problem": "非系统预置的数据权限管控字段，需要做数据权限管控设置",
+ "cause": "非系统预置的数据权限管控字段，需要做数据权限管控设置",
+ "solution": "标准数权限控制设置步骤：\n1.数据权限\n2.参数设置：组织管理受权限控制类型-组织管理受权限控制类型\n非系统预置的数据权限管控字段，还需要在业务模型管理-找到对应单据实体-找到对应字段-编辑-标签，保存后，在实体处清除缓存，点击发布，才可生效。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "数据权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2025-12-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mSh6BQD86A"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

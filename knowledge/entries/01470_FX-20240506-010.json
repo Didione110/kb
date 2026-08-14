@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240506-010",
+ "record_id": "cFJy3l8AlN",
+ "title": "售后管理中，部分退货入库单没有退回物流和退货物流单号",
+ "problem": "售后管理中，部分退货入库单没有退回物流和退货物流单号",
+ "cause": "新建退货入库售后单时，默认退回物流和物流单号为非必填项。没填写的自然不会显示对应字段",
+ "solution": "开启新建退换单时，退回物流和物流单号必须填写开关后，新建售后退货单时必须填写退回物流和物流单号",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "物流缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3pDnYWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3pDnYWn4qY5Pr",
+  "doc_path": "/其他/应用操作/售后管理中，部分退货入库单没有退回物流和退货物流单号",
+  "record_id": "cFJy3l8AlN"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/售后管理中，部分退货入库单没有退回物流和退货物流单号",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

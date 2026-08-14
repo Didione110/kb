@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230809-022",
+ "record_id": "ZRmLz0ed5K",
+ "title": "凭证打印固定行",
+ "problem": "凭证打印固定行",
+ "cause": "凭证打印固定行",
+ "solution": "1、老打印控件，在总账—设置—选项—凭证打印修改凭证打印行数\n2、新打印控件，在凭证打印—设置—详细格式设置—通用格式设置，选择表体，可修改打印行数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "凭证打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZRmLz0ed5K"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231228-070",
+ "record_id": "fy6m0HoFYS",
+ "title": "在制单界面凭证号只显示两位数（实际上有三位数凭证号，但是制单界面只显示最后两位数的凭证号）",
+ "problem": "在制单界面凭证号只显示两位数（实际上有三位数凭证号，但是制单界面只显示最后两位数的凭证号）",
+ "cause": "客户电脑的分辨率太大 导致u8c系统字体太大凭证号显示不全",
+ "solution": "修改客户电脑的分辨率",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "凭证号显示"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-12-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fy6m0HoFYS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

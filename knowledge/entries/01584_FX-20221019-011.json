@@ -1,0 +1,48 @@
+{
+ "id": "FX-20221019-011",
+ "record_id": "fU1JSIWs6b",
+ "title": "同步程序更换数据库连接参数后，数据不同步。单独用查询语句能够查到数据",
+ "problem": "同步程序更换数据库连接参数后，数据不同步。单独用查询语句能够查到数据",
+ "cause": "程序更换数据库参数后，之前的账户就会被清除",
+ "solution": "关闭程序，重新创建账户，启动程序。恢复数据同步",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "连接参数"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "售前部",
+  "date": "2022-10-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1AqZvJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1AqZvJ63zgkYA",
+  "doc_path": "/其他/安装部署问题/同步程序更换数据库连接参数后，数据不同步。单独用查询语句能够查到数据",
+  "record_id": "fU1JSIWs6b"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/同步程序更换数据库连接参数后，数据不同步。单独用查询语句能够查到数据",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

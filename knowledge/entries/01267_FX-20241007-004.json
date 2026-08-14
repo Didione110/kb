@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241007-004",
+ "record_id": "XMLsEUMM1P",
+ "title": "WMS中复核精神药品要求第二复核人，但点击整单复核未能要求第二复核人",
+ "problem": "WMS中复核精神药品要求第二复核人，但点击整单复核未能要求第二复核人",
+ "cause": "复核中点击整单复核系统未能要求第二复核人",
+ "solution": "修改系统复核存储过程，添加拦截单据中存在精神药品不容许整单复核",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "第二复核"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-10-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3BOOGJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3BOOGJakx1Z5N",
+  "doc_path": "/其他/产品功能问题/WMS中复核精神药品要求第二复核人，但点击整单复核未能要求第二复核人",
+  "record_id": "XMLsEUMM1P"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/WMS中复核精神药品要求第二复核人，但点击整单复核未能要求第二复核人",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

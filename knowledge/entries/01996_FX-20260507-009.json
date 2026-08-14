@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260507-009",
+ "record_id": "p7nsmdBrpD",
+ "title": "客户需要某个label控件中的值大于0时显示为红色，如果通过代码修改颜色，控件会默认移动到表单坐标（0，0）处",
+ "problem": "客户需要某个label控件中的值大于0时显示为红色，如果通过代码修改颜色，控件会默认移动到表单坐标（0，0）处",
+ "cause": "客户需要某个label控件中的值大于0时显示为红色，如果通过代码修改颜色，控件会默认移动到表单坐标（0，0）处",
+ "solution": "需修改颜色时重新设置控件字体类型、字体大小、颜色、位置坐标：\nif (label4.getText() > 0){\n //设置控件样式\n label4.setAttr(\"style\",\"font-family:微软雅黑;font-size:12pt;font-weight:bold;color:red;\");\n //设置控件宽高\n label4.setHeight(25);\n label4.setWidth(68);\n //设置控件坐标\n label4.setLeft(353);\n label4.setTop(144);\n }",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "颜色重置"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2026-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "p7nsmdBrpD"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

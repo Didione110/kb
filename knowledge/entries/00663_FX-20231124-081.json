@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231124-081",
+ "record_id": "GqNHM7YKeo",
+ "title": "财务报表界面横向拉不动，如果屏幕小的话，下面公司的也看不全",
+ "problem": "财务报表界面横向拉不动，如果屏幕小的话，下面公司的也看不全",
+ "cause": "报表系统打开方式需要更改",
+ "solution": "采用ie浏览器打开，分离和嵌入模式切换一下",
+ "solution_types": [],
+ "tech_stack": [
+  "IE",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "横向滚动"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-11-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GqNHM7YKeo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

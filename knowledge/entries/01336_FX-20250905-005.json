@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250905-005",
+ "record_id": "Yr6oTJ58le",
+ "title": "生产需控制不领料无法入库，但是不能使用齐套检查标准功能",
+ "problem": "生产需控制不领料无法入库，但是不能使用齐套检查标准功能",
+ "cause": "实际领料数量有低于BOM标准用量，无法使用齐套检查功能",
+ "solution": "设置数据权限视图，IIF(RcvRptDocLine.MO.MOPickLists.IssueStyle.Value==FunEnum('发料方式','完工倒冲',2),RcvRptDocLine.MO.DocNo!='',RcvRptDocLine.MO.IsIssue==true)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "领料控制"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "邱冬",
+  "department": "停用-实施8部",
+  "date": "2025-09-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Yr6oTJ58le"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

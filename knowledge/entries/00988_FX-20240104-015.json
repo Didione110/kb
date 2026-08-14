@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240104-015",
+ "record_id": "PAz4sDhaQX",
+ "title": "开具发票时，提示明细中折扣行必须紧挨被折扣行之后",
+ "problem": "开具发票时，提示明细中折扣行必须紧挨被折扣行之后",
+ "cause": "明细中存在正项的退补价，系统当折扣处理了，此时正项退补价在开票时应当成正常销售处理",
+ "solution": "在v\\_nn\\_billdt 里面判断下折扣方式即可",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "折扣顺序"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXm7qkLV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXm7qkLV3bzYmDO",
+  "doc_path": "/自研/数据接口问题/开具发票时，提示明细中折扣行必须紧挨被折扣行之后",
+  "record_id": "PAz4sDhaQX"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/开具发票时，提示明细中折扣行必须紧挨被折扣行之后",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240701-001",
+ "record_id": "eXQT8eAVww",
+ "title": "请款明细对应单个/多个应付单查询数据有异常",
+ "problem": "请款明细对应单个/多个应付单查询数据有异常",
+ "cause": "sql关联错误",
+ "solution": "SELECT\n bu1.code as cjr,\n apb.id AS djiderp,-- 关联子表\n apb.DocNo AS dherp,-- 单号\n apb.PayRFDate AS sqrqerp,-- 申请日期\n apb.ExpectPayDate AS yjfkrerp,-- 预计付款日\n apb.RequestObjType AS qkdxerp,-- 请款对象 客户 0,部门 2，员工 3， 其它 4，供应商 1\n-- apb.ReqFundUse as ReqFundUse,-- 明细中获取 请款用途 保证金 0, 杂项 4, 预付款 1, 质保金 3, 标准 2\n bct.Name AS bzerp,-- 币种\n bot1.name AS lyzzerp,-- 来源组织\n bot2.name AS jszzerp,-- 结算组织\n cot.Code AS ywyerp,-- 业务员\n apb.PayMode AS fkfserp,-- 付款方式\n apb.IsCashierConfirmed AS cnqrerp,-- 出纳确认\n apbt.Memo AS beizerp,-- 备注\n bu.code AS fqrerp,-- 发起人编码\n-- 明细\n\n \n apru.LineNum AS xherp,-- 行号\n apru.Supp_Code AS gysbmerp,-- 供应商\n cst.name AS gysmcerp,-- 供应商名称\n csst.Name AS gyswzerp,-- 供应商位置\n apru.Cust_code AS khccerp,-- 客户产出\n apru.CustSite_Code AS khwzerp,-- 客户位置位置\n apru.RFTotalMoney AS zkqqkjeerp,-- 折扣前请款金额\n CAST ( apru.RFDisCount AS DECIMAL ( 10, 2 ) ) AS qkdyzkerp,-- 请款对应折扣\n apru.RFPayMoney AS zkhqkjeerp,-- 折扣后请款金额\n apru.AcmPayFCMoney AS fkbbjeerp,-- 付款本币金额\n bot4.name AS ywzzerp,-- 业务组织\n bot5.name AS lyzzerp,-- 来源组织\n csmt.name AS jsfserp,-- 结算方式\n apru.OppAccBkAccount AS skyxzherp,-- 收款银行账号\n apru.RecBkAccName AS skzhmcerp,-- 收款账户名称\n apru.OppAccBk AS khyxerp,-- 开户银行\n cot2.code AS ywyerp,-- 业务员\n apru.Item_ItemCode AS lpbmerp,-- 料品编码\n cp.code AS xmbmerp,-- 项目编码\n cp2.name AS xmmcerp, -- 项目名称\n apru.ReqFundUse as qkyterp, -- 请款用途\n \n case \nwhen aprfd.SrcBillType = 1 then (select STRING_AGG(DocNo, ',') from PM_PurchaseOrder ppo where ppo.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 0 then ( SELECT STRING_AGG(aaa.DocNo, ',') FROM AP_APBillHead aaa where aaa.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 3 then (select STRING_AGG(DocNo, ',') from PM_Receivement ppo where ppo.id = aprfd.SrcBillID)\nend as yfddherp,-- 应付单单号\ncase \nwhen aprfd.SrcBillType = 1 then (select STRING_AGG(ppl.ItemInfo_ItemCode, ',') from PM_PurchaseOrder ppo left join PM_POLine ppl on ppo.id = ppl.PurchaseOrder where ppo.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 0 then (select STRING_AGG(aaaa.Item_ItemCode, ',') from AP_PayReqFundDetail aaaa where apru.id = aaaa.PayReqFundUse)\nwhen aprfd.SrcBillType = 3 then (select STRING_AGG(ppr.ItemInfo_ItemCode, ',') from PM_Receivement ppo left join PM_RcvLine ppr on ppo.id = ppr.Receivement where ppo.id = aprfd.SrcBillID)\nend as yfdlpbmerp-- 应付单料品编码\n\n FROM\n AP_PayReqBillHead apb\n left join base_user bu1 on bu1.name = apb.createdby\n LEFT JOIN Base_Currency_trl bct ON apb.ReqFundPC = bct.id\n LEFT JOIN Base_User bu ON apb.createdby = bu.name\n LEFT JOIN Base_Organization_trl bot1 ON apb.SrcBizOwnerOrg = bot1.id\n LEFT JOIN Base_Organization_trl bot2 ON apb.SettleOrg = bot2.id\n LEFT JOIN CBO_Operators cot ON cot.id = apb.Transactor\n LEFT JOIN AP_PayReqBillHead_trl apbt ON apb.id = apbt.id\n -- 明细\n LEFT JOIN AP_PayReqFundUse apru ON apb.id = apru.PayReqFundHead\n LEFT JOIN CBO_SupplierSite_trl csst on csst.id = apru.SuppSite_SupplierSite\n LEFT JOIN AP_PayReqFundDetail aprfd ON apru.id = aprfd.PayReqFundUse\n LEFT JOIN AP_APBillHead aah ON aah.id = aprfd.SrcBillID\n LEFT JOIN Base_Organization_Trl bot4 ON apru.BizOrg = bot4.id\n LEFT JOIN Base_Organization_Trl bot5 ON apru.SrcOrg = bot5.id\n LEFT JOIN CBO_SettlementMethod_trl csmt ON apru.SttlMethod = csmt.id\n LEFT JOIN CBO_Operators cot2 ON cot2.id = apru.Transactor\n LEFT JOIN CBO_Department_trl cdt2 ON apru.Dept = cdt2.id\n LEFT JOIN CBO_Project cp ON apru.project = cp.id\n LEFT JOIN CBO_Project_trl cp2 ON apru.project = cp2.id\n LEFT JOIN CBO_SUPPLIER_trl cst ON cst.id = apru.Supp_Supplier",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "PostgreSQL",
+  "PolarDB",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "请款异常"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-07-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eXQT8eAVww"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

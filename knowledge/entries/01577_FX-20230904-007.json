@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230904-007",
+ "record_id": "fNfJpikZLL",
+ "title": "发票不审核就可以手动结算，导致发票审核报错，所以需要将系统调整为发票审核后才可以生成结算单",
+ "problem": "发票不审核就可以手动结算，导致发票审核报错，所以需要将系统调整为发票审核后才可以生成结算单",
+ "cause": "未审核就生成了下游单据，导致审核报错",
+ "solution": "打开查询模板初始化，查询模板：40040502002手工结算发票查询，新增字段编码：ibillstatus单据状态，设置默认取值3，数据分别对应：0自由(缺省)1作废 2正在审批 3审批通过 4审批未通过，在查询是锁定已经审核的单据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流"
+ ],
+ "keywords": [
+  "发票审核"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fNfJpikZLL"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

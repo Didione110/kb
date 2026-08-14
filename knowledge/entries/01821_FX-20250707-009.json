@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250707-009",
+ "record_id": "lINi9aGY67",
+ "title": "检素 COM 类工厂中 CLSID 为(72A6FADA-FE26-46BD-A921-BFD1179C1E1E;的组件失败，原因是出现以下错误: 80070008 存储空间不足，无法处理此命令。(异常来自HRESULT:0x80070008)",
+ "problem": "检素 COM 类工厂中 CLSID 为(72A6FADA-FE26-46BD-A921-BFD1179C1E1E;的组件失败，原因是出现以下错误: 80070008 存储空间不足，无法处理此命令。(异常来自HRESULT:0x80070008)",
+ "cause": "80070008 内存资源不足",
+ "solution": "1，重启服务器：通过重启服务器释放内存资源，可能会有效解决当前的存储空间不足问题。\n\n2，切换现存量查询为老报表格式：\n操作路径如下：\n进入“报表中心”\n选择“系统报表”\n点击“库存管理” → “库存账” → “现存量查询”\n右键点击页面，选择“新老格式切换”，然后选择“使用老报表格式”\n\n3，操作功能报错:80070008 内存资源不足\nhttps://success.yonyou.com/surl/lisn6rwf",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "存储不足"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-07-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lINi9aGY67"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

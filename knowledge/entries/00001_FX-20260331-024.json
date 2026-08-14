@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260331-024",
+ "record_id": "02koOJT7oh",
+ "title": "思迈特BI自带部署的高速缓存库物理内存占用过高",
+ "problem": "思迈特BI自带部署的高速缓存库物理内存占用过高",
+ "cause": "交叉查询报表数据量过大，导致缓存占用过高。",
+ "solution": "1. 优化查询方案取汇总数据2.清理MPP高速缓存库本地缓存数据路径为：data/smartbimppmd目录下的内容。重置SmartbiMppmd3.如果数据量过大建议单独部署MPP高速缓存库以减小服务压力",
+ "solution_types": [
+  "SQL脚本",
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "OceanBase",
+  "TiDB",
+  "PolarDB-X"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "缓存内存占用"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "思迈特BI-SmartBI",
+ "module": "",
+ "meta": {
+  "submitter": "彭宇翔",
+  "department": "客户成功部",
+  "date": "2026-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1opXqWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1opXqWrMqPxX6",
+  "doc_path": "/其他/环境问题/思迈特BI自带部署的高速缓存库物理内存占用过高",
+  "record_id": "02koOJT7oh"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/思迈特BI自带部署的高速缓存库物理内存占用过高",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

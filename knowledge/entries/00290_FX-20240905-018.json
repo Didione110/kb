@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240905-018",
+ "record_id": "6sW4I449eD",
+ "title": "反馈零售小票补打时候出现抬头项和商品明细不对应情况",
+ "problem": "反馈零售小票补打时候出现抬头项和商品明细不对应情况",
+ "cause": "单据选择后会触发对应事件，这时候系统会将商品明细和收款明细检索一次，但是可能由于网络原因导致数据还未查询出来，界面数据还保留的是之前单据的商品明细，导致了数据不对应",
+ "solution": "在点击打印预览或者打印事件的时候再次触发当前单据进行商品明细和收款明细检索",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "抬头错位"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-09-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AY3OnJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AY3OnJ5daZ90D",
+  "doc_path": "/时空/数据错误问题/反馈零售小票补打时候出现抬头项和商品明细不对应情况",
+  "record_id": "6sW4I449eD"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/反馈零售小票补打时候出现抬头项和商品明细不对应情况",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

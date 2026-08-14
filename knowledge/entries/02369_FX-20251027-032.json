@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251027-032",
+ "record_id": "yKDwPnQd3b",
+ "title": "想快速的把可能有对应编码，但是还没有匹配的数据快速匹配上",
+ "problem": "想快速的把可能有对应编码，但是还没有匹配的数据快速匹配上",
+ "cause": "因为一些操作顺序的问题，有时会导致拉取的商品数据没有及时匹配。比如：先拉取了商品资料后来才新增的套餐资料。这样就会导致拉取的时候不会生成匹配关系。",
+ "solution": "可以通过操作网点商品匹配菜单内的自动匹配系统货品或者重新再拉取一次平台商品就可以重新生成匹配关系。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "快速匹配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-10-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yKDwPnQd3b"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

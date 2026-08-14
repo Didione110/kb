@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241127-054",
+ "record_id": "TJLjA5jvuJ",
+ "title": "设置了现金流量项目后凭证录入无法选择现金流量项目",
+ "problem": "设置了现金流量项目后凭证录入无法选择现金流量项目",
+ "cause": "总账账簿-总账参数中没有关联现金流量表",
+ "solution": "总账账簿-总账参数中没有关联现金流量表",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "现金流量项目"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TJLjA5jvuJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

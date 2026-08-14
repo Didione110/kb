@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230906-013",
+ "record_id": "b6auRnLKU1",
+ "title": "时空批量审批功能的导入使用",
+ "problem": "时空批量审批功能的导入使用",
+ "cause": "早些年时空系列无法完成自动的工作流审批，现已解决，文档如下",
+ "solution": "对着pdf设置即可\n1：注册批量审批功能\n2：对需要自动审批的菜单进行onload代码赋值\n3：测试使用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "时空审批"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b6auRnLKU1"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

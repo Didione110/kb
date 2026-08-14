@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240622-039",
+ "record_id": "FAyLyPMRml",
+ "title": "C2财务集成，在审批单据生单的配置中，会存在部分科目无需制单的场景，如：费用报销时，存在多种借贷关系（一借一贷、一借多贷、多借多贷等情况），在表单绑定时，根据实际业务场景，灵活配置哪些科目显示，哪些科目不显示，操作方法如下：\n",
+ "problem": "C2财务集成，在审批单据生单的配置中，会存在部分科目无需制单的场景，如：费用报销时，存在多种借贷关系（一借一贷、一借多贷、多借多贷等情况），在表单绑定时，根据实际业务场景，灵活配置哪些科目显示，哪些科目不显示，操作方法如下：",
+ "cause": "操作方法如下",
+ "solution": "1、在表单设计中，灵活使用凭证分录-隐藏(Y)控件，根据多种业务场景灵活配置是否显示隐藏值Y；\n2、表单绑定设置，（借方）或（贷方）凭证分录-隐藏(Y)：选择该流程表单中的控件，当该控件中的值为 Y 时，该条凭证分录不带入到凭证中。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目配置"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-06-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41lEwbJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41lEwbJA7depqY",
+  "doc_path": "/致远OA/应用操作/C2财务集成，在审批单据生单的配置中，会存在部分科目无需制单的场景",
+  "record_id": "FAyLyPMRml"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/C2财务集成，在审批单据生单的配置中，会存在部分科目无需制单的场景",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

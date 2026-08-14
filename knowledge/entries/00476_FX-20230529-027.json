@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230529-027",
+ "record_id": "BmpjyuJRou",
+ "title": "系统辅助核算科目设置，一级增加辅助核算同步下级",
+ "problem": "系统辅助核算科目设置，一级增加辅助核算同步下级",
+ "cause": "科目设置控制-属性控制",
+ "solution": "完全控制：\n1. 集团增加辅助核算后，自动同步到分配了该科目的下级公司\n2. 集团只能在一级科目上增加辅助核算，增加后，是否同步下级才会生效\n3. 公司不能增删改科目的辅助核算\n部分控制：\n1. 集团增加辅助核算后，自动同步到分配了该科目的下级公司\n2. 集团可以在任何级次上增加辅助核算，并同步到下级公司\n3. 公司可以增删改自己的辅助核算，但是不能增删改集团分配下来的辅助核算\n不控制：\n1. 集团增加辅助核算后，不会同步到下级公司\n2. 集团在一级科目上增加的辅助核算不会同步到下级\n3. 公司可以任意增加辅助核算，完全自由",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-05-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BmpjyuJRou"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231018-016",
+ "record_id": "NGnhB4lM3I",
+ "title": "DHERP V12\n采购订单表单隐藏明细栏右上方的弹出菜单：历史进价、商品详情、供货对比",
+ "problem": "DHERP V12\n采购订单表单隐藏明细栏右上方的弹出菜单：历史进价、商品详情、供货对比",
+ "cause": "在开发工具中，找到采购订单，点击grid1，点击弹出菜单，将隐藏历史进价、商品详情、供货对比设置不可见或者是直接删除都不生效",
+ "solution": "在JS中uf_onload处，插入\ngrid1.setToolbarStyle('grid1.toolbar0.m5', \"display:none\");\ngrid1.setToolbarStyle('grid1.toolbar0.m6', \"display:none\");\ngrid1.setToolbarStyle('grid1.toolbar0.m7', \"display:none\");\n保存，测试解决\n\n注：grid1.toolbar0.m5可根据弹出菜单中的对应ID填入",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "采购订单隐藏菜单"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NGnhB4lM3I"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

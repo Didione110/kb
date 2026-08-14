@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240901-004",
+ "record_id": "OU3LxHheYB",
+ "title": "系统预置的【需求分类】，字段，可不可以由下拉选择改为放大镜参照？",
+ "problem": "系统预置的【需求分类】，字段，可不可以由下拉选择改为放大镜参照？",
+ "cause": "系统预置的【需求分类】，字段，可不可以由下拉选择改为放大镜参照？",
+ "solution": "菜单搜索 【自定义代码】 打开后 搜搜需求分类 勾选右上角的参照显示即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "下拉改参照"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OU3LxHheYB"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241007-003",
+ "record_id": "6LqReNiDUD",
+ "title": "部分医保卡刷卡时候提示：pure virtual function call",
+ "problem": "部分医保卡刷卡时候提示：pure virtual function call",
+ "cause": "原因医保结算时候调用医保控件报错，问题是电脑环境有问题",
+ "solution": "更新电脑操作系统的Windows补丁包，如果是XP系统则重装WIN7及以上操作系统",
+ "solution_types": [
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "纯虚函数调用"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-10-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb7OR1VzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb7OR1VzlwrZgb",
+  "doc_path": "/自研/环境问题/部分医保卡刷卡时候提示：pure virtual function call",
+  "record_id": "6LqReNiDUD"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/部分医保卡刷卡时候提示：pure virtual function call",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

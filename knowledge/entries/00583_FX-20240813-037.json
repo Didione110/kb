@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240813-037",
+ "record_id": "EKhVd0CeIb",
+ "title": "DHERP器械专版的系统自带采购收货提取采购订单拆分明细后新增明细为空",
+ "problem": "DHERP器械专版的系统自带采购收货提取采购订单拆分明细后新增明细为空",
+ "cause": "拆分明细调用方法问题",
+ "solution": "async function uf\\_splitLine()\\{\n if(ds\\_ddmx.field(\"num\").value \\> 0)\\{\n var row = ds\\_ddmx.recno \\+ 1;\n await ds\\_ddmx.insert();\n await pf\\_copyRow(ds\\_ddmx, ds\\_ddmx, row, \"billsn,billSort,billno,bofAdjNum\");\n \\}\n\\}\n调用方法下加个异步",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "采购明细为空"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-08-13"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbPLXoW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbPLXoW3kdP0wQ",
+  "doc_path": "/时空/产品功能问题/DHERP器械专版的系统自带采购收货提取采购订单拆分明细后新增明细为空",
+  "record_id": "EKhVd0CeIb"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/DHERP器械专版的系统自带采购收货提取采购订单拆分明细后新增明细为空",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

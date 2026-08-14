@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251103-005",
+ "record_id": "ds0wj1UZsQ",
+ "title": "自动更新程序发布更新版本后，有的门店在提示更新时会选择“否”，导致没有更新到最新的程序",
+ "problem": "自动更新程序发布更新版本后，有的门店在提示更新时会选择“否”，导致没有更新到最新的程序",
+ "cause": "给了客户选择的机会，就会选错",
+ "solution": "在发布时，把最低要求运行版本号改为当前发布的版本号，实现强制更新",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "更新拒绝"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5Apba1J5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5Apba1J5daZ90D",
+  "doc_path": "/自研/软件补丁问题/自动更新程序发布更新版本后，有的门店在提示更新时会选择否，导致没有更新到最新的程序",
+  "record_id": "ds0wj1UZsQ"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件补丁问题/自动更新程序发布更新版本后，有的门店在提示更新时会选择否，导致没有更新到最新的程序",
+ "category": [
+  "自研",
+  "软件补丁问题"
+ ]
+}

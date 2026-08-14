@@ -1,0 +1,48 @@
+{
+ "id": "FX-20260430-025",
+ "record_id": "9GSh0YU9bE",
+ "title": "sql 链接 oracle 数据库的快捷语句",
+ "problem": "sql 链接 oracle 数据库的快捷语句",
+ "cause": "sql 链接 oracle 数据库的快捷语句",
+ "solution": "--1.安装oracle 的客户端工具\n\n--2.创建Oracle链接服务器（无需配置监听）\nEXEC sp\\_addlinkedserver\n @server = 'ORACLE\\_LINK1',\n @srvproduct = 'Oracle',\n @provider = 'OraOLEDB.Oracle',\n @datasrc = '111.62.175.1:1521/orcl'; --oracle 地址\n\n--3.账号密码绑定\nEXEC sp\\_addlinkedsrvlogin\n @rmtsrvname = 'ORACLE\\_LINK1',\n @useself = 'FALSE',\n @rmtuser = 'race',\n @rmtpassword = '123456';\n\n--4.开启远程查询权限\nEXEC sp\\_serveroption 'ORACLE\\_LINK1','RPC OUT','TRUE';\nGO\n\n--5.测试链接查询是否成功\nSELECT \\* FROM OPENQUERY(ORACLE\\_LINK1,'SELECT \\* FROM entdoc');",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "Oracle连接"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2026-04-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1NEKrJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1NEKrJlemrZQ3",
+  "doc_path": "/时空/安装部署问题/sql 链接 oracle 数据库的快捷语句",
+  "record_id": "9GSh0YU9bE"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/sql 链接 oracle 数据库的快捷语句",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

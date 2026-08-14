@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241102-004",
+ "record_id": "d4l3MqU7hl",
+ "title": "器械专版库UDI出库扫码功能改造",
+ "problem": "器械专版库UDI出库扫码功能改造",
+ "cause": "注意提取原单",
+ "solution": "async function uf_getGBCode(){\n\n if(Utility.isSpace(ds_ddhz.field(\"rfbillno\").value)){\n form.alert(\"友情提示：请先选择【销售订单】后,在进行扫码!\")\n ds_ddhz.field(\"BarCode\").value=\"\";\n textbox10.focus();\n return false ;\n }\n \n \n _barcode = Utility.trim( ds_ddhz.field(\"barcode\").value);\n _barPars = await pf_getBarCodeByRule(_barcode);\n if (_barPars.isFind){\n if (_barPars.BcCodeType == \"M\") {\n //uf_clearBarcodeRule();\n //主条码，根据商品条码查找商品\n var ItemBarCode = _barPars.detail.ItemBarCode;\n //_barcode.substr(_barPars.ItemStartNo - 1, _barPars.ItemLen);\n ds_ddhz.field(\"ItemBarCode\").value = ItemBarCode;\n if(_barcode.length>19){\n ds_ddhz.field(\"PUDI\").value = _barcode;\n var cond = Utility.trim(ItemBarCode);\n var obj = {};\n obj.vbarcode = cond;\n obj.vrfbillno = ds_ddhz.field(\"rfbillno\").value;\n sel_goodsMt.select.variables = obj;\n await sel_goodsMt.open();\n ds_ddhz.field(\"BarCode\").value=\"\";\n textbox23.focus();\n textbox23.select(); \n }\n //非一体码\n if(_barcode.length<=19){\n ds_ddhz.field(\"ztm\").value=_barcode;\n form.alert(\"请扫副条码!\");\n ds_ddhz.field(\"BarCode\").value=\"\";\n textbox23.focus();\n textbox23.select(); \n }\n } else if (_barPars.BcCodeType == \"S\"){\n if (Utility.isSpace(ds_ddhz.field(\"ItemBarCode\").value)){\n form.alert(\"请先扫描主码！\");\n //setTimeout(function() {textbox10.select();}, 10);\n ds_ddhz.field(\"BarCode\").value=\"\";\n textbox23.focus();\n textbox23.select();\n return false;\n }\n //副条码\n ds_ddhz.field(\"PUDI\").value = ds_ddhz.field(\"ztm\").value + _barcode;\n var obj = {};\n obj.vbarcode = ds_ddhz.field(\"ItemBarCode\").value;\n obj.vrfbillno = ds_ddhz.field(\"rfbillno\").value;\n sel_goodsMt.select.variables = obj;\n await sel_goodsMt.open();\n ds_ddhz.field(\"BarCode\").value=\"\";\n textbox23.focus();\n textbox23.select();\n }\n //按商品+批号查找明细数据，有则累加，没有则新增。\n \n }\n}\n\nasync function uf_findGoods(){\n debugger;\n var cond = \"(goodsid='\" + ds_ddhz.field(\"goodsid\").value + \"') and (PUDI='\"+ds_ddhz.field(\"PUDI\").value+\"')\";\n var p = await ds_ddmx.find(cond);\n if (p != -1){\n form.alert(\"扫码重复,请重新扫码!\");\n return false;\n textbox10.focus();\n textbox10.select();\n }\n else {\n await ds_ddmx.append();\n var obj = {};\n obj.taxprice=ds_ddhz.field(\"taxprice\").value;\n obj.price=ds_ddhz.field(\"price\").value;\n obj.pudi=ds_ddhz.field(\"pudi\").value;\n obj.goodsid=ds_ddhz.field(\"goodsid\").value;\n obj.rfnum=ds_ddhz.field(\"rfnum\").value;\n sel_goodsDt.select.variables = obj;\n await sel_goodsDt.open();\n }\n}\n\nasync function uf_afterMtBarGoods() {\n if (sel_goodsMt.result!='noData'&& sel_goodsMt.result !=false){\n textbox23.focus();\n textbox23.select(); \n if (!Utility.isSpace(ds_ddhz.field(\"goodsid\").value) ){\n await uf_findGoods();\n //uf_clearBarcodeRule();\n } \n }else{\n form.alert(\"扫码品种不在当前订单中,请检查!\")\n return false; \n }\n}\n\nfunction uf_afterBarGoods() {\n //更换商品，清空相关字段，如包装、批号、库房、货位等\n //带入主条码批号等信息\n if(sel_goodsDt.result!='noData'&& sel_goodsDt.result !=false){ \n ds_ddmx.field(\"rfbillsn\").value=ds_ddhz.field(\"rfbillsn\").value;\n ds_ddmx.field(\"rfbillno\").value=ds_ddhz.field(\"rfbillno\").value;\n ds_ddmx.field(\"rfbillcode\").value=ds_ddhz.field(\"rfbillcode\").value;\n ds_ddmx.field(\"rfruleid\").value=ds_ddhz.field(\"rfruleid\").value;\n sys_compute(\"num\");\n var rfbillsn = ds_ddhz.field(\"RfBillSn\").value;\n if (typeof ddJSON[rfbillsn] == \"undefined\"){\n var line = {};\n line.num = 1;\n line.rfnum = ds_ddmx.field(\"rfnum\").value;\n ddJSON[rfbillsn] = line;\n }\n else {\n ddJSON[rfbillsn].num = ddJSON[rfbillsn].num + 1;\n }\n \n if(ddJSON[rfbillsn].num>ddJSON[rfbillsn].rfnum){\n if( confirm(\"扫码商品数",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "UDI出库扫码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "d4l3MqU7hl"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

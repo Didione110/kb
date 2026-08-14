@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221111-030",
+ "record_id": "nqqRgvSzis",
+ "title": "用户授权控制，一个税号下可有多个分机号",
+ "problem": "用户授权控制，一个税号下可有多个分机号",
+ "cause": "客户限制分机号，当用户未授权开机号时无法进行开票",
+ "solution": "诺诺发票新增分机号的维护",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "ZyPrint",
+  "REST API"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "税号分机"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "产品开发部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3yPO4Wn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3yPO4Wn4qY5Pr",
+  "doc_path": "/自研/产品功能问题/用户授权控制，一个税号下可有多个分机号",
+  "record_id": "nqqRgvSzis"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/用户授权控制，一个税号下可有多个分机号",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

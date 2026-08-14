@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231026-035",
+ "record_id": "vF5SrELCPR",
+ "title": "人员在OA中走完离职申请流程后，是否可以将账号自动停用并且把人员状态改为离职。",
+ "problem": "人员在OA中走完离职申请流程后，是否可以将账号自动停用并且把人员状态改为离职。",
+ "cause": "【适用版本】： 7.0SP3 及以上版本，本次以 8.1SP1 版本进行演示\n【应用场景】： 管理员需要对人员进行离职交接，但是不想通过 HR\n管理员或者单位管理员账号来操作，而是希望用表单来对人员进行离职并交接待办",
+ "solution": "通过业务关系设置账户状态停用及待办交接人，即可实现流程结束账号停用且人员状态自动变更为离职。\n【详见附件】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "自动停用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2023-10-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vF5SrELCPR"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240821-048",
+ "record_id": "iXgnPyshI8",
+ "title": "表单填写，根据某个字段筛选相关数据在单据界面展示问题",
+ "problem": "表单填写，根据某个字段筛选相关数据在单据界面展示问题",
+ "cause": "表单填写，根据某个字段筛选相关数据在单据界面展示问题",
+ "solution": "1.新增被查看档案列表视图，设置被筛选参数\n2.查看相关数据流程单据，具体参数如截图。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "表单筛选"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EIS",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iXgnPyshI8"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

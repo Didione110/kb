@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231128-087",
+ "record_id": "8Rm747JSbO",
+ "title": "采购入库单实收数量需要小于等于应收数量，不允许出现实收大于应收",
+ "problem": "采购入库单实收数量需要小于等于应收数量，不允许出现实收大于应收",
+ "cause": "客户要求单据上的实收不能大于应收",
+ "solution": "由于系统没有相关参数控制，所以在单据模板上写验证公式，\\$Error-\\>iif(noutnum\\>nshouldoutnum,\"实发数量不能大于应发数量\",\"\")，出现实收大于应收时给出提示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "实收超限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAlgZdV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAlgZdV1DK0g6l",
+  "doc_path": "/用友/应用操作/采购入库单实收数量需要小于等于应收数量，不允许出现实收大于应收",
+  "record_id": "8Rm747JSbO"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/采购入库单实收数量需要小于等于应收数量，不允许出现实收大于应收",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

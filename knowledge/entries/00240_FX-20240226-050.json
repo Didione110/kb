@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240226-050",
+ "record_id": "5gSfyqRMMX",
+ "title": "WMS系统自带的部分查询（工作量考核等查询），条件选较早的日期，没有得到查询结果",
+ "problem": "WMS系统自带的部分查询（工作量考核等查询），条件选较早的日期，没有得到查询结果",
+ "cause": "查询的代码里只有正常数据表",
+ "solution": "需要在代码里加上历史表数据",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "PostgreSQL",
+  "PolarDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日期查询"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-02-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3z3KnWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3z3KnWn4qY5Pr",
+  "doc_path": "/其他/数据错误问题/WMS系统自带的部分查询条件选较早的日期没有得到查询结果",
+  "record_id": "5gSfyqRMMX"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/WMS系统自带的部分查询条件选较早的日期没有得到查询结果",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

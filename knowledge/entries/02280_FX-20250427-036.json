@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250427-036",
+ "record_id": "w0zMNieA8E",
+ "title": "建立账套报错，提示准备模板文件出错，在执行xp_cmdshell的过程中出错。调用createprocess失败，错误代码5",
+ "problem": "建立账套报错，提示准备模板文件出错，在执行xp_cmdshell的过程中出错。调用createprocess失败，错误代码5",
+ "cause": "环境问题",
+ "solution": "退出360后，重新建立成功",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows",
+  "360浏览器"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "加密"
+ ],
+ "keywords": [
+  "xp_cmdshell 权限不足"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-04-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w0zMNieA8E"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

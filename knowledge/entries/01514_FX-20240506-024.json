@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240506-024",
+ "record_id": "dWtfXqj7If",
+ "title": "待办审批，抬头的单据类型不能自动刷新",
+ "problem": "待办审批，抬头的单据类型不能自动刷新",
+ "cause": "待办审批，抬头的单据类型不能自动刷新",
+ "solution": "先导出原表单备份，再导入附件中表单进行覆盖",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "单据类型"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dWtfXqj7If"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

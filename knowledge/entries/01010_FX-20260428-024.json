@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260428-024",
+ "record_id": "PuKHOQua2Y",
+ "title": "客户每月进行固定资产和总账对账，想要在结账节点显示当月对账不平不许结账功能",
+ "problem": "客户每月进行固定资产和总账对账，想要在结账节点显示当月对账不平不许结账功能",
+ "cause": "u8c5.0以上的版本才支持",
+ "solution": "5.0以上的版本才支持 在对账规则里面设置 结账控制方式为检查 在结账的时候对账不平不许结账",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "对账锁结"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PuKHOQua2Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

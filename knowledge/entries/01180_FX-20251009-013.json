@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251009-013",
+ "record_id": "Ua7M6Q64ql",
+ "title": "客户档案界面进行关联供应商作，报错“无法调用”nc.vo.bd.cust.CustSupplierVO.setCustsuptype（java.lang.Integer）“ because ”custSupVO“ is null”",
+ "problem": "客户档案界面进行关联供应商作，报错“无法调用”nc.vo.bd.cust.CustSupplierVO.setCustsuptype（java.lang.Integer）“ because ”custSupVO“ is null”",
+ "cause": "供应商缺少对应的客商数据，还请按照下面的脚本执行 补齐数据再去做关联",
+ "solution": "供应商缺少对应的客商数据，还请按照下面的脚本执行 补齐数据再去做关联\n1.\nselect code,name,pk_org,pk_group,pk_supplierclass，pk_supplier from bd_supplier where code='填供应商编码';\n2.\nINSERT INTO BD_CUST_SUPPLIER (BEGINDATE, CODE, CUSTENABLESTATE, CUSTSUPPROP, CUSTSUPTYPE, CUSTVERSION, DATAORIGINFLAG, DR, ENDDATE, INNERPROFITCENTER, MNECODE, NAME, NAME2, NAME3, NAME4, NAME5, NAME6, PK_AREACL, PK_CUST_SUP, PK_CUST_SUP_V, PK_CUSTCLASS, PK_FINANCEORG, PK_GROUP, PK_ORG, PK_PROFITCENTER, PK_SUPPLIERCLASS, RATETYPE, SHORTNAME, SUPENABLESTATE, SUPVERSION, TAXPAYERID, TS) \nVALUES ('1970-01-01 00:00:00', '填上面查到的code', 2, 0, 2, 1, 0, 0, '9999-12-31 00:00:00', 'N', null, '填上面查到的name', null, null, null, null, null, '~', '填上面查到的pk_supplier', '填上面查到的pk_supplier', '~', '~', '填上面查到的pk_group', '填上面查到的pk_org', '~', '上面查到的pk_supplierclass', '~', null, 2, 0, '~', '2022-09-26 16:29:55');",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "custSupVO空"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Ua7M6Q64ql"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

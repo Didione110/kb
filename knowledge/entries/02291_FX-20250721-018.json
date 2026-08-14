@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250721-018",
+ "record_id": "wMLgw2w0at",
+ "title": "销售发货单表头没有客户档案上的联系人",
+ "problem": "销售发货单表头没有客户档案上的联系人",
+ "cause": "销售订单上没有填写联系人字段",
+ "solution": "尝试直接在发货单上写公式取客户档案上的联系人，但由于没有触发时点，公式不能生效，后续还是建议在订单上填写在带到后续的发货单上",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "联系人缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-07-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wMLgw2w0at"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240131-072",
+ "record_id": "WYcMfirnGx",
+ "title": "存货档案启用了存货自定义项，那在存货档案的查询方案中怎么把这个存货自定义项添加到查询条件中。",
+ "problem": "存货档案启用了存货自定义项，那在存货档案的查询方案中怎么把这个存货自定义项添加到查询条件中。",
+ "cause": "在存货档案-查询方案-管理方案中点击增加条件-点击增加。直接增加需要的条件；例如使用存货自定义项1 在数据源中直接录入：cinvdefine1，设置比较符等于，文本框、勾选常用确认保存使用。其他的存货自定义也是类似，录入对应数据源。重新进入点击查询，使用该自定义查询存货档案数据。",
+ "solution": "在存货档案-查询方案-管理方案中点击增加条件-点击增加。直接增加需要的条件；例如使用存货自定义项1 在数据源中直接录入：cinvdefine1，设置比较符等于，文本框、勾选常用确认保存使用。其他的存货自定义也是类似，录入对应数据源。重新进入点击查询，使用该自定义查询存货档案数据。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "存货自定义项"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WYcMfirnGx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

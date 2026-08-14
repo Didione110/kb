@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250530-043",
+ "record_id": "nKPepBskig",
+ "title": "远程审方系统执业药师审核后，处方图片无药师签名水印",
+ "problem": "远程审方系统执业药师审核后，处方图片无药师签名水印",
+ "cause": "原因是上班使用系统时启动百度云盘自动备份，自动备份会占用处方图片，导致签名水印上传失败。",
+ "solution": "上班期间服务器上百度云盘不启动，以免自动备份占用图片打不上水印。\n设置系统作业每日非工作时间自董启动百度云盘备份，完成后自动关闭百度云盘。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "签名水印缺失"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nKPepBskig"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

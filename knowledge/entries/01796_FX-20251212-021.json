@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251212-021",
+ "record_id": "keEFkAe8Bh",
+ "title": "用户希望在做付款单时，付款银行能默认带出不用选择",
+ "problem": "用户希望在做付款单时，付款银行能默认带出不用选择",
+ "cause": "需求问题",
+ "solution": "根据社区文档配置每一家的默认付款银行，再优化单据模板，在表头和表体各找一个必填项配置显示及编辑公式里添加对应公式；（过程中表头正常，表体显示的主健，厂家协助优化后正常，记录如下：表头bfyhzh->getcolvalue2(bd_bankaccbas,pk_bankaccbas,def1,\"Y\",ownercorp,dwbm);表体：bfyhzh->getcolvalue2(bd_bankaccbas,pk_bankaccbas,def1,\"Y\",ownercorp,dwbm);\nbankacc->getColValue(bd_bankaccbas,account,pk_bankaccbas,bfyhzh);\ntemp->getColValue(bd_bankaccbas,pk_bankdoc,pk_bankaccbas,bfyhzh);\nskyhmc->getColValue(bd_bankdoc,bankdocname,pk_bankdoc,temp)）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "付款银行默认"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-12-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "keEFkAe8Bh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

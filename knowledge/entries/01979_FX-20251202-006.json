@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251202-006",
+ "record_id": "onoQFeEDZt",
+ "title": "企业平台登陆语言选择英文版，在凭证凭证时合计金额、记账凭证等，还有一些字段都显示中文，如何让他显示英文",
+ "problem": "企业平台登陆语言选择英文版，在凭证凭证时合计金额、记账凭证等，还有一些字段都显示中文，如何让他显示英文",
+ "cause": "由于凭证类别、币种在档案中名称为中文导致，修改凭证类别档案、外币币种档案名称为英文，选项-账簿中勾选“使用新打印控件打印...”可以解决第多号、大写显示中文的问题",
+ "solution": "由于凭证类别、币种在档案中名称为中文导致，修改凭证类别档案、外币币种档案名称为英文，选项-账簿中勾选“使用新打印控件打印...”可以解决第多号、大写显示中文的问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "语言切换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-12-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "onoQFeEDZt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

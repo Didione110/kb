@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241104-008",
+ "record_id": "h1kRxok3Kt",
+ "title": "小Q打印得物平台的面单，后台数据组织和其他平台不一样",
+ "problem": "小Q打印得物平台的面单，后台数据组织和其他平台不一样",
+ "cause": "点3传来的打印数据，其他平台是加密数据，而得物平台是已经解密的数据，合并在一个字段",
+ "solution": "数据组织见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "面单格式"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56MApe8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56MApe8xLq0Ee4",
+  "doc_path": "/其他/安装部署问题/小Q打印得物平台的面单，后台数据组织和其他平台不一样",
+  "record_id": "h1kRxok3Kt"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/小Q打印得物平台的面单，后台数据组织和其他平台不一样",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

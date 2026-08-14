@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230220-034",
+ "record_id": "TzR47CH6Id",
+ "title": "摘要显示单据日期+中文字",
+ "problem": "摘要显示单据日期+中文字",
+ "cause": "无",
+ "solution": "在凭证模板定义中摘要设置为：tostring(@单据日期2@)+\"收款\"",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "单据日期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TzR47CH6Id"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

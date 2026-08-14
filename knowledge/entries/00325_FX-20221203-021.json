@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221203-021",
+ "record_id": "7lPYStmZYJ",
+ "title": "oracle大查询如果查询效率比较低，可以试试使用oracle自带的并行模式，具体分配数值根据客户服务器环境适当设置",
+ "problem": "oracle大查询如果查询效率比较低，可以试试使用oracle自带的并行模式，具体分配数值根据客户服务器环境适当设置",
+ "cause": "oracle大查询如果查询效率比较低，可以试试使用oracle自带的并行模式，具体分配数值根据客户服务器环境适当设置",
+ "solution": "select /\\*\\+ parallel(4) \\*/ \\* from trbillmt",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "并行查询"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1kkEd8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1kkEd8BQEx5rG",
+  "doc_path": "/时空/效率问题/oracle大查询如果查询效率比较低，可以试试使用oracle自带的并行模式，具体分配数值根据客户服务器环境适当设置",
+  "record_id": "7lPYStmZYJ"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/oracle大查询如果查询效率比较低，可以试试使用oracle自带的并行模式，具体分配数值根据客户服务器环境适当设置",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

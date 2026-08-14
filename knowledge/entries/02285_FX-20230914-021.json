@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230914-021",
+ "record_id": "w8hDkBlzMt",
+ "title": "客户反应会计平台想要批量生成凭证查找单据时候能不能按银行账号筛选？",
+ "problem": "客户反应会计平台想要批量生成凭证查找单据时候能不能按银行账号筛选？",
+ "cause": "系统默认只显示部分查询条件",
+ "solution": "先点到具体的单据，右键点一下显示，有一个显示自定义筛选条件。可以按照客商、银行账号等进行筛选。",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "银行账号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-09-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w8hDkBlzMt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

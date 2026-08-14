@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221105-011",
+ "record_id": "SoQ58KhuW6",
+ "title": "时空财务接口配置正确后，每次登录接口，都会提示要求输入数据库密码口令",
+ "problem": "时空财务接口配置正确后，每次登录接口，都会提示要求输入数据库密码口令",
+ "cause": "数据库sa密码过于复杂",
+ "solution": "数据库创建新的子账户，设置简单的密码，财务接口使用新的数据库账户连接，可以正常登录",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "数据库密码"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李维",
+  "department": "实施7部",
+  "date": "2022-11-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SoQ58KhuW6"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

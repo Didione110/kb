@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240105-022",
+ "record_id": "CgwGUY86Z4",
+ "title": "时空智友V12版本PageDown、PageUp翻页快捷键无法使用",
+ "problem": "时空智友V12版本PageDown、PageUp翻页快捷键无法使用",
+ "cause": "时空智友V12版本PageDown、PageUp翻页快捷键无法使用",
+ "solution": "需要更新最新ROOT",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "翻页快捷键"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAb2Pg2W3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAb2Pg2W3kdP0wQ",
+  "doc_path": "/时空/产品功能问题/时空智友V12版本PageDown、PageUp翻页快捷键无法使用",
+  "record_id": "CgwGUY86Z4"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/时空智友V12版本PageDown、PageUp翻页快捷键无法使用",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

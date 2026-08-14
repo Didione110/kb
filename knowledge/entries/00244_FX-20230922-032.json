@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230922-032",
+ "record_id": "5kR7NiWcD6",
+ "title": " 手持APP货位管理里点货位分解，程序就闪退问题",
+ "problem": "手持APP货位管理里点货位分解，程序就闪退问题",
+ "cause": "导库存的时候，sphwph表的jlgg空值导致",
+ "solution": "郑州WMS导库存的时候，sphwph表的jlgg一定要插入，不然就会出现手持APP货位管理里点货位分解程序闪退问题",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "货位分解闪退"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-09-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe566xed8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe566xed8xLq0Ee4",
+  "doc_path": "/其他/应用操作/手持APP货位管理里点货位分解，程序就闪退问题",
+  "record_id": "5kR7NiWcD6"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/手持APP货位管理里点货位分解，程序就闪退问题",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

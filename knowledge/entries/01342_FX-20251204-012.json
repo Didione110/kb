@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251204-012",
+ "record_id": "Yvga5i2tyy",
+ "title": "针对码上放心自动上传接口，如果用名称进行匹配单位上传，该单位只是在码上放心进行入驻，但是未到客户码上放心往来单位资料建立，是否能直接上传成功？",
+ "problem": "针对码上放心自动上传接口，如果用名称进行匹配单位上传，该单位只是在码上放心进行入驻，但是未到客户码上放心往来单位资料建立，是否能直接上传成功？",
+ "cause": "很多客户的B端都未建立往来单位，如果去建立会增加客户很多工作量",
+ "solution": "经过测试，只要到码上放心进行了入驻，且码上放心名称与时空系统名称一致，则不需要在客户码上放心往来单位建立，可直接上传成功。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "单位匹配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPak7EqlJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPak7EqlJgk9rpMq",
+  "doc_path": "/其他/应用操作/针对码上放心自动上传接口，如果用名称进行匹配单位上传，该单位只是在码上放心进行入驻，是否能直接上传成功",
+  "record_id": "Yvga5i2tyy"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/针对码上放心自动上传接口，如果用名称进行匹配单位上传，该单位只是在码上放心进行入驻，是否能直接上传成功",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

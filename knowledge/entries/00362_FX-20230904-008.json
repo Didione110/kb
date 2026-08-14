@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230904-008",
+ "record_id": "8lotZQYp7U",
+ "title": "天联登录成功，打不开发布程序，提示“客户端无法连接到天联高级版服务器。远程端口可能未监听，或服务器繁忙，无法处理新连接。请检查服务器状态是否有效，端口是否映射，网络是否联通”",
+ "problem": "天联登录成功，打不开发布程序，提示“客户端无法连接到天联高级版服务器。远程端口可能未监听，或服务器繁忙，无法处理新连接。请检查服务器状态是否有效，端口是否映射，网络是否联通”",
+ "cause": "服务器为server系统，需要做远程桌面授权管理器激活，组策略授权",
+ "solution": "做远程桌面授权管理器激活，组策略授权",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "天联连接失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmbn76JqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmbn76JqjMp697",
+  "doc_path": "/其他/软件无法使用/天联登录成功，打不开发布程序，提示客户端无法连接到天联高级版服务器，远程端口可能未监听，或服务器繁忙",
+  "record_id": "8lotZQYp7U"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/天联登录成功，打不开发布程序，提示客户端无法连接到天联高级版服务器，远程端口可能未监听，或服务器繁忙",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221031-055",
+ "record_id": "S61Apzh5ar",
+ "title": "固定资产盘点时，需要按不同分类的固定资产自定义资产编号位数及尾数",
+ "problem": "固定资产盘点时，需要按不同分类的固定资产自定义资产编号位数及尾数",
+ "cause": "固定资产盘点中的编号按照资产内容显示不同的位数，编号位数不固定，只能确定是\n几位尾数的编号以及编号总位数，不足的希望通过 0000..来补足，因此需要考虑最终补多\n少个 000...的值。",
+ "solution": "首先预置 000..（. 预置多少个 0 根据需求预置最大位数的 0，宜多不宜少），\n再用 LEN 函数判断【手动输入尾数】是几位，然后根据资产编号中【资产编号总位数】减\n去【尾几位】得出【0 补几位】，即需要补多少位“000...”，最后使用 LEFT 函数根据【0\n补几位】取出对应个数的 0，最终【资产编号】即为补位 000...和末位组合自动生成。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "资产编号、固定资产、分类"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mLD4eJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mLD4eJ9ekBD76",
+  "doc_path": "/致远OA/产品功能问题/固定资产盘点时需要按不同分类的固定资产自定义资产编号位数及尾数",
+  "record_id": "S61Apzh5ar"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/固定资产盘点时需要按不同分类的固定资产自定义资产编号位数及尾数",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

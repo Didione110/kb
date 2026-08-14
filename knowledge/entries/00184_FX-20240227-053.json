@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240227-053",
+ "record_id": "4FSr7QR7VD",
+ "title": "流程盘点修改数量不能实时更新，复盘后数量显示第一次盘点数量加第二次盘点数量",
+ "problem": "流程盘点修改数量不能实时更新，复盘后数量显示第一次盘点数量加第二次盘点数量",
+ "cause": "程序设置问题，style有追加和覆盖两种",
+ "solution": "修改存储过程APP_WMS_LCPandian，'覆盖' as style",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "数量累加"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4FSr7QR7VD"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

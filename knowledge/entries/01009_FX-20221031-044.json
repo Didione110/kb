@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221031-044",
+ "record_id": "Ps36DA3pK1",
+ "title": "系统无法登陆，长时间在登陆界面无反应",
+ "problem": "系统无法登陆，长时间在登陆界面无反应",
+ "cause": "U8C3.2之前的版本存在bug，需要替换文件",
+ "solution": "1、取消命令属性中快速编辑选项\n2、替换U8CERP/lib文件夹下相同的命名jar包，重启u8c即可",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "登录卡顿"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施4部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Ps36DA3pK1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

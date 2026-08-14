@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240506-020",
+ "record_id": "hH7h3XNVh4",
+ "title": "客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+ "problem": "客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+ "cause": "客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+ "solution": "客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "周转箱复核"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPako1EYJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPako1EYJgk9rpMq",
+  "doc_path": "/其他/应用操作/客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+  "record_id": "hH7h3XNVh4"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/客户平板拣货复核需要知晓药放入到那个周转箱，在复核时进行周转箱登录，然后用手持进行周转箱回收",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250123-073",
+ "record_id": "60TfdRQkaD",
+ "title": "C2财务集成HRP，集成凭证生成后删除操作\nHRP版本（U8版本），U8外部凭证不允许在总账模块修改和删除\n",
+ "problem": "C2财务集成HRP，集成凭证生成后删除操作\nHRP版本（U8版本），U8外部凭证不允许在总账模块修改和删除",
+ "cause": "在财务集成生单后，需要修改或者删除集成凭证，HRP（U8）系统中无法操作，需要在OA系统中操作。\n1、在财务集成-凭证制单中，选中已制单的凭证记录，点击“查看凭证”，作废凭证；\n2、作废后在U8中进行凭证整理；\n3、整理完毕，在OA中更新“凭证信息”，集成流程即可回到待制单状态，操作员可以对集成流程进行修改或者删除操作。",
+ "solution": "针对 U8集成，财务凭证在OA系统中进行凭证作废整理；\n如果财务集成系统是U8C，则可以在U8C系统中对外部集成凭证进行修改或删除。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "凭证删除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2025-01-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "60TfdRQkaD"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

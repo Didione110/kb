@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250620-025",
+ "record_id": "IOz6o77El9",
+ "title": "U8凭证摘要栏想不显示日期，实际录入时并未写日期在摘要上",
+ "problem": "U8凭证摘要栏想不显示日期，实际录入时并未写日期在摘要上",
+ "cause": "设置问题",
+ "solution": "总账-设置-选项，凭证打印页签 ，右侧 摘要与科目打印内容设置，将日期从摘要栏打印内容中移向左侧即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "摘要去日期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-06-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IOz6o77El9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

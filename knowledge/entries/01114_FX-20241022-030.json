@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241022-030",
+ "record_id": "SsqlfoXGOT",
+ "title": "致远互联产品中间件名称及版本查看方法",
+ "problem": "致远互联产品中间件名称及版本查看方法",
+ "cause": "致远产品目前支持六种中间件，分部是：Tomcat、东方通、宝兰德、金蝶、Weblogic、Websphere\n此文档方法适用于 V3.5SP1 及以上版本。",
+ "solution": "中间件类型识别方法\n登录 system 账号，登陆系统监控界面，查下图红框位置\n1、如路径为 Seeyon\\A8\\ApacheJetspeed\\bin ，路径中包含关键字“ApacheJetspeed”，则中间件使用的是 Tomcat；\n2、如路径为/TongWeb/lib/bootstrap.jar ，路径中包含关键字“Tongweb”，则中间件使用的是东方通；\n3、如路径为/BES-CLUSTER-9.5.2/bin/，路径中包含关键字“BES”，则中间件使用的是宝兰德；\n4、如路径为/AASV9.0/domains/seeyon ，路径中包含关键字“AAS”，则中间件使用的是金蝶；\n5、如路径为 Oracle\\Middleware\\Oracle_Home\\user_projects，则中间件使用的是weblogic；\n6 、 如 路 径 为 IBM/WebSphere/AppServer/java/bin/java ， 路 径 中 包 含 关 键 字“WebSphere”，则中间件的使用的是 websphere。\n\n中间件类型及版本查看方法见附件",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "中间件版本"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-10-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SsqlfoXGOT"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

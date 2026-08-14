@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251207-017",
+ "record_id": "rNPqlTy0Fi",
+ "title": "一键打印打印不了在DHERP上传的质检报告图片",
+ "problem": "一键打印打印不了在DHERP上传的质检报告图片",
+ "cause": "通过ip访问V12上传的图片，每次都提示要登录系统",
+ "solution": "Tomcat\\webappS\\ROOT\\WEB-INF\\WEB.XML文件里的param-value 改成N\n<servlet>\n<servlet-name>img</servlet-name>\n<servlet-class>com.artery.form.lmageServlet</servlet-class>\n<init-param>\n<param-name>authentication</param-name>\n<param-value>Y</param-value></init-param>\n<load-on-startup>3</load-on-startup></servlet>",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "一键打印"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2025-12-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rNPqlTy0Fi"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240327-057",
+ "record_id": "HO8ZLz6P7m",
+ "title": "新店铺拉取店铺商品资料后，没有第一时间同步库存。需要手动推送库存或者等待下一次库存变动才会触发库存同步",
+ "problem": "新店铺拉取店铺商品资料后，没有第一时间同步库存。需要手动推送库存或者等待下一次库存变动才会触发库存同步",
+ "cause": "点三系统设置中，网店商品匹配后，自动同步库存到店铺 功能项未开启",
+ "solution": "默认设置在新建好店铺后需要拉取店铺平台商品资料，之后还需操作批量同步库存，做库存的初始化同步。开启开关后，匹配好商品资料会自动同步库存。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "库存不同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-03-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmovRP83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmovRP83pmz5aA",
+  "doc_path": "/其他/产品功能问题/新店铺拉取店铺商品资料后，没有第一时间同步库存。需要手动推送库存或者等待下一次库存变动才会触发库存同步",
+  "record_id": "HO8ZLz6P7m"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/新店铺拉取店铺商品资料后，没有第一时间同步库存。需要手动推送库存或者等待下一次库存变动才会触发库存同步",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

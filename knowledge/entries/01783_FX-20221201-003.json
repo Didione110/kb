@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221201-003",
+ "record_id": "kLVV13IeBT",
+ "title": " 输出Excel报错提示：无法将类型为 excel.applicationclass 的 com 强制转换为接口类型 excel._application",
+ "problem": "输出Excel报错提示：无法将类型为 excel.applicationclass 的 com 强制转换为接口类型 excel._application",
+ "cause": "环境问题",
+ "solution": "1、如果有安装wps，请卸载wps。\n2、开始-运行-cmd-输入“C:\\Program Files\\Microsoft Office\\OFFICE11\\excel.exe” /regserver 回车。\n3、在注册表中找到：HKEY_CLASSES_ROOT\\TypeLib\\{00020813-0000-0000-C000-000000000046}\\1.6 删除之就可以了【1.6因各版本不一样而不一样，也可能1.7等】",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Excel COM类型转换"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-12-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kLVV13IeBT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

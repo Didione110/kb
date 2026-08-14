@@ -1,0 +1,36 @@
+{
+ "id": "FX-20241113-023",
+ "record_id": "KS7HRT08sM",
+ "title": "科目余额表、科目辅助余额表在查询条件时勾选了无发生额或无余额不显示 ，但查询结果还是会显示",
+ "problem": "科目余额表、科目辅助余额表在查询条件时勾选了无发生额或无余额不显示 ，但查询结果还是会显示",
+ "cause": "更新辅助，重建余额表即可",
+ "solution": "1、重建余额表，在总账期初节点，ctrl+alt+a清除期初辅助垃圾数据，2、然后在总账结账处，选中任一月份，点击ctrl+alt+a，在弹窗中选择辅助核算项拉倒右侧去，更新，点击“重建余额表”，年份选空，月份选空，科目选空，确定后，清缓存，重新登录",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "无发生额不隐藏"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KS7HRT08sM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

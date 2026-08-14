@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240131-085",
+ "record_id": "varvTwAwyv",
+ "title": "工程变更单 第二次变更，子件【删除】是灰色。",
+ "problem": "工程变更单 第二次变更，子件【删除】是灰色。",
+ "cause": "操作方式有误",
+ "solution": "工程变更单明细弹出框中，需要将某个子项删除时，不是通过按钮的删除，而是往后拖动行的滚动条，修改 对应行的【更改类型】=作废，效果为发行后bom中删除改行子项。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "子件删除灰色"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "varvTwAwyv"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

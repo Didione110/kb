@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240708-014",
+ "record_id": "J7xTsHJKm3",
+ "title": "存在身份证号：42070319950725244X,人员姓名：王燕,人员编码为 null的记录",
+ "problem": "存在身份证号：42070319950725244X,人员姓名：王燕,人员编码为 null的记录",
+ "cause": "启用人力资源模块后，在本公司新增人员，如人员任职别的公司，做人员引用，直接新增会导致人员重复以及报错",
+ "solution": "查询ID主键--select pk_corp,psnname,id,pk_psnbasdoc,ts from bd_psnbasdoc where id = '42070319950725244X';\n查询多的主键是否有数据--select * from bd_psndoc where pk_psnbasdoc = '1001F810000000001L4J';\n删除多的主键--delete from bd_psnbasdoc where pk_psnbasdoc = '1001F810000000001L4J';\ncommit;",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流"
+ ],
+ "keywords": [
+  "身份证异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-07-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "J7xTsHJKm3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

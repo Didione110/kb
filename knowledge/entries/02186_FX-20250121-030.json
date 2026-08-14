@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-030",
+ "record_id": "tqYWFpDD5R",
+ "title": "工单系统修改弹窗数据失败，报Unexpected mutation of “xxx“ prop",
+ "problem": "工单系统修改弹窗数据失败，报Unexpected mutation of “xxx“ prop",
+ "cause": "vue3中直接修改父组件传递数据失败",
+ "solution": "子组件中新声明变量，将父组件数据复制给新变量后再次修改",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "props mutation"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbK0NvW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbK0NvW3kdP0wQ",
+  "doc_path": "/自研/产品功能问题/工单系统修改弹窗数据失败，报Unexpected mutation of xxx prop",
+  "record_id": "tqYWFpDD5R"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/工单系统修改弹窗数据失败，报Unexpected mutation of xxx prop",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

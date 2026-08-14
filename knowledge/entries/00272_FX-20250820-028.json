@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250820-028",
+ "record_id": "6MuZeBGRyC",
+ "title": "1、删除厂商价格调整单\n2、取消厂商价目表状态为终止",
+ "problem": "1、删除厂商价格调整单\n2、取消厂商价目表状态为终止",
+ "cause": "1、删除厂商价格调整单\n2、取消厂商价目表状态为终止",
+ "solution": "操作步骤见附件sql",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "价格调整、厂商价目、状态终止"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "项目化管理",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-08-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1yoD6JlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1yoD6JlemrZQ3",
+  "doc_path": "/用友/应用操作/1、删除厂商价格调整单 2、取消厂商价目表状态为终止",
+  "record_id": "6MuZeBGRyC"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/1、删除厂商价格调整单 2、取消厂商价目表状态为终止",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

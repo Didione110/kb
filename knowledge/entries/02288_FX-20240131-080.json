@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240131-080",
+ "record_id": "wFTTlpM88D",
+ "title": "以销定采需要自动带出存货对应供应商信息",
+ "problem": "以销定采需要自动带出存货对应供应商信息",
+ "cause": "以销定采需要自动带出存货对应供应商信息",
+ "solution": "修改销售订单-采购订单的数据交换，给cvendormangid建议供应商管理ID添加公式，公式左侧连接到销售订单表体cinventoryid，公式参考：getColValue(bd_invmandoc,pk_cumandoc,pk_invmandoc,B_cinventoryid) 给cvendorbaseid 建议供应商基础ID添加公式，公式左侧连接到销售订单表体cinventoryid，公式参考：getColValue(bd_cumandoc,pk_cubasdoc,pk_cumandoc,getColValue(bd_invmandoc,pk_cumandoc,pk_invmandoc,B_cinventoryid))",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "以销定采"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wFTTlpM88D"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

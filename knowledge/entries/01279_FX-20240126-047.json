@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240126-047",
+ "record_id": "XkQtThcu1E",
+ "title": "蓝凌没有像致远一样的分管领导的角色直接选择",
+ "problem": "蓝凌没有像致远一样的分管领导的角色直接选择",
+ "cause": "实际场景可能需要根据控件匹配分管领导，蓝凌预制只能通过提交人来获取，或需要购买单独的单位管理模块来实现，而单位管理是配合公文管理来实现的所以在实施中极为不方便",
+ "solution": "在没有单位管理模块的情况下，只能通过公式定义器来写函数，如：$组织架构.获取n级直线领导$($提交部门$,2,\"管理员\")，获取选择的地址本/组织架构对象的n级直线领导（从对象开始由下往上算的领导），排除掉特定用户后，返回领导列表，且领导不重复出现。第一个参数为组织架构对象，可为地址本；第二个为第n级领导，数字；第三个为不参与审批的人员列表。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "分管领导"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XkQtThcu1E"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

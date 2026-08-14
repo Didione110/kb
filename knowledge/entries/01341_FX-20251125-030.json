@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251125-030",
+ "record_id": "YvId7ANcFp",
+ "title": "贷方金额进行逻辑判断，在会计平台的配置是否可以取业务单据值进行判断后放在借方的负数，再进行金额合并",
+ "problem": "贷方金额进行逻辑判断，在会计平台的配置是否可以取业务单据值进行判断后放在借方的负数，再进行金额合并",
+ "cause": "凭证金额合并需要进行金额判断后合并",
+ "solution": "借贷方，就做两行，if判断一下，某个情况下借方取值，否则就是0；另一行就是反过来的if贷方取值，否则是0。 借方、贷方不能通过公式判断，转换模板金额在哪一个方向生成肯定就是这个方向",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "贷方逻辑判断"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YvId7ANcFp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

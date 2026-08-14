@@ -1,0 +1,30 @@
+{
+ "id": "doc-2c423ad30d",
+ "record_id": "",
+ "title": "蓝凌OA如何使用转换服务转换dwg文件",
+ "problem": "蓝凌OA如何使用转换服务转换dwg文件",
+ "cause": "蓝凌OA如何使用转换服务转换dwg文件",
+ "solution": "1、转换dwg的文件EKP的版本要V15及以上的版本，V14及以下的版本都没有转换dwg文件的功能。\n2、转换dwg文件的服务器对内存的要求比较高，服务器的内存需要16-32g；\n操作方法见附件",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptParp4ZbJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptParp4ZbJgk9rpMq",
+  "doc_path": "/蓝凌OA/安装部署问题/蓝凌OA如何使用转换服务转换dwg文件"
+ },
+ "doc_path": "/蓝凌OA/安装部署问题/蓝凌OA如何使用转换服务转换dwg文件",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

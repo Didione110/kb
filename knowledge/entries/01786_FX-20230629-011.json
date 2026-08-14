@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230629-011",
+ "record_id": "kNf1fNEHus",
+ "title": "客户想要根据质检合格数量在【供货质量报表】查询合格率和不合格率",
+ "problem": "客户想要根据质检合格数量在【供货质量报表】查询合格率和不合格率",
+ "cause": "目前系统只预制了合格率",
+ "solution": "在UBF中，供应质量报表自定义添加不合格率列，使用表达式为 (Fields!totalcount.Value- Fields!TotalPassedCount.Value)/Fields!totalcount.Value*100",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "合格率"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-06-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kNf1fNEHus"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

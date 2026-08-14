@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240531-082",
+ "record_id": "JSgSctY4CS",
+ "title": "间接费用分配时会涉及到非生产部门的费用分配到生产部门，不同的部门之间需要按照不同的方法分配",
+ "problem": "间接费用分配时会涉及到非生产部门的费用分配到生产部门，不同的部门之间需要按照不同的方法分配",
+ "cause": "间接费用分配时会涉及到非生产部门的费用分配到生产部门，不同的部门之间需要按照不同的方法分配",
+ "solution": "在系统中，分配方案维护中，可以按照不同的部门按照不同的方法，均可以设置严格或不严格分配，具体分配方法见附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "间接分配"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "成本管理",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JSgSctY4CS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

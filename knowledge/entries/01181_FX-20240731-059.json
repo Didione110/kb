@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240731-059",
+ "record_id": "Udvl9rIgvk",
+ "title": "触发预写金额翻倍",
+ "problem": "触发预写金额翻倍",
+ "cause": "一、检查映射配置\n预提字段拷贝设置，正确的应当为：\n流程单据报销金额+底表已用金额=底表已用金额。\n大多数预提翻倍的设置都是\n已报销总额 + 底表已用金额 = 底表已用金额。\n\n二、检查流程是否存在并行节点，其中一个节点回退到发起者，而另一个节点进行了提交\n这种操作会导致，并行的节点，其中一个节点回退到发起者，清空了预写，此时另外一个节点提交，产生了预写，而回退到发起者的节点重新发起，又一次产生了预写，从而预写翻倍",
+ "solution": "针对场景一，需要调整触发映射设置，手动修改底表数据\n针对场景二，9.0以及以上版本解决了该问题，低版本需要手动修复数据",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "预写翻倍"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Udvl9rIgvk"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

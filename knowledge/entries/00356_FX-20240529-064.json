@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240529-064",
+ "record_id": "8TPxQKDP40",
+ "title": "人员的薪资发放按照项目管理档案进行分摊生成凭证",
+ "problem": "人员的薪资发放按照项目管理档案进行分摊生成凭证",
+ "cause": "客户需要按部门跟项目去区分入账科目，目前系统标准只能显示部门，没有项目",
+ "solution": "1、在人员信息上新增项目档案，人员对应档案，只能一对一，如人员挂多个档案，需要新增多个字段\n2、薪资发放项目中新增字段项目档案，薪资发放计算时会取人员信息上的项目档案内容，如每月人员对应的档案有变化，需要修改人员信息上的档案，不能直接修改薪资发放时候的的档案信息\n3、将项目档案作为影响因素，去设置生成凭证",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "项目分摊"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-05-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOl6R2A8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOl6R2A8Zd1wyK0",
+  "doc_path": "/用友/应用操作/人员的薪资发放按照项目管理档案进行分摊生成凭证",
+  "record_id": "8TPxQKDP40"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/人员的薪资发放按照项目管理档案进行分摊生成凭证",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

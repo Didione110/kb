@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241031-077",
+ "record_id": "0mtikjoQ2i",
+ "title": "打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+ "problem": "打印模板没有的字段，前台打印依然展示；重新保存打印模板后可以短暂解决，但是过一段时间就会再现。",
+ "cause": "模板缓存原因",
+ "solution": "重新删除，重建模板即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "字段残留"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0mtikjoQ2i"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

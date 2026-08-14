@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240221-041",
+ "record_id": "EyRzUiTHrQ",
+ "title": "系统默认没有登录验证码并且没有账号锁定限制，如何开启图片验证码并且设置密码多次输入错误后锁定账号",
+ "problem": "系统默认没有登录验证码并且没有账号锁定限制，如何开启图片验证码并且设置密码多次输入错误后锁定账号",
+ "cause": "需要后台开启相关功能",
+ "solution": "在运维管理-安全管控-账户安全中开启登录验证码及账号锁定配置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "验证码、账号锁定"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "运维管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EyRzUiTHrQ"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安全问题"
+ ]
+}

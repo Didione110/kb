@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221230-058",
+ "record_id": "D1ypBh2gHX",
+ "title": "U8C调用接口出现订单号已被占用，但是在U8C平台查询查不到。",
+ "problem": "U8C调用接口出现订单号已被占用，但是在U8C平台查询查不到。",
+ "cause": "由于U8C系统属于单线程运行，在执行可用量是出现并发操作，或者系统卡顿，会把订单号保存在领用表，调用接口新生成单据，如果填写了生成的订单号，会先去领用表查询，出现相同单号会返回订单号已经被占用。",
+ "solution": "select * from pub_billcode_fetched where billcode ='具体单据号'；如果查询出该单据号信息，需要在数据库删除这一条信息，然后重新生成单据。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "订单占用"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "产品开发部",
+  "date": "2022-12-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "D1ypBh2gHX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

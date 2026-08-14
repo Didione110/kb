@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260427-020",
+ "record_id": "p2aiPRDihe",
+ "title": "发票智能识别生单如何实现？",
+ "problem": "发票智能识别生单如何实现？",
+ "cause": "发票智能识别生单如何实现？",
+ "solution": "可参看附件进行操作，配置意图流后绑定智能体",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "发票识别"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "智能中台",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-04-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "p2aiPRDihe"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

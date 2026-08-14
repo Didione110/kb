@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251203-007",
+ "record_id": "sxGaCgWvCG",
+ "title": "销售统计表想按存货分类级次展示",
+ "problem": "销售统计表想按存货分类级次展示",
+ "cause": "使用需求",
+ "solution": "先在销售统计表表头更多设置处新增，勾上按存货分类展开，配置展开级次保存后，再重新定义新的分组条件，分别将存货分类1、存货分类2等双击到右侧，保存，重新按此方案查询即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "存货分类"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sxGaCgWvCG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

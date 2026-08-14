@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221025-017",
+ "record_id": "T1IaZ09hTH",
+ "title": "客户一个商品存在多个整件，出库的时候是随机分配货架出货",
+ "problem": "客户一个商品存在多个整件，出库的时候是随机分配货架出货",
+ "cause": "整件分配规则和补货分配规则的排序不一致",
+ "solution": "在补货的存储过程里优化分摊排序，保持和调度分摊的一致即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "随机出库"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-10-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lYpkP86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lYpkP86EDybno",
+  "doc_path": "/其他/效率问题/客户一个商品存在多个整件，出库的时候是随机分配货架出货",
+  "record_id": "T1IaZ09hTH"
+ },
+ "status": "active",
+ "doc_path": "/其他/效率问题/客户一个商品存在多个整件，出库的时候是随机分配货架出货",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

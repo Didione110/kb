@@ -1,0 +1,30 @@
+{
+ "id": "doc-455978aded",
+ "record_id": "",
+ "title": "被加签用户无法提交流程，弹窗报错阻止",
+ "problem": "被加签用户无法提交流程，弹窗报错阻止",
+ "cause": "被加签人代办打开不会默认勾选‘通过’按钮，直接提交则会报错‘请选择流程下一步操作’。",
+ "solution": "勾选‘通过’按钮再提交即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNd6NPx7J2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNd6NPx7J2LD0oRE",
+  "doc_path": "/蓝凌OA/应用操作/被加签用户无法提交流程，弹窗报错阻止"
+ },
+ "doc_path": "/蓝凌OA/应用操作/被加签用户无法提交流程，弹窗报错阻止",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

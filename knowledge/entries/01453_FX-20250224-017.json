@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250224-017",
+ "record_id": "boZ8QiC1r0",
+ "title": "应收单根据收货单生成，有多行明细，凭证生成后有多行分录，不方便核对",
+ "problem": "应收单根据收货单生成，有多行明细，凭证生成后有多行分录，不方便核对",
+ "cause": "一个供应商一个月存在多笔业务合并开票付款",
+ "solution": "在总账-基础设置-总账账簿，分录汇总条件设置合并分录条件，或者在基础设置（集团）-账簿-分录汇总方案中设置，然后再转总账生成凭证时选择分录汇总方案，二选选其一即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "应收核对"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "boZ8QiC1r0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

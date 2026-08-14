@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251231-041",
+ "record_id": "OloqxjnInU",
+ "title": "偶尔会出现整货刷卡确认完成的时候，完成不了",
+ "problem": "偶尔会出现整货刷卡确认完成的时候，完成不了",
+ "cause": "检查发现拣货员对应的拣货任务为空，导致无法刷卡完成",
+ "solution": "在刷卡里加入附件的代码，在刷卡的时候判断员工拣货任务为空的情况下是否有整件未完成的任务，同时进行更新拣货任务",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "刷卡失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-12-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmaL3MJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmaL3MJGlDd3mE",
+  "doc_path": "/其他/应用操作/偶尔会出现整货刷卡确认完成的时候，完成不了",
+  "record_id": "OloqxjnInU"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/偶尔会出现整货刷卡确认完成的时候，完成不了",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

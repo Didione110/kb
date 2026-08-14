@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240331-075",
+ "record_id": "bT5QGDnIr0",
+ "title": "客户端提示429",
+ "problem": "客户端提示429",
+ "cause": "客户端环境问题",
+ "solution": "需要重新注册WINDOWS\\system32\\ufcomsql\\ufrtprn.ocx文件\n用-用友错误429工具修复。\n如果不行。则先备份用友数据 并把C:\\WINDOWS\\SYSTEM32\\UFCONSQL给删掉。再重装",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "限流"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bT5QGDnIr0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

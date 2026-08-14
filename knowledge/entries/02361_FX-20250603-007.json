@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250603-007",
+ "record_id": "xxZEZwzU4Y",
+ "title": "凭证上联查的库存单据跟存货核算出入库流水显示的单据有差异",
+ "problem": "凭证上联查的库存单据跟存货核算出入库流水显示的单据有差异",
+ "cause": "由于单据生成凭证可能存在合并分录情况，例如金额10与-10在生成凭证会合并抵消，所以在凭证上联查的单据是不会显示这部分单据的",
+ "solution": "如果要显示所有的单据就不要合并生成实时凭证，直接生成实时凭证",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "单据不一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xxZEZwzU4Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

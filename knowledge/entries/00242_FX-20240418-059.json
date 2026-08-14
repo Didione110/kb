@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240418-059",
+ "record_id": "5hIjl7eDzL",
+ "title": "天联客户端输出余额表，提示“本次操作由于这台计算机的限制而被取消，请与你的系统管理员联系”",
+ "problem": "天联客户端输出余额表，提示“本次操作由于这台计算机的限制而被取消，请与你的系统管理员联系”",
+ "cause": "参数设置问题",
+ "solution": "天联服务器端，右键发布的程序-程序设置-勾选“浏览服务器磁盘”，重新登陆天联客户端解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限受限"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-04-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX11jrKWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX11jrKWkb4Mw9r",
+  "doc_path": "/其他/安装部署问题/天联客户端输出余额表，提示本次操作由于这台计算机的限制而被取消，请与你的系统管理员联系",
+  "record_id": "5hIjl7eDzL"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/天联客户端输出余额表，提示本次操作由于这台计算机的限制而被取消，请与你的系统管理员联系",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

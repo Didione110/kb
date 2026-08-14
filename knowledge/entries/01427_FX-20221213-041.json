@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221213-041",
+ "record_id": "b3Vhxs7YIK",
+ "title": "T3升级到U8v16.5后，需要修改以前年度的凭证，存在出纳签字，签字人在升级后的用户中不存在（升级后为注册制），无法取消签字",
+ "problem": "T3升级到U8v16.5后，需要修改以前年度的凭证，存在出纳签字，签字人在升级后的用户中不存在（升级后为注册制），无法取消签字",
+ "cause": "需要以前出纳签字人本人才能取消凭证",
+ "solution": "数据库中做处理（查出对应凭证，将对应凭证的出纳签字人改为现在登录的操作员名称）\nselect * from GL_accvouch where dbill_date ='2021-12-31' and csign='记' and ino_id='1'\nupdate GL_accvouch set ccashier='吴敏' where dbill_date ='2021-12-31' and csign='记' and ino_id='1'\n修改后再去取消签字成功。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "出纳签字"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b3Vhxs7YIK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

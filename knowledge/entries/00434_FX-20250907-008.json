@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250907-008",
+ "record_id": "AbqJtYChk1",
+ "title": "三方物流接口，获取参数错误",
+ "problem": "三方物流接口，获取参数错误",
+ "cause": "原因是老的接口程序使用了新的平台设计器",
+ "solution": "将获取的参数重新指定并且用单引号引用起来",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "物流接口"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-09-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gG920JxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gG920JxAZB1Gv",
+  "doc_path": "/自研/软件补丁问题/三方物流接口，获取参数错误",
+  "record_id": "AbqJtYChk1"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件补丁问题/三方物流接口，获取参数错误",
+ "category": [
+  "自研",
+  "软件补丁问题"
+ ]
+}

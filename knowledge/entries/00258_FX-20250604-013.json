@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250604-013",
+ "record_id": "68Uax38e8R",
+ "title": "客户反馈玖宫格平台已经选定了批号效期，但是经常会出现时空提单后批号不一致问题",
+ "problem": "客户反馈玖宫格平台已经选定了批号效期，但是经常会出现时空提单后批号不一致问题",
+ "cause": "原因是前期实施未直接取平台传入的批号信息，强行做了分摊逻辑",
+ "solution": "商品明细匹配平台传入的批号信息，不再进行批号分摊",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "批号不一致"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1yn9Q8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1yn9Q8BQEx5rG",
+  "doc_path": "/自研/安装部署问题/客户反馈玖宫格平台已经选定了批号效期，但是经常会出现时空提单后批号不一致问题",
+  "record_id": "68Uax38e8R"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/客户反馈玖宫格平台已经选定了批号效期，但是经常会出现时空提单后批号不一致问题",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

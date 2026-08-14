@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240331-069",
+ "record_id": "USEfLri3J1",
+ "title": "有些客户时空出库后，需要给客户一份合同，需要体现客户信息及商品信息，等简单的协议",
+ "problem": "有些客户时空出库后，需要给客户一份合同，需要体现客户信息及商品信息，等简单的协议",
+ "cause": "时空标准功能没有，需要二次开发",
+ "solution": "新增V12销售合同登记界面，增加合同打印模版，提取出库数据，自动生成销售合同",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "库存",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "合同模板"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "USEfLri3J1"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

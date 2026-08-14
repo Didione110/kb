@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231013-010",
+ "record_id": "QadETDorcT",
+ "title": "新客开的零售批量收款功能，多单收款时，出现死锁卡顿",
+ "problem": "新客开的零售批量收款功能，多单收款时，出现死锁卡顿",
+ "cause": "收款时调用的是自己写的获取编号方案，导致syscode表锁定",
+ "solution": "直接换成系统自带的获取编号方案：代码如下\n ds_hz.field(\"billcode\").value = FormUtil.getIdentity(\"billcode\", \"0ohgoz1220anix5l\", \"\") ;\n var billcode=ds_hz.field(\"billcode\").value; \n ds_hz.field(\"billno\").value = FormUtil.getIdentity(\"billno\", \"\", \"\") ;\n var billno=ds_hz.field(\"billno\").value;",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "死锁卡顿"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2023-10-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QadETDorcT"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

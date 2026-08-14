@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241128-060",
+ "record_id": "aAdWA15nUd",
+ "title": "针对不同平台不同店铺需要按百分比同步可销库存。",
+ "problem": "针对不同平台不同店铺需要按百分比同步可销库存。",
+ "cause": "有些平台流量较大，或者做活动爆款库存变动快，容易产生超卖的情况。",
+ "solution": "在库存同步策略中，支持按可销库存设置同步百分比，也支持设置附加值。可控制最小同步数量和最大同步数量。也支持控制部分平台的有库存自动上架，无库存自动下架。不过一般建议不开启自动控制上下架功能。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存同步"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1bLQmJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1bLQmJMGjLRb3",
+  "doc_path": "/其他/产品功能问题/针对不同平台不同店铺需要按百分比同步可销库存。",
+  "record_id": "aAdWA15nUd"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/针对不同平台不同店铺需要按百分比同步可销库存。",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

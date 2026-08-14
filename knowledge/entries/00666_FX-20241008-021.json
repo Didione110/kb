@@ -1,0 +1,47 @@
+{
+ "id": "FX-20241008-021",
+ "record_id": "GvWqCwUOGY",
+ "title": "采购收货单提取单据选择完后报错  “单据保护缺少billno，在主查询中天津字段billno”",
+ "problem": "采购收货单提取单据选择完后报错 “单据保护缺少billno，在主查询中天津字段billno”",
+ "cause": "采购收货单提取单据选择完后报错 “单据保护缺少billno，在主查询中天津字段billno”",
+ "solution": "提取方案的每个sql里面添加billno",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "单据保护"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb1ooRVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb1ooRVzlwrZgb",
+  "doc_path": "/时空/软件无法使用/采购收货单提取单据选择完后报错  “单据保护缺少billno，在主查询中天津字段billno”",
+  "record_id": "GvWqCwUOGY"
+ },
+ "status": "active",
+ "doc_path": "/时空/软件无法使用/采购收货单提取单据选择完后报错  “单据保护缺少billno，在主查询中天津字段billno”",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

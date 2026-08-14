@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250828-051",
+ "record_id": "6QC6uv2lgc",
+ "title": "计划者工作台报错：实体[供应链备料]找不到,ID为2862，见附件 问机器人是要修改缓存大小？",
+ "problem": "计划者工作台报错：实体[供应链备料]找不到,ID为2862，见附件 问机器人是要修改缓存大小？",
+ "cause": "是因为现场有些料品的计划方法维护有误（应该是MRP维护成MPS了），另外业务关系也有问题，SX01组织的制造件需求不按料品抛给SX02组织，导致产生了外部需求，在创建外部需求时抛出了此错误； 修改这2处问题后，计划不会报出该错误了。",
+ "solution": "是因为现场有些料品的计划方法维护有误（应该是MRP维护成MPS了），另外业务关系也有问题，SX01组织的制造件需求不按料品抛给SX02组织，导致产生了外部需求，在创建外部需求时抛出了此错误； 修改这2处问题后，计划不会报出该错误了。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "供应链备料"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-08-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1Bpgx8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1Bpgx8BQEx5rG",
+  "doc_path": "/用友/应用操作/计划者工作台报错：实体(供应链备料)找不到,ID为2862，见附件 问机器人是要修改缓存大小？",
+  "record_id": "6QC6uv2lgc"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/计划者工作台报错：实体(供应链备料)找不到,ID为2862，见附件 问机器人是要修改缓存大小？",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

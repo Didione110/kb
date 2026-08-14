@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250508-009",
+ "record_id": "D5TR5kBf2w",
+ "title": "涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后\n可能存在多包装的问题，造成无法对码数量进行解析",
+ "problem": "涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后\n可能存在多包装的问题，造成无法对码数量进行解析",
+ "cause": "涉及到大中小条码关系解析，\n单独新增接口https://plat.kq1997.net/magic/alihealth/drug/getdruginfo/class?\n时空内进行二次子级解析存储",
+ "solution": "原始选择商品的函数后加入后事件\nawait uf\\_getdrugclass(ElecGoodsCode) ;//生成商品电子监管分类数据\n对应SQL集合中增加防御性建表脚本\n-- 声明一个变量用于存储表是否存在的标志\nDECLARE\n table\\_exists NUMBER;\nBEGIN\n -- 查询 ALL\\_TABLES 视图，判断表 k\\_drugclass 是否存在\n SELECT COUNT(1) INTO table\\_exists \n FROM ALL\\_TABLES \n WHERE table\\_name = 'K\\_DRUGCLASS' AND owner = USER;\n```\n-- 如果表不存在\nIF table_exists = 0 THEN\n -- 使用 EXECUTE IMMEDIATE 动态执行 CREATE TABLE 语句\n EXECUTE IMMEDIATE 'CREATE TABLE k_drugclass(\n EntId char(11),\n ElecGoodsCode varchar2(60),\n produce_name varchar2(100),\n prepn_type_desc varchar2(200),\n prepn_spec varchar2(200),\n pkg_spec_crit varchar2(200),\n approve_no varchar2(200),\n produce_subcode varchar2(100),\n drug_classcode varchar2(100),\n pkg_ratio varchar2(100),\n package_level varchar2(20),\n package_amount varchar2(20) \n )';\n DELETE FROM TbIndexMt WHERE upper(TbName) = 'K_DRUGCLASS';\n DELETE FROM TbIndexDt WHERE upper(TbName) = 'K_DRUGCLASS';\n\n DELETE FROM TbList WHERE TbName = 'k_drugclass';\n INSERT INTO TbList (TbName, TbCode, TbDesc, Explains, TbType, CatFlag, Attr, Conditions,DeveloperId, ModuleId, PTbName, idkey, codefld, idflag, namefld, createlgfld, catcodefld, logogramfld, sqlcont, issync) \n VALUES ('k_drugclass', '', '商品电子监管分类子表', '', 'bus', '应用基础', 'Y', '', 'E03BEXVRQBE', '18u8okrne0xnik0i', '', '', '', '', '', '', '', '', '', '');\n\n DELETE FROM TbStru WHERE upper(TbName) = 'K_DRUGCLASS';\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 1, 'EntId', '企业ID', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 2, 'ElecGoodsCode', '阿里健康药品编码', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 3, 'produce_name', '阿里商品名称', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 4, 'prepn_type_desc', '阿里商品剂型', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 5, 'prepn_spec', '阿里制剂规格', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 6, 'pkg_spec_crit', '阿里包装规格', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 7, 'approve_no', '阿里国药准字', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 8, 'produce_subcode', '阿里子类编码', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 9, 'drug_classcode', '阿里子类别码', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 10, 'pkg_ratio', '阿里包装比例', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('k_drugclass', 11, 'package_level', '阿里包装级别', 'Y', '', '', 'N');\n INSERT INTO TbStru (TbName, SortNum, FdName, F\n\n```",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "多包装"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-05-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbeGe2JxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbeGe2JxEKBD6p",
+  "doc_path": "/时空/数据接口问题/涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后 可能存在多包装的问题，造成无法对码数量进行解析",
+  "record_id": "D5TR5kBf2w"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/涉及到接入阿里健康WES接口时，绑定了商品资料ID字段drug_ent_base_info_id后 可能存在多包装的问题，造成无法对码数量进行解析",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

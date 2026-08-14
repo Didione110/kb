@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240221-037",
+ "record_id": "PXwlRjeoz8",
+ "title": "凭证生成没有带出辅助核算值凭证模板定义辅助核算",
+ "problem": "凭证生成没有带出辅助核算值凭证模板定义辅助核算",
+ "cause": "①对应的凭证模板是对的，因为有的项目可能还针对不同的\"业务类型\"单独做了模\n板\n②对应科目的辅助核算一定要和你【凭证模板定义】的辅助核算是一致的尤其是涉及项目、客商等的;\n排查步骤:",
+ "solution": "1、先去【凭证模板定义】将分录辅助核算或者主辅助核算项的公式段放到模板的分录中的\"摘要\"列;\n2、然后在【凭证生成】节点重新重算生成凭证，检查\"摘要\"列是否带出值?\n3、辅助核算项的值取的对应基本档案的 PK 值，因此先看摘要中是否取到一串英文+中文的 20 位的字符串，然后再去考虑是否需要通过 getcolvalue 公式变通获取基本档案的 PK 值;",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PXwlRjeoz8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240604-013",
+ "record_id": "l3cR3cEtkj",
+ "title": "订单换货时套餐中的子商品想要更换成其他单品，提示不允许更换",
+ "problem": "订单换货时套餐中的子商品想要更换成其他单品，提示不允许更换",
+ "cause": "订单在审核阶段需要操作换货时，套餐中的子商品由于缺货需要换成其他单品，默认不允许更换",
+ "solution": "系统设置-订单设置中开启订单换货时允许套装子商品换成单品开关，就支持操作更换。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "换货限制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "l3cR3cEtkj"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230129-016",
+ "record_id": "WtqvKt0kXN",
+ "title": "单据上物料有效期和实物上对不上",
+ "problem": "单据上物料有效期和实物上对不上",
+ "cause": "在维护物料档案时可能出现维护错误情况，导致后期单据有效期与实物不符；也可能存在搓一天的情况，如30天是1月1号到1月30号，实际可能是1月1号到1月31号",
+ "solution": "可在批号档案和产品批号档案中找到该物料，调整改批次的具体有效期",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "库存"
+ ],
+ "keywords": [
+  "有效期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-01-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WtqvKt0kXN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

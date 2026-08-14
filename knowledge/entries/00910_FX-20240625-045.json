@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240625-045",
+ "record_id": "NFABLSZycA",
+ "title": "打印问题，V10使用win10操作系统 ，第一次打印时，出空纸情况，无打印内容。",
+ "problem": "打印问题，V10使用win10操作系统 ，第一次打印时，出空纸情况，无打印内容。",
+ "cause": "部分V10有这个问题，可能跟操作系统有关",
+ "solution": "拷贝打印控件。CMD中，regsvr32 这个文件路径以及文件 。如 regsvr32 D:/ArteryPrinter.dll （文件路径不要使用中文）。\n部分情况可以使用此方法解决。大家可以试试。",
+ "solution_types": [
+  "替换文件",
+  "其他"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "空纸打印"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-06-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NFABLSZycA"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

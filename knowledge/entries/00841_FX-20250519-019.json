@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250519-019",
+ "record_id": "LX0XlW5ESp",
+ "title": "在医保结算的时候偶发闪退、程序崩溃问题",
+ "problem": "在医保结算的时候偶发闪退、程序崩溃问题",
+ "cause": "初步识别主要是字符类型与接口不一致导致",
+ "solution": "医保结算2102中：\n商品明细节点：\nfeedetl\\_sn 调整为字符，例：drugd.feedetl\\_sn = String(form.args.ds\\_mxls.getValueAt(j,\"BillSn\"))\n\n追溯码节点：\nfeedetl\\_sn 调整为字符，例：drugtracinfo.feedetl\\_sn = String(form.args.ds\\_mxls.getValueAt(j,\"BillSn\"));\n\ntrdn\\_flag 调整为字符，例：drugtracinfo.trdn\\_flag = \"0\";\n\n汇总节点：\nmedfee\\_sumamt调整为数字，例：Number( Utility.formatFloat(hz\\_amt,2) );\n\n附件为截图示例",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "医保闪退"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-05-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn164YbJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn164YbJyMoPYe1",
+  "doc_path": "/自研/软件无法使用/在医保结算的时候偶发闪退、程序崩溃问题",
+  "record_id": "LX0XlW5ESp"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/在医保结算的时候偶发闪退、程序崩溃问题",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

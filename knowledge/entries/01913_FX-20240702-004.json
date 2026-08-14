@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240702-004",
+ "record_id": "nVtnN3otyX",
+ "title": "凭证导入提示For input string:",
+ "problem": "凭证导入提示For input string:",
+ "cause": "使用了全部字段的模板，对应的附单据数需要填写",
+ "solution": "将模板中附单据数字段维护，如果没有附单据数的话维护0导入，并且这一列需要设置为文本格式，带左上角标再导入",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字符串"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nVtnN3otyX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

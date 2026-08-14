@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231225-062",
+ "record_id": "iVZWaW9tND",
+ "title": "一个店铺对接多仓库存，多仓库存合计满足订单需求，需要进行系统配置自动拆分订单多仓出库",
+ "problem": "一个店铺对接多仓库存，多仓库存合计满足订单需求，需要进行系统配置自动拆分订单多仓出库",
+ "cause": "线上一个订单因为单仓库存不满足，在线下会分2个仓库进行发货，之前是客户人工判断库存情况手工处理。希望点三能够自动处理。",
+ "solution": "新版选仓策略可以配置指定店铺匹配多仓进行库存匹配，单仓库存不满足时可以按照货品数量进行拆分订单，多仓发货。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "多仓拆单"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iVZWaW9tND"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

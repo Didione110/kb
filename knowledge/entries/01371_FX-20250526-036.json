@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250526-036",
+ "record_id": "ZfaexaelNs",
+ "title": "按单据类型及部门，改杂发杂收单行，是否生产相关",
+ "problem": "按单据类型及部门，改杂发杂收单行，是否生产相关",
+ "cause": "按单据类型及部门，改杂发杂收单行，是否生产相关",
+ "solution": "按单据类型及部门，改杂发杂收单行，是否生产相关。详见附件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "杂发杂收"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "成本管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZfaexaelNs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231130-116",
+ "record_id": "12O3bEHwXE",
+ "title": "DHERP，销售开票单或者别的表单选择商品之后弹窗：Cannot set properties of null (setting 'value')",
+ "problem": "DHERP，销售开票单或者别的表单选择商品之后弹窗：Cannot set properties of null (setting 'value')",
+ "cause": "商品选择“selector控件”后事件异步代码问题",
+ "solution": "注释掉“await sys\\_afterGoods();”代码中的“await”就行。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "商品选择 null值"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeOdG2J2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeOdG2J2LD0oRE",
+  "doc_path": "/时空/实施问题/DHERP，销售开票单或者别的表单选择商品之后弹窗：Cannot set properties of null (setting 'value'(",
+  "record_id": "12O3bEHwXE"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/DHERP，销售开票单或者别的表单选择商品之后弹窗：Cannot set properties of null (setting 'value'(",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

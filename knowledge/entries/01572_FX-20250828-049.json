@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250828-049",
+ "record_id": "fGirqqJHYf",
+ "title": "新系统需要出具针对5.1版本报表补丁： 1.报表点打开图标打不开不跳转的补丁 2.报表分配了用户权限以后登录还是能看到所有公司的补丁 3.针对第二个补丁 增加投资数据的时候 只能看到分配了权限的公司 并不是能看到所有公司的补丁（之前有其他5.0客户打了第二个补丁出现过这个问题 ）",
+ "problem": "新系统需要出具针对5.1版本报表补丁： 1.报表点打开图标打不开不跳转的补丁 2.报表分配了用户权限以后登录还是能看到所有公司的补丁 3.针对第二个补丁 增加投资数据的时候 只能看到分配了权限的公司 并不是能看到所有公司的补丁（之前有其他5.0客户打了第二个补丁出现过这个问题 ）",
+ "cause": "是环境问题",
+ "solution": "连着打两个补丁 按照手册操作",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "权限、跳转、公司"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-08-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fGirqqJHYf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

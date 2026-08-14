@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240407-041",
+ "record_id": "kSuOUH5h4t",
+ "title": "质管审批首营资料时打开表单报错ORA-00600：内部错误代码,参数: [kpp concatq:2],[4],[1],[0],[,,[],U, 0, , 4, ",
+ "problem": "质管审批首营资料时打开表单报错ORA-00600：内部错误代码,参数: [kpp concatq:2],[4],[1],[0],[,,[],U, 0, , 4,",
+ "cause": "最后检查单据再现的sql发现再执行调用经营范围的sql时查询报错，\nselect dictlist,dictvalue \n from dictdoc \n where fdname='Formula' \n\n and dictvalue in ('丸剂')\n \n\n order by dictcode\n，该剂型是新添加的",
+ "solution": "1.数据库开启的情况下，重建undotbs，然后重新指定到新undotbs上。\n2.数据库未打开情况下，修改undo_management 参数为 manual或者（也有说并且的）提供新的回滚段。",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "ORA-00600"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kSuOUH5h4t"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

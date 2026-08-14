@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241119-032",
+ "record_id": "oFR3DKgIxb",
+ "title": "时空智友V11，客户做三级等保对地址做了https安全设置，使用https地址访问时打印设计报错无法使用打印",
+ "problem": "时空智友V11，客户做三级等保对地址做了https安全设置，使用https地址访问时打印设计报错无法使用打印",
+ "cause": "打印控件兼容问题",
+ "solution": "替换最新的ZyPrint壳子解决，见附件",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "HTTPS打印"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-11-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oFR3DKgIxb"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

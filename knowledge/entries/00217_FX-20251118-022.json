@@ -1,0 +1,47 @@
+{
+ "id": "FX-20251118-022",
+ "record_id": "5FKlZLADss",
+ "title": "自动记账偶尔情况下，导致重复执行的情况。（V10/V11）",
+ "problem": "自动记账偶尔情况下，导致重复执行的情况。（V10/V11）",
+ "cause": "计划任务所有内容进行cron表达式进行执行，未执行完时，有可能重新发起。",
+ "solution": "各个任务单独起线程来跑的，互不影响，每个任务自己是阻塞的方式，一次没完不会开始下一次。\n\n进行以下更新（V10/V11）都可以。\n\n1、修改ROOT\\\\WEB-INF\\\\classes\\\\artery.properties配置\n\nstartquartzjob=false\n\nstartSkzyJob=true\n\n2、ROOT\\\\WEB-INF\\\\web.xml里面加上这段：\n```\n<servlet>\n <servlet-name>ServiceInit</servlet-name>\n <servlet-class>hysDBLink.SkzyJobManager</servlet-class>\n <load-on-startup>2</load-on-startup>\n</servlet>\n\n```\n\n3、修改ROOT\\\\WEB-INF\\\\classes\\\\quartz\\_data.xml\n```\n删除<pre-processing-commands>里面的内容，类似这种：\n\n```\n\n\\*\n\n\\*\n\n4、修改ROOT\\\\WEB-INF\\\\classes\\\\quartz\\_data\\_zy.xml\n```\n删除<pre-processing-commands>里面的内容，类似这种：\n\n```\n\n\\*\n\n\\*\n\n5、修改ROOT\\\\WEB-INF\\\\classes\\\\quartz\\_data\\_zy.xml\n\n删除jobwork\\_engine和jobdoc\\_engine这两段内容\n\n6、修改ROOT\\\\WEB-INF\\\\classes\\\\quartz\\_data\\_zy.xml，添加如下内容：\n\nExportFileJobsw\\_enginesystemcom.artery.jobs.ExportFileJobsExportFileJobs\\_triggersystemExportFileJobsw\\_enginesystem0/10 \\* \\* \\* \\* ?\n\n7、日志表AgJobLogs添加字段\n\n--Oracle--\n\n/\\*\\*\\*\\*\\* SQL Script for Oracle \\*\\*\\*\\*\\*/\n\n--Alter Table: AgJobLogs \\[ 计划执行错误日志 \\] @ 2023-09-08 12:02:48\n--New table column(s);\nALTER TABLE AgJobLogs ADD (\n status number(10) DEFAULT 0 ,\n duration number(10) DEFAULT 0 \n);\nDELETE FROM TbStru WHERE upper(TbName) = 'AGJOBLOGS' AND upper(FdName) = 'STATUS';\nINSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is\\_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('AgJobLogs', 4, 'status', '订单状态', 'Y', '', '1：成功；0失败', 'N');\n\nDELETE FROM TbStru WHERE upper(TbName) = 'AGJOBLOGS' AND upper(FdName) = 'DURATION';\nINSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is\\_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('AgJobLogs', 5, 'duration', '执行时长', 'Y', '', '', 'N');\nDELETE FROM FldList WHERE FdName = 'duration';\nINSERT INTO FldList (FdName, FdDesc, FdType, FdSize, FdDec, DefaultValue) \n VALUES ('duration', '执行时长', 'int', 4, 0, '');\n\n--Microsoft SQL Server--\n\n/\\*\\*\\*\\*\\* SQL Script for Microsoft SQL Server \\*\\*\\*\\*\\*/\n\n--Alter Table: AgJobLogs \\[ 计划执行错误日志 \\] @ 2023-09-08 12:05:10\n--Renew table info;\nIF NOT EXISTS(SELECT \\* FROM TbList WHERE TbName = 'AgJobLogs') \nINSERT INTO TbList (TbName, TbCode, TbDesc, Explains, TbType, CatFlag, Attr, Conditions,DeveloperId, ModuleId, PTbName) \n VALUES ('AgJobLogs', 'AA0050106', '计划执行错误日志', '在计划任务执行过程中发生错误时登记这张表；', 'doc', '应用基础', 'Y', '', 'E061W25SK3M', '007nfmq38ycx30dv', '');\n\n--New table column(s);\nIF NOT EXISTS(SELECT \\* FROM syscolumns WHERE object\\_name(id) = 'AgJobLogs' AND name = 'status')\n ALTER TABLE AgJobLogs ADD status int NULL DEFAULT 0;\n\nDELETE FROM TbStru WHERE upper(TbName) = 'AGJOBLOGS' AND upper(FdName) = 'STATUS';\nINSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is\\_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('AgJobLogs', 4, 'status', '执行状态', 'Y', '', '1：成功；0失败', 'N');\nIF NOT EXISTS(SELECT \\* FROM FldList WHERE FdName = 'status') \nINSERT INTO FldList (FdName, FdDesc, FdType, FdSize, FdDec, DefaultValue) \n VALUES ('status', '执行状态', 'int', 4, 0, '');\n\nIF NOT EXISTS(SELECT \\* FROM syscolumns WHERE object\\_name(id) = 'AgJobLogs' AND name = 'duration')\n ALTER TABLE AgJobLogs ADD duration int NULL DEFAULT 0;\n\nDELETE FROM TbStru WHERE upper(TbName) = 'AGJ",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "重复记账"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-11-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AP0GqJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AP0GqJ5daZ90D",
+  "doc_path": "/时空/产品功能问题/自动记账偶尔情况下，导致重复执行的情况。（V10 V11）",
+  "record_id": "5FKlZLADss"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/自动记账偶尔情况下，导致重复执行的情况。（V10 V11）",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

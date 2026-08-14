@@ -1,0 +1,37 @@
+{
+ "id": "FX-20240201-001",
+ "record_id": "hFpHmQMKpM",
+ "title": "调用请款审批接口报“付款请款单表头不存在，可能已经被删除”",
+ "problem": "调用请款审批接口报“付款请款单表头不存在，可能已经被删除”",
+ "cause": "未查询到对应单据编号",
+ "solution": "code不能为空，且提供正确编码值",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "请款单不存在"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hFpHmQMKpM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

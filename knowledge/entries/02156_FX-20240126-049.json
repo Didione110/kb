@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-049",
+ "record_id": "t7FGX2N9oe",
+ "title": "配置钉钉集成后打开应用显示空白",
+ "problem": "配置钉钉集成后打开应用显示空白",
+ "cause": "蓝凌机制问题",
+ "solution": "如果是在钉钉新建的应用绑定的是OA登录页则需要配置移动门户，门户不预制，如果绑定的是模块如流程管理的地址则可以直接使用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "钉钉空白"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "移动办公",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "t7FGX2N9oe"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241031-052",
+ "record_id": "yqlSiIYZZF",
+ "title": "YS的课件与知识分享中企业报表的建立入口都是预算组织体系，但实际从预算组织体系中引入的组织单元是无法在建立报表表单时选到的",
+ "problem": "YS的课件与知识分享中企业报表的建立入口都是预算组织体系，但实际从预算组织体系中引入的组织单元是无法在建立报表表单时选到的",
+ "cause": "企业报表建立入口应当是从数字化建模-组织管理-企业绩效组织体系中",
+ "solution": "课件是老架构的报表建立方式，现在的新架构报表建立是从数字化建模-组织管理-企业绩效组织体系中",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "预算组织"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yqlSiIYZZF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

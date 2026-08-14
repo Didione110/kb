@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240318-036",
+ "record_id": "WEUbTWPr48",
+ "title": "U812.0借用卡注册成功后，系统依然提示演示期，加密注册无效",
+ "problem": "U812.0借用卡注册成功后，系统依然提示演示期，加密注册无效",
+ "cause": "借用卡注册成功后无效的原因是，服务器中原临时注册加密文件冲突，临时注册产生的加密文件为licence.u8，服务器优先读取临时注册产生的加密文件为licence.u8，所以借用卡注册文件不生效；（借用卡注册使用软加密注册方式，输入用户ID及密码，完成加密注册；注册完成之后在C:/Windows/SysWOW64生成licence.uf）",
+ "solution": "将临时注册文件licence.u8注销掉，借用卡加密文件licence.uf生效",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "加密注册"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-03-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WEUbTWPr48"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

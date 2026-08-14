@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250514-012",
+ "record_id": "sPTTt3v43f",
+ "title": "转换模板-集团预制模板存在，但是修改保存该模板报错显示已经存在模板，无法新增；",
+ "problem": "转换模板-集团预制模板存在，但是修改保存该模板报错显示已经存在模板，无法新增；",
+ "cause": "转换模板表数据错误，前台删除模板但未调动后台表清理数据",
+ "solution": "按文档脚本顺序执行",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "模板冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-05-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sPTTt3v43f"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

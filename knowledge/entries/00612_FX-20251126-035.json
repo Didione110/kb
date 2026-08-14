@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251126-035",
+ "record_id": "F6LjdP55nh",
+ "title": "查询报表的小数位很长",
+ "problem": "查询报表的小数位很长",
+ "cause": "UBF报表的小数位数不参考计量单位位数。",
+ "solution": "https://note.youdao.com/s/VvBvXU2e\n按操作指引修改数量精度，注意：精度绑定要删除。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "小数位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "F6LjdP55nh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

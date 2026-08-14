@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230928-043",
+ "record_id": "sWw4NoBsou",
+ "title": "客户端不能登录（找不到字段和未能加载文件和程序集）",
+ "problem": "客户端不能登录（找不到字段和未能加载文件和程序集）",
+ "cause": "安装后缺少文件",
+ "solution": "1、提示找不到字段可从其他客户端拷贝gacutil.exe.config和gacutil.exe到X：\\U8SOFT文件夹下，cmd分别运行D:u8softigacutil.exe /u D:U8SOFTFrameworklUFSoft.U8.Framework.LoginContext.dl、\nD:u8softlgacutil.exe /i D:U8SOFTFrameworklUFSoft.U8.Framework.LoginContext.dll、\nD:U8SOFTcacutil.exe ir D:U8OFTFrameworklUFSoft U8.Framework.LodinContext d OPAOUE “UFIDA U8 CUSTOM““UFIDA U8 INSTALL“\n2、提示未能加载程序集可从其他客户端U8SOF\\GC路径下拷贝Dapper.dll（若还是无法登录可在cmd中注册该组件）",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sWw4NoBsou"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

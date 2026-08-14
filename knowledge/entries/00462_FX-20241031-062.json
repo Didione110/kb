@@ -1,0 +1,36 @@
+{
+ "id": "FX-20241031-062",
+ "record_id": "BR4TW0QHL1",
+ "title": "系统初始化建账账簿启用时间和模块启用时间不一致，账簿启用时间错误",
+ "problem": "系统初始化建账账簿启用时间和模块启用时间不一致，账簿启用时间错误",
+ "cause": "误操作选错了账簿启用时间",
+ "solution": "备份数据，参照附件文档操作",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "账簿启用时间"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BR4TW0QHL1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

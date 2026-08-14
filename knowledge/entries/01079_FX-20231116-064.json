@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231116-064",
+ "record_id": "RuMyLldtOs",
+ "title": "B2B电商订单数据推送ERP后，客户在电商上申请退款了，后面订单还是开票发货了",
+ "problem": "B2B电商订单数据推送ERP后，客户在电商上申请退款了，后面订单还是开票发货了",
+ "cause": "电商前台申请退货退款取消后，退货退款数据会推送到退货退款中间表。但是没有改变原订单数据状态",
+ "solution": "B2B电商订单数据推送ERP后，在还未开票前，客户在电商上申请退款后需及时取消ERP内订单，避免订单进入ERP线下流程。在退货退款中间表上添加触发器，当有退货退款数据过来后关联订单中间表数据，订单如果还是已受理未开票的状态，更新订单状态成已取消。停止订单流程\n\ncreate TRIGGER \\[dbo\\].\\[b2b\\_state\\_update\\] \n ON \\[dbo\\].\\[b2b\\_returnGoods\\_hz\\]\n for INSERT,update \nAS \nBEGIN\n```\n update a set a.orderstate='已取消' from b2b_ds_orderhz a join inserted b on a.ORDERNUM=b.ordernum \n\n```\n\nwhere a.ORDERSTATE='已受理'\n\nEND",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "退款未同步"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-11-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNm2Qmk83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNm2Qmk83pmz5aA",
+  "doc_path": "/其他/数据接口问题/B2B电商订单数据推送ERP后，客户在电商上申请退款了，后面订单还是开票发货了",
+  "record_id": "RuMyLldtOs"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/B2B电商订单数据推送ERP后，客户在电商上申请退款了，后面订单还是开票发货了",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

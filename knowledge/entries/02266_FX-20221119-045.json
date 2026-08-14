@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221119-045",
+ "record_id": "vqbyVS8juG",
+ "title": "类似同步门店销售数据，一旦日志表数据量起来后，需要进行单据筛选找到未同步的单据效率非常非常慢，经过反复排查，例如新增主键、索引等都无法解决问题",
+ "problem": "类似同步门店销售数据，一旦日志表数据量起来后，需要进行单据筛选找到未同步的单据效率非常非常慢，经过反复排查，例如新增主键、索引等都无法解决问题",
+ "cause": "原因就是接口都会新增日志表进行存储已传输的字段，如果需要进行做判断的字段两边字段类型不一致，sql数据库在进行匹配时候效率极低，我附件展示的实例，同样的语句，一个转了字段类型一个没转字段类型，最终查询耗时一个是几秒就能出结果，一个需要几分钟甚至更久，日志表越大会越久更甚至就直接出不来结果；",
+ "solution": "解决方案：1.在新建日志表时候就保持需要做判断的字段类型一致；2.在做判断的时候强制转换以下字段类型；",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据量大、筛选慢、索引无效"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2022-11-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vqbyVS8juG"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

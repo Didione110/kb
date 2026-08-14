@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250908-009",
+ "record_id": "xrlRE0wyar",
+ "title": "智慧医保客户端保存5262，5267结算列表报错\nException:发生一个或多个错误。--->System.Except:com.kteamwork.app.HttpService.SaveData",
+ "problem": "智慧医保客户端保存5262，5267结算列表报错\nException:发生一个或多个错误。--->System.Except:com.kteamwork.app.HttpService.SaveData",
+ "cause": "医保服务端保存数据到数据库报错",
+ "solution": "服务端日志搜索 \"error\" 查看报错信息，一般是 字段超长，主键重复，或者缺少文件等等。根据报错信息进行相应的调整。修改了数据库表结构，服务端程序要重启。\n例：[ERROR][AppDomain]DALHelper.CreateDBHelper:Could not load file or assembly 'xOracleHelper, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保结算报错"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-09-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xrlRE0wyar"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

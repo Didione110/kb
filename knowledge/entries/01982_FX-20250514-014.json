@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250514-014",
+ "record_id": "ooFZk8k8FH",
+ "title": "多个表单是同一审批流程，但是不能复制每次都只能新建，比较费时间",
+ "problem": "多个表单是同一审批流程，但是不能复制每次都只能新建，比较费时间",
+ "cause": "没有复制流程的按钮",
+ "solution": "仅能再IE模式下可以对流程进行赋值粘贴，或者是对单据模版进行另存为。推荐使用IE模式比较快捷",
+ "solution_types": [],
+ "tech_stack": [
+  "IE",
+  "Edge"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "表单复用"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-05-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ooFZk8k8FH"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "效率问题"
+ ]
+}

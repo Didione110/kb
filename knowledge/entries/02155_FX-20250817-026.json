@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250817-026",
+ "record_id": "t6nuAjYalt",
+ "title": "B2C面单打印美团之前用的是其他平台的打印组件，现在每天推车自己的打印组件，需要升级一键打印及调整WMS打印存储过程",
+ "problem": "B2C面单打印美团之前用的是其他平台的打印组件，现在每天推车自己的打印组件，需要升级一键打印及调整WMS打印存储过程",
+ "cause": "B2C面单打印美团之前用的是其他平台的打印组件，现在每天推车自己的打印组件，需要升级一键打印及调整WMS打印存储过程",
+ "solution": "整合了时空WMS美团B2C独立打印组件的实施工具包",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "面单打印升级"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-08-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "t6nuAjYalt"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

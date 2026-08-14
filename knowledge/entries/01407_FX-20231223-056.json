@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231223-056",
+ "record_id": "aXcs8k0PI1",
+ "title": "客商档案上新增了收货地址，但是单据上显示不出来",
+ "problem": "客商档案上新增了收货地址，但是单据上显示不出来",
+ "cause": "收货地址的字符数量过长，导致不能显示",
+ "solution": "1、在数据库中修改字段的字符长度显示；2、单据初始化模板上修改字段的录入长度；3一般系统的字段修改这两个就行，但由于收货地址在单据上用的是自定义项，之前定义自定义项的时候数据的长度维护的是100，所以还需要在数据库中修改自定义项档案中的收货地址字段",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "收货地址"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-12-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aXcs8k0PI1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

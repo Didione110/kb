@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250121-045",
+ "record_id": "8BXeuhFym4",
+ "title": "商品批号太长提示导致无法入库",
+ "problem": "商品批号太长提示导致无法入库",
+ "cause": "标准库中的批号表sphwph中的miejph字段默认字段长度为10，导致无法录入长批号",
+ "solution": "修改sphwph中的miejph字段默认字段长度改为30解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "批号过长"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN72be2W9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN72be2W9dEq3XD",
+  "doc_path": "/其他/数据错误问题/商品批号太长提示导致无法入库",
+  "record_id": "8BXeuhFym4"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/商品批号太长提示导致无法入库",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

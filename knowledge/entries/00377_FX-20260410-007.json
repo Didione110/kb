@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260410-007",
+ "record_id": "93fSSJwWdm",
+ "title": "客户往来对账表单中选择发货单对账，没有对应的发票号信息",
+ "problem": "客户往来对账表单中选择发货单对账，没有对应的发票号信息",
+ "cause": "发货单做为对账依据时，需要是基于发货单开票时，才会有对应的发票号显示",
+ "solution": "当前发货单是下推出库单后，由出库单开票的，报表中不显示。可以按出库单作为对账依据对账查看",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "发票号缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-04-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yALpGz8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yALpGz8GXn6lpz",
+  "doc_path": "/用友/应用操作/客户往来对账表单中选择发货单对账，没有对应的发票号信息",
+  "record_id": "93fSSJwWdm"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/客户往来对账表单中选择发货单对账，没有对应的发票号信息",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

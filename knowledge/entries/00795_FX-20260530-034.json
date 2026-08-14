@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260530-034",
+ "record_id": "KOryEUbhXF",
+ "title": "A表数据在自动写入B表时需要判断是否有\n应用场景：自动化将A表数据写入B表，同时判断B表是否已有，如果有相同数据则更新，无相同则新增；\n场景实现描述：A表新增记录➡️判断满足自动化触发条件➡️满足就执行把内容写入（或更新）到B表",
+ "problem": "A表数据在自动写入B表时需要判断是否有\n应用场景：自动化将A表数据写入B表，同时判断B表是否已有，如果有相同数据则更新，无相同则新增；\n场景实现描述：A表新增记录➡️判断满足自动化触发条件➡️满足就执行把内容写入（或更新）到B表",
+ "cause": "钉钉AI表格自动化设置实践，见附件",
+ "solution": "钉钉AI表格自动化设置实践，见附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "去重写入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "钉钉",
+ "product_series": "钉钉",
+ "version": "专业版",
+ "module": "AI表格",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2026-05-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOle43Z8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOle43Z8Zd1wyK0",
+  "doc_path": "/钉钉/应用操作/A表数据在自动写入B表时需要判断是否有 应用场景：自动化将A表数据写入B表，同时判断B表是否已有，如果有相同数据则更新，无相同则新增； 场景实现描述：A表新增记录➡️判断满足自动化触发条件➡️满...",
+  "record_id": "KOryEUbhXF"
+ },
+ "status": "active",
+ "doc_path": "/钉钉/应用操作/A表数据在自动写入B表时需要判断是否有 应用场景：自动化将A表数据写入B表，同时判断B表是否已有，如果有相同数据则更新，无相同则新增； 场景实现描述：A表新增记录➡️判断满足自动化触发条件➡️满...",
+ "category": [
+  "钉钉",
+  "应用操作"
+ ]
+}

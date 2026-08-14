@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251230-037",
+ "record_id": "GMFlCHVJba",
+ "title": "用户网络安全软件扫描到tomcat密码安全规则为弱，风险高",
+ "problem": "用户网络安全软件扫描到tomcat密码安全规则为弱，风险高",
+ "cause": "DHERP发版时设置了管理员初始密码",
+ "solution": "屏蔽Tomcat\\> conf\\>tomcat-users.xml文件中这段代码",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "弱密码"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2025-12-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62l62Zm86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62l62Zm86EDybno",
+  "doc_path": "/时空/安装部署问题/用户网络安全软件扫描到tomcat密码安全规则为弱，风险高",
+  "record_id": "GMFlCHVJba"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/用户网络安全软件扫描到tomcat密码安全规则为弱，风险高",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

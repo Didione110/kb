@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221130-055",
+ "record_id": "NSRoeqEv6N",
+ "title": "wms复核后打印的面单上需要加一些备注内容",
+ "problem": "wms复核后打印的面单上需要加一些备注内容",
+ "cause": "wms接收电商oms的标准面单模板里，不能设置自定义区",
+ "solution": "需要自己在各个平台去设置相关自定义区内容，然后在wms去设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "面单备注"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxma59xJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxma59xJGlDd3mE",
+  "doc_path": "/其他/实施问题/wms复核后打印的面单上需要加一些备注内容",
+  "record_id": "NSRoeqEv6N"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/wms复核后打印的面单上需要加一些备注内容",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

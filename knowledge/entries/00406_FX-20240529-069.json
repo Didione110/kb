@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240529-069",
+ "record_id": "9otNPwA7R9",
+ "title": "集团对账有对应凭证没有数据",
+ "problem": "集团对账有对应凭证没有数据",
+ "cause": "对账方向没有按照设置方向对账",
+ "solution": "在集团修改对账规则，设置双方对账设置，保证正向反向均可查询即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "对账异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-05-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gBzGnJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gBzGnJxAZB1Gv",
+  "doc_path": "/用友/应用操作/集团对账有对应凭证没有数据",
+  "record_id": "9otNPwA7R9"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/集团对账有对应凭证没有数据",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

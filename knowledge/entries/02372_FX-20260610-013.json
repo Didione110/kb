@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260610-013",
+ "record_id": "yQKsN7r2oz",
+ "title": "单据上的列表设置如何不显示，防止手动显示字段信息",
+ "problem": "单据上的列表设置如何不显示，防止手动显示字段信息",
+ "cause": "单据上的列表设置如何不显示，防止手动显示字段信息",
+ "solution": "在UI模板中修改，取消显示列表设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "列表隐藏"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-06-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yQKsN7r2oz"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

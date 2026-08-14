@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230220-028",
+ "record_id": "uqvy1Q4XCR",
+ "title": "T+业务结账时提示有未分配的委外入库单，直接材料取0做零成本分配审核提示有出库单已生成凭证",
+ "problem": "T+业务结账时提示有未分配的委外入库单，直接材料取0做零成本分配审核提示有出库单已生成凭证",
+ "cause": "查看单据是之前做了没审核没分配导致业务账无法结账",
+ "solution": "方法一：反账到单据所在月份，删除成本分配凭证与委外入库单凭证，检查审核未审核单据，重新做产成品成本分配后再生成凭证结账\n方法二：前面月份核算完毕报表已出，不想影响以前数据，使用语句将未分配已生成凭证的委外出库单修改为已分配的状态，剩余的委外出库大那选中做成本分配，直接材料取0，结账成功\n备份账套， 在账套库执行如下脚本UPDATE b SET b.CostAccountStatus = 51024 FROM ST_ RDRecord_ b b LEFT JOIN ST_ RDRecord s ON s.id = b.idRDRecordDTO WHERE s.code = 'WR- 2021-09-0051'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "委外结账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uqvy1Q4XCR"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221213-044",
+ "record_id": "Z644NgDEH0",
+ "title": "3103科目余额表金额翻倍，对账错误。",
+ "problem": "3103科目余额表金额翻倍，对账错误。",
+ "cause": "数据库存在24条记录，软件只有12条",
+ "solution": "查询科目余额表，对比软件筛选出多余的数据，备份余额表，删除多余的数据",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "科目翻倍"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z644NgDEH0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

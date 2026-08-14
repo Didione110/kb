@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240328-059",
+ "record_id": "p3Pc02Smay",
+ "title": "LRP计划取供应时，BOM中替代料的在途采购不纳入供应",
+ "problem": "LRP计划取供应时，BOM中替代料的在途采购不纳入供应",
+ "cause": "用友的需求规划文件里没有注明替代料不考虑在途供应，但是经过测试和热线和核实，在LRP计划中，替代料的采购订单不会纳入规划供应中，只有采购到货之后 才会取入供应",
+ "solution": "用友的需求规划文件里没有注明替代料不考虑在途供应，但是经过测试和热线和核实，在LRP计划中，替代料的采购订单不会纳入规划供应中，只有采购到货之后 才会取入供应",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "替代料供应"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "生产制造管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-03-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "p3Pc02Smay"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231206-020",
+ "record_id": "chMzJjyE3w",
+ "title": "自动记账Tomcat运行正常，定时任务及公共函数调用正常，但数据未正常记账",
+ "problem": "自动记账Tomcat运行正常，定时任务及公共函数调用正常，但数据未正常记账",
+ "cause": "tomcat配置文件问题",
+ "solution": "artery.properties文件中的host配置IP指向加入自动记账Tomcat的端口号",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "记账异常"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "chMzJjyE3w"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

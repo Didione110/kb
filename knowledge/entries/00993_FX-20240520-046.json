@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240520-046",
+ "record_id": "PMR1peQUwc",
+ "title": "报损报溢执行提取erp接口报溢明细保存后，移位报错“遇到以零作除数错误生成任务出错1语句已终止。”",
+ "problem": "报损报溢执行提取erp接口报溢明细保存后，移位报错“遇到以零作除数错误生成任务出错1语句已终止。”",
+ "cause": "报溢商品插入sphwph表中jlgg为0",
+ "solution": "在存储过程：zzsk\\_wms\\_auto\\_yichang中加入一段 ：\nif exists(select 1 from sphwph a ,spkfk b where a.spid=b.spid and a.jlgg\\<\\>b.jlgg)\nbegin \n update a set a.jlgg=b.jlgg from sphwph a ,spkfk b where a.spid=b.spid and a.jlgg\\<\\>b.jlgg\nend",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "零除错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-05-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1nb908BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1nb908BQEx5rG",
+  "doc_path": "/其他/应用操作/报损报溢执行提取erp接口报溢明细保存后，移位报错遇到以零作除数错误生成任务出错1语句已终止。",
+  "record_id": "PMR1peQUwc"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/报损报溢执行提取erp接口报溢明细保存后，移位报错遇到以零作除数错误生成任务出错1语句已终止。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

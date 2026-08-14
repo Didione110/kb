@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240407-043",
+ "record_id": "vjvHcB8x5O",
+ "title": "再写js判断两个金额的大小时，js会将一个2位小数变成多为小数，而前端界面是只保留两位小数的，操作用户看着两个金额一样但是就是报错金额不相等",
+ "problem": "再写js判断两个金额的大小时，js会将一个2位小数变成多为小数，而前端界面是只保留两位小数的，操作用户看着两个金额一样但是就是报错金额不相等",
+ "cause": "js脚本的自带函数的问题",
+ "solution": "if(ds_djhz.field(\"PayType\").value == 1){\n var sum=Math.round(ds_djhz.field(\"taxamount\").value* 100) / 100 + Math.round(ds_djhz.field(\"bjtaxamount\").value* 100) / 100;\n if(Math.round(jiesje * 100) / 100 < Math.round(sum* 100) / 100 ){\n //alert(jiesje+\" \"+sum);\n form.alert(\"回款认领金额小于单据金额，请检查！\");\n return false;\n }\n }\n\n将两个金额*100取整然后再/100就可以只保留两位小数了，同理比较其他多位小数调整计算倍数即可",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "精度丢失"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vjvHcB8x5O"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

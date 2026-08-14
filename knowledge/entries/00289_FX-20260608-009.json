@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260608-009",
+ "record_id": "6nDQyD4K27",
+ "title": "如何简化事项分录模板条件公式/摘要的公式配置，当条件公式中，常出现某个字段作为判断条件时；当摘要中，各场景下常出现某个字段作为摘要内容时\n事项分录模板行1：当费用项目为广告费/办公费用/职工福利费/保险费/通讯费/维修费等。\n事项分录模板行2：当费用项目不为广告费/办公费用/职工福利费/保险费/通讯费/维修费等。",
+ "problem": "如何简化事项分录模板条件公式/摘要的公式配置，当条件公式中，常出现某个字段作为判断条件时；当摘要中，各场景下常出现某个字段作为摘要内容时\n事项分录模板行1：当费用项目为广告费/办公费用/职工福利费/保险费/通讯费/维修费等。\n事项分录模板行2：当费用项目不为广告费/办公费用/职工福利费/保险费/通讯费/维修费等。",
+ "cause": "优化前： pk\\_busimemo.name==\"广告费\"\\|\\|pk\\_busimemo.name<span style=\"background-color: #FFC000;\">办公费用\"\\|\\|pk\\_busimemo.name</span>\"职工福利费\"\\|\\|pk\\_busimemo.name==\"保险费\"\\|\\|pk\\_busimemo.name==\"通讯费\"\\|\\|pk\\_busimemo.name==\"维修费\"共151字符。\n优化后： \\{a=pk\\_busimemo.name,a==\"广告费\"\\|\\|a==\"办公费用\"\\|\\|a==\"职工福利费\"\\|\\|a==\"保险费\"\\|\\|a==\"通讯费\"\\|\\|a==\"维修费\"\\}共82字符。",
+ "solution": "优化前： pk\\_busimemo.name==\"广告费\"\\|\\|pk\\_busimemo.name<span style=\"background-color: #FFC000;\">办公费用\"\\|\\|pk\\_busimemo.name</span>\"职工福利费\"\\|\\|pk\\_busimemo.name==\"保险费\"\\|\\|pk\\_busimemo.name==\"通讯费\"\\|\\|pk\\_busimemo.name==\"维修费\"共151字符。\n优化后： \\{a=pk\\_busimemo.name,a==\"广告费\"\\|\\|a==\"办公费用\"\\|\\|a==\"职工福利费\"\\|\\|a==\"保险费\"\\|\\|a==\"通讯费\"\\|\\|a==\"维修费\"\\}共82字符。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字段复用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-06-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMPaRwJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMPaRwJB5r9YAn",
+  "doc_path": "/用友/应用操作/如何简化事项分录模板条件公式 摘要的公式配置，当条件公式中，常出现某个字段作为判断条件时；当摘要中，各场景下常出现某个字段作为摘要内容时 事项分录模板行1：当费用项目为广告费 办公费用 职工福利...",
+  "record_id": "6nDQyD4K27"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/如何简化事项分录模板条件公式 摘要的公式配置，当条件公式中，常出现某个字段作为判断条件时；当摘要中，各场景下常出现某个字段作为摘要内容时 事项分录模板行1：当费用项目为广告费 办公费用 职工福利...",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

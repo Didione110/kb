@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250624-030",
+ "record_id": "pZqucfkEjT",
+ "title": "BIP高级版2312适配polarDB_O1.0或者PostgresQL-16，海葵项目数据库切换为PostgresQL-16",
+ "problem": "BIP高级版2312适配polarDB_O1.0或者PostgresQL-16，海葵项目数据库切换为PostgresQL-16",
+ "cause": "BIP高级版2312适配polarDB_O1.0或者PostgresQL-16，海葵项目数据库切换为PostgresQL-16",
+ "solution": "按照openPG适配手册及建库工具操作，在适配之前，需要先打入对应数据库驱动。",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "PostgreSQL",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "PostgreSQL适配"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-06-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pZqucfkEjT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

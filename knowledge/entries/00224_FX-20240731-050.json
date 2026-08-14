@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240731-050",
+ "record_id": "5Mak5GTdmK",
+ "title": "WMS里增加了器械UDI码功能",
+ "problem": "WMS里增加了器械UDI码功能",
+ "cause": "不知道WMS怎么操作UDI功能",
+ "solution": "增加时空WMS-UDI码的操作手册",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "UDI码"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbbyagJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbbyagJxEKBD6p",
+  "doc_path": "/其他/应用操作/WMS里增加了器械UDI码功能",
+  "record_id": "5Mak5GTdmK"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/WMS里增加了器械UDI码功能",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

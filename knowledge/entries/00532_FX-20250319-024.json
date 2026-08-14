@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250319-024",
+ "record_id": "DBhsOMi77g",
+ "title": "已结束流程，无法补充附件，或相关回复",
+ "problem": "已结束流程，无法补充附件，或相关回复",
+ "cause": "流程结束，震荡回复，未启用",
+ "solution": "管理员账号，\n单位/集团管理员-协同bpm平台-参数设置-允许协同流程结束后震荡回复:开启",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "流程结束"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2025-03-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DLEkgJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DLEkgJKMEvZBY",
+  "doc_path": "/致远OA/实施问题/已结束流程，无法补充附件，或相关回复",
+  "record_id": "DBhsOMi77g"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/实施问题/已结束流程，无法补充附件，或相关回复",
+ "category": [
+  "致远OA",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240125-036",
+ "record_id": "7aWt5RgtI6",
+ "title": "复核时因网络问题，导致复核台暂存位未释放，下一批任务无法分配到该暂存位",
+ "problem": "复核时因网络问题，导致复核台暂存位未释放，下一批任务无法分配到该暂存位",
+ "cause": "网络问题或死锁问题",
+ "solution": "新建存储过程，检查和更新暂存位，然后放入到WMS的传输精灵中，一个小时自动执行一次。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "网络暂存位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDLBnAW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDLBnAW6zbX04v",
+  "doc_path": "/其他/应用操作/复核时因网络问题，导致复核台暂存位未释放，下一批任务无法分配到该暂存位",
+  "record_id": "7aWt5RgtI6"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/复核时因网络问题，导致复核台暂存位未释放，下一批任务无法分配到该暂存位",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

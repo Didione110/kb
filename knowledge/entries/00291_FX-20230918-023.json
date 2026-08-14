@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230918-023",
+ "record_id": "6wDvVSAvt7",
+ "title": "银行借款申请和银行借款合同中贷款银行只能选择客商档案，无法选择对应的银行账户",
+ "problem": "银行借款申请和银行借款合同中贷款银行只能选择客商档案，无法选择对应的银行账户",
+ "cause": "增加银行账户未选择开户银行导致",
+ "solution": "银行账户档案新增选择开户银行，此字段系统默认未设置必填项，建议设置必填项",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "银行账户选择"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-09-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "6wDvVSAvt7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

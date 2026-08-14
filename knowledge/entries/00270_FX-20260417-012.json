@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260417-012",
+ "record_id": "6L0SXNDdx9",
+ "title": "首营客户部分不显示，资料状态没问题",
+ "problem": "首营客户部分不显示，资料状态没问题",
+ "cause": "后台执行语句报错：\"□”(十六进制值0x11)是无效的字符。行1.位置14723。排查是BusinessCode字段里藏了 0x11 不可见控制字符，SQL Server 2008 R2 不支持正则",
+ "solution": "刷数据或改语句：\n刷数据：\nUPDATE BusinessDoc \nSET BUSINESSCODE = \nreplace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\nreplace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\nreplace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\nBUSINESSCODE,\nchar(0),''),char(1),''),char(2),''),char(3),''),char(4),''),char(5),''),char(6),''),char(7),''),char(8),''),char(9),''),\nchar(10),''),char(11),''),char(12),''),char(13),''),char(14),''),char(15),''),char(16),''),char(17),''),char(18),''),char(19),''),\nchar(20),''),char(21),''),char(22),''),char(23),''),char(24),''),char(25),''),char(26),''),char(27),''),char(28),''),char(29),'')\n\nWHERE BUSINESSCODE LIKE '%'\\+char(17)\\+'%'\n\n改语句：\nreplace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\n replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\n replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(\n b0.BUSINESSCODE,\n char(0),''),char(1),''),char(2),''),char(3),''),char(4),''),char(5),''),char(6),''),char(7),''),char(8),''),char(9),''),\n char(10),''),char(11),''),char(12),''),char(13),''),char(14),''),char(15),''),char(16),''),char(17),''),char(18),''),char(19),''),\n char(20),''),char(21),''),char(22),''),char(23),''),char(24),''),char(25),''),char(26),''),char(27),''),char(28),''),char(29),'')\n as BUSINESSCODE",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "首营客户"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-04-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMAMdjJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMAMdjJB5r9YAn",
+  "doc_path": "/时空/数据错误问题/首营客户部分不显示，资料状态没问题",
+  "record_id": "6L0SXNDdx9"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/首营客户部分不显示，资料状态没问题",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240821-044",
+ "record_id": "KpTpOUek6m",
+ "title": "10分钟不操作系统自动下线，需要更改参数，时间变长。",
+ "problem": "10分钟不操作系统自动下线，需要更改参数，时间变长。",
+ "cause": "参数设置问题",
+ "solution": "设置详情见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "IIS",
+  "WebLogic"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "自动下线"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KpTpOUek6m"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

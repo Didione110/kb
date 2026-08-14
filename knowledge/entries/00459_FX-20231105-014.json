@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231105-014",
+ "record_id": "BOAg6AkWZ5",
+ "title": "提示内容，未找到对应代码",
+ "problem": "提示内容，未找到对应代码",
+ "cause": "提示内容，未找到对应代码",
+ "solution": "select \\* from LangTranslate where upper(TranslateObject) =upper('PTaxAmountError')\nselect \\* from LangTranslate where TranslateResult like '%超%'\n可以在数据库中找到对应中文以提示对照内容",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "未找到代码"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-11-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41q9XKJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41q9XKJA7depqY",
+  "doc_path": "/时空/应用操作/提示内容，未找到对应代码",
+  "record_id": "BOAg6AkWZ5"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/提示内容，未找到对应代码",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

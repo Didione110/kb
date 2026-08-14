@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260202-001",
+ "record_id": "hfGLMdWOTJ",
+ "title": "由开发给出的存储过程后，如何进行UBF报表部署及发布？",
+ "problem": "由开发给出的存储过程后，如何进行UBF报表部署及发布？",
+ "cause": "由开发给出的存储过程后，如何进行UBF报表部署发布？",
+ "solution": "详见视频教程：https://pan.baidu.com/s/1gwzMjdtl5ILX945xTK2MUg?pwd=m9t6 提取码：m9t6",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "UBF报表部署"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2026-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hfGLMdWOTJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

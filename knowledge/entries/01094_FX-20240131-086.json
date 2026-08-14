@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240131-086",
+ "record_id": "SGmqjREEUy",
+ "title": "物料清单，保存、提交、审核、弃审都是灰色了，无法修改。 审核参数是：审核后可改",
+ "problem": "物料清单，保存、提交、审核、弃审都是灰色了，无法修改。 审核参数是：审核后可改",
+ "cause": "系统功能理解不对",
+ "solution": "现场料品勾选了ECN控制，启用ECN控制的料品，只能通过工程变更单进行修改BOM.",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "审核锁定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SGmqjREEUy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-013",
+ "record_id": "hDkVS9tXPP",
+ "title": "客户要求在结算列表查询显示对方账号和名称",
+ "problem": "客户要求在结算列表查询显示对方账号和名称",
+ "cause": "需要更改查询模板",
+ "solution": "更改模板把对方账号名称放出来",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "对方账号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hDkVS9tXPP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230403-004",
+ "record_id": "3rCoUptrFX",
+ "title": "凭证打印问题，T+凭证打印完成后，右下角有畅捷通公司名称，客户不想显示",
+ "problem": "凭证打印问题，T+凭证打印完成后，右下角有畅捷通公司名称，客户不想显示",
+ "cause": "打印显示不符合客户要求",
+ "solution": "用管理员登录系统管理，在打印辅助设置里，取消是否打印附加信息的勾，即可；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "凭证水印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3rCoUptrFX"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

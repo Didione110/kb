@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240731-048",
+ "record_id": "JovPWHShcw",
+ "title": "固定资产卡片采用系统自带的项目管理档案卡片项目，修改了固定资产折旧计提模板，但是生成折旧的费用科目还是带不出来卡片上的项目档案",
+ "problem": "固定资产卡片采用系统自带的项目管理档案卡片项目，修改了固定资产折旧计提模板，但是生成折旧的费用科目还是带不出来卡片上的项目档案",
+ "cause": "凭证模板上项目档案辅助需要采用自定义公式",
+ "solution": "设置凭证项目档案辅助自定义公式：改用如下 getcolvalue(bd_jobmngfil,pk_jobbasfil,pk_jobmngfil,#fk_jobmngfil0#)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "项目档案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "JovPWHShcw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

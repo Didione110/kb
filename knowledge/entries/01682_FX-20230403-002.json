@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230403-002",
+ "record_id": "hkFT4MJcwO",
+ "title": "批量编辑UFO公式",
+ "problem": "批量编辑UFO公式",
+ "cause": "客户提出自定义报表难度不大，工作量有些大时，可以使用批量编辑的方式处理",
+ "solution": "在格式状态下，在数据下的公式列表里把公式先粘出来，再到txt里的批量替换或修改好，再粘进公式列表里，执行即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "UFO公式编辑"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hkFT4MJcwO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

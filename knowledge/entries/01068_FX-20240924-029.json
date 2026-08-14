@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240924-029",
+ "record_id": "RexaiPXK7n",
+ "title": "升级后启动服务提示数据库表服务器不一致",
+ "problem": "升级后启动服务提示数据库表服务器不一致",
+ "cause": "原来是A68.0版本，迁移后部署时只能安装8.0SP2版本，前台显示升级成功但是数据库未升级，原因是数据库没有从8.0升级到8.0SP2",
+ "solution": "先强行提升原服务器配置，在原服务器上升级后将数据库备份过来，在新服务器上部署最新版本程序，还原数据库后再启动服务正常",
+ "solution_types": [
+  "环境设置",
+  "重启服务",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据库不一致"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A6",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5Ax1omJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5Ax1omJ5daZ90D",
+  "doc_path": "/致远OA/安装部署问题/升级后启动服务提示数据库表服务器不一致",
+  "record_id": "RexaiPXK7n"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/安装部署问题/升级后启动服务提示数据库表服务器不一致",
+ "category": [
+  "致远OA",
+  "安装部署问题"
+ ]
+}

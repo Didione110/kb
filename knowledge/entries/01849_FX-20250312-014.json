@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250312-014",
+ "record_id": "m917X1LqIX",
+ "title": "C端订单同一个人下多个订单，发了多个快递。浪费物流费用",
+ "problem": "C端订单同一个人下多个订单，发了多个快递。浪费物流费用",
+ "cause": "未设置订单自动合并策略",
+ "solution": "增加自动合并策略，配置策略对应的店铺，自动合并条件除了默认的一般建议勾选上同网名、同仓库、同物流。设置好自动合并策略后同时开启自动合并策略开关。这样系统检测到符合条件的订单后会执行自动合并。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "多单多发"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-03-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "m917X1LqIX"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

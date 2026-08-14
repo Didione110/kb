@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240530-073",
+ "record_id": "XJ8rSxXsjN",
+ "title": "很多客户端客户增加常用抵消分录的时候 点进去选不到报表项目是为什么？报表项目是一片空白 表样和列表都看不到项目",
+ "problem": "很多客户端客户增加常用抵消分录的时候 点进去选不到报表项目是为什么？报表项目是一片空白 表样和列表都看不到项目",
+ "cause": "因为该用户该公司没有分配表样权限",
+ "solution": "选择报表对应财务角色增加报表表样权限",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "报表项目为空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XJ8rSxXsjN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

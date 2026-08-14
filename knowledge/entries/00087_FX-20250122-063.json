@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250122-063",
+ "record_id": "1zaq6W3QRE",
+ "title": "日志打印级别",
+ "problem": "日志打印级别",
+ "cause": "日志打印级别",
+ "solution": "NLog允许的日志级别由高到低依次是：\n\nFatal\nError\nWarn\nInfo\nDebug\nTrace\nOff",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志级别"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDY0g3W6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDY0g3W6zbX04v",
+  "doc_path": "/自研/应用操作/日志打印级别",
+  "record_id": "1zaq6W3QRE"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/日志打印级别",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

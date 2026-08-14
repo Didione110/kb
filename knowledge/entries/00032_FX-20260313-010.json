@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260313-010",
+ "record_id": "0nIvzCwcnd",
+ "title": "V12生僻字可显示，不可打印（例：®）",
+ "problem": "V12生僻字可显示，不可打印（例：®）",
+ "cause": "打印模板，对应单元格属性，Font-Charset改为default\\_CHARSET",
+ "solution": "打印模板，对应单元格属性，Font-Charset改为default\\_CHARSET",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "生僻字打印"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-03-13"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1m1Bo8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1m1Bo8BQEx5rG",
+  "doc_path": "/时空/产品功能问题/V12生僻字可显示，不可打印（例：®）",
+  "record_id": "0nIvzCwcnd"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/V12生僻字可显示，不可打印（例：®）",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

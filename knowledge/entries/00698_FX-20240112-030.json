@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240112-030",
+ "record_id": "HsQz4mHyyB",
+ "title": "小票刷卡提取冷库任务明明提示有任务待索取，刷卡时弹窗提示提取单据时出错，复核明明完成了，单据还挂起（之前做的拣货复核任务保存不了，新拣货任务索取不到）",
+ "problem": "小票刷卡提取冷库任务明明提示有任务待索取，刷卡时弹窗提示提取单据时出错，复核明明完成了，单据还挂起（之前做的拣货复核任务保存不了，新拣货任务索取不到）",
+ "cause": "检查库房内复核表单复核完成保存提示单据中存在未拣明细，所以提取不到新任务单据",
+ "solution": "首先检查复核单据是否复核完成，小票刷卡，单个任务需要刷两次，分别代表拣货开始和拣货完成，刷卡时候可以看刷卡提示，每次必须将任务刷完",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "单据挂起"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施4部",
+  "date": "2024-01-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4D03XrJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4D03XrJKMEvZBY",
+  "doc_path": "/其他/应用操作/小票刷卡提取冷库任务明明提示有任务待索取，刷卡时弹窗提示提取单据时出错，复核明明完成了，单据还挂起",
+  "record_id": "HsQz4mHyyB"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/小票刷卡提取冷库任务明明提示有任务待索取，刷卡时弹窗提示提取单据时出错，复核明明完成了，单据还挂起",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

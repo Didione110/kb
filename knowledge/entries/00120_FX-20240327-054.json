@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240327-054",
+ "record_id": "2f4Z97MGVM",
+ "title": "客户要求出具现金流量附表需求 凭证附表项目没填可以保存提示",
+ "problem": "客户要求出具现金流量附表需求 凭证附表项目没填可以保存提示",
+ "cause": "没修改系统参数 设置附表科目",
+ "solution": "修改系统参数保存凭证检查主附表 并设置现金附表科目",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "现金流量附表"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2f4Z97MGVM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

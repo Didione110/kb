@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231231-078",
+ "record_id": "xQz0Y1Qnel",
+ "title": "为满足客户挂靠业务员费用计算，V12客开业务员与商品关系维护",
+ "problem": "为满足客户挂靠业务员费用计算，V12客开业务员与商品关系维护",
+ "cause": "系统暂时没有可支持的功能维护界面，需单独开发",
+ "solution": "结合供应商与商品关系维护表单，新客开业务员与商品关系维护表单，支持商品维护业务员，也支持业务员维护商品",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "业务员挂靠"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2023-12-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xQz0Y1Qnel"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

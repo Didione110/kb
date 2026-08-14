@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241129-066",
+ "record_id": "O3DgfGNwJ2",
+ "title": "有仓库需要录入商品批号的小号，用于追溯，防串货",
+ "problem": "有仓库需要录入商品批号的小号，用于追溯，防串货",
+ "cause": "可以WMS系统启用追溯码功能，用于录入小号",
+ "solution": "部署及调试内容见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "批号追溯"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-11-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb6EmrVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb6EmrVzlwrZgb",
+  "doc_path": "/其他/安装部署问题/有仓库需要录入商品批号的小号，用于追溯，防串货",
+  "record_id": "O3DgfGNwJ2"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/有仓库需要录入商品批号的小号，用于追溯，防串货",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

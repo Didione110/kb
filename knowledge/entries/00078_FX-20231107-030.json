@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231107-030",
+ "record_id": "1npAvAverL",
+ "title": "郑州wms客户端要求较新的.net环境,部分较老的win7系统可能会安装报错",
+ "problem": "郑州wms客户端要求较新的.net环境,部分较老的win7系统可能会安装报错",
+ "cause": "原因是早期win7缺少关键补丁",
+ "solution": "若无法进行更新系统可在安装手动KB2813430,KB3063858两个安全补丁后安装.net4.8",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  ".NET环境"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1wyX5WdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1wyX5WdqbropQ",
+  "doc_path": "/其他/安装部署问题/郑州wms客户端要求较新的.net环境,部分较老的win7系统可能会安装报错",
+  "record_id": "1npAvAverL"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/郑州wms客户端要求较新的.net环境,部分较老的win7系统可能会安装报错",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

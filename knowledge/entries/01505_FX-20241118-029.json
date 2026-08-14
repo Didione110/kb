@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241118-029",
+ "record_id": "dAmaj3ZGbl",
+ "title": "DHERP-WMS分两个企业，销售出库复核记录缺失",
+ "problem": "DHERP-WMS分两个企业，销售出库复核记录缺失",
+ "cause": "没有存储关键表gspoutmt dt 表中",
+ "solution": "取WMS 三张表的数据进行汇总\nselect * \nfrom WmsCompMt a \n join WmsCompDt b on a.billno = b.billno and a.entid =b.entid \n join wmsoutdt c on b.rfbillno =c.billno and b.rfbillsn =c.billsn and b.entid =c.entid \n join wmsoutmt d on c.billno =d.billno and c.entid =d.entid \n left join wmsunpackdt cc on c.billno = cc.rfbillno and c.billsn =cc.rfbillsn and c.entid =cc.entd\n left join wmsunpackmt dd on cc.billno =dd.billno and cc.entid =dd.entid\n left join staffdoc p on d.fhyid =p.staffid and d.entid =p.entid \n上述表对应是订单表wmsoutmt dt，整件和零散的业务表\n\n复核人员取不同表中数据\ncase when nvl(d.fhyid,' ') =' ' then m.staffname \nelse p.staffname end as Acceptname,",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "复核缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-11-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dAmaj3ZGbl"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

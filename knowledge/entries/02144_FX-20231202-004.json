@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231202-004",
+ "record_id": "sqWqYUQSFR",
+ "title": "医保明细审核3101，3102后，有问题的地方，之前默认是 继续执行下去3103。不能体现出拦截的效果",
+ "problem": "医保明细审核3101，3102后，有问题的地方，之前默认是 继续执行下去3103。不能体现出拦截的效果",
+ "cause": "医保明细审核3101，3102后，有问题的地方，之前默认是 继续执行下去3103。不能体现出拦截的效果",
+ "solution": "增加配置项明细审核是否强制拦截，勾选的话，审核出问题的强制拦截不能进行下一步；\n没勾选的，就执行3103，按原定商品销售。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "拦截失效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-12-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeX1QYJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeX1QYJ2LD0oRE",
+  "doc_path": "/自研/应用操作/医保明细审核3101，3102后，有问题的地方，之前默认是继续执行下去3103。不能体现出拦截的效果",
+  "record_id": "sqWqYUQSFR"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/医保明细审核3101，3102后，有问题的地方，之前默认是继续执行下去3103。不能体现出拦截的效果",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

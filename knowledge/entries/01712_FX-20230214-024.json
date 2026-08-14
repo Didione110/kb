@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230214-024",
+ "record_id": "iOlhHqQ0L5",
+ "title": "调用销售出货单创建报“只能录入订货客户对应的收货位置”",
+ "problem": "调用销售出货单创建报“只能录入订货客户对应的收货位置”",
+ "cause": "传入客户地址编码错误",
+ "solution": "传入正确数据即可成功",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "收货位置"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-02-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iOlhHqQ0L5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

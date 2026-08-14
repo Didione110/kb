@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231107-036",
+ "record_id": "e80F6vVe21",
+ "title": "安装服务器端环境监测不通过：.NET4.8安装后提示需重启才能完成安装，重启后并没有继续自动安装，环境检测还是提示不通过",
+ "problem": "安装服务器端环境监测不通过：.NET4.8安装后提示需重启才能完成安装，重启后并没有继续自动安装，环境检测还是提示不通过",
+ "cause": "Windows update未启用，启用提示拒绝访问",
+ "solution": "进入注册表，找到HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\wuauserv。\n右键点击wuauserv-权限-高级-更改，将所有者由SYSTEMG改为Administrator，然后确定，回到everyone页面，勾选完全控制后确定，再次启用Windows update",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  ".NET4.8 重启失效"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "e80F6vVe21"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

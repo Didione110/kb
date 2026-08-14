@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240201-007",
+ "record_id": "nGU93DCE3D",
+ "title": "DHERP更新模块，无报错，但是更新后，新功能及设置项都未生效",
+ "problem": "DHERP更新模块，无报错，但是更新后，新功能及设置项都未生效",
+ "cause": "原始模块比较早，更新模块时，实际后台报错已截断",
+ "solution": "执行以下脚本再更新模块\n\nalter table formdoc add lastmodifytime char(19)\n\nalter table formdoc add updater nvarchar(80)\nALTER TABLE ProcList ADD SortNum int NULL DEFAULT 0;\n\nDELETE FROM TbStru WHERE upper(TbName) = 'PROCLIST' AND upper(FdName) = 'SORTNUM';\nINSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('ProcList', 11, 'SortNum', '序号', 'Y', '0', '', 'N');\n\n ALTER TABLE Funclist ADD Updater nvarchar(80) NULL DEFAULT '';\n\nDELETE FROM TbStru WHERE upper(TbName) = 'FUNCLIST' AND upper(FdName) = 'UPDATER';\nINSERT INTO TbStru (TbName, SortNum, FdName, FdDesc, Is_Null, DefaultValue, Explains, IsDevFld) \n VALUES ('Funclist', 19, 'Updater', '更新人', 'Y', '', '', 'N');\n\n再次更新时RM导入成功后，再次更新供应链能够看到进度提示",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "更新未生效"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nGU93DCE3D"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221108-025",
+ "record_id": "W2Wscsg502",
+ "title": "需要按照单据上的付款方式在打印模板上显示“√”",
+ "problem": "需要按照单据上的付款方式在打印模板上显示“√”",
+ "cause": "单据打印模板及客户合同模板需要",
+ "solution": "打印手册中未提及，处理办法 新增文本框，在文本框中写IIF函数，用法与普通if函数一致，IIF(付款方式=“分期支付”,“√”，“ ”) 用此方法会对填写方式有要求，只能按照打印模板中设定好的字段去填",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "付款方式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2022-11-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "W2Wscsg502"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

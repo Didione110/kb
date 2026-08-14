@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221013-001",
+ "record_id": "L9C6ewioeo",
+ "title": "销售开票时个别品种出现无法拦截负库存",
+ "problem": "销售开票时个别品种出现无法拦截负库存",
+ "cause": "商品资料包装表pgprice中，计量规格meas值为0，跳过库存效验",
+ "solution": "将商品资料包装表pgprice中meas的值改成1",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "负库存拦截"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李维",
+  "department": "实施7部",
+  "date": "2022-10-13"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gbvveJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gbvveJxAZB1Gv",
+  "doc_path": "/时空/实施问题/销售开票时个别品种出现无法拦截负库存",
+  "record_id": "L9C6ewioeo"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/销售开票时个别品种出现无法拦截负库存",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

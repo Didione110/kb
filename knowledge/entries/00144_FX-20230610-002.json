@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230610-002",
+ "record_id": "3SwhXZr0XP",
+ "title": "ORA-01653:表RACE.K_YINHAI_MESSAGE无法通过128(在表空间RACE_DATA中)扩展",
+ "problem": "ORA-01653:表RACE.K_YINHAI_MESSAGE无法通过128(在表空间RACE_DATA中)扩展",
+ "cause": "ORACLE数据库单文件最大限制32G，需要增加物理文件",
+ "solution": "--查询表空间存储路径\nSELECT \\* FROM dba\\_data\\_files t WHERE t.tablespace\\_name='RACE\\_DATA'; \n--增加下一个文件\nalter tablespace RACE\\_DATA add datafile 'D:\\\\app\\\\race2.dbf' size 512M autoextend on\n\n备注：不一定非要报错再增加文件，预估客户使用规模提前增加文件保障系统运行正常",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "空间不足"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2023-06-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn16ya1WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn16ya1WrMqPxX6",
+  "doc_path": "/时空/软件无法使用/ORA-01653 表RACE.K_YINHAI_MESSAGE无法通过128(在表空间RACE_DATA中(扩展",
+  "record_id": "3SwhXZr0XP"
+ },
+ "status": "active",
+ "doc_path": "/时空/软件无法使用/ORA-01653 表RACE.K_YINHAI_MESSAGE无法通过128(在表空间RACE_DATA中(扩展",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

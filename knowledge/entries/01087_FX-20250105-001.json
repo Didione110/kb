@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250105-001",
+ "record_id": "SBgwqGv5mr",
+ "title": "票据取消质押后就不能撤销了",
+ "problem": "票据取消质押后就不能撤销了",
+ "cause": "票据取消质押后就不能撤销了",
+ "solution": "需要执行以下语句才可以还原开立状态的票据\n--删除单据TOGL表\ndelete from NM_NMToGL_Trl where ID=(select ID from NM_NMToGL where DocID=(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17))\ndelete from NM_NMToGL where DocID=(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17)\n--删除行为核算信息\ndelete from NM_RecNoteAudit_Trl where ID=(select ID from NM_RecNoteAudit where RecNoteDeal=(select ID from NM_RecNoteDeal where id =(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17)))\ndelete from NM_RecNoteAudit where RecNoteDeal=(select ID from NM_RecNoteDeal where id =(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17))\n--删除行为信息\ndelete from NM_RecNoteDeal_Trl where id =(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17)\ndelete from NM_RecNoteDeal where id =(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=17)\n--更新票据余额\nupdate NM_RecNoteMain set Status=12,NoteBalanceFC=0,NoteBalanceMoney=0,LastNoteAction=(select ID from NM_RecNoteDeal where RecNoteMain=(select ID from NM_RecNoteMain where docno='HHW-NM-250101003') and BusinessType=11) where DocNo='HHW-NM-250101003'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "不可撤销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2025-01-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SBgwqGv5mr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

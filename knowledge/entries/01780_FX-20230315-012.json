@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230315-012",
+ "record_id": "kJYNg8mBPH",
+ "title": "请购单上设置审批流，审批人是角色包含多人，点击审核后，单据的状态没有变化",
+ "problem": "请购单上设置审批流，审批人是角色包含多人，点击审核后，单据的状态没有变化",
+ "cause": "审批流中设置的是需要所有人审核，单据才算完成",
+ "solution": "审批人是角色包含多人时需要所有人都审核完成后，单据状态才会改变，修改审批流中的审批节点，将抢占模式由会签改成抢占，之后的单子可以就一人审核即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "审批流失效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-03-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kJYNg8mBPH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

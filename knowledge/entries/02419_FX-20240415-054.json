@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240415-054",
+ "record_id": "zjdBHF134r",
+ "title": "友互通同步的新用户第一次登陆提示http  503",
+ "problem": "友互通同步的新用户第一次登陆提示http 503",
+ "cause": "环境问题，按一下连接内容排查",
+ "solution": "https://success.yonyou.com:443/M/url/?U=qctzhs",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx",
+  "SSL"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "503错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zjdBHF134r"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260424-015",
+ "record_id": "7D6CunJ55C",
+ "title": "（V11）新需求：含麻与重点监管品种可同单，不可与其它品种混开",
+ "problem": "（V11）新需求：含麻与重点监管品种可同单，不可与其它品种混开",
+ "cause": "（V11）新需求：含麻与重点监管品种可同单，不可与其它品种混开",
+ "solution": "商品后事件增加代码：\nif(grid1.currentRow \\>=2 && !Utility.isSpace(ds\\_ddmx.field(\"goodsid\").value))\\{\n // 取当前行的 含麻标识、重点监管标识\n var currIsEphe = ds\\_ddmx.getValueAt(grid1.currentRow - 1,\"IsEphe\"); // 含麻\n var currIszdjg = ds\\_ddmx.getValueAt(grid1.currentRow - 1,\"k\\_iszdjg\"); // 重点监管\n // 取第上行的 含麻、重点监管\n var lastIsEphe = ds\\_ddmx.getValueAt(grid1.currentRow - 2,\"IsEphe\");\n var lastIszdjg = ds\\_ddmx.getValueAt(grid1.currentRow - 2,\"k\\_iszdjg\");\n // 定义：特殊品 = 含麻 或 重点监管\n var currIsSpecial = (currIsEphe == \"Y\" \\|\\| currIszdjg == \"Y\");\n var lastIsSpecial = (lastIsEphe == \"Y\" \\|\\| lastIszdjg == \"Y\");\n // ============== 核心规则 ==============\n if (currIsSpecial != lastIsSpecial) \\{\n alert(\"含麻与重点监管品种可同单，不可与其它品种混开！\");\n ds\\_ddmx.deleteRow(); // 删除错误行\n \\}\n\\}\n\n实现效果（已验证）：\n通过：\n• 全普通品\n• 全含麻\n• 全重点监管\n• 含麻 \\+ 重点监管\n\n拦截：\n• 普通品 \\+ 含麻\n• 普通品 \\+ 重点监管\n• 普通品 \\+ 含麻 \\+ 重点监管",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "含麻混开"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-04-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3ZM4RWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3ZM4RWn4qY5Pr",
+  "doc_path": "/时空/产品功能问题/（V11）新需求：含麻与重点监管品种可同单，不可与其它品种混开",
+  "record_id": "7D6CunJ55C"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/（V11）新需求：含麻与重点监管品种可同单，不可与其它品种混开",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

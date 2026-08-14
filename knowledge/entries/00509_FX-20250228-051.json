@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250228-051",
+ "record_id": "CcwJ63P4Nt",
+ "title": "做期初出货单时提示,料品为 序列号管理，库存主单位数量0.50，必须为整数，原因是在原系统出库1个，做了部分开票，U9C只需要录入未开票的数据，但是现在未开票的数据提示报错",
+ "problem": "做期初出货单时提示,料品为 序列号管理，库存主单位数量0.50，必须为整数，原因是在原系统出库1个，做了部分开票，U9C只需要录入未开票的数据，但是现在未开票的数据提示报错",
+ "cause": "做期初出货单时提示,料品 为 序列号管理，库存主单位数量0.50，必须为整数，原因是在原系统出库1个，做了部分开票，U9C只需要录入未开票的数据，但是现在未开票的数据提示报错",
+ "solution": "期初出货无库存异动，建议使用无序列号管理的仓库进行出货，则不会校验序列号管理，数量必须为整数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "序列号校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CcwJ63P4Nt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

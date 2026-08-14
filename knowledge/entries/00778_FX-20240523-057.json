@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240523-057",
+ "record_id": "JrH4OxO9Sj",
+ "title": "商品规格字段过长，税务局要求规格字段不能超过40个字节长度，电子税务局开票页面可以按字节自动截取。",
+ "problem": "商品规格字段过长，税务局要求规格字段不能超过40个字节长度，电子税务局开票页面可以按字节自动截取。",
+ "cause": "诺诺接口已经发版更新，规格字段前端页面自动截取40个字节。老客户可以使用以下方法，数据库层面处理。",
+ "solution": "在sql取规格时候直接截取\nselect cast(substring(cast(goodsspec as varbinary) ,1,40) as varchar(100))",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "规格、字节、截取"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-05-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51nrnv8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51nrnv8zN67Mw4",
+  "doc_path": "/其他/实施问题/商品规格字段过长，税务局要求规格字段不能超过40个字节长度，电子税务局开票页面可以按字节自动截取。",
+  "record_id": "JrH4OxO9Sj"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/商品规格字段过长，税务局要求规格字段不能超过40个字节长度，电子税务局开票页面可以按字节自动截取。",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

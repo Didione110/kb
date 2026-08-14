@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231128-097",
+ "record_id": "1bymOjRrII",
+ "title": "客户在查询科目辅助余额表时查询条件时全部，查询数据为空，但是根据具体的会计科目和辅助核算查询时数据又可以查询到。",
+ "problem": "客户在查询科目辅助余额表时查询条件时全部，查询数据为空，但是根据具体的会计科目和辅助核算查询时数据又可以查询到。",
+ "cause": "U8C功能性问题，需要打补丁。",
+ "solution": "提供patch\\_v3.6科目辅助余额表空指针异常合并补丁包(包含勾选所有币种)。",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "辅助余额查询"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP3lleaJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP3lleaJakx1Z5N",
+  "doc_path": "/用友/软件补丁问题/客户在查询科目辅助余额表时查询条件时全部，查询数据为空，但是根据具体的会计科目和辅助核算查询时数据又可以查询到。",
+  "record_id": "1bymOjRrII"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件补丁问题/客户在查询科目辅助余额表时查询条件时全部，查询数据为空，但是根据具体的会计科目和辅助核算查询时数据又可以查询到。",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

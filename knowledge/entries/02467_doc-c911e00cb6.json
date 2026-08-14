@@ -1,0 +1,30 @@
+{
+ "id": "doc-c911e00cb6",
+ "record_id": "",
+ "title": "调整前台logo为客户logo系统后台仍显示蓝凌logo",
+ "problem": "调整前台logo为客户logo系统后台仍显示蓝凌logo",
+ "cause": "未调整后台logo图片",
+ "solution": "可在【运维管理】-【管理员工具箱】-【常用工具集】-【后台logo设置】中调整",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoXaBdlKWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoXaBdlKWkb4Mw9r",
+  "doc_path": "/蓝凌OA/产品功能问题/调整前台logo为客户logo系统后台仍显示蓝凌logo"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/调整前台logo为客户logo系统后台仍显示蓝凌logo",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "FX-20231031-047",
+ "record_id": "k9JE9L5Xuc",
+ "title": "存货核算生成凭证时带不出对应的辅助核算",
+ "problem": "存货核算生成凭证时带不出对应的辅助核算",
+ "cause": "凭证模板辅助核算的表头、表体值选择错误",
+ "solution": "如表头有对应字段，先选表头中的，表头没有选择表体的。另外如果客商辅助核算选择不到，可以选择客商基本标识，一样可以实现效果",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "k9JE9L5Xuc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250331-057",
+ "record_id": "DZa20sHBhk",
+ "title": "成本检查提示未配置交易分录",
+ "problem": "成本检查提示未配置交易分录",
+ "cause": "制造费用科目未设置预设科目",
+ "solution": "需要借贷都设置 借方是部门 贷方是费用部门",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "交易分录"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DZa20sHBhk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

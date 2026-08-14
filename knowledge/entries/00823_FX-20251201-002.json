@@ -1,0 +1,34 @@
+{
+ "id": "FX-20251201-002",
+ "record_id": "LEgPZ4iOee",
+ "title": "业务单元之前配置的本位币是人民币，现在如何调整为美元？核算账簿新增美元的账簿类型时主账簿本位币必须业务单元的本位币一致；另外一个账簿类型只允许新增该币种的核算账簿吗？有没有办法一个账簿类型支持多个币种？业务单元修改本位币后，核算账簿能不能直接同步修改账簿类型呢？",
+ "problem": "业务单元之前配置的本位币是人民币，现在如何调整为美元？核算账簿新增美元的账簿类型时主账簿本位币必须业务单元的本位币一致；另外一个账簿类型只允许新增该币种的核算账簿吗？有没有办法一个账簿类型支持多个币种？业务单元修改本位币后，核算账簿能不能直接同步修改账簿类型呢？",
+ "cause": "本位币调整，新增外币账簿类型；需要调整核算账簿的账簿类型",
+ "solution": "如附件；注意备份；",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "本位币调整"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-12-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LEgPZ4iOee"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

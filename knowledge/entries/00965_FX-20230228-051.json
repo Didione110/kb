@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230228-051",
+ "record_id": "ObSf5DB0Wd",
+ "title": "通用看板使用vue-json-excel组件导出表格打开报文件和扩展名不匹配问题",
+ "problem": "通用看板使用vue-json-excel组件导出表格打开报文件和扩展名不匹配问题",
+ "cause": "vue-json-excel使用html表格绘制.xls文件，Microsoft Excel不再将HTML作为原生内容，因此打开报错",
+ "solution": "使用file-saver xlsx组件实现导出excel",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "vue-json-excel"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-02-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMNM70JB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMNM70JB5r9YAn",
+  "doc_path": "/自研/产品功能问题/通用看板使用vue-json-excel组件导出表格打开报文件和扩展名不匹配问题",
+  "record_id": "ObSf5DB0Wd"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/通用看板使用vue-json-excel组件导出表格打开报文件和扩展名不匹配问题",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

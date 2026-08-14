@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251126-034",
+ "record_id": "XstJPUQTDl",
+ "title": "生产领料日期晚于成品入库最晚日期，如何处理？",
+ "problem": "生产领料日期晚于成品入库最晚日期，如何处理？",
+ "cause": "生产领料日期晚于成品入库最晚日期，如何处理？",
+ "solution": "往期版本齐套检查只检查数量，不校验日期，更新补丁后（U9CE.MO.1002510090000072.pack），生产管理-参数设置【备料启用期间】可以控制，完工（完工日期）时会按照期间校验领料（确认日期）是否有足够的领料量。",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "日期倒置"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XstJPUQTDl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241029-038",
+ "record_id": "gJAFynBtAD",
+ "title": "报表门户空间模板丢失，一直在转圈圈或提示未正确同步base目录",
+ "problem": "报表门户空间模板丢失，一直在转圈圈或提示未正确同步base目录",
+ "cause": "进行了服务升级或者迁移没有迁移base目录\n服务器中毒base目录下模板文件丢失\n从低版本升级文件目录映射有变化导致文件无法正常加载",
+ "solution": "服务迁移和升级一般有备份文件将之前的base/resources/capBizPortal下的文件拷贝到新服务器部署位置即可,无需重启\n中毒等文件丢失文件找不回来了,这种情况需要将有问题的栏目空间重新配置,有问题的报表模板重新选择才能解决,因为在重新配置的过程中系统会重新下载这个模板文件\n如果是7.1版本升级到8.0以上版本,7.1空间模板位置在:base/upload/2007/01/01/capBizPortal下,升级需要将base/upload/2007/01/01/capBizPortal文件拷贝到base/resource/capBizPortal下。迁移之后还是不行\n提供修复方案：\n\n备份 cap_portal_good_snapshot\nMySQL、Oracle备份：create table cap_portal_good_snapshot_bak as select * from cap_portal_good_snapshot\nSql Server: select * into cap_portal_good_snapshot_bak from cap_portal_good_snapshot\n\ndelete from cap_portal_good_snapshot where GOODS_ID = 'pc.bns' or GOODS_ID = 'mobile.bns'\n\n在浏览器输入地址：http://ip地址:端口/seeyon/rest/cap4/bizportal/-1/restore/default\n\n去默认空间界面 此时正常打开，如果默认空间显示空白，可恢复默认并保存下；",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "模板丢失"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "门户空间",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gJAFynBtAD"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

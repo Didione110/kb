@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231011-009",
+ "record_id": "dxgMJqCmaY",
+ "title": "做1月凭证时报错，提示“分配期间小于科目的启用期间”",
+ "problem": "做1月凭证时报错，提示“分配期间小于科目的启用期间”",
+ "cause": "科目启用时间不正确，需要修改",
+ "solution": "select * from gl_detail where yearv='2023' and pk_glorgbook = '0001F8100000000026FK' and pk_accsubj='0001F810000000003HD0'\nselect pk_glorgbook,glorgbookcode,pk_glorg, * from bd_glorgbook where glorgbookcode ='12-2020JYT'\nselect pk_accsubj,beginyear,beginperiod,* from bd_accsubj where pk_glorgbook = '0001F8100000000026FK' and subjcode = '1801'\nupdate bd_accsubj set beginperiod='01' where pk_glorgbook = '0001F8100000000026FK' and subjcode = '1801'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "分配期间"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-10-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dxgMJqCmaY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

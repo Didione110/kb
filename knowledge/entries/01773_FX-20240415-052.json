@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240415-052",
+ "record_id": "k9xbANEHFA",
+ "title": "智友使用Oracle数据库部署时，有时需要垮数据源对数据进行处理，较为麻烦",
+ "problem": "智友使用Oracle数据库部署时，有时需要垮数据源对数据进行处理，较为麻烦",
+ "cause": "如果同为SQL server数据库，一般的方式是采用链接服务器解决，如果是SQL server链接oracle，则需要安装Oracle驱动解决，目前的问题是Oracle链接SQL server，有两种办法可以实现",
+ "solution": "方法1，针对Oracle官方使用透明网关产品进行解决\n方法2，在智友的数据源链接里配置对应的SQL server数据库连接串，然后在表单内需要调用的时候，切换数据源，案例参考方法如下\n\n var datasource = form.datasource;//获取当前连接；\n try{\n var params = {};\n params.entid = form.userinfo.entid;\n params.userid = form.userinfo.userid;\n form.setDataSource(\"KSOA\");//“KSOA”是创建配置时候起的连接别名\n \n //ds_bill.open(\"sql_test\", \"sql\", params); //测试\n //DBUtil.update(\"sql_test\",params);\n }\n finally{\n form.setDataSource(datasource);//返回当前连接\n }",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "跨数据源"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "k9xbANEHFA"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

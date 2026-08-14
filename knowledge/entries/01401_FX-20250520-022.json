@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250520-022",
+ "record_id": "aMEKDtsfhV",
+ "title": "WIN10及以上系统下Edge V10/V11添加兼容性视图方法",
+ "problem": "WIN10及以上系统下Edge V10/V11添加兼容性视图方法",
+ "cause": "WIN10及以上系统下Edge V10/V11添加兼容性视图方法",
+ "solution": "​​方法 1：使用 Edge 的 IE 模式（推荐）​​\nEdge 的 ​​IE 模式​​ 可以让网页在 Edge 内部以 ​​IE 渲染引擎​​ 运行，适用于需要 ActiveX 或旧版 IE 特性的网站。\n\n​​步骤：​​\n​​打开 Edge 浏览器​​，访问需要兼容的网站（如 http://localhost 或内网地址）。\n点击右上角的 ​​⋮（三点菜单）​​ → ​​“更多工具”​​ → ​​“在 IE 模式下重新加载”​​（如果该选项可用）。\n​​如果看不到该选项​​，继续下一步手动添加。\n​​手动添加 IE 模式网站​​：\n点击 ​​⋮（三点菜单）​​ → ​​“设置”​​ → ​​“默认浏览器”​​ → ​​“允许在 Internet Explorer 模式下重新加载站点”​​。\n点击 ​​“添加”​​，输入需要兼容的网站地址（如 http://localhost 或 http://192.168.x.x）。\n点击 ​​“添加”​​ 完成。\n刷新页面，Edge 会自动以 ​​IE 模式​​ 加载该网站",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Edge"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Edge兼容视图"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2025-05-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aMEKDtsfhV"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

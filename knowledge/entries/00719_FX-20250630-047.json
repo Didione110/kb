@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250630-047",
+ "record_id": "IRnx53LsSr",
+ "title": "外购的物料需要返厂维修的操作流程",
+ "problem": "外购的物料需要返厂维修的操作流程",
+ "cause": "外购的物料需要返厂维修的操作流程",
+ "solution": "在外协采购单上勾选【返工订单】即可领用产品本身，在进行委外加工入库",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "返厂维修"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IRnx53LsSr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

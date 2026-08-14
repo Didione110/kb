@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221125-048",
+ "record_id": "N4nZcVIt9E",
+ "title": "分配权限的时候给了客户自定义查询--查询引擎节点，但是点进去节点里面是空的，没有数据",
+ "problem": "分配权限的时候给了客户自定义查询--查询引擎节点，但是点进去节点里面是空的，没有数据",
+ "cause": "无",
+ "solution": "还需要在查询引擎权限控制中做分配",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "查询引擎空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N4nZcVIt9E"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "FX-20230811-026",
+ "record_id": "tXIpZQKs1D",
+ "title": "费用申请中有5条明细，费用申请审批完成；费用报销只核销了3条，剩余2条明细，领导要求后续不再报销付款，用户问后续怎么处理",
+ "problem": "费用申请中有5条明细，费用申请审批完成；费用报销只核销了3条，剩余2条明细，领导要求后续不再报销付款，用户问后续怎么处理",
+ "cause": "人员离职，剩余的费用申请，公司后续不予报销",
+ "solution": "1、按单据号点开单据详情，如操作1所示点击“关闭申请”即可（打开报销单，选择关联事项申请，确认无此单号）\n2、用户后续如需再次报销关闭的申请单，按操作2点击“打开申请”即可；",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "未核销明细"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2023-08-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tXIpZQKs1D"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

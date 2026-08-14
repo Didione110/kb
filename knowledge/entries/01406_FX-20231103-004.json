@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231103-004",
+ "record_id": "aUWnKS4rQ1",
+ "title": "客户想查看每个项目的利润表。目前U8C的报表预置的查询功能是不支持该表的显示，需要画一张新的报表进行取值。",
+ "problem": "客户想查看每个项目的利润表。目前U8C的报表预置的查询功能是不支持该表的显示，需要画一张新的报表进行取值。",
+ "cause": "需要了解每个项目的收支情况。",
+ "solution": "1、收支科目都需要挂项目辅助核算，该客户的项目辅助核算为自定义档案，该文档以自定义档案设置查询条件的报表。\n2、设置查询引擎\n3、画表样后进行取值公式的填写。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "利润表"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-11-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aUWnKS4rQ1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

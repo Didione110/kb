@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-021",
+ "record_id": "zIPEWPFRJ0",
+ "title": "相同商品合并，且相同商品不能价格不合并",
+ "problem": "相同商品合并，且相同商品不能价格不合并",
+ "cause": "诺诺接口只能勾选设置相同商品合并",
+ "solution": "视图语句商品编号字段取值商品变+价格字段即可，需要注意字段超长问题",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "商品合并"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zIPEWPFRJ0"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231225-061",
+ "record_id": "qEtVhxwuIZ",
+ "title": "WMS前置调度功能或ERP提取WMS回传数据较慢",
+ "problem": "WMS前置调度功能或ERP提取WMS回传数据较慢",
+ "cause": "接口表数据较大",
+ "solution": "现有接口表生成对应的历史表，建立转历史任务",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "调度延迟"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qEtVhxwuIZ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

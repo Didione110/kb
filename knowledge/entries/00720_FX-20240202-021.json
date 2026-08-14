@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240202-021",
+ "record_id": "IVw0BoQMom",
+ "title": "标准API无幂等功能，响应不及时会生成重复单据",
+ "problem": "标准API无幂等功能，响应不及时会生成重复单据",
+ "cause": "第三方调用API频率过高，3秒没响应会认定超时并重试",
+ "solution": "增加中间表记录uniqueKey，并保存响应成功和失败报文，第三方请求时先校验是否有成功报文并且u8c表中是否存在正常状态的单据，存在就返回成功报文否则就刷新中间表的uniqueKey",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "幂等缺失"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IVw0BoQMom"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

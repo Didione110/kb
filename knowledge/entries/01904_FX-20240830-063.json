@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240830-063",
+ "record_id": "nHX0qZKWmT",
+ "title": "报销单设置了自定义字段研发项目核算需要带入要凭证科目辅助上，并在特征分配给了报销单表体，但是设置辅助核算项关联，字段关联选不出来",
+ "problem": "报销单设置了自定义字段研发项目核算需要带入要凭证科目辅助上，并在特征分配给了报销单表体，但是设置辅助核算项关联，字段关联选不出来",
+ "cause": "特征没有分配给单据",
+ "solution": "需要将特征分配给事项分录表体",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "报账服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nHX0qZKWmT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

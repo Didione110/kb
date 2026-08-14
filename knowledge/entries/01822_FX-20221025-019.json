@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221025-019",
+ "record_id": "lIpqC6E3sy",
+ "title": "B2C单据复核后没有打印面单和清单",
+ "problem": "B2C单据复核后没有打印面单和清单",
+ "cause": "开启一键打印的时候，平台打印组件未启动，导致连接失败，打印无效",
+ "solution": "打印组件全部用系统开启启动来运行，一键打印手动开启，这样就避免这种问题",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "面单未打"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-10-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lIpqC6E3sy"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

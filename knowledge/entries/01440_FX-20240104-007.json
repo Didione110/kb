@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240104-007",
+ "record_id": "bPUlXRfE1q",
+ "title": "前台促销，在没有输入会员卡时候可以正常触发促销方案，但是输入会员卡后就无法触发促销活动",
+ "problem": "前台促销，在没有输入会员卡时候可以正常触发促销方案，但是输入会员卡后就无法触发促销活动",
+ "cause": "原因是系统设置问题，系统有个开关《会员价是否参与促销》，设置程Y后就是输入会员卡后仍然可以继续触发其他活动，反之就无法参与",
+ "solution": "与客户说情况，根据客户需求修改对应开关属性",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "会员卡触发"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bPUlXRfE1q"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

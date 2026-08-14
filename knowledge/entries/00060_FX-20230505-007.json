@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230505-007",
+ "record_id": "1LgClGkTYj",
+ "title": "T3结账提示提示违反了PRIMARY KEY约束aaaaaprint PK'. 不能在对象'dbo.printEx'中插\n建立年度账提示无法删除，正在被使用",
+ "problem": "T3结账提示提示违反了PRIMARY KEY约束aaaaaprint PK'. 不能在对象'dbo.printEx'中插\n建立年度账提示无法删除，正在被使用",
+ "cause": "备份数据，去上年度执行， delete from PrintEx where nTableNum='10' and cTableName='clsEvaluateVouchers' 再去建立年度账就不会报错了",
+ "solution": "备份数据，去上年度执行， delete from PrintEx where nTableNum='10' and cTableName='clsEvaluateVouchers' 再去建立年度账就不会报错了",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "主键冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1LgClGkTYj"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

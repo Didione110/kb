@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241231-042",
+ "record_id": "Kbwjnbl9Id",
+ "title": "部分门店存在省直结算，头开始医保结算只做了非省直结算，缺少省直结算",
+ "problem": "部分门店存在省直结算，头开始医保结算只做了非省直结算，缺少省直结算",
+ "cause": "省直结算和非省直结算需要单独提价",
+ "solution": "省直结算和非省直结算需要单独增加界面按钮，调整结算传输参数",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "省直结算"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-12-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pq02l8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pq02l8gN7R35y",
+  "doc_path": "/时空/产品功能问题/部分门店存在省直结算，头开始医保结算只做了非省直结算，缺少省直结算",
+  "record_id": "Kbwjnbl9Id"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/部分门店存在省直结算，头开始医保结算只做了非省直结算，缺少省直结算",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

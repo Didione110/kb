@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251130-049",
+ "record_id": "W0O2dH53Up",
+ "title": "分公司将产品生产好之后标准出货协同抛单回集团的委外收货时报错",
+ "problem": "分公司将产品生产好之后标准出货协同抛单回集团的委外收货时报错",
+ "cause": "集团组织的委外收货中的单据类型“自动生成批号”没有取消勾选",
+ "solution": "将集团组织的委外收货中的单据类型“自动生成批号”取消勾选即可或者创建一个新的单据类型，不勾选“自动生成批号”即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "委外收货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "W0O2dH53Up"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251121-027",
+ "record_id": "uHqthOibqM",
+ "title": "通用报销单中结算信息新增不了员工，不能替他人报销",
+ "problem": "通用报销单中结算信息新增不了员工，不能替他人报销",
+ "cause": "无权限",
+ "solution": "设置委托代理，只能选择代理本公司的",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "不能替他人报销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-11-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uHqthOibqM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

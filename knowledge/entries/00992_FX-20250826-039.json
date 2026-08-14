@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250826-039",
+ "record_id": "PLzaY1Fkee",
+ "title": "需要设置一个数据权限，销售订单上：如果价目表为空时，必须上传附件才能提交。",
+ "problem": "需要设置一个数据权限，销售订单上：如果价目表为空时，必须上传附件才能提交。",
+ "cause": "价格必须受控。",
+ "solution": "设置数据权限： 实体：销售订单： 动态视图类型：增删改： 视图条件：not ( GetCurrentActionName () == '提交' and (NewSO.PriceListCode == null or NewSO.PriceListCode=='') and GetAttachmentCount ('UFIDA.U9.SM.SO.SO', SO.ID) <= 0 ) 放在修改视图下。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "价目表附件"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-08-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PLzaY1Fkee"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

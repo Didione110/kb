@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250324-029",
+ "record_id": "jKyfZ3he8z",
+ "title": "销售转请购业务，销售订单上的公共段，自动生成采购收货单上的批号（以下以销售订单的公共段销售合同号为例）",
+ "problem": "销售转请购业务，销售订单上的公共段，自动生成采购收货单上的批号（以下以销售订单的公共段销售合同号为例）",
+ "cause": "销售转请购业务，销售订单上的公共段，自动生成采购收货单上的批号（以下以销售订单的公共段销售合同号为例）",
+ "solution": "销售转请购业务，销售订单上的公共段，自动生成采购收货单上的批号（以下以销售订单的公共段销售合同号为例）",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "销售合同号"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-03-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jKyfZ3he8z"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

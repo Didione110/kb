@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221203-017",
+ "record_id": "qXnTEam2ep",
+ "title": "打开余额表提示数据库日志已满",
+ "problem": "打开余额表提示数据库日志已满",
+ "cause": "环境问题",
+ "solution": "以为是U8日志满了，进后台清理；未解决；\n实际为对应磁盘满导致：这种提示一般是磁盘空间不足，系统盘c和u8数据所在盘符，要预留足够的空间（需要升级数据的2.5倍以上），清理后正常；",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志已满"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qXnTEam2ep"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

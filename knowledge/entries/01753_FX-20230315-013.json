@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230315-013",
+ "record_id": "jbJWvdH2ex",
+ "title": "每天登录系统打开单据节点都是空白的，重启服务就好了（Oracle11）",
+ "problem": "每天登录系统打开单据节点都是空白的，重启服务就好了（Oracle11）",
+ "cause": "数据库游标未调整",
+ "solution": "设置数据库最大游标数量：\nSQL>alter system set open_cursors=2000 scope=both;\nSQL> alter system set processes = 3000 scope = spfile; #修改连接数\n重启服务",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "单据空白"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-03-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jbJWvdH2ex"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

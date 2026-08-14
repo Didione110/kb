@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240731-056",
+ "record_id": "XLqpJEDLDQ",
+ "title": "收货重复，导致库存重复",
+ "problem": "收货重复，导致库存重复",
+ "cause": "两个人登录同一工号，对同一单据进行了操作。",
+ "solution": "收货时，加入拦截，已完成数量不能大于订单数量。验收也是同样原理。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "收货重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56e9yv8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56e9yv8xLq0Ee4",
+  "doc_path": "/其他/应用操作/收货重复，导致库存重复",
+  "record_id": "XLqpJEDLDQ"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/收货重复，导致库存重复",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

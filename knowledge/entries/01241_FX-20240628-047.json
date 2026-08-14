@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240628-047",
+ "record_id": "WgsY1KGSeg",
+ "title": "客户导入固定资产卡片后想要修改固定资产卡片资产编码。点击修改后，资产编码是灰色的无法修改",
+ "problem": "客户导入固定资产卡片后想要修改固定资产卡片资产编码。点击修改后，资产编码是灰色的无法修改",
+ "cause": "资产卡片资产编码是自动生成的，采用资产类别加流水号，所以手工是无法修改的",
+ "solution": "修改财务会计-固定资产参数-资产编码产生方式改成手工录入后就可以修改了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "资产编码不可修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-06-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WgsY1KGSeg"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

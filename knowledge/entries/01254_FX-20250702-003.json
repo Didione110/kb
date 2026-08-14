@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250702-003",
+ "record_id": "WzTGWccY4t",
+ "title": "使用dherp来处理xml文件内容信息",
+ "problem": "使用dherp来处理xml文件内容信息",
+ "cause": "dherp自带无上传文件的控件处理内容，客开函数来实现",
+ "solution": "function uf_scancode() {\n textbox1.setValue(\"\");\n var fileInput = document.createElement('input');\n fileInput.type = 'file';\n fileInput.style.display = 'none';\n fileInput.accept = '.xml';\n document.body.appendChild(fileInput);\n fileInput.addEventListener('change', function() {\n if (this.files && this.files[0]) {\n var file = this.files[0];\n var isXml = file.name.toLowerCase().endsWith('.xml');\n if (isXml) {\n var reader = new FileReader();\n reader.onload = async function(e) {\n var fileContent = e.target.result; \n var jsonObj = xmlToJson(fileContent);\n var jsonString = JSON.stringify(jsonObj, null, 2);\n await uf_load_xmlmx(jsonString)\n// console.log('JSON结果:', jsonString);\n };\n reader.readAsText(file); // 读取为文本，也可改用 readAsBinaryString 等\n textbox1.setValue(file.name); // 只显示文件名，更友好\n } else {\n form.alert(\"请选择XML格式的文件！\");\n textbox1.setValue(\"\");\n }\n }\n document.body.removeChild(fileInput);\n });\n \n fileInput.click();\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "dherp XML 处理"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WzTGWccY4t"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

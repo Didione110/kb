@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241106-018",
+ "record_id": "aHTYTQhXG0",
+ "title": "在推送U8C凭证时,经核查借方贷方金额无误但是接口会返回\n错误:凭证内部错误号:[10001]凭证借贷金额不平!",
+ "problem": "在推送U8C凭证时,经核查借方贷方金额无误但是接口会返回\n错误:凭证内部错误号:[10001]凭证借贷金额不平!",
+ "cause": "按照U8C api文档若借方金额,贷方金额存在小数位建议使用字符类型,如果是用的是数字类型则有几率出现该问题",
+ "solution": "调整借方贷方金额字段为字符类型即可正常推送",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "借贷不平"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2024-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aHTYTQhXG0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

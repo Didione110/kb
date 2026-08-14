@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250806-009",
+ "record_id": "DRErB5zmmf",
+ "title": "按批次和入库数量自定义唯一码（数量为10，唯一码为angleid1,angleid2....angleid10）",
+ "problem": "按批次和入库数量自定义唯一码（数量为10，唯一码为angleid1,angleid2....angleid10）",
+ "cause": "按批次和入库数量自定义唯一码（数量为10，唯一码为angleid1,angleid2....angleid10）",
+ "solution": "WITH numbers AS (\n SELECT top 500 ROW\\_NUMBER() OVER (ORDER BY (SELECT NULL)) AS n\n FROM sys.all\\_columns c1\n CROSS JOIN sys.all\\_columns c2 \n)\nSELECT \n b.angleid\\+ CAST(aa.n AS VARCHAR(10)) AS result\nFROM purindt a\nJOIN batchcode b \n ON a.angleid = b.angleid \n AND a.entid = b.entid\nJOIN numbers aa\n ON aa.n \\<= a.num \nWHERE a.num \\> 0 \nORDER BY a.angleid, a.entid, aa.n;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "唯一码批次"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2025-08-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAnDzOV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAnDzOV1DK0g6l",
+  "doc_path": "/时空/应用操作/按批次和入库数量自定义唯一码（数量为10，唯一码为angleid1,angleid2....angleid10）",
+  "record_id": "DRErB5zmmf"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/按批次和入库数量自定义唯一码（数量为10，唯一码为angleid1,angleid2....angleid10）",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

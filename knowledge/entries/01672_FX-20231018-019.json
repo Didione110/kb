@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231018-019",
+ "record_id": "hXZeEmAgub",
+ "title": "多张采购订单生成一张到货单，希望采购订单表头的交付地址（不同）分别带入到收货单明细",
+ "problem": "多张采购订单生成一张到货单，希望采购订单表头的交付地址（不同）分别带入到收货单明细",
+ "cause": "多张采购订单生成一张到货单，希望采购订单表头的交付地址（不同）分别带入到收货单明细",
+ "solution": "1.设置单据体自定义项7为交付地址，数据来源默认保持手工输入\n2.采购订单格式设置，表体栏目，显示表体自定义项7，高级属性设置公式定义[表头:表头自定义项11]（仅对新增订单生效）\n3.到货单格式设置，表体栏目，显示表体自定义项7\n参照后续新增的采购订单生成的到货单可实现效果",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "交付地址"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hXZeEmAgub"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

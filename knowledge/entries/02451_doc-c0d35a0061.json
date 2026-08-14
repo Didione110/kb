@@ -1,0 +1,30 @@
+{
+ "id": "doc-c0d35a0061",
+ "record_id": "",
+ "title": "需要判断文本框只能输入一个名字",
+ "problem": "需要判断文本框只能输入一个名字",
+ "cause": "不能同时代发起多人，负责不方便核算",
+ "solution": "项目可以参照如下代码进行修改，但是同时也有边界如输入\"张三李四\"是有效的，如输入\"张三、李四\"则是无效的",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0a31yMJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0a31yMJxAZB1Gv",
+  "doc_path": "/蓝凌OA/应用操作/需要判断文本框只能输入一个名字"
+ },
+ "doc_path": "/蓝凌OA/应用操作/需要判断文本框只能输入一个名字",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

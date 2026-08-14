@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251009-009",
+ "record_id": "OQ0YQJSHdW",
+ "title": "销售出库单中销售开票数量回写错误",
+ "problem": "销售出库单中销售开票数量回写错误",
+ "cause": "异常",
+ "solution": "开票过程中异常，删除发票后，出库单上数据异常，实际此行出库数量为45000，未开票，现在显示为累计开票主数量-45000，可开票数量90000，导致无法正常重新开票\n后台语句修改后正常\nupdate ic_saleout_e set nsignnum = 0 where dr = 0 and cgeneralbid in (select cgeneralbid from ic_saleout_b\nwhere dr = 0 and cgeneralhid in (select cgeneralhid from ic_saleout_h where dr = 0 and vbillcode = 'soo202508260195'));\ncommit;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "开票数量"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OQ0YQJSHdW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

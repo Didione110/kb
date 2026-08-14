@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230224-044",
+ "record_id": "nh853BhvtQ",
+ "title": "7，REMARK(备注) / MARK INFO:(唛头信息)中的信息打印显示有空行，在软件界面看不到空行",
+ "problem": "7，REMARK(备注) / MARK INFO:(唛头信息)中的信息打印显示有空行，在软件界面看不到空行",
+ "cause": "估计客户是从EXCEL中复制过来的",
+ "solution": "将文件复制到记事本中，可看到确实有空行，删除后再复制到软件中保存，打印显示正确。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "空行显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nh853BhvtQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

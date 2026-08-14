@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221205-030",
+ "record_id": "WLn9AW5dnz",
+ "title": "人福销售退回确认单无法下发至京东接口",
+ "problem": "人福销售退回确认单无法下发至京东接口",
+ "cause": "在销售确认明细行中有存在调价库存的数据，换票单的数据会存在调价库，在退回后再发起入库提取销售订单会产生库房在调价库中，所以导致无法下发数据",
+ "solution": "手动插入商品明细，选择对应的库房批号，如果没有批号可以做商品出装",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "销售退回"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2022-12-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WLn9AW5dnz"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

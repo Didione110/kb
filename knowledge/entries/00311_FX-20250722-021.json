@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250722-021",
+ "record_id": "7TMIPj6O13",
+ "title": "下载系统内导出的批量数据时任务执行了，找不到下载入口",
+ "problem": "下载系统内导出的批量数据时任务执行了，找不到下载入口",
+ "cause": "当需要导出系统内的订单数据或者商品资料数据时，根据使用的浏览器不同，导出时获得导出文件的方式会有差异，有些浏览器会直接下载到本地，有些不会。",
+ "solution": "当导出文件没有直接下载到本地时，就可以在其他任务功能的列表中操作下载导出文件。",
+ "solution_types": [],
+ "tech_stack": [
+  "IE",
+  "Chrome",
+  "360浏览器"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "下载入口"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-07-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYeRAXPV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYeRAXPV1waOeDk",
+  "doc_path": "/其他/应用操作/下载系统内导出的批量数据时任务执行了，找不到下载入口",
+  "record_id": "7TMIPj6O13"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/下载系统内导出的批量数据时任务执行了，找不到下载入口",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

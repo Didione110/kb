@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250603-003",
+ "record_id": "3X9sfpI2Kz",
+ "title": "存货档案查询条件添加存货自定项。",
+ "problem": "存货档案查询条件添加存货自定项。",
+ "cause": "存货档案查询条件界面，查询方案-管理方案，增加条件，新增；标题和名称自拟，编辑类型：参照，参照id：Userdefine2_AA，比较符：包含，数据源：Inventory.cInvDefine2，是否常用条件勾选，参照返回字段：名称或编码。注意：Userdefine2_AA，Inventory.cInvDefine2为存货自定义项2，其他存货自定义项修改相应数字即可。",
+ "solution": "存货档案查询条件界面，查询方案-管理方案，增加条件，新增；标题和名称自拟，编辑类型：参照，参照id：Userdefine2_AA，比较符：包含，数据源：Inventory.cInvDefine2，是否常用条件勾选，参照返回字段：名称或编码。注意：Userdefine2_AA，Inventory.cInvDefine2为存货自定义项2，其他存货自定义项修改相应数字即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "存货自定义"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3X9sfpI2Kz"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

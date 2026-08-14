@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241007-002",
+ "record_id": "PXMcSwmNAm",
+ "title": "时空软件可以正常登陆，但是开发工具登陆报错：请确认您已经正常登录请检查Web服务是否可用",
+ "problem": "时空软件可以正常登陆，但是开发工具登陆报错：请确认您已经正常登录请检查Web服务是否可用",
+ "cause": "替换了新的安全补丁包后由于没有重启tomcat导致",
+ "solution": "1.将tomcat重启；\n2.将新的安全补丁重命名，改成替换之前的名字；",
+ "solution_types": [
+  "补丁更新",
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "登录异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-10-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PXMcSwmNAm"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

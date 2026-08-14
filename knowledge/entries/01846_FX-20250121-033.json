@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250121-033",
+ "record_id": "m62bx0z9Fc",
+ "title": "微信小程序跳转页面，导航栏选中页面需要点击两次才能跳转正常",
+ "problem": "微信小程序跳转页面，导航栏选中页面需要点击两次才能跳转正常",
+ "cause": "底部导航栏页面索引未设置",
+ "solution": "需要在各页面onshow中添加this.getTabBar().setData()",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "导航栏跳转"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56R1ZM8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56R1ZM8xLq0Ee4",
+  "doc_path": "/自研/产品功能问题/微信小程序跳转页面，导航栏选中页面需要点击两次才能跳转正常",
+  "record_id": "m62bx0z9Fc"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/微信小程序跳转页面，导航栏选中页面需要点击两次才能跳转正常",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

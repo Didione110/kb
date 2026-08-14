@@ -1,0 +1,49 @@
+{
+ "id": "FX-20231221-053",
+ "record_id": "1V91n6oNkr",
+ "title": "搭建开发测试环境",
+ "problem": "搭建开发测试环境",
+ "cause": "https://doc.chanapp.chanjet.com/\n通过上方连接进入低代码开发平台手册指引\n先成为开发者（注册之后认证科情企业）\n然后依据手册建立企业应用，保留token，上传账套搭建沙箱，即可开始开发流程",
+ "solution": "https://doc.chanapp.chanjet.com/\n通过上方连接进入低代码开发平台手册指引\n先成为开发者（注册之后认证科情企业）\n然后依据手册建立企业应用，保留token，上传账套搭建沙箱，即可开始开发流程",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "开发环境"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlBwLX8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlBwLX8Zd1wyK0",
+  "doc_path": "/其他/安装部署问题/搭建开发测试环境",
+  "record_id": "1V91n6oNkr"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/搭建开发测试环境",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

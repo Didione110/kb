@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240702-006",
+ "record_id": "2W5sfFx5Yi",
+ "title": "客户电脑上不能使用system.drawing 组件，无法保存图片",
+ "problem": "客户电脑上不能使用system.drawing 组件，无法保存图片",
+ "cause": "客户电脑上环境问题",
+ "solution": "也不另外安装组件了，修改程序使用file类型来保存和读取图片",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "System.Drawing"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2W5sfFx5Yi"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

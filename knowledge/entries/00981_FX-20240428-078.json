@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240428-078",
+ "record_id": "Oxy74oGJu7",
+ "title": "手机端M3待办数量与PC端不一致",
+ "problem": "手机端M3待办数量与PC端不一致",
+ "cause": "主要是PC端默认的个人空间调替换，M3移动端的个人空间没有对应替换导致待办分类不一致，待办数量显示的不一致",
+ "solution": "目前，M3移动端个人空间不支持自定义新增空间，如果需要调整，就只能默认的移动端个人空间调整；\n保持系统默认的M3个人空间与PC端新替换的空间栏目一致即可",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "待办数量不一致"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-04-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymK3g08xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymK3g08xkXOEP2",
+  "doc_path": "/致远OA/产品功能问题/手机端M3待办数量与PC端不一致",
+  "record_id": "Oxy74oGJu7"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/手机端M3待办数量与PC端不一致",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

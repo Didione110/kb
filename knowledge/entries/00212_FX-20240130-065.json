@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240130-065",
+ "record_id": "53goERnvpJ",
+ "title": "重启电脑后无法登录，需要重启服务才可以登录",
+ "problem": "重启电脑后无法登录，需要重启服务才可以登录",
+ "cause": "设置了快速启动导致T\\+服务运行异常",
+ "solution": "到控制面板-电源选项-选择电源按钮的功能-点击“更改当前不可用的设置”，将【启动快速启动】取消勾选",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "登录异常"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/NZQYprEoWo0nBOROCBYe1ZoaV1waOeDk?utm_scene=team_space",
+  "node_id": "NZQYprEoWo0nBOROCBYe1ZoaV1waOeDk",
+  "doc_path": "/其他/软件无法使用/重启电脑后无法登录，需要重启服务才可以登录",
+  "record_id": "53goERnvpJ"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/重启电脑后无法登录，需要重启服务才可以登录",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

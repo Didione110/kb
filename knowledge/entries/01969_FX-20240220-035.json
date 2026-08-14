@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240220-035",
+ "record_id": "oXn9k2Xwl8",
+ "title": "输出客户部门明细账提示：外部数据库驱动程序（1）中的意外错误\n",
+ "problem": "输出客户部门明细账提示：外部数据库驱动程序（1）中的意外错误",
+ "cause": "无",
+ "solution": "安装\\U8SOFT\\3rdPrograms\\AccessDatabaseEngine.exe问题，程序输出选择2007-2010",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "外部数据库"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oXn9k2Xwl8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250303-001",
+ "record_id": "cd6t3A3gMR",
+ "title": "需要判断文本框只能输入一个名字",
+ "problem": "需要判断文本框只能输入一个名字",
+ "cause": "不能同时代发起多人，负责不方便核算",
+ "solution": "项目可以参照如下代码进行修改，但是同时也有边界如输入\"张三李四\"是有效的，如输入\"张三、李四\"则是无效的\n<script>\n//监听文本框变化\nAttachXFormValueChangeEventById(\"fd_3d8203385c1b7a\",changeGrade);\n\nfunction isValidName(name) {\n // 如果输入为空，直接返回false\n if (!name || name.trim() === \"\") return false;\n const nameRegex =/^[\\u4e00-\\u9fa5A-Za-z'-]+$/;\n\n return nameRegex.test(name.trim());\n}\n\n// 事件处理函数\nfunction changeGrade() {\n try {\n // 获取指定ID的文本框值\n const nameInput = GetXFormFieldValueById(\"fd_3d8203385c1b7a\")[0];\n\n // 检查是否为有效名字\n if (isValidName(nameInput)) {\n SetXFormFieldValueById(\"fd_3dd9fefb2c5d80\", \"有效\");\n } else {\n SetXFormFieldValueById(\"fd_3dd9fefb2c5d80\", \"无效\");\n }\n } \n}\n\n</script>",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "单名输入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-03-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cd6t3A3gMR"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

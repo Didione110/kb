@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230214-026",
+ "record_id": "5yDVC2W22v",
+ "title": "软件突然无法登录，提示错误号7",
+ "problem": "软件突然无法登录，提示错误号7",
+ "cause": "win10 操作系统于2023年1月份的安全更新（KB5022282），导致无法登录",
+ "solution": "卸载安全更新，关闭电脑的自动更新服务，重启电脑",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2023-02-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDB30lW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDB30lW6zbX04v",
+  "doc_path": "/时空/环境问题/软件突然无法登录，提示错误号7",
+  "record_id": "5yDVC2W22v"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/软件突然无法登录，提示错误号7",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

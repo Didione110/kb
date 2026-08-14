@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250730-051",
+ "record_id": "S1Fd0WCTXJ",
+ "title": "分享DHERP版本的扫UDI表单，界面可通过表单代码 var useUDI = true; //使用udi扫码 选择是否启用UDI扫码，压缩包 包含采购入库验收、销售出库复核表单以及需更新的函数",
+ "problem": "分享DHERP版本的扫UDI表单，界面可通过表单代码 var useUDI = true; //使用udi扫码 选择是否启用UDI扫码，压缩包 包含采购入库验收、销售出库复核表单以及需更新的函数",
+ "cause": "无",
+ "solution": "界面如图",
+ "solution_types": [],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "UDI扫码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "S1Fd0WCTXJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

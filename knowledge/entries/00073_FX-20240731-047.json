@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240731-047",
+ "record_id": "1eMZV9667w",
+ "title": "会计主体固定资产不能启动是灰色的",
+ "problem": "会计主体固定资产不能启动是灰色的",
+ "cause": "固定资产账簿分类没有选择",
+ "solution": "在会计主体点修改 先设置固定资产账簿分类 再启用固定资产",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "固定资产"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjYDyn8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjYDyn8AgozOKL",
+  "doc_path": "/用友/产品功能问题/会计主体固定资产不能启动是灰色的",
+  "record_id": "1eMZV9667w"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/会计主体固定资产不能启动是灰色的",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

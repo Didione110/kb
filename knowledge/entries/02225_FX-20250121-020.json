@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250121-020",
+ "record_id": "usJiJLVA0s",
+ "title": "如何进行批量审批操作  快速通过、快速驳回。",
+ "problem": "如何进行批量审批操作 快速通过、快速驳回。",
+ "cause": "需要手动进行节点设置",
+ "solution": "在高级中勾选快速通过、快速驳回即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "批量审批"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "usJiJLVA0s"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

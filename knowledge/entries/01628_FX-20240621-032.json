@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240621-032",
+ "record_id": "gXyie4jCP4",
+ "title": "组织架构调整，部门删除新增后，导致预算费控单子提示部门无对应预算问题",
+ "problem": "组织架构调整，部门删除新增后，导致预算费控单子提示部门无对应预算问题",
+ "cause": "主要是原部门预算还没调整，OA组织架构上就操作了部门新增删除，导致后面再做调整时，选不到原部门",
+ "solution": "后台进行删除部门的恢复，同时强调，使用了c4费控的话，如果部门涉及调整的，一定考虑预算调整后，再进行相关OA组织架构的变动\n相关部门恢复语句如下：\nselect * from org_unit where name = 'xxx'\nUPDATE ORG_UNIT set IS_DELETED=0,IS_ENABLE=1 where id ='4692014745050303066';",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "部门预算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-06-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gXyie4jCP4"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

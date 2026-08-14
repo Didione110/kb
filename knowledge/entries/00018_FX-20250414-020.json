@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250414-020",
+ "record_id": "0VbX3pHRNi",
+ "title": "业务单元前台删除业务委托关系，停用职能手动删除业务单元后，行政组织和法人公司等职能仍数据库存在垃圾数据，再次新增报错组织重复。",
+ "problem": "业务单元前台删除业务委托关系，停用职能手动删除业务单元后，行政组织和法人公司等职能仍数据库存在垃圾数据，再次新增报错组织重复。",
+ "cause": "前台删除只是删除了业务单元数据，但是相关职能表需后台数据库处理",
+ "solution": "查询相关业务单元启用的职能表，每个职能有主表和版本表，删除对应主表和版本表，注意备份。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB-X"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "垃圾数据"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-04-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0VbX3pHRNi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

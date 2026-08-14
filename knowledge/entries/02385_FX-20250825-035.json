@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250825-035",
+ "record_id": "yokudpX0dU",
+ "title": "拉取平台商品资料操作等很久发现还是没有数据，不知道什么情况",
+ "problem": "拉取平台商品资料操作等很久发现还是没有数据，不知道什么情况",
+ "cause": "拉取过程中可能授权未完成或者接口返回出问题",
+ "solution": "在三方任务管理中可以查看店铺商品资料拉取和下载店铺订单执行结果，是否执行完成，是否有失败情况和失败原因查看。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "拉取慢"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yokudpX0dU"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

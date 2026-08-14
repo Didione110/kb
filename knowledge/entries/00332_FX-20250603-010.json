@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250603-010",
+ "record_id": "7uya2enx9Q",
+ "title": "数据平铺视图 tileview中，添加附件后，不显示到最新的那一项",
+ "problem": "数据平铺视图 tileview中，添加附件后，不显示到最新的那一项",
+ "cause": "增加代码 滚动到新添加的项",
+ "solution": "// 滚动到新添加的项\nint newRowHandle = tileView.DataRowCount - 1;\nif (newRowHandle \\>= 0)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "附件不显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "药监接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0ggXQDJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0ggXQDJxAZB1Gv",
+  "doc_path": "/自研/应用操作/数据平铺视图 tileview中，添加附件后，不显示到最新的那一项",
+  "record_id": "7uya2enx9Q"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/数据平铺视图 tileview中，添加附件后，不显示到最新的那一项",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

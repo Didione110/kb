@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240829-060",
+ "record_id": "YYak91nUlH",
+ "title": "生产订单维护了生产单位和成本单位的转换率后，还需要在成品入库单上面再次手工维护转换率，增加了工作量",
+ "problem": "生产订单维护了生产单位和成本单位的转换率后，还需要在成品入库单上面再次手工维护转换率，增加了工作量",
+ "cause": "系统有隐藏参数【入库单转换率来源单据】，需要在数据库打开后，才会生效",
+ "solution": "--查询所有的参数\nselect b.Name,* from base_profile a\nleft join base_profile_trl b on a.id=b.id\n--打开参数\ndeclare @id bigintselect @id=id from base_profile_trl where name='入库单转化率来源单据'update base_profile set hidden=0 where id=@id",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "库存",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "重复维护"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-08-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YYak91nUlH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-013",
+ "record_id": "qisDaqsK5C",
+ "title": "医保接口优化，1312，991006到991009，这几个接口都增加接口参数",
+ "problem": "医保接口优化，1312，991006到991009，这几个接口都增加接口参数",
+ "cause": "增加医保商品名称的查询条件",
+ "solution": "增加医保商品名称的查询条件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保接口优化"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1bpYYJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1bpYYJ63zgkYA",
+  "doc_path": "/自研/数据接口问题/医保接口优化，1312，991006到991009，这几个接口都增加接口参数",
+  "record_id": "qisDaqsK5C"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/医保接口优化，1312，991006到991009，这几个接口都增加接口参数",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

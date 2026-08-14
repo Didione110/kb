@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250928-039",
+ "record_id": "7VE58uknlx",
+ "title": "供应商档案分区： 普通/委外，在采购订单选择的时候，只能选择普通供应商，在委外订单选择的时候，只能选择委外供应商",
+ "problem": "供应商档案分区： 普通/委外，在采购订单选择的时候，只能选择普通供应商，在委外订单选择的时候，只能选择委外供应商",
+ "cause": "供应商档案分区： 普通/委外，在采购订单选择的时候，只能选择普通供应商，在委外订单选择的时候，只能选择委外供应商，防呆",
+ "solution": "数据权限：iif(NewPurchaseOrder.DocumentType.BusinessType.Value<span style=\"background-color: #FFC000;\">FunEnum('业务类型','全程委外采购',326),NewPurchaseOrder.Supplier.Supplier.TradeCategory.Value</span>FunEnum('所属行业','委外',2002),NewPurchaseOrder.Supplier.Supplier.TradeCategory.Value==FunEnum('所属行业','普通',2001))",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "供应商分区"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-09-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yA47A38GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yA47A38GXn6lpz",
+  "doc_path": "/用友/应用操作/供应商档案分区： 普通 委外，在采购订单选择的时候，只能选择普通供应商，在委外订单选择的时候，只能选择委外供应商",
+  "record_id": "7VE58uknlx"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/供应商档案分区： 普通 委外，在采购订单选择的时候，只能选择普通供应商，在委外订单选择的时候，只能选择委外供应商",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

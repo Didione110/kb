@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230718-015",
+ "record_id": "FNZNK6w6lY",
+ "title": "到货单审核时，设置审批流按照请购单中的请购人或者采购订单中的业务人员进行审批。",
+ "problem": "到货单审核时，设置审批流按照请购单中的请购人或者采购订单中的业务人员进行审批。",
+ "cause": "1、在采购订单增加一个表头自定义项，高级属性中定义公式等于表头：业务员；\n2、设置采购到货单工作流，审批人使用高级设置，在左侧的自定义参数中双击这个单据头自定义项；\n3、保存并发布工作流。",
+ "solution": "1、在采购订单增加一个表头自定义项，高级属性中定义公式等于表头：业务员；\n2、设置采购到货单工作流，审批人使用高级设置，在左侧的自定义参数中双击这个单据头自定义项；\n3、保存并发布工作流。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "审批流"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-07-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FNZNK6w6lY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

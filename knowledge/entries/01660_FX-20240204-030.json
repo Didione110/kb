@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240204-030",
+ "record_id": "hLPDQ4wSCQ",
+ "title": "时空界面生成财务凭证失败，提示凭证日期错误",
+ "problem": "时空界面生成财务凭证失败，提示凭证日期错误",
+ "cause": "时空界面生成凭证，之前信息管理员自己做的，直接用数据库插入方式操作，没有传输凭证日期",
+ "solution": "时空界面增加控件，存储过程增加变参，客户后期可以自行选择凭证日期",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证日期"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-02-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hLPDQ4wSCQ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

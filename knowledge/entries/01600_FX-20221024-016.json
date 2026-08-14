@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221024-016",
+ "record_id": "fogb4fSQAa",
+ "title": "科目取消分配提示报错：科目已经被引用",
+ "problem": "科目取消分配提示报错：科目已经被引用",
+ "cause": "查看前端数据，没有科目的引用，但是在基础档案引用查询中提示有引用，新分配的科目，凭证上余额默认转到新增的下级科目，导致查看无引用，实际后台数据有数据",
+ "solution": "后台执行脚本： select * from bd_accsubj where pk_glorgbook = '0001F810000000000EKL' and subjcode = '1002010101' create table bd_accsubj_bak20220614 as select * from bd_accsubj delete from bd_accsubj where pk_glorgbook = '0001F810000000000EKL' and subjcode = '10020101'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目被引用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-10-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fogb4fSQAa"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241116-028",
+ "record_id": "Q3qDpYifez",
+ "title": "OA没有预置的省市行政区划枚举可以，系统枚举不可用",
+ "problem": "OA没有预置的省市行政区划枚举可以，系统枚举不可用",
+ "cause": "OA没有预置的省市行政区划枚举可以，系统枚举不可用",
+ "solution": "参考链接地址，https://support.seeyon.com/cbo\\_cptjxx.html?id=-9102940361763566339\n下载相关附件，执行CAP4表单导入，执行枚举新增即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "行政区划枚举"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-11-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mYxQ0J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mYxQ0J9ekBD76",
+  "doc_path": "/致远OA/效率问题/OA没有预置的省市行政区划枚举可以，系统枚举不可用",
+  "record_id": "Q3qDpYifez"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/效率问题/OA没有预置的省市行政区划枚举可以，系统枚举不可用",
+ "category": [
+  "致远OA",
+  "效率问题"
+ ]
+}

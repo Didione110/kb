@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221027-025",
+ "record_id": "3hsslXj53t",
+ "title": "客户商品编码通过分类自动增长后编码太大，导致无法通过分类树新增商品编码。",
+ "problem": "客户商品编码通过分类自动增长后编码太大，导致无法通过分类树新增商品编码。",
+ "cause": "客户软件使用中操作错误，导致编码太大，商品编号无法进行自动增长！",
+ "solution": "通过SQL语句重新更新商品编号。\n--分类更新商品\nselect distinct spfl into #tmp from dbo.spkfk\\_dr\nselect spfl,ROW\\_NUMBER() OVER (ORDER BY getdate() asc )as age into #tmp2 from #tmp\nselect spbh,spid into #tmp3 from spkfk where 1\\<\\>1\ndeclare @i int,\n@max int\nset @i=1\nselect @max=max(age) from #tmp2 \nwhile @i\\<=@max\nbegin \ninsert into #tmp3 ( spbh, spid )\nselect rtrim((select spfl from #tmp2 where age=@i))\n\\+REPLICATE('0',7-len(rtrim((select spfl from #tmp2 where age=@i)))-len(convert(char(10),ROW\\_NUMBER() OVER (ORDER BY getdate() asc))))\\+convert(char(10),ROW\\_NUMBER() OVER (ORDER BY getdate() asc))\n,spid \n--update spkfk\\_dr set spbh=rtrim((select spfl from #tmp2 where age=@i))\n--\\+REPLICATE('0',7-len(rtrim((select spfl from #tmp2 where age=@i)))-len(convert(char(10),ROW\\_NUMBER() OVER (ORDER BY getdate() asc))))\\+convert(char(10),ROW\\_NUMBER() OVER (ORDER BY getdate() asc))\nfrom dbo.spkfk\\_dr where spfl in (select spfl from #tmp2 where age=@i)\nset @i=@i\\+1\nend\nupdate b set spbh=a.spbh\n from #tmp3 a,dbo.spkfk\\_dr b where a.spid=b.spid \ndrop table #tmp\ndrop table #tmp2\ndrop table #tmp3",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "编码过大"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2022-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN72nPXW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN72nPXW9dEq3XD",
+  "doc_path": "/时空/应用操作/客户商品编码通过分类自动增长后编码太大，导致无法通过分类树新增商品编码。",
+  "record_id": "3hsslXj53t"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/客户商品编码通过分类自动增长后编码太大，导致无法通过分类树新增商品编码。",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240731-052",
+ "record_id": "pcelCwzEzO",
+ "title": "内部供应商账号查看不到银行账户，实际银行账户-组织节点已创建，且生效",
+ "problem": "内部供应商账号查看不到银行账户，实际银行账户-组织节点已创建，且生效",
+ "cause": "未勾选交易账户",
+ "solution": "在【银行账户-业务单元】节点修改银行账户-去掉勾选-保存-修改-勾选交易账户保存后数据会同步",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "银行账户缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pcelCwzEzO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

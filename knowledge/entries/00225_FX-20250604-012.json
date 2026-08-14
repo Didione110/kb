@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250604-012",
+ "record_id": "5MimwngzwH",
+ "title": "面对有些客户无标准BOM时，在生产备料中手工维护备料表，同时需要看到现有库存如何实现",
+ "problem": "面对有些客户无标准BOM时，在生产备料中手工维护备料表，同时需要看到现有库存如何实现",
+ "cause": "客户无标准BOM，在生产备料时需要查询库存，进入即时库存查询太过麻烦。",
+ "solution": "在备料表-库存可用量查询可查询仓库库存，注意：查询的库存是指所有仓库中存在的库存，如需要查询指定存储地点需在料品基础资料/备料表供应页签维护特定存储地点。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "BOM缺失、手工备料、库存可视"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "邱冬",
+  "department": "停用-实施8部",
+  "date": "2025-06-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5MimwngzwH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

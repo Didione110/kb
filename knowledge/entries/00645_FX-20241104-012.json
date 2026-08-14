@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241104-012",
+ "record_id": "GEwdd0bhjm",
+ "title": "老版本V10登录密码错误后没有验证码以及错误次数锁定",
+ "problem": "老版本V10登录密码错误后没有验证码以及错误次数锁定",
+ "cause": "tomcat版本未进行更新",
+ "solution": "更新最新V10版Tomcat",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "验证码缺失"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51vxeM8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51vxeM8zN67Mw4",
+  "doc_path": "/时空/安全问题/老版本V10登录密码错误后没有验证码以及错误次数锁定",
+  "record_id": "GEwdd0bhjm"
+ },
+ "status": "active",
+ "doc_path": "/时空/安全问题/老版本V10登录密码错误后没有验证码以及错误次数锁定",
+ "category": [
+  "时空",
+  "安全问题"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250224-023",
+ "record_id": "T3XjoT6O9Z",
+ "title": "YS总账年结流程",
+ "problem": "YS总账年结流程",
+ "cause": "总账结账路径：财务云>财务会计>总账>期末处理>总账结账\n\n选择账簿后和结账月份进行结账检查\n\n总账反结账路径：财务云>财务会计>总账>期末处理>总账结账\n\n选择已结账的月份，点击反结账\nPS：总账不支持跨期间反结账，如果2月份已经结账了，需要反结账1月份的话，则需要先把2月份进行反结账，再反结账1月份",
+ "solution": "总账结账路径：财务云>财务会计>总账>期末处理>总账结账\n\n选择账簿后和结账月份进行结账检查\n\n总账反结账路径：财务云>财务会计>总账>期末处理>总账结账\n\n选择已结账的月份，点击反结账\nPS：总账不支持跨期间反结账，如果2月份已经结账了，需要反结账1月份的话，则需要先把2月份进行反结账，再反结账1月份",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "YS年结"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "T3XjoT6O9Z"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

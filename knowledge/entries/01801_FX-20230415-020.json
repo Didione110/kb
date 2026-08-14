@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230415-020",
+ "record_id": "kqJs5HXQMm",
+ "title": "生单时保存报：无法解决 equal to 运算中 \"SQL_Latin1_General_CP1_CI_AS\" 和 \"Chinese_PRC_CI_AS\" 之间的排序规则冲突 错误",
+ "problem": "生单时保存报：无法解决 equal to 运算中 \"SQL_Latin1_General_CP1_CI_AS\" 和 \"Chinese_PRC_CI_AS\" 之间的排序规则冲突 错误",
+ "cause": "系统数据库引擎排序规则有问题",
+ "solution": "查看数据库的系统数据库属性，排序规则是SQL_Latin1_General_CP1_CI_AS，而建的企业库排序规则是Chinese_PRC_CI_AS，这里就会产生冲突，导致单据保存不了，由于是系统库，用语句是修改不了的，解决方法二选一，一是新增一个实例；二是彻底重装数据库，到【自定义 SQL Server 2019 数据库引警排序规则】时，手动更改为Chinese_PRC（一般是默认的），即可。",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "排序规则冲突"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-04-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kqJs5HXQMm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

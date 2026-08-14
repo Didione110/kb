@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240131-084",
+ "record_id": "zsaXb4qKPy",
+ "title": " 各类期初数据导入时报错，也无法定位到哪个字段的问题例如：导入失败 将参数值从 String 转换到 Int64 失败",
+ "problem": "各类期初数据导入时报错，也无法定位到哪个字段的问题例如：导入失败 将参数值从 String 转换到 Int64 失败",
+ "cause": "1、本身模板有问题\n2、填写数据格式有问题：整型、日期、文本等\n3、填写的内容有误：系统内缺少档案",
+ "solution": "1、先用系统检查模板，看模板是否正确\n2、可以先在系统填写一个测试数据，再用模板导出功能获得完整有效的示例",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "数据类型转换"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zsaXb4qKPy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

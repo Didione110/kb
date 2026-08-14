@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221118-043",
+ "record_id": "I9KO3Mhl0H",
+ "title": "使用谷歌浏览器，无法打开公文正文，打开提示“office插件版本需更新”，更新插件仍然提示。",
+ "problem": "使用谷歌浏览器，无法打开公文正文，打开提示“office插件版本需更新”，更新插件仍然提示。",
+ "cause": "由于Google已经决定终止对所有平台上的NaCl、PNaCl、 以及PPAPI的支持。并且\nGoogle Chrome浏览器从107版本开始，已经正式停止支持上述插件技术，由此导致金格使用PPAP技\n术的产品(如iWebOffice2015、 iWebPDF2018等 )都无法再继续在Google Chrome浏览器中使用。",
+ "solution": "据了解Google的这项决定是不可逆的，因此后续的Google Chrome浏览器版本都将维持这个改\n变。同时，Edge浏览器后续是否会采取相同的改变还没有得到确定的信息，但有一定的可能性也会跟\n进。而360浏览器这边已经从对方公司确认会继续支持。\n\n由于这个改变极大的影响了我们插件产品的使用，在深入研究分析后，我们向广大伙伴和客户们提\n供如下的处理方案:\n\n方案A：使用360浏览器(极速浏览器、安全浏览器、企业安全浏览器)极速模式，或低于107版本\n的Google Chrome浏览器(注意关闭自动升级功能，避免打开浏览器关于窗口)。此方案优点是对业务\n系统不需要改动;缺点是需要处理遇到问题的客户端环境。\n\n方案B：在需要使用到插件技术的功能时，使用金格二代浏览器弹出窗口功能模式。此方案的优点\n是做一次业务系统的改动后市面上各种浏览器都可以适用，客户端环境不需要一处理; 缺点是需要做\n适配开发集成的工作。\n\n综上，在应急场景里我们推荐方案A（免费）,作为根本性的解决方式推荐B方案（收费）。",
+ "solution_types": [
+  "代码修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Edge",
+  "Chrome",
+  "360浏览器"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Office插件"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "G6单组织",
+ "module": "公文管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2022-11-18"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1QZ20JMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1QZ20JMGjLRb3",
+  "doc_path": "/致远OA/软件无法使用/使用谷歌浏览器，无法打开公文正文，打开提示office插件版本需更新",
+  "record_id": "I9KO3Mhl0H"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/软件无法使用/使用谷歌浏览器，无法打开公文正文，打开提示office插件版本需更新",
+ "category": [
+  "致远OA",
+  "软件无法使用"
+ ]
+}

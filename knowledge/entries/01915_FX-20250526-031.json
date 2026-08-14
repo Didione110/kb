@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250526-031",
+ "record_id": "nZ0QVg2tYU",
+ "title": "总账结账未校验资产模块是不是结账，导致2-4月用户忘了计提折旧总账直接结账报税了，想在后期控制起来",
+ "problem": "总账结账未校验资产模块是不是结账，导致2-4月用户忘了计提折旧总账直接结账报税了，想在后期控制起来",
+ "cause": "系统配置问题",
+ "solution": "检查在业务参数设置-组织中总账里有一个参数GL034关账检查业务系统是否结账的财务账簿；\n此处为空则不校验，如果想校验就选择对应账簿即可；如果使用了二级核算单元也需要一个一个配置；默认是不校验的，也无法统一配置；如果需要整体控制需要一个层级一个层级的打开修改配置；\n而其他模块的此校验是在模块参数设置里，并非在总账里，叫总账关账是否检查本系统结账状态，默认是是",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "资产结账校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nZ0QVg2tYU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

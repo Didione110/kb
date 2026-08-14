@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230129-019",
+ "record_id": "kHCoYhdkUD",
+ "title": "保存单据时提示：“ORA-12899:列“NCC03”.\"IC_FLOW\".\"VHEADNOTE\"的值太大（实际值：207，最大值：200）””",
+ "problem": "保存单据时提示：“ORA-12899:列“NCC03”.\"IC_FLOW\".\"VHEADNOTE\"的值太大（实际值：207，最大值：200）””",
+ "cause": "类似这种提示代表该表上该字段的内容超出了最大范围，如只能填写200个字符，实际填写了207个字符",
+ "solution": "1、针对着急单据，可找修改内容，使字段内容保持在规定字符以内即可\n2、后台扩充字符，比较繁琐，建议在时间充裕的时候处理",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字段超长"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-01-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kHCoYhdkUD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

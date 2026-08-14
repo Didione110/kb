@@ -1,0 +1,30 @@
+{
+ "id": "doc-e988167976",
+ "record_id": "",
+ "title": "流程结束后会默认通知审批人及发起人如何取消",
+ "problem": "流程结束后会默认通知审批人及发起人如何取消",
+ "cause": "系统默认开启",
+ "solution": "流程引擎-流程引擎服务-功能开关中关闭",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNy0jogG8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNy0jogG8xkXOEP2",
+  "doc_path": "/蓝凌OA/应用操作/流程结束后会默认通知审批人及发起人如何取消"
+ },
+ "doc_path": "/蓝凌OA/应用操作/流程结束后会默认通知审批人及发起人如何取消",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

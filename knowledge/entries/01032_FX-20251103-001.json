@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251103-001",
+ "record_id": "QPYEjUPNst",
+ "title": "离线模式的U8C更新安全补丁时，提示./jre/bin/java权限不够",
+ "problem": "离线模式的U8C更新安全补丁时，提示./jre/bin/java权限不够",
+ "cause": "离线模式的U8C更新安全补丁时，提示./jre/bin/java权限不够",
+ "solution": "检查是工具的JDK（即U8CERP的路径）和当前环境不兼容导致。使用记事本打开startup.sh修改脚本，使用当前运行U8C的JDK",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "Shell",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "权限不足"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QPYEjUPNst"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

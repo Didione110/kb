@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250603-006",
+ "record_id": "lybuLCzskN",
+ "title": "采购批量打印存货核算采购入库单，并只在每张的最后的显示合计数",
+ "problem": "采购批量打印存货核算采购入库单，并只在每张的最后的显示合计数",
+ "cause": "存货核算采购不支持批量预览，只能批量打印",
+ "solution": "添加自定义变量实现 iif( tonumber(当前打印任务总页数)==tonumber(当前打印任务页数), _subtotal_(tonumber(nmoney)), \"\")只在最后显示合计数",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "批量打印、合计显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lybuLCzskN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

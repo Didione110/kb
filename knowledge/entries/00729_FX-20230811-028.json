@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230811-028",
+ "record_id": "IgXEcc8QNO",
+ "title": "建账报错，提示“无法打开备份设备D:\\U8SOFT\\Admin\\ufmodel2005.bak，出现操作系统错误 2（系统找不到指定的文件。）。 -2147217900”",
+ "problem": "建账报错，提示“无法打开备份设备D:\\U8SOFT\\Admin\\ufmodel2005.bak，出现操作系统错误 2（系统找不到指定的文件。）。 -2147217900”",
+ "cause": "ufmodel2005文件问题",
+ "solution": "以下方法依次尝试\n1.找个好的ufmodel2005.rar替换\n2.将UFmodel.rar文件解压后将其中的bak文件放在admin路径下\n3.给CMD管理员权限",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "备份文件缺失"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-08-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IgXEcc8QNO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

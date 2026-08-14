@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241024-031",
+ "record_id": "mtUC0HYHay",
+ "title": "针对操作员授权了账套应付款管理-付款申请处理及付款处理权限，该操作员登录系统后可以新增付款单，但无法查看历史付款数据",
+ "problem": "针对操作员授权了账套应付款管理-付款申请处理及付款处理权限，该操作员登录系统后可以新增付款单，但无法查看历史付款数据",
+ "cause": "应付款管理-设置-选项-权限与预警，勾选了“控制操作员权限”设置，导致无法查看他人录入的付款单",
+ "solution": "在应付款管理-设置-选项-权限与预警中，取消“控制操作员权限”设置即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-10-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mtUC0HYHay"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

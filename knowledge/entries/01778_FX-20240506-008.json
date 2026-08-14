@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240506-008",
+ "record_id": "kIb71fwnfx",
+ "title": "OMS商品资料接口同步数据报错spu条码重复，同步数据失败",
+ "problem": "OMS商品资料接口同步数据报错spu条码重复，同步数据失败",
+ "cause": "商品资料接口同步商品资料时，默认会校验商品条码不允许重复。但往往存在一个品种不同口味的时候会出现同条码的情况。",
+ "solution": "开启商品spu允许维护多条码，不校验重复值开关后，就不在校验商品条码重复值。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "SPU重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kIb71fwnfx"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

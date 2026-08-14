@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-036",
+ "record_id": "xYMfOY2wEB",
+ "title": "凭证连续打印的时候断号，只有偶数行可以打印出来",
+ "problem": "凭证连续打印的时候断号，只有偶数行可以打印出来",
+ "cause": "凭证打印所选纸型与打印机所放的纸型不一致导致的",
+ "solution": "测量打印机所放纸张大小，增加该纸型，打印时选择该纸型即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "断号打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T6",
+ "module": "",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xYMfOY2wEB"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

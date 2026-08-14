@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230921-030",
+ "record_id": "cViPfvdCbW",
+ "title": "用户登录后，费控管理角色工作台显示姓名错误",
+ "problem": "用户登录后，费控管理角色工作台显示姓名错误",
+ "cause": "该员工在BIP没有任职信息",
+ "solution": "数据同步任务方案选择“人员任职 ”同步该用户信息即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "姓名错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cViPfvdCbW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

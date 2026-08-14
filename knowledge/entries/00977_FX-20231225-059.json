@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231225-059",
+ "record_id": "OuH38x37Uf",
+ "title": "B2C一键打印时候，部分平台打印组件会闪退或卡死的情况",
+ "problem": "B2C一键打印时候，部分平台打印组件会闪退或卡死的情况",
+ "cause": "一键打印推送单据量过大",
+ "solution": "一键打印设置里，把打印组件时间调大一些。由默认的500数值调到800左右",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "一键打印闪退"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DjzyQJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DjzyQJKMEvZBY",
+  "doc_path": "/其他/安装部署问题/B2C一键打印时候，部分平台打印组件会闪退或卡死的情况",
+  "record_id": "OuH38x37Uf"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/B2C一键打印时候，部分平台打印组件会闪退或卡死的情况",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

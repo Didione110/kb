@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230328-027",
+ "record_id": "16o29iZHk0",
+ "title": "调拨单某一操作员看不到表体栏中的备注",
+ "problem": "调拨单某一操作员看不到表体栏中的备注",
+ "cause": "设置了合并规则",
+ "solution": "点击显示格式中的设置合并规则，勾选备注",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "备注不可见"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "16o29iZHk0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

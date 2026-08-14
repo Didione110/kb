@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240930-048",
+ "record_id": "azvodfWFEl",
+ "title": "凭证查询如何按合计金额进行筛选？",
+ "problem": "凭证查询如何按合计金额进行筛选？",
+ "cause": "查询的常用条件中，在金额前的下拉列表中选择【合】，本币金额可以输入金额范围过滤",
+ "solution": "查询的常用条件中，在金额前的下拉列表中选择【合】，本币金额可以输入金额范围过滤",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "合计金额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "azvodfWFEl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

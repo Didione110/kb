@@ -1,0 +1,46 @@
+{
+ "id": "FX-20260507-006",
+ "record_id": "Swfj6Xqhhh",
+ "title": "时空DHERP自带autoccount记账插件，在此基础上，前期技术已开发出自动下单等小功能插件\n但目前一直没有自动登记首营客户资料的功能",
+ "problem": "时空DHERP自带autoccount记账插件，在此基础上，前期技术已开发出自动下单等小功能插件\n但目前一直没有自动登记首营客户资料的功能",
+ "cause": "首营客户资料与早期的业务单据不同的地方是，需要单独发起工作流\n但是北京时空已明确回复在服务端计划任务中无法实现StartWorkflow功能，故无法通过常规代码实现",
+ "solution": "没有枪，没有炮，自己造。\n附上服务端JS脚本如下参考\n\nfunction KQWS_AutoSYZL() {\n //基本记账逻辑，勿编辑\n function srv_autoAccountBase(mainparams, components, datasets, beforeproc, afterproc) { \n var allparam = {};\n var comparray = [];\n var idx = 0;\n for (var i = 0; i < components.length; i++) {\n var attributedata = {};\n for (var key in components[i]) {\n if (\"dataset\".equals(key.toLowerCase()) ||\n \"maindataset\".equals(key.toLowerCase()) ||\n \"childdataset\".equals(key.toLowerCase())) {\n attributedata[key] = components[i][key];\n }\n }\n var comp = {};\n comp.comptype = components[i].comptype;\n comp.attributebase = components[i];\n comp.attributedata = attributedata;\n comparray[idx++] = comp;\n }\n allparam.comparray = comparray;\n //增加事务控制\n //mainparams.dbc = __dbc;\n allparam.mainparams = mainparams;\n for (var i = 0; i < datasets.length; i++) {\n var _tablenames = [];\n var _submitfilter = [];\n var tbidx = 0;\n var subidx = 0;\n for (var j = 0; j < datasets[i].tablenames.length; j++) {\n for (var key in datasets[i].tablenames[j]) {\n _tablenames[tbidx++] = key;\n _submitfilter[subidx++] = datasets[i].tablenames[j];\n }\n }\n datasets[i].saveastable = _tablenames;\n datasets[i].submitfilter = _submitfilter;\n }\n allparam.datasets = datasets;\n allparam.afterproc = afterproc;\n allparam.beforeproc = beforeproc;\n\n //下面调用自动记账服务\n log.info(\"Start call function SYZL_AUTO autoBillAccount...\");\n var ret = FormUtil.autoBillAccount(allparam);\n return allparam;\n }\n //销售-首营资料自动\n function srv_syzlAcc(_billno, _billCode, _entid, _orgid, _ruleid, _BusinessId) {\n //数据集描述 统一调用存储过程 sp_autoAccount\n var datasets = [];\n var components = []; \n var dataset1 = {};\n dataset1.dsid = \"DsMain\";\n dataset1.keyfield = \"billno\";\n dataset1.billcodefield = \"billcode\";\n dataset1.sql = \"call sp_autoAcctPrepareData(c_cursor=>:__oracle_cursor, p_lx=>:lx, p_billno=>:billno, p_billcode=>:billCode, p_entid=>:entid, p_orgid=>:BusinessId)\";\n dataset1.params = {};\n dataset1.params.lx = \"SYZL_MT\";\n dataset1.params.billno = _billno;\n dataset1.params.billCode = _billCode;\n dataset1.params.entid = _entid;\n dataset1.params.orgid = _orgid;\n dataset1.params.BusinessId = _BusinessId;\n dataset1.mainDataSet = true;\n dataset1.independent = \"N\";\n dataset1.tablenames = [\n { \"BusinessDoc\": \"\" }, \n { \"ClientDoc\": \"\" }, \n { \"BusinessFirst\": \"\" }\n ]; \n idx = 0;\n datasets[idx++] = dataset1;\n var mainparams = {};\n mainparams.keyfieldvalue = \"\";\n mainparams.keyfield = \"billno\";\n mainparams.billno = \"\";\n mainparams.billcode = \"\";\n mainparams.ruleid = _ruleid; \n mainparams.entid = _entid;\n mainparams.orgid = _orgid;\n mainparams.deptid = \"K4WDROF2EIW\"; //电商部\n mainparams.staffid = \"K4WTL4UHL9C\"; //杨林红1\n mainparams.userid = \"U4WTL4UJVZ4\"; //杨林红1\n mainparams.lgnname = \"root\";\n mainparams.rfkey = \"SYZL_\" + _billCode;\n var afterproc = {};\n afterproc.sql = \"call sp_autoAcctWriteBack(p_lx=>:lx, p_billno=>:_billno, p_billCode=>:_billCode, p_entid=>:_entid, p_orgid=>:_orgid)\";\n afterproc.params = {};\n afterproc.params.lx = \"SYZL\";\n afterproc.params._billno = _billno;\n afterproc.params._billCode = _billCode;\n afterproc.params._entid = _entid;\n afterproc.params._orgid = _orgid;\n var beforeproc = {};\n beforeproc.sql = \"\";\n beforeproc.params = {};\n var r = srv_autoAccountBase(mainparams, components, datasets, beforeproc, afterproc);\n return r;\n }\n\n //记账最开始检查上一轮记账是否完成,未完成直接return;如超30分钟仍未完成可能已丢失会话\n var sqlchk = \"select 1 from k_lockAutoAcct where funcname = 'KQWS_AutoSYZL' and entid ='E4KVKGVOXNV' \";\n var chks = DBUtil.openDataSet(sqlchk, {});\n if (chks.recordCount > 0) {\n var sql_interval = \"select ROUND(TO_NUMBER(sysdate - to_date(lastmodifytime,'yyyy-mm-dd hh24:mi:ss')) * 24 * 60)",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "JS"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "首营客户登记"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2026-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Swfj6Xqhhh"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

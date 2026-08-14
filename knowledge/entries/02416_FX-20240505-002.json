@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240505-002",
+ "record_id": "zePExGymKD",
+ "title": "客户反馈NCC接口上月应付暂估冲红未进行上传",
+ "problem": "客户反馈NCC接口上月应付暂估冲红未进行上传",
+ "cause": "原因是NCC生成数据单据ID结构中包含日期，系统逻辑是每月一号进行上传，由于上月凭证创建日期不是一号导致系统无法识别",
+ "solution": "调整系统判断逻辑",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "应付暂估"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-05-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zePExGymKD"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

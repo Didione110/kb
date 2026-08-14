@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250121-041",
+ "record_id": "RVNG1iaiUb",
+ "title": "ERP入库单到WMS后，WMS的金额和ERP有不一致的情况（小数位数不一致）",
+ "problem": "ERP入库单到WMS后，WMS的金额和ERP有不一致的情况（小数位数不一致）",
+ "cause": "除了检查收货，验收明细表的金额小数位，还要检查WMS收货和验收2个临时表",
+ "solution": "调整收货和验收明细小数位(含历史表)，临时表temp\\_WMS\\_Receiving，Temp\\_WMS\\_ReceivingChect这2个表的小数位",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "金额不一致"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1B9OY8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1B9OY8BQEx5rG",
+  "doc_path": "/其他/实施问题/ERP入库单到WMS后，WMS的金额和ERP有不一致的情况（小数位数不一致）",
+  "record_id": "RVNG1iaiUb"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/ERP入库单到WMS后，WMS的金额和ERP有不一致的情况（小数位数不一致）",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

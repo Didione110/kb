@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240930-044",
+ "record_id": "Z6KRcSu28R",
+ "title": "平台订单到OMS系统后创建原始订单数据后需要自动转单",
+ "problem": "平台订单到OMS系统后创建原始订单数据后需要自动转单",
+ "cause": "默认原始订单需要手动转单",
+ "solution": "点三系统收到平台新订单创建原始订单后，可以设置指定时间后自动转单。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "自动转单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmj57AJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmj57AJGlDd3mE",
+  "doc_path": "/其他/应用操作/平台订单到OMS系统后创建原始订单数据后需要自动转单",
+  "record_id": "Z6KRcSu28R"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/平台订单到OMS系统后创建原始订单数据后需要自动转单",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

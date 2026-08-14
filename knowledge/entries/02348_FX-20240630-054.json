@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240630-054",
+ "record_id": "xdWXZsKGHg",
+ "title": "盘点单中指定范围盘点报错：无法绑定由多个部分组成的标识符\"A.ID\"。列名'\"nvalidTime'无效，列名 'InvalidTime' 无效,",
+ "problem": "盘点单中指定范围盘点报错：无法绑定由多个部分组成的标识符\"A.ID\"。列名'\"nvalidTime'无效，列名 'InvalidTime' 无效,",
+ "cause": "系统问题。",
+ "solution": "盘点单取账存存储过程没有更新U9CE.INV.2002406270000080.pack补丁已验证通过。更新此补丁或INV模块更新的补丁即可解决",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "绑定错误"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xdWXZsKGHg"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

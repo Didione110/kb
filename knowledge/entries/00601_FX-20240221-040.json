@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240221-040",
+ "record_id": "EgtnHU42T3",
+ "title": "设置流程时每增加一个节点都要设置操作方式",
+ "problem": "设置流程时每增加一个节点都要设置操作方式",
+ "cause": "未设置默认操作方式导致",
+ "solution": "在流程引擎-操作方式中设置默认节点操作方式，并选择【默认】，后续即可自动调用。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "操作繁琐"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EgtnHU42T3"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

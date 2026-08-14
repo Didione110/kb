@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-040",
+ "record_id": "zBrmadjsJ7",
+ "title": "U8的三种接口OpenAPI、API、EAI间如何选择？",
+ "problem": "U8的三种接口OpenAPI、API、EAI间如何选择？",
+ "cause": "OpenAPI\n第三方系统部署在外网（互联网）与U8对接的场景。\n限制：做不了上下游关联生单，比如采购入库单无法关联采购到货单；不支持事务。\n优势：安全、接口定义面向消费者，使用相对最简单\n数据标准：json\n协议：https\n安全性：接口调用需授权，企业对接口访问有完全控制权。\nEAI\n第三方系统部署在内网，与U8服务器可以直接连接。\n限制：做不了上下游关联生单，比如采购入库单无法关联采购到货单；不支持事务。\n优势：使用复杂度在openapi与api之间\n数据标准：xml\n协议：http\n安全性：内网系统间对接安全性要求通常比较低",
+ "solution": "API\n第三方系统部署在内网，与U8服务器可以直接连接。\n限制：开发的应用需要部署在装有U8的电脑上。\n优势：可做上下游关联生单，性能最好，支持事务。\n数据标准：开放语言中的对象类型\n协议：无，直接dll引入调用\n安全性：内网系统间对接安全性要求通常比较低",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "接口选择"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zBrmadjsJ7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

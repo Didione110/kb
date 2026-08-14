@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240624-041",
+ "record_id": "s3V3Ppbfnw",
+ "title": "使用总账工具的文件数据方式导入凭证后，直接在系统中修改凭证提示“运行时错误70，拒绝的权限”",
+ "problem": "使用总账工具的文件数据方式导入凭证后，直接在系统中修改凭证提示“运行时错误70，拒绝的权限”",
+ "cause": "环境问题",
+ "solution": "1、点击电脑左下角开始-运行输入msconfig，工具页签，选择“更改UAC设置”，点击启动，选择“从不通知”\n2、客户端配置hosts文件，登录客户端的U8不用IP，用机器名\n3、服务器与客户端补丁要一致（服务器未打补丁）\n4、关闭防火墙和杀毒软件\n5、用管理员账号登录电脑，用管理员身份运行U8\n6、总账设置选项勾选使用新打印控件\n7、打GL补丁",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "权限错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-06-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "s3V3Ppbfnw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

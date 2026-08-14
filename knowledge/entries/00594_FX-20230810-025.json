@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230810-025",
+ "record_id": "EZ6IdaTj2S",
+ "title": "现金管理平台传到总账的凭证，要在凭证上显示现金单据号。",
+ "problem": "现金管理平台传到总账的凭证，要在凭证上显示现金单据号。",
+ "cause": "方便财务对应单据进行做账",
+ "solution": "【总账】——【制定】，设置一行原始单据的分录行；【会计平台】——【凭证模板定义】设置单据的附加想定义",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "现金单据号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-08-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EZ6IdaTj2S"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

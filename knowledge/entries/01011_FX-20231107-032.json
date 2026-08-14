@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231107-032",
+ "record_id": "PuLxRu7KOM",
+ "title": "修改存货档案公司不生效",
+ "problem": "修改存货档案公司不生效",
+ "cause": "对应存货已经私有化",
+ "solution": "YS物料基础档案分为物料创建节点，可对存货做集团统一控制，在物料使用信息维护节点上可以调整分子公司的属性，所以当使用组织下的物料没有私有化的情况下，修改创建组织下的物料会同步修改使用组织下的物料，但如果使用组织下的物料私有化后，就不会同步修改了。 私有化操作比如：点过编辑保存，或者操作过上架等操作。",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "存货档案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PuLxRu7KOM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

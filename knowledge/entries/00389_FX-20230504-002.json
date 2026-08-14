@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230504-002",
+ "record_id": "9HaLGjVnMA",
+ "title": "生产领料需要优先出【线边仓】库存，【线边仓】库存不够时自动出其他仓库的库存",
+ "problem": "生产领料需要优先出【线边仓】库存，【线边仓】库存不够时自动出其他仓库的库存",
+ "cause": "利用拣货功能（先进先出规则）未能达到效果",
+ "solution": "1、物料清单子项批量修改供应地点【线边仓】\n2、生产领料时利用【发料明细】里面的自动匹配功能，系统会优先匹配【线边仓】，【线边仓】库存不够时自动出其他仓库的库存",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "线边仓优先"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-05-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51OXLr8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51OXLr8zN67Mw4",
+  "doc_path": "/用友/应用操作/生产领料需要优先出【线边仓】库存，【线边仓】库存不够时自动出其他仓库的库存",
+  "record_id": "9HaLGjVnMA"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/生产领料需要优先出【线边仓】库存，【线边仓】库存不够时自动出其他仓库的库存",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

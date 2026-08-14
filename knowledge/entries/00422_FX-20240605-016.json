@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240605-016",
+ "record_id": "AAVF0mMW81",
+ "title": "销售开票单调整了数据集显示设置之后，新增商品明细其序号列会自动拓展到很宽",
+ "problem": "销售开票单调整了数据集显示设置之后，新增商品明细其序号列会自动拓展到很宽",
+ "cause": "控件问题",
+ "solution": "找北京要新root文件包进行更新",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "序号列宽"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0vZwMVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0vZwMVDOnGvpb",
+  "doc_path": "/时空/产品功能问题/销售开票单调整了数据集显示设置之后，新增商品明细其序号列会自动拓展到很宽",
+  "record_id": "AAVF0mMW81"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/销售开票单调整了数据集显示设置之后，新增商品明细其序号列会自动拓展到很宽",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-051",
+ "record_id": "VRxyNE7KDa",
+ "title": "U8供应链打开任意单据，录入存货信息后，右侧助手视图不显示存货相关信息",
+ "problem": "U8供应链打开任意单据，录入存货信息后，右侧助手视图不显示存货相关信息",
+ "cause": "客户端使用的Win10系统近期进行了系统更新，导致U8控件失效",
+ "solution": "从同版本的电脑中拷贝U8ColAuthsvr.dll文件，放至U8安装路径下D:\\U8SOFT\\ufcomsql\\U8ColAuthsvr.dll，以管理员身份运行CMD，执行路径regsvr32 D:\\U8SOFT\\ufcomsql\\U8ColAuthsvr.dll，注册成功即可",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "助手视图"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VRxyNE7KDa"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

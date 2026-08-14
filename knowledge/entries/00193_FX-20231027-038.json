@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231027-038",
+ "record_id": "4UtJpDXt50",
+ "title": "OMS系统订单审核后，自动获取面单时报错快递未授权网点",
+ "problem": "OMS系统订单审核后，自动获取面单时报错快递未授权网点",
+ "cause": "点三OMS系统商家物流模块升级，未选中网点和相关配置",
+ "solution": "重新在店铺配置中选中相关快递网点，配置月结卡号。恢复关联，重新获取面单",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "快递未授权"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DZpL4JKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DZpL4JKMEvZBY",
+  "doc_path": "/其他/产品功能问题/OMS系统订单审核后，自动获取面单时报错快递未授权网点",
+  "record_id": "4UtJpDXt50"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/OMS系统订单审核后，自动获取面单时报错快递未授权网点",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230824-040",
+ "record_id": "87SSy0HGvS",
+ "title": "需要打印出部门费用明细表在不同的表页",
+ "problem": "需要打印出部门费用明细表在不同的表页",
+ "cause": "方便查看部门明细，做下个月的预算",
+ "solution": "1、修改打印模板中的字段将【用友】改为【表头字段】\n2、查询条件中的部门设置为表头\n3、打印导出选择不同的工作表",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "部门费用表"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-08-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7qopwW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7qopwW9dEq3XD",
+  "doc_path": "/用友/应用操作/需要打印出部门费用明细表在不同的表页",
+  "record_id": "87SSy0HGvS"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/需要打印出部门费用明细表在不同的表页",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241008-013",
+ "record_id": "x0cK0KhkPD",
+ "title": "微信小程序引入echarts图标再真机调试中无法显示",
+ "problem": "微信小程序引入echarts图标再真机调试中无法显示",
+ "cause": "canvas2d 暂不支持真机调试，图标无法出现",
+ "solution": "设置echart的属性：force-use-old-canvas=\"true\"，上线的时候去掉该属性即可",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "echarts 真机 不显示"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "x0cK0KhkPD"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

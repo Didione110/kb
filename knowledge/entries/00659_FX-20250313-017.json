@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250313-017",
+ "record_id": "GdyhzvwmFK",
+ "title": "仓库权限隔离销售出库参照不生效",
+ "problem": "仓库权限隔离销售出库参照不生效",
+ "cause": "so_saleorder_b.cbodywarehouseid发货仓库查询条件未勾选是否启用数据权限",
+ "solution": "找到库存销售出库单参照销售订单的查询模板，so_saleorder_b.cbodywarehouseid发货仓库查询条件勾选上是否启用数据权限。清除缓存再验证下",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-03-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GdyhzvwmFK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250730-048",
+ "record_id": "fM97K59opB",
+ "title": "系统切换时需要将图片附件切换至新系统（V10-DHERP）",
+ "problem": "系统切换时需要将图片附件切换至新系统（V10-DHERP）",
+ "cause": "系统切换时需要将图片附件切换至新系统（V10-DHERP）",
+ "solution": "1.将老系统的图片文件夹拷贝到新系统附件配置对应的文件夹；\n2.切换表数据：KmAttachment，PicLink；\n3.将KmAttachment，PicLink中entid，pictypeid，PLACEID根据新系统刷新对应（可在kmfolder，picdoc表中查到对应的值）。",
+ "solution_types": [
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "图片迁移"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fM97K59opB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

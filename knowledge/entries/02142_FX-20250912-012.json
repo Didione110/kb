@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250912-012",
+ "record_id": "sl8r2BFKkT",
+ "title": "\n配置了销售订单下推产品入库，但是在下推的时候，只有销售订单列表下推才显示成品入库，销售订单卡片状态不显示成品入库单",
+ "problem": "配置了销售订单下推产品入库，但是在下推的时候，只有销售订单列表下推才显示成品入库，销售订单卡片状态不显示成品入库单",
+ "cause": "订单明细得按钮默认无权限",
+ "solution": "需在订单的ui模板--页面配置中 对应得状态下配上显示 产品入库",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "下推异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-09-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sl8r2BFKkT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

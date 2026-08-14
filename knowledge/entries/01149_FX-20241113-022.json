@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241113-022",
+ "record_id": "TfVsi30cic",
+ "title": "总账查询科目余额表时期末余额为0，但是方向显示借方或者贷方，方向显示不对",
+ "problem": "总账查询科目余额表时期末余额为0，但是方向显示借方或者贷方，方向显示不对",
+ "cause": "1.请查询科目余额表时以数量金额式展开，检查是否有数量导致不平；\n2.查询账表时，按照所有币种展开，请检查是否存在外币金额；\n3.把当前的凭证全部导出为EXCEL，检查是否存在有多于两位小数的凭证金额，若有的话，请导出凭证，修改为两位小数后再导入系统即可。",
+ "solution": "1.请查询科目余额表时以数量金额式展开，检查是否有数量导致不平；\n2.查询账表时，按照所有币种展开，请检查是否存在外币金额；\n3.把当前的凭证全部导出为EXCEL，检查是否存在有多于两位小数的凭证金额，若有的话，请导出凭证，修改为两位小数后再导入系统即可。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "余额方向错误"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-11-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TfVsi30cic"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

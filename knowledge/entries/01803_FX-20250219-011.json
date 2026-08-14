@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250219-011",
+ "record_id": "ktnnRETH7V",
+ "title": "销售成本结转单新增的查询条件，是否发出商品：能否设置查询出全部的单子，目前不勾选查询的就是未做发出商品的，勾选就是查询发出商品的。",
+ "problem": "销售成本结转单新增的查询条件，是否发出商品：能否设置查询出全部的单子，目前不勾选查询的就是未做发出商品的，勾选就是查询发出商品的。",
+ "cause": "无",
+ "solution": "查询条件中将该查询字段去掉，或者修改为其他字段再查询，就可以显示所有单据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "发出商品"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-02-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ktnnRETH7V"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

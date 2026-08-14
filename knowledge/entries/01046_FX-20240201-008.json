@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240201-008",
+ "record_id": "QmAEb69eeH",
+ "title": "提取草稿时报错",
+ "problem": "提取草稿时报错",
+ "cause": "tomcat文件版本太老了",
+ "solution": "tomcat目录webapps\\ROOT\\form\\html里面文件draftselector.html新增<link rel=\"stylesheet\" type=\"text/css\" href=\"../../rest/theme\">\n新增后如还是不行更新最新的root即可",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "提取报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QmAEb69eeH"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

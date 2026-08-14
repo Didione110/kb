@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250411-016",
+ "record_id": "FomwUB31Hm",
+ "title": "增加公共段前完成的单据，后续推单报公共段的错误（详见文档）",
+ "problem": "增加公共段前完成的单据，后续推单报公共段的错误（详见文档）",
+ "cause": "制单时间在前，增加公共段在后（详见文档）",
+ "solution": "后台补充一下这个扩展字段的值，因为是布尔值，所有应该有默认值的，但是这个单据先做的，导致默认值为空（详见文档）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "公共段错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FomwUB31Hm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

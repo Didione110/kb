@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230504-001",
+ "record_id": "r13zsNGq9V",
+ "title": "V11业务单据界面录入数量后，无法通过退格键删除，只能按delete键删除",
+ "problem": "V11业务单据界面录入数量后，无法通过退格键删除，只能按delete键删除",
+ "cause": "经过排查，发现是ie壳的问题，更新到新版ie壳后问题解决",
+ "solution": "ie壳更新",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "IE",
+  "360浏览器"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "退格键失效"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "实施1部",
+  "date": "2023-05-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "r13zsNGq9V"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

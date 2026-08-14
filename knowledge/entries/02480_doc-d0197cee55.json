@@ -1,0 +1,30 @@
+{
+ "id": "doc-d0197cee55",
+ "record_id": "",
+ "title": "如何设置驳回默认回到上一节点而不是起草环节",
+ "problem": "如何设置驳回默认回到上一节点而不是起草环节",
+ "cause": "默认为拨回到起草节点",
+ "solution": "流程引擎-默认值设置-流程运行默认值-勾选“驳回时默认驳回到上一节点”即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA1LZZNWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA1LZZNWn4qY5Pr",
+  "doc_path": "/蓝凌OA/应用操作/如何设置驳回默认回到上一节点而不是起草环节"
+ },
+ "doc_path": "/蓝凌OA/应用操作/如何设置驳回默认回到上一节点而不是起草环节",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "doc-f219cd1c36",
+ "record_id": "",
+ "title": "忘记管理后台密码",
+ "problem": "忘记管理后台密码",
+ "cause": "忘记管理后台密码",
+ "solution": "现程序包支持可明文查看路径为\\\\EKP\\\\WEB-INF\\\\KmssConfig下admin.project文件，使用记事本打开即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn36bNxNJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn36bNxNJ9ekBD76",
+  "doc_path": "/蓝凌OA/安装部署问题/忘记管理后台密码"
+ },
+ "doc_path": "/蓝凌OA/安装部署问题/忘记管理后台密码",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

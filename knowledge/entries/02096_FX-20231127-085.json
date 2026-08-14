@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231127-085",
+ "record_id": "rNYdLBdvLi",
+ "title": "启动服务登录系统后，提示无授权许可",
+ "problem": "启动服务登录系统后，提示无授权许可",
+ "cause": "授权加密失效",
+ "solution": "尝试重启服务，重新注册加密，可按照附件方式 ，进行处理",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "授权许可"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rNYdLBdvLi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

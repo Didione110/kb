@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240930-046",
+ "record_id": "mSgoqj7rrZ",
+ "title": "原始订单状态是已发货或者已完成订单还需要在OMS系统中走流程",
+ "problem": "原始订单状态是已发货或者已完成订单还需要在OMS系统中走流程",
+ "cause": "默认原始订单是已发货或者已完成订单无法转单，系统认为已处理订单无需再进系统走流程",
+ "solution": "当原始订单状态是已发货或者已完成，系统只会记录更新原始订单状态不会在进行转单。但由于一些特殊场景，比如线下其他渠道发货了订单数据需要走OMS出面单和记账，可以临时开启开关支持已发货、已完成网销订单转单。处理完特殊订单后再关闭开关。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "已发货、已完成、OMS流程"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mSgoqj7rrZ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

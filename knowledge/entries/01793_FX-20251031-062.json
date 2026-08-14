@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251031-062",
+ "record_id": "kVz6tBldxE",
+ "title": "应付单（AP-2025100096）审批流总是异常中止，无法提交。",
+ "problem": "应付单（AP-2025100096）审批流总是异常中止，无法提交。",
+ "cause": "因为制单员选错了部门，导致流程无法找到下个节点。",
+ "solution": "重新选择正确的部门即可，并且将错误部门做好标识。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "审批异常"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kVz6tBldxE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

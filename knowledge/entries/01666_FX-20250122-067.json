@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250122-067",
+ "record_id": "hRNgbo81At",
+ "title": "跨版本还原sqlserver数据库后,操作查询都有卡顿的情况",
+ "problem": "跨版本还原sqlserver数据库后,操作查询都有卡顿的情况",
+ "cause": "还原后索引产生了大量碎片导致索引失效,需要按情况重新生成或重新组织索引",
+ "solution": "在不删除重建索引的情况下,可以使用如下语句查询需要处理的部分,使用对应生成的语句进行重新生成:\nSELECT OBJECT_SCHEMA_NAME(B.OBJECT_ID) 架构,OBJECT_NAME(B.OBJECT_ID) 表名,B.NAME 索引名,ROUND(A.AVG_FRAGMENTATION_IN_PERCENT,2) 碎片率,\n CASE WHEN A.AVG_FRAGMENTATION_IN_PERCENT>30 THEN N'重新生成索引' ELSE N'重新组织索引' END 处理方式,\n 'ALTER INDEX '+QUOTENAME(B.NAME)+' ON '+QUOTENAME(OBJECT_SCHEMA_NAME(B.OBJECT_ID))+'.'+QUOTENAME(OBJECT_NAME(B.OBJECT_ID))+' '\n +CASE WHEN A.AVG_FRAGMENTATION_IN_PERCENT>30 THEN 'REBUILD' ELSE 'REORGANIZE' END 生成SQL语句\nFROM sys.dm_db_index_physical_stats(DB_ID(),NULL,NULL,NULL,NULL) A INNER JOIN sys.indexes B ON A.OBJECT_ID=B.OBJECT_ID AND A.INDEX_ID=B.INDEX_ID\nWHERE A.AVG_FRAGMENTATION_IN_PERCENT>5 AND B.INDEX_ID>0\n --AND OBJECT_NAME(B.OBJECT_ID) like ('') --指定表\nORDER BY CASE WHEN A.AVG_FRAGMENTATION_IN_PERCENT>30 THEN N'重新生成索引' ELSE N'重新组织索引' END,OBJECT_NAME(B.OBJECT_ID),B.INDEX_ID",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "卡顿"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hRNgbo81At"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

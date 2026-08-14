@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240305-015",
+ "record_id": "T7v3lL7EKM",
+ "title": "诺诺发票数电，备注不超过200，之前非数电的是不超过230；",
+ "problem": "诺诺发票数电，备注不超过200，之前非数电的是不超过230；",
+ "cause": "诺诺发票数电，备注不超过200，之前非数电的是不超过230；",
+ "solution": "根据发票类型决定备注限字数",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "数电发票备注"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAMXqy8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAMXqy8GXn6lpz",
+  "doc_path": "/自研/数据接口问题/诺诺发票数电，备注不超过200，之前非数电的是不超过230；",
+  "record_id": "T7v3lL7EKM"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/诺诺发票数电，备注不超过200，之前非数电的是不超过230；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

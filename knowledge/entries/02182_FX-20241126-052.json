@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241126-052",
+ "record_id": "toMg6wwDnw",
+ "title": "诺诺发票视图，需要修改字段取值内容，修改后提示报错，复制语句单独执行又是正常。原视图运行正常，修改就报错",
+ "problem": "诺诺发票视图，需要修改字段取值内容，修改后提示报错，复制语句单独执行又是正常。原视图运行正常，修改就报错",
+ "cause": "oracle数据库视图不能识别cast函数",
+ "solution": "cast函数跟换成to\\_number即可",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "视图报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "李维",
+  "department": "服务值班组",
+  "date": "2024-11-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1gXogJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1gXogJyMoPYe1",
+  "doc_path": "/自研/应用操作/诺诺发票视图，需要修改字段取值内容，修改后提示报错，复制语句单独执行又是正常。原视图运行正常，修改就报错",
+  "record_id": "toMg6wwDnw"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/诺诺发票视图，需要修改字段取值内容，修改后提示报错，复制语句单独执行又是正常。原视图运行正常，修改就报错",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

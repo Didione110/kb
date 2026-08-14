@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230328-026",
+ "record_id": "7XGFTcES0s",
+ "title": "综合授信定义信用等级标准分类定义时，提示：范围在0-100不允许断层或重复",
+ "problem": "综合授信定义信用等级标准分类定义时，提示：范围在0-100不允许断层或重复",
+ "cause": "只设置了100-90、90-80、80-70，没有设置完整",
+ "solution": "从100一直设置到0为止，在进行保存",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "信用等级"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-03-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56L2jN8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56L2jN8xLq0Ee4",
+  "doc_path": "/用友/应用操作/综合授信定义信用等级标准分类定义时，提示：范围在0-100不允许断层或重复",
+  "record_id": "7XGFTcES0s"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/综合授信定义信用等级标准分类定义时，提示：范围在0-100不允许断层或重复",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

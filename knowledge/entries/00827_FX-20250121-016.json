@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250121-016",
+ "record_id": "LHK4argXTK",
+ "title": "多张固定资产生成凭证，固定资产科目不进行合并，银行存款科目进行合并。分录汇总方案怎么配置",
+ "problem": "多张固定资产生成凭证，固定资产科目不进行合并，银行存款科目进行合并。分录汇总方案怎么配置",
+ "cause": "多张固定资产生成凭证，固定资产科目不进行合并，银行存款科目进行合并。分录汇总方案怎么配置",
+ "solution": "找到--固定资产--的相关科目的会计科目规则，点进去，会计科目规则的科目【不勾选】，右下角的【参数，分录汇总生成】，银行科目这个参数勾选，然后分录汇总方案设置的时候会计科目相同合并，其他的参数正常设置即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目合并"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LHK4argXTK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

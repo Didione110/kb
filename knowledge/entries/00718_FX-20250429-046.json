@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250429-046",
+ "record_id": "IRBSpxIt6h",
+ "title": "采购订单明细表中采购部门查询条件新增不等于",
+ "problem": "采购订单明细表中采购部门查询条件新增不等于",
+ "cause": "需求",
+ "solution": "【查询模板初始化】找到对应查询条件，修改操作符编码，不等于是<>@，字段资源号需删除",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "不等于"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IRBSpxIt6h"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

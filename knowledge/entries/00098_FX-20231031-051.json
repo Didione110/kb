@@ -1,0 +1,47 @@
+{
+ "id": "FX-20231031-051",
+ "record_id": "2AlIcYVbG1",
+ "title": "一台客户端切换两个服务器登录，每次切换都会提示同步数据",
+ "problem": "一台客户端切换两个服务器登录，每次切换都会提示同步数据",
+ "cause": "在注册表中找到HKEY\\_LOCALMACHINE SOFTWARE WOW6432Node ufsoft WFV8.700\\\\Install SmartGuid 下smartclient，以一台服务器的为准，使客户端和服务器的值保持一致",
+ "solution": "在注册表中找到HKEY\\_LOCALMACHINE SOFTWARE WOW6432Node ufsoft WFV8.700\\\\Install SmartGuid 下smartclient，以一台服务器的为准，使客户端和服务器的值保持一致",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "数据同步"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1xzBPWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1xzBPWrMqPxX6",
+  "doc_path": "/用友/环境问题/一台客户端切换两个服务器登录，每次切换都会提示同步数据",
+  "record_id": "2AlIcYVbG1"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/一台客户端切换两个服务器登录，每次切换都会提示同步数据",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

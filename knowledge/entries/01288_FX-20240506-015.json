@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240506-015",
+ "record_id": "XrEvgxzMKa",
+ "title": "ksoa医保接口需要对接武汉医保相关功能",
+ "problem": "ksoa医保接口需要对接武汉医保相关功能",
+ "cause": "1. 商品明细校验的拦截和提示\n2. 顾客消费记录查询\n3. 武汉医保上传和查询，库存调整",
+ "solution": "以上要求已完成，已测试",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保对接"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1yPO3JlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1yPO3JlemrZQ3",
+  "doc_path": "/自研/数据接口问题/ksoa医保接口需要对接武汉医保相关功能",
+  "record_id": "XrEvgxzMKa"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/ksoa医保接口需要对接武汉医保相关功能",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

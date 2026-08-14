@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231107-029",
+ "record_id": "OuSD87tOVY",
+ "title": "系统数据导出与模板不对应，数据紊乱",
+ "problem": "系统数据导出与模板不对应，数据紊乱",
+ "cause": "数据集对应字段位置被更改",
+ "solution": "将数据集字段位置按照导出的模板的字段顺序进行排序即可",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据紊乱"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施4部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OuSD87tOVY"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

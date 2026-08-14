@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240529-065",
+ "record_id": "YCf4UwHx0j",
+ "title": "如何导入退货的销售订单，模板上没有退货标志？",
+ "problem": "如何导入退货的销售订单，模板上没有退货标志？",
+ "cause": "导入模板上，手工增加退货标志【bretinvflag】，且值维护成Y",
+ "solution": "导入模板上，手工增加退货标志【bretinvflag】，且值维护成Y",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "退货导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-05-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YCf4UwHx0j"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

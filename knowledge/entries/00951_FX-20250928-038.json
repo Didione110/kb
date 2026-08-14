@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250928-038",
+ "record_id": "OKuRPU65M9",
+ "title": "委外材料收发统计表和明细账两张报表，如何取消金额显示",
+ "problem": "委外材料收发统计表和明细账两张报表，如何取消金额显示",
+ "cause": "报表的栏目或者行分组中的金额等预想取消的字段无法通过标准功能取消显示时，可用此附件方法",
+ "solution": "报表的栏目或者行分组中的金额等预想取消的字段无法通过标准功能取消显示时，可用此附件方法",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "取消金额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-09-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OKuRPU65M9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221203-022",
+ "record_id": "eh0j2QCL6m",
+ "title": "时空智友前端自带的导出方法针对于数据条目太大的无法导出",
+ "problem": "时空智友前端自带的导出方法针对于数据条目太大的无法导出",
+ "cause": "本机内存不足以及产品功能限制",
+ "solution": "FormUtil.exportCNCsv('uf_sql_exlmx','sql','销售明细.csv',params,'Y');",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "导出失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eh0j2QCL6m"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

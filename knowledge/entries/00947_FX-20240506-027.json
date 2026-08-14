@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240506-027",
+ "record_id": "OJF7OPwMsn",
+ "title": "客户反应凭证未传入NCC系统",
+ "problem": "客户反应凭证未传入NCC系统",
+ "cause": "经过系统日志查看，提示借贷不平，通过语句排查汇总金额，借贷又是平的，然后逐条检查，发现传输顺序异常，同一个商品排序因为再多库房销售，导致排序错乱，最终导致借贷不平",
+ "solution": "调整系统排序逻辑，按NCC编号，时空商品编号，库房id排序",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "凭证未传"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OJF7OPwMsn"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

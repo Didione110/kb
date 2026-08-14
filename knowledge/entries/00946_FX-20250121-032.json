@@ -1,0 +1,48 @@
+{
+ "id": "FX-20250121-032",
+ "record_id": "OHzFctYWac",
+ "title": "有门店很多，进销存上传和每个月5262，5267下载保存，这种跟服务端，数据库交互有压力的",
+ "problem": "有门店很多，进销存上传和每个月5262，5267下载保存，这种跟服务端，数据库交互有压力的",
+ "cause": "数据量大，服务端获取数据和保存数据有压力",
+ "solution": "做了个直连数据库的医保辅助小程序。\n可以放连接医保网络的服务器上，在这个小程序上 上传所有门店的进销存，或者下载所有门店的医保结算列表（5262，5267）",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "高并发"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMoykqJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMoykqJB5r9YAn",
+  "doc_path": "/自研/数据接口问题/有门店很多，进销存上传和每个月5262，5267下载保存，这种跟服务端，数据库交互有压力的",
+  "record_id": "OHzFctYWac"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/有门店很多，进销存上传和每个月5262，5267下载保存，这种跟服务端，数据库交互有压力的",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

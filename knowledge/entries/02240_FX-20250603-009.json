@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250603-009",
+ "record_id": "vLwVX54nOs",
+ "title": "智慧医保中，单据申诉查询接口3701已测试，可以使用",
+ "problem": "智慧医保中，单据申诉查询接口3701已测试，可以使用",
+ "cause": "之前按照接口文档写的返回内容解析，没有测试过，返回内容节点跟实际不一致",
+ "solution": "3701返回节点修改解析，按实际返回去掉多余的节点",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "单据申诉查询"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vLwVX54nOs"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

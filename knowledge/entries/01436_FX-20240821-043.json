@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240821-043",
+ "record_id": "bJxTb34gC9",
+ "title": "填制凭证选择银行存款科目辅助核算时，出现了不属于本单位的银行账号",
+ "problem": "填制凭证选择银行存款科目辅助核算时，出现了不属于本单位的银行账号",
+ "cause": "银行这个实体存储的是客户和供应商档案上面维护的银行以及本单位的银行账号",
+ "solution": "在银行账号这个值集中添加过滤条件Org.Code=GetCurrentOrgCode() and UserType==FunEnum('开户人类型','组织',0)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "银行账号错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bJxTb34gC9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

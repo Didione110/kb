@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221106-019",
+ "record_id": "T9diYdkneC",
+ "title": "客户需求在表单提交的时候指定表单审核人",
+ "problem": "客户需求在表单提交的时候指定表单审核人",
+ "cause": "指定了审核人但审核过程中却不是这个人",
+ "solution": "在工作流实例化中的节点只选择运行时选择执行人（选择人的staffid）\n并添加addStaff(ds_djhz.field(\"staffid\").value)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "审核人"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "T9diYdkneC"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

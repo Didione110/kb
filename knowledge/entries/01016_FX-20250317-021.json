@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250317-021",
+ "record_id": "Q1pOqNTn6R",
+ "title": "出库单保存报错，登记往来账必须明确当前货币的币种",
+ "problem": "出库单保存报错，登记往来账必须明确当前货币的币种",
+ "cause": "出库单提取方案中主数据集语句未将CurrencyId字段带出或为空导致",
+ "solution": "提取方案主数据集语句加上CurrencyId,并加上是否为空函数判断",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "币种未指定"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2025-03-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Q1pOqNTn6R"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

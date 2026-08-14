@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250331-044",
+ "record_id": "SGMW8GjHDC",
+ "title": "客户想要设置单位部门报表，怎么设置公式？公式取会计科目发生额 ，自动取表头的登录选的关键字单位，辅助核算自动取表头的登录选的关键字部门？",
+ "problem": "客户想要设置单位部门报表，怎么设置公式？公式取会计科目发生额 ，自动取表头的登录选的关键字单位，辅助核算自动取表头的登录选的关键字部门？",
+ "cause": "无",
+ "solution": "可以参考附件设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "单位部门报表"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SGMW8GjHDC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

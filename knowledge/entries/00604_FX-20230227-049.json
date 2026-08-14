@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230227-049",
+ "record_id": "EoFXTy12gQ",
+ "title": "杂收单选择单据类型为‘生产退料’时，明细行生产页签必填‘产成品’字段",
+ "problem": "杂收单选择单据类型为‘生产退料’时，明细行生产页签必填‘产成品’字段",
+ "cause": "杂收单选择单据类型为‘生产退料’时，明细行生产页签必填‘产成品’字段",
+ "solution": "可以用‘修改部件’增加模板的方法解决，学会此方法可举一反三解决很多类似的需求",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "产成品必填"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EoFXTy12gQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

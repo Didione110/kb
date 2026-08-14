@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241127-053",
+ "record_id": "N9mOedf6dc",
+ "title": "凭证断号了，新增凭证无法自动编号",
+ "problem": "凭证断号了，新增凭证无法自动编号",
+ "cause": "打开凭证类型—系统编号原则里面，勾选“记录空号\"",
+ "solution": "打开凭证类型—系统编号原则里面，勾选“记录空号\"",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证断号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N9mOedf6dc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

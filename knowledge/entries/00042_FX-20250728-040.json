@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250728-040",
+ "record_id": "0zwAMBTcuE",
+ "title": "标准出货列表的后续调价，报错：必须加载行数据",
+ "problem": "标准出货列表的后续调价，报错：必须加载行数据",
+ "cause": "标准出货列表的后续调价，报错：必须加载行数据",
+ "solution": "列表中后续调价提示加载行数据时是需要做查询方案，显示出货行信息，进行才能后续调价，包括出货行信息.料品、出货行信息.定价等。修改单价格后，要【价格重算】，每行都要点一下，不点的行不生效",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "调价报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-07-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0zwAMBTcuE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

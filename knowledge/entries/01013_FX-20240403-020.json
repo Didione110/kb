@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240403-020",
+ "record_id": "PvLamNVI56",
+ "title": "怎么导出薪资模板在导入",
+ "problem": "怎么导出薪资模板在导入",
+ "cause": "数据接口默认没有模板，需要自己编辑一个模板，字段自己定义",
+ "solution": "数据接口默认没有模板，需要自己编辑一个模板，字段自己定义，定义好了导出模板，填写完毕之后在系统中重新计算",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "薪资模板"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PvLamNVI56"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

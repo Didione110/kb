@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251031-061",
+ "record_id": "m3j9PYIbHD",
+ "title": "码上放心自动上传",
+ "problem": "码上放心自动上传",
+ "cause": "有些客户维护了自定义编号，不想用单位名称对对应码上放心平台。",
+ "solution": "自动上传接口，应以自定义编号和单位名称两个维护去进行匹配，先进行自定义编号匹配，匹配不上的情况下再以单位名称去进行匹配。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自动上传"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "m3j9PYIbHD"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

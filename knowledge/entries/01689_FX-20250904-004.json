@@ -1,0 +1,48 @@
+{
+ "id": "FX-20250904-004",
+ "record_id": "hr9kVOpl4u",
+ "title": "诺诺接口开票员登录收不到短信验证码",
+ "problem": "诺诺接口开票员登录收不到短信验证码",
+ "cause": "诺诺接口开票员登录收不到短信验证码",
+ "solution": "诺诺开票账号需切换为非单机版，本地需卸载原登录开票单机版本诺诺数电发票软件",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "接口",
+  "打印",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "短信验证码"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2025-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hr9kVOpl4u"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

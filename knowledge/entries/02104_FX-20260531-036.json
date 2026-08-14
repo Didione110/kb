@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260531-036",
+ "record_id": "rbpbnJR9YS",
+ "title": "财务云-管理会计-生产领料调整事务应用说明",
+ "problem": "财务云-管理会计-生产领料调整事务应用说明",
+ "cause": "物料或成本域的计价方式是先进先出的，采购入库暂估成本入库了，未做采购结算前就做了出库，按暂估成本出库了，跨期做了采购结算，结算价格与暂估入库价格有差异，系统会自动追溯历史暂估出库成本，生成调整单，如果出库的材料领用，就会生成生成领料调整的会计事务，只有金额没有数量，调整暂估出库的出库成本",
+ "solution": "物料或成本域的计价方式是先进先出的，采购入库暂估成本入库了，未做采购结算前就做了出库，按暂估成本出库了，跨期做了采购结算，结算价格与暂估入库价格有差异，系统会自动追溯历史暂估出库成本，生成调整单，如果出库的材料领用，就会生成生成领料调整的会计事务，只有金额没有数量，调整暂估出库的出库成本",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "生产领料调整"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rbpbnJR9YS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

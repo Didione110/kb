@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230630-012",
+ "record_id": "OmNlJMshTz",
+ "title": "B2B订货管理门店端显示Index: 0, Size: 0",
+ "problem": "B2B订货管理门店端显示Index: 0, Size: 0",
+ "cause": "对应业务单元未设置库存组织",
+ "solution": "对应业务单元中添加库存组织属性",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "空集合"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OmNlJMshTz"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

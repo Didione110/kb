@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240105-017",
+ "record_id": "j349ICyjqv",
+ "title": "WMS对接ERP中的停售流程，将停售的品种在ERP中不能销售",
+ "problem": "WMS对接ERP中的停售流程，将停售的品种在ERP中不能销售",
+ "cause": "WMS对接ERP中的停售流程，将停售的品种在ERP中不能销售",
+ "solution": "在接口库skwms_jk中ZZERP_HaltSale_W表添加对应的触发器，回写对应的停售数量",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "停售对接"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "j349ICyjqv"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

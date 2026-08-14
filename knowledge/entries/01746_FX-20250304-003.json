@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250304-003",
+ "record_id": "jR8E4tQxFA",
+ "title": "月结对账不平，现在是查询5262表数据进行月结对账",
+ "problem": "月结对账不平，现在是查询5262表数据进行月结对账",
+ "cause": "MEDINS\\_STMT\\_FLAG 是医疗机构对账标志。此处的fund\\_pay\\_sumamt和acct\\_pay，请只统计 5262 交易下载下来，条件为 VALI FLAG ='1' andREFD SETL FLAG = '0'and MEDINS STMT FLAG ='0'的数据。MEDINS STMT FLAG='1’的数据是已经对完账且申请过月结的，不需要重复申请。setl optins 是清算经办机构，你如果想按区县进行申请，可以填区县统筹区号，比如420527,不填就是查询所有的数据。",
+ "solution": "在5262表增加MEDINS\\_STMT\\_FLAG字段，服务端重启生效。",
+ "solution_types": [
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "月结对账"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAeb4G8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAeb4G8GXn6lpz",
+  "doc_path": "/自研/数据错误问题/月结对账不平，现在是查询5262表数据进行月结对账",
+  "record_id": "jR8E4tQxFA"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/月结对账不平，现在是查询5262表数据进行月结对账",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

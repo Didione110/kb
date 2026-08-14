@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260406-003",
+ "record_id": "M1O8sFBRO4",
+ "title": "ERP与WMS库存数据核对问题",
+ "problem": "ERP与WMS库存数据核对问题",
+ "cause": "两边系统独立运行逻辑以及单据出入时间差，导致对账库存困难",
+ "solution": "新增库存对照报表",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存核对"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-04-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1qYr38BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1qYr38BQEx5rG",
+  "doc_path": "/时空/应用操作/ERP与WMS库存数据核对问题",
+  "record_id": "M1O8sFBRO4"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/ERP与WMS库存数据核对问题",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

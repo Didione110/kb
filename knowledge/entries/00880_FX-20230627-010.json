@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230627-010",
+ "record_id": "MdZJKhey0m",
+ "title": "当ISD无法获取SPS信息，登陆提示服务识别码无效",
+ "problem": "当ISD无法获取SPS信息，登陆提示服务识别码无效",
+ "cause": "环境问题，重装最新版ISD升级到3.7以后的版本，若仍无效则下载授权文件导入读取授权信息",
+ "solution": "1，在【服务圈】-【服务支持】-【用友绿色服务桌面】，下载最新版本的iSD用友绿色服务桌面并安装；\n2， 服务圈】-【服务支持】-【授权文件】，输入“服务识别码”下载授权文件。 服务圈网址：\nhttp://fwq.yonyou.com/up_service/index.php?r=index/index；\n3，打开iSD用友绿色服务桌面，点击【补丁服务】-【U8补丁更新】-【下载设置】，勾选【使用本地离线SPS授权文件】，点击【导入授权文件】，选择从服务圈下载的授权文件导入。",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "ISD、SPS、服务识别码"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MdZJKhey0m"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

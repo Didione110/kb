@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250620-024",
+ "record_id": "Zxlgm8NJNH",
+ "title": "NC65报表表间公式配置",
+ "problem": "NC65报表表间公式配置",
+ "cause": "操作问题",
+ "solution": "在报表表样，格式设设计界面，找到数据下的审核公式，高级审核页签为表间公式配置处，举例：\nTable.check(B43=MSELECT('K_02-&gt;净利润（净亏损以&ldquo;-&rdquo;号填列）本期金额'),'2,净利润与利润表不符','0,审核通过')",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "报表公式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-06-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Zxlgm8NJNH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

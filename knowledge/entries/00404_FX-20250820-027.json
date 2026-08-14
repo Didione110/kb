@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250820-027",
+ "record_id": "9nATtqoUTd",
+ "title": "有来源单据的付款单做了退款后怎么取消退款，且请款单不能被删除",
+ "problem": "有来源单据的付款单做了退款后怎么取消退款，且请款单不能被删除",
+ "cause": "有来源单据的付款单做了退款后怎么取消退款，且请款单不能被删除",
+ "solution": "因为北京的程序写的是一个半自动的，所以有很多需要人为操作\n1、关闭请款单\n2、在付款单界面点击【取消退款】\n3、删除应付核销单\n4、手工再次做请款单→付款单→收款单→应付核销单",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "退款取消"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-08-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1AlPbJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1AlPbJ63zgkYA",
+  "doc_path": "/用友/应用操作/有来源单据的付款单做了退款后怎么取消退款，且请款单不能被删除",
+  "record_id": "9nATtqoUTd"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/有来源单据的付款单做了退款后怎么取消退款，且请款单不能被删除",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

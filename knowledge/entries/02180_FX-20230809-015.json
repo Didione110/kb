@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230809-015",
+ "record_id": "tnT1Rjkdtr",
+ "title": "单位形态转换：转换后的单位和成本单位不同步，导致转换后还是盒  现场是由 盒 转换成 套",
+ "problem": "单位形态转换：转换后的单位和成本单位不同步，导致转换后还是盒 现场是由 盒 转换成 套",
+ "cause": "单单位修改单位需要使用实施工具进行修改，形态转换不支持，形态转换只支持临时的在库信息转换，且只能转换库存单位",
+ "solution": "使用ea下的单单位转换，转换前后的单位需要是同组的，且单位精度一致才可以",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "单位不同步"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tnT1Rjkdtr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240306-023",
+ "record_id": "hnGeWitR7i",
+ "title": "关于oracle，比case when 的语法更简便的写法",
+ "problem": "关于oracle，比case when 的语法更简便的写法",
+ "cause": "关于oracle，比case when 的语法更简便的写法",
+ "solution": "Select decode(a.k_psn_type,\n'11','在职'\n,'21','退休'\n,'31','离休'\n,'32','老红军'\n,'33','一至六级残废军人'\n,'34','医疗照顾人员'\n,'41','学龄前儿童'\n,'42','中小学生'\n,'43','大学生'\n,'50','成年居民(非从业)'\n,'60','老年居民'\n,'91','其他人员'\n,a.k_psn_type) As k_psn_type \nFrom retbillmt a \nWhere a.billno = 0",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "DECODE"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-03-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hnGeWitR7i"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

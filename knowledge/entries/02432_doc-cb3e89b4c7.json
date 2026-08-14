@@ -1,0 +1,30 @@
+{
+ "id": "doc-cb3e89b4c7",
+ "record_id": "",
+ "title": "流程结束但要删除附件",
+ "problem": "流程结束但要删除附件",
+ "cause": "数据库无法处理，前台存储的是XML文件",
+ "solution": "先将流程视图从view变成edit，再按F12再控制台输入Com\\_Submit(document.kmReviewMainForm, 'update')再进行操作，注意：此方法不适用于低代码平台",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbO9eA9JB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbO9eA9JB5r9YAn",
+  "doc_path": "/蓝凌OA/实施问题/流程结束但要删除附件"
+ },
+ "doc_path": "/蓝凌OA/实施问题/流程结束但要删除附件",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

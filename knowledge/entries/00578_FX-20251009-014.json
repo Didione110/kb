@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251009-014",
+ "record_id": "E6Pehy2Zee",
+ "title": "导出出库流水报错GC overhead limit exceeded\n",
+ "problem": "导出出库流水报错GC overhead limit exceeded",
+ "cause": "内存不够",
+ "solution": "在ulicent中u8c图标，右击“应用详情”中，编辑模式下将 最大内存 修改为3072 ，然后保存；清缓存后重新导出",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "GC内存溢出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "E6Pehy2Zee"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230116-008",
+ "record_id": "YIWuy08FXB",
+ "title": "保存凭证提示部门辅助核算是非末级，不允许保存",
+ "problem": "保存凭证提示部门辅助核算是非末级，不允许保存",
+ "cause": "无",
+ "solution": "在：辅助项输入控制规则节点，修改辅助核算项对应的科目，设置允许为空或允许为非末级",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "部门核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YIWuy08FXB"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

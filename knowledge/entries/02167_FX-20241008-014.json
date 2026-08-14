@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241008-014",
+ "record_id": "tPMbGBCetM",
+ "title": "进销存上传3501-3507，更换了带A的接口3501A-3507A之后，由单条数据调用接口变成批量数据上传，会报错 “调用国家医保接口出错!错误信息:该就地统筹区还未启用省医保接口!!!\n请核实就医地统区!!!”",
+ "problem": "进销存上传3501-3507，更换了带A的接口3501A-3507A之后，由单条数据调用接口变成批量数据上传，会报错 “调用国家医保接口出错!错误信息:该就地统筹区还未启用省医保接口!!!\n请核实就医地统区!!!”",
+ "cause": "应该是医保控件没有更新到可以使用批量上传接口A",
+ "solution": "改回原来不带A的接口，单条上传",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "统筹区未启用"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1e1YeWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1e1YeWdqbropQ",
+  "doc_path": "/自研/数据接口问题/进销存上传3501-3507，更换了带A的接口3501A-3507A之后，由单条数据调用接口变成批量数据上传，会报错",
+  "record_id": "tPMbGBCetM"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/进销存上传3501-3507，更换了带A的接口3501A-3507A之后，由单条数据调用接口变成批量数据上传，会报错",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

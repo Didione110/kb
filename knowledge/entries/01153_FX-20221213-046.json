@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221213-046",
+ "record_id": "TiPFhkW01d",
+ "title": "余额表输出excel提示未找到安装程序，程序可能未正确安装，使用office也会提示",
+ "problem": "余额表输出excel提示未找到安装程序，程序可能未正确安装，使用office也会提示",
+ "cause": "插件问题",
+ "solution": "找到U8SOFT\\3rdPrograms\\AccessDatabaseEngine.exe文件，重新执行AccessDatabaseEngine.exe安装",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Excel安装异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TiPFhkW01d"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

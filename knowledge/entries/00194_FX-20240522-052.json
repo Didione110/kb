@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240522-052",
+ "record_id": "4VzDJtuJ4t",
+ "title": "oracle 金额数据如何保留两位小数  显示 \n时空数据集是可以解决，\n\n但如何在数据库格式化显示的问题\n",
+ "problem": "oracle 金额数据如何保留两位小数 显示 \n时空数据集是可以解决，\n\n但如何在数据库格式化显示的问题",
+ "cause": "如果金额 为10.10时，在oracle中不会显示最后一个0",
+ "solution": "TO\\_CHAR(a.taxamount,'FM999999990.00')\n进行格式化显示",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "Oracle 金额 格式化"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-05-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1ZGXpWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1ZGXpWkb4Mw9r",
+  "doc_path": "/时空/产品功能问题/oracle 金额数据如何保留两位小数  显示  时空数据集是可以解决，  但如何在数据库格式化显示的问题",
+  "record_id": "4VzDJtuJ4t"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/oracle 金额数据如何保留两位小数  显示  时空数据集是可以解决，  但如何在数据库格式化显示的问题",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

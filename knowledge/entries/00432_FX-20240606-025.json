@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240606-025",
+ "record_id": "AZI1gyQsIy",
+ "title": "诺诺自动开票时，发现部分发票开票成功，但是时空未回写，且数智幸福时空查不到",
+ "problem": "诺诺自动开票时，发现部分发票开票成功，但是时空未回写，且数智幸福时空查不到",
+ "cause": "经排查发现k\\_nn\\_tempinv有数据，但k\\_nn\\_invmt无数据，导致接口未显示，也未回写；通过比对日志发现此类单据都是日志的最后一条，且无报错，分析原因为客户在开票过程中强制关闭了程序，或电脑强制关机导致开票程序终止，但发票已成功提交",
+ "solution": "提醒客户在开票途中无强行关闭程序；如夜间自动开票电脑不要设置关机",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "时空未回写"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-06-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1ZwpMWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1ZwpMWkb4Mw9r",
+  "doc_path": "/自研/数据错误问题/诺诺自动开票时，发现部分发票开票成功，但是时空未回写，且数智幸福时空查不到",
+  "record_id": "AZI1gyQsIy"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/诺诺自动开票时，发现部分发票开票成功，但是时空未回写，且数智幸福时空查不到",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

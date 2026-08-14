@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240407-031",
+ "record_id": "D7uF0c4549",
+ "title": "诺诺数电冲红，已开红字申请单，已快捷冲红，在查询红字发票时报错：请先扫脸完成身份认证，实际是在已扫脸已认证状态；",
+ "problem": "诺诺数电冲红，已开红字申请单，已快捷冲红，在查询红字发票时报错：请先扫脸完成身份认证，实际是在已扫脸已认证状态；",
+ "cause": "是快捷冲红时未扫脸认证，在发票查询时就一直报这个错误",
+ "solution": "冲红发票在诺诺网上面重新提交开具，在我们客户端程序上再来查询就正常了。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "扫脸认证"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNde7PYoJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNde7PYoJ2LD0oRE",
+  "doc_path": "/自研/环境问题/诺诺数电冲红，已开红字申请单，已快捷冲红，在查询红字发票时报错：请先扫脸完成身份认证，实际是在已扫脸已认证状态；",
+  "record_id": "D7uF0c4549"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/诺诺数电冲红，已开红字申请单，已快捷冲红，在查询红字发票时报错：请先扫脸完成身份认证，实际是在已扫脸已认证状态；",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

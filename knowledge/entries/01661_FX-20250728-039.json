@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250728-039",
+ "record_id": "hMagKDCtOX",
+ "title": "应付单匹配数量和立账数量不一致（匹配数量小于立账数量），且发票金额已经开具完，导致暂估未冲销完",
+ "problem": "应付单匹配数量和立账数量不一致（匹配数量小于立账数量），且发票金额已经开具完，导致暂估未冲销完",
+ "cause": "应付单匹配数量和立账数量不一致（匹配数量小于立账数量），且发票金额已经开具完，导致暂估未冲销完",
+ "solution": "继续参照收货单做应付单，立账数量手工修改为0，应付单金额修改为0",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "匹配异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-07-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hMagKDCtOX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

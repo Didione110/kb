@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240729-034",
+ "record_id": "HoibhfQcCo",
+ "title": "银企联已经有了CA 但是无法进行CA认证",
+ "problem": "银企联已经有了CA 但是无法进行CA认证",
+ "cause": "对应绑定的登录人员手机号，需要进行CA设置",
+ "solution": "修改用户设置，勾选CA用户，认证方式可以为CA认证或者短信认证，一单选择认证方式后，不再允许改为空，登录、切换公司时，均要验证认证方式",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SSL"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "CA认证失败"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "资产管理",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-07-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HoibhfQcCo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

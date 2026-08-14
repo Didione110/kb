@@ -1,0 +1,30 @@
+{
+ "id": "doc-acd63c20d6",
+ "record_id": "",
+ "title": "钉钉配置公文管理应用公文库搜索没有效果",
+ "problem": "钉钉配置公文管理应用公文库搜索没有效果",
+ "cause": "手机端放大镜使用的不是公文查询的筛选功能，使用的蓝凌统一搜索功能（全文检索）；统一搜索功能未配置导致搜索没数据",
+ "solution": "配置统一搜索服务并启动后即可使用",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgYPMgjlWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgYPMgjlWdqbropQ",
+  "doc_path": "/蓝凌OA/安装部署问题/钉钉配置公文管理应用公文库搜索没有效果"
+ },
+ "doc_path": "/蓝凌OA/安装部署问题/钉钉配置公文管理应用公文库搜索没有效果",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241031-060",
+ "record_id": "d4jqyuufp0",
+ "title": "无法连接外网，U8申请异机代办注册流程",
+ "problem": "无法连接外网，U8申请异机代办注册流程",
+ "cause": "1、编写申请异机代办注册的客户证明，申请加入白名单，走审批流程\n2、服务器上导出加密证书\n3、用可以访问外网的电脑注册，确认客户名称及许可信息，注册成功后下载文件\n4、在服务器上导入加密证书，重启服务",
+ "solution": "1、编写申请异机代办注册的客户证明，申请加入白名单，走审批流程\n2、服务器上导出加密证书\n3、用可以访问外网的电脑注册，确认客户名称及许可信息，注册成功后下载文件\n4、在服务器上导入加密证书，重启服务",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SSL"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "外网连接"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "d4jqyuufp0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

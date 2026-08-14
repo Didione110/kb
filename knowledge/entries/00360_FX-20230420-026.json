@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230420-026",
+ "record_id": "8gEDiSfDyM",
+ "title": "凭证打印要求只打印末级科目，不打印一级二级科目",
+ "problem": "凭证打印要求只打印末级科目，不打印一级二级科目",
+ "cause": "凭证打印要求只打印末级科目，不打印一级二级科目",
+ "solution": "调整凭证打印模板，在单元格内容进行编辑，移除科目显示名称 ，添加末级科目名称即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "末级科目"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-04-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNna36Jbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNna36Jbkz3BRL",
+  "doc_path": "/用友/应用操作/凭证打印要求只打印末级科目，不打印一级二级科目",
+  "record_id": "8gEDiSfDyM"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/凭证打印要求只打印末级科目，不打印一级二级科目",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

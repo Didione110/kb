@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250929-044",
+ "record_id": "OASDVBRsXL",
+ "title": "【工作流】非强制分支+排他分支导致自动排他分支同时流转\n【文档目的】详细描述了工作流中非强制分支与排他分支同时流转的问题现象、分析过程和解决方案，旨在帮助相关人员理解问题本质并采取相应措施。",
+ "problem": "【工作流】非强制分支+排他分支导致自动排他分支同时流转\n【文档目的】详细描述了工作流中非强制分支与排他分支同时流转的问题现象、分析过程和解决方案，旨在帮助相关人员理解问题本质并采取相应措施。",
+ "cause": "【非强制分支定义与特性】\n强制分支选项（位于流程图制作→自动条件）\n勾选状态行为:\n条件判断满足自动向下流转\n条件判断不满足则不走该分支\n取消勾选状态行为:\n条件判断满足弹出选择框再次确认后向下流转\n条件判断不满足则不走该分支",
+ "solution": "用户操作建议：仔细检查流程模板分支条件设置，根据业务需要将排他分支调整为手动选择分支",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "非强制分支"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-09-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlR7xL8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlR7xL8Zd1wyK0",
+  "doc_path": "/致远OA/应用操作/工作流非强制分支排他分支导致自动排他分支同时流转",
+  "record_id": "OASDVBRsXL"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/工作流非强制分支排他分支导致自动排他分支同时流转",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240930-043",
+ "record_id": "6ZDAt9Y18w",
+ "title": "阴凉品种补货，调入架位为常温架位",
+ "problem": "阴凉品种补货，调入架位为常温架位",
+ "cause": "检查商品资料问题",
+ "solution": "商品的存储条件正确，但是物流ABC没有维护，存储过程WMS\\_CKDD\\_GETBHLOCAT导致分配货位走到了最后一节点，只判断了物流大类这个条件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "阴凉补货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakYxPPJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakYxPPJgk9rpMq",
+  "doc_path": "/时空/应用操作/阴凉品种补货，调入架位为常温架位",
+  "record_id": "6ZDAt9Y18w"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/阴凉品种补货，调入架位为常温架位",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

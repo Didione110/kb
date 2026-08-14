@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221203-023",
+ "record_id": "QO8eMMDKSy",
+ "title": "发票各种字段超长提交报错，发票不超过230位；地址不能大于80位，电话不能大于20位，地址电话合计不能大于100位",
+ "problem": "发票各种字段超长提交报错，发票不超过230位；地址不能大于80位，电话不能大于20位，地址电话合计不能大于100位",
+ "cause": "发票不超过230位；地址不能大于80位，电话不能大于20位，地址电话合计不能大于100位",
+ "solution": "程序里提示超长，备注截断",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "超长校验"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeZ3bMJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeZ3bMJ2LD0oRE",
+  "doc_path": "/自研/数据接口问题/发票各种字段超长提交报错，发票不超过230位；地址不能大于80位，电话不能大于20位，地址电话合计不能大于100位",
+  "record_id": "QO8eMMDKSy"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/发票各种字段超长提交报错，发票不超过230位；地址不能大于80位，电话不能大于20位，地址电话合计不能大于100位",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231115-062",
+ "record_id": "CiYcFZG4mS",
+ "title": "键盘的F2键调用某个函数",
+ "problem": "键盘的F2键调用某个函数",
+ "cause": "键盘的F2键调用某个函数",
+ "solution": "function s1\\_onload()\\{\n document.onkeydown = function () \\{\n formOnKeyDown(event);\n \\};\n\n\\}\n\nfunction formOnKeyDown(event) \\{\n if (event.keyCode == 113)\n\n\\}\n\nasync function t1()\n\n在uf\\_onload()中加入\nasync function uf\\_onload()\n\n可以用键盘的F2调用t1()函数 。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "F2键功能"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-11-15"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7eALkW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7eALkW9dEq3XD",
+  "doc_path": "/时空/应用操作/键盘的F2键调用某个函数",
+  "record_id": "CiYcFZG4mS"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/键盘的F2键调用某个函数",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240130-063",
+ "record_id": "miMffRnLgl",
+ "title": "上传发货物流失败",
+ "problem": "上传发货物流失败",
+ "cause": "OMS接收到ERP推送的出库确认数据转化生成OMS原始出库单之后上传店铺发货物流时检测到平台已退款。",
+ "solution": "发起快递拦截，确认货品无问题之后，进行退货退款操作",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "物流失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "miMffRnLgl"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

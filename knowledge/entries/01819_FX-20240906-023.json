@@ -1,0 +1,37 @@
+{
+ "id": "FX-20240906-023",
+ "record_id": "lHKjl9kiF2",
+ "title": "在使用u8c的api进行对接时，摘要字段分为2部分，即在发送报文时explanation字段在detail和voucher2个子集均存在\n{\n\t\"voucher\" : [{\n\t\t\t\"details\" : [{\n\t\t\t\t\t\"explanation\" : \"测试0902熊啸会计\",  \n\t\t\t\t\t\"pk_accsubj\" : \"100202\",  \n\t\t\t\t\t\"pk_currtype\" : \"CNY\",  \n\t\t\t\t\t\"creditamount\" : 10,  \n\t\t\t\t\t\n\t\t\t\t}, {\n\t\t\t\t\t\"explanation\" : \"测试熊啸会计的供应商\",\n\t\t\t\t\t\"pk_accsubj\" : \"220201\",\n\t\t\t\t\t\"pk_currtype\" : \"CNY\",\n\t\t\t\t\t\"debitamount\" : 10, \n\t\t\t\t\t\"ass\" : [{\n\t\t\t\t\t\t\"checktypecode\" : \"73\",\n\t\t\t\t\t \n\t\t\t\t\t\t\"checkvaluecode\" : \"001069\" \n\t\t\t\t\t\t \n\t\t\t\t\t} \n\t\t\t\t]\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"pk_corp\" : \"0301\", \n\t\t\t\"pk_glorgbook\" : \"0301-TJ01\", \n\t\t\t\"pk_prepared\" : \"13297000330\", \n\t\t\t\"pk_vouchertype\" : \"记账\"  \n                       \"explanation\" : \"测试0902熊啸会计\",  \n\t\t}\n\t]\n}",
+ "problem": "在使用u8c的api进行对接时，摘要字段分为2部分，即在发送报文时explanation字段在detail和voucher2个子集均存在\n{\n \"voucher\" : [{\n \"details\" : [{\n \"explanation\" : \"测试0902熊啸会计\", \n \"pk_accsubj\" : \"100202\", \n \"pk_currtype\" : \"CNY\", \n \"creditamount\" : 10, \n \n }, {\n \"explanation\" : \"测试熊啸会计的供应商\",\n \"pk_accsubj\" : \"220201\",\n \"pk_currtype\" : \"CNY\",\n \"debitamount\" : 10, \n \"ass\" : [{\n \"checktypecode\" : \"73\",\n \n \"checkvaluecode\" : \"001069\" \n \n } \n ]\n }\n ],\n \"pk_corp\" : \"0301\", \n \"pk_glorgbook\" : \"0301-TJ01\", \n \"pk_prepared\" : \"13297000330\", \n \"pk_vouchertype\" : \"记账\" \n \"explanation\" : \"测试0902熊啸会计\", \n }\n ]\n}",
+ "cause": "在编制接口程序组织报文时，explanation根据经验会区分汇总和明细，但是U8c的前端页面，汇总摘要的显示方式并不是取的字段，而是取的凭证明细分录的第一行的摘要，容易给实施造成误解",
+ "solution": "组织json部分的 \"explanation\"字段时，保持内容与details明细条目的第一条的 \"explanation\"对应一致即可",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "摘要重复"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-09-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lHKjl9kiF2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

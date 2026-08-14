@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230220-033",
+ "record_id": "vN4ey7naeD",
+ "title": "一台客户端出现在U8中打任何字都显示为“？”",
+ "problem": "一台客户端出现在U8中打任何字都显示为“？”",
+ "cause": "系统自带的输入法问题",
+ "solution": "将系统自带的输入法删除（win11专业版删除步骤：电脑右下角，右键点击系统中的输入法，选择更多键盘设置——进入界面后，点击中文后面的三个点——在列表中点击“语言选项”——点击要删除输入法后面的三个点，点击删除即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "字符乱码"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vN4ey7naeD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

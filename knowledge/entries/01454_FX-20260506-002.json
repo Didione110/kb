@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260506-002",
+ "record_id": "bosig8oUOp",
+ "title": "因客户财务系统用的是金蝶系统，对接财务接口传明细的的时候，两分钟传输一条明细，零售的明细条目数比较多，现客户要求所有明细汇总传输",
+ "problem": "因客户财务系统用的是金蝶系统，对接财务接口传明细的的时候，两分钟传输一条明细，零售的明细条目数比较多，现客户要求所有明细汇总传输",
+ "cause": "一次传输多条会导致传输数据失败",
+ "solution": "目前根据现有明细转出汇总明细，每天晚上自动生成对应汇总数据，按照汇总数据传输",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "金蝶、明细、汇总"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2026-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bosig8oUOp"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

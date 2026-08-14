@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240124-032",
+ "record_id": "uUF5goJayb",
+ "title": "微信小程序列表局部更改数据失败",
+ "problem": "微信小程序列表局部更改数据失败",
+ "cause": "小程序中直接更改数据不起效",
+ "solution": "使用setData给data中数据赋值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "局部更新失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-01-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uUF5goJayb"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

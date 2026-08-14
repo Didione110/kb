@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231206-018",
+ "record_id": "Bkh3OrHKTc",
+ "title": "查询一个字段在哪些表存在，长度多少",
+ "problem": "查询一个字段在哪些表存在，长度多少",
+ "cause": "查询一个字段在哪些表存在，长度多少",
+ "solution": "--查询一个字段在哪些表存在\nselect a.name,b.length\nfrom sysobjects a,syscolumns b\nwhere b.name='spid' and a.id=b.id",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "字段查询"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7p0z3M8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7p0z3M8gN7R35y",
+  "doc_path": "/时空/应用操作/查询一个字段在哪些表存在，长度多少",
+  "record_id": "Bkh3OrHKTc"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/查询一个字段在哪些表存在，长度多少",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

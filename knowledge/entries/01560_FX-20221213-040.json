@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221213-040",
+ "record_id": "esRsdSedpD",
+ "title": "材料出库单列表增加自定义查询条件，自定义查询条件为表体备注项",
+ "problem": "材料出库单列表增加自定义查询条件，自定义查询条件为表体备注项",
+ "cause": "表体备注项或者自定义项不在系统预置的查询条件中，所以查询的时候无法按此字段过滤",
+ "solution": "在查询条件中创建查询方案，选择显示SQL，增行，将表体备注或自定义项后台字段，按要求进行设置，如设置常用条件，设置枚举，后台对应的字段等，添加完毕后保存条件即可使用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "备注查询"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "esRsdSedpD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

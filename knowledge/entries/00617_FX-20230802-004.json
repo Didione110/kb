@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230802-004",
+ "record_id": "FHDYPz3s3A",
+ "title": "U8查询账表提示Fail由于文件组\"PRIMARY 中的磁盘空间不足，无法为数据库\"tempdb'分配新页",
+ "problem": "U8查询账表提示Fail由于文件组\"PRIMARY 中的磁盘空间不足，无法为数据库\"tempdb'分配新页",
+ "cause": "物理文件所在磁盘空间不足，一般都是数据库log文件异常涨大或者自动备份没有自动清除导致",
+ "solution": "数据库文件异常涨大考虑中毒，排查环境后重装解决\n其余情况清除磁盘空间即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "磁盘空间不足"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FHDYPz3s3A"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

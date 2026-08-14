@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240805-012",
+ "record_id": "o6SogT6U5F",
+ "title": "平台订单未到预约时间，转单成功待审核找不到订单。",
+ "problem": "平台订单未到预约时间，转单成功待审核找不到订单。",
+ "cause": "网销订单离预约处理时间未到，订单没有激活。",
+ "solution": "点三系统订单设置离预约时间设置天数修改大一点，在时间范围内，会自动激活订单，在客审功能中就会正常显示。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "订单丢失"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "o6SogT6U5F"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240624-040",
+ "record_id": "MfmZPZEvtq",
+ "title": "V10中生僻字无法打印",
+ "problem": "V10中生僻字无法打印",
+ "cause": "V10暂时无法支持",
+ "solution": "可以使用转PDF方法进行解决。过程比较复杂。但是可以达到打印出生僻字的要求。",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "生僻字打印"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-06-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MfmZPZEvtq"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

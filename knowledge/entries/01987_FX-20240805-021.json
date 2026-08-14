@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240805-021",
+ "record_id": "ow92Rr4ZzI",
+ "title": "武汉市医保门店转医保接口使用后，8月首次在接口里面做月结一直提示月结存在差异",
+ "problem": "武汉市医保门店转医保接口使用后，8月首次在接口里面做月结一直提示月结存在差异",
+ "cause": "经过反复核对发现武汉有一写特殊群体，其医保属于“省直”医保，这类医保不能与其它医保卡一起发起月结，必须要单据进行月结",
+ "solution": "月结功能新增是否“省直”判断，非“省直”卡一起月结，“省直”卡单独推送即可",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "月结差异"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AxeKAJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AxeKAJ5daZ90D",
+  "doc_path": "/自研/应用操作/武汉市医保门店转医保接口使用后，8月首次在接口里面做月结一直提示月结存在差异",
+  "record_id": "ow92Rr4ZzI"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/武汉市医保门店转医保接口使用后，8月首次在接口里面做月结一直提示月结存在差异",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

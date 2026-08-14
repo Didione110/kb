@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240605-017",
+ "record_id": "rVXoIMy2aU",
+ "title": "连锁门店调价单，进行门店多选时候按钮无效，并且每点一次菜单功能名称就会多出一个空格问题",
+ "problem": "连锁门店调价单，进行门店多选时候按钮无效，并且每点一次菜单功能名称就会多出一个空格问题",
+ "cause": "控件问题",
+ "solution": "找北京更新root文件包",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "调价单 多选 无效 空格"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "集团管理模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rVXoIMy2aU"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260131-023",
+ "record_id": "l8VuecOfKz",
+ "title": "【致信】如何开启群消息已读未读功能",
+ "problem": "【致信】如何开启群消息已读未读功能",
+ "cause": "OA版本已是V9.0SP1及以上版本，群消息如何支持已读未读？\n【注：V9.0SP1之前版本，不支持致信群消息显示已读未读功能】",
+ "solution": "1、如果有可视化的SeeyonConfig配置工具，例如OA服务是Windows环境，找到【插件参数配置】修改\"M3致信群消息已读未读开关设置\"，即【m3.zxgroupmsgswitch.enabled】配置为：true。\n注：V9.0SP1之前版本在SeeyonConfig中看不到该选项\n2、如果没有可视化的SeeyonConfig配置工具，例如OA服务是Linux或国产化的环境，执行如下操作：\n修改base/conf/plugin.properties，增加一条：m3.zxgroupmsgswitch.enabled = true\n3、重启OA",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "已读未读"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "致信",
+ "meta": {
+  "submitter": "李冲",
+  "department": "客户成功部",
+  "date": "2026-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "l8VuecOfKz"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

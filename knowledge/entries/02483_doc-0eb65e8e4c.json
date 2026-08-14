@@ -1,0 +1,30 @@
+{
+ "id": "doc-0eb65e8e4c",
+ "record_id": "",
+ "title": "sqlserver数据库死锁怎么解决",
+ "problem": "sqlserver数据库死锁怎么解决",
+ "cause": "当蓝凌OA系统卡顿线程出现无法释放，首先可以通过线程快照看线程是否死锁在数据库上面，找到对应的线程，看是否出现net.sourceforge.jtds.jdbc关键字",
+ "solution": "处理方法见附件",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn36lNKZJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn36lNKZJ9ekBD76",
+  "doc_path": "/蓝凌OA/环境问题/sqlserver数据库死锁怎么解决"
+ },
+ "doc_path": "/蓝凌OA/环境问题/sqlserver数据库死锁怎么解决",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "环境问题"
+ ]
+}

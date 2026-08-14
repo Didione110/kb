@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240926-032",
+ "record_id": "SOydKQUaAZ",
+ "title": "2022年年末试算平衡，2023年期初结转过来不平",
+ "problem": "2022年年末试算平衡，2023年期初结转过来不平",
+ "cause": "底层科目档案末级标识有误",
+ "solution": "是222101科目与下级一起参与了多次汇总到一级导致，数据库检查科目档案\nselect * from code where ccode='222101' and iyear='2023'\n发现222101作为下面还有下级的科目打上了末级标识（bend='1'），执行语句修改\nupdate code set bend='0' where ccode='222101' and iyear='2023'\n执行成功后重新结转，解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "试算不平"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-09-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SOydKQUaAZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

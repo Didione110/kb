@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230421-029",
+ "record_id": "4CfFkAOzIr",
+ "title": "凭证制单怎么自动带出上条分录的信息：摘要、科目、辅助核算等信息",
+ "problem": "凭证制单怎么自动带出上条分录的信息：摘要、科目、辅助核算等信息",
+ "cause": "可通过修改公司级参数处理",
+ "solution": "公司级参数：GL172，参数名称：分录增行自动携带字段设置，勾选需要带出的信息即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证制单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-04-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4CfFkAOzIr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

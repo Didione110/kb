@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231106-023",
+ "record_id": "EN9GTNKxAT",
+ "title": "关于oracle数据库使用listagg函数拼接字段为中文时显示乱码问题",
+ "problem": "关于oracle数据库使用listagg函数拼接字段为中文时显示乱码问题",
+ "cause": "关于oracle数据库使用listagg函数拼接字段为中文时显示乱码问题",
+ "solution": "拼接字段先使用to\\_char进行字符格式转换",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Oracle乱码"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp129YDJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp129YDJMGjLRb3",
+  "doc_path": "/时空/实施问题/关于oracle数据库使用listagg函数拼接字段为中文时显示乱码问题",
+  "record_id": "EN9GTNKxAT"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/关于oracle数据库使用listagg函数拼接字段为中文时显示乱码问题",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

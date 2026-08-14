@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251120-024",
+ "record_id": "d7BtLxngwH",
+ "title": "导入的医保编码数据库数据重复",
+ "problem": "导入的医保编码数据库数据重复",
+ "cause": "导入的医保编码数据库数据重复",
+ "solution": "删除重复项（oracle）\ndelete FROM K_YBBM_YP20251027（表） t\nWHERE t.ROWID NOT IN (\n SELECT MIN(ROWID) -- 保留每组中 ROWID 最小的1条（也可用 MAX(ROWID) 保留最新）\n FROM K_YBBM_YP20251027（表）\n GROUP BY 药品代码 -- 按这些字段分组（重复的依据）\n HAVING COUNT(*) > 1 -- 只处理有重复的组（可选，提升效率）\n);",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保重复"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店管理模块",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2025-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "d7BtLxngwH"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

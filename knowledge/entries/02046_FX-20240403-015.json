@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240403-015",
+ "record_id": "qEWITPAXK5",
+ "title": "U818安装完成后无法获取机器特征码",
+ "problem": "U818安装完成后无法获取机器特征码",
+ "cause": "环境问题",
+ "solution": "可尝试更新LS补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "特征码"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qEWITPAXK5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

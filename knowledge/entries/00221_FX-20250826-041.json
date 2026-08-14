@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250826-041",
+ "record_id": "5Java85mIx",
+ "title": "有些料品是当期出库，但是无法对应到哪个生产订单，需要进到有这个料品领用的生产订单成本中。要如何处理？",
+ "problem": "有些料品是当期出库，但是无法对应到哪个生产订单，需要进到有这个料品领用的生产订单成本中。要如何处理？",
+ "cause": "料品不在BOM内或月底发现有差异。",
+ "solution": "可以使用【盘点差异倒冲】功能、处理方式=【领料退料】，此模式下会将盘盈、盘亏数量按照当期生产订单耗用此物料的比例进行自动分摊到相应工单中，能够更准确的分摊材料成本。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "料品归属"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-08-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5Java85mIx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

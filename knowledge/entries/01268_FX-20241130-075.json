@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-075",
+ "record_id": "XOWqK39bqF",
+ "title": "系统每隔十分钟无操作会自动下线，根据手册修改Tomcat参数重启服务后不生效",
+ "problem": "系统每隔十分钟无操作会自动下线，根据手册修改Tomcat参数重启服务后不生效",
+ "cause": "无操作自动下线不调用Tomcat中的参数，需要在admin.do中、多服务器配置中调整。",
+ "solution": "开启多服务器配置，调整对应有效期即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "自动下线"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XOWqK39bqF"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

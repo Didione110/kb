@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230116-014",
+ "record_id": "tAPOKUCsJE",
+ "title": "U8打印模板活动文本上传图片显示一串码",
+ "problem": "U8打印模板活动文本上传图片显示一串码",
+ "cause": "图片格式不对，虽然上传支持PNG与JPG，但是有的环境会有限制，只支持BMP格式",
+ "solution": "将原本需要上传的图标用bmp打开，修改水平与垂直精度，在另存为Bmp格式，测试预览无问题",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "图片显示异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tAPOKUCsJE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

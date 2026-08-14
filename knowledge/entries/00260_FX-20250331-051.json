@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250331-051",
+ "record_id": "6AsLi5sfq9",
+ "title": "wms正常流程，用手持上架，验收时，未生成上架数据。",
+ "problem": "wms正常流程，用手持上架，验收时，未生成上架数据。",
+ "cause": "有开关未正常开启。",
+ "solution": "是否启用WMS：是\n是否使用工具收货：否\n准备WMS接口：是\n上述三个开关要进行正常开启。我们是用手持上架，所以使用工具收货为否",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "上架失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O04Z1gVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O04Z1gVDOnGvpb",
+  "doc_path": "/时空/应用操作/wms正常流程，用手持上架，验收时，未生成上架数据。",
+  "record_id": "6AsLi5sfq9"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/wms正常流程，用手持上架，验收时，未生成上架数据。",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

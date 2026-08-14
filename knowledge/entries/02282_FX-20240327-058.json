@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240327-058",
+ "record_id": "w3Z755keM4",
+ "title": "银海７２０９接口，参数需要根据文档一致，区分大小写",
+ "problem": "银海７２０９接口，参数需要根据文档一致，区分大小写",
+ "cause": "别的接口没有这个要求，７２０９需要",
+ "solution": "按文档区分大小写",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "银海接口"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w3Z755keM4"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

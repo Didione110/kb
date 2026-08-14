@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230903-005",
+ "record_id": "i9zzZh95LF",
+ "title": "智慧医保处方流转流程完成后，在销售药品2101，2102时要调用7207药品出库接口",
+ "problem": "智慧医保处方流转流程完成后，在销售药品2101，2102时要调用7207药品出库接口",
+ "cause": "智慧医保处方流转流程完成后，在销售药品时要调用7207药品出库接口",
+ "solution": "在传入数据中增加处方的节点，智慧医保识别到整个节点，就会调用7207接口，没有整个节点则是正常的结算流程",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "处方流转"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-09-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5AZE9xJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5AZE9xJ5daZ90D",
+  "doc_path": "/自研/数据接口问题/智慧医保处方流转流程完成后，在销售药品2101，2102时要调用7207药品出库接口",
+  "record_id": "i9zzZh95LF"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/智慧医保处方流转流程完成后，在销售药品2101，2102时要调用7207药品出库接口",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

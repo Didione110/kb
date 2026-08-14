@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230529-022",
+ "record_id": "BGSPRWnyPy",
+ "title": "同步许可提示failed:1091，无法同步",
+ "problem": "同步许可提示failed:1091，无法同步",
+ "cause": "停止所有服务后删除U8SOFT/SoftSecurity/data文件夹中的.temp文件，重新启动服务后再同步许可",
+ "solution": "停止所有服务后删除U8SOFT/SoftSecurity/data文件夹中的.temp文件，重新启动服务后再同步许可",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "同步失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BGSPRWnyPy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

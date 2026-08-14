@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250627-040",
+ "record_id": "wSGxqkqt88",
+ "title": "客户的测试环境打补丁问题，报错现象：测试环境 打开是没有许可的状态，并且报错： 导入Licence的过程中出现了异常!错误信息:没有终结点在侦听可以接受消息的******。 这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见InnerException 以了解详细信息。 点击企业报如附件错误：无法找到命令GetAllServerMachineNameAndNFReleaseKeyCommand QQ 1758264913",
+ "problem": "客户的测试环境打补丁问题，报错现象：测试环境 打开是没有许可的状态，并且报错： 导入Licence的过程中出现了异常!错误信息:没有终结点在侦听可以接受消息的******。 这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见InnerException 以了解详细信息。 点击企业报如附件错误：无法找到命令GetAllServerMachineNameAndNFReleaseKeyCommand QQ 1758264913",
+ "cause": "最优解：\n1、导入最新SLC补丁，重新升级引擎--升级管理客户端，再打补丁\n如问题依然存在：\n2、cmd运行：telnet u9csrv01（服务器机器名） 80（端口）\n但首先windows server安装telnet客户端 如果连接失败，就是网络不通，需要放开80端口\n3、host文件需要配置，特别是云服务器，正式和测试都要配置IP加机器名",
+ "solution": "最优解：\n1、导入最新SLC补丁，重新升级引擎--升级管理客户端，再打补丁\n如问题依然存在：\n2、cmd运行：telnet u9csrv01（服务器机器名） 80（端口）\n但首先windows server安装telnet客户端 如果连接失败，就是网络不通，需要放开80端口\n3、host文件需要配置，特别是云服务器，正式和测试都要配置IP加机器名",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "许可、补丁、终结点"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wSGxqkqt88"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

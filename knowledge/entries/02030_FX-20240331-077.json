@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240331-077",
+ "record_id": "pteoPMZilN",
+ "title": "应付单的无税金额乘以13%的税率后计算的税额是不对的",
+ "problem": "应付单的无税金额乘以13%的税率后计算的税额是不对的",
+ "cause": "扣税类型的计算方式：应税内含的话就是表体无税金额＝价税合计*(1－税率） ；应税外加的话是表体无税金额＝价税合计/（1+税率）。",
+ "solution": "点击上面的格式设置--表头栏目，把扣税类别放出来，之后就看表头的扣税类别字段，选择的是应税内含还是应税外加",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "税额计算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pteoPMZilN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

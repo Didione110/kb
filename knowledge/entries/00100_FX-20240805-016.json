@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240805-016",
+ "record_id": "2Bi4gBYajQ",
+ "title": "智慧医保，5262，5267 结算列表查询中，多显示基金支付金额字段；",
+ "problem": "智慧医保，5262，5267 结算列表查询中，多显示基金支付金额字段；",
+ "cause": "客户需求看到各种统筹基金报销金额",
+ "solution": "在界面上增加字段显示",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "基金支付"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2Bi4gBYajQ"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

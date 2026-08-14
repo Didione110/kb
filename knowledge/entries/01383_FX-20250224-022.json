@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250224-022",
+ "record_id": "ZuB8PKOtKi",
+ "title": "成本管理，定额分配标准，为什么查出来的数据同一个物料两个成本中心，我工单就只有一行记录，只有一个部门？",
+ "problem": "成本管理，定额分配标准，为什么查出来的数据同一个物料两个成本中心，我工单就只有一行记录，只有一个部门？",
+ "cause": "定额分配标准表的产品信息来源于计划成本对象，计划成本对象来源为：\n\nbom母件+版本号+子件领料部门，若子件领料部门有多个，就有多个计划成本对象。\n生产订单母件+版本号+生产部门\n非标订单会刷新出一条空版本号计划成本对象。",
+ "solution": "定额分配标准表的产品信息来源于计划成本对象，计划成本对象来源为：\n\nbom母件+版本号+子件领料部门，若子件领料部门有多个，就有多个计划成本对象。\n生产订单母件+版本号+生产部门\n非标订单会刷新出一条空版本号计划成本对象。",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "定额分配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZuB8PKOtKi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

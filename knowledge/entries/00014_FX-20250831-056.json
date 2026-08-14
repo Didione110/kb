@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250831-056",
+ "record_id": "0SlVGqjG1B",
+ "title": "仓库在使用PDA扫码入库的时候形成了两张一模一样的入库单。并且全部审核入库。",
+ "problem": "仓库在使用PDA扫码入库的时候形成了两张一模一样的入库单。并且全部审核入库。",
+ "cause": "PDA在扫码的过程中会有网络连接异常的情况，造成了已经收货了但是显示没有收货成功，收货员会在扫一遍，则形成了两张入库单。",
+ "solution": "设置PDA在扫码的时候如果已经扫过这张码则会提示该料品已经入库的报错提示。在U9C系统层面则限制收货比例，不允许重复收货。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "重复入库"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0SlVGqjG1B"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

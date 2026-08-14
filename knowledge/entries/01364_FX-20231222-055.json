@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231222-055",
+ "record_id": "ZQn9clPUjO",
+ "title": "SQL效率太低，对应有索引，但是没有执行索引",
+ "problem": "SQL效率太低，对应有索引，但是没有执行索引",
+ "cause": "SQL效率太低，对应有索引，但是没有执行索引，有可能索引无效。",
+ "solution": "1.可以删除索引，再进行重建索引\n drop index idx_yh_r3505t_st ;\n create index idx_yh_r3505t_st on k_yinhai_rpt3505_t(sel_retn_time) online;\n\n2.也可以进行直接重建，不用删除，\nalter index idx_yh_r3505t_st rebuild online;\n说明： rebuild online 方式比较快，可以在24*7环境中实现，建议使用此方式。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "PolarDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "索引未用"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-12-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZQn9clPUjO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

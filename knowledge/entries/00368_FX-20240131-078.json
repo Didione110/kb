@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240131-078",
+ "record_id": "8rLApaMO9o",
+ "title": "采购订单表头上有系统预制项目字段，采购入库单的表头上没有",
+ "problem": "采购订单表头上有系统预制项目字段，采购入库单的表头上没有",
+ "cause": "系统暂不支持，需要提问写公式",
+ "solution": "可用自定义项代替，在单据表头重新定义一个字段用来当做项目，关联项目。后续单据一一对应关联即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "项目字段缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmowawJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmowawJqjMp697",
+  "doc_path": "/用友/应用操作/采购订单表头上有系统预制项目字段，采购入库单的表头上没有",
+  "record_id": "8rLApaMO9o"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/采购订单表头上有系统预制项目字段，采购入库单的表头上没有",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

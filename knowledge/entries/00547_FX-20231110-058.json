@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231110-058",
+ "record_id": "DSN4Zs18k6",
+ "title": "年结后有150+个账户都是暂停状态，需要手工启用",
+ "problem": "年结后有150+个账户都是暂停状态，需要手工启用",
+ "cause": "用友U8出纳年结设计如此，修改启用参数后可解决当年此问题",
+ "solution": "select IsUsed,* from cn_acctinfo where lYear =2023\nupdate cn_acctinfo set IsUsed=1 where lYear =2023 and IsUsed=2\n执行后出纳模块运行无问题",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "年结账户暂停"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-11-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DSN4Zs18k6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "效率问题"
+ ]
+}

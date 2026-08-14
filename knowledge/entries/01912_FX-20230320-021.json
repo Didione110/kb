@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230320-021",
+ "record_id": "nTX3uHJ6Wz",
+ "title": "天高登录提示“yswbserver域名没有返回合法的监听端口信息”",
+ "problem": "天高登录提示“yswbserver域名没有返回合法的监听端口信息”",
+ "cause": "服务器意外断网导致",
+ "solution": "服务器中，查询天高状态查看器（http://127.0.0.1:40000/），判断此报错是早上八点服务器断网导致，在任务管理器结束GNTKProProxy.exe进程（或者直接重启），再重新登录天联即可",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "域名解析"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nTX3uHJ6Wz"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241031-050",
+ "record_id": "EUPH6fkcPs",
+ "title": "【DEE】CIP集成平台--数据交换--DEE控制台--任务监控--任务执行 打开提示黄色感叹号报错",
+ "problem": "【DEE】CIP集成平台--数据交换--DEE控制台--任务监控--任务执行 打开提示黄色感叹号报错",
+ "cause": "DEE的日志文件受损导致的",
+ "solution": "##8.0——8.0SP2LTS版本处理方式：\n1、停止OA服务，windows系统了，打开任务管理器，排查一下OA进程是否释放，没释放掉人为\"杀掉oa进程\"\n2、将A8\\base\\dee\\data下除了dee.mv.db或dee.h2.db外的，其他2个文件(dee.trace.db、dee.lock.db) 删除\n3、删除A8\\base\\dee\\history下所有文件(没有history文件夹则不用管这个)\n4、重启OA，连接上dee数据库\n备注:集群OA的话每个节点需要做一次上面的操作\n\n##8.0以下版本：\n由于8.0以下版本，dee任务的数据和执行记录同在一个数据库文件里面，所以处理步骤如下：\n第一步：从A8的base/dee/drpHistory文件中取最新日期的备份dee任务drp文件，为避免最新日期的也受损了无法使用，就挨个日期往下测试，那天可以使用就使用那天的。",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "DEE任务监控"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "dee数据引擎",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNym7pqP8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNym7pqP8xkXOEP2",
+  "doc_path": "/致远OA/数据错误问题/DEE CIP集成平台--数据交换--DEE控制台--任务监控--任务执行 打开提示黄色感叹号报错",
+  "record_id": "EUPH6fkcPs"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/数据错误问题/DEE CIP集成平台--数据交换--DEE控制台--任务监控--任务执行 打开提示黄色感叹号报错",
+ "category": [
+  "致远OA",
+  "数据错误问题"
+ ]
+}

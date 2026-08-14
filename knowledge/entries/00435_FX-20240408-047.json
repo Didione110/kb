@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240408-047",
+ "record_id": "AcEP3EQNm3",
+ "title": "后台配置了表单的打印方案，但在打印和打印预览时调用不了，提示如下错误",
+ "problem": "后台配置了表单的打印方案，但在打印和打印预览时调用不了，提示如下错误",
+ "cause": "打印方案被指定了打印条件",
+ "solution": "在SysSelRpt表，找到对应的表单id,删除指定的打印条件即可正常调用",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "打印方案"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2024-04-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3m52laJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3m52laJ9ekBD76",
+  "doc_path": "/时空/应用操作/后台配置了表单的打印方案，但在打印和打印预览时调用不了，提示如下错误",
+  "record_id": "AcEP3EQNm3"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/后台配置了表单的打印方案，但在打印和打印预览时调用不了，提示如下错误",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

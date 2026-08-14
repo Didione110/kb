@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231107-038",
+ "record_id": "2PAZohffNN",
+ "title": "客户存在B端电商业务，一单一品的单据大且多，平常四单合并拣货无法满足拣货需求，且打印面单后进行贴放困难",
+ "problem": "客户存在B端电商业务，一单一品的单据大且多，平常四单合并拣货无法满足拣货需求，且打印面单后进行贴放困难",
+ "cause": "拣货单据太碎",
+ "solution": "一单一品进行大批量合单拣货（不用电子标签），也可生成爆品，然后结合一键打印进行面单。报告单等打印",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "一单一品"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2PAZohffNN"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

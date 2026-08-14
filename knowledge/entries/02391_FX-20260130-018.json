@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260130-018",
+ "record_id": "yy7ulewvjo",
+ "title": "合并报表抵消分录本方单位和对方单位为空不能保存怎么处理",
+ "problem": "合并报表抵消分录本方单位和对方单位为空不能保存怎么处理",
+ "cause": "需要修改抵消分录单据模板",
+ "solution": "修改抵消分录单据模板这两个字段设置非必填",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "抵消分录"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yy7ulewvjo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

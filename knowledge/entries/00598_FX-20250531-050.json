@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250531-050",
+ "record_id": "EecGB6YiKK",
+ "title": "弃审请款确认单提示该票据背书行为已经生成子票据",
+ "problem": "弃审请款确认单提示该票据背书行为已经生成子票据",
+ "cause": "弃审请款确认单提示该票据背书行为已经生成子票据",
+ "solution": "票据模块参数“二代拆分票据撤销票据行为是否删除子票据。”需要勾上。如果是收票据上做的背书，要先到子票据里点撤销，再到主票据点撤销；如果是付款单上背书的，就在付款单上点弃审撤销，或者请款确认单上点弃审撤销。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "票据背书"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EecGB6YiKK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

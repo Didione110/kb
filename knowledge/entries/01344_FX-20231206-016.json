@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231206-016",
+ "record_id": "Z0twephfcN",
+ "title": "收货明细或销退明细，客户做错不想做反向流程需求怎么办？？？",
+ "problem": "收货明细或销退明细，客户做错不想做反向流程需求怎么办？？？",
+ "cause": "收货明细数量填错，不想做反向流程？我们可以自由发挥，客开功能。\n遵循原则:\n1、时空所有记账以最后入库结果为准，往来和库存,只要没有入库的都支持我们调整\n2、仓储的purnotesmt(dt)、wmsrecemt (dt)收货表不记库存，数据层面同样支持我们调整\n3、wmstormt(dt)上架表，记批号库存，判断如果收货单某一行为上架状态就不能进行调整。",
+ "solution": "类似于订单关闭功能，做一个列表式的关闭功能。具体按客户要求进行,功能客开。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "收货销退反向"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z0twephfcN"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

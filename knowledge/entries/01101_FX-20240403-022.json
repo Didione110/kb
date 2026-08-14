@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240403-022",
+ "record_id": "SP4oOnXLtb",
+ "title": "u9c附件上传下载无法使用",
+ "problem": "u9c附件上传下载无法使用",
+ "cause": "下载安装最新的标准补丁（带*号的和ISV补丁）",
+ "solution": "1、可以通过sql,根据ID查询到hander，sql示例：\nselect B.Handler from Base_Attachment A inner join CS_BASE_FileInfo B on A.AttachmentID=B.ID where A.EntityID=单据ID\n2：调用接口通过单据ID直接获取附件，接口名称：http://localhost/U9C/webapi/AttachmentFile/AttachmentFileDownloadByDocID?docid=1002309240000061",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "U9C附件"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SP4oOnXLtb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250227-029",
+ "record_id": "t8zyluPUCf",
+ "title": "请款单 是否可以把工作流中的备注拉到列表显示，或者当前处理人拉到列表显示",
+ "problem": "请款单 是否可以把工作流中的备注拉到列表显示，或者当前处理人拉到列表显示",
+ "cause": "请款单 是否可以把工作流中的备注拉到列表显示，或者当前处理人拉到列表显示",
+ "solution": "备注不支持，当前处理人可以，添加栏目-流程实例.当前环节.当前处理人姓名",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "请款单、工作流、备注、处理人"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施6部",
+  "date": "2025-02-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "t8zyluPUCf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250731-053",
+ "record_id": "IEmueBLtrR",
+ "title": "【适用版本：V9.0sp1】导入无流程表单数据时勾选明细表执行清空并导入，可以实现自动将明细表已有数据全部删除，再将导入的 Excel中明细表数据带入",
+ "problem": "【适用版本：V9.0sp1】导入无流程表单数据时勾选明细表执行清空并导入，可以实现自动将明细表已有数据全部删除，再将导入的 Excel中明细表数据带入",
+ "cause": "档案维护过程中,需要将线下 Excel数据更新至资产档案中涉及若干条数据，且各条数据下已经存在明细表数据，但这些数据有误，逐条进入各档案数据，手动删除其中明细表数据很耗时，可以在导入数据时勾选“明细表执行清空并导入”选项，实现明细表数据自动删除后再导入。",
+ "solution": "注意事项：\n①无流程表单需要设置数据唯一值；\n②导入的 Excel 中需要存在明细表字段数据，导入时才会显示“明细表执行清空并导入”的勾选项。\n③导入的 Excel表中只有主表字段数据，导入时不显示“明细表执行清空并导入”",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "清空导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "业务关系",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbMd4kVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbMd4kVzlwrZgb",
+  "doc_path": "/致远OA/应用操作/适用版本V9.0sp1 导入无流程表单数据时勾选明细表执行清空并导入，可以实现自动将明细表已有数据全部删除，再将导入的Excel中明细表数据带入",
+  "record_id": "IEmueBLtrR"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/适用版本V9.0sp1 导入无流程表单数据时勾选明细表执行清空并导入，可以实现自动将明细表已有数据全部删除，再将导入的Excel中明细表数据带入",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250427-035",
+ "record_id": "ftbIob4JQU",
+ "title": "出纳模块结账始终提示未全部过账；实际反复检查确认全月已完成全部过账，查询期间只选择了月，出来的全部数据都是灰色，结账就是提示此账户有未全部过账的数据；",
+ "problem": "出纳模块结账始终提示未全部过账；实际反复检查确认全月已完成全部过账，查询期间只选择了月，出来的全部数据都是灰色，结账就是提示此账户有未全部过账的数据；",
+ "cause": "后台异常",
+ "solution": "select * from CN_AcctInfo where lyear='2021'\n先用账户表查出账户ID\n再过滤出21年11月，36账户的所有流水记录 并且找到IsAudited是否过账标识为0的，是147号凭证相关的9条记录，尝试重新手工一条一条过账，仍不行，最后决定修改数据库；\nselect IsAudited,* from CN_AcctBook where lyear='2021' \nand acctid='36' and period='11' and IsAudited<>'1' order by voucherstr\nselect IsAudited,* from CN_AcctBook where id='33991'\nupdate CN_AcctBook set IsAudited='1' where id='33991'\n处理后正常结账",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流"
+ ],
+ "keywords": [
+  "未全部过账"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-04-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ftbIob4JQU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

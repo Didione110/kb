@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231106-022",
+ "record_id": "OkwNBsJtDy",
+ "title": "使用js实时展示图片及图片下载方法",
+ "problem": "使用js实时展示图片及图片下载方法",
+ "cause": "使用js实时展示图片及图片下载方法",
+ "solution": "表单中增加image控件，js如下：\n图片显示：document.getElementById(\"image1_elm\").src='链接地址'\n图片下载：window.open(\"链接地址\")",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "JS图片展示"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OkwNBsJtDy"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

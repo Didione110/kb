@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241130-082",
+ "record_id": "WSXfyEl6xi",
+ "title": "YS流程管理·发起人撤回和单据撤回差异说明",
+ "problem": "YS流程管理·发起人撤回和单据撤回差异说明",
+ "cause": "YS用户在发起单据后，因为单据填写错误，或者是流程修改等原因，经常会出现撤回的诉求，YS目前有两个撤回功能，需要按使用场景设计",
+ "solution": "功能说明：\n 发起人撤回：发起人撤回仅针对发起人也就是提交人这个用户可操作，这个按钮是审批流的按钮； \n单据撤回：用户分配的角色权限中，只要有单据的撤回按钮权限，就可以操作，这个按钮是单据自己的按钮；\n注意事项：一般建议给管理员开放单据撤回功能，但是仅给业务员开放发起人撤回按钮，不分配单据撤回按钮，以避免一些歧义和不必要的使用纠纷。（详情见附件）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "撤回差异"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WSXfyEl6xi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260505-001",
+ "record_id": "KVhQ3OOCGg",
+ "title": "实盘录入时，实盘数量与账面数量一致时会出现个别品种，盘损金额-0.01",
+ "problem": "实盘录入时，实盘数量与账面数量一致时会出现个别品种，盘损金额-0.01",
+ "cause": "账面金额保留了3位小数，实盘金额保留2位小数，导致计算错误",
+ "solution": "ds\\_djmx.field(\"BookAmt\").value.toFixed(2)；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "盘损金额"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2026-05-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O01MO3VDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O01MO3VDOnGvpb",
+  "doc_path": "/时空/产品功能问题/实盘录入时，实盘数量与账面数量一致时会出现个别品种，盘损金额-0.01",
+  "record_id": "KVhQ3OOCGg"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/实盘录入时，实盘数量与账面数量一致时会出现个别品种，盘损金额-0.01",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

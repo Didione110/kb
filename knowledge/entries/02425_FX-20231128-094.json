@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231128-094",
+ "record_id": "zxCTMp7BJI",
+ "title": "电商同步程序因数据拥堵原因导致同步失效",
+ "problem": "电商同步程序因数据拥堵原因导致同步失效",
+ "cause": "库存数据同步存在表依赖",
+ "solution": "将商品资料接口做成视图，库存数据同步时关联商品资料视图，保证同步数据的关联性",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB",
+  "OceanBase",
+  "TiDB"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "数据拥堵"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zxCTMp7BJI"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

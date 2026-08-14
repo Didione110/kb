@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231106-026",
+ "record_id": "ck6RvpVCrO",
+ "title": "WMS收货或验收界面明细需要新增字段，需要编辑内容并保存到表",
+ "problem": "WMS收货或验收界面明细需要新增字段，需要编辑内容并保存到表",
+ "cause": "部分客户有特殊需求需要增加字段",
+ "solution": "在对应存储过程优化可编辑字段内容，然后对应临时表增加字段",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "字段编辑"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlYG3l8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlYG3l8Zd1wyK0",
+  "doc_path": "/其他/实施问题/WMS收货或验收界面明细需要新增字段，需要编辑内容并保存到表",
+  "record_id": "ck6RvpVCrO"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/WMS收货或验收界面明细需要新增字段，需要编辑内容并保存到表",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

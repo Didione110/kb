@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-038",
+ "record_id": "tqSqbGPriW",
+ "title": "销售出库单不能参照负数的发货单生成，业务流程配置无问题",
+ "problem": "销售出库单不能参照负数的发货单生成，业务流程配置无问题",
+ "cause": "物料属性勾选错误，勾选了【退货根据检验结果入库】属性，需要质检后才能入库",
+ "solution": "如无需质检的物料，物料不能勾选【退货根据检验结果入库】属性；\n取消属性勾选后，需删除红字发货单，重新做红字发货单和红字出库单",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "负数发货单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tqSqbGPriW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

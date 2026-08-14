@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221022-014",
+ "record_id": "NjVexfEGBm",
+ "title": "临时加密申请",
+ "problem": "临时加密申请",
+ "cause": "临时加密申请",
+ "solution": "1.admin登录U8系统管理，导出注册文件，保存至桌面\n2.登录http://register.yonyou.com/（旧的注册网站），临时授权注册，导入注册文件，填写联系人及验证码，导出临时注册文件存至桌面\n3.告知客户停止使用系统，拔出硬加密\n4.检查U8加密服务，双击查看许可状态，确认为没有许可后，登录系统管理，导入注册信息，刷新加密服务",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密"
+ ],
+ "keywords": [
+  "临时加密"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "客户成功部",
+  "date": "2022-10-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NjVexfEGBm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

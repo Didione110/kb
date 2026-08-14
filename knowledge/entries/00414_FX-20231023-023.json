@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231023-023",
+ "record_id": "A0R1HFWvav",
+ "title": "采购订单在U8C入库后，还能被删除，现在状态异常开不了票",
+ "problem": "采购订单在U8C入库后，还能被删除，现在状态异常开不了票",
+ "cause": "在采购订单是弃审状态的时候传的入库，所以订单还能删除，接口没有校验订单审核状态",
+ "solution": "在数据库中恢复被删除的采购订单，同时采购入库参照采购订单的时候来源单号【vsourcebillcode】与来源行号【vsourcerowno】，以及来源类型【csourcetype】这三个字段传了就可以在传入库的时候校验订单的状态",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "U8C入库异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-10-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlrgn28Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlrgn28Zd1wyK0",
+  "doc_path": "/用友/数据接口问题/采购订单在U8C入库后，还能被删除，现在状态异常开不了票",
+  "record_id": "A0R1HFWvav"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/采购订单在U8C入库后，还能被删除，现在状态异常开不了票",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

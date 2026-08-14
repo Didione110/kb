@@ -1,0 +1,48 @@
+{
+ "id": "FX-20221108-027",
+ "record_id": "0ymhj6zhEZ",
+ "title": "删除生产订单时，报找不到【生产批号】错误",
+ "problem": "删除生产订单时，报找不到【生产批号】错误",
+ "cause": "批号消失（存货清空了），导致单据删除不了",
+ "solution": "数据库语句：\nupdate mo-mo set ProductLotMaster=-1 where docno ='生产订单订单号' 修改生产批号的值为-1\n最后去系统中反开工删单",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "生产批号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施4部",
+  "date": "2022-11-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0ymhj6zhEZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

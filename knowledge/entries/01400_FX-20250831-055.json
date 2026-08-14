@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250831-055",
+ "record_id": "aMBVUqLprU",
+ "title": "仓库在审核生产成品入库的时候报“（分条卷料)的第1行其批号为空。”的错误。",
+ "problem": "仓库在审核生产成品入库的时候报“（分条卷料)的第1行其批号为空。”的错误。",
+ "cause": "原材料在完工倒冲的时候“分条车间仓”没有货或者是有货但是备料单的供应地点没有选择“分条车间仓”。",
+ "solution": "如果该料品分条车间仓没有货则需要调拨到分条车间仓。如果车间仓有料品，还是报错则是供应地点没有选择“分条车间仓”。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "批号为空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aMBVUqLprU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

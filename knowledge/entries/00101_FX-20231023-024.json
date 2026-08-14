@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231023-024",
+ "record_id": "2D374vl7YC",
+ "title": "部门做了名称变更，计提折旧的时候带出来的还是之前的部门名称",
+ "problem": "部门做了名称变更，计提折旧的时候带出来的还是之前的部门名称",
+ "cause": "作为辅助项，之前的辅助核算数据没有更新",
+ "solution": "1、【结账】处，选中任一月份，点击ctrl+alt+a，在弹窗中选择辅助核算项拉倒右侧，确定更新；更新完成后点击“重建余额表”，年份、月份均置空，确定； 2、清缓存，然后重新登录U8C",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "部门名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-10-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2D374vl7YC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250331-046",
+ "record_id": "CPiMObE6Za",
+ "title": "采购订单打开时，报错：操作数据类型 nvarchar 对于 sum 运算符无效。",
+ "problem": "采购订单打开时，报错：操作数据类型 nvarchar 对于 sum 运算符无效。",
+ "cause": "列表栏目中设置了非数值类型字段合计显示，导致报错，取消合计或者恢复栏目初始设置后，可以正常打开。",
+ "solution": "列表栏目中设置了非数值类型字段合计显示，导致报错，取消合计或者恢复栏目初始设置后，可以正常打开。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据类型错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CPiMObE6Za"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

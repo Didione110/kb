@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240805-017",
+ "record_id": "cBTYkedZPb",
+ "title": "提取重点养护计划时，本月申请为重点养护的近效期品种无法提取",
+ "problem": "提取重点养护计划时，本月申请为重点养护的近效期品种无法提取",
+ "cause": "原因为提取重点养护条件为上次养护日期加30天，等于当前月日期才能提取，近效期品种前2个月养护过所以提取不到",
+ "solution": "修改提取条件日期",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "近效期提取"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cBTYkedZPb"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240930-042",
+ "record_id": "DdpyXrsJr0",
+ "title": "流程结束后自动抄送流程所有人，能否取消抄送？",
+ "problem": "流程结束后自动抄送流程所有人，能否取消抄送？",
+ "cause": "系统默认开启流程结束后通知选项",
+ "solution": "在流程引擎中关闭结束通知即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "自动抄送"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DdpyXrsJr0"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

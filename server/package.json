@@ -1,0 +1,19 @@
+{
+  "name": "kb-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "科情客服知识库 API 服务：REST API + MCP Server",
+  "scripts": {
+    "api": "node src/api.mjs",
+    "mcp": "node src/mcp.mjs",
+    "dev:api": "node --watch src/api.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}

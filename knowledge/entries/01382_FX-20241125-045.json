@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241125-045",
+ "record_id": "ZsWotB1SR9",
+ "title": "客户端登录没有菜单栏",
+ "problem": "客户端登录没有菜单栏",
+ "cause": "电脑名称问题",
+ "solution": "客户端的电脑名称是中文名，改成英文的后，登录就可以看到节点",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "菜单栏缺失"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZsWotB1SR9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

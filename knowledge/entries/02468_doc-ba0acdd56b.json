@@ -1,0 +1,30 @@
+{
+ "id": "doc-ba0acdd56b",
+ "record_id": "",
+ "title": "需要调用ERP中档案数据外网访问ERP数据库不通过",
+ "problem": "需要调用ERP中档案数据外网访问ERP数据库不通过",
+ "cause": "防火墙不允许调用数据库端口",
+ "solution": "经与软件厂商沟通使用数据源要保证服务器之间能够互通即可，经与服务器厂家沟通两台服务器在同一子网内，随即更换为内网地址即可访问成功，随即在表单上经过配置即可直接调用ERP档案数据，注意配置过程尽量有熟悉数据库的同事协助，因为是直接对数据库表进行操作",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKg1oRRaJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKg1oRRaJqjMp697",
+  "doc_path": "/蓝凌OA/数据接口问题/需要调用ERP中档案数据外网访问ERP数据库不通过"
+ },
+ "doc_path": "/蓝凌OA/数据接口问题/需要调用ERP中档案数据外网访问ERP数据库不通过",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "数据接口问题"
+ ]
+}

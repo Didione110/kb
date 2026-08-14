@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250228-035",
+ "record_id": "bRhHequ6oW",
+ "title": "现金流量表设置了公式 算不出来数据CFLFS('YYC-001','','','1113',1,'本币','本币','YYCZB','','')",
+ "problem": "现金流量表设置了公式 算不出来数据CFLFS('YYC-001','','','1113',1,'本币','本币','YYCZB','','')",
+ "cause": "单位主体编码和公司目录编码不一致",
+ "solution": "单位主体没有横杠，去掉后即可。（注意报表编码和公司目录编码必须一致）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "公式错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bRhHequ6oW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

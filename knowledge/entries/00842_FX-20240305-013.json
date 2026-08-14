@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240305-013",
+ "record_id": "LedV8c89qJ",
+ "title": "凭证模板定义中使用自定义项的时候选择不到对应字段，如项目使用了自定义项1，但是模板里没有自定义项1的取值",
+ "problem": "凭证模板定义中使用自定义项的时候选择不到对应字段，如项目使用了自定义项1，但是模板里没有自定义项1的取值",
+ "cause": "需要使用公式getcolvalue(bd_jobmngfil , pk_jobbasfil, pk_jobmngfil,#项目管理档案0# )",
+ "solution": "参照公式：getcolvalue(bd_jobmngfil , pk_jobbasfil, pk_jobmngfil,#项目管理档案0# )",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "自定义项缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LedV8c89qJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

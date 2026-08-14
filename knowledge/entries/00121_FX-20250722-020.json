@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250722-020",
+ "record_id": "2iFoxqIvhH",
+ "title": "系统默认的单据编号的前缀需要自定义修改",
+ "problem": "系统默认的单据编号的前缀需要自定义修改",
+ "cause": "有些时候为了让订单更容易区分和理解，客户需要自定义单据编码的前缀",
+ "solution": "系统内各种单据的编号前缀是系统预制好的，如果需要根据情况个性化修改可以进入编码设置功能，编辑需要修改的编号。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "单据编号前缀"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-07-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56DEEG8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56DEEG8xLq0Ee4",
+  "doc_path": "/其他/产品功能问题/系统默认的单据编号的前缀需要自定义修改",
+  "record_id": "2iFoxqIvhH"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/系统默认的单据编号的前缀需要自定义修改",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221106-018",
+ "record_id": "PP3A2q0OBD",
+ "title": "1.多个采购订单需要一键审批，且需要走系统自动的工作流",
+ "problem": "1.多个采购订单需要一键审批，且需要走系统自动的工作流",
+ "cause": "产品缺陷",
+ "solution": "新建一个界面，查询所有未审核的采购订单，可勾选上多个需要审核的单独进行保存，打包在存一个表单并发起系统自带审批，最后一步审核通过将勾选的所有采购订单审核状态进行回写",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "一键审批"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PP3A2q0OBD"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

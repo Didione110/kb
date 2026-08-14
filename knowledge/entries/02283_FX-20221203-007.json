@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221203-007",
+ "record_id": "w5gh1K0TOS",
+ "title": "邮件发送无法直接展示图片信息，必须点URL跳转，操作麻烦不友善",
+ "problem": "邮件发送无法直接展示图片信息，必须点URL跳转，操作麻烦不友善",
+ "cause": "SQL抽取数据EXCEL发送，无法直接展示图片信息",
+ "solution": "将图片URL通过参数传到邮件主页，邮件主页在使用html转换显示，即可实现邮件主页直接加载图片信息",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "图片展示"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w5gh1K0TOS"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

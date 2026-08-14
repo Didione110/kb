@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250828-052",
+ "record_id": "BjuAoEeaIg",
+ "title": "外协采购列表预想写公式：采购订单行.备料头.供应链备料.已发数量 - 采购订单行.累计实收数量，得出非成套领料后还有多少欠收的",
+ "problem": "外协采购列表预想写公式：采购订单行.备料头.供应链备料.已发数量 - 采购订单行.累计实收数量，得出非成套领料后还有多少欠收的",
+ "cause": "1：计算列:采购订单行.备料头.供应链备料.已发数量 - 采购订单行.累计实收数量：POLines.SCMPickHead.SCMPickListS.IssuedQty-POLines.TotalRecievedQtyTU \n\n2：如果并非所有母件：子件用量都是1：1关系，建议计算列设置为：已发数量-实收数量*每装配件数量POLines.SCMPickHead.SCMPickListS.IssuedQty-POLines.TotalRecievedQtyTU*POLines.SCMPickHead.SCMPickListS.QPA",
+ "solution": "1：计算列:采购订单行.备料头.供应链备料.已发数量 - 采购订单行.累计实收数量：POLines.SCMPickHead.SCMPickListS.IssuedQty-POLines.TotalRecievedQtyTU \n\n2：如果并非所有母件：子件用量都是1：1关系，建议计算列设置为：已发数量-实收数量*每装配件数量POLines.SCMPickHead.SCMPickListS.IssuedQty-POLines.TotalRecievedQtyTU*POLines.SCMPickHead.SCMPickListS.QPA",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "欠收分析"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-08-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "BjuAoEeaIg"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "doc-ee6786354d",
+ "record_id": "",
+ "title": "拿到正式注册文件替换，OA服务无法启动",
+ "problem": "拿到正式注册文件替换，OA服务无法启动",
+ "cause": "admin.do管理员账号维护信息里面-服务器DNS(外网)这项同时维护了外网和域名。",
+ "solution": "服务器DNS(外网)这项只用维护域名，外网地址维护在服务器DNS(内网)即可，重启服务正常。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn36v7n0J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn36v7n0J9ekBD76",
+  "doc_path": "/蓝凌OA/环境问题/拿到正式注册文件替换，OA服务无法启动"
+ },
+ "doc_path": "/蓝凌OA/环境问题/拿到正式注册文件替换，OA服务无法启动",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "环境问题"
+ ]
+}

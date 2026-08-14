@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240624-043",
+ "record_id": "9blVvEOaVs",
+ "title": "凭证点保存的时候会自动跳出来选择流量，现在不跳了只能自己点，有时候忘记改了还得再进去修改，有点麻烦，怎么样设置成之前的凭证保存前跳出来流量",
+ "problem": "凭证点保存的时候会自动跳出来选择流量，现在不跳了只能自己点，有时候忘记改了还得再进去修改，有点麻烦，怎么样设置成之前的凭证保存前跳出来流量",
+ "cause": "做了定义取数关系",
+ "solution": "基础设置-基础档案-财务-项目目录，勾选项目，点击定义取数关系，将现有的关系删除，保存即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "流量选择"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-06-24"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1be0pWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1be0pWrMqPxX6",
+  "doc_path": "/用友/应用操作/凭证点保存的时候会自动跳出来选择流量，现在不跳了只能自己点，有时候忘记改了还得再进去修改，有点麻烦，怎么样设置成之前的凭证保存前跳出来流量",
+  "record_id": "9blVvEOaVs"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/凭证点保存的时候会自动跳出来选择流量，现在不跳了只能自己点，有时候忘记改了还得再进去修改，有点麻烦，怎么样设置成之前的凭证保存前跳出来流量",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

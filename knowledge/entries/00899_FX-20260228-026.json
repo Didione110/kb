@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260228-026",
+ "record_id": "N7DIXcuHME",
+ "title": "供应链的所有单据进入页面后，无法正常出库，选不了物品，选择物品就会卡住",
+ "problem": "供应链的所有单据进入页面后，无法正常出库，选不了物品，选择物品就会卡住",
+ "cause": "系统没重启好",
+ "solution": "重启服务器就可以解决",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "出库卡顿"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N7DIXcuHME"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

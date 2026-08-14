@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240401-002",
+ "record_id": "5ZumNg7CvX",
+ "title": "已结束流程需要替换知会人",
+ "problem": "已结束流程需要替换知会人",
+ "cause": "最后一个节点知会节点，由于流程已结束，流程督办监控待办知会人无法替换",
+ "solution": "修改数据里的待办人（操作之前先进行备份）\n\n打开替换节点的待办，获取affairId\n\n查询数据库获取要替换人员的id\nSELECT id FROM org_member WHERE name='替换人员名称' AND IS_ENABLE=1 AND IS_DELETED=0;\n更新ctp_affair表，根据affairId查询id，替换memberId\nupdate ctp_affair SET MEMBER_ID='第2步查出来的id' WHERE id=第一步查出来的affairId;\n查询wf_workitem_run，如果没数据再查询WF_WORKITEM_HISTORY\nSELECT * FROM WF_WORKITEM_RUN WHERE id=(SELECT sub_object_id FROM ctp_affair WHERE id=第一步查出来的affairId)；\n--查询wf_workitem_run没数据才用下面sql查询WF_WORKITEM_HISTORY\nSELECT * FROM WF_WORKITEM_HISTORY WHERE id=(SELECT sub_object_id FROM ctp_affair WHERE id=第一步查出来的affairId)；\n更新wf_workitem_run/WF_WORKITEM_HISTORY表，根据ctp_affiar里的sub_object_id查询id，替换performer\nupdate WF_WORKITEM_RUN SET performer='第2步查出来的id' WHERE id=(SELECT sub_object_id FROM ctp_affair WHERE id=第一步查出来的affairId);\n--查询wf_workitem_run没数据才用下面sql更新WF_WORKITEM_HISTORY\nupdate WF_WORKITEM_HISTORY SET performer='第2步查出来的id' WHERE id=(SELECT sub_object_id FROM ctp_affair WHERE id=第一步查出来的affairId);",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "知会人替换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5ZumNg7CvX"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

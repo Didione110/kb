@@ -1,0 +1,70 @@
+---
+{
+  "title": "如何开启图片验证码并设置密码多次输入错误后锁定账号",
+  "kbId": "doc-ca4fe675ce",
+  "productLine": "蓝凌OA",
+  "productSeries": "",
+  "version": "",
+  "module": "",
+  "problemType": "",
+  "solutionTypes": [],
+  "techStack": [],
+  "techKeywords": [],
+  "keywords": [],
+  "category": [
+    "蓝凌OA",
+    "安全问题"
+  ],
+  "submitter": "",
+  "department": "",
+  "date": "",
+  "sourceType": "doc",
+  "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNMy0lQrWkyEqBQm?utm_scene=team_space",
+  "sourcePath": "/蓝凌OA/安全问题/如何开启图片验证码并设置密码多次输入错误后锁定账号",
+  "status": "active",
+  "updatedAt": "",
+  "outDir": "蓝凌OA/安全问题"
+}
+---
+
+# 如何开启图片验证码并设置密码多次输入错误后锁定账号
+
+> 知识条目 · 可被客服机器人引用
+
+## 元信息
+
+| 字段 | 值 |
+|------|----|
+| 知识ID | `doc-ca4fe675ce` |
+| 产品线 | 蓝凌OA |
+| 产品系列 | - |
+| 版本 | - |
+| 模块 | - |
+| 问题类型 | - |
+| 解决方案类型 |  |
+| 技术栈 |  |
+| 技术关键词 |  |
+| 问题关键字 |  |
+| 分类路径 | 蓝凌OA / 安全问题 |
+| 提交人 | - |
+| 提交部门 | - |
+| 提交日期 | - |
+| 状态 | active |
+
+## 问题现象
+
+如何开启图片验证码并设置密码多次输入错误后锁定账号
+
+## 问题原因
+
+需要后台开启相关功能
+
+## 解决方案
+
+在运维管理-安全管控-账户安全中开启登录验证码及账号锁定配置
+
+## 引用来源
+
+- 来源类型: `doc`
+- 来源链接: https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNMy0lQrWkyEqBQm?utm_scene=team_space
+- 知识库路径: `/蓝凌OA/安全问题/如何开启图片验证码并设置密码多次输入错误后锁定账号`

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230627-008",
+ "record_id": "D8Em1hhv50",
+ "title": "操作员在出口模块操作提示索引0不是为负数就是大于行数",
+ "problem": "操作员在出口模块操作提示索引0不是为负数就是大于行数",
+ "cause": "操作员权限不足导致",
+ "solution": "检查对应单据的授权（单据模板与单据列表）\n检查操作员档案授权（客户档案，业务员）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "索引越界"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-06-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "D8Em1hhv50"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

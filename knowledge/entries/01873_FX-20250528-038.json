@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250528-038",
+ "record_id": "miHzWgCLj6",
+ "title": "HR人员信息主岗信息更新后，在线人员查看未更新",
+ "problem": "HR人员信息主岗信息更新后，在线人员查看未更新",
+ "cause": "用户的在线人员信息的组织机构信息是在登陆就确定的，如果修改了，需要重新登陆，才能修改在线人员缓存的数据;",
+ "solution": "HR人员信息更新后，需要被修改的用户重新登陆，才能展示新的数据；或者告知用户更新后，下次登录生效即可",
+ "solution_types": [],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "主岗未更新"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "HR管理",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2025-05-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "miHzWgCLj6"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

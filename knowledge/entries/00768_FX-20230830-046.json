@@ -1,0 +1,47 @@
+{
+ "id": "FX-20230830-046",
+ "record_id": "Jid9Z8p6OM",
+ "title": "一般来说，新系统切换时，使用系统自带的数据保留清空功能进行数据清空即可，偶尔特殊情况系统功能出现问题，则需要手动清理",
+ "problem": "一般来说，新系统切换时，使用系统自带的数据保留清空功能进行数据清空即可，偶尔特殊情况系统功能出现问题，则需要手动清理",
+ "cause": "一般来说，新系统切换时，使用系统自带的数据保留清空功能进行数据清空即可，偶尔特殊情况系统功能出现问题，则需要手动清理",
+ "solution": "跟踪系统清空过程，列出了清理语句供各位技术人员参考，仅供参考\n\nIF OBJECT\\_ID('tempdb..#tmp\\_table') IS NOT NULL\n BEGIN\n DROP TABLE #tmp\\_table;\n END;\n\nSELECT ROW\\_NUMBER() OVER ( ORDER BY a.TBNAME ) AS tms , tbname , tbdesc , b.RowCounts\nINTO #tmp\\_table\nFROM tblist a\nJOIN dbo.tablespace b ON a.TBNAME = b.TableName\nWHERE ( a.moduleid \\<\\> '007nfmq38ycx30dv'\n AND a.moduleid IN ( SELECT moduleid\n FROM moduledoc\n WHERE developerid = 'E061W25SK3M' )\n )\n AND a.attr = 'Y'\n AND objecttype = 'T'\n AND a.tbname IN ( SELECT tbname\n FROM tbstru\n WHERE fdname = 'EntId' ) -- and upper(a.tbname) not in(\"\\+kepList.toUpperCase()\\+\") \n AND b.RowCounts \\<\\> 0\n\nDECLARE @count INT;\nSET @count = 1;\n\nDECLARE @sql\\_text VARCHAR(2000);\n-清理业务流水表\nWHILE @count \\<= ( SELECT COUNT(1)\n FROM tblist a\n JOIN dbo.tablespace b ON a.TBNAME = b.TableName\n WHERE ( a.moduleid \\<\\> '007nfmq38ycx30dv'\n AND a.moduleid IN ( SELECT moduleid\n FROM moduledoc\n WHERE developerid = 'E061W25SK3M' )\n )\n AND a.attr = 'Y'\n AND objecttype = 'T'\n AND a.tbname IN ( SELECT tbname\n FROM tbstru\n WHERE fdname = 'EntId' ) -- and upper(a.tbname) not in(\"\\+kepList.toUpperCase()\\+\") \n AND b.RowCounts \\<\\> 0 )\n BEGIN\n SET @sql\\_text = 'delete from ' \\+ ( SELECT TOP 1 aa.tbname FROM #tmp\\_table aa WHERE aa.tms = @count ) \\+ ' where entid =''E3UL56BUG91'''\n```\n SELECT @sql_text\n \n -- EXECUTE(@sql_text);\n SET @count = @count + 1;\n END;\n\n```\n\n--清理流水 \n--delete from wlzhk where entid='E3UL56BUG91' ;\n--delete from BillProtect where entid='E3UL56BUG91' ;\n```\n/*\n--更新最大编号\nUPDATE BILLCODE\nSET recnum = 0\nWHERE entid = 'E3UL56BUG91'\n AND ruleid IN ( SELECT ruleid\n FROM billsnrule\n WHERE moduleid IN ( SELECT moduleid\n FROM moduledoc\n WHERE developerid = 'E061W25SK3M' ) )\n\n```\n\n--工作流程数据\n delete from wfinstance where instanceid in (select instanceid from wfresult where entid='E061W25SK3M') ;\n delete from wfinstancehis where instanceid in (select instanceid from wfresulthis where entid='E061W25SK3M') ;\n delete from wfworkinstance where instanceid in (select instanceid from wfresult where entid='E061W25SK3M') ;\n delete from wfworkinstancehis where instanceid in (select instanceid from wfresulthis where entid='E061W25SK3M') ;\n delete from wfopinion where instanceid in (select instanceid from wfresult where entid='E061W25SK3M') ;\n delete from wfopinionhis where instanceid in (select instanceid from wfresulthis where entid='E061W25SK3M') ;\n delete from wfresult where entid='E061W25SK3M' ;\n delete from wfresulthis where entid='E061W25SK3M' ;\n delete from CheckOpinion where entid='E061W25SK3M' ; \n--单据再现数据\n delete from FormReview where entid='E061W25SK3M' ;\n--系统日志\n delete from syslog where entid='E061W25SK3M' ;\n--草稿表\n delete from FormSerialize where entid='E061W25SK3M' ;\n\n-- 清理系统日志\ndelete from SYSLOG\n\n--清理\ndelete from GoodsDoc where entid='E061W25SK3M' ;\ndelete from GoodsAttr where entid='E061W25SK3M' ;\ndelete from EGBalance where entid='E061W25SK3M' ;\ndelete from OGBalance where entid='E061W25SK3M' ;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "数据清空"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-08-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pjXBj8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pjXBj8gN7R35y",
+  "doc_path": "/时空/实施问题/一般来说，新系统切换时，使用系统自带的数据保留清空功能进行数据清空即可，偶尔特殊情况系统功能出现问题，则需要手动清理",
+  "record_id": "Jid9Z8p6OM"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/一般来说，新系统切换时，使用系统自带的数据保留清空功能进行数据清空即可，偶尔特殊情况系统功能出现问题，则需要手动清理",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

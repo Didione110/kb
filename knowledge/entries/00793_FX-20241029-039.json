@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241029-039",
+ "record_id": "KHbSt9wGZG",
+ "title": "现金管理单据摘要太长了导致生成凭证报错",
+ "problem": "现金管理单据摘要太长了导致生成凭证报错",
+ "cause": "后台字段太短了需要加长",
+ "solution": "执行下列语句修改后台最大字段\n区分数据库\noracle数据库执行：\nalter table dap_rtvouch modify assino varchar2(255); \nalter table dap_rtvouch_b modify assino varchar2(255); \nsqlserver数据库执行：\nALTER TABLE dap_rtvouch ALTER COLUMN assino VARCHAR(255); \nALTER TABLE dap_rtvouch_b ALTER COLUMN assino VARCHAR(255);",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "摘要过长"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-10-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KHbSt9wGZG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

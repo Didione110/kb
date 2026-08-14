@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231216-038",
+ "record_id": "aShIbWJy5m",
+ "title": "单据上面上传了附件，无法预览打开",
+ "problem": "单据上面上传了附件，无法预览打开",
+ "cause": "需要在服务器安装KKFileView服务",
+ "solution": "按照手册安装服务，如果提示安装最新jre，可以参考附件安装",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "附件预览"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-12-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aShIbWJy5m"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

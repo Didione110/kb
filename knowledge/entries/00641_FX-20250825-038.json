@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250825-038",
+ "record_id": "G2sdV2Y8kS",
+ "title": "需要通过指定条件快速过滤到指定的订单数据",
+ "problem": "需要通过指定条件快速过滤到指定的订单数据",
+ "cause": "有时因为客户备注需要发票或者延迟发货要求需要给订单进行打标签分类，便于后续能通过标签字段过滤查询，快速找到数据。",
+ "solution": "系统设置中有标签管理功能，跟标记功能类似用于给指定数据打标签，区别于其他数据。但不同的是，标签支持在过滤条件中指定某个标签进行过滤查询。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "订单过滤"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-08-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe564zrB8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe564zrB8xLq0Ee4",
+  "doc_path": "/其他/应用操作/需要通过指定条件快速过滤到指定的订单数据",
+  "record_id": "G2sdV2Y8kS"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/需要通过指定条件快速过滤到指定的订单数据",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

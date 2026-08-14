@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240901-001",
+ "record_id": "J6YURDeEZq",
+ "title": "导出科目往来明细账时卡死不动",
+ "problem": "导出科目往来明细账时卡死不动",
+ "cause": "科目明细账导出很慢可以从以下几方面排查，具体如下： 1.导出明细账时查询条件不要勾选【表头二次过滤项】，若勾选容易出现导出较慢的情况； 2.备份数据，在服务社区下载T\\+补丁T\\+补丁下载，在服务器更新相应版本最新补丁； 3.清除浏览器缓存，在T\\+浏览器上按【ctrl\\+shift\\+delete】键清除浏览器缓存，重新导出。",
+ "solution": "科目明细账导出很慢可以从以下几方面排查，具体如下： 1.导出明细账时查询条件不要勾选【表头二次过滤项】，若勾选容易出现导出较慢的情况； 2.备份数据，在服务社区下载T\\+补丁T\\+补丁下载，在服务器更新相应版本最新补丁； 3.清除浏览器缓存，在T\\+浏览器上按【ctrl\\+shift\\+delete】键清除浏览器缓存，重新导出。",
+ "solution_types": [
+  "配置修改",
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows",
+  "IIS"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "科目往来明细账卡死"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeANKqPVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeANKqPVKe0xjE3",
+  "doc_path": "/其他/应用操作/导出科目往来明细账时卡死不动",
+  "record_id": "J6YURDeEZq"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/导出科目往来明细账时卡死不动",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

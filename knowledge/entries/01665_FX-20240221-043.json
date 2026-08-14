@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240221-043",
+ "record_id": "hQNL4sijdc",
+ "title": "功能临时授权，没有菜单功能可授权",
+ "problem": "功能临时授权，没有菜单功能可授权",
+ "cause": "entdoc 的TempletId 为空或与 MenuList 的TempletId 不一致",
+ "solution": "SELECT TempletId FROM MenuList where MenuType = '2' and beactive='Y'\nupdate entdoc set TempletId = 这个值",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "菜单授权"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-02-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hQNL4sijdc"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

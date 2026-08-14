@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250228-043",
+ "record_id": "NMNCsMGvRJ",
+ "title": "还入单无法弃审提示已经被其他人操作并保存，当前操作不能保存。没有用户在操作此单据了，已重新加载多次",
+ "problem": "还入单无法弃审提示已经被其他人操作并保存，当前操作不能保存。没有用户在操作此单据了，已重新加载多次",
+ "cause": "可能是审核后增加了审批流导致状态异常",
+ "solution": "后台调整审批流状态与单据状态一致\nUPDATE A SET WFCurrentState =2\nfrom InvDoc_LendBackTrans A\nWHERE DocNo='0042025020002'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "弃审失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NMNCsMGvRJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

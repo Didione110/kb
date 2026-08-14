@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240715-019",
+ "record_id": "Qt66W3M7rp",
+ "title": "成本调整单列表：当金额的调整方向有增加和减少时，列表的金额合计没有算减少的部分。",
+ "problem": "成本调整单列表：当金额的调整方向有增加和减少时，列表的金额合计没有算减少的部分。",
+ "cause": "列表增加自定义列：CostAdjustLs.AdjustTo==0?CostAdjustLs.AdjustAmt:0-CostAdjustLs.AdjustAmt 这样会减少金额的显示负数",
+ "solution": "列表增加自定义列：CostAdjustLs.AdjustTo==0?CostAdjustLs.AdjustAmt:0-CostAdjustLs.AdjustAmt 这样会减少金额的显示负数",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "金额合计错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-07-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Qt66W3M7rp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

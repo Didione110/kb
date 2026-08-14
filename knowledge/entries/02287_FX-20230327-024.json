@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230327-024",
+ "record_id": "wEvNyDKeph",
+ "title": "单据金额超过发票限额，需要拆分进行开票，原有2种拆分规则，按数量拆分：数量拆分成整数，金额接近开票限额；按金额拆分：金额是开票最大限额，数量不变，修改单价",
+ "problem": "单据金额超过发票限额，需要拆分进行开票，原有2种拆分规则，按数量拆分：数量拆分成整数，金额接近开票限额；按金额拆分：金额是开票最大限额，数量不变，修改单价",
+ "cause": "选用按数量拆分，每一张开不到最大限额，会浪费票据；按金额拆分，数量会翻倍，客户有异议",
+ "solution": "修改拆分规则，按数量（数量整数尽量开最大限额），按金额（开最大限额，数量拆分小数）",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "开票拆分"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wEvNyDKeph"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

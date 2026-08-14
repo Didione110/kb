@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240403-021",
+ "record_id": "YIvWSl2of4",
+ "title": "薪资计算时提示：[已扣税]，[累计扣税基数]，[本次扣税]，[累计实际已缴纳个税]，[累计应缴纳个税][当月工资cs]项目存在环状相互依赖关系!请修改项目。",
+ "problem": "薪资计算时提示：[已扣税]，[累计扣税基数]，[本次扣税]，[累计实际已缴纳个税]，[累计应缴纳个税][当月工资cs]项目存在环状相互依赖关系!请修改项目。",
+ "cause": "项目中的公式与系统预制的项目公式有冲突",
+ "solution": "调整冲突的项目公式，重新计算测试",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "环状依赖"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YIvWSl2of4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

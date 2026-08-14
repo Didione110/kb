@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240731-057",
+ "record_id": "MAFRiTyXOt",
+ "title": "客户在一些零星采购时会到收发票时给与部分料品免单，但在前面采购下单跟仓库收货的时候不知道是赠品，在应付单立账改金额时会提示含税金额不能等于0 ，改成0.01的话可以保存，但是会影响成本",
+ "problem": "客户在一些零星采购时会到收发票时给与部分料品免单，但在前面采购下单跟仓库收货的时候不知道是赠品，在应付单立账改金额时会提示含税金额不能等于0 ，改成0.01的话可以保存，但是会影响成本",
+ "cause": "客户在一些零星采购时会到收发票时给与部分料品免单，但在前面采购下单跟仓库收货的时候不知道是赠品，在应付单立账改金额时会提示含税金额不能等于0 ，改成0.01的话可以保存，但是会影响成本",
+ "solution": "应付管理，参数设置中“应付单行金额允许为0”设置 为是，即可以在立应付时，允许 金额为0。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "赠品免单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MAFRiTyXOt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

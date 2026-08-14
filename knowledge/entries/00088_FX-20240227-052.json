@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240227-052",
+ "record_id": "21kHi1dm2z",
+ "title": "客户要求大盘点使用流程盘点程序，流程盘点不能复盘修改数量",
+ "problem": "客户要求大盘点使用流程盘点程序，流程盘点不能复盘修改数量",
+ "cause": "产品功能缺失",
+ "solution": "新版程序包，可复盘修改数量",
+ "solution_types": [
+  "补丁更新",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "流程盘点"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-02-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbgKbdW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbgKbdW3kdP0wQ",
+  "doc_path": "/其他/产品功能问题/客户要求大盘点使用流程盘点程序，流程盘点不能复盘修改数量",
+  "record_id": "21kHi1dm2z"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/客户要求大盘点使用流程盘点程序，流程盘点不能复盘修改数量",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

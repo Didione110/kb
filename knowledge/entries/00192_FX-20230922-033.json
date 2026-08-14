@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230922-033",
+ "record_id": "4TUcYRZUKy",
+ "title": "目前的智友V10 V11 V12标准方案均无法拦截必备证照",
+ "problem": "目前的智友V10 V11 V12标准方案均无法拦截必备证照",
+ "cause": "厂家就没考虑到",
+ "solution": "1：维护完不同客户类型或不同供应商的类型的必备证照 \n2：在首营录入资料页面，获取列表\n3：存盘save\\_check进行拦截 ，代码案例参照如下\n\nfunction uf\\_arraysContain(arr1, arr2) \\{\n return arr2.every(function(item) \\{\n return arr1.includes(item);\n \\});\n\\}\n```\nvar needcert_list =\"\";//获取系统维护的必备证照列表\nvar par = {};\npar.rfcate = DsMain.field(\"ClientType\").value;\nneedcert_list = DBUtil.uniqueValue(\"uf_sql_getneedcert_list\",par)\n\nvar now_needcert_list =\"\";//校验当前录入的证照信息有没有瞎搞,该填的必须要填\nfor (var i = 0; i < ds_djmx.recordCount; i++) {\n if(!Utility.isSpace(ds_djmx.getValueAt(i, \"CertName\"))){\n now_needcert_list = now_needcert_list+ ds_djmx.getValueAt(i, \"CertName\") + \",\";\n }\n}\nnow_needcert_list = (now_needcert_list.substr(0, now_needcert_list.length - 1));//证照列表\nvar arr1_text = \",\"+now_needcert_list+\",\";\nvar arr2_text = \",\"+needcert_list+\",\" ;\nvar arr1 = arr1_text.split(\",\");\nvar arr2 = arr2_text.split(\",\");\nvar arr_diff = arr2.filter(item => !arr1.includes(item));\nif (!uf_arraysContain(arr1, arr2)){\n form.alert(\"当前客户需要录入的证照有:【\"+needcert_list+\" 】 当前证照信息未达到质管要求,还缺少：【\"+arr_diff+\"】 请注意\");\n return false;\n}\n\n```",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "证照拦截"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlGala8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlGala8Zd1wyK0",
+  "doc_path": "/时空/应用操作/目前的智友V10 V11 V12标准方案均无法拦截必备证照",
+  "record_id": "4TUcYRZUKy"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/目前的智友V10 V11 V12标准方案均无法拦截必备证照",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231226-067",
+ "record_id": "0hRxpTdVzL",
+ "title": "导出Excel时报错，提示“”不属于表，确定后导出成功，无EXCEL导出文件",
+ "problem": "导出Excel时报错，提示“”不属于表，确定后导出成功，无EXCEL导出文件",
+ "cause": "对应WMS版本导出功能不支持，需要调下",
+ "solution": "替换程序文件路径下的dll文件",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "C# (.NET)",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Excel导出失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施4部",
+  "date": "2023-12-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51yoR78zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51yoR78zN67Mw4",
+  "doc_path": "/其他/安装部署问题/导出Excel时报错，提示不属于表，确定后导出成功，无EXCEL导出文件",
+  "record_id": "0hRxpTdVzL"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/导出Excel时报错，提示不属于表，确定后导出成功，无EXCEL导出文件",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

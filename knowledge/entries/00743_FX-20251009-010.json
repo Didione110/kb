@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251009-010",
+ "record_id": "JD2iiR6QVA",
+ "title": "银行科目无辅助录入凭证时提示辅助必录",
+ "problem": "银行科目无辅助录入凭证时提示辅助必录",
+ "cause": "1. 银行科目默认开启了\"填制凭证时录入结算信息\"功能\n2. 该设置是银行科目的独立控制项，与常规辅助核算设置无关",
+ "solution": "1. 依次点击【系统管理】-【科目】\n2. 找到对应的银行科目\n3. 取消勾选\"填制凭证时录入结算信息\"选项\n4. 保存设置后，填制凭证时就不会再弹出结算信息录入窗口",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助必录"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7o6zXW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7o6zXW9dEq3XD",
+  "doc_path": "/其他/应用操作/银行科目无辅助录入凭证时提示辅助必录",
+  "record_id": "JD2iiR6QVA"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/银行科目无辅助录入凭证时提示辅助必录",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

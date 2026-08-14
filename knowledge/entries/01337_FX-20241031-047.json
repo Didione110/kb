@@ -1,0 +1,38 @@
+{
+ "id": "FX-20241031-047",
+ "record_id": "Yr7y6lwD4F",
+ "title": "U8增加人员档案显示英文，其他界面全是正常的简体中文，包含人员档案列表都正常",
+ "problem": "U8增加人员档案显示英文，其他界面全是正常的简体中文，包含人员档案列表都正常",
+ "cause": "环境异常",
+ "solution": "替换文件：将正常电脑U8SOFT\\\\Resources\\\\languages文件替换有问题电脑后再重新操作一下正常",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "人员档案英文"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Yr7y6lwD4F"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240830-067",
+ "record_id": "oAAGjUPDmM",
+ "title": "查询所有工作流对应审批结点对应角色",
+ "problem": "查询所有工作流对应审批结点对应角色",
+ "cause": "查询所有工作流对应审批结点对应角色",
+ "solution": "select distinct wfcode,wfname,b.taskname,d.rolecode,d.rolename \nfrom WfSchemaUser a inner join WfWork b on a.wfid=b.wfid\ninner join WfUserDesc c on b.taskid=c.taskid\ninner join roledoc d on c.executant=d.roleid\norder by 1,3,4",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "工作流审批角色"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oAAGjUPDmM"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

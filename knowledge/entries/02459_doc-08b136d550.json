@@ -1,0 +1,30 @@
+{
+ "id": "doc-08b136d550",
+ "record_id": "",
+ "title": "根据身份证号码获取性别以及出生日期",
+ "problem": "根据身份证号码获取性别以及出生日期",
+ "cause": "蓝凌无标准公式可以设置，需要代码解决",
+ "solution": "先将性别以及出生日期改成公式加载控件，加载方式勾选为自动加载以及控件加载，经测试单行文本控件会报错，代码如下：\n出生日期：\nimport java.text.SimpleDateFormat; \nimport java.util.Date; \nString x=$身份证号$\n;//根据项目自行替换\n String a=x.substring(6,14);\n SimpleDateFormat sdf = new SimpleDateFormat(\"yyyyMMdd\");\n Date date= null;\n try \\{\n date = sdf.parse(a);\n \\} catch (ParseException e) \\{\n \\}\n sdf = new SimpleDateFormat(\"yyyy-MM-dd\");\n return sdf.format(date);\n\n性别：\nString idCardNumber = $身份证号$\n;//根据项目自行替换\nString genderCode = idCardNumber.substring(16, 17);\nif (Integer.parseInt(genderCode) % 2 == 0) \\{\n return \"女\";\n \\} else",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwonemlJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwonemlJbkz3BRL",
+  "doc_path": "/蓝凌OA/实施问题/根据身份证号码获取性别以及出生日期"
+ },
+ "doc_path": "/蓝凌OA/实施问题/根据身份证号码获取性别以及出生日期",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

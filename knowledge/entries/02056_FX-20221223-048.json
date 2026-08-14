@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221223-048",
+ "record_id": "qSZau89zbS",
+ "title": "采购、销售发票上有发票号，但是传应收无发票号",
+ "problem": "采购、销售发票上有发票号，但是传应收无发票号",
+ "cause": "系统中销售发票表头的发票号码、发票代码默认是不传递到下游应收单的",
+ "solution": "1、定义自定义项（数据类型选择“备注”），\n 2、引用自定义项节点将销售结算单引用表头自定义项； \n3、修改数据交换管理，将发票表头的发票号码传递到下游销售结算单自定义项上，并将销售结算单自定义项传递到下游应收单的发票号码对应字段上",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "发票号缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施4部",
+  "date": "2022-12-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qSZau89zbS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

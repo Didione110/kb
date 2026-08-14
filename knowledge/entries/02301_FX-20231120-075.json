@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231120-075",
+ "record_id": "wZqyIhKkbm",
+ "title": "单据明细同一个商品合并了但是打印出来没有合并",
+ "problem": "单据明细同一个商品合并了但是打印出来没有合并",
+ "cause": "打印模板修改数据源，更换成单据上有合计数据的明细数据源",
+ "solution": "打印模板修改数据源，更换成单据上有合计数据的明细数据源",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "明细合并"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "进出口管理（高级版）",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wZqyIhKkbm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

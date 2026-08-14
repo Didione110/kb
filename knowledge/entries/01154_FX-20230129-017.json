@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230129-017",
+ "record_id": "TkO04QCPgw",
+ "title": "公司有外币业务，启用外币后，收款单或销售单录单无法带出汇率",
+ "problem": "公司有外币业务，启用外币后，收款单或销售单录单无法带出汇率",
+ "cause": "未维护日汇率",
+ "solution": "在外币汇率-全局中需维护当前月中每一天的日汇率，日汇率按照月初第一天的汇率进行维护，最后一天的汇率维护在期间汇率中，月底做汇兑损益结转",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "外币汇率"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-01-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TkO04QCPgw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

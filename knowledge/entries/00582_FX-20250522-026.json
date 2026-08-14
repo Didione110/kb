@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250522-026",
+ "record_id": "EJT4n4QGcG",
+ "title": "凭证制单时 凭证【查询明细】中绑定的字段是有数据的，但是凭证制单时，不显示分录信息。",
+ "problem": "凭证制单时 凭证【查询明细】中绑定的字段是有数据的，但是凭证制单时，不显示分录信息。",
+ "cause": "该表单是从MySQL数据库转成的sqlserver数据库，使账套配置栏位的数据类型转换成了text，我们在查询账套信息时使用了distinct，导致查询语句报错了；",
+ "solution": "修改数据类型为nvarchar即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "凭证不显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "迈锐思产品",
+ "module": "",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-05-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O06j1vVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O06j1vVDOnGvpb",
+  "doc_path": "/其他/应用操作/凭证制单时凭证查询明细中绑定的字段是有数据的，但是凭证制单时，不显示分录信息。",
+  "record_id": "EJT4n4QGcG"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/凭证制单时凭证查询明细中绑定的字段是有数据的，但是凭证制单时，不显示分录信息。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230831-048",
+ "record_id": "hQDuxwmbSL",
+ "title": "仓库A类型单据要用拼一打一模式，B类型单据要用连续打印模式",
+ "problem": "仓库A类型单据要用拼一打一模式，B类型单据要用连续打印模式",
+ "cause": "单据的类型不同，处理的方式不同",
+ "solution": "在复核的存储过程中，选择任务时，根据单据类型来判断是拼一打印，连续打印赋值给printtype字段。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "拼一打一"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2023-08-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmer2vJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmer2vJGlDd3mE",
+  "doc_path": "/其他/应用操作/仓库A类型单据要用拼一打一模式，B类型单据要用连续打印模式",
+  "record_id": "hQDuxwmbSL"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/仓库A类型单据要用拼一打一模式，B类型单据要用连续打印模式",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

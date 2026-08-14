@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240305-018",
+ "record_id": "pIV83we23D",
+ "title": "Oracle数据库12c安装PDB后，每次重启都需执行启动PDB数据库语句，非常不方便",
+ "problem": "Oracle数据库12c安装PDB后，每次重启都需执行启动PDB数据库语句，非常不方便",
+ "cause": "Oracle12c中允许在一个数据库容器（CDB）中包含多个PDBs，使得资源管理和安全性更加灵活，提高了数据库的可扩展性和可用性，但是PDB不会自动启动允许。",
+ "solution": "创建PDB自动启动触发器（open_pdbs参数为PDB数据库名称）：\nCREATE OR REPLACE TRIGGER open_pdbs\n AFTER STARTUP ON DATABASE\n BEGIN\n EXECUTE IMMEDIATE 'ALTER PLUGGABLE DATABASE ALL OPEN';\n END open_pdbs;\n/",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "PDB启动"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pIV83we23D"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

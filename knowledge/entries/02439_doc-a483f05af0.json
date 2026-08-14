@@ -1,0 +1,30 @@
+{
+ "id": "doc-a483f05af0",
+ "record_id": "",
+ "title": "付款申请单填写部分单位编码后页面卡死崩溃",
+ "problem": "付款申请单填写部分单位编码后页面卡死崩溃",
+ "cause": "根据单位自动匹配的商品销售信息，时空同步过来的数据存在特殊字符或者空白，导致对应单位编码信息填写后，缓存卡死",
+ "solution": "调整同步数据接口，处理特殊字符与空白格，重新执行一次同步数据，问题已解决",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptParwOMaJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptParwOMaJgk9rpMq",
+  "doc_path": "/蓝凌OA/效率问题/付款申请单填写部分单位编码后页面卡死崩溃"
+ },
+ "doc_path": "/蓝凌OA/效率问题/付款申请单填写部分单位编码后页面卡死崩溃",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "效率问题"
+ ]
+}

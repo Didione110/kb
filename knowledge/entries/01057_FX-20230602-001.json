@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230602-001",
+ "record_id": "RGJK7wZbg9",
+ "title": "在凭证生成界面删除了新增的固定资产卡片和计提折旧的凭证，导致在修改新增的固定资产时提示：有后续操作不能修改\n",
+ "problem": "在凭证生成界面删除了新增的固定资产卡片和计提折旧的凭证，导致在修改新增的固定资产时提示：有后续操作不能修改",
+ "cause": "删除后，后台存在缓存，导致提示有后续操作",
+ "solution": "\"--备份\ncreate table fa_log_0812bak as select * from fa_log;\n--表更新\nupdate fa_log set dr = 0 where pk_corp = '公司编码' and code in(select pk_card from fa_card where pk_corp = '公司编码' and dr = 0 and card_code BETWEEN '卡片编码' and '卡片编码');\"",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "凭证删除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-06-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RGJK7wZbg9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221031-042",
+ "record_id": "shDwLfpvqm",
+ "title": "登陆时验证码图片无法正常显示",
+ "problem": "登陆时验证码图片无法正常显示",
+ "cause": "tomcat中未启用awt图像库支持",
+ "solution": "在catalina.sh的开头的JAVA_OPTS环境变量中加入-Djava.awt.headless=true（加后如：JAVA_OPTS=\"-server -Xms512m -Xmx1024m  -XX:MaxNewSize=512m -XX:PermSize=128m -XX:MaxPermSize=256m -Djava.awt.headless=true\"），然后重启tomcat",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "验证码显示"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施2部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "shDwLfpvqm"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

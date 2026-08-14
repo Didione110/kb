@@ -1,0 +1,37 @@
+{
+ "id": "FX-20250924-029",
+ "record_id": "zPg9G2AiTT",
+ "title": "报表需要添加字段，如何实现？",
+ "problem": "报表需要添加字段，如何实现？",
+ "cause": "报表已经在系统中预置了字段，需要添加其他字段需要在UBF中自行设置。",
+ "solution": "https://share.note.youdao.com/ynoteshare/index.html?id=fbf7075471dae78b47a87d442e50e213&type=note&_time=1758695373708",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段添加"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zPg9G2AiTT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

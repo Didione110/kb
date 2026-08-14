@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240507-029",
+ "record_id": "7j5zgjEPgp",
+ "title": "POS提取方案带出来的会员未进行积分",
+ "problem": "POS提取方案带出来的会员未进行积分",
+ "cause": "会员信息字段不全",
+ "solution": "需要将cardid、contactid、cardtypeid、cardlevid带入到数据集中，明细数据集中必须带入ispoint字段",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "积分未提"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-05-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbOG2aW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbOG2aW3kdP0wQ",
+  "doc_path": "/时空/实施问题/POS提取方案带出来的会员未进行积分",
+  "record_id": "7j5zgjEPgp"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/POS提取方案带出来的会员未进行积分",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240809-030",
+ "record_id": "isMbRAdYga",
+ "title": "因为北京智友给的开发手册目前的版本还是2009版，dherp里面已经有很多的方法不适用了，实施人员在编写代码的时候，经常性会因为找不到属性或者方法满世界询问，费时费力",
+ "problem": "因为北京智友给的开发手册目前的版本还是2009版，dherp里面已经有很多的方法不适用了，实施人员在编写代码的时候，经常性会因为找不到属性或者方法满世界询问，费时费力",
+ "cause": "北京没做详细的文档归集",
+ "solution": "目前所知，智友的控件属性里的方法，均可以转为json格式进行查阅分析\n如需要查看form.parameters下级所有的属性\n使用：console.log(Utility.toJSONString(form.parameters)) 即可查看如下\n{\n \"action\" : \"modify\",\n \"advance\" : {},\n \"allowmodifydata\" : \"Y\",\n \"authorization\" : \"\",\n \"billno\" : \"2061\",\n \"contextpath\" : \"\",\n \"dbtype\" : \"Oracle\",\n \"formtype\" : \"bill\",\n \"height\" : 574,\n \"idprefix\" : \"0j84ujd7dvj5fjzv\",\n \"innerversion\" : \"12.0.0.0\",\n \"ispad\" : false,\n \"isworkflow\" : true,\n \"keyfield\" : \"BillNo\",\n \"leaveprompt\" : \"0\",\n \"locked\" : true,\n \"maindataset\" : \"Ds_Goods\",\n \"moduleid\" : \"18u8okrne0xnik0i\",\n \"onbillreview\" : \"\",\n \"onload\" : \"uf_onload()\",\n \"onsavecheck\" : \"\",\n \"onunload\" : \"\",\n \"onwfload\" : \"\",\n \"onwfsave\" : \"\",\n \"reviewable\" : true,\n \"sharemoduleid\" : \"\",\n \"u_onbillreview\" : \"\",\n \"u_onload\" : \"uf_onload()\",\n \"u_onsavecheck\" : \"\",\n \"u_onunload\" : \"\",\n \"u_onwfload\" : \"\",\n \"u_onwfsave\" : \"\",\n \"width\" : 985,\n \"workflowInfo\" : {\n \"billno\" : \"2061\",\n \"initiatorid\" : \"U3UXTVXVDCP\",\n \"instanceid\" : \"3709\",\n \"isopiton\" : \"N\",\n \"openmode\" : \"0\",\n \"srcorgid\" : \"\",\n \"taskid\" : \"6lnr72u30zwdmznf\",\n \"taskname\" : \"开始\",\n \"typesign\" : \"0\",\n \"wfid\" : \"5g65wrob0zw8n6yj\",\n \"wfresultid\" : \"3717\",\n \"wfstate\" : \"1\",\n \"workflowmenu\" : [{\n \"FuncName\" : \"\",\n \"MenuName\" : \"保存(S) \",\n \"MenuStyle\" : \"0\",\n \"PMenuId\" : \"\",\n \"formmenuid\" : \"toolbar.m1\",\n \"formmenuname\" : \"保存(S) \",\n \"menuId\" : \"39bfax3v30wjfhtn\"\n }\n ]\n }\n}",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "文档陈旧"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-08-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "isMbRAdYga"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

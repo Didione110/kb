@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-025",
+ "record_id": "mP17fGwuoT",
+ "title": "平板拣货平板复核两个人同时操作一个复核台时，有可能存在某一家封箱后，另外一个人不知道，忘记重新登记周转箱，此时要加入拦截，已经封箱情况下，要进行提示。",
+ "problem": "平板拣货平板复核两个人同时操作一个复核台时，有可能存在某一家封箱后，另外一个人不知道，忘记重新登记周转箱，此时要加入拦截，已经封箱情况下，要进行提示。",
+ "cause": "平板拣货平板复核两个人同时操作一个复核台时，有可能存在某一家封箱后，另外一个人不知道，忘记重新登记周转箱，此时要加入拦截，已经封箱情况下，要进行提示。",
+ "solution": "平板拣货平板复核两个人同时操作一个复核台时，有可能存在某一家封箱后，另外一个人不知道，忘记重新登记周转箱，此时要加入拦截，已经封箱情况下，要进行提示。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "封箱拦截"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mP17fGwuoT"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231123-080",
+ "record_id": "vB2M19Okx8",
+ "title": "OA环境检查工具\n适用环境：环境检查工具支持V7.1SP1及以上版本协同，支持Windows、\nLinux、信创环境下进行使用，依赖jdk1.8或更高版本\n\n功能：对当前系统环境的配置已经参数做检查并给出建议\n工具执行结束会生成checkResult_0.0.1.html文件，文件中会详细说明检查结果和解决方法\n同时也会指出可能引发的问题\n",
+ "problem": "OA环境检查工具\n适用环境：环境检查工具支持V7.1SP1及以上版本协同，支持Windows、\nLinux、信创环境下进行使用，依赖jdk1.8或更高版本\n\n功能：对当前系统环境的配置已经参数做检查并给出建议\n工具执行结束会生成checkResult_0.0.1.html文件，文件中会详细说明检查结果和解决方法\n同时也会指出可能引发的问题",
+ "cause": "无",
+ "solution": "1、工具安装包获取\n 下载地址：https://open.seeyoncloud.com/#/toolbase，或见附件；\n2、自动更新\n 如果本地已安装检查工具，连网环境下不需要进行下载，工具在启动时会自动更新，选择更新即可；\n3、 部署\n 下载后的工具zip文件可解压至任意目录，工具启动需要依赖同级目录的jdk，如果同级目录没有jdk，则会使用协同的jdk（通过读取注册表获取jdk目录）。 (注：标准环境有注册表信息，信创环境没有注册表，需要配置JAVA_HOME的环境变量后使用)\n具体使用见附件",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "环境检查"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2023-11-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vB2M19Okx8"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

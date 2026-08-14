@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230223-042",
+ "record_id": "MECS1M43xk",
+ "title": "T3年结，新建年度账时，提示“未找到路径，新建年度账失败”",
+ "problem": "T3年结，新建年度账时，提示“未找到路径，新建年度账失败”",
+ "cause": "系统库表中缺失账套路径",
+ "solution": "打开数据库，ufsystem系统库中，表ua\\_account中的账套路径不存在，改成实际的账套路径。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "路径未找到"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-02-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMNlkrJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMNlkrJB5r9YAn",
+  "doc_path": "/其他/环境问题/T3年结，新建年度账时，提示未找到路径，新建年度账失败",
+  "record_id": "MECS1M43xk"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/T3年结，新建年度账时，提示未找到路径，新建年度账失败",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250907-006",
+ "record_id": "MfGJc1CMhm",
+ "title": "三方对接时候，下载三方数据报字符截断",
+ "problem": "三方对接时候，下载三方数据报字符截断",
+ "cause": "sql与oracle对于汉字定义的字符长度不一致导致",
+ "solution": "将oracle表结构加长即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字符截断"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-09-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmkBNpJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmkBNpJGlDd3mE",
+  "doc_path": "/自研/数据错误问题/三方对接时候，下载三方数据报字符截断",
+  "record_id": "MfGJc1CMhm"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/三方对接时候，下载三方数据报字符截断",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

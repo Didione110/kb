@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251128-044",
+ "record_id": "qj5gL073jA",
+ "title": "报表批量执行经常有这种还剩几张报表导致一直显示任务未完成。也不能删除计算任务，也不能重新执行批量计算一直卡着，有什么办法解决",
+ "problem": "报表批量执行经常有这种还剩几张报表导致一直显示任务未完成。也不能删除计算任务，也不能重新执行批量计算一直卡着，有什么办法解决",
+ "cause": "环境问题需要打补丁",
+ "solution": "打补丁",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "报表卡滞"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "企业绩效服务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qj5gL073jA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

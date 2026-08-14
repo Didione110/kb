@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230116-012",
+ "record_id": "oDZ76iH654",
+ "title": "填制凭证界面新增科目提示运行时错误70，拒绝的权限",
+ "problem": "填制凭证界面新增科目提示运行时错误70，拒绝的权限",
+ "cause": "环境配置导致操作异常",
+ "solution": "开始-运行输入msconfig，工具页签，选择“更改UAC设置”，点击启动，选择“从不通知”即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限拒绝"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oDZ76iH654"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

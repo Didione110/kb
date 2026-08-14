@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230404-010",
+ "record_id": "RP0hio2ta3",
+ "title": "凭证取消记账提示入库失败，至少选择两个字",
+ "problem": "凭证取消记账提示入库失败，至少选择两个字",
+ "cause": "这个目前定位到的就是老版本QQ五笔输入法的问题，在其他任何界面只要按快捷键都会有这个提示。",
+ "solution": "使用软键盘（OSK）测试即可验证。控制面板里，把所有输入法全卸载了，然后重启电脑。重启之后在搜狗输入法官网，重新安装新版输入法。不会有这问题",
+ "solution_types": [
+  "配置修改",
+  "环境设置",
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "取消记账"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-04-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RP0hio2ta3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

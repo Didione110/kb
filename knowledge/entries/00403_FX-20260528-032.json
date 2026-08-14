@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260528-032",
+ "record_id": "9l0MpMZ38k",
+ "title": "采购入库单下推生成退库单时，表体规格型号字段未自动带入？",
+ "problem": "采购入库单下推生成退库单时，表体规格型号字段未自动带入？",
+ "cause": "采购入库单下推生成退库单时，表体规格型号字段未自动带入？",
+ "solution": "1. 检查数据源配置：确认采购入库单的字段映射是否正确，特别是规格型号字段是否在下推配置中被正确关联。\n2. 验证字段权限设置：确保退库单的相关字段（如规格型号）在系统权限配置中允许被下推带入。\n3. 查看业务流程配置：检查下推流程是否配置了正确的逻辑规则，确保规格型号字段在流程中未被过滤或覆盖。\n4. 测试不同单据类型：尝试使用其他类型的采购入库单进行下推操作，确认问题是否为特定单据类型所独有。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "规格型号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购服务",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-05-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymM4Py8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymM4Py8xkXOEP2",
+  "doc_path": "/用友/应用操作/采购入库单下推生成退库单时，表体规格型号字段未自动带入？",
+  "record_id": "9l0MpMZ38k"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/采购入库单下推生成退库单时，表体规格型号字段未自动带入？",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240730-044",
+ "record_id": "AEFPOPqzBk",
+ "title": "导入历史养护内容",
+ "problem": "导入历史养护内容",
+ "cause": "根据历史库存，导入历史养护内容",
+ "solution": "导入脚本请参考",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Python",
+  "Shell"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "历史养护"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmEZqbJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmEZqbJGlDd3mE",
+  "doc_path": "/时空/应用操作/导入历史养护内容",
+  "record_id": "AEFPOPqzBk"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/导入历史养护内容",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

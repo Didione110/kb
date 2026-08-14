@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221208-033",
+ "record_id": "yhznPg7MXM",
+ "title": "审批人回退流程后，无法正常“撤销回退记录”",
+ "problem": "审批人回退流程后，无法正常“撤销回退记录”",
+ "cause": "审批人指定回退给发起人节点，直接到发起人的待发事项，导致不能撤销回退记录",
+ "solution": "和客户讲解该功能点操作应用\n撤销回退记录，针对发起人后以及本审批环节前的审批环节应用，并生效\n取回，针对本审批环节后的审批环节应用，并生效",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "回退撤销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2022-12-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yhznPg7MXM"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240226-051",
+ "record_id": "CacoEr4W0A",
+ "title": "WMS查询较早时间的单据时，部分字段参数缺少",
+ "problem": "WMS查询较早时间的单据时，部分字段参数缺少",
+ "cause": "转历史的时候没有增加对应表新增的字段",
+ "solution": "部分重要表(jzorder\\_hz，pf\\_phlrhz及相关对应明细表等)增加新字段的时候，一定要第一时间在转历史里增加该字段。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "字段缺失"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-02-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1mEgDJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1mEgDJMGjLRb3",
+  "doc_path": "/其他/实施问题/WMS查询较早时间的单据时，部分字段参数缺少",
+  "record_id": "CacoEr4W0A"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/WMS查询较早时间的单据时，部分字段参数缺少",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

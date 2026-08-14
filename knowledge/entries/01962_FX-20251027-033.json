@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251027-033",
+ "record_id": "oPcdyNnFZ4",
+ "title": "怎么及时手动同步库存到店铺，不用等库存有变动才同步\n",
+ "problem": "怎么及时手动同步库存到店铺，不用等库存有变动才同步",
+ "cause": "库存同步的逻辑是，第一次产生匹配关系的时候会触发一次库存同步，后面每一次的库存变动也都会触发同步。但有时因业务需要及时同步库存数据，不能等到下次变动再同步库存。",
+ "solution": "这种情况就可以操作同步库存到店铺的功能按需要手动触发库存同步。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "手动同步库存"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-10-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oPcdyNnFZ4"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260507-008",
+ "record_id": "UGXI1EU2d5",
+ "title": "oracle数据库中，科情小Q日志表k_prn_sendlog表占用数据库表空间太大，经常死锁",
+ "problem": "oracle数据库中，科情小Q日志表k_prn_sendlog表占用数据库表空间太大，经常死锁",
+ "cause": "日志表中LOB（CLOB/BLOB）类型字段删除后空间没释放，表空间被死空间占满了！",
+ "solution": "需要先把历史数据归档或删除，然后收缩表空间：\n-- 1. 开启行移动\nALTER TABLE K_PRN_SENDLOG_HIS ENABLE ROW MOVEMENT;\n\n-- 2. 收缩表 + 所有LOB + 所有索引（最安全、最有效）\nALTER TABLE K_PRN_SENDLOG_HIS SHRINK SPACE CASCADE;\n\n-- 3. 关闭行移动\nALTER TABLE K_PRN_SENDLOG_HIS DISABLE ROW MOVEMENT;",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "日志膨胀"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2026-05-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UGXI1EU2d5"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

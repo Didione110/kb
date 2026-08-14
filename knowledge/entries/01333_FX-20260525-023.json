@@ -1,0 +1,43 @@
+{
+ "id": "FX-20260525-023",
+ "record_id": "YqTT20Nem2",
+ "title": "能否在同一家组织完成其余组织的内部交易结算勾单，并且生成的单据在做单组织中体现",
+ "problem": "能否在同一家组织完成其余组织的内部交易结算勾单，并且生成的单据在做单组织中体现",
+ "cause": "在哪个组织做内部交易取决于业务关系的结算主体，比如A组织调到B组织的，要在B组织结算，结算主体是来源组织；如果B组织调到A组织的，也要在B组织结算，那结算主体就是目的组织，就全都在B组织结算",
+ "solution": "在哪个组织做内部交易取决于业务关系的结算主体，比如A组织调到B组织的，要在B组织结算，结算主体是来源组织；如果B组织调到A组织的，也要在B组织结算，那结算主体就是目的组织，就全都在B组织结算",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "跨组织勾单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2026-05-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YqTT20Nem2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

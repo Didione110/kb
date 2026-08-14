@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230217-027",
+ "record_id": "ekCL9brPYu",
+ "title": "wx.downloadFile()加载图片不显示，图片占位且一直刷新",
+ "problem": "wx.downloadFile()加载图片不显示，图片占位且一直刷新",
+ "cause": "小程序发布后使用正式环境，请求需要配置合法域名",
+ "solution": "本地开发时，在开发工具中设置“不检验合法域名的选项”，微信上传测试环境后，请求就需要配置合法域名",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "下载失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "研发1部",
+  "date": "2023-02-17"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmwN1X83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmwN1X83pmz5aA",
+  "doc_path": "/自研/产品功能问题/wx.downloadFile加载图片不显示，图片占位且一直刷新",
+  "record_id": "ekCL9brPYu"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/wx.downloadFile加载图片不显示，图片占位且一直刷新",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

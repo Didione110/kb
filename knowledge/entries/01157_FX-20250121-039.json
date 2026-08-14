@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-039",
+ "record_id": "TuvB36bWKp",
+ "title": "在服务端需要回写JS端数据集字段数据处理",
+ "problem": "在服务端需要回写JS端数据集字段数据处理",
+ "cause": "需要在服务端单据保存后事件after_save()中回写JS端相关数据集字段数据",
+ "solution": "使用FormUtil.setWriteBackDataSetValue(\"Ｄataset\", i, \"Field\", \"value\");\nＤataset:数据集名称\ni:第几行数据\nField:字段名称\nvalue:更新后字段值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "Java"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "JS数据回写"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TuvB36bWKp"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

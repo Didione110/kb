@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240131-076",
+ "record_id": "azqE8gzPhr",
+ "title": "现金流量科目关系设置点了复制到其他主体账簿没反应",
+ "problem": "现金流量科目关系设置点了复制到其他主体账簿没反应",
+ "cause": "项目上数据量比较大，复制时间比较长，需要耐心等待复制完成提示出来，期间不能切换账套，可以在本帐套操作其他业务",
+ "solution": "保存路径选的根目录时，未对根目录做处理，后台会报错。需要选择日志保存路劲为根目录。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "复制失效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "azqE8gzPhr"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

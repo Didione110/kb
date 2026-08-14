@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251125-029",
+ "record_id": "pJEFCcAh7P",
+ "title": "费用预算没有控制到末级部门",
+ "problem": "费用预算没有控制到末级部门",
+ "cause": "费用预算按照一级部门设置，但是实际报销在末级，导致预算无法控制",
+ "solution": "通过费用预算-预算建模-映射维护中通过\"IN\"维护一级部门与其下级部门的映射关系。预算字段编码为一级部门，公共档案编码为一级部门及其下级部门。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "预算控制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pJEFCcAh7P"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

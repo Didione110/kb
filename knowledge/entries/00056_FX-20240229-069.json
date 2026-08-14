@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240229-069",
+ "record_id": "1GsZDyfRzS",
+ "title": "WMS涉及到自动打印标签（整件，补货等）",
+ "problem": "WMS涉及到自动打印标签（整件，补货等）",
+ "cause": "WMS涉及到自动打印标签（整件，补货等）",
+ "solution": "WMS有个界面叫网络打印，里面有个打印方案，查询中显示需要的字段，然后网络打印有张表（跟踪看的到），往表里插入数据即可自动打印。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "自动打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1GsZDyfRzS"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

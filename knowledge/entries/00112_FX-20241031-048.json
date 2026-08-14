@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-048",
+ "record_id": "2Sh8GX7Im7",
+ "title": "凭证使用小技巧",
+ "problem": "凭证使用小技巧",
+ "cause": "技巧",
+ "solution": "1、制单与审核界面的展开与合并功能显示，只需要在总账-设置-选项中勾上合并凭证显示、打印即可；快捷键为ctrl+A\n2、凭证打印时不显示科目编码，总账-设置-选项-凭证打印-取消勾选打印包含科目编码即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "凭证技巧"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2Sh8GX7Im7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

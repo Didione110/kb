@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240830-066",
+ "record_id": "YVcZmXeTOz",
+ "title": "菜单进入使用次数统计",
+ "problem": "菜单进入使用次数统计",
+ "cause": "菜单进入使用次数统计",
+ "solution": "select b.MenuName,b.CatCode,count(*) as 使用次数\n From syslog a inner join menutree b on a.programid=b.programid\n left join menulist c on c.templetid = b.templetid and c.menutype <> 3 and c.beactive = 'Y'\n where a.createtime >='2024-08-21 00:00:00'\n group by b.MenuName,b.CatCode",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "菜单统计"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YVcZmXeTOz"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

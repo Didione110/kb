@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240108-025",
+ "record_id": "dQrOIt1VLA",
+ "title": "器械客户收货入库时，同一个商品，同一个批号不同批次，需要按商品ID和输入第一个批号自动生成之后的顺序排列批号。",
+ "problem": "器械客户收货入库时，同一个商品，同一个批号不同批次，需要按商品ID和输入第一个批号自动生成之后的顺序排列批号。",
+ "cause": "收货验收员需要批号根据输入的第一个批次号批量自动生成后续批次功能。",
+ "solution": "通过正则表单式取输入批号字符后端数字，顺序+1后还原截取长度再拼接前段生成新的批次号：\nfunction uf_auto(){\n var str = \"\";\n var row = ds_ddmx.recno ;\n for(var i = row ; i<ds_ddmx.recordCount-1;i++){\n str = ds_ddmx.getValueAt(i,\"batchcode\");\n \n if(str==\"\"){\n form.alert(\"请对应品种第一行填写初始批号！！！！\");\n return false;\n }\n \n if(ds_ddmx.getValueAt(i,\"goodscode\") != ds_ddmx.getValueAt(i+1,\"goodscode\") ){\n // alert(ds_ddmx.getValueAt(i,\"goodscode\") +\",,,\"+ds_ddmx.getValueAt(i+1,\"goodscode\") );\n form.alert(\"已到同品种最后一条！！！\");\n return false;\n }\n \n var len = 0;\n var regex = /\\d+$/; // 定义正则表达式，匹配字符串后连续的数字\n var result = str.match(/\\d+$/)[0];\n len = result.length;\n result = parseInt(result)+1;\n result = \"0000000000\"+result.toString();//填充字符用以还原为之前截取下来的长度\n result = result.substring(result.length - len);\n \n var ph = str.substr(0,str.length-len);//取截取后的遗留字符串\n \n if(ph != null){\n ds_ddmx.setValueAt(i+1,\"batchcode\",ph+result);//拼接\n }else {\n ds_ddmx.setValueAt(i+1,\"batchcode\",result);\n }\n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "批号排序"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2024-01-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dQrOIt1VLA"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

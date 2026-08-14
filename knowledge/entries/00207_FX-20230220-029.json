@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230220-029",
+ "record_id": "4y6j3mWE8k",
+ "title": "T+功能模块缺失",
+ "problem": "T+功能模块缺失",
+ "cause": "环境问题，使用语句修复",
+ "solution": "update eap\\_menu set Visibility = 1 where name='财务结账'\nUPDATE dbo.EAP\\_Menu SET Visibility = 1 WHERE Code = 'AA50' AND Name = '价格信息'\n\nUPDATE dbo.EAP\\_Menu SET Visibility = 1 WHERE Code = 'AA35' AND Name = '财务信息'\n注：缺失什么就执行什么节点的名字，在只有财务模块的情况下，执行完后一定要执行此句\n\nUPDATE dbo.EAP\\_Menu SET Visibility = 1 WHERE inID LIKE 'AA\\_%' AND Name IN ('部门','员工','往来单位','计量单位','存货','物料清单','仓库','地区','项目','出入库类别','业务类型','收入','费用','账号','结算方式','售价设置导航','售价带出策略','存货价格本','客户价格本','客户折扣','销售价格查询','科目','凭证类别','常用摘要','现金流量项目')\n\nUPDATE dbo.EAP\\_Menu SET Visibility = 0 WHERE Code = 'AA5021' AND Name = '售价带出策略'\n\nUPDATE dbo.Eap\\_MenuTreeRelation SET isSystem = 0 WHERE Name IN ('部门','员工','往来单位','计量单位','存货','物料清单','仓库','地区','项目','出入库类别','业务类型','收入','费用','账号','结算方式','售价设置导航','售价带出策略','存货价格本','客户价格本','客户折扣','销售价格查询','科目','凭证类别','常用摘要','现金流量项目') AND MenuCode NOT IN ('DSTALBB1003','DST8006')",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "权限"
+ ],
+ "keywords": [
+  "功能缺失"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMMKBmJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMMKBmJB5r9YAn",
+  "doc_path": "/其他/软件无法使用/T+功能模块缺失",
+  "record_id": "4y6j3mWE8k"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/T+功能模块缺失",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

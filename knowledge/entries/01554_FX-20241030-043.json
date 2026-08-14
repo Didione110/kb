@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241030-043",
+ "record_id": "ei41Ivch7q",
+ "title": "导出存货管理档案没有计量单位显示",
+ "problem": "导出存货管理档案没有计量单位显示",
+ "cause": "打印模板上没有计量单位字段",
+ "solution": "在打印模板上新增自定义变量getColValue(bd_measdoc,measname,pk_measdoc,getColValue(bd_invbasdoc,pk_measdoc,pk_invbasdoc,c.pk_invbasdoc) )--计量单位",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "计量单位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-10-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ei41Ivch7q"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

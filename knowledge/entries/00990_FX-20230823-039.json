@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230823-039",
+ "record_id": "PD08sJJkYk",
+ "title": "门店端余额付款提示无权限",
+ "problem": "门店端余额付款提示无权限",
+ "cause": "移除用户、员工离职、员工停用，在有这些动作时，权限那边会把开始日期、结束日期全部改成 操作日的前一天，比如今天操作的员工停用，移除用户开始日期、结束日就会改成昨天，但是启用移除的用户新增回来，开始日期、结束日期他们并不会改回来",
+ "solution": "需要在授权中找到这个用户，修改失效日期并授权对应组织",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "余额权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "销售服务",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-08-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PD08sJJkYk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

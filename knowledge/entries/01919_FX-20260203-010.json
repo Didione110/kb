@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260203-010",
+ "record_id": "nhQlPSCpQu",
+ "title": "存货档案修改删除提示引用",
+ "problem": "存货档案修改删除提示引用",
+ "cause": "某物料确实用过采购，已删除单据，现在想修改属性勾上批次管理，保存提示引用，无法保存；\n在引用查询仍在现存量表显示有引用记录",
+ "solution": "使用过的物料会在现存量有记录，即使删除，需要在调整现存量节点，点一下调整现存量，选择对应存货，确定，系统会自动整理；重新修改存货，勾上批次，成功保存",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "引用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nhQlPSCpQu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

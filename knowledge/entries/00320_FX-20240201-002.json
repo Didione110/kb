@@ -1,0 +1,37 @@
+{
+ "id": "FX-20240201-002",
+ "record_id": "7ZPdjT2COh",
+ "title": "OA对接U9C采购单字段SQL",
+ "problem": "OA对接U9C采购单字段SQL",
+ "cause": "字段对应花费时间过长\n\n---",
+ "solution": "",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "OA、U9C、采购单"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1dYbp8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1dYbp8BQEx5rG",
+  "doc_path": "/用友/数据接口问题/OA对接U9C采购单字段SQL",
+  "record_id": "7ZPdjT2COh"
+ },
+ "status": "active",
+ "doc_path": "/用友/数据接口问题/OA对接U9C采购单字段SQL",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

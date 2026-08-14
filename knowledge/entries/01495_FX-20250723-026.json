@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250723-026",
+ "record_id": "craDpoY7HC",
+ "title": "在生产环境服务器中，由于存放U9patch的盘已经红了，哪些物理文件可以删除",
+ "problem": "在生产环境服务器中，由于存放U9patch的盘已经红了，哪些物理文件可以删除",
+ "cause": "在生产环境服务器中，由于存放U9patch的盘已经红了，哪些物理文件可以删除",
+ "solution": "1、可以删除U9patch/backup和U9patch/temp下面所有的物理文件，这些文件都属于补丁的缓存文件\n2、可以删除yonyou下面各个log文件夹",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "U9patch磁盘空间"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "项目化管理",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-07-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "craDpoY7HC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

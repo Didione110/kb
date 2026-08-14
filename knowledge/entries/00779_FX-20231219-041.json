@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231219-041",
+ "record_id": "JxrcnrZ9iN",
+ "title": "文档中心打开表单后提示请下载最新控件以及WPS",
+ "problem": "文档中心打开表单后提示请下载最新控件以及WPS",
+ "cause": "金格控件与客户端环境不兼容或是转换服务未启动或转换模块未启动",
+ "solution": "使用管理员账号启动转换模块并且启用转换模块后依旧无法预览文件后，使用致远修复工具，适用于金格版本过低、oa版本和浏览器版本不兼容、wps版本或office版本异常，V7.0sp2以上均可使用",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "控件下载"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "知识社区",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbK2ZmJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbK2ZmJxEKBD6p",
+  "doc_path": "/致远OA/环境问题/文档中心打开表单后提示请下载最新控件以及WPS",
+  "record_id": "JxrcnrZ9iN"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/环境问题/文档中心打开表单后提示请下载最新控件以及WPS",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

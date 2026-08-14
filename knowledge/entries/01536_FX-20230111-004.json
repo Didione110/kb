@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230111-004",
+ "record_id": "eLp1bAxGKo",
+ "title": "未使用的科目无法删除",
+ "problem": "未使用的科目无法删除",
+ "cause": "前台数据未删除完毕，或者后台表记录",
+ "solution": "1、确保没有凭证的辅助核算上使用了该档案；\n2、在公司右上角搜索基本档案引用查询节点，查询是否还有单据或是凭证引用了该档案，根据查找结果修改；\n3、在总账期初节点，期初余额，点数量列，alt+ctrl+a，结账点击重建余额表，弹出来的界面选期初启用年度，会计期间选空，点确定。清除缓存，重新登录\n 4、如上述3个步骤都未能解决，在集团登录，【财务会计】-【总账】-【初始设置】【节点互斥】节点，选择,开始互斥，功能操作，操作完成后，点击解除互斥。",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目删除"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-01-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eLp1bAxGKo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

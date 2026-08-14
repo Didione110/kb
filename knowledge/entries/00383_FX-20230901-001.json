@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230901-001",
+ "record_id": "9Cyz867Dzv",
+ "title": "oms订单系统检测到客户发起退款后，发起订单挂起。但是由于未开启挂起服务，未进行通知",
+ "problem": "oms订单系统检测到客户发起退款后，发起订单挂起。但是由于未开启挂起服务，未进行通知",
+ "cause": "一般客户订单申请退款未开启挂起和恢复，所以系统未发起取消。导致订单最后还是发货了",
+ "solution": "点三系统，系统设置——订单设置，将订单申请退款，出库计划单已通知（三方仓）设置从自动挂起出库单改成自动取消出库单。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "订单挂起"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-09-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yA3NlN8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yA3NlN8GXn6lpz",
+  "doc_path": "/其他/产品功能问题/oms订单系统检测到客户发起退款后，发起订单挂起。但是由于未开启挂起服务，未进行通知",
+  "record_id": "9Cyz867Dzv"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/oms订单系统检测到客户发起退款后，发起订单挂起。但是由于未开启挂起服务，未进行通知",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

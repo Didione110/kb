@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250528-039",
+ "record_id": "TNBWfPiMR3",
+ "title": "电脑访问其他网页正常,打开时空会提示无法安全地连接到此页面",
+ "problem": "电脑访问其他网页正常,打开时空会提示无法安全地连接到此页面",
+ "cause": "Windows自动更新会清除部分ie设置,系统安全策略自动禁用tls相关设置导致时空无法访问",
+ "solution": "1.依次打开IE的Internet选项、高级，往下拉，找到安全模块，勾上四个使用：使用SSL 3.0、使用TLS 1.0、使用TLS 1.1、TLS 1.2\n2.在策略组中设置允许回退到ssl3.0设置为启用,选择所有站点\n二选一即可",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "SSL证书"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "需求&KA部",
+  "date": "2025-05-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TNBWfPiMR3"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

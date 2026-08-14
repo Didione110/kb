@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240619-031",
+ "record_id": "1CHKP9jPYA",
+ "title": "v10 v11 v12在使用form.open时均存在跨域问题，即不能打开非当前应用服务器外的文件或地址",
+ "problem": "v10 v11 v12在使用form.open时均存在跨域问题，即不能打开非当前应用服务器外的文件或地址",
+ "cause": "因为早期V10的环境为IE，故对跨域操作支持很不友善，系统底层代码并没有考虑到这一块，dherp之后内核变成了谷歌，对此有了底层支持，但是开发商并未添加",
+ "solution": "找到form.js文件搜索关键字Form.prototype.open\n找到如下代码进行选择替换即可\n //如果包含点，可能是一个jsp\n if (formid.indexOf('http://') == 0 \\|\\|formid.indexOf('https://') == 0 ) \\{\n url = formid;\n \\}else if (formid.indexOf(\".jsp\") \\> 0 \\|\\| formid.indexOf(\".html\") \\> 0 \\|\\| formid.indexOf(\".htm\") \\> 0) \\{\n url = this.parameters.contextpath;\n if (formid.indexOf(\"/\") != 0) \\{\n url \\+= \"/\"\n \\}\n url \\+= formid;\n \\} else if (action == \"workflow\") \\{\n url = this.parameters.contextpath \\+ \"/\" \\+ formid \\+ \".workflow\";\n action = \"modify\";\n \\} else \\{\n url = this.parameters.contextpath \\+ \"/\" \\+ formid \\+ \".form\";\n \\}\n if (url.indexOf(\"?\") == -1) \\{\n url \\+= \"?\";\n \\} else if (url.lastIndexOf(\"&\") != url.length - 1)",
+ "solution_types": [
+  "代码修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "IE",
+  "Chrome"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "跨域问题"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2024-06-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvwbRYVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvwbRYVMwvDqPk",
+  "doc_path": "/时空/产品功能问题/v10 v11 v12在使用form.open时均存在跨域问题，即不能打开非当前应用服务器外的文件或地址",
+  "record_id": "1CHKP9jPYA"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/v10 v11 v12在使用form.open时均存在跨域问题，即不能打开非当前应用服务器外的文件或地址",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

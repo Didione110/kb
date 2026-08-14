@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240806-028",
+ "record_id": "jF8NsjCYFk",
+ "title": "同时有多个订单或者订单有多行通过计划计算后不知道如何区分该笔订单对应的采购订单以及生产订单",
+ "problem": "同时有多个订单或者订单有多行通过计划计算后不知道如何区分该笔订单对应的采购订单以及生产订单",
+ "cause": "计划在执行过程中是同时考虑多笔订单如果订单相同则合并需求了，不好区分",
+ "solution": "在料品档案的计划页签维护需求分类，打勾，然后在下生产订单的时候再行上的交货页签维护需求分类，然后通过计划运算后，在计划订单将需求分类或者来源计划扩展到行上，这样可以通过需求分类快速定位相关订单并进行释放",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "订单区分"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-08-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jF8NsjCYFk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

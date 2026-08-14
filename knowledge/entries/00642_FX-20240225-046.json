@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240225-046",
+ "record_id": "G63IyFjGZ0",
+ "title": "账套备份提示无法打开备份设备'D:/U8SOFT/Admin/ufmodel2005.bak'。出现操作系统错误 2(系统找不到指定的文件。)。-2147217900",
+ "problem": "账套备份提示无法打开备份设备'D:/U8SOFT/Admin/ufmodel2005.bak'。出现操作系统错误 2(系统找不到指定的文件。)。-2147217900",
+ "cause": "文件丢失",
+ "solution": "找到路径下ufmodel2005的压缩包，解压到当前路径下即可",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "备份路径错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "G63IyFjGZ0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

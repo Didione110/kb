@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240127-056",
+ "record_id": "4XGYOd7TfN",
+ "title": "除了料品可设置自动下发外，其他可下发的档案如何设置自动下发？",
+ "problem": "除了料品可设置自动下发外，其他可下发的档案如何设置自动下发？",
+ "cause": "只有料品可以自动下发，影响效率",
+ "solution": "基础设置（组织）-【批量下发】中勾选供应商、客户、料品、项目进行下发，可以设置调度方案，进行定时同步下发",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "自动下发"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-01-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4XGYOd7TfN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241129-064",
+ "record_id": "Q0BdqVvgiE",
+ "title": "通过弹框等方式打开的流程菜单无法发起审批流",
+ "problem": "通过弹框等方式打开的流程菜单无法发起审批流",
+ "cause": "因为增加审批流以后需要重新挂workflow菜单,只用form.open默认打开的是不含审批流的菜单",
+ "solution": "调整open的参数\nform.open(流程id, params, \"workflow\", \"\", 800, 600)\n即可正常发起",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "弹窗审批"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2024-11-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Q0BdqVvgiE"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

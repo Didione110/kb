@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231130-118",
+ "record_id": "VTtJw15BYn",
+ "title": "时空部分生僻字无法识别",
+ "problem": "时空部分生僻字无法识别",
+ "cause": "时空部分生僻字无法识别",
+ "solution": "修改拼接 大黄䗪虫丸\nupdate goodsdoc set goodsname ='大黄'+ N'䗪' +'虫丸' where goodsid='G35546BGKDP'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "生僻字识别"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VTtJw15BYn"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

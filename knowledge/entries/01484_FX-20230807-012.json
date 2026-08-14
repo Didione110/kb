@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230807-012",
+ "record_id": "cdp0PKjkH1",
+ "title": "诺诺接口开票返回提示“根据平台监控，该发票号存在重复开票风险，因此开具失败”",
+ "problem": "诺诺接口开票返回提示“根据平台监控，该发票号存在重复开票风险，因此开具失败”",
+ "cause": "发票平台预警拦截",
+ "solution": "在航天中进行发票修复，如果已开具就在诺诺中同步发票，未开具就删除重新开票",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "重复开票"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2023-08-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmKmdwV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmKmdwV3bzYmDO",
+  "doc_path": "/自研/应用操作/诺诺接口开票返回提示根据平台监控该发票号存在重复开票风险因此开具失败",
+  "record_id": "cdp0PKjkH1"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/诺诺接口开票返回提示根据平台监控该发票号存在重复开票风险因此开具失败",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

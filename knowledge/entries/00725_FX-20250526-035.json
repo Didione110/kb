@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250526-035",
+ "record_id": "IfGDElf2nw",
+ "title": "分配用户系统管理中的菜单权限",
+ "problem": "分配用户系统管理中的菜单权限",
+ "cause": "使用系统标准的功能无法分配用户系统管理中的菜单权限",
+ "solution": "修改服务器中Portal\\bin\\environment.xml配置，详见附件",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "菜单权限"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IfGDElf2nw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

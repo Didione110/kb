@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231202-006",
+ "record_id": "qhZSYn89Ev",
+ "title": "时空V10老版本附件管理图片上传时无法加盖水印，打印方案设计也无法加盖水印",
+ "problem": "时空V10老版本附件管理图片上传时无法加盖水印，打印方案设计也无法加盖水印",
+ "cause": "1.产品版本太老，不支持水印处理",
+ "solution": "1.更新附件管理表单，使其上传时就加盖好水印图片\n2.更新Tomcat，如果更新Tomcat风险大，可以开多个配主从模式，图片附件在从Tomcat处理",
+ "solution_types": [
+  "补丁更新",
+  "代码修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "水印失效"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2023-12-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qhZSYn89Ev"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

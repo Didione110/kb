@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240105-020",
+ "record_id": "OJlUAUAjmG",
+ "title": "有些客户想要标签拣货，电脑复核",
+ "problem": "有些客户想要标签拣货，电脑复核",
+ "cause": "有些客户想要标签拣货，电脑复核",
+ "solution": "打印拣货标签时，整零一起打出，且renwh需要更新成一致，然后复核通过扫标签条码索取任务，可以用",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "标签拣货"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAXO4QVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAXO4QVKe0xjE3",
+  "doc_path": "/其他/产品功能问题/有些客户想要标签拣货，电脑复核",
+  "record_id": "OJlUAUAjmG"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/有些客户想要标签拣货，电脑复核",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

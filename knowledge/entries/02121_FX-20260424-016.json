@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260424-016",
+ "record_id": "s5KlnvHYId",
+ "title": "添加U8C程序提示应用安装失败",
+ "problem": "添加U8C程序提示应用安装失败",
+ "cause": "可能是网络环境原因，有些客户端可能，有些不行；没有IT部门无法排查",
+ "solution": "多次尝试添加U8C程序失败，尝试在其他正常电脑复制整个C:\\Users\\电脑的用户名\\AppData\\UClient文件，替换本客户端此路径；重新登录UClient程序已自动添加，清理缓存，进入使用，正常；",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "安装失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-04-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "s5KlnvHYId"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240522-051",
+ "record_id": "OtrSirTSUZ",
+ "title": "oracle报错1-12C-ora-00600-[kpp_concatq:2]\n\n在Oracle 12C，select查询的sql语句中视图过多时（目前只发现此情况），执行sql语句可能会报错：\nora-00600 [kpp_concatq:2]\n在PLSQL上select偶尔会报；\nBIEE的分析也出现此问题（分析加了过滤器之后，即使有数据，也可能会报错）；\n\n\n",
+ "problem": "oracle报错1-12C-ora-00600-[kpp_concatq:2]\n\n在Oracle 12C，select查询的sql语句中视图过多时（目前只发现此情况），执行sql语句可能会报错：\nora-00600 [kpp_concatq:2]\n在PLSQL上select偶尔会报；\nBIEE的分析也出现此问题（分析加了过滤器之后，即使有数据，也可能会报错）；",
+ "cause": "oracle关于此错误的官方回复是bug： bug ID：20985596\nBug 20985596 : ORA-00600[KPP_CONCATQ:2] OCCURS WHEN SQL EXECTING\n\n官网建议\n\n删表重新建表，发现就不报此错。可是隔段时间还是会报错。",
+ "solution": "解决方法：\n\n该bug由于result cache相关代码引起的，可以临时关闭result cache解决：\nalter system set result_cache_mode=manual;\nalter system set result_cache_max_size=0;\nalter system set \"_optimizer_ads_use_result_cache\"=false;",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "视图过多"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-05-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OtrSirTSUZ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件补丁问题"
+ ]
+}

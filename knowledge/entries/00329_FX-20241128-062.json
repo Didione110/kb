@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241128-062",
+ "record_id": "7pemDJazgB",
+ "title": "标签打印模板制作操作说明",
+ "problem": "标签打印模板制作操作说明",
+ "cause": "根据客户需要调整系统预置标签打印模版",
+ "solution": "见附件",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "标签打印"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1QpMvJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1QpMvJlemrZQ3",
+  "doc_path": "/致远OA/产品功能问题/标签打印模板制作操作说明",
+  "record_id": "7pemDJazgB"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/标签打印模板制作操作说明",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

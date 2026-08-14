@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250520-024",
+ "record_id": "Foq5VgvcqD",
+ "title": "打印问题：应付明细账报表拉扩展字段，怎么把编码转换成名称显示",
+ "problem": "打印问题：应付明细账报表拉扩展字段，怎么把编码转换成名称显示",
+ "cause": "打印问题：应付明细账报表拉扩展字段，怎么把编码转换成名称显示",
+ "solution": "这个是取扩展字段的脚本，也就是取项目编码\nselect UFIDA::U9::AP::APBill::APBillHead.APBillLines.DescFlexField.PubDescSeg4 as 描述性弹性域_公共段4 from UFIDA::U9::AP::APBill::APBillHead where UFIDA::U9::AP::APBill::APBillHead.DocNo=U_DF.GetQLValue(Fields!AP_BillNum.Value) and UFIDA::U9::AP::APBill::APBillHead.APBillLines.LineNum=U_DF.GetQLValue(Fields!AP_BillLineNum.Value)\n\n再设置一个，从项目档案取名称，条件用编码=上面的取编码脚本，和组织条件\nselect 名称 from 项目档案 where 编码=（取编码的脚本） and 组织=上下文的组织\n具体看下面这个脚本就是这样设置的\nselect UFIDA::U9::CBO::SCM::ProjectTask::Project.Name as 项目_项目名称 from UFIDA::U9::CBO::SCM::ProjectTask::Project where UFIDA::U9::CBO::SCM::ProjectTask::Project.Code=(\nselect UFIDA::U9::AP::APBill::APBillHead.APBillLines.DescFlexField.PubDescSeg4 as 描述性弹性域_公共段4 from UFIDA::U9::AP::APBill::APBillHead where UFIDA::U9::AP::APBill::APBillHead.DocNo=U_DF.GetQLValue(Fields!AP_BillNum.Value) and UFIDA::U9::AP::APBill::APBillHead.APBillLines.LineNum=U_DF.GetQLValue(Fields!AP_BillLineNum.Value)) and UFIDA::U9::CBO::SCM::ProjectTask::Project.Org.ID=U_DF.GetQLValue(Contexts!OrgID.Value)",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "编码转名称"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "停用-实施8部",
+  "date": "2025-05-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Foq5VgvcqD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

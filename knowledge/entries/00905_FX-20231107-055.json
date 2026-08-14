@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-055",
+ "record_id": "NB8khE2P3B",
+ "title": "OA系统在未启用短信/邮箱密码找回时，用户密码忘记需找系统管理员进行密码重置，针对用户较多客户，密码重置发生频发较高，可通过短信平台，启用手机短信密码找回功能处理此类密码重置问题",
+ "problem": "OA系统在未启用短信/邮箱密码找回时，用户密码忘记需找系统管理员进行密码重置，针对用户较多客户，密码重置发生频发较高，可通过短信平台，启用手机短信密码找回功能处理此类密码重置问题",
+ "cause": "OA系统启用短信平台手机短信密码找回功能\n短信插件开发完毕完成部署后，在系统中按照附件操作手册完成个人手机号绑定及密码找回操作",
+ "solution": "操作步骤：\n1、单位管理员进行系统消息转移授权（接收短信授权）；\n2、用户在个人信息项中绑定个人手机号，完成手机验证；\n3、OA登录密码忘记时，通过验证码找回密码操作，完成密码重置。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "短信找回"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDzaLdW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDzaLdW6zbX04v",
+  "doc_path": "/致远OA/应用操作/OA系统在未启用短信邮箱密码找回时，用户密码忘记需找系统管理员进行密码重置",
+  "record_id": "NB8khE2P3B"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/OA系统在未启用短信邮箱密码找回时，用户密码忘记需找系统管理员进行密码重置",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

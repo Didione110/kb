@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240725-029",
+ "record_id": "ZFWyXMEl7N",
+ "title": "生产订单修改、保存提示：生产订单保存提示“找不到请求的服务”",
+ "problem": "生产订单修改、保存提示：生产订单保存提示“找不到请求的服务”",
+ "cause": "将U8MPool 、U8keyManagePool 、U8Dispatchservice服务重启，若还是有问题，需更新最新的MM补丁，再去重启这三个服务。",
+ "solution": "将U8MPool 、U8keyManagePool 、U8Dispatchservice服务重启，若还是有问题，需更新最新的MM补丁，再去重启这三个服务。",
+ "solution_types": [
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "加密"
+ ],
+ "keywords": [
+  "服务未找到"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "生产制造管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-07-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZFWyXMEl7N"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

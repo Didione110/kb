@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250121-048",
+ "record_id": "b0URlxRrKG",
+ "title": "YS数字化建模常见问题——审批活动打印时点限制",
+ "problem": "YS数字化建模常见问题——审批活动打印时点限制",
+ "cause": "在实际业务中，打印通常被控制时点，有的要求必须审批完成才能进行打印，有的要求出纳环节审批完成后就可以打印，那么针对这两种诉求，目前有分别采用不同的方式解决，用到的节点分别是交易类型和业务活动。",
+ "solution": "设置方法见附件。\n注意：仅限从待办消息打开单据可受控。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "审批打印限制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b0URlxRrKG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

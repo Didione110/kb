@@ -1,0 +1,46 @@
+{
+ "id": "FX-20241231-043",
+ "record_id": "NEVtvx25FL",
+ "title": "老系统存在调度卡顿问题",
+ "problem": "老系统存在调度卡顿问题",
+ "cause": "1、数据量太大\n2、郑州原始代码采用的游标方式分摊",
+ "solution": "表数据量大的进行转历史功能\n修改分摊方式，弃用游标",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "调度卡顿"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-12-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakvMlGJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakvMlGJgk9rpMq",
+  "doc_path": "/其他/应用操作/老系统存在调度卡顿问题",
+  "record_id": "NEVtvx25FL"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/老系统存在调度卡顿问题",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

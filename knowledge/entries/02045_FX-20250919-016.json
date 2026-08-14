@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250919-016",
+ "record_id": "qDOq5ZyClW",
+ "title": "客户服务器C盘红了，查询是数据库日志路径安装在了C盘",
+ "problem": "客户服务器C盘红了，查询是数据库日志路径安装在了C盘",
+ "cause": "数据库日志路径不能修改",
+ "solution": "按照附件对数据库的日志进行收缩即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "C盘爆满"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "项目化管理",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-09-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qDOq5ZyClW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

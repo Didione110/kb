@@ -1,0 +1,47 @@
+{
+ "id": "FX-20250603-008",
+ "record_id": "aoUGa5njWM",
+ "title": "ksoa医保接口dll，setup.ini 文件 [system] 下增加 iswh=0，1就是要调用武汉医保的各种校验保存，0 是不调用；\nsetup.ini 文件 [system] 下增加regerName=regerCertno=，处方读取顾客社保卡；",
+ "problem": "ksoa医保接口dll，setup.ini 文件 [system] 下增加 iswh=0，1就是要调用武汉医保的各种校验保存，0 是不调用；\nsetup.ini 文件 [system] 下增加regerName=regerCertno=，处方读取顾客社保卡；",
+ "cause": "ksoa医保按要求更新",
+ "solution": "修改配置文件，setup.ini 文件 \\[system\\] 下增加配置参数",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "WebService",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "加密"
+ ],
+ "keywords": [
+  "医保校验"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNBmbyJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNBmbyJbkz3BRL",
+  "doc_path": "/自研/数据接口问题/ksoa医保接口dll，setup.ini 文件system下增加 iswh=0，1就是要调用武汉医保的各种校验保存，0 是不调用",
+  "record_id": "aoUGa5njWM"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/ksoa医保接口dll，setup.ini 文件system下增加 iswh=0，1就是要调用武汉医保的各种校验保存，0 是不调用",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

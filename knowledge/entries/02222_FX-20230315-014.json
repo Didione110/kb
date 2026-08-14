@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230315-014",
+ "record_id": "uqntWtRRP5",
+ "title": "U8使用天联高级版发布后，登录操作U8软件速度正常，但是打开UFO报表涉及到选择路径很慢，经常一点就卡死",
+ "problem": "U8使用天联高级版发布后，登录操作U8软件速度正常，但是打开UFO报表涉及到选择路径很慢，经常一点就卡死",
+ "cause": "导出速度慢，在导出选择路径的时候不要选择客户端磁盘，选择导出到客户端文件，配置文件保存路径即可；选择路径慢需更新注册表",
+ "solution": "导出速度慢，在导出选择路径的时候不要选择客户端磁盘，选择导出到客户端文件，配置文件保存路径即可；选择路径慢需更新注册表，详见附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "UFO报表卡顿"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-03-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uqntWtRRP5"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "效率问题"
+ ]
+}

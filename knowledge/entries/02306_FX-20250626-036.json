@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250626-036",
+ "record_id": "wcJXOt9l0w",
+ "title": "出货计划，批量生单界面：需要增加【参考料号】字段。",
+ "problem": "出货计划，批量生单界面：需要增加【参考料号】字段。",
+ "cause": "有些界面【栏目】里面是写死的，无法添加。这种情况下有一个【映射关系】按钮。可以用来映射需要扩展的字段。",
+ "solution": "有些界面栏目里面是写死的，无法添加。这种情况下有一个【映射关系】按钮。可以用来映射需要扩展的字段。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "参考料号"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-06-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wcJXOt9l0w"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

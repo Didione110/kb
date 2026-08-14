@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240905-020",
+ "record_id": "n0tBIOvMdF",
+ "title": "过证检查时，检查老师经常提出系统版本在哪里可以明确体现的问题，目前智友只有V11版本在登录时有明确的版本号体现",
+ "problem": "过证检查时，检查老师经常提出系统版本在哪里可以明确体现的问题，目前智友只有V11版本在登录时有明确的版本号体现",
+ "cause": "DHERP我们通常对外是称为时空智友V12版本，但在系统中没有明确的版本标识",
+ "solution": "修改ROOT文件下的login.jsp文件，直接将版本号写入进去",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "版本号"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-09-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n0tBIOvMdF"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

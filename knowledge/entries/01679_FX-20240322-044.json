@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240322-044",
+ "record_id": "hfaZBn1ZHu",
+ "title": "T+老是弹出“页面主对象不存在，可能是没有在UIP中注册脚本对象，或者没有引用脚本文件”",
+ "problem": "T+老是弹出“页面主对象不存在，可能是没有在UIP中注册脚本对象，或者没有引用脚本文件”",
+ "cause": "环境问题",
+ "solution": "1. 清除浏览器缓存\n2. 更新T\\+浏览器",
+ "solution_types": [
+  "补丁更新",
+  "其他"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "Chrome"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "页面主对象不存在"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-03-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mLabnJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mLabnJ9ekBD76",
+  "doc_path": "/其他/环境问题/T+老是弹出页面主对象不存在，可能是没有在UIP中注册脚本对象，或者没有引用脚本文件",
+  "record_id": "hfaZBn1ZHu"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/T+老是弹出页面主对象不存在，可能是没有在UIP中注册脚本对象，或者没有引用脚本文件",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250303-002",
+ "record_id": "22NMJkekhO",
+ "title": "早期mssql可以用存储过程魔改使用动态t-sql查询\n现在dherp之后数据库是oracle，前期有些方法不支持了\n改用前端js进行处理",
+ "problem": "早期mssql可以用存储过程魔改使用动态t-sql查询\n现在dherp之后数据库是oracle，前期有些方法不支持了\n改用前端js进行处理",
+ "cause": "客户的需求，有些查询是需要动态列，利用js的特性，进行循环拼接处理，时空智友的SQL宏支持js对象传入，进行拆解分析",
+ "solution": "以js参数为例\nasync function uf\\_query()\\{\n dataset1.openEmpty();\n var params = \\{\\};\n var month\\_list = uf\\_getMonthsBetweenDates(textbox9.getValue(), textbox8.getValue()); //获取月份列表\n //获取起始日期\n params.StartDate = textbox9.getValue().substring(0, 8) \\+ \"01\";\n params.EndDate = uf\\_getLastDayOfMonth(textbox8.getValue().substring(0, 7));\n```\nfor (var i = 0; i < month_list.length; i++) {\n await dataset1.addField(month_list[i],month_list[i],\"RealNum\",\"20\"); \n await dataset1.field(month_list[i]).setAlignment(\"center\");\n\n```\n\n// await dataset1.field(month\\_list\\[i\\]).setSummed(\"true\"); \n \\}\n await dataset1.update();\n await dataset1.updateGrid();\n params.month\\_list = JSON.stringify(month\\_list); \n await dataset1.open(\"uf\\_sql\\_query\", \"sql\", params); \n\\}\n对应的查询SQl如下，各位同仁可以参考\nselect b.k\\_areacode,b.k\\_province,b.k\\_city,b.k\\_area,b.businesscode,b.businessname,sum(d.num) as Total\\_num \n#\\_\\_sql \\+= \", sum(d.num) / \" \\+ JSON.parse(month\\_list).length \\+\" as Avg\\_Num\" \n#for (var i = 0 ; i \\< JSON.parse(month\\_list).length ; i\\+\\+) \\{ \n #\\_\\_sql \\+= \" , SUM(CASE WHEN a.dates like '\" \\+ JSON.parse(month\\_list)\\[i\\] \\+\"%' THEN d.num ELSE 0 END) AS \"\" \\+ JSON.parse(month\\_list)\\[i\\] \\+ \"\"\" \n#\\}\nfrom SaleOutmt a \njoin BusinessDoc b on a.clientid = b.businessid and a.entid = b.entid \njoin ClientDoc c on c.clientid = a.clientid and c.entid = a.entid \njoin SaleOutDt d on d.billno = a.billno and d.entid = a.entid \nwhere a.ruleid in ('4szcn61oa8b0tz79','3cc08h3z7cnkrv2q')\nand a.dates \\>= :StartDate\nand a.dates \\<= :EndDate\n\ngroup by b.k\\_areacode,b.k\\_province,b.k\\_city,b.k\\_area,b.businesscode,b.businessname",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Oracle迁移"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-03-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0ganEGJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0ganEGJxAZB1Gv",
+  "doc_path": "/时空/实施问题/早期mssql可以用存储过程魔改使用动态t-sql查询 现在dherp之后数据库是oracle，前期有些方法不支持了 改用前端js进行处理",
+  "record_id": "22NMJkekhO"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/早期mssql可以用存储过程魔改使用动态t-sql查询 现在dherp之后数据库是oracle，前期有些方法不支持了 改用前端js进行处理",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

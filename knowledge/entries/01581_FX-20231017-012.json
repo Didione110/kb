@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231017-012",
+ "record_id": "fPWxiBH16f",
+ "title": "新增字段是否，控制审批流程节点走向审批完成后单据挂在待办事宜中，摘要为空，单据无法审核",
+ "problem": "新增字段是否，控制审批流程节点走向审批完成后单据挂在待办事宜中，摘要为空，单据无法审核",
+ "cause": "注意区分写在工作流程模板设计连线的条件和流程实例化连线的条件",
+ "solution": "将条件加在流程实例化的条件编辑里",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "摘要为空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施4部",
+  "date": "2023-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fPWxiBH16f"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

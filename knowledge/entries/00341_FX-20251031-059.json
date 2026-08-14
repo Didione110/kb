@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251031-059",
+ "record_id": "8AXFrP2M44",
+ "title": "系统事项分录的区分",
+ "problem": "系统事项分录的区分",
+ "cause": "系统事项分录的区分",
+ "solution": "业务事项查询--查询对应的业务事项 \n业务事项分发异常--查询并重新生成\n存货会计事务管理库存类事项分分录没有生成的\n业务事项查询--存货核算启用在单据之后，需要重新传事项分录\n生成总账凭证-重新批量生成事项分录",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "事项分录"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数据中台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmBGL3E8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmBGL3E8yeZqMmz",
+  "doc_path": "/用友/应用操作/系统事项分录的区分",
+  "record_id": "8AXFrP2M44"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/系统事项分录的区分",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

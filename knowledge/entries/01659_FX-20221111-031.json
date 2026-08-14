@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221111-031",
+ "record_id": "hKSkUasUUl",
+ "title": "微信小程序无法获取用户头像及昵称",
+ "problem": "微信小程序无法获取用户头像及昵称",
+ "cause": "小程序官方回收wx.getUserInfo接口可获取用户授权的个人信息能力",
+ "solution": "开发工具更新最新版本，调整对应的测试数据库，使用官方提供的最新接口",
+ "solution_types": [
+  "代码修改",
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "头像昵称获取"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "产品开发部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0grBQAJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0grBQAJxAZB1Gv",
+  "doc_path": "/自研/产品功能问题/微信小程序无法获取用户头像及昵称",
+  "record_id": "hKSkUasUUl"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/微信小程序无法获取用户头像及昵称",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

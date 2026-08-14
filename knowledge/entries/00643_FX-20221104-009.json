@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221104-009",
+ "record_id": "G8f1oiifTv",
+ "title": "同样的数据在sql表里可以保存为‘’，在oracle 里保存为null,字段又是主键，造成报错，保存失败",
+ "problem": "同样的数据在sql表里可以保存为‘’，在oracle 里保存为null,字段又是主键，造成报错，保存失败",
+ "cause": "同样的数据在sql表里可以保存为‘’，在oracle 里保存为null,字段又是主键，造成报错，保存失败",
+ "solution": "不启用可能为''的值作为主键",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "主键空值"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7zQN9W9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7zQN9W9dEq3XD",
+  "doc_path": "/自研/数据错误问题/同样的数据在sql表里可以保存为''，在oracle 里保存为null,字段又是主键，造成报错，保存失败",
+  "record_id": "G8f1oiifTv"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/同样的数据在sql表里可以保存为''，在oracle 里保存为null,字段又是主键，造成报错，保存失败",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

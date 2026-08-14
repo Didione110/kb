@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251128-046",
+ "record_id": "Ia986bVefY",
+ "title": "时空WMS调度中生成波次提示开票条目数与分摊条目数不一致不一致，无法生成波次",
+ "problem": "时空WMS调度中生成波次提示开票条目数与分摊条目数不一致不一致，无法生成波次",
+ "cause": "波次生成存储过程中LJT\\_WMS\\_BocscTow中拦截，如果出库单中商品，批号重复生成波次系统会合并成一条记录，导致系统报错",
+ "solution": "修改存储过程中LJT\\_WMS\\_BocscTow拦截，修改成开票总数量与分摊总数量不一致。\nif exists (select 1 \n from (select sum(shl) as tms \n from pf\\_phlrmx (nolock) where djbh=@dddjbh \n union all\n select -sum(shl) as tms \n from jzorder\\_mx (nolock) where djbh=@dddjbh and shl\\<\\>0) a\n having sum(a.tms)\\<\\>0) \n begin\n set @message='开票总数量与分摊总数量不一致'\\+@dddjbh\n raiserror(@message,16,1)\n goto err\\_lab\n end",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "开票分摊不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-11-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbEqZZJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbEqZZJxEKBD6p",
+  "doc_path": "/其他/数据错误问题/时空WMS调度中生成波次提示开票条目数与分摊条目数不一致，无法生成波次",
+  "record_id": "Ia986bVefY"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/时空WMS调度中生成波次提示开票条目数与分摊条目数不一致，无法生成波次",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

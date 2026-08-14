@@ -1,0 +1,30 @@
+{
+ "id": "doc-4edcebeb8b",
+ "record_id": "",
+ "title": "附件转换中没有转换任务且无法新建",
+ "problem": "附件转换中没有转换任务且无法新建",
+ "cause": "未进行产品初始化",
+ "solution": "在运维管理-管理员工具箱-系统初始化中导入基础数据即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp0NRvbJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp0NRvbJMGjLRb3",
+  "doc_path": "/蓝凌OA/应用操作/附件转换中没有转换任务且无法新建"
+ },
+ "doc_path": "/蓝凌OA/应用操作/附件转换中没有转换任务且无法新建",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

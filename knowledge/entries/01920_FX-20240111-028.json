@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240111-028",
+ "record_id": "nhUlUuOcc9",
+ "title": "客户反馈系统单据时间与本地时间隔4分钟",
+ "problem": "客户反馈系统单据时间与本地时间隔4分钟",
+ "cause": "应用服务器的电脑时间未联网，有延时，",
+ "solution": "服务器为centos系统，按如下命令调整时间\ndate //查看系统时间\n\nhwclock //查看硬件时间 \n\nyum -y install utp ntpdate //安装utpdate工具\n\nntpdate cn.pool.ntp.org //设置系统时间与网络时间同步\n\nhwclock --systohc //将系统时间写入硬件时间 (如硬件时间本身无问题可以不处理此条)",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Shell"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "时间偏差"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-01-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nhUlUuOcc9"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

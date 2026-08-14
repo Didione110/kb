@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241130-101",
+ "record_id": "DpTfh90zCm",
+ "title": "预付款勾兑复杂",
+ "problem": "预付款勾兑复杂",
+ "cause": "预付款勾兑应付款时只能一个客户一个客户进行勾兑，操作复杂",
+ "solution": "批量勾兑功能",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "预付款勾兑"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbgyPdJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbgyPdJxEKBD6p",
+  "doc_path": "/时空/效率问题/预付款勾兑复杂",
+  "record_id": "DpTfh90zCm"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/预付款勾兑复杂",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

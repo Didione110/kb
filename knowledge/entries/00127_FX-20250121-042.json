@@ -1,0 +1,47 @@
+{
+ "id": "FX-20250121-042",
+ "record_id": "2pRhgediXn",
+ "title": "郑州WMS部分客户上传监管码到码上放心的时候报错",
+ "problem": "郑州WMS部分客户上传监管码到码上放心的时候报错",
+ "cause": "部分客户复核扫监管码，会把中包装的码和小包装码扫混，这样会导致上传码上放心的时候报错",
+ "solution": "在WMS商品资料里维护电子条码，按照大中小包装维护，然后更新最新的复核DLL，在复核的时候会如果选择的是小码类型，扫的是中包装监管码，系统就会进行拦截，这样减少了扫码错误率。",
+ "solution_types": [
+  "补丁更新",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "监管码上传"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1lDgZJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1lDgZJlemrZQ3",
+  "doc_path": "/其他/产品功能问题/郑州WMS部分客户上传监管码到码上放心的时候报错",
+  "record_id": "2pRhgediXn"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/郑州WMS部分客户上传监管码到码上放心的时候报错",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

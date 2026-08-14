@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250514-013",
+ "record_id": "OeIg6taEux",
+ "title": "导入凭证报“输入的凭证号1499大于此凭证类别在本年度期间的最大号1000以上，不允许保存",
+ "problem": "导入凭证报“输入的凭证号1499大于此凭证类别在本年度期间的最大号1000以上，不允许保存",
+ "cause": "凭证号间距数值小于凭证号数值",
+ "solution": "nchome\\resources\\glparam\\ConfigGl.xml 按照路径打开文档，修改凭证号间距那一行的数值\n执行语句：update gl_paramconfig set paramvalue=10000 where paramcode='nc.ui.gl.vouchernum.allow.maxnum'\nCommit;提交\n重启BIP服务",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Tomcat",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证号超限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-05-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OeIg6taEux"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250924-027",
+ "record_id": "a14GIIdoCQ",
+ "title": "系统默认【产品结构】查询中的数量是9位小数，显示非常突兀。",
+ "problem": "系统默认【产品结构】查询中的数量是9位小数，显示非常突兀。",
+ "cause": "UBF默认设置问题",
+ "solution": "1.UBF打开报表链接，选择对应报表；\n2.选择对应字段，右键-扩展属性；\n3.栏目格式字符串：选择数值格式+小数位数；\n4.保存修改。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "小数位数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "a14GIIdoCQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

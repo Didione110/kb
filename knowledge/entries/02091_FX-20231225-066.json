@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231225-066",
+ "record_id": "rHeRFSFBVy",
+ "title": "V8.1 新功能-流程节点校验功能介绍\n流程节点校验解决表单全局校验，可灵活配置到流程节点中，根据条件校验判断自动流转流程，提高流程的运行效率",
+ "problem": "V8.1 新功能-流程节点校验功能介绍\n流程节点校验解决表单全局校验，可灵活配置到流程节点中，根据条件校验判断自动流转流程，提高流程的运行效率",
+ "cause": "【应用场景】：\n在日常业务流程审批中，某些特定岗位每天需要处理很多专项流程，如还款审批，设置超期跳过又担心大家填写的还款单内容不规范、不正确，现为了提高工作效率、保证数据正确性，通过流程节点校验功能将满足特定条件的流程自动审核通过，未审核通过的流程再进行核查处理，具体实现方法如下：",
+ "solution": "见附件，V8.1新功能-流程节点校验功能介绍",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "流程校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rHeRFSFBVy"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

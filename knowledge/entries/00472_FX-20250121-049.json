@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250121-049",
+ "record_id": "Bf26hkfarC",
+ "title": "场景：某字段值为枚举类型，如何在打印单据中显示全部枚举值+复选框，且能根据单据的值使复选框为勾选选中效果",
+ "problem": "场景：某字段值为枚举类型，如何在打印单据中显示全部枚举值+复选框，且能根据单据的值使复选框为勾选选中效果",
+ "cause": "使用 iif 函数 + Word 中的√ 符号。",
+ "solution": "设置方法见附件。\n注意：并非所有特殊符号都能使用，部分特殊符号因字体等原因在打印模板中可能存在无法显示问题，使用特殊符号时请以实际情况为准",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "枚举复选"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Bf26hkfarC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

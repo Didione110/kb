@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241031-070",
+ "record_id": "teqnngHkY8",
+ "title": "流程结束后会默认通知审批人及发起人，如何取消",
+ "problem": "流程结束后会默认通知审批人及发起人，如何取消",
+ "cause": "系统默认开启",
+ "solution": "流程引擎-流程引擎服务-功能开关中关闭",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "取消通知"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "teqnngHkY8"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

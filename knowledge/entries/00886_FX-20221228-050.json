@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221228-050",
+ "record_id": "MgnXes3nlA",
+ "title": "传递数据中存在对象时，对象中的数据不存在，传递值为空",
+ "problem": "传递数据中存在对象时，对象中的数据不存在，传递值为空",
+ "cause": "判断当前的对象是否有值，当为空对象时赋值，对象是否为空不能直接进行判断",
+ "solution": "使用for...in进行判断或者将对象用JSON.stringify()进行转化为字符串在进行比较",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "空值传递"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "董兰兰",
+  "department": "产品开发部",
+  "date": "2022-12-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3oePyV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3oePyV47Z3je9",
+  "doc_path": "/自研/产品功能问题/传递数据中存在对象时，对象中的数据不存在，传递值为空",
+  "record_id": "MgnXes3nlA"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/传递数据中存在对象时，对象中的数据不存在，传递值为空",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

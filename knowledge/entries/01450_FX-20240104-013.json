@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240104-013",
+ "record_id": "bcx48mv2oE",
+ "title": "运输单位登记证照后过段时间再去看就没有了",
+ "problem": "运输单位登记证照后过段时间再去看就没有了",
+ "cause": "客户资料维护修改证照时是按billno去先删除证照再insert的，然后导入资料的billno都为0，只要修改billno的客户资料，会把证照表billno为0的全部清除掉",
+ "solution": "运输单位证照登记的保存后事件添加语句处理证照表的billno就不会删除了\nfunction after_save() {\n var params ={};\n var sql =\"\";\n params.businessid = ds_djmx.getValueAt(0,\"businessid\");\n sql =\"update busicert set billno= b.billno from busicert a join businessdoc b on a.businessid=b.businessid where b.businessid ='\"+params.businessid+\"'\";\n DBUtil.update(sql); \n}",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "证照丢失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bcx48mv2oE"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

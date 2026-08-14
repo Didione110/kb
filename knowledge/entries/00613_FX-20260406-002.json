@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260406-002",
+ "record_id": "F9pVfI76uV",
+ "title": "系统串身份现象",
+ "problem": "系统串身份现象",
+ "cause": "多身份登录导致",
+ "solution": "目前关键节点新增身份判断的拦截方案",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Nginx"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "身份串"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-04-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymXa4p8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymXa4p8xkXOEP2",
+  "doc_path": "/时空/应用操作/系统串身份现象",
+  "record_id": "F9pVfI76uV"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/系统串身份现象",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

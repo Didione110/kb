@@ -1,0 +1,30 @@
+{
+ "id": "doc-ca63f5e1b3",
+ "record_id": "",
+ "title": "全文检索服务安装完成索引无法新建生成",
+ "problem": "全文检索服务安装完成索引无法新建生成",
+ "cause": "如果不设置全文检索默认密码的情况下，需要更改配置文件的elasticsearch.yml 文件中的 xpack.security.enabled: true 是开启状态，关闭它。",
+ "solution": "需要更改配置文件的elasticsearch.yml 文件中的 xpack.security.enabled: true 是开启状态，关闭它。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv5ZjyDj8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv5ZjyDj8zN67Mw4",
+  "doc_path": "/蓝凌OA/安装部署问题/全文检索服务安装完成索引无法新建生成"
+ },
+ "doc_path": "/蓝凌OA/安装部署问题/全文检索服务安装完成索引无法新建生成",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

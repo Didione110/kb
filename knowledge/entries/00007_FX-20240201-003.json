@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240201-003",
+ "record_id": "0DkNfoPtGe",
+ "title": "右键设置了折扣行与被折扣行之后还是报错，第N条明细中折扣行必须紧挨被折扣行之后",
+ "problem": "右键设置了折扣行与被折扣行之后还是报错，第N条明细中折扣行必须紧挨被折扣行之后",
+ "cause": "多条明细商品编号一样系统判断不了",
+ "solution": "设置完折扣行被折扣行之后，将对应折扣与被折扣行的商品编号手动加一个数字1，第二个折扣与被折扣行的增加数字2",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "顺序校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwN1oqKJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwN1oqKJbkz3BRL",
+  "doc_path": "/自研/应用操作/右键设置了折扣行与被折扣行之后还是报错，第N条明细中折扣行必须紧挨被折扣行之后",
+  "record_id": "0DkNfoPtGe"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/右键设置了折扣行与被折扣行之后还是报错，第N条明细中折扣行必须紧挨被折扣行之后",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

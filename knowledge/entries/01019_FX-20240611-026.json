@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240611-026",
+ "record_id": "Q4kcnLv5iS",
+ "title": "修改表单字段的录入类型提示：已经产生数据，录入类型不能修改，否则会丢失数据。客户愿意承担数据丢失风险，期望强制修改字段类型。",
+ "problem": "修改表单字段的录入类型提示：已经产生数据，录入类型不能修改，否则会丢失数据。客户愿意承担数据丢失风险，期望强制修改字段类型。",
+ "cause": "已经产生数据的字段，修改类型会导致历史数据无法显示或者显示乱码，所以不能直接修改。",
+ "solution": "方案1：确认为什么要修改字段类型，是否可以通过新增字段解决(原来字段做隐藏处理,即不显示到视图上）\n\n方案2：在数据库中清除数据，然后再改字段类型即可(需要有数据库基础知识的专业人员操作)\n\n此处以修改'姓名'字段的录入类型为例，步骤如下：\n\n（1）获取数据库表信息。表单管理员登录，从数据字典获取对应数据库表和需要改录入类型的字段信息。 此处的数据库表和字段信息示例：mysql数据库，formmain\\_0145.field0003\n（2）备份数据。停止OA应用程序，备份formmain\\_0145表数据，执行SQL：\n\nCREATE TABLE formmain\\_0145\\_bak SELECT \\* FROM formmain\\_0145\n（3）清空表字段值，执行SQL:\n\nupdate formmain\\_0145 set field0003 = null;\n（4）修改字段录入类型。启动OA，表单管理员登录并修改字段的录入类型为期望的类型\n\n（5）数据恢复。字段录入类型变化后，数据库原来的值可能不兼容新的录入类型，需要对备份的数据人工判断是否可以直接恢复。如果可以则执行批量恢复sql：\n\nupdate formmain\\_0145 set field0003 = (select formmain\\_0145\\_bak.field0003 from formmain\\_0145\\_bak where formmain\\_0145.id = formmain\\_0145\\_bak.id )\n如果判断不能直接恢复，则需要对formmain\\_0145每条数据的field0003字段手工修复处理。",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "字段类型修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-06-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yAkMGA8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yAkMGA8GXn6lpz",
+  "doc_path": "/致远OA/应用操作/修改表单字段的录入类型提示已经产生数据录入类型不能修改",
+  "record_id": "Q4kcnLv5iS"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/修改表单字段的录入类型提示已经产生数据录入类型不能修改",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

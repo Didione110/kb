@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240401-001",
+ "record_id": "hHhOVKEAtl",
+ "title": "调拨单能否控制两个仓库之间不能互相调拨，比如不能从成品仓调拨到客供仓",
+ "problem": "调拨单能否控制两个仓库之间不能互相调拨，比如不能从成品仓调拨到客供仓",
+ "cause": "系统里面本身没有防呆的功能，可以设置数据权限去控制",
+ "solution": "1、建议针对存储地点增加私有段用于分类是否可以相互调拨，如都是1时可以进行相关调拨，都是2时也可以相互调拨，当一个是1一个是2时不允许调拨；\n2、 针对实体调入单子行或者调出单子行做增、删、改数据权限，语句以调入单子行为例大概为：NewTransInSubLine.TransOutWh.DescFlexField.PrivateDescSeg1==NewTransInSubLine.TransInLine.TransInWh.DescFlexField.PrivateDescSeg1；即调入单子行调出存储地点扩展字段值=调入单单行调入存储地点扩展字段值",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "调拨控制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hHhOVKEAtl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

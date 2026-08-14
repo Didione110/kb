@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221025-018",
+ "record_id": "4WXL2wgfbP",
+ "title": "部分单据生成波次失败，部分单据生成波次正常",
+ "problem": "部分单据生成波次失败，部分单据生成波次正常",
+ "cause": "部分单据合单生成波次的字段为null导致",
+ "solution": "所有新增字段在插入相关表的时候一定要去除null值，否则会出现匹配不到导致程序报错",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "波次失败"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-10-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMMXxmJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMMXxmJB5r9YAn",
+  "doc_path": "/其他/实施问题/部分单据生成波次失败，部分单据生成波次正常",
+  "record_id": "4WXL2wgfbP"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/部分单据生成波次失败，部分单据生成波次正常",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

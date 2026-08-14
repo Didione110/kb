@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231128-089",
+ "record_id": "XwwPP0DCua",
+ "title": "总账系统结账时提示当前仍有应协同未协同的凭证，但是已经在参数系统把GL101改成不控制，结账时还会有提示",
+ "problem": "总账系统结账时提示当前仍有应协同未协同的凭证，但是已经在参数系统把GL101改成不控制，结账时还会有提示",
+ "cause": "10月份启用了协同平衡，但10月份已经通过手工处理完了，不需要在协同凭证。且参数理解有误，GL101是控制对方是否确认，不是控制本方是否协同",
+ "solution": "修改公有协同设置的启用时间，改为11月即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "应协同未协同"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XwwPP0DCua"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

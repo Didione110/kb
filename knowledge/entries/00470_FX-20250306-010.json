@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250306-010",
+ "record_id": "BYfUfylaFE",
+ "title": "有部分客户提出，公司已经接入了快递的一键打印，同时在erp里面也可以查询到物流轨迹。\n但是物流轨迹只能保存半年左右就失效了，也就是说在快递公司的官网上，最久只能查询到半年之前的快递轨迹",
+ "problem": "有部分客户提出，公司已经接入了快递的一键打印，同时在erp里面也可以查询到物流轨迹。\n但是物流轨迹只能保存半年左右就失效了，也就是说在快递公司的官网上，最久只能查询到半年之前的快递轨迹",
+ "cause": "因为快递公司的策略问题\n所以需要考虑将查询的快递轨迹存入本地数据库备查",
+ "solution": "因为目前一键打印接入的是快递鸟的方案，所以针对此类型，单独编写了一个服务端公共函数，用于定时任务调度查询快递轨迹存入数据库\nfunction srv\\_get\\_kdqs\\_list() \\{\n function srv\\_get\\_kdqs(\\_k\\_kdgs, \\_k\\_kddh , \\_k\\_kdlxdh) \\{\n var sql\\_checktms = \"select count(1) from kuaidi\\_histrans a where a.logisticcode = '\"\\+\\_k\\_kddh\\+\"'\";\n var k\\_sql\\_checktms = DBUtil.uniqueValue(sql\\_checktms);\n if(k\\_sql\\_checktms == 0)\\{\n var EBusinessID = DBUtil.uniqueValue(\"select ebusinessid from kuaidi\\_userinfo \") ;\n var APIKey = DBUtil.uniqueValue(\"select apikey from kuaidi\\_userinfo \") ;\n var ReqURL = \" https://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx\"; \n var DataType = \"2\";\n var RequestType = \"8001\";\n var CustomerName = \"\" ;//顺丰必须要这个\n if( \\_k\\_kdgs == \"SF\")\\{ \n CustomerName = \\_k\\_kdlxdh.substr(\\_k\\_kdlxdh.length-4);\n \\}\n var post = Utility.toJSONString(\\{\n ShipperCode : \\_k\\_kdgs ,\n LogisticCode : \\_k\\_kddh ,\n CustomerName : CustomerName ,\n Sort : 1 \n \\});\n var Base64 = Java.type(\"java.util.Base64\");\n var datasign = encodeURI(Base64.getEncoder().encodeToString(Utility.md5(post \\+ APIKey).getBytes(\"UTF-8\"))); \n var PostStr = \\{\\} ;\n PostStr.RequestType = RequestType \n PostStr.EBusinessID = EBusinessID \n PostStr.RequestData = post\n PostStr.DataSign = datasign \n PostStr.DataType = DataType ;\n var result = FormUtil.callSerivce(ReqURL, \"post\", PostStr);\n var jsonObject = eval(\"(\" \\+ result \\+ \")\");\n log.info(result);\n if((jsonObject.State == 3 \\|\\| jsonObject.State == 4) && jsonObject.Traces.length \\> 6)\\{\n```\n var writeback_sqlmx = [ ];\n\n var writeback_idx = 0;\n for (var k = 0; k < jsonObject.Traces.length; k++) {\n var kd_State ;\n switch (jsonObject.State) { \n case \"0\": \n kd_State = \"\";\n break; \n case \"1\": \n kd_State = \"collected\" ;\n break; \n case \"2\": \n kd_State = \"sending\" ;\n break; \n case \"3\": \n kd_State = \"signed\";\n break; \n case \"4\": \n kd_State = \"question\" ;\n break; \n default: \n kd_State = \"sending\" ;\n break; \n } \n writeback_sqlmx[writeback_idx++] = \"insert into kuaidi_histrans(entid,staffid,staffname,createtime,logisticcode,state,accepttime,acceptstation)\"\n + \"select 'E3UXTVXT56L' as entid,'K4F2P3WDFJ5' as staffid,'管理员' as staffname,to_char(sysdate,'YYYY-MM-DD HH24:MI:SS') as createtime,\"\n + \"'\"+jsonObject.LogisticCode+\"' as logisticcode,'\"+kd_State+\"' as state,\"\n + \"'\"+jsonObject.Traces[k].AcceptTime+\"' as accepttime,'\"+jsonObject.Traces[k].AcceptStation+\"' as acceptstation from dual \";\n log.info(writeback_sqlmx[k]);\n }\n DBUtil.batchUpdate(writeback_sqlmx); //完成历史运输记录的表插入\n //对已签收的数据进行回写状态\n if(jsonObject.State == 3){\n var hx_AcceptTime = jsonObject.Traces[0].AcceptTime ;\n var spaceIndex = hx_AcceptTime.indexOf(' ');\n var hzrq = hx_AcceptTime.substr(0, spaceIndex);\n var hzsj = hx_AcceptTime.substr(spaceIndex + 1);\n var writeback_sql_yshz = \" UPDATE gsptrarecbill a SET a.recddate ='\"+hzrq+\"', a.rectime ='\"+hzsj+\"', a.delivrelt\n\n```",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "物流轨迹失效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-03-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP32ld6Jakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP32ld6Jakx1Z5N",
+  "doc_path": "/时空/应用操作/有部分客户提出，公司已经接入了快递的一键打印，同时在erp里面也可以查询到物流轨迹。 但是物流轨迹只能保存半年左右就失效了，也就是说在快递公司的官网上，最久只能查询到半年之前的快递轨迹",
+  "record_id": "BYfUfylaFE"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/有部分客户提出，公司已经接入了快递的一键打印，同时在erp里面也可以查询到物流轨迹。 但是物流轨迹只能保存半年左右就失效了，也就是说在快递公司的官网上，最久只能查询到半年之前的快递轨迹",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250122-071",
+ "record_id": "oAq1KCCFRk",
+ "title": "时空登录后点击菜单没有任何反应，",
+ "problem": "时空登录后点击菜单没有任何反应，",
+ "cause": "通过F12发现获取Tomcat中的 util.js 语句不全导致，初步判断可能跟网络或者操作系统更新有关",
+ "solution": "在浏览器输入 https://erp.humanwellhb.com/form/util.js 按提示打开，重新获取下 util.js 内容可以解决",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "登录无响应"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oAq1KCCFRk"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

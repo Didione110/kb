@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241216-017",
+ "record_id": "1q8ME9UlSL",
+ "title": "调用管易出库单接口返回null",
+ "problem": "调用管易出库单接口返回null",
+ "cause": "请求管易接口超时无法获取响应报文",
+ "solution": "延长请求时间至40秒解决无法获取响应报文",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "管易出库单"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-12-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEGvByzyIgmBlXKx8yeZqMmz?utm_scene=team_space",
+  "node_id": "YQBnd5ExVEGvByzyIgmBlXKx8yeZqMmz",
+  "doc_path": "/自研/数据错误问题/调用管易出库单接口返回null",
+  "record_id": "1q8ME9UlSL"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/调用管易出库单接口返回null",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

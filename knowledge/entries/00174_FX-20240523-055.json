@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240523-055",
+ "record_id": "45uXS6QIlq",
+ "title": "产品系统里有条码，为什么打印出来没有",
+ "problem": "产品系统里有条码，为什么打印出来没有",
+ "cause": "存货档案信息问题",
+ "solution": "存货档案中条形码这里指定了“瓶”，单据中指定的计量单位是“件”，所以带不出来，做单子的时候维护的什么就选什么，或者自己去改存货档案的条形码页签信息，是存货档案信息问题",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码"
+ ],
+ "keywords": [
+  "条码未打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-05-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "45uXS6QIlq"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

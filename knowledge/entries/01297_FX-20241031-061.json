@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241031-061",
+ "record_id": "Y0g6ZRYi1q",
+ "title": "测试登陆出现“无法找到命令CheckUserLicenseStateForLoginCommand”的错误",
+ "problem": "测试登陆出现“无法找到命令CheckUserLicenseStateForLoginCommand”的错误",
+ "cause": "测试服务器验证最新SLC补丁，然后到生产应用服务器（许可服务器）升级引擎--升级管理客户端即可",
+ "solution": "测试服务器验证最新SLC补丁，然后到生产应用服务器（许可服务器）升级引擎--升级管理客户端即可",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "CheckUserLicenseStateForLoginCommand"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y0g6ZRYi1q"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

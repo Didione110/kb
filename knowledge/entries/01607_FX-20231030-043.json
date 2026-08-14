@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231030-043",
+ "record_id": "fw6w65PeQo",
+ "title": "需要出入库自动带货位",
+ "problem": "需要出入库自动带货位",
+ "cause": "需要出入库自动带货位",
+ "solution": "3.6及以上版本，修改参数IC040货位参照是否使用系统缺省参照改成N，存货存放匹配节点维护货位，入库时自动取默认货位，需要注意改档案只能手动维护，不能导入",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "货位自动"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-10-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fw6w65PeQo"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

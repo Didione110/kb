@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-093",
+ "record_id": "XCYAqoo837",
+ "title": "自动记账服务端计划任务执行日志报错：sun.org.mozilla.javascript.internal.WrappedException: Wrapped java.net.ConnectException: Connection refused: connect (<Unknown source>#192) in <Unknown source> at line number 192",
+ "problem": "自动记账服务端计划任务执行日志报错：sun.org.mozilla.javascript.internal.WrappedException: Wrapped java.net.ConnectException: Connection refused: connect (<Unknown source>#192) in <Unknown source> at line number 192",
+ "cause": "tomcat里面artry文件里localhost=127.0.0.1:8088需要改为时空的地址和端口号",
+ "solution": "目录：tomcat\\webapps\\ROOT\\WEB-INF\\classes，文件artery.properties里面localhost=127.0.0.1:8088改为时空的地址和端口号",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "连接拒绝"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XCYAqoo837"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260515-015",
+ "record_id": "IYVlU1f6A0",
+ "title": "之前失效的仓库出现了数量为0但是有金额的情况，有正有负。",
+ "problem": "之前失效的仓库出现了数量为0但是有金额的情况，有正有负。",
+ "cause": "因为调拨单是去年12月份做的，但是内部交易结算是今年3月份做的，所以在失效仓又出现了这个差异。",
+ "solution": "对有差异的失效仓做成本调整单，将这个失效仓的负数调增，调为0。那么相对应的新仓库要调减。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "数量为0有金额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "成本管理",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "实施7部",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IYVlU1f6A0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

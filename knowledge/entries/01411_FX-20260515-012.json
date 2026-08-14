@@ -1,0 +1,36 @@
+{
+ "id": "FX-20260515-012",
+ "record_id": "aeQbQRmq5m",
+ "title": "采购订单放出来了赠品字段 并且勾选了赠品 为什么还是提示不能保存 提示金额不能为空",
+ "problem": "采购订单放出来了赠品字段 并且勾选了赠品 为什么还是提示不能保存 提示金额不能为空",
+ "cause": "是正常的 赠品也需要维护单价",
+ "solution": "赠品行也要维护单价 金额，否则订单不能保存，勾选赠品后只是后续入库单直接传存货成本为零，订单上价格还是需要维护的。",
+ "solution_types": [],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "赠品金额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "aeQbQRmq5m"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

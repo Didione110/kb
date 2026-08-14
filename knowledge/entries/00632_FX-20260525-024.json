@@ -1,0 +1,47 @@
+{
+ "id": "FX-20260525-024",
+ "record_id": "FkW9qK21uU",
+ "title": "U8财务接口问题：\n1.U8凭证显示界面分录比时空生成凭证分录少一行\n2.U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页，如图",
+ "problem": "U8财务接口问题：\n1.U8凭证显示界面分录比时空生成凭证分录少一行\n2.U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页，如图",
+ "cause": "1. U8凭证显示界面分录比时空生成凭证分录少一行：\n\n检查U8数据库中凭证分录数也与时空生成分录数一致，U8前台不显示某一行分录原因是没有挂辅助项的科目后台传了辅助项\n2. U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页：\n\n检查U8数据库中凭证分录，判断为财务接口传入的inid列数据不连续导致",
+ "solution": "1. U8凭证显示界面分录比时空生成凭证分录少一行：\n\n没有挂辅助项的科目后台传了辅助项，确认是否需要挂辅助，需要的话则调整U8科目档案，不需要的话调整凭证接口语句不传即可\n2. U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页：\n\n调整凭证接口语句，inid列数据连续即可",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "凭证分录异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "服务值班组",
+  "date": "2026-05-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvGGg5VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvGGg5VMwvDqPk",
+  "doc_path": "/时空/数据接口问题/U8财务接口问题： 1.U8凭证显示界面分录比时空生成凭证分录少一行 2.U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页，如图",
+  "record_id": "FkW9qK21uU"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/U8财务接口问题： 1.U8凭证显示界面分录比时空生成凭证分录少一行 2.U8凭证显示界面多条分录时往下滑动过程中途出现莫名空白页，如图",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

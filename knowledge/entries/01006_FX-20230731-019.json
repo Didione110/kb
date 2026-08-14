@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230731-019",
+ "record_id": "Pi2WZKE9IN",
+ "title": "设置WROD打印模板时输入汉字显示为韩文",
+ "problem": "设置WROD打印模板时输入汉字显示为韩文",
+ "cause": "软件问题",
+ "solution": "打输入法乱码补丁包",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "汉字显示韩文"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Pi2WZKE9IN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

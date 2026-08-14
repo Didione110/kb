@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250331-058",
+ "record_id": "4hH9aOAy2l",
+ "title": "接口金额计算不正确",
+ "problem": "接口金额计算不正确",
+ "cause": "三方计算逻辑和系统不一致",
+ "solution": "第一步:计算含税金额:含税金额=数量\\*单价\n\n第二步:计算税额:税额=含税金额/(1\\+税率)x税率\n\n第三步:计算无税金额:无税金额=含税金额-税额\n\n第四步:计算无税单价:无税单价=无税金额/数量",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "金额计算"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yA9drx8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yA9drx8GXn6lpz",
+  "doc_path": "/用友/实施问题/接口金额计算不正确",
+  "record_id": "4hH9aOAy2l"
+ },
+ "status": "active",
+ "doc_path": "/用友/实施问题/接口金额计算不正确",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240506-018",
+ "record_id": "zuw4FWARk4",
+ "title": "商品资料一品多码时，某个值都需要修改时，每个商品资料都要修改一遍，耗时费力",
+ "problem": "商品资料一品多码时，某个值都需要修改时，每个商品资料都要修改一遍，耗时费力",
+ "cause": "无法批量的修改",
+ "solution": "新增一个批量修改界面，将批量修改的值罗列出来进行修改，并选择需要影响的具体商品资料，保存后后台修改并发起对应商品修改审批流",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "一品多码"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "主数据管理模块",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zuw4FWARk4"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

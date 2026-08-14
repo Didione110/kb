@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251031-056",
+ "record_id": "6cBWe389U8",
+ "title": "单据在保存时偶尔会出现报“执行服务器端脚本错误....”",
+ "problem": "单据在保存时偶尔会出现报“执行服务器端脚本错误....”",
+ "cause": "oracle数据库用的12c版本",
+ "solution": "数据数中执行：\nalter system set result\\_cache\\_mode=manual;\nalter system set result\\_cache\\_max\\_size=0;\nalter system set \"\\_optimizer\\_ads\\_use\\_result\\_cache\"=false;",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "脚本错误"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3E6NyWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3E6NyWkyEqBQm",
+  "doc_path": "/时空/安装部署问题/单据在保存时偶尔会出现报“执行服务器端脚本错误....”",
+  "record_id": "6cBWe389U8"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/单据在保存时偶尔会出现报“执行服务器端脚本错误....”",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

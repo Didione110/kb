@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231031-053",
+ "record_id": "uTr1TzeTGQ",
+ "title": "余额表中双击查看明细报错，提示Fail对象名'fitemss'无效",
+ "problem": "余额表中双击查看明细报错，提示Fail对象名'fitemss'无效",
+ "cause": "科目挂了项目核算但是没有指定项目大类",
+ "solution": "到项目大类界面给该科目指定项目大类",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "fitemss"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uTr1TzeTGQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

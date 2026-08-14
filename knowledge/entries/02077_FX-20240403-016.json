@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240403-016",
+ "record_id": "qu4u3I9hmq",
+ "title": "NC65供应商并户操作",
+ "problem": "NC65供应商并户操作",
+ "cause": "操作记录",
+ "solution": "1.点击供应商档案中的[并户] 按钮\n2.弹出并户对话框输入被并户的供应商编码以及并至供应商处的编码\n3.点击确认键\n4.系统提示并户成功，表示已完成并户\n5.被并户的供应商档案将自动删除，不再出现在供应商列表中。\n6.历史已有发生的业务将自动调整更新为并入的供应商档案中。\n注意:操作前做好备份，并户操作后都不能撤销",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "供应商并户"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qu4u3I9hmq"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

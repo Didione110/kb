@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241008-009",
+ "record_id": "rekyrkQ4ll",
+ "title": "服务读取超时",
+ "problem": "服务读取超时",
+ "cause": "并发数不足",
+ "solution": "用友应用集群配置：\n1、修改prop.xml\n2、u8cSysconfig server 读取保存\n3、启动D:Apache24/bin httpd.exe",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "超时"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "数据服务",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rekyrkQ4ll"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

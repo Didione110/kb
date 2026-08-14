@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221230-057",
+ "record_id": "GJf3OOGcZB",
+ "title": "tomcat不生成catalina.out、localhost_access_log.*.txt日志",
+ "problem": "tomcat不生成catalina.out、localhost_access_log.*.txt日志",
+ "cause": "tomcat反复启动，会生成很多启动日志占用空间，这部分日志不会查看，客户再找项目日志时经常会找错，并占用空间。",
+ "solution": "将/bin/catalina.sh 中的CATALINA\\_OUT=\"\\$CATALINA\\_BASE\"/logs/catalina.out修改为\nif \\[ -z \"\\$CATALINA\\_OUT\" \\] ; then\n CATALINA\\_OUT=/dev/null\nfi\n将/conf/server.xml 文件中的下面的语句注释调 \\<-- --/\\>",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志缺失"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "产品开发部",
+  "date": "2022-12-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1N1xa8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1N1xa8BQEx5rG",
+  "doc_path": "/自研/安装部署问题/tomcat不生成catalina.out、localhost_access_log. .txt日志",
+  "record_id": "GJf3OOGcZB"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/tomcat不生成catalina.out、localhost_access_log. .txt日志",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

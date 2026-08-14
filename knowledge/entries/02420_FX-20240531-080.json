@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240531-080",
+ "record_id": "zk4BtJkGbT",
+ "title": "固定资产模块已启用，但没有固定资产卡片，客户不想每次点折旧节点后结账。",
+ "problem": "固定资产模块已启用，但没有固定资产卡片，客户不想每次点折旧节点后结账。",
+ "cause": "参数设置勾选了本账套是否计提折旧",
+ "solution": "取消勾选参数；后续有固定资产的时候把该参数打开，否则折旧不生效。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "无卡片"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zk4BtJkGbT"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

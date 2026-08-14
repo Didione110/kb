@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221017-007",
+ "record_id": "ZcDycm6d0Y",
+ "title": "设置业务员只能查询自己的业务单据。",
+ "problem": "设置业务员只能查询自己的业务单据。",
+ "cause": "设置业务员只能查询自己的业务单据。",
+ "solution": "1、用admin登录系统配置参数，业务系统管理>业务系统初始化>系统参数设置页面, 然后目录打开动态企业建模>权限管理，找到允许为用户直接授权 改为是。2、demo登录，动态企业建模>数据权限>按用户授权，按人员设置对应人员可查看业务单据规则",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2022-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZcDycm6d0Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

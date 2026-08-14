@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240804-008",
+ "record_id": "K8RcGytMDG",
+ "title": "研发需要做试验样品，单独计算到研发费用上，在系统里面怎么实现",
+ "problem": "研发需要做试验样品，单独计算到研发费用上，在系统里面怎么实现",
+ "cause": "系统里面是计入生产生产还是研发费用，取决于领料单行的【计算成本】是否勾选，可以建立研发订单，单据类型设置备料计算成本策略：全部备料不计算成本，则领料单分录计入研发费用",
+ "solution": "系统里面是计入生产生产还是研发费用，取决于领料单行的【计算成本】是否勾选，可以建立研发订单，单据类型设置备料计算成本策略：全部备料不计算成本，则领料单分录计入研发费用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "研发费用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-08-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "K8RcGytMDG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240805-022",
+ "record_id": "FQUZYiwU2u",
+ "title": "客户纸质普通发票还有1000张，但是开具纸质普票时候一直提示发票用完了",
+ "problem": "客户纸质普通发票还有1000张，但是开具纸质普票时候一直提示发票用完了",
+ "cause": "经过反复排查，原因是接口传入的发票类型错误，检查开票界面确实是选的普通纸票，但是传入的类型却是普电，其取值不是取开票界面选择发票类型，而是取值视图里面传入的发票类型；",
+ "solution": "调整视图中发票类型取值判断",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "发票用完"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-08-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pNmmN8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pNmmN8gN7R35y",
+  "doc_path": "/自研/安装部署问题/客户纸质普通发票还有1000张，但是开具纸质普票时候一直提示发票用完了",
+  "record_id": "FQUZYiwU2u"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/客户纸质普通发票还有1000张，但是开具纸质普票时候一直提示发票用完了",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

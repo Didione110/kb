@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221108-026",
+ "record_id": "niaNPq6vXY",
+ "title": "生产订单的单据状态为作废，此时需要删除单据。",
+ "problem": "生产订单的单据状态为作废，此时需要删除单据。",
+ "cause": "生产订单的单据状态为作废，需要删除单据。此时在系统中是无法继续其他操作或逆操作的。",
+ "solution": "需要后台数据库写语句：\nselect * from mo_mo where docno = '生产订单单号'\nupdate MO_MO set cancel_Canceled=0 where DocNo='订单单号'\n\n 逻辑：先找到需要删除的订单单号，找到后修改此单的状态，修改为核准中，再去系统中删单即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "作废删除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施4部",
+  "date": "2022-11-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "niaNPq6vXY"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

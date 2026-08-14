@@ -1,0 +1,34 @@
+{
+ "id": "FX-20240422-066",
+ "record_id": "GwbxlAbzEM",
+ "title": "薪资计算两个月的时候是怎么计算的，税率表是按年进行累计",
+ "problem": "薪资计算两个月的时候是怎么计算的，税率表是按年进行累计",
+ "cause": "无",
+ "solution": "薪资按照两个月的累计数、累计起征点等一起算，是按照系统默认税率表计算的",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "累计计税"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施7部",
+  "date": "2024-04-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GwbxlAbzEM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

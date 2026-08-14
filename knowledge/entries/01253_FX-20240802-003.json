@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240802-003",
+ "record_id": "Wv1NcYe65Y",
+ "title": "请款单应付单号匹配不出",
+ "problem": "请款单应付单号匹配不出",
+ "cause": "未根据单据类型进行单独匹配导致的SrcBillType",
+ "solution": "case\nwhen aprfd.SrcBillType = 1 then (select ppo.DocNo from PM_PurchaseOrder ppo where ppo.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 0 then ( SELECT aaa.DocNo FROM AP_APBillHead aaa where aaa.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 3 then (select DocNo from PM_Receivement ppo where ppo.id = aprfd.SrcBillID)\nwhen aprfd.SrcBillType = 2 then aprfd.srcbillnum\nend as yfddherp,-- 应付单单号",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "应付单号"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-08-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Wv1NcYe65Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

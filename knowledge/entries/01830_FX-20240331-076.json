@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240331-076",
+ "record_id": "lZf0ryvugn",
+ "title": "票据背书后误点了撤销，，票据无法修改也无法删除。",
+ "problem": "票据背书后误点了撤销，，票据无法修改也无法删除。",
+ "cause": "会计再操作的时候误点导致将票据做了撤销并删除的动作",
+ "solution": "参数勾上二代票据撤销允许删除子票据勾上。然后先对子票据点撤销，再到主票据上点撤销同步删除子票据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "背书撤销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lZf0ryvugn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

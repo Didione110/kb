@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-058",
+ "record_id": "4etKqYoSdy",
+ "title": "零售业务开票提取挂账 新增明细行收款时提示违反唯一约束",
+ "problem": "零售业务开票提取挂账 新增明细行收款时提示违反唯一约束",
+ "cause": "提取挂账后新增明细的序号是从1开始生成的，会和之前的序号重复",
+ "solution": "点收款时重新循环赋值序号\n for(var i=0;i\\<ds\\_mxls.recordCount;i\\+\\+)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "唯一约束"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNde7KRpJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNde7KRpJ2LD0oRE",
+  "doc_path": "/时空/数据错误问题/零售业务开票提取挂账 新增明细行收款时提示违反唯一约束",
+  "record_id": "4etKqYoSdy"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/零售业务开票提取挂账 新增明细行收款时提示违反唯一约束",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

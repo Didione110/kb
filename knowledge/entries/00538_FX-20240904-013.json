@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240904-013",
+ "record_id": "DLRunOM71L",
+ "title": "U9C集成YS\n凭证集成配置的连接器，连接配置中组织编码需要录入U9C中含有总账模块的组织编码（，不要录入虚拟集团组织编码，否正会影响凭证传输",
+ "problem": "U9C集成YS\n凭证集成配置的连接器，连接配置中组织编码需要录入U9C中含有总账模块的组织编码（，不要录入虚拟集团组织编码，否正会影响凭证传输",
+ "cause": "U9C中的虚拟集团组织没有任何职能，而凭证集成需要连接配置的组织有总账职能",
+ "solution": "选择U9C中任意一个需要集成的有总账的组织录入YS中连接配置的组织编码，连接配置只是为了搭建连接，加入YS要集成多个U9C组织，选其中任意一个即可，不会影响其他要集成的组织传输",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "组织编码"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "连接集成服务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DLRunOM71L"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

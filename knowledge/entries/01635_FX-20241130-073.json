@@ -1,0 +1,36 @@
+{
+ "id": "FX-20241130-073",
+ "record_id": "givfQ2Ixs2",
+ "title": "杂发单参照请购单生成，有实现的方式",
+ "problem": "杂发单参照请购单生成，有实现的方式",
+ "cause": "研发人员提一次请购后需要参照请购单直接生成领料单",
+ "solution": "方法一：如果客户存在料品是项目维度，杂发单--按照库存出货\n方法二：库存管理中研发人员提料品需求单，参照料品需求单生成杂发单；",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "单据参照"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "givfQ2Ixs2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

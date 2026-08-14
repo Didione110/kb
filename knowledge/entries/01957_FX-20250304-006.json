@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250304-006",
+ "record_id": "oIDHqbsCj6",
+ "title": "人福微信小程序删除商品使用splice方法删除对象数组，点击一次会删除多条数据",
+ "problem": "人福微信小程序删除商品使用splice方法删除对象数组，点击一次会删除多条数据",
+ "cause": "splice方法会改变原数组的值，在foreach中使用，会导致index改变删除多条数据",
+ "solution": "使用filter过滤删除数组",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "splice误删"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2025-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj1eO28AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj1eO28AgozOKL",
+  "doc_path": "/自研/产品功能问题/人福微信小程序删除商品使用splice方法删除对象数组，点击一次会删除多条数据",
+  "record_id": "oIDHqbsCj6"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/人福微信小程序删除商品使用splice方法删除对象数组，点击一次会删除多条数据",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240305-019",
+ "record_id": "NG476LscXn",
+ "title": "时空V10、V11中，数据行大于2W行左右不能通过系统自带导出Execl表功能导出数据。",
+ "problem": "时空V10、V11中，数据行大于2W行左右不能通过系统自带导出Execl表功能导出数据。",
+ "cause": "数据量大无法导出",
+ "solution": "新建并调用csv导出函数：\nfunction uf_getExcel(){\n\n toolbar.enableItem(\"toolbar.m4\",false);\n \n try {\n //sql宏参数\n var params = {};\n params.StartDate = DsMain.field(\"StartDate\").value;\n params.EndDate = DsMain.field(\"EndDate\").value;\n \n //导出参数\n var csvPars = {};\n csvPars.openmode = \"sql\";\n csvPars.openparam = \"uf_getExcelmx_sql\"; //sql宏的名字\n csvPars.filename = \"销售出库明细\"+DsMain.field(\"StartDate\").value+\"-\"+DsMain.field(\"EndDate\").value+\".csv\"; //导出文件名\n csvPars.isExpCNFildName = \"Y\"; //是否包含表头\n csvPars.charset = \"gb2312\"; //\"utf-8\"\n csvPars.variables = params;\n //运行\n WebService.asynDownload(\"utility.exportCsv\", csvPars); \n //alert(\"后台数据准备中，请稍候\");\n } finally {\n toolbar.enableItem(\"toolbar.m4\",true);\n }\n}",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "导出限制"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NG476LscXn"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

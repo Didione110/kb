@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240228-055",
+ "record_id": "PLhrbqfGwU",
+ "title": "一个具有多重身份，选择身份提交后会报错",
+ "problem": "一个具有多重身份，选择身份提交后会报错",
+ "cause": "设置流程时是根据部门设置，选择身份时可能选择到岗位，那么流程在提交进行计算时就会报错",
+ "solution": "默认提交身份是姓名，\n1、可在流程引擎中关闭提交人身份，避免由于误操作导致的流程报错\n2、与客户沟通是否存在岗位审批的流程，将其与当前流程结合作为分支条件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "身份冲突"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "PLhrbqfGwU"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

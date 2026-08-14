@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250326-034",
+ "record_id": "EflqqtLSAB",
+ "title": "YS配置消息模板",
+ "problem": "YS配置消息模板",
+ "cause": "消息模板用于定义系统发送的各种消息的展现样式，包括消息标题和消息内容。系统支持四种消息类型：业务动作、预警、流程、业务事件，并提供系统消息模板，企业也可根据需要设置自己的模板并分配到组织。",
+ "solution": "YS有4类消息模板：一、业务事件消息模板；二、业务动作消息模板；三、预警消息模板；\n\n四、流程消息模板（注：通用的和各领域流程都包含以下场景：待办、抄送、审批撤回、审批结束、驳回到制单人、驳回终止、驳回抄送、超时前预警、超时提醒、超时自动完成、超时自动终止、前加签提醒；流程消息是在流程模型中配置的，流程模型中选择了消息模板才能发送相应的内容。）。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "YS模板"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-03-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EflqqtLSAB"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

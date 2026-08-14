@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231117-068",
+ "record_id": "CFbs6eyoRO",
+ "title": "银行存款的银行账户辅助核算怎么显示账号信息",
+ "problem": "银行存款的银行账户辅助核算怎么显示账号信息",
+ "cause": "银行账户辅助需要将账号显示出来，可以业务参数设置-组织，GL010/辅助核算显示模式此参数控制。",
+ "solution": "银行账户辅助需要将账号显示出来，可以业务参数设置-组织，GL010/辅助核算显示模式此参数控制。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "银行账户"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-11-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CFbs6eyoRO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

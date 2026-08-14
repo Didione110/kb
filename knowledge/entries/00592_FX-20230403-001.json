@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230403-001",
+ "record_id": "EXjhVg2ZWM",
+ "title": "出库申请单上的数量是0.025，带到材料出库单上的数量是0.03",
+ "problem": "出库申请单上的数量是0.025，带到材料出库单上的数量是0.03",
+ "cause": "数据小数位数",
+ "solution": "检查参数设置中的小数位数是3位，修改出库申请、材料出库、参照界面单据模板都需要将精度修改成3位，操作：在集团登录，单据模板初始化中搜索4455REF，选中数量字段，右侧“高级属性-类型设置”双击，自定义精度修改为3位；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "打印"
+ ],
+ "keywords": [
+  "数量四舍五入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EXjhVg2ZWM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

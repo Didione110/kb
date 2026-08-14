@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240604-004",
+ "record_id": "iqUCNSA7g0",
+ "title": "委外分批出库时报错“单据已签字”",
+ "problem": "委外分批出库时报错“单据已签字”",
+ "cause": "补丁bug，判断下游单据是否签字时，默认为一张单据",
+ "solution": "修改返回值为list，利用for循环判断",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "单据已签字"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iqUCNSA7g0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

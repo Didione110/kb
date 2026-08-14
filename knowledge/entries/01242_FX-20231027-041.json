@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231027-041",
+ "record_id": "WhZCtK70P3",
+ "title": "只有一个用户的销售订单界面打开表体的字段不对，少了很多字段显示（存货编码、存货名称、规格型号等）",
+ "problem": "只有一个用户的销售订单界面打开表体的字段不对，少了很多字段显示（存货编码、存货名称、规格型号等）",
+ "cause": "检查了销售订单的模板、模板分配、权限设置没有发现问题，是客户在界面做了个性化设置，没有显示这些字段",
+ "solution": "在销售订单界面右键，出现个性化设置、勾选所有字段显示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "字段缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-10-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WhZCtK70P3"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

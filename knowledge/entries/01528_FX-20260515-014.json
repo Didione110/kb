@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260515-014",
+ "record_id": "e6sUyfuNtE",
+ "title": "u9c客户提出想将应收票据科目设置为现金等价物, 发生额纳入现金流量表（现在有从客户回收票据, 放到现金流量表中与回收现汇在一起, 能体现货款回收的完整数据）",
+ "problem": "u9c客户提出想将应收票据科目设置为现金等价物, 发生额纳入现金流量表（现在有从客户回收票据, 放到现金流量表中与回收现汇在一起, 能体现货款回收的完整数据）",
+ "cause": "需要把现金流量表的期初、期末货币资金：包含银行库存现金和其他货币资金+应收票据科目",
+ "solution": "一：资产负债表不用改 核对现金流量表的时候 直接把余额和货币资金和应收票据 这两个格子的合计值去核对就可以 二：最好是一年年初开始设置，不然现金流量表期初就不平 三： 现金流量报表期初取值需要修改加上这个应收票据科目的取值",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport",
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "应收票据、现金等价物、现金流量"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "e6sUyfuNtE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

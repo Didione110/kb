@@ -1,0 +1,44 @@
+{
+ "id": "FX-20251127-041",
+ "record_id": "HPr3KQfoK2",
+ "title": "点三系统出现漏单，平台订单未下载到系统",
+ "problem": "点三系统出现漏单，平台订单未下载到系统",
+ "cause": "点三系统出现漏单，平台订单未下载到系统",
+ "solution": "虽然极少情况下会出现订单接口漏单的情况，但也有可能会出现。当出现漏单的情况，可以在下载订单功能种操作用原始订单号主动下载订单到点三系统。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "漏单、未下载、订单"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-11-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rjqrj68AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rjqrj68AgozOKL",
+  "doc_path": "/其他/数据接口问题/点三系统出现漏单，平台订单未下载到系统",
+  "record_id": "HPr3KQfoK2"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/点三系统出现漏单，平台订单未下载到系统",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

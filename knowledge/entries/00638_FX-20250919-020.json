@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250919-020",
+ "record_id": "FyLbNYxZt4",
+ "title": "新增快递无法获取单号",
+ "problem": "新增快递无法获取单号",
+ "cause": "对接新快递时，新增的商家物流未绑定快递网点",
+ "solution": "当需要对接一个全新的快递时需要完成以下几步;\n(1）跟快递公司签约，所有店铺开头对应快递公司的物流网点。\n(2）点三打印设置中新增各个平台对应新快递的打印模板。\n(3）商家物流中增加对应店铺的物流方式，关联对接店铺的网点。\n(4）如需默认发新增加的物流，修改转单策略中的物流匹配策略。\n完成以上几步，一个新增的快递就完成了对接。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "单号获取"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-09-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmq7wBJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmq7wBJqjMp697",
+  "doc_path": "/其他/应用操作/新增快递无法获取单号",
+  "record_id": "FyLbNYxZt4"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/新增快递无法获取单号",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

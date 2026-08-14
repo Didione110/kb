@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240930-053",
+ "record_id": "pX7Jr7TfxC",
+ "title": "WMS生成波次有自动和手动两种方式。",
+ "problem": "WMS生成波次有自动和手动两种方式。",
+ "cause": "WMS生成波次有自动和手动两种方式。",
+ "solution": "自动则根据一定规则，例如合并波次的整件数不能大于多少，品种数不能大于多少，零货的条目数不能大于多少等来自定生成。设定好规则后，将自动调度打开即可。\n手动则是自己选明细来进行生成，DHEPR-WMS是按明细来生波的。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "波次生成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pX7Jr7TfxC"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

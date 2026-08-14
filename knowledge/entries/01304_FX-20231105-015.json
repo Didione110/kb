@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231105-015",
+ "record_id": "Y6xEbLWvlC",
+ "title": "无法加入字段",
+ "problem": "无法加入字段",
+ "cause": "无法加入字段",
+ "solution": "--查看那个表死锁\nselect object_name(resource_associated_entity_id) as tableName, request_session_id as pid \nfrom sys.dm_tran_locks\nwhere resource_type = 'OBJECT' --and object_name(resource_associated_entity_id)='spkfk'\n\n--杀掉进程pid\nKILL 83--pid\n\n通过查看对应锁表内容，对应进程无释放的情况下，可以强行关闭对应进程后，加入字段",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "字段缺失"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2023-11-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y6xEbLWvlC"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

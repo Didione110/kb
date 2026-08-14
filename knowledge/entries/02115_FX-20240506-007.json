@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240506-007",
+ "record_id": "rxknXHEdr3",
+ "title": "2024年药监局出了新规，湖北人福需要将原先的经营范围与新的经营范围形成一个相互映射关系，在存盘校验过程中新老校验都要通过验证",
+ "problem": "2024年药监局出了新规，湖北人福需要将原先的经营范围与新的经营范围形成一个相互映射关系，在存盘校验过程中新老校验都要通过验证",
+ "cause": "湖北人福需要将原先的经营范围与新的经营范围形成一个相互映射关系，在存盘校验过程中新老校验都要通过验证",
+ "solution": "//经营范围校验\n var BC = \",\" + BusinessCont + \",\";\n var x_BC = \",\" + BusinessCont + \",\";\n //化学药制剂、抗生素制剂 化学药 新证对照老证 ：化学药 对照 化学药、 化学药制剂 104 、抗生素制剂 111 \n if(x_BC.indexOf(\",119,\") != -1){\n BC += \"104,111,\";//化学原料药、抗生素原料药\n }\n if(x_BC.indexOf(\"104\") != -1 || x_BC.indexOf(\"111\") != -1){\n BC += \"119,\";\n }\n // 原料药 新证对照老证 ：原料药 对照 原料药、 化学原料药 103 、抗生素原料药 112\n if(x_BC.indexOf(\",106,\") != -1){\n BC += \"103,112,\";//化学药制剂、抗生素制剂\n } \n if(x_BC.indexOf(\"103\") != -1 ||x_BC.indexOf(\"112\") != -1 ){\n BC += \"106,\";\n } \n var GC = \",\" + GCategory + \",\";",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "映射校验"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rxknXHEdr3"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

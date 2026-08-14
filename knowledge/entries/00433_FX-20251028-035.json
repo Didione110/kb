@@ -1,0 +1,46 @@
+{
+ "id": "FX-20251028-035",
+ "record_id": "AZK8wJmbfG",
+ "title": "关于后台总账科目期初余额逻辑",
+ "problem": "关于后台总账科目期初余额逻辑",
+ "cause": "知识积累",
+ "solution": "gl\\_accvouch，gl\\_accsum，gl\\_accass，gl\\_accmultiass\n凭证表、科目总账、辅助总账、多辅助明细账汇总表\n无辅助余额存于gl\\_accsum科目总账，账套启用年月的第一期间，mb值\n部门、项目辅助余额存于gl\\_accsum科目总账，gl\\_accass辅助总账，gl\\_accmultiass多辅助明细账汇总表\n账套启用年月的第一期间，mb值\n客户、供应商、个人辅助余额存于gl\\_accsum科目总账，gl\\_accass辅助总账，gl\\_accmultiass多辅助明细账汇总表账套启用年月的第一期间，mb值\n且同时存于gl\\_accvouch，iperiod等于0的值",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "期初余额"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lbM6786EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lbM6786EDybno",
+  "doc_path": "/用友/应用操作/关于后台总账科目期初余额逻辑",
+  "record_id": "AZK8wJmbfG"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/关于后台总账科目期初余额逻辑",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

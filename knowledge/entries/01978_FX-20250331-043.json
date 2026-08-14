@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250331-043",
+ "record_id": "omfc4z09vu",
+ "title": "自定义结转 从a科目结转到b科目，这两个科目都带了项目辅助核算，怎么实现按照辅助核算一一对应进行结转",
+ "problem": "自定义结转 从a科目结转到b科目，这两个科目都带了项目辅助核算，怎么实现按照辅助核算一一对应进行结转",
+ "cause": "无",
+ "solution": "把两个科目的结转公式都设置为QM(\"140901\",\"\",\"\",\"\",\"\")，结转时自动按照项目辅助核算一一对应结转；如果想要按照1409的一级结转，那么开发产品公式设置为QM(\"1409*\",\"\",\"\",\"\",\"\")，开发成本公式设置为QM(\"1409\",\"\",\"\",\"\",\"\")科目编码后不加*号",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助核算结转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "omfc4z09vu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "doc-82ea416478",
+ "record_id": "",
+ "title": "配置钉钉集成后打开应用显示空白",
+ "problem": "配置钉钉集成后打开应用显示空白",
+ "cause": "蓝凌机制问题",
+ "solution": "如果是在钉钉新建的应用绑定的是OA登录页则需要配置移动门户，门户不预制，如果绑定的是模块如流程管理的地址则可以直接使用",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0aPXPMJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0aPXPMJxAZB1Gv",
+  "doc_path": "/蓝凌OA/安装部署问题/配置钉钉集成后打开应用显示空白"
+ },
+ "doc_path": "/蓝凌OA/安装部署问题/配置钉钉集成后打开应用显示空白",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

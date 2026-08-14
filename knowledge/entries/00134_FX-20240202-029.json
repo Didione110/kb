@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240202-029",
+ "record_id": "3AqOpDGOKD",
+ "title": "客户端换新版本后，可以选择账套，但软件不能登陆到操作界面。仅重装软件，依旧不能登陆。",
+ "problem": "客户端换新版本后，可以选择账套，但软件不能登陆到操作界面。仅重装软件，依旧不能登陆。",
+ "cause": "系统盘中有个DLL文件",
+ "solution": "1、打补丁，补丁编号为：CP-U8V18.0-100004-231226-DP\n2、重装系统后重装软件\n3、手工删除：C:\\\\Windows\\\\SysWOW64\\\\U8SmartDownLoad.dll 文件",
+ "solution_types": [
+  "补丁更新",
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "登录失败"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1kDkbJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1kDkbJyMoPYe1",
+  "doc_path": "/用友/安装部署问题/客户端换新版本后，可以选择账套，但软件不能登陆到操作界面。仅重装软件，依旧不能登陆。",
+  "record_id": "3AqOpDGOKD"
+ },
+ "status": "active",
+ "doc_path": "/用友/安装部署问题/客户端换新版本后，可以选择账套，但软件不能登陆到操作界面。仅重装软件，依旧不能登陆。",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

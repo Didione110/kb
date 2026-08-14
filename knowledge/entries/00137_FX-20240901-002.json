@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240901-002",
+ "record_id": "3EaAWMFizQ",
+ "title": "在哪能设置个人只能查看自己开的销售订单",
+ "problem": "在哪能设置个人只能查看自己开的销售订单",
+ "cause": "在哪能设置个人只能查看自己开的销售订单",
+ "solution": "用户权限-公共数据权限设置-操作员控制到个人，删除“chanjetsimula...”这行",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "销售订单权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3EaAWMFizQ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240731-053",
+ "record_id": "NCSBIfL7BY",
+ "title": "仓库内，有部分批号，只发给专门的公司",
+ "problem": "仓库内，有部分批号，只发给专门的公司",
+ "cause": "有些折损批号，折价发给某些公司",
+ "solution": "WMS需要针对折扣，单独建立库房，ERP销售时，传单独的仓库类型，防止WMS进行分摊时，将折价药品给分摊出去。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "定向发货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn147wkWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn147wkWrMqPxX6",
+  "doc_path": "/其他/应用操作/仓库内，有部分批号，只发给专门的公司",
+  "record_id": "NCSBIfL7BY"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/仓库内，有部分批号，只发给专门的公司",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

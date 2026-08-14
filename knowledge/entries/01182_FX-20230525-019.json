@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230525-019",
+ "record_id": "UhKkmOjLe7",
+ "title": "质检平台图片预览放大与弹窗层级错位",
+ "problem": "质检平台图片预览放大与弹窗层级错位",
+ "cause": "el-image图片预览放大与弹窗样式出现重叠",
+ "solution": "el-image设置样式z-index和append-to-body提高层级",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "层级错位"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-05-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gQzpxJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gQzpxJxAZB1Gv",
+  "doc_path": "/自研/产品功能问题/质检平台图片预览放大与弹窗层级错位",
+  "record_id": "UhKkmOjLe7"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/质检平台图片预览放大与弹窗层级错位",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

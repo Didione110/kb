@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230206-019",
+ "record_id": "yAW6BYbnn4",
+ "title": "诺诺开发票中明细中规格型号不能超过40位与【规格型号】长度不正确，可接受值为0.6g*36/200的区别",
+ "problem": "诺诺开发票中明细中规格型号不能超过40位与【规格型号】长度不正确，可接受值为0.6g*36/200的区别",
+ "cause": "1.视图取值没有判断\n2.基础数据有问题，没有校验",
+ "solution": "1.长度超位数可以在视图中截取字段长度\n2.长度不正确值的是该字段有特殊字符或者有空格，修改基础数据",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "规格型号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2023-02-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yAW6BYbnn4"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

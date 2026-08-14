@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221115-035",
+ "record_id": "3gNvCqbC8g",
+ "title": "U8提示运行错误429，activeX不见不能创建对象",
+ "problem": "U8提示运行错误429，activeX不见不能创建对象",
+ "cause": "杀毒软件或监控软件或系统更新导致组件注册信息缺失",
+ "solution": "cmd使用语句for /r D:\\\\U8SOFT\\\\ufcomsql %i in (*.dll,*.ocx) do regsvr32.exe /s %i\n注册U8SOFT/ufconsql下所有DLL与OCX文件\n注意注册过程中回提示缺失组件，找相同环境替换组件再次注册即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "ActiveX错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2022-11-15"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1RDmM8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1RDmM8BQEx5rG",
+  "doc_path": "/用友/环境问题/U8提示运行错误429，activeX不见不能创建对象",
+  "record_id": "3gNvCqbC8g"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/U8提示运行错误429，activeX不见不能创建对象",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

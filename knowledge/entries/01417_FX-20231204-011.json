@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231204-011",
+ "record_id": "amBYjaPPOd",
+ "title": "调用U9C创建部门接口报错",
+ "problem": "调用U9C创建部门接口报错",
+ "cause": "请求报文中传入的部门编码未遵循U9C部门规则",
+ "solution": "进入u9c中查询对应编码规则，在代码中做好规则映射",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "U9C部门接口"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-12-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "amBYjaPPOd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

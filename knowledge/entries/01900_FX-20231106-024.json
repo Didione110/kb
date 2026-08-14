@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231106-024",
+ "record_id": "nCobHh9oRQ",
+ "title": "\n\nDHERP-WMS\n基础资料:\nstorehouse 库房\nstoreroom  货位\nWmsReseArea 库区\nWmsLocClass  货架类型\nWmsLocRel  货架类型与货位关系\nWmsPickArea 拣货区域\n收货：\n WMSinmt,Dt , wms接口表。\nwmsrecemt,dt   pda 收货存储表。\nwmsstormt,dt  pda 上架存储表。\n发货: \nwmsfreq  指令\nwmsoutmt,dt 出库接口表。\nwmspickmt,wmspickdt,wmspickareadt  拣货指令。\nwmsunpackmt,dt 待内复核表。  \nwmslclno 订单零货拼箱表。\nwmscompmt,dt  出库确认。  \n零货存储: pick----unpack----comp\n整件: pick---comp\n捕货:pick---comp",
+ "problem": "DHERP-WMS\n基础资料:\nstorehouse 库房\nstoreroom 货位\nWmsReseArea 库区\nWmsLocClass 货架类型\nWmsLocRel 货架类型与货位关系\nWmsPickArea 拣货区域\n收货：\n WMSinmt,Dt , wms接口表。\nwmsrecemt,dt pda 收货存储表。\nwmsstormt,dt pda 上架存储表。\n发货: \nwmsfreq 指令\nwmsoutmt,dt 出库接口表。\nwmspickmt,wmspickdt,wmspickareadt 拣货指令。\nwmsunpackmt,dt 待内复核表。 \nwmslclno 订单零货拼箱表。\nwmscompmt,dt 出库确认。 \n零货存储: pick----unpack----comp\n整件: pick---comp\n捕货:pick---comp",
+ "cause": "时空WMS常用库表",
+ "solution": "时空DHERP常用库表",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "PolarDB",
+  "OceanBase"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "追溯码",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "收货、发货、拣货、上架、出库"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nCobHh9oRQ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

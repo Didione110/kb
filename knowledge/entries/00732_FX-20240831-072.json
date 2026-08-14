@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240831-072",
+ "record_id": "IwmRMGQEDb",
+ "title": "YS和第三方集成（钉钉集成、企微集成）手册",
+ "problem": "YS和第三方集成（钉钉集成、企微集成）手册",
+ "cause": "YS费控服务和第三方集成（钉钉集成、企微集成）手册",
+ "solution": "YS和第三方集成（钉钉集成、企微集成）手册见附件；\nBIP开发文档参考：https://c2.yonyoucloud.com/iuap-hc-client/ucf-wh/client/index.html#/detail/SFJCBIP1?nodeId=032ad9b3-75cc-4c5a-ac82-535e5ab2729f&productline=CommunityDoc",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "集成手册"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "IwmRMGQEDb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

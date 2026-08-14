@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240326-050",
+ "record_id": "Gd9hmwVRZv",
+ "title": "在linux下按医保服务设置为服务启动",
+ "problem": "在linux下按医保服务设置为服务启动",
+ "cause": "在linux下按医保服务设置为服务启动",
+ "solution": "--linux 服务添加\n\n--编辑医保服务内容\nvi /lib/systemd/system/yinhaiv4\\_1.service\n\n加入以下内容\n\n\\[Unit\\]\nDescription=YINHAIPlus\\_v41\nAfter=network.target\n\n\\[Service\\]\nWorkingDirectory=/opt/YINHAIPlus\\_78\nExecStart=/usr/local/bin/dotnet /opt/YINHAIPlus\\_78/YINHAIPlus.dll\nRestart=always\nRestartSec=5\n\n\\[Install\\]\nWantedBy=multi-user.target\n\n--开机启动\nsystemctl enable yinhaiv4\\_1\n\n--启动\nsystemctl start yinhaiv4\\_1",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Linux",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保服务"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-03-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0XmpPVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0XmpPVDOnGvpb",
+  "doc_path": "/自研/安装部署问题/在linux下按医保服务设置为服务启动",
+  "record_id": "Gd9hmwVRZv"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/在linux下按医保服务设置为服务启动",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

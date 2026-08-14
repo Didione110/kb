@@ -1,0 +1,47 @@
+{
+ "id": "FX-20230526-020",
+ "record_id": "vajLDbJJoO",
+ "title": "对于恢复的数据库补丁不匹配问题，可采用本方法进行补丁重新安装。",
+ "problem": "对于恢复的数据库补丁不匹配问题，可采用本方法进行补丁重新安装。",
+ "cause": "对于恢复的数据库补丁不匹配问题，可采用本方法进行补丁重新安装。",
+ "solution": "该补丁全部重新安装方法为非常规操作，对于系统迁移或者恢复的数据库补丁不匹配等问题，可采用本方法进行补丁重新安装，客开补丁会一并被清理，需保留客开补丁原文件。",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "补丁不匹配"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vajLDbJJoO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

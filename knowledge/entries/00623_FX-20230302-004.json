@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230302-004",
+ "record_id": "FNVL5erOb2",
+ "title": "特殊情况下需要在后台删除出纳凭证的操作",
+ "problem": "特殊情况下需要在后台删除出纳凭证的操作",
+ "cause": "无",
+ "solution": "update gl_accvouch set coutsysname=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'\nupdate gl_accvouch set ioutperiod=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'\nupdate gl_accvouch set coutsign=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'\n需要删除上述三张表",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "出纳凭证删除"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "FNVL5erOb2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

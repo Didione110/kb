@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221031-031",
+ "record_id": "9GEuWhedoQ",
+ "title": "服务器正常运行时经常存在数据库服务自动停止的情况",
+ "problem": "服务器正常运行时经常存在数据库服务自动停止的情况",
+ "cause": "数据库安装完成后没有打补丁",
+ "solution": "安装SP3补丁后重启服务器即可",
+ "solution_types": [
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据库自动停止"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1gE25JMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1gE25JMGjLRb3",
+  "doc_path": "/时空/安装部署问题/服务器正常运行时经常存在数据库服务自动停止的情况",
+  "record_id": "9GEuWhedoQ"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/服务器正常运行时经常存在数据库服务自动停止的情况",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

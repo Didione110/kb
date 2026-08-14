@@ -1,0 +1,30 @@
+{
+ "id": "doc-51d4d4c39b",
+ "record_id": "",
+ "title": "流程是否可以归档除了在表单查询中能查以外",
+ "problem": "流程是否可以归档除了在表单查询中能查以外",
+ "cause": "蓝凌无致远的预归档功能，引用的概念是知识沉淀",
+ "solution": "在流程管理中新建单据时有个栏目是知识沉淀，这个与预归档功能类似，但是此功能需要购买对应模块才可是实现，模块为知识仓库，不是知识中心，这一点请销售同事在销售过程中注意",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4g7PXaJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4g7PXaJKMEvZBY",
+  "doc_path": "/蓝凌OA/实施问题/流程是否可以归档除了在表单查询中能查以外"
+ },
+ "doc_path": "/蓝凌OA/实施问题/流程是否可以归档除了在表单查询中能查以外",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

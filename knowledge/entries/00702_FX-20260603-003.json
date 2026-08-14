@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260603-003",
+ "record_id": "I1G6IjlTUl",
+ "title": "字段级权限",
+ "problem": "字段级权限",
+ "cause": "调整字段级权限",
+ "solution": "1、【参数设置】，是否开启字段权限选择是\n2、【业务模型管理】，找到客户档案\n3、场景支持例，对字段勾选字段权限\n4、【角色管理】找到需要控制对象分配的角色 进行字段控制",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "字段权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2026-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "I1G6IjlTUl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

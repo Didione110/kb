@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240829-058",
+ "record_id": "LfTzvrrKBL",
+ "title": "企业微信集成部署成功后，底菜单，配置了低代码平台的应用菜单，部分人员企业微信登录，提示系统权限报错",
+ "problem": "企业微信集成部署成功后，底菜单，配置了低代码平台的应用菜单，部分人员企业微信登录，提示系统权限报错",
+ "cause": "主要是低代码平台应用包的使用权限未设置的原因",
+ "solution": "设置对应低代码平台应用包的整体权限使用人，范围到机构即可，重新登录企业微信app，已解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EIS",
+ "module": "移动办公",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2024-08-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LfTzvrrKBL"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

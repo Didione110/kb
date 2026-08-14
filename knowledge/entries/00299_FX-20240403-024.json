@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240403-024",
+ "record_id": "7Cdy6v8jX1",
+ "title": "Mybatis+Oracle批量插入数据，存在即更新语句",
+ "problem": "Mybatis+Oracle批量插入数据，存在即更新语句",
+ "cause": "Mybatis\\+Oracle批量插入数据，存在即更新语句",
+ "solution": "示例：\nMERGE into kq\\_erp\\_u8c\\_log t1\n USING (\n \n select\n #\\{item.pkName\\} as pkName\n ,#\\{item.code\\} as pkName\n ,#\\{item.ResultMsg\\} as pkName\n ,#\\{item.RequestBody\\} as pkName\n ,#\\{item.taskName\\} as pkName\n ,#\\{item.lastTime\\} as pkName\n ,#\\{item.remark1\\} as pkName\n ,#\\{item.remark2\\} as pkName\n ,#\\{item.remark3\\} as pkName\n ,#\\{item.remark4\\} as pkName\n from dual\n ) t2\n ON (t1.pkName=t2.pkName)\n when matched then\n update set t1.code=#\\{code\\},t1.ResultMsg=#\\{ResultMsg\\},\n t1.RequestBody=#\\{RequestBody\\},t1.lastTime=#\\{lastTime\\},\n t1.taskName=#\\{taskName\\},t1.remark1=#\\{remark1\\},t1.remark2=#\\{remark2\\}\n ,t1.remark3=#\\{remark3\\},t1.remark4=#\\{remark4\\}\n where t1.pkName=t2.pkName\n when not matched then\n insert (\n pkName,\n code,\n ResultMsg,\n RequestBody,\n taskName,\n lastTime,\n remark1,\n remark2,\n remark3,\n remark4) values (\n #\\{t2.pkName\\},\n #\\{t2.code\\},\n #\\{t2.ResultMsg\\},\n #\\{t2.RequestBody\\},\n #\\{t2.taskName\\},\n #\\{t2.lastTime\\},\n #t2.\\{remark1\\},\n #\\{t2.remark2\\},\n #\\{t2.remark3\\},\n #\\{t2.remark4\\}\n )",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Mybatis Oracle 批量 插入 更新"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp111rlJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp111rlJMGjLRb3",
+  "doc_path": "/自研/效率问题/Mybatis+Oracle批量插入数据，存在即更新语句",
+  "record_id": "7Cdy6v8jX1"
+ },
+ "status": "active",
+ "doc_path": "/自研/效率问题/Mybatis+Oracle批量插入数据，存在即更新语句",
+ "category": [
+  "自研",
+  "效率问题"
+ ]
+}

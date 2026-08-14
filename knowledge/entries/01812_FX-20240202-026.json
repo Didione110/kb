@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240202-026",
+ "record_id": "l6m5mV8xtm",
+ "title": "数电发票备注字符不超过200",
+ "problem": "数电发票备注字符不超过200",
+ "cause": "之前非数电发票，备注不超过230，现在数电发票报错不超过200",
+ "solution": "数电发票单独计算，备注不超过200",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "字符限制"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbM3vxaJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbM3vxaJB5r9YAn",
+  "doc_path": "/自研/数据错误问题/数电发票备注字符不超过200",
+  "record_id": "l6m5mV8xtm"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/数电发票备注字符不超过200",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

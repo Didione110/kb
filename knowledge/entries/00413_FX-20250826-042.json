@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250826-042",
+ "record_id": "9z6KUSkSpE",
+ "title": "凭证生成时报错：摘要字段过长；已经后台扩展过库表字段为4000，元数据管理节点看摘要长度系统预置的是1000；报错中的超出150不知道是哪的限制",
+ "problem": "凭证生成时报错：摘要字段过长；已经后台扩展过库表字段为4000，元数据管理节点看摘要长度系统预置的是1000；报错中的超出150不知道是哪的限制",
+ "cause": "凭证明细摘要字段扩展需要扩展元数据",
+ "solution": "后台home修改bmf元数据文件；将元数据升级文件放到元数据管理节点，进行凭证明细的元数据升级",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "摘要长度"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-08-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvmaKNVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvmaKNVMwvDqPk",
+  "doc_path": "/用友/应用操作/凭证生成时报错：摘要字段过长；已经后台扩展过库表字段为4000，元数据管理节点看摘要长度系统预置的是1000；报错中的超出150不知道是哪的限制",
+  "record_id": "9z6KUSkSpE"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/凭证生成时报错：摘要字段过长；已经后台扩展过库表字段为4000，元数据管理节点看摘要长度系统预置的是1000；报错中的超出150不知道是哪的限制",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241202-002",
+ "record_id": "ORkuVlWaYV",
+ "title": "使用delphi制作一个http服务",
+ "problem": "使用delphi制作一个http服务",
+ "cause": "使用delphi制作一个http服务",
+ "solution": "使用IdHTTPServer控件提供服务，入参使用CreatePostStream事件获取\nprocedure TFormmain.IdHTTPServer1CreatePostStream(ASender: TIdPeerThread;\n var VPostStream: TStream);\nbegin\n VPostStream := TMemoryStream.Create;\nend;",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "Delphi HTTP服务"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-12-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb9QLMVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb9QLMVzlwrZgb",
+  "doc_path": "/自研/数据接口问题/使用delphi制作一个http服务",
+  "record_id": "ORkuVlWaYV"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/使用delphi制作一个http服务",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

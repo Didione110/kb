@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221031-052",
+ "record_id": "F54K8lcYHz",
+ "title": "医保异地结算记录无法保存到ERP",
+ "problem": "医保异地结算记录无法保存到ERP",
+ "cause": "医保局修改了5267接口字段长度",
+ "solution": "将数据库k\\_yinhai\\_report5267表中preselfpay\\_amt和pool\\_prop\\_selfpay字段修改为dec(16,5)",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "异地结算"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施7部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1NO0m8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1NO0m8BQEx5rG",
+  "doc_path": "/自研/数据接口问题/医保异地结算记录无法保存到ERP",
+  "record_id": "F54K8lcYHz"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/医保异地结算记录无法保存到ERP",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

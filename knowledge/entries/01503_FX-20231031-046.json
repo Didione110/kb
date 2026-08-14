@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231031-046",
+ "record_id": "d8zf5xh8Ll",
+ "title": "合并生成实时凭证提示：凭证借贷合计值为0",
+ "problem": "合并生成实时凭证提示：凭证借贷合计值为0",
+ "cause": "凭证模板设置错误",
+ "solution": "检查凭证模板定义中的摘要、科目，原本、本币来源是否正确，进行修改后重新生成实时凭证",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证为零"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "d8zf5xh8Ll"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

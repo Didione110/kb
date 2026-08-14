@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240926-030",
+ "record_id": "CK3YiBSEX8",
+ "title": "台式电脑的键盘按数字键出现符号、鼠标也无法单点、退回键无法使用",
+ "problem": "台式电脑的键盘按数字键出现符号、鼠标也无法单点、退回键无法使用",
+ "cause": "触发“粘滞键”的问题",
+ "solution": "1、检查键盘Shift键，是否卡住\n2、如果问题还没解决，可能不小心是“粘滞键”的问题。打开控制面板-辅助功能选项-键盘-粘滞键中，取消使用“粘滞键”即可。\n3、如果找不到设置，就直接重启电脑，解决",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "键盘错乱"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-09-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CK3YiBSEX8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

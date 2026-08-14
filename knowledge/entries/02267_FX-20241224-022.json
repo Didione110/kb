@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241224-022",
+ "record_id": "vqiGBmtk18",
+ "title": "采购订单上的一个物料分两次入库，第一次入库批次号写的是01，第二次入库批次号还是写01，能否出现提示，用一个物料分别入库时不允许批次号相同",
+ "problem": "采购订单上的一个物料分两次入库，第一次入库批次号写的是01，第二次入库批次号还是写01，能否出现提示，用一个物料分别入库时不允许批次号相同",
+ "cause": "客户需求",
+ "solution": "在入库单模板，表体，批次号字段，加验证公式 $Error->iif(ninnum>0, iif(isempty( getcolsvalue(\"scm_batchcode\",\"vbatchcode\",\"vbatchcode\",vbatchcode)),\"\",iif(isempty(cgeneralbid),\"批次号已存在，请重新录入批次号\",\"\")), \"\")",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "批次重复"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-12-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vqiGBmtk18"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

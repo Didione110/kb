@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240104-012",
+ "record_id": "rCZcN07GUb",
+ "title": "excle数据导入SQL server后数字变成科学计数法了",
+ "problem": "excle数据导入SQL server后数字变成科学计数法了",
+ "cause": "excle的数据格式导入之前未设置成文本格式",
+ "solution": "SELECT CONVERT(NVARCHAR(50),CONVERT(DECIMAL(18,0),CONVERT(FLOAT,k_swflbm' ))) as 'k_swflbm' from temp_swflbm ;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "科学计数法"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rCZcN07GUb"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

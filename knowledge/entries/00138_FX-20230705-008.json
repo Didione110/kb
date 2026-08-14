@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230705-008",
+ "record_id": "3GQqtrQbbD",
+ "title": "凭证模板定义辅助核算对应字段名",
+ "problem": "凭证模板定义辅助核算对应字段名",
+ "cause": "凭证模板定义辅助核算对应字段名",
+ "solution": "凭证模板定义辅助核算对应字段名",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-07-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3GQqtrQbbD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

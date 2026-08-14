@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240407-040",
+ "record_id": "MNmVfSNLwI",
+ "title": "打印模板设计方案sk账号登录打印没问题，但是其他的账号有的打印不了。",
+ "problem": "打印模板设计方案sk账号登录打印没问题，但是其他的账号有的打印不了。",
+ "cause": "个人账号调整过显示设置，但是打印模板的调用参数名称跟他显示设置里面的不一致，导致打印报错。",
+ "solution": "个人账号右键显示设置，清除后，重新登录即可。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "账号权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmd7BGV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmd7BGV3bzYmDO",
+  "doc_path": "/时空/应用操作/打印模板设计方案sk账号登录打印没问题，但是其他的账号有的打印不了。",
+  "record_id": "MNmVfSNLwI"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/打印模板设计方案sk账号登录打印没问题，但是其他的账号有的打印不了。",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

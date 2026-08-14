@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221104-007",
+ "record_id": "ty2xzAcCS9",
+ "title": "诺诺发票在登录时，日志提示未配置限流大小",
+ "problem": "诺诺发票在登录时，日志提示未配置限流大小",
+ "cause": "因为诺诺还没注册",
+ "solution": "联系吴云进行注册，注册完成后吴云会反馈token，将token提交给肖博伦配置即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "限流配置"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2022-11-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ty2xzAcCS9"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

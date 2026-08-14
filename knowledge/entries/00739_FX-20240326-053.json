@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240326-053",
+ "record_id": "J7jeAw1lZq",
+ "title": "运营、客服多岗位人员在操作订单时，客服备注内容点三内可以维护但是无法同步到店铺",
+ "problem": "运营、客服多岗位人员在操作订单时，客服备注内容点三内可以维护但是无法同步到店铺",
+ "cause": "点三OMS中客服备注默认是平台数据单项同步",
+ "solution": "开启系统客服备注同步方式为数据双向同步，目前淘宝、拼多多、抖音、阿里巴巴、京东、快手这些平台支持备注和旗帜双向同步。 \n（1） 平台更新了备注或者旗帜，需要开启自动转单的功能。转单成功的订单才能更新备注和旗帜到系统订单 否则只能更新原始订单信息。 \n（2） 在点三系统中更新备注或者旗帜 ，以上平台的订单会自动同步更新到店铺那边。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "备注不同步"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-03-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rj69r98AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rj69r98AgozOKL",
+  "doc_path": "/其他/应用操作/运营、客服多岗位人员在操作订单时，客服备注内容点三内可以维护但是无法同步到店铺",
+  "record_id": "J7jeAw1lZq"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/运营、客服多岗位人员在操作订单时，客服备注内容点三内可以维护但是无法同步到店铺",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

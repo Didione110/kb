@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241031-058",
+ "record_id": "I7My3zOcru",
+ "title": "已经做了损益结转，查询科目余额表和科目辅助余额表，也都显示损益科目已经平了，但是结账检查的时候提示“ 科目辅助余额表当期未结平的损益类一级科目：6603 财务费用”，导致无法结账，",
+ "problem": "已经做了损益结转，查询科目余额表和科目辅助余额表，也都显示损益科目已经平了，但是结账检查的时候提示“ 科目辅助余额表当期未结平的损益类一级科目：6603 财务费用”，导致无法结账，",
+ "cause": "系统问题",
+ "solution": "已出具补丁（见附件） 请做好备份，打上补丁，重启服务后清除缓存，测试环境验证无问题后执行到正式环境",
+ "solution_types": [
+  "补丁更新",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "辅助余额未平"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "I7My3zOcru"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

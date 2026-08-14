@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250603-005",
+ "record_id": "YWMJQXQlAt",
+ "title": "MRP下达生产订单拆分分单",
+ "problem": "MRP下达生产订单拆分分单",
+ "cause": "生产订单需要多次下达",
+ "solution": "计划订单下达后“是否生成实际订单”点击否，然后到“生产订单建立”节点查询出来生成生产订单。",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "MRP分单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-06-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YWMJQXQlAt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

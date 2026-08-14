@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240403-013",
+ "record_id": "WuwwG5ivsC",
+ "title": "WMS添加异常处理功能，反馈ERP处理",
+ "problem": "WMS添加异常处理功能，反馈ERP处理",
+ "cause": "客户实际操作中出现质量问题，需要记录上传对应的图片，传输ERP中质量部门进行处理",
+ "solution": "WMS通过异常功能处理功能记录上传对应的图片，数据传输ERP，ERP中处理后再处理剩下流程",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "异常处理"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAkRwGVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAkRwGVKe0xjE3",
+  "doc_path": "/其他/产品功能问题/WMS添加异常处理功能，反馈ERP处理",
+  "record_id": "WuwwG5ivsC"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/WMS添加异常处理功能，反馈ERP处理",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

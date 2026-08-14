@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241202-003",
+ "record_id": "9Xovh42yQP",
+ "title": "诺诺发票查询接口，结果里没有发票金额和发票明细，导致后续的冲红操作取不到值。",
+ "problem": "诺诺发票查询接口，结果里没有发票金额和发票明细，导致后续的冲红操作取不到值。",
+ "cause": "发票查询接口没有开通 发票金额和发票明细 字段的权限",
+ "solution": "联系诺诺的人开通发票查询结果api的字段权限",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "发票金额缺失"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-12-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "9Xovh42yQP"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

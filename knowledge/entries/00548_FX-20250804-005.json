@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250804-005",
+ "record_id": "DTbUJC9r62",
+ "title": "在智慧医保-电子处方流转过程，输入空，返回7204处方下载的信息：病种，药品明细，处方pdf。",
+ "problem": "在智慧医保-电子处方流转过程，输入空，返回7204处方下载的信息：病种，药品明细，处方pdf。",
+ "cause": "客户需要药师审核信息和顾客读卡信息",
+ "solution": "在返回值中增加节点，psninfo 节点存放读卡返回信息，7206in节点存放药师审核信息，包括药师编码，审核意见，审核时间等。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "处方下载"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1QvnzWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1QvnzWrMqPxX6",
+  "doc_path": "/自研/数据接口问题/在智慧医保-电子处方流转过程，输入空，返回7204处方下载的信息：病种，药品明细，处方pdf。",
+  "record_id": "DTbUJC9r62"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/在智慧医保-电子处方流转过程，输入空，返回7204处方下载的信息：病种，药品明细，处方pdf。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

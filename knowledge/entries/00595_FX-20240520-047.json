@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240520-047",
+ "record_id": "EbyMN2p8k1",
+ "title": "三圆B2B电商系统基础资料出现异常，商品资料和客户资料出现重复情况。",
+ "problem": "三圆B2B电商系统基础资料出现异常，商品资料和客户资料出现重复情况。",
+ "cause": "ERP内组织架构变化，单组织变成多组织，有多个entid。接口语句之前未指定entid，导致重复数据。",
+ "solution": "电商所有接口进行升级，添加entid指定条件，表间增加entid关联。避免后续再出现重复数据。",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "资料重复"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-05-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNbwOBJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNbwOBJbkz3BRL",
+  "doc_path": "/其他/数据接口问题/三圆B2B电商系统基础资料出现异常，商品资料和客户资料出现重复情况。",
+  "record_id": "EbyMN2p8k1"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/三圆B2B电商系统基础资料出现异常，商品资料和客户资料出现重复情况。",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

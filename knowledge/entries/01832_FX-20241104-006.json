@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241104-006",
+ "record_id": "lbdiaPB6Wd",
+ "title": "调用移动审批接口后,u9c单据状态未变更",
+ "problem": "调用移动审批接口后,u9c单据状态未变更",
+ "cause": "1：u9c移动审批流未配置好\n2：获取token时添加的审批人编码错误",
+ "solution": "select E.Code as UserCode\n from ${tableName} A\n inner join CS_Workflow_FlowInstance B on A.FlowInstance=b.ID\n inner join CS_Workflow_FlowInstance_Trl B1 ON b.id=B1.ID and B1.SysMLFlag='zh-CN'\n inner join CS_Workflow_FlowState C on C.ID=B.CurrentFlowState\n inner join CS_Workflow_WaitingUser D on C.ID=D.FlowState\n left join Base_User E on E.ID=d.UID\n where A.docno = #{docno}\n使用语句查询对应单据审批人编码",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "状态未变更"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-11-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lbdiaPB6Wd"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

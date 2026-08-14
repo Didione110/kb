@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251016-022",
+ "record_id": "JzvTKl0hnB",
+ "title": "客户升级时，需要把原系统中个性化内容迁移到新系统，首先需要把数据库中相关表中增加对应的字段",
+ "problem": "客户升级时，需要把原系统中个性化内容迁移到新系统，首先需要把数据库中相关表中增加对应的字段",
+ "cause": "对比新老系统表结构，在新系统增加原系统中个性化字段",
+ "solution": "DECLARE @tname VARCHAR(30) = 'zzwms\\_ck\\_kpd\\_his'\n\nSELECT \\*\nFROM (\nSELECT b.name AS cname,b.length,b.xtype\nfrom skwms\\_hbkx\\_old..sysobjects a\njoin skwms\\_hbkx\\_old..syscolumns b on a.id=b.id\nWHERE a.name=@tname\n) a\nLEFT JOIN (\nSELECT b.name AS cname,b.length,b.xtype\nfrom sysobjects a\njoin syscolumns b on a.id=b.id\nWHERE a.name=@tname\n) B ON a.cname = b.cname\nWHERE (a.length\\>ISNULL(b.length,0)\nOR a.xtype \\<\\> b.xtype)\n用于对比两个库中表字段的差异，前面的表是原数据库的，后面的表是新库的，这样可以快速对比出新库里要加的字段，和字段长度问题",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据迁移"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张宗兴",
+  "department": "经理办",
+  "date": "2025-10-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1z5pxJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1z5pxJlemrZQ3",
+  "doc_path": "/其他/安装部署问题/客户升级时，需要把原系统中个性化内容迁移到新系统，首先需要把数据库中相关表中增加对应的字段",
+  "record_id": "JzvTKl0hnB"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/客户升级时，需要把原系统中个性化内容迁移到新系统，首先需要把数据库中相关表中增加对应的字段",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231009-005",
+ "record_id": "S3r5p9F4Xc",
+ "title": "二维码扫码需要实现无流程表单的数据查看以及流程表单的发起",
+ "problem": "二维码扫码需要实现无流程表单的数据查看以及流程表单的发起",
+ "cause": "现有二维码控件不支持挂载流程表单只能实现无流程表单的查看及新增",
+ "solution": "通过购买智码插件后，二维码的配置界面会出现变化，能够支持多种扫码方式以及挂载URL链接，配置界面入附件所示，项目上可根据实际需要进行调整，注意该功能需要再8.2版本及以上使用",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "扫码、表单、流程"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7prG4X8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7prG4X8gN7R35y",
+  "doc_path": "/致远OA/应用操作/二维码扫码需要实现无流程表单的数据查看以及流程表单的发起",
+  "record_id": "S3r5p9F4Xc"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/二维码扫码需要实现无流程表单的数据查看以及流程表单的发起",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

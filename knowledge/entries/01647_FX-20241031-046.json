@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241031-046",
+ "record_id": "h7bPbsXTXL",
+ "title": "使用北京提供的最新ROOT配置TOMCAT时，启动时报0RA-28040:没有匹配的验证协议",
+ "problem": "使用北京提供的最新ROOT配置TOMCAT时，启动时报0RA-28040:没有匹配的验证协议",
+ "cause": "数据库环境为19C，版本比较高与TOMCAT存在兼容问题",
+ "solution": "1、sqlnet.ora里面增加这两项：\nSQLNET.ALLOWED_LOGON_VERSION_SERVER=11\nSQLNET.ALLOWED_LOGON_VERSION_CLIENT=11\n\n2、重启数据库，\n\n3、如果开启了可插拔 PDB，额外再打开数据库，如未开启此条忽略\nALTER PLUGGABLE DATABASE orclpdb OPEN;\n\n4、修改用户口令，再改回来：\nALTER USER dherp IDENTIFIED BY dherp1;\nALTER USER dherp IDENTIFIED BY dherp_skzy;",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "ORA-28040"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "h7bPbsXTXL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

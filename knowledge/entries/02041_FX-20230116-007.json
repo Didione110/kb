@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230116-007",
+ "record_id": "q7hvGtt1Rd",
+ "title": "单据生成凭证时点击成本检测有差异后无法点击生成凭证，差异想要忽略不计",
+ "problem": "单据生成凭证时点击成本检测有差异后无法点击生成凭证，差异想要忽略不计",
+ "cause": "点击了成本检测",
+ "solution": "单据生成凭证时不点击成本检测即可以生成凭证；\n若点击成本检测后有差异无法生成凭证，想忽略差异，点击刷新即可重新点击生成凭证",
+ "solution_types": [],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "成本检测差异"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "q7hvGtt1Rd"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

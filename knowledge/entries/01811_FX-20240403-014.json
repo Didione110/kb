@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240403-014",
+ "record_id": "l3oESvsuAl",
+ "title": "客户端查询工资表-部门工资汇总表数据后切换到其他月份报错tmpxxxxx无效",
+ "problem": "客户端查询工资表-部门工资汇总表数据后切换到其他月份报错tmpxxxxx无效",
+ "cause": "Windows用户权限问题",
+ "solution": "企业应用平台鼠标右键使用管理员身份运行软件后查询和切换月份正常",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "部门工资汇总"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "l3oESvsuAl"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

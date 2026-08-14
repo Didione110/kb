@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260116-005",
+ "record_id": "DOq2Wf0rd1",
+ "title": "周期凭证定义和自定义转账定义时，科目辅助都不允许录入非末级的辅助项，但是实际会计科目的辅助项目已经设置了允许录入非末级",
+ "problem": "周期凭证定义和自定义转账定义时，科目辅助都不允许录入非末级的辅助项，但是实际会计科目的辅助项目已经设置了允许录入非末级",
+ "cause": "产品bug",
+ "solution": "需要部署补丁SUPPORT-YonBIP高级版2312-Special-20250625151039-118006、SUPPORT-YonBIP高级版2312-Special-20250807134359-124226\n补丁已生效，新增的科目对应的辅助是可以选非末级的，对于之前的辅助项不行只能重新录",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "辅助项限制"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2026-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DOq2Wf0rd1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

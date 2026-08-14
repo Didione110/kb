@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251031-058",
+ "record_id": "ppOAsaMPq8",
+ "title": "已经做了离职交接并设置了代理人，需要重新设置代理人，提示您在【2024-11-18 10:03至2026-01-08 08:58】被XXX委托为代理不能被代理。",
+ "problem": "已经做了离职交接并设置了代理人，需要重新设置代理人，提示您在【2024-11-18 10:03至2026-01-08 08:58】被XXX委托为代理不能被代理。",
+ "cause": "前期做了离职交接或者工作交接，设置了接收人，时间结束超过现在重新设置代理的时间段导致此提示",
+ "solution": "取消前期离职交接操作的接收人设置，取消代理设置即可，再另外操作新的代理设置",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "代理冲突"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "HR管理",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2025-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ppOAsaMPq8"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

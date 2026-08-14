@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230801-002",
+ "record_id": "kFUJo0IUXn",
+ "title": "做了自定义项，数据类型是备注、字符长度是100，想修改成只能输入11位的数字\n",
+ "problem": "做了自定义项，数据类型是备注、字符长度是100，想修改成只能输入11位的数字",
+ "cause": "由于自定义项已经引用，客户不想重新换一个自定义项，所以想直接直接在数据库中做修改",
+ "solution": "在数据库中执行语句：alter table so_sale modify vdef2 varchar(11)，但是执行语句的前提是不能存在超出11位字符的情况",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "备注 字符 数字"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-08-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kFUJo0IUXn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231120-076",
+ "record_id": "H1tYG0Qcsy",
+ "title": "请购单表体填写金额，自动清空了，无法保存",
+ "problem": "请购单表体填写金额，自动清空了，无法保存",
+ "cause": "必须填写表头核算币种后才可以，将表头核算币种设置默认值：人民币，即可",
+ "solution": "必须填写表头核算币种后才可以，将表头核算币种设置默认值：人民币，即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "金额清空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-11-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "H1tYG0Qcsy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

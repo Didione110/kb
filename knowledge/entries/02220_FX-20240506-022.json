@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-022",
+ "record_id": "ulSKFiSf1f",
+ "title": "数电发票备注栏需要显示客户方银行账号 税号信息，多条明细商品会显示多次",
+ "problem": "数电发票备注栏需要显示客户方银行账号 税号信息，多条明细商品会显示多次",
+ "cause": "取值出库单明细视图，多条明细会重复多次",
+ "solution": "写条件case when 当明细序号为1时显示客户方银行账号 税号，其他则显示空",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "PolarDB",
+  "OceanBase",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "重复显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ulSKFiSf1f"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240906-022",
+ "record_id": "f4LfuqmwKi",
+ "title": "智慧医保结算查询记录导出时程序报错",
+ "problem": "智慧医保结算查询记录导出时程序报错",
+ "cause": "缺少插件",
+ "solution": "将插件解压放到智慧医保程序文件夹根目录中",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保导出报错"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-09-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeALGOQVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeALGOQVKe0xjE3",
+  "doc_path": "/自研/软件补丁问题/智慧医保结算查询记录导出时程序报错",
+  "record_id": "f4LfuqmwKi"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件补丁问题/智慧医保结算查询记录导出时程序报错",
+ "category": [
+  "自研",
+  "软件补丁问题"
+ ]
+}

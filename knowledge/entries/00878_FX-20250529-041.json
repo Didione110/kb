@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250529-041",
+ "record_id": "Mbec5p9xz3",
+ "title": "DEE数据库账号密码填写正确，保存时提示密码不正确",
+ "problem": "DEE数据库账号密码填写正确，保存时提示密码不正确",
+ "cause": "此类情况需要先去OA的dee.log日志文件中排查一下对应时间点日志是否有如下报错:11:00:40 \\[H-27\\] INFO DeeDataSourceManagerImpl:249 - Timer already cancelled.\njava.lang.IllegalStateException: Timer already cancelled.\n at java.util.Timer.sched(Timer.java:397) ~\\[?:1.8.0\\_282\\]\n at java.util.Timer.schedule(Timer.java:193) ~\\[?:1.8.0\\_282\\]\n at oracle.net.nt.TimeoutInterruptHandler.scheduleInterrupt(TimeoutInterruptHandler.java:70) ~\\[ojdbc8.jar:12.2.0.1.0\\]\n at oracle.net.nt.TimeoutSocketChannel.scheduleInterrupt(TimeoutSocketChannel.java:289) ~\\[ojdbc8.jar:12.2.0.1.0\\]……",
+ "solution": "1、关闭oracle的驱动里的nio支持，在A8\\\\ApacheJetspeed\\\\bin\\\\catalina\\_custom.bat或者catalina\\_custom.sh中添加jvm启动的全局参数：\n- Doracle.jdbc.javaNetNio=false\n- Doracle.jdbc.useNio=false\n\n不同参数间用(英文)空格分开，不要手动去换行(缺哪个配置配置哪个即可)\n2、修改后重启A8即可",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Tomcat",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "密码错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "dee数据引擎",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-05-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb1Ab2VzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb1Ab2VzlwrZgb",
+  "doc_path": "/致远OA/应用操作/DEE数据库账号密码填写正确，保存时提示密码不正确",
+  "record_id": "Mbec5p9xz3"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/DEE数据库账号密码填写正确，保存时提示密码不正确",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

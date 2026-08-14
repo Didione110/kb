@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240524-060",
+ "record_id": "k1j5w4b4Kg",
+ "title": "关于查询行列转换显示功能",
+ "problem": "关于查询行列转换显示功能",
+ "cause": "有些查询需要行列转换显示",
+ "solution": "SELECT * FROM student PIVOT ( SUM(score) FOR subject IN (语, 数, 英) )",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "行列转换"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-05-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "k1j5w4b4Kg"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

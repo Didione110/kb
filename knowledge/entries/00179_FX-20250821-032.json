@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250821-032",
+ "record_id": "4BbYAyLPXW",
+ "title": "有欠款不允许离职",
+ "problem": "有欠款不允许离职",
+ "cause": "产品逻辑校验",
+ "solution": "1、建议先做还款单，完成后再做离职\n2、条件1实在无法做到时，又必须要做人员离职，可用后台语句处理：\n执行脚本前做好数据备份工作\n该校验在业务插件中，需要停用这个业务插件在进行离职，等离职之后再启用这个业务插件。注意业务场景是有缓存，执行脚本之后要重启服务，停用脚本执行之后重启服务，离职好之后，再执行启用的脚本，再重启服务。脚本见附件。\n\n--停用校验的插件\nupdate pub_eventlistener set enabled = 'N' where implclassname = 'nc.bs.erm.eventlistener.PsnDimissionJkValidateListener';\ncommit;\n--启用校验的插件\nupdate pub_eventlistener set enabled = 'Y' where implclassname = 'nc.bs.erm.eventlistener.PsnDimissionJkValidateListener';\ncommit;",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "欠款离职"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "人力资源",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4BbYAyLPXW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

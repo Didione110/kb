@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250121-034",
+ "record_id": "N6ZvVyejnd",
+ "title": "DHERP打开表单设计器报错：The requested security protocol is not supported.",
+ "problem": "DHERP打开表单设计器报错：The requested security protocol is not supported.",
+ "cause": "电脑未安装.net4.5的原因",
+ "solution": "下载.net4.5进行安装，重启电脑后即可打开",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "安全协议"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N6ZvVyejnd"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

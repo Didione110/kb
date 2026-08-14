@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-009",
+ "record_id": "iRkQeMgwPd",
+ "title": "出库计划单获取物流单号成功之后，订单数据未到线下中间表。",
+ "problem": "出库计划单获取物流单号成功之后，订单数据未到线下中间表。",
+ "cause": "系统默认流程出入库计划单生成后获取完快递单号需要手动操作通知，订单数据才会同步到线下中间表。",
+ "solution": "开启出库计划单自动通知第三方仓开关后，成功获取面单的订单，系统会自动通知，订单数据会自动同步到线下中间表。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "出库单号未同步"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iRkQeMgwPd"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

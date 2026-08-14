@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250916-013",
+ "record_id": "YrRys7NRWO",
+ "title": "科目余额表明细相加不等于汇总数",
+ "problem": "科目余额表明细相加不等于汇总数",
+ "cause": "凭证是导入的，存在数据精度导致数据相加最后的结果不对",
+ "solution": "尝试重建余额表，数据仍然错误，后续了解到凭证是导入的，查看导入凭证，存在数据精度问题，找出有问题的凭证，将凭证修改后重新保存，后续北京提供了补丁，数据凭证导入时的精度问题",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "数据不一致"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-09-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YrRys7NRWO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230710-011",
+ "record_id": "EVqdQtdA31",
+ "title": "一键打印无法自主维护快递类型及快递信息",
+ "problem": "一键打印无法自主维护快递类型及快递信息",
+ "cause": "一键打印维护地方在存储过程里，只能后台修改",
+ "solution": "1. 在时空系统管理区 《数据库连接配置 》菜单 维护一键打印数据库相关配置，并在一键打印数据库创建好配置存储表\n2. 时空搭建好自主维护界面，在保存时指定一键打印数据源，执行完后再释放数据源。这样操作在时空系统，数据存储在一键打印数据库",
+ "solution_types": [
+  "配置修改",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "快递维护"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2023-07-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7p41vE8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7p41vE8gN7R35y",
+  "doc_path": "/自研/产品功能问题/一键打印无法自主维护快递类型及快递信息",
+  "record_id": "EVqdQtdA31"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/一键打印无法自主维护快递类型及快递信息",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

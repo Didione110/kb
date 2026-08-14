@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260526-026",
+ "record_id": "uKS25J2vEx",
+ "title": "友空间里T+消息审批直接弹窗，不太方便，想请教如何关闭",
+ "problem": "友空间里T+消息审批直接弹窗，不太方便，想请教如何关闭",
+ "cause": "设置问题",
+ "solution": "进入友空间后，左上角点到自己的图像，有设置，进入设置后在基本设置页签将新消息提醒关闭，解决",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "T+消息审批"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-05-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uKS25J2vEx"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

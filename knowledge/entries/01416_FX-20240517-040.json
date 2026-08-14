@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240517-040",
+ "record_id": "alhFZ5LWJg",
+ "title": "杂收杂发【生产相关】必勾上，现在是在单据类型上做了参数控制，但选了单据类型后，表头的部门又不是生产相关，就会相冲，导致行上的生产相关没有勾上",
+ "problem": "杂收杂发【生产相关】必勾上，现在是在单据类型上做了参数控制，但选了单据类型后，表头的部门又不是生产相关，就会相冲，导致行上的生产相关没有勾上",
+ "cause": "单据类型上的【生产相关】会和部门上的【生产相关】参数相互抵消",
+ "solution": "使用数据权限做控制：以单据类型上的【生产相关】为准\n杂发：NewMiscShipmentL.MiscShip.MiscShipDocType.IsMFG==NewMiscShipmentL.IsMFG\n杂收：NewMiscRcvTransL.MiscRcvTrans.MiscRcvDocType.IsMFG==NewMiscRcvTransL.IsMFG",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "生产相关"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-05-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "alhFZ5LWJg"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

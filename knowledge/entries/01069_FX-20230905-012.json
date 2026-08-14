@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230905-012",
+ "record_id": "RfvhrrnYMx",
+ "title": "新老系统切换，经常遇到KSOA升级DHERP项目，常规的实施方法就是各种excel导入导出等，其实可以利用技术手段，实现两边系统的SQL语句对导",
+ "problem": "新老系统切换，经常遇到KSOA升级DHERP项目，常规的实施方法就是各种excel导入导出等，其实可以利用技术手段，实现两边系统的SQL语句对导",
+ "cause": "针对以上现象，个人整理了部分参考SQL供同事参考，如ksoa为mssql数据库，dherp为oracle数据库，则需要在mssql做链接服务器oracle驱动，需要按照oracle 12c客户端，参照百度教程\nsql 链接到oracle数据库,通过MSSQL连接服务器连接至Oracle数据库\nhttp://www.taodudu.cc/news/show-1012642.html?action=onClick",
+ "solution": "列出sql供同事参考如下：\n \nALTER PROCEDURE [dbo].[SKZY_ZLDR]\nAS --资料导入\nBEGIN\n DECLARE @ENTID VARCHAR(20)\n SET @ENTID = ( SELECT TOP 1\n entid\n FROM OPENQUERY(SKZY , 'SELECT a.entid FROM ENTDOC a where a.beactive=''Y'' ') )\n \n \n DECLARE @ORGID VARCHAR(20)\n SET @ORGID = ( SELECT TOP 1\n orgid\n FROM OPENQUERY(SKZY , 'SELECT a.orgid FROM ORGDOC a where a.beactive=''Y'' ') )\n \n \n -- 商品资料导入\n INSERT OPENQUERY(SKZY ,\n 'SELECT ENTID , GOODSID , ISNEW , ISFREEZE , ISABANDON , BEACTIVE , GOODSCODE , OLDCODE , GOODSNAME , LOGOGRAM , GOODSSPEC , PLACE , MANUFACTURER , \n CREATETIME , CREATERID , CREATERINFO , LASTMODIFYTIME , ISPASS , ISCOMMPASS , ISCOMBIN , ISIMPORTED , SaleManId ,BarCode from GoodsDoc')\n SELECT @ENTID AS ENTID , RTRIM(a.spid) AS GOODSID , 'N' AS ISNEW , 'N' AS ISFREEZE , 'N' AS ISABANDON , 'Y' AS BEACTIVE ,\n RTRIM(a.spbh) AS GOODSCODE , RTRIM(a.spbh) AS OLDCODE , a.spmch AS GOODSNAME , a.zjm AS LOGOGRAM , a.shpgg AS GOODSSPEC ,\n a.shengccj AS PLACE , a.shpchd AS MANUFACTURER , CONVERT(CHAR(19) , GETDATE() , 121) AS CREATETIME , 'K3UL56BUG91' /*管理员*/ AS CREATERID ,\n 'o=O3UL56BUG91,d=K3YUFN7HGLU,u=K3UL56BUG91,' AS CREATERINFO , CONVERT(CHAR(19) , GETDATE() , 121) AS LASTMODIFYTIME , 'N' AS ISPASS ,\n 'N' AS ISCOMMPASS , 'N' AS ISCOMBIN , 'Y' AS ISIMPORTED ,\n ( SELECT TOP 1\n staffid\n FROM OPENQUERY(SKZY , 'SELECT a.staffid FROM staffdoc a where a.beactive=''Y'' and a.staffname = ''+a.gsp_cgzy+'' ') ) AS SaleManId,a.sptm\n FROM ksoa..spkfk a\n WHERE a.zhengzzt = 1\n AND a.spbh NOT IN ( SELECT goodscode\n FROM OPENQUERY(SKZY , 'SELECT a.goodscode FROM goodsdoc a ') )\n\n -- SELECT * FROM OPENQUERY( SKZY,\n -- 'SELECT GOODSID , ENTID , ISMATERIEL , ISAUXIL , ISTOOLS , ISASSETS , ISSERV , ISFREE , ISGIFT , ISSTOCKS , HESID , ACCTLEVEL , ANGLETYPE , SCHEMAID , YEARSNUM ,\n --SEASON , FABRIC , ACCES , EXITDATE , LIFETYPE , CONVRATIO , INTAXRATE , OUTTAXRATE , PURP , PURTAXP , SALEP , SALETAXP , RETAILP , KEMU , ISGOODS ,\n --REMARK , ISALWUNDINPACK , GOODSGROUP , FIRSTSUPP , ISPUROK , ARCHNO , MAINLEVEL , TREATCATE , GMPNO , GMPVALDATE , ISMEMDEDRATE , ISADULTTIN , ISRFQ ,\n --SAFEDAYS , ISDOPE , LASTMODIFYTIME , BEACTIVE , MEDCARETYPE , ISTWOVOTE , RECIPETYPE , INSTREGNO , INSTREGVALDATE , MFCREGNO , MFCREGVALDATE , REGNO ,\n --REGVALDATE , RPTYEAR , REGYEARDATE , CATONE , CATTWO , CATTHREE , RTNFLAG , OPCAT , MARKETCAT , SOURCECAT , ISNECE , MULPOINT , ISBRAND , ISWEIGHT ,\n --SALETYPE , ISANGLE , APPEARDATE , BILLNO , ISPASS , GENERALNAME , CHEMNAME , COMMNAME , GCATEGORY , ISGSP , ISGMP , ISFIRST , ISHERBAL , ISTRAD ,\n --APPROVALNO , FORMULA , ISPSY , ISMEDICARE , ISREFRIG , BIDDPRICE , EXPRICE , QUALSTAND , ISSALE , ISPROCUR , ISCONTROL , ISMAIN , ISPROM , LIMITPURP ,\n --MAXSALEP , MINSALEP , MAXRETAIP , MINRETAIP , ADRETAILP , MEMPRICE , MANAGEPACK , ISCOSTACCT , INTERSCA , GENDER , PLANCATE , ISLIMIT , LIMITNUM ,\n --ISPRES , APPROVALDATE , APPROVALTO , ISDRUG , ISKEF , ISQA , INEFFECTDAY , bzjs , k_outtaxrate , k_intaxrate , k_swflbm FROM goodsattr a' )",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "系统对接"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "RfvhrrnYMx"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

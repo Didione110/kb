@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240509-037",
+ "record_id": "VmPCzXcjUu",
+ "title": "成本管理-定额分配标准导入定额工时时报错：缺少microsoft.ace.oledb.12.0数据访问部件",
+ "problem": "成本管理-定额分配标准导入定额工时时报错：缺少microsoft.ace.oledb.12.0数据访问部件",
+ "cause": "控件缺失，需要安装U8SOFT\\3rdPrograms\\目录中的AccessDatabaseEngine.exe",
+ "solution": "控件缺失，需要安装U8SOFT\\3rdPrograms\\目录中的AccessDatabaseEngine.exe",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "OLEDB驱动"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-05-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VmPCzXcjUu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

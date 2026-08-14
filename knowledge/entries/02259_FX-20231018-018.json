@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231018-018",
+ "record_id": "vkcUQvsDzB",
+ "title": "DHERP V12\n采购申请单，某一行输入了“客户名称、建议采购时间、和回款时间、开单场景”，点击右上角统一设置可以实现以上字段自动复制",
+ "problem": "DHERP V12\n采购申请单，某一行输入了“客户名称、建议采购时间、和回款时间、开单场景”，点击右上角统一设置可以实现以上字段自动复制",
+ "cause": "功能调整",
+ "solution": "开发工具，打开采购申请单\n1.点击grid1，弹出菜单点击，查看统一设置执行的功能\n2.JS中找到该功能，插入\nawait ds_ddmx.setValueAt(j,\"clientname\", ds_ddmx.getValueAt(ds_ddmx.recno,\"clientname\") );\n（clientname可替换其他需要复制的字段）",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "统一设置"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vkcUQvsDzB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

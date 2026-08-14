@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231207-028",
+ "record_id": "pPJTzV1AUk",
+ "title": "幸福时空开发票时，如果备注内容由 汉字+数值拼接 数值恰好是0.几，显示时会缺失整数； \n 如拼接内容为  含税价：|| 0.77  备注栏显示  含税价.77 。",
+ "problem": "幸福时空开发票时，如果备注内容由 汉字+数值拼接 数值恰好是0.几，显示时会缺失整数； \n 如拼接内容为 含税价：|| 0.77 备注栏显示 含税价.77 。",
+ "cause": "这是由于Oracle中存在隐形转换，当与字符串进行拼接时自动调用了to\\_char函数，并且to\\_char在做转化时，如果你不指定格式，它就按它的格式去做转化，结果就把0给转不见了 \n(原因由度娘提供)",
+ "solution": "在to\\_char时使用 'fm990.0000' 方法 含税价：' \\|\\| to\\_char(0.77,'fm990.0000')",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "发票备注数值显示"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2023-12-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeX7j7J2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeX7j7J2LD0oRE",
+  "doc_path": "/自研/安装部署问题/幸福时空开发票时，如果备注内容由汉字+数值拼接，数值恰好是0.几，显示时会缺失整数",
+  "record_id": "pPJTzV1AUk"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/幸福时空开发票时，如果备注内容由汉字+数值拼接，数值恰好是0.几，显示时会缺失整数",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

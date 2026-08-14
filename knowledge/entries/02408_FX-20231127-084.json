@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231127-084",
+ "record_id": "zRY4Eys130",
+ "title": "一级会计科目修改辅助核算后，下级科目不跟着变动",
+ "problem": "一级会计科目修改辅助核算后，下级科目不跟着变动",
+ "cause": "科目未进行完全控制",
+ "solution": "系统属性控制中，可对科目做完全控制、不控制、部分控制\n完全控制：下级公司科目必须与集团保持一致，不得修改；\n部分控制：下级公司可自行添加辅助核算，但不得修改集团辅助核算：\n不控制：下级公司可随意修改科目",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zRY4Eys130"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

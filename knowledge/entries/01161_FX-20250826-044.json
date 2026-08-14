@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250826-044",
+ "record_id": "U9ECouozur",
+ "title": "应收应付、收付款合同单据都由外系统OA接口传递，在BIP系统走转换模板生成凭证，发现凭证维护节点导出8月凭证报错null如图；spr已录制报错信息可查看附件；7月凭证为手工导入的凭证导出时不会报错",
+ "problem": "应收应付、收付款合同单据都由外系统OA接口传递，在BIP系统走转换模板生成凭证，发现凭证维护节点导出8月凭证报错null如图；spr已录制报错信息可查看附件；7月凭证为手工导入的凭证导出时不会报错",
+ "cause": "凭证分录与单据关联关系问题",
+ "solution": "集团出具补丁解决",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "凭证导出报错"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-08-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "U9ECouozur"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

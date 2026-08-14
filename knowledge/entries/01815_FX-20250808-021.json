@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250808-021",
+ "record_id": "lC2IUkHlwO",
+ "title": "当前时空系的客户，很少会只有一个单ERP，绝大部分目前都是多产品组合方案，\n涉及到多产品实施时，经常会遇到一个问题，偶尔发现某一个服务或者程序没打开\n实施人员当时不知道，等到客户发现程序不能用的时候才知道\n然后就有可能会造成一些不必要的投诉或咨询",
+ "problem": "当前时空系的客户，很少会只有一个单ERP，绝大部分目前都是多产品组合方案，\n涉及到多产品实施时，经常会遇到一个问题，偶尔发现某一个服务或者程序没打开\n实施人员当时不知道，等到客户发现程序不能用的时候才知道\n然后就有可能会造成一些不必要的投诉或咨询",
+ "cause": "本质原因，涉及到多系统多软件融合方案的时候，按理来说，可以部署一套zabix分布式监控来解决此类问题，但是实际情况，绝大多数的客户是不愿意投入这个成本的，所以，我们换一个思路，利用时空的服务端JS来编写一套环境监控给实施人员自用",
+ "solution": "利用时空智友的服务端JS，编写一个自动计划任务，如发现对应服务未开启或者失败报错，即可完成微信消息的推送提醒，让实施人员及时知晓，避免问题被客户发现从而放大，以下附上代码参考；\n\n function _getFormattedDateJava(formatType) {\n // 导入Java类\n var Date = Java.type('java.util.Date');\n var SimpleDateFormat = Java.type('java.text.SimpleDateFormat');\n // 创建Java日期对象\n var javaDate = new Date();\n // 根据入参选择格式，默认使用带时间的格式\n var pattern;\n if (formatType === 1) {\n pattern = \"yyyy-MM-dd\"; // 仅日期\n } else if (formatType === 2) {\n pattern = \"yyyy-MM-dd HH:mm:ss\"; // 日期+时间\n } else {\n // 处理无效参数，可根据需求调整默认值\n pattern = \"yyyy-MM-dd HH:mm:ss\";\n }\n // 创建格式化器并返回结果\n var sdf = new SimpleDateFormat(pattern);\n return sdf.format(javaDate);\n }\n var Socket = Java.type('java.net.Socket');\n var InetAddress = Java.type('java.net.InetAddress');\n function _isPortOpen(host, port, timeout) {\n var socket = null;\n try {\n // 解析主机地址\n var address = InetAddress.getByName(host);\n // 尝试建立连接\n socket = new Socket(address, port);\n // 设置超时时间\n socket.setSoTimeout(timeout);\n // 连接成功，端口打开\n return true;\n } catch (e) {\n // 捕获异常：连接失败，端口关闭或不可达\n return false;\n }\n finally {\n // 确保关闭socket\n if (socket !== null) {\n try {\n socket.close();\n } catch (ignore) {\n // 忽略关闭时的异常\n }\n }\n }\n }\n var Runtime = Java.type('java.lang.Runtime');\n var BufferedReader = Java.type('java.io.BufferedReader');\n var InputStreamReader = Java.type('java.io.InputStreamReader');\n var System = Java.type('java.lang.System');\n function _isProcessRunning(processName) {\n var os = System.getProperty('os.name').toLowerCase();\n var command;\n // 等待命令执行完成\n process.waitFor();\n return found;\n } catch (e) {\n print('检查进程时发生错误: ' + e.getMessage());\n return false;\n }\n }\n var LocalDateTime = Java.type('java.time.LocalDateTime');\n var DateTimeFormatter = Java.type('java.time.format.DateTimeFormatter');\n var DayOfWeek = Java.type('java.time.DayOfWeek');\n function _isWorkingHours(datetime) {\n try {\n // 定义时间格式器\n var formatter = DateTimeFormatter.ofPattern(\"yyyy-MM-dd HH:mm:ss\");\n // 解析时间字符串为LocalDateTime对象\n var dateTime = LocalDateTime.parse(datetime, formatter);\n\n // 获取星期几（1=周一，7=周日）\n var dayOfWeek = dateTime.getDayOfWeek().getValue();\n\n // 检查是否为工作日（周一至周五）\n if (dayOfWeek < 1 || dayOfWeek > 5) {\n return false;\n }\n\n // 获取小时数\n var hour = dateTime.getHour();\n\n // 检查是否在9点到17点之间（包含9点，不包含17点）\n return hour >= 9 && hour < 17;\n } catch (e) {\n print(\"时间解析错误: \" + e.getMessage());\n return false;\n }\n }\nvar EntMsg = \"<a href=\\\"https://work.weixin.qq.com\\\">【\" + ent_openDataSet.getValueAt(i, \"entname\") + \"】</a> \\n\";\n\n //检测阳光平台的exe程序有没有打开\n var processToCheck = 'ShangHaiYS.exe';\n if (_isProcessRunning(processToCheck)) {}\n else {\n srv_push_qywx(EntMsg + \"当前：【\" + _getFormattedDateJava(2) + \"】 \\n\" + \"【注意注意】\\n 时空DHERP新服务器120的阳光平台服务挂了挂了\", touser);\n }\n //判断KSOA服务器数据库挂了\n if (_isPortOpen(\"192.168.1.119\", 1433, 2000)) {\n //端口是通的那就不管他了\n } else {\n srv_push_qywx(EntMsg + \"当前：【\" + _getFormattedDateJava(2) + \"】 \\n\" + \"【注意注意】\\n KSOA老服务器119的数据库挂了挂了\", touser);\n }\n\n //判断PDA服务挂了\n if (_isPortOpen(\"192.168.1.120\", 5011, 2000)) {\n //端口是通的那就不管他了\n } else {\n srv_push_qywx(EntMsg + \"当前：【\" + _getFormattedDateJava(2) + \"",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "JS",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "多产品实施"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-08-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lC2IUkHlwO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

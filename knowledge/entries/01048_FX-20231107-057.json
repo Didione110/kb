@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231107-057",
+ "record_id": "QnrMBQU1EJ",
+ "title": "医保接口事前事中拦截单品可以拦截,多品不能生效",
+ "problem": "医保接口事前事中拦截单品可以拦截,多品不能生效",
+ "cause": "明细行中rxno行重复",
+ "solution": "拼接日期及billsn保证每条明细的rxno不重复即可解决",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "多品拦截"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QnrMBQU1EJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

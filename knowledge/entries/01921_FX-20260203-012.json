@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260203-012",
+ "record_id": "nhyN3u7KLs",
+ "title": "单据审批提示表空间不足",
+ "problem": "单据审批提示表空间不足",
+ "cause": "需要扩展表空间",
+ "solution": "ALTER TABLESPACE NNC_DATA01\nADD DATAFILE 'D:\\APP\\ADMINISTRATOR\\ORADATA\\ORCL\\NNC_DATA01_1.DBF'\nSIZE 100M \nAUTOEXTEND ON \nNEXT 1024M \nMAXSIZE UNLIMITED;",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "表空间不足"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nhyN3u7KLs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

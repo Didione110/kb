@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240704-009",
+ "record_id": "ZXLa5B3uD5",
+ "title": "客户端自动清退时间目前可设置为20分钟无操作自动清退，如何设置为3分钟无操作自动清退",
+ "problem": "客户端自动清退时间目前可设置为20分钟无操作自动清退，如何设置为3分钟无操作自动清退",
+ "cause": "可在服务器上对注册表进行修改即可：win开始菜单-运行中输入regedit回车打开注册表编辑器，因用户服务器为64位windows系统：需在HKEY_LOCAL_MACHINE/SOFTWARE/Wow64/32Node/Ufsoft/WF/V8.700/Install/Installed下新建项“AutoCloseFree”，设置默认值为1。修改完注册表重新用sadmin登陆系统管理-安全策略-设置客户端自动清退时间为3分钟，确定后提示设置成功。",
+ "solution": "可在服务器上对注册表进行修改即可：win开始菜单-运行中输入regedit回车打开注册表编辑器，因用户服务器为64位windows系统：需在HKEY_LOCAL_MACHINE/SOFTWARE/Wow64/32Node/Ufsoft/WF/V8.700/Install/Installed下新建项“AutoCloseFree”，设置默认值为1。修改完注册表重新用sadmin登陆系统管理-安全策略-设置客户端自动清退时间为3分钟，确定后提示设置成功。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "自动清退"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-07-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ZXLa5B3uD5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

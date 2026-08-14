@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240306-027",
+ "record_id": "Jgy2t3AOQk",
+ "title": "部分业务单据表单单据调整保存时提示此单据不能修改",
+ "problem": "部分业务单据表单单据调整保存时提示此单据不能修改",
+ "cause": "部分业务单据表单单据调整保存时提示此单据不能修改",
+ "solution": "需要把表单属性AllowModifyData修改为true",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "单据锁定"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-03-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56ypKa8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56ypKa8xLq0Ee4",
+  "doc_path": "/时空/实施问题/部分业务单据表单单据调整保存时提示此单据不能修改",
+  "record_id": "Jgy2t3AOQk"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/部分业务单据表单单据调整保存时提示此单据不能修改",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

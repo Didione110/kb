@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221130-057",
+ "record_id": "MpIN9InC8N",
+ "title": "多单拣货，四单一拣，有可能出现一单品种太多，导致爆箱的问题",
+ "problem": "多单拣货，四单一拣，有可能出现一单品种太多，导致爆箱的问题",
+ "cause": "固定的一单一箱，无论该单据的品种",
+ "solution": "给商品进行体积计算，再给箱子进行体积计算，判断一个单据需要几个箱子",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "Python"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "爆箱"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA3NYZMWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA3NYZMWn4qY5Pr",
+  "doc_path": "/其他/产品功能问题/多单拣货，四单一拣，有可能出现一单品种太多，导致爆箱的问题",
+  "record_id": "MpIN9InC8N"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/多单拣货，四单一拣，有可能出现一单品种太多，导致爆箱的问题",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

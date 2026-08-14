@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221130-058",
+ "record_id": "sv6DiFLw8V",
+ "title": "有时候，客户已调度，生成波次，但是未开始拣货的单据需要打回",
+ "problem": "有时候，客户已调度，生成波次，但是未开始拣货的单据需要打回",
+ "cause": "这种单据WMS没有相关的打回功能",
+ "solution": "做个自定义报表，输入ERP单号，然后自定义报表调用存储过程进行打回，曲线救国",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "打回单据"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sv6DiFLw8V"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

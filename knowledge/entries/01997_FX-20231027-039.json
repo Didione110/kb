@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231027-039",
+ "record_id": "p8X1PYu88v",
+ "title": "B2B电商系统，业务员代客下单要求能够自己修改价格",
+ "problem": "B2B电商系统，业务员代客下单要求能够自己修改价格",
+ "cause": "业务员实际是厂家当地招商的自然人，挂靠到当地的某个医药公司。厂家跟业务员是按底价结算。业务员卖给客户可以自己定价。",
+ "solution": "B2B电商系统，业务员代客下单模式仅开启代客下单不开启进入客户账号，帮客户下单后，在业务员端购物车内可自主修改商品价格下单。价格修改会限制一个最低价格",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "价格修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "三圆电子商务",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-10-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "p8X1PYu88v"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

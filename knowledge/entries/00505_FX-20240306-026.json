@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240306-026",
+ "record_id": "CYve3EiHot",
+ "title": "省医保要求软件登陆显示相关定点信息，需要修改Tomcat的配置文件",
+ "problem": "省医保要求软件登陆显示相关定点信息，需要修改Tomcat的配置文件",
+ "cause": "省医保要求软件登陆显示相关定点信息，需要修改Tomcat的配置文件",
+ "solution": "showmore.js文件放到root目录下，替换ROOT\\\\templates\\\\home\\\\basic中banner文件",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "UI模板",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "医保 登录 定点"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-03-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mr5AdJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mr5AdJ9ekBD76",
+  "doc_path": "/时空/实施问题/省医保要求软件登陆显示相关定点信息，需要修改Tomcat的配置文件",
+  "record_id": "CYve3EiHot"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/省医保要求软件登陆显示相关定点信息，需要修改Tomcat的配置文件",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

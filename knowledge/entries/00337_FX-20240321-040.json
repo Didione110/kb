@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240321-040",
+ "record_id": "87KKSpOxdn",
+ "title": "委外核销时，需要修改本次核销数量的小数位数为3位",
+ "problem": "委外核销时，需要修改本次核销数量的小数位数为3位",
+ "cause": "发料数量与本次核销数量的小数位数不一致",
+ "solution": "初始化模板中找到模板67，修改\"本次发料数量\"字段的自定义小数位数，改为3位",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "核销数量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-03-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1NZEzWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1NZEzWrMqPxX6",
+  "doc_path": "/用友/应用操作/委外核销时，需要修改本次核销数量的小数位数为3位",
+  "record_id": "87KKSpOxdn"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/委外核销时，需要修改本次核销数量的小数位数为3位",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

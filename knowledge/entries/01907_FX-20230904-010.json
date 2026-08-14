@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230904-010",
+ "record_id": "nOox6KoPQE",
+ "title": "WMS三方仓库中批量打印出库单功能中，个别单据打印三方出库单时候报错无法打印",
+ "problem": "WMS三方仓库中批量打印出库单功能中，个别单据打印三方出库单时候报错无法打印",
+ "cause": "批量打印出库单功能是根据BDE连接，当数据中的前后挂号不符，存在全角半角情况下会导致打印报错无法打印",
+ "solution": "根据此数据问题，建议在资料更新存储过程中，将对应的常用字段，例如单位名称，地址，商品规格等挂号更新为对应的半角字符显示，例如\nupdate mchk set dzhdh=replace(replace(dzhdh,'（','('),'）',')')\nfrom mchk \nwhere (dzhdh COLLATE Chinese_PRC_CS_AS_WS like '%（%' and dzhdh COLLATE Chinese_PRC_CS_AS_WS like '%)%')\n or (dzhdh COLLATE Chinese_PRC_CS_AS_WS like '%(%' and dzhdh COLLATE Chinese_PRC_CS_AS_WS like '%）%')",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "打印报错"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2023-09-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nOox6KoPQE"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

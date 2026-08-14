@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231207-030",
+ "record_id": "dWwIyz2VVa",
+ "title": "接口任务过多导致部分定时任务没有执行，需要第二天手动执行",
+ "problem": "接口任务过多导致部分定时任务没有执行，需要第二天手动执行",
+ "cause": "接口任务执行频率过快，任务比较多，OA线程不够，造成进程死锁，从而不执行，也无法查询到对应记录",
+ "solution": "按照附件找到对应文件，dee-quartz,properties修改org.quartz.threadPool.threadCount的值，默认是20，最高只能修改为40，修改完后重启服务，其次根据实际降低接口执行频率以及执行时间，每个任务执行时间错开一段时间",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "任务积压"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "dee数据引擎",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dWwIyz2VVa"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "效率问题"
+ ]
+}

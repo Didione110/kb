@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240130-067",
+ "record_id": "m8kMls93tw",
+ "title": "系统复核过程中保存后提示进程死锁，导致无法复核完成",
+ "problem": "系统复核过程中保存后提示进程死锁，导致无法复核完成",
+ "cause": "复核过程中数量量大回写复核明细表中的字段，导致库表中进程死锁。",
+ "solution": "在对应的pf_phlrmx_fh中添加字段fhdjbh对应的索引，提高回写检索速度",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "死锁"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "m8kMls93tw"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

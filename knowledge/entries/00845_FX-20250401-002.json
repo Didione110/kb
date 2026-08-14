@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250401-002",
+ "record_id": "LhvYjrfGLM",
+ "title": "由于修改流程导致无法退货",
+ "problem": "由于修改流程导致无法退货",
+ "cause": "由于修改流程导致无法退货",
+ "solution": "21年发货单20211208025，出库未开票；出库202112090016，订单21120205\nupdate dispatchlist set bsaleoutcreatebill='0' where cdlcode='20211208025'\nDispatchList发货退货单主表，bsaleoutcreatebill 是否出库开票 \n显示的1，改为0后正常参照出发货单",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "流程修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LhvYjrfGLM"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

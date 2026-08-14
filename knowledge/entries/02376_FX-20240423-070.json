@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240423-070",
+ "record_id": "yYRe5dfb7g",
+ "title": "弃审BOM和导入BOM均提示‘找不到请求的服务’",
+ "problem": "弃审BOM和导入BOM均提示‘找不到请求的服务’",
+ "cause": "服务器重启后没有重新启动",
+ "solution": "在U8应用服务器管理器中，重启远程代理服务、登录状态管理服务、制造远程管理服务这三个服务",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "服务未找到"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "生产制造管理",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-04-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "yYRe5dfb7g"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

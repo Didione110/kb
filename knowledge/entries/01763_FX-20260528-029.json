@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260528-029",
+ "record_id": "juDFE3Ufh9",
+ "title": "统计分类是器械但是单据再现还是显示药品相关的字段，可能会导致打印问题",
+ "problem": "统计分类是器械但是单据再现还是显示药品相关的字段，可能会导致打印问题",
+ "cause": "系统中存在“断电保护” 等数据缓存机制。如果 pf_initstatcate 需要从缓存或服务器端异步读取数据，而控件在数据返回前就已经渲染好了，也会出现不生效的现象",
+ "solution": "在onload调用 await pf_initStatCate();之前增加延时如\n await new Promise(resolve => setTimeout(resolve, 100));\n后续单据在线会与统计分类保持一致",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "器械药品混淆"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2026-05-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "juDFE3Ufh9"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20251009-004",
+ "record_id": "DDc8D5yjjS",
+ "title": "DHERP使用谷歌环境后，在GRID表格控件内，存在一个BUG，\n即当输入数字类型字段时，控件默认允许输入小数， 会造成操作员误操作问题",
+ "problem": "DHERP使用谷歌环境后，在GRID表格控件内，存在一个BUG，\n即当输入数字类型字段时，控件默认允许输入小数， 会造成操作员误操作问题",
+ "cause": "DHERP使用谷歌环境，对这块支持不是很好",
+ "solution": "在输入数量后，执行函数判断，判断当前输入的数量是否为整数，使用Number.isInteger函数来判断\n\n案例：\n if(!Number.isInteger(ds\\_ddmx.field(\"Num\").value))",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "Chrome"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "GRID数字输入"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gvNG4YZ7JnRPAl7ltNdeqDPLJ2LD0oRE?utm_scene=team_space",
+  "node_id": "gvNG4YZ7JnRPAl7ltNdeqDPLJ2LD0oRE",
+  "doc_path": "/时空/产品功能问题/DHERP使用谷歌环境后，在GRID表格控件内，存在一个BUG， 即当输入数字类型字段时，控件默认允许输入小数， 会造成操作员误操作问题",
+  "record_id": "DDc8D5yjjS"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/DHERP使用谷歌环境后，在GRID表格控件内，存在一个BUG， 即当输入数字类型字段时，控件默认允许输入小数， 会造成操作员误操作问题",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

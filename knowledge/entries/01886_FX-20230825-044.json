@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230825-044",
+ "record_id": "mw3CjWOaTX",
+ "title": "U8C服务无法启动",
+ "problem": "U8C服务无法启动",
+ "cause": "U8C服务无法启动",
+ "solution": "1、解压缩该工具，放入U8C_HOME中\n2、进入InfoCollect_U8C 目录下双击main.bat脚本\n3、输入数据库密码，等待检测结果，根据检测结果提示，尝试解决",
+ "solution_types": [
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "U8C启动失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mw3CjWOaTX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

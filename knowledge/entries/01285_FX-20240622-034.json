@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240622-034",
+ "record_id": "XqBLQaHyii",
+ "title": "由于业务人员误操作将销售订单终止了，想还原单据状态为正常的状态，已强调用单据“关闭”来处理",
+ "problem": "由于业务人员误操作将销售订单终止了，想还原单据状态为正常的状态，已强调用单据“关闭”来处理",
+ "cause": "由于业务人员误操作将销售订单终止了，想还原单据状态为正常的状态，已强调用单据“关闭”来处理",
+ "solution": "declare @soDocNo nvarchar(50)\nset @soDocNo='销售订单号' --销售订单号\ndeclare @orgCode nvarchar(50)='组织code'--组织code\ndeclare @orgID bigint=''--组织id\nselect @orgID=id from Base_Organization WHERE Code=@orgCode--组织code\nselect @orgID\n\nupdate a set a.Cancel_Canceled=0,a.Cancel_CancelDate=NULL,a.Cancel_CancelReason='',a.Cancel_CancelUser=''\nfrom sm_soshipline a \nleft join sm_soline b on a.soline=b.id\nleft join sm_so c on b.so=c.id where c.docno=@soDocNo and c.org=@orgID\nupdate b set b.IsCancel=0 \nfrom sm_soline b \nleft join sm_so c on b.so=c.id where c.docno=@soDocNo\nupdate c set c.Cancel_Canceled=0,c.Cancel_CancelDate=NULL,c.Cancel_CancelReason='',c.Cancel_CancelUser=''\nfrom sm_so c where c.docno=@soDocNo and c.org=@orgID\n\nupdate sm_so set WFCurrentState=3,WFOriginalState=-1 where [Status]=1 and docno=@soDocNo and Org=@orgID\nupdate sm_so set WFCurrentState=0,WFOriginalState=3 where [Status]=2 and docno=@soDocNo and Org=@orgID\nupdate sm_so set WFCurrentState=1,WFOriginalState=0 where [Status]=3 and docno=@soDocNo and Org=@orgID",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "销售订单关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-06-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XqBLQaHyii"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250214-007",
+ "record_id": "PBBK7Va4gJ",
+ "title": "医保月结提示“金额不对”或“未获取需要清算的数据”",
+ "problem": "医保月结提示“金额不对”或“未获取需要清算的数据”",
+ "cause": "1. 本地5262及异地5267的数据未正常保存，检查医保对账查询里是否有差异\n2. 早期版本有些客户使用的按统筹区申报，医保平台更新后，后期都需要使用汇总申报，修改申报逻辑",
+ "solution": "1. 本地5262及异地5267的数据未正常保存，检查医保对账查询里是否有差异\n2. 早期版本有些客户使用的按统筹区申报，医保平台更新后，后期都需要使用汇总申报，修改申报逻辑",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "金额不对、清算数据"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-02-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1keP2JyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1keP2JyMoPYe1",
+  "doc_path": "/自研/数据接口问题/医保月结提示“金额不对”或“未获取需要清算的数据”",
+  "record_id": "PBBK7Va4gJ"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/医保月结提示“金额不对”或“未获取需要清算的数据”",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

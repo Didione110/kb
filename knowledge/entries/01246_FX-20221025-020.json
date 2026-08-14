@@ -1,0 +1,40 @@
+{
+ "id": "FX-20221025-020",
+ "record_id": "WnbfTnbY02",
+ "title": "出入库单保存时提示：在途必须入收货货位，请定义收货货位 。但没有启用货位管理",
+ "problem": "出入库单保存时提示：在途必须入收货货位，请定义收货货位 。但没有启用货位管理",
+ "cause": "按可用量过滤就会有在途物资的批次被显示出来，因此必须有在途仓和在途货位才行",
+ "solution": "在批次参照界面，不要勾选是否根据可用量过滤，就不会有这个问题了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "收货货位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-10-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WnbfTnbY02"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

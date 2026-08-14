@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250624-031",
+ "record_id": "pFFCw5VR2o",
+ "title": "BIP高级版与旗舰版融合友互通，需要配置网关及连接器",
+ "problem": "BIP高级版与旗舰版融合友互通，需要配置网关及连接器",
+ "cause": "BIP高级版与旗舰版融合友互通，需要配置网关及连接器",
+ "solution": "BIP高级版与旗舰版融合友互通，需要配置网关及连接器，具体操作见附件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "OpenAPI",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "BIP融合、网关配置、连接器"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-06-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pFFCw5VR2o"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

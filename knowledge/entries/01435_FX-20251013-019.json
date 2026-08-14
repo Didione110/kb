@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251013-019",
+ "record_id": "bJZ61cF6WE",
+ "title": "集成方案没有问题，但是数据同步任务同步凭证就是没有成功，也无报错信息",
+ "problem": "集成方案没有问题，但是数据同步任务同步凭证就是没有成功，也无报错信息",
+ "cause": "集成方案如果有人员编辑后重新点过提交，则生效时间会更新为最新的提交时间，若凭证的记账时间早于这个时间，则凭证无法传输，需将凭证重新记账后再同步",
+ "solution": "集成方案如果有人员编辑后重新点过提交，则生效时间会更新为最新的提交时间，若凭证的记账时间早于这个时间，则凭证无法传输，需将凭证重新记账后再同步",
+ "solution_types": [],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证同步失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "连接集成服务",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-10-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bJZ61cF6WE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

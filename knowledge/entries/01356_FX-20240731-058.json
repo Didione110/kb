@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240731-058",
+ "record_id": "ZLAXGq6HDg",
+ "title": "冷链运输单，客户只能一张单一张单做，浪费时间。",
+ "problem": "冷链运输单，客户只能一张单一张单做，浪费时间。",
+ "cause": "客户想要同一线路的。",
+ "solution": "WMS打印方案时，进行分组设计，分组只能到明细里面分组，将销售单号和单位放入到明细中，即可完成选多张单据，合成一个运输单，打印也根据单据打多个单子。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "冷链单效低"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9Rjrbaw8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9Rjrbaw8AgozOKL",
+  "doc_path": "/其他/应用操作/冷链运输单，客户只能一张单一张单做，浪费时间。",
+  "record_id": "ZLAXGq6HDg"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/冷链运输单，客户只能一张单一张单做，浪费时间。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

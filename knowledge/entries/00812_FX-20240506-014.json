@@ -1,0 +1,48 @@
+{
+ "id": "FX-20240506-014",
+ "record_id": "KwuNalhgiB",
+ "title": "市医保接口：非医保结算数据在市医保信息平台中未正确上传，但在接口日志中传输状态为调用成功。",
+ "problem": "市医保接口：非医保结算数据在市医保信息平台中未正确上传，但在接口日志中传输状态为调用成功。",
+ "cause": "因为接口3505、3506视图零售单据号对应字段用的lshh有空格情况，导致数据虽然传输成功但在市医保局输入单号查询不到。",
+ "solution": "将3505、3506视图取lshh的字段均去空格后解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "医保上传失败"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空KSOA",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1N1M7Wkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1N1M7Wkb4Mw9r",
+  "doc_path": "/时空/数据接口问题/市医保接口：非医保结算数据在市医保信息平台中未正确上传，但在接口日志中传输状态为调用成功。",
+  "record_id": "KwuNalhgiB"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据接口问题/市医保接口：非医保结算数据在市医保信息平台中未正确上传，但在接口日志中传输状态为调用成功。",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

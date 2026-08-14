@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241031-051",
+ "record_id": "uKf9NcWCL5",
+ "title": "YS费控分析与看板，预算分析点击菜单“费用预算报表”，提示“当前服务未启用”",
+ "problem": "YS费控分析与看板，预算分析点击菜单“费用预算报表”，提示“当前服务未启用”",
+ "cause": "预算看板应用未启用，所以服务打不开",
+ "solution": "操作路径：数字化建模-系统管理-应用管理，点击“我的应用”，找到应用“费控看板”，点击右侧列表列表，启用服务“费用预算报表”即可。【前提是客户买了该模块，如果没有购买相应的报表或者看板功能会显示为置灰】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "服务未启用"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "费控服务",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uKf9NcWCL5"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230925-034",
+ "record_id": "6JjsvE0Az5",
+ "title": "合同管理合同失效提示file:///D:\\USSOFTYWorkflow\\pluginjUFIDA.US.HBWorkFlw.PlugIns.dll’or one of its dependencies.系统找不到指定的文件。",
+ "problem": "合同管理合同失效提示file:///D:\\USSOFTYWorkflow\\pluginjUFIDA.US.HBWorkFlw.PlugIns.dll’or one of its dependencies.系统找不到指定的文件。",
+ "cause": "环境问题，插件失效或丢失导致，拷贝其他电脑同路径下插件替换，重新登陆即可",
+ "solution": "环境问题，插件失效或丢失导致，拷贝其他电脑同路径下插件替换，重新登陆即可",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "文件未找到"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-09-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAb27XEW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAb27XEW3kdP0wQ",
+  "doc_path": "/用友/环境问题/合同管理合同失效提示file D USSOFTYWorkflowpluginjUFIDA.US.HBWorkFlw.PlugIns.dll or one of its dependen...",
+  "record_id": "6JjsvE0Az5"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/合同管理合同失效提示file D USSOFTYWorkflowpluginjUFIDA.US.HBWorkFlw.PlugIns.dll or one of its dependen...",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

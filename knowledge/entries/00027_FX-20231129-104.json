@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231129-104",
+ "record_id": "0jD7wbbUrG",
+ "title": "系统基础档案(客户、供应商、料品)的编码规则如果想要用分类+流水号自动生成编码，必须用特殊符号连接",
+ "problem": "系统基础档案(客户、供应商、料品)的编码规则如果想要用分类+流水号自动生成编码，必须用特殊符号连接",
+ "cause": "客户线下基础档案编码和技术文件均没有使用特殊符号",
+ "solution": "1、开发解决。系统本身的编码字段规则保持不变，其中在建立客户和供应商档案保存时，触发“搜索码”字段等于编码同时去掉特殊符号，建立料品档案保存时，触发“参考料号1”字段等于编码同时去掉特殊符号。\n2、使用缺点: 特殊报表里面可能拉取不到搜索码和参考料号1",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "分类编码"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-11-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDkeKbW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDkeKbW6zbX04v",
+  "doc_path": "/用友/产品功能问题/系统基础档案(客户、供应商、料品(的编码规则如果想要用分类+流水号自动生成编码，必须用特殊符号连接",
+  "record_id": "0jD7wbbUrG"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/系统基础档案(客户、供应商、料品(的编码规则如果想要用分类+流水号自动生成编码，必须用特殊符号连接",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

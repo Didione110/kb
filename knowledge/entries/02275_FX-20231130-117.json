@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231130-117",
+ "record_id": "vxYei6qB4p",
+ "title": "打开u9界面、报表、重启服务等等都这个报错：Service Unavailable",
+ "problem": "打开u9界面、报表、重启服务等等都这个报错：Service Unavailable",
+ "cause": "报错如截图，需要再次检查下iis是否配置正确，没有问题需要重启服务或者重启服务器",
+ "solution": "打开iis后，点击“应用程序池”发现里面的全部停止了重新启用后恢复正常",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "IIS"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "Service Unavailable"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vxYei6qB4p"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

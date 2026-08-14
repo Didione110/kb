@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230703-005",
+ "record_id": "ct1JgRTdut",
+ "title": "现在客户WMS三方接口客户越来越多，需要设置多个传输任务，接口任务一般都是一样。需要添加多个接口任务。",
+ "problem": "现在客户WMS三方接口客户越来越多，需要设置多个传输任务，接口任务一般都是一样。需要添加多个接口任务。",
+ "cause": "客户三方接口数据库一般都相同，需要一个个设置对应的传输方案，添加对应的库表，字段等。重复操作导致实施效率太慢。",
+ "solution": "关闭时空传输精灵。在时空传输精灵task文件夹中复制对应的任务文件，修改复制的文件名称，修改对应的任务号。打开对应的文件内容，修改文件中对应的字段和内容，例如TaskName,TaskId,FromLinkName等,语句中一般修改对应的entid即可。重新打开时空传输精灵接口。测试确认接口传输是否正确。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "多任务配置"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv5170eQ8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv5170eQ8zN67Mw4",
+  "doc_path": "/其他/安装部署问题/现在客户WMS三方接口客户越来越多，需要设置多个传输任务，接口任务一般都是一样。需要添加多个接口任务。",
+  "record_id": "ct1JgRTdut"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/现在客户WMS三方接口客户越来越多，需要设置多个传输任务，接口任务一般都是一样。需要添加多个接口任务。",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

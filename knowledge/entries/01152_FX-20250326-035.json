@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250326-035",
+ "record_id": "TiN964BVhZ",
+ "title": "YS复制单据时，需要限制某字段不能复制",
+ "problem": "YS复制单据时，需要限制某字段不能复制",
+ "cause": "需要配置UI模板字段权限",
+ "solution": "操作路径：数字化建模 > 模板管理> UI模板\n可进入【UI模板】节点，找到相应单据，点击<设计>按钮，选中相应字段，在右侧下拉常用配置中开启“不允许复制”即可。\n\n注：如果UI模板修改了没有生效，需要重新登录一下才能生效，另外需要检查修改的模板是否正确，如果对应组织下有模板，需要更改对应组织下的才能生效。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "字段限制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-03-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TiN964BVhZ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

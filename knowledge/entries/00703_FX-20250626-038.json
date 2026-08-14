@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250626-038",
+ "record_id": "I1UYBScDAu",
+ "title": "销售订单列表，需要增加计算列：当状态=已核准，用订单数量-已发货数量=欠发数量",
+ "problem": "销售订单列表，需要增加计算列：当状态=已核准，用订单数量-已发货数量=欠发数量",
+ "cause": "使用如下表达式 SOLines.SOShiplines.Status==3?SOLines.SOShiplines.ShipPlanQtyTU-SOLines.SOShiplines.SOShipLineSumInfo.SumShipQtyTU:0",
+ "solution": "使用如下表达式 SOLines.SOShiplines.Status==3?SOLines.SOShiplines.ShipPlanQtyTU-SOLines.SOShiplines.SOShipLineSumInfo.SumShipQtyTU:0",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "库存",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "欠发数量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-06-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "I1UYBScDAu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

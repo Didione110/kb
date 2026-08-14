@@ -1,0 +1,39 @@
+{
+ "id": "FX-20251111-016",
+ "record_id": "tLWxzNXhLl",
+ "title": "客户针对日期字段的选择时，想精确到时分秒，目前使用自带的DateUtil.select()方法，只能实现日期的弹框",
+ "problem": "客户针对日期字段的选择时，想精确到时分秒，目前使用自带的DateUtil.select()方法，只能实现日期的弹框",
+ "cause": "标准方法里面没有讲到时分秒的控件",
+ "solution": "其实隐藏属性里面有，\n针对textbox可以使用DateUtil.select(textbox5,\"yyyy-MM-dd hh:mm:ss\")\n针对grid控件可以使用 DateUtil.select(grid1.setFocusCell(1, 4),\"yyyy-MM-dd hh:mm:ss\")",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "时分秒选择"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2025-11-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tLWxzNXhLl"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260203-004",
+ "record_id": "0bE8xx8l9s",
+ "title": "很久之前的历史订单查不到数据，也无法操作",
+ "problem": "很久之前的历史订单查不到数据，也无法操作",
+ "cause": "对于订单量较多的客户在使用到一段时候后就会做订单数据结转",
+ "solution": "结转后的订单数据存放在历史订单功能中。支持查询和导出，如果特殊情况下需要把历史订单反结转需要单独通知售后人员处理。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PolarDB",
+  "OceanBase",
+  "TiDB"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "历史订单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0bE8xx8l9s"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

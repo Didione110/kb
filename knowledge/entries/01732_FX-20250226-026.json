@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250226-026",
+ "record_id": "izjDdppRR4",
+ "title": "做采购到货单时提示收货程序含有点收环节，到货时间应该早于(等于)点收时间",
+ "problem": "做采购到货单时提示收货程序含有点收环节，到货时间应该早于(等于)点收时间",
+ "cause": "补单日期不一致",
+ "solution": "参数设置【点收自动保存】和【点收时间自动确认】=true\n修改部件，视图中添加点收完成时间",
+ "solution_types": [
+  "配置修改",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "时间顺序"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施6部",
+  "date": "2025-02-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "izjDdppRR4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

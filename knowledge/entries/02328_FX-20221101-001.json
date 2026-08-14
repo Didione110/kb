@@ -1,0 +1,38 @@
+{
+ "id": "FX-20221101-001",
+ "record_id": "x45l0e5NZe",
+ "title": "有库存但是出不了库，系统提示库存不足",
+ "problem": "有库存但是出不了库，系统提示库存不足",
+ "cause": "该情况主要产生原因是物料入库以后工艺或其他部门发现主辅计量单位、转换率录入错误需要修改，导致库存的主辅单位与下单选择的物料的主辅单位存在差异导致的库存不足",
+ "solution": "1、物料资料建议先进行核对，核实后在进行录入，一旦产生业务不允许修改主辅计量的任何属性\n2、检查物料信息看修改时间是否在入库以后,是否调整过物料的辅计量单位看\n3、查询结果是否与物料资料中的一致,若不一致需要恢复物料信息中的辅单位与现存量查询中的辅单位一致后,重新销售单或退货单即可，保证单据上与现库量单位一致。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存不足"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "供应链",
+ "meta": {
+  "submitter": "王琳",
+  "department": "实施6部",
+  "date": "2022-11-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "x45l0e5NZe"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250121-015",
+ "record_id": "7GgRNqlyJQ",
+ "title": "通过批量立应付生成的应付单，修改金额的范围需要控制在整单1元，每行1毛为上限",
+ "problem": "通过批量立应付生成的应付单，修改金额的范围需要控制在整单1元，每行1毛为上限",
+ "cause": "通过批量立应付生成的应付单，修改金额的范围需要控制在整单1元，每行1毛为上限",
+ "solution": "通过应付参数的税容差和金额容差控制修改的金额",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "金额控制"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbM1lvJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbM1lvJxEKBD6p",
+  "doc_path": "/用友/应用操作/通过批量立应付生成的应付单，修改金额的范围需要控制在整单1元，每行1毛为上限",
+  "record_id": "7GgRNqlyJQ"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/通过批量立应付生成的应付单，修改金额的范围需要控制在整单1元，每行1毛为上限",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

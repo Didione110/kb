@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241105-015",
+ "record_id": "TIyStymnjP",
+ "title": "武汉市医保测试部署方式调整",
+ "problem": "武汉市医保测试部署方式调整",
+ "cause": "最初部署到连锁总部作为跳板机连接医保与时空，现阶段医保与允许总部集中传输，逐步封杀总部集中传输IP",
+ "solution": "将市医保API程序部署到门店",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保部署"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-11-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TIyStymnjP"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230821-035",
+ "record_id": "b6mv63Lw9Q",
+ "title": "全程委外核销单审核时提示：未设置符合条件的成本调整单单据类型",
+ "problem": "全程委外核销单审核时提示：未设置符合条件的成本调整单单据类型",
+ "cause": "当核销单的期间与收货单或者委外发料单不在一个期间时就会推出成本调整单",
+ "solution": "进行以下操作：在库存管理→成本调整单，新增委外调整单的单据类型，同时勾选由【上游单据推出】选项。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "成本调整单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-08-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "b6mv63Lw9Q"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

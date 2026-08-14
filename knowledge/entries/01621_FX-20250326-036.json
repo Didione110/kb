@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250326-036",
+ "record_id": "gDfWc75C1n",
+ "title": "YS报销单-费用分摊如何控制选择的费用项目？",
+ "problem": "YS报销单-费用分摊如何控制选择的费用项目？",
+ "cause": "UI模板需要进行“参照配置”设置过滤条件",
+ "solution": "UI模板需要进行“参照配置”设置过滤条件，如图所示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "费用分摊"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-03-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gDfWc75C1n"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

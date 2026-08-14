@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231127-083",
+ "record_id": "bXHzgCP5kL",
+ "title": "采购入库参照不到退货的采购订单",
+ "problem": "采购入库参照不到退货的采购订单",
+ "cause": "检查单据没有做订单关闭，查看接口传过来的采购订单表体信息中没有传收票公司，判断可能是该原因导致的",
+ "solution": "找一张正确的订单在数据库对比查看，维护传单时候的缺失字段",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "采购订单"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-11-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "bXHzgCP5kL"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241204-007",
+ "record_id": "zzPvqFNzWD",
+ "title": "医保接口服务端程序启动就闪退",
+ "problem": "医保接口服务端程序启动就闪退",
+ "cause": "原因是前期部署了三方物流的API接口，其端口与医保接口服务端冲突",
+ "solution": "医保接口服务端更换端口",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "闪退"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-12-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zzPvqFNzWD"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

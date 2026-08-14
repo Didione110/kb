@@ -1,0 +1,36 @@
+{
+ "id": "FX-20231007-001",
+ "record_id": "Z7odxlwIVW",
+ "title": "固定资产→折旧计算，折旧计算置灰且选择日期后对应期间也为空",
+ "problem": "固定资产→折旧计算，折旧计算置灰且选择日期后对应期间也为空",
+ "cause": "1、检查总账对应的会计期间是否打开，已打开\n2、检查是否有需要计提折旧的卡片，查看卡片列表均已完成折旧",
+ "solution": "当月无需进行折旧计算，直接进行结账即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "折旧计算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2023-10-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z7odxlwIVW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

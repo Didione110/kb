@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231031-052",
+ "record_id": "g5RT41pvm7",
+ "title": "u8应用管理器中没有u8定时服务",
+ "problem": "u8应用管理器中没有u8定时服务",
+ "cause": "把正常环境中的U8TaskService.exe程序拷贝到\\U8SOFT\\目录下，运行cmd进入U8SOFT目录，执行命令：U8TaskService.exe -remove 回车输入命令：U8TaskService.exe -install，执行完成后再到服务管理器中启动服务",
+ "solution": "把正常环境中的U8TaskService.exe程序拷贝到\\U8SOFT\\目录下，运行cmd进入U8SOFT目录，执行命令：U8TaskService.exe -remove 回车输入命令：U8TaskService.exe -install，执行完成后再到服务管理器中启动服务",
+ "solution_types": [
+  "重启服务",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "Shell"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "u8定时服务"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "g5RT41pvm7"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

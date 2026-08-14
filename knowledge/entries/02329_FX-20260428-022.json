@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260428-022",
+ "record_id": "x5QnV74ON1",
+ "title": "会计主体节点，账簿无法启用固定资产，启用固定资产按钮是灰色的，该公司已经建账，且该节点的其他公司无此情况",
+ "problem": "会计主体节点，账簿无法启用固定资产，启用固定资产按钮是灰色的，该公司已经建账，且该节点的其他公司无此情况",
+ "cause": "单独只建账固定资产的操作步骤错误",
+ "solution": "会计主体节点点修改按钮，表体行给固定资产选择一下固定资产账簿分类，保存，然后再启用固定资产",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "固定资产启用"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-04-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "x5QnV74ON1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

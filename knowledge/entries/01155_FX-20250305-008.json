@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250305-008",
+ "record_id": "TlmIzDgHvg",
+ "title": "自动记账卡死问题",
+ "problem": "自动记账卡死问题",
+ "cause": "部分共用表占用时间过长未释放导致了任务排队",
+ "solution": "1.优化相关查询报表，读表改为NOLOCK模式；\n2.优化外部接口，客户第三方外部接口平台对接的代码未加nolcok并且效率低下，导致长时间占用，单据量大了就会导致任务排队，最终表现就是卡死；",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自动记账卡死"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TlmIzDgHvg"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

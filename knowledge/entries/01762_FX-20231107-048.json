@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231107-048",
+ "record_id": "jtzT5KXfxp",
+ "title": "现象：通过接口生成金蝶凭证号顺序达不到客户要求。\n背景：金蝶系统接收凭证会自动生成新的凭证号且没有批量接口",
+ "problem": "现象：通过接口生成金蝶凭证号顺序达不到客户要求。\n背景：金蝶系统接收凭证会自动生成新的凭证号且没有批量接口",
+ "cause": "客户要求按发票号、凭证号、序号排序，同时发票号存在空值的情况。接口传递凭证时，第一步又必须用非空主键字段分组，逻辑上来说分组的字段才能作第一排序字段，否则排序无意义",
+ "solution": "增加一个新字段由发票号\\_凭证号组成，按新字段分组后再按序号排序，关键代码如下：\n//组织请求数据\n Map\\<String, List\\<Map\\<String, Object\\>\\>\\> maps = mapList.stream().sorted().collect(Collectors.groupingBy(this::mapKey));//listMap分组\n maps.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEachOrdered(x-\\> \\{//按key排序遍历\n List\\<Map\\<String, Object\\>\\> list = x.getValue();\n Collections.sort(list, Comparator.comparing(this::listSorted));//按billsn排序\n ...................\n\nprivate String mapKey(Map\\<String,Object\\> map)\\{\n String s = Optional.ofNullable(map.get(\"INVOICECODE\").toString()).orElse(\"*\");\n return s\\+\"*\"\\+map.get(\"FVOUCHERGROUPNO\").toString();//按发票号\\_凭证号分组\n \\}\n private String listSorted(Map\\<String,Object\\> map)",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证号顺序"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLEQBk0khmE1a6QdJlemrZQ3?utm_scene=team_space",
+  "node_id": "MNDoBb60VLEQBk0khmE1a6QdJlemrZQ3",
+  "doc_path": "/自研/数据接口问题/通过接口生成金蝶凭证号顺序达不到客户要求",
+  "record_id": "jtzT5KXfxp"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/通过接口生成金蝶凭证号顺序达不到客户要求",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230116-006",
+ "record_id": "45mUwjv4WT",
+ "title": "T+打印时遇到的问题：请检查打印服务是否处于运行状态",
+ "problem": "T+打印时遇到的问题：请检查打印服务是否处于运行状态",
+ "cause": "服务异常",
+ "solution": "此电脑-管理-服务及应用管理-服务-print spooler-启动",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "打印服务"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMjyoRJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMjyoRJB5r9YAn",
+  "doc_path": "/其他/环境问题/T+打印时遇到的问题：请检查打印服务是否处于运行状态",
+  "record_id": "45mUwjv4WT"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/T+打印时遇到的问题：请检查打印服务是否处于运行状态",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

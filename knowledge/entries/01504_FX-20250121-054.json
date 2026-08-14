@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-054",
+ "record_id": "dAj2AWHtxL",
+ "title": "客户反应省医保接口数据未上传",
+ "problem": "客户反应省医保接口数据未上传",
+ "cause": "当时武汉医保接口只要求上传市医保进销存，未调整时空智友DHERP省医保接口上传",
+ "solution": "完成时空智友DHERP及orcl版的省医保接口上传，上传代码可参考",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "省医保未上传"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dAj2AWHtxL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231225-063",
+ "record_id": "pBWcFKMLJd",
+ "title": "OMS取消的订单，最后还是发货了，出库计划单管理显示订单已出库。",
+ "problem": "OMS取消的订单，最后还是发货了，出库计划单管理显示订单已出库。",
+ "cause": "OMS因退款或其他原因操作的取消出库单后，如果线下WMS已经拣货，会发起取消拦截，不允许OMS取消出库计划。",
+ "solution": "OMS系统中有2个查询可以查看跟踪取消失败的订单数据，分别在异常查询和推送管理中查看。如果取消失败的订单发货状态是已发货，这种订单数据是需要操作拦截快递的订单。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "订单误发"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-12-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pBWcFKMLJd"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

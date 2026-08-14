@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250807-020",
+ "record_id": "zOw28bW3EI",
+ "title": "计划订单下推的请购，采购，在收货时无法合并收货，需要按交期明细一行一行收货",
+ "problem": "计划订单下推的请购，采购，在收货时无法合并收货，需要按交期明细一行一行收货",
+ "cause": "多行相同料品子件，转采购合行后，计划行实际记录来源请购行，并没有合并，转收货根据计划行收货，来源线索及数据关系都是记录采购计划行",
+ "solution": "在计划订单下推请购单时，直接将不同交期的采购需求进行合并，同产品不同交期合并成一行请购明细\n在计划参数维护→计划发放页签→请购合行条件，取消勾选【不合行】，【交期】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "合并收货"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-08-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zOw28bW3EI"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

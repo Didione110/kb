@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221031-037",
+ "record_id": "oltOXDpdXs",
+ "title": "u8加密服务UFNet无法启动",
+ "problem": "u8加密服务UFNet无法启动",
+ "cause": "未知",
+ "solution": "在注册表里HKEY_LOCAL_MACHINE/SYSTEM/HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet/HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services将UFNet值删掉，重启电脑后重新配置数据源即可",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "UFNet启动失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "客户成功部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oltOXDpdXs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

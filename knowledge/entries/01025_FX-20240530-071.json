@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240530-071",
+ "record_id": "QCZ7dRC0GH",
+ "title": "有客户电子监管码上传失败",
+ "problem": "有客户电子监管码上传失败",
+ "cause": "上传的电子监管码XML文件格式及客户信息都正确，检查后发现问题出现在监管码上。复核扫码的时候选择中包装扫的是小包装码；选择小包装扫的是中包装码；码不对应导致上传失败。",
+ "solution": "复核的时候没有接口对接码上放心，无法校验码的正确性，所以要告知客户扫码选择大中小包装的时候一定要细心。",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "监管码上传"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-05-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjgDLv8AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjgDLv8AgozOKL",
+  "doc_path": "/其他/应用操作/有客户电子监管码上传失败",
+  "record_id": "QCZ7dRC0GH"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/有客户电子监管码上传失败",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

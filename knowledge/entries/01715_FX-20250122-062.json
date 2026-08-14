@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250122-062",
+ "record_id": "iQGBaHJz0C",
+ "title": "''岁'' as v年龄类型，执行时\nsqlserver链接oracle视图 字段类型所需的(最大)数据长度为 4，但返回的数据长度为 2。",
+ "problem": "''岁'' as v年龄类型，执行时\nsqlserver链接oracle视图 字段类型所需的(最大)数据长度为 4，但返回的数据长度为 2。",
+ "cause": "判断有区别",
+ "solution": "sqlserver链接oracle视图 字段类型所需的(最大)数据长度为 4，但返回的数据长度为 2。报错处理\n\n…\n''岁'' as v年龄类型，\n…\n提示:v年龄类型数据长度不匹配。所需的(最大)数据长度为 4，但返回的数据长度为 2。\n解决方法：\n…\ntrim(''岁'') as v年龄类型，\n…",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "长度不匹配"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2025-01-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iQGBaHJz0C"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

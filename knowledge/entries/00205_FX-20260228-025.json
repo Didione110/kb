@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260228-025",
+ "record_id": "4qJL4bhqRq",
+ "title": "审核付款单提示单据锁定",
+ "problem": "审核付款单提示单据锁定",
+ "cause": "客户操作过多导致系统单据锁定",
+ "solution": "用自己的账号进去系统 【系统监视器】-PK锁- 解锁",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "单据锁定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4qJL4bhqRq"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

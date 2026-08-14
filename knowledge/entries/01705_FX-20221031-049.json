@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221031-049",
+ "record_id": "iC0FPQLAwR",
+ "title": "客户经常会反馈WMS已经完成的单据，未回传给ERP",
+ "problem": "客户经常会反馈WMS已经完成的单据，未回传给ERP",
+ "cause": "回传记账的功能都是由WMS互传工具软件执行的，\n发生这种情况，第一时间去检查互传工具是否打开，或互传工具是否报错，如果报错找对应工程师找原因",
+ "solution": "检查互传工具",
+ "solution_types": [],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "回传失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iC0FPQLAwR"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

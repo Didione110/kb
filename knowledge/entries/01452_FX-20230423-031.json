@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230423-031",
+ "record_id": "bgYsC1AZNF",
+ "title": "打开T3提示：运行时错误-2147024770(8007007e)\nAutomation 错误",
+ "problem": "打开T3提示：运行时错误-2147024770(8007007e)\nAutomation 错误",
+ "cause": "无",
+ "solution": "1、在C:Program Files (x86)Common Files Microsoft Shared文件夹里，新建DAO这个目录;\n2、复制C: Windows\\\\SysWOW64里面的dao360.dll文件到上面的DAO目录并注册\n如果是32位的操作系统，上面的路径则分别是:\nC: Program Files Common Files Microsoft Shared\nC: Windows\\\\System32",
+ "solution_types": [
+  "环境设置",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "T3运行时错误"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2023-04-23"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1eZoyJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1eZoyJ63zgkYA",
+  "doc_path": "/其他/软件无法使用/打开T3提示运行时错误-2147024770 Automation错误",
+  "record_id": "bgYsC1AZNF"
+ },
+ "status": "active",
+ "doc_path": "/其他/软件无法使用/打开T3提示运行时错误-2147024770 Automation错误",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

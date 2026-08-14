@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250409-013",
+ "record_id": "3lQ2LboQ3s",
+ "title": "1.9.26版本的致远服务S1，以管理员身份运行无反应",
+ "problem": "1.9.26版本的致远服务S1，以管理员身份运行无反应",
+ "cause": "需要手动调整参数",
+ "solution": "把client\\_properties文件configconfig.monitorEngine.mode=0设置好， 然后把sfu\\_config删掉，然后再重启Client",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "JDK"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "S1无响应"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A6",
+ "module": "服务启停",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2025-04-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAb6RllW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAb6RllW3kdP0wQ",
+  "doc_path": "/致远OA/软件无法使用/1.9.26版本的致远服务S1，以管理员身份运行无反应",
+  "record_id": "3lQ2LboQ3s"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/软件无法使用/1.9.26版本的致远服务S1，以管理员身份运行无反应",
+ "category": [
+  "致远OA",
+  "软件无法使用"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230630-016",
+ "record_id": "NTyHHVC80a",
+ "title": "辅助明细账查询提示超过了参数设置最大的60个月",
+ "problem": "辅助明细账查询提示超过了参数设置最大的60个月",
+ "cause": "参数设置问题",
+ "solution": "调整动态建模平台-基础数据-业务参数设置-集团里，财务总账下的代码GLS01查询账薄期间跨度最大值按客户要求调整为72，解决；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "参数超限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NTyHHVC80a"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

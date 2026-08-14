@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241204-005",
+ "record_id": "3wGJaJb1mQ",
+ "title": "医保结算报错：R6025-pure virtual function call",
+ "problem": "医保结算报错：R6025-pure virtual function call",
+ "cause": "系统底层缺少环境",
+ "solution": "1. 更新windows操作系统的补丁包；\n2. 更新动态库；",
+ "solution_types": [
+  "补丁更新",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "纯虚函数调用"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwND3p3Jbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwND3p3Jbkz3BRL",
+  "doc_path": "/自研/环境问题/医保结算报错：R6025-pure virtual function call",
+  "record_id": "3wGJaJb1mQ"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/医保结算报错：R6025-pure virtual function call",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

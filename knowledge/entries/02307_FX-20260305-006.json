@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260305-006",
+ "record_id": "weBYTrftD4",
+ "title": "反馈医保结算单余额打印错误",
+ "problem": "反馈医保结算单余额打印错误",
+ "cause": "排查发现是因为医保读卡没有返回余额导致，根本原因是因为这个人有两个账户，其中一个账户没有余额所以返回了0",
+ "solution": "读卡的时候选择对应余额账户",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "医保余额"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2026-03-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "weBYTrftD4"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

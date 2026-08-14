@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240506-006",
+ "record_id": "ObkUiSAjHE",
+ "title": "老打印控件，设置凭证打印只打末级科目",
+ "problem": "老打印控件，设置凭证打印只打末级科目",
+ "cause": "使用凭证模板调试工具，修改对应凭证的打印模板，将会计分录行默认值@12修改为@13则是末级科目。",
+ "solution": "使用凭证模板调试工具，修改对应凭证的打印模板，将会计分录行默认值@12修改为@13则是末级科目。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "末级科目"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ObkUiSAjHE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

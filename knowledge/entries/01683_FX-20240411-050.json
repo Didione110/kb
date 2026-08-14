@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240411-050",
+ "record_id": "hle1X3nzmg",
+ "title": "Oracle12c安装出现Failed to Create oracle Oracle Home User的解决方案",
+ "problem": "Oracle12c安装出现Failed to Create oracle Oracle Home User的解决方案",
+ "cause": "由于建立密码过于简单导致无法进行创建成功",
+ "solution": "1、打开域安全策略（secpol.msc）-安全设置-账户策略-密码策略-密码必须符合复杂性要求。定义这个策略设置为:已禁用。\n\n2、最后cmd运行刷新组策略命令为：gpupdate /force\n\n3、重新安装。\n\n4、解决。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "Oracle 安装 用户"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hle1X3nzmg"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

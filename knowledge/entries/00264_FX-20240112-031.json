@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240112-031",
+ "record_id": "6EvI8VInQm",
+ "title": "上架时候更新数据保存的时候报错",
+ "problem": "上架时候更新数据保存的时候报错",
+ "cause": "上架单明细中商品批号字段中含有特殊符号",
+ "solution": "将上架单sjdmx\\_mx中商品批号中特殊符号转换一下",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Java",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "上架报错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施4部",
+  "date": "2024-01-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lXqGk86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lXqGk86EDybno",
+  "doc_path": "/其他/应用操作/上架时候更新数据保存的时候报错",
+  "record_id": "6EvI8VInQm"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/上架时候更新数据保存的时候报错",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

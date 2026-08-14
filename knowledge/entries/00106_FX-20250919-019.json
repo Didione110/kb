@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250919-019",
+ "record_id": "2M2S2XXEM2",
+ "title": "订单审核后没有生成出库计划单，找不到记录。",
+ "problem": "订单审核后没有生成出库计划单，找不到记录。",
+ "cause": "仓库类型不对导致订单流程错误",
+ "solution": "点三仓库类型分成2种，自营仓和三方仓。自营仓走的出库单流程，打印物流单和发货单在点三内完成。三方仓走的出库计划单流程，打印物流单和发货单在三方仓WMS系统中完成。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "Aspose",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "出库计划单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-09-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2M2S2XXEM2"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

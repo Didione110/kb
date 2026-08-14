@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230529-026",
+ "record_id": "opKhDpfhzs",
+ "title": "业务人员在应付单和付款单界面只能看到本人做的单据，不能看见别人填制的单据",
+ "problem": "业务人员在应付单和付款单界面只能看到本人做的单据，不能看见别人填制的单据",
+ "cause": "业务人员在应付单和付款单界面只能看到本人做的单据，不能看见别人填制的单据",
+ "solution": "根据角色配置数据权限-读取，条件（只能查看创建人为登录用户的单）：CreatedBy=GetCurrentUserName()",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限隔离"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-05-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "opKhDpfhzs"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

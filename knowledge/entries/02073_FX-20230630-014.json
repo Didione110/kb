@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230630-014",
+ "record_id": "qnrLJQCmSH",
+ "title": "程序无法正常重启",
+ "problem": "程序无法正常重启",
+ "cause": "可能原因在于杀毒软件误清理了文件导致的",
+ "solution": "运行输入cmd 输入 taskkill /im ＋服务 /f 彻底杀掉后台程序在重启即可",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "重启失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qnrLJQCmSH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

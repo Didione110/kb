@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260528-031",
+ "record_id": "kcz6aWpkKO",
+ "title": "如何实现采购单据终审前字段必输？",
+ "problem": "如何实现采购单据终审前字段必输？",
+ "cause": "企业要求采购单据的采购员由采购主管的审核人确认，希望系统控制终审前该字段必输，如果为空，则不允许终审。",
+ "solution": "一：新增业务活动；\n\n二：复制UI模板，分配业务活动；\n\n三：针对UI模板，设置校验规则；\n\n四：针对审批流的终审节点，引用业务活动",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "采购单必输"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购服务",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-05-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kcz6aWpkKO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

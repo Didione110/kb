@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250507-006",
+ "record_id": "BpFYyeJWcv",
+ "title": "监管码录入需要在商品检索完后自动弹出监管码录入界面",
+ "problem": "监管码录入需要在商品检索完后自动弹出监管码录入界面",
+ "cause": "由于零售pos界面商品检索事件在服务端",
+ "solution": "需要进行服务端代码解码后客开到js区",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "监管码录入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-05-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgm9BB1JqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgm9BB1JqjMp697",
+  "doc_path": "/时空/应用操作/监管码录入需要在商品检索完后自动弹出监管码录入界面",
+  "record_id": "BpFYyeJWcv"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/监管码录入需要在商品检索完后自动弹出监管码录入界面",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

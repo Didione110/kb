@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241126-050",
+ "record_id": "vraT3SpCX9",
+ "title": "省医保数据上传，采购退出3507接口报mdtrtsn字段错误，导致上传失败",
+ "problem": "省医保数据上传，采购退出3507接口报mdtrtsn字段错误，导致上传失败",
+ "cause": "v_yinhai_rpt3507视图中缺少该字段",
+ "solution": "在v_yinhai_rpt3507视图中添加mdtrt_sn字段，注意不为报错所提示的mdtrtsn字段，添加后数据正确上传",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "mdtrtsn 错误"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "廖巍",
+  "department": "实施1部",
+  "date": "2024-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vraT3SpCX9"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

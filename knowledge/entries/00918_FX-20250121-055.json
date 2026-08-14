@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250121-055",
+ "record_id": "NKHNhD1CEP",
+ "title": "excel导入报错",
+ "problem": "excel导入报错",
+ "cause": "tomcat缺少jar包",
+ "solution": "下载jxl.jar包，放到ROOT\\WEB-INF\\lib文件夹中",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "Excel导入错误"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NKHNhD1CEP"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

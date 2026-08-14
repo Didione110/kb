@@ -1,0 +1,47 @@
+{
+ "id": "FX-20231107-043",
+ "record_id": "SHXX8Qs5rQ",
+ "title": "WMS承接三方客户委托，运输单无法在ERP中操作，必须在WMS中完成",
+ "problem": "WMS承接三方客户委托，运输单无法在ERP中操作，必须在WMS中完成",
+ "cause": "WMS添加运输记录及承运登记功能，方便客户仓库和三方完成运输记录并打印",
+ "solution": "添加对应的运输单和承运登记，打印对应的运输单和记录",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "WMS优先"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3QrrqV47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3QrrqV47Z3je9",
+  "doc_path": "/其他/产品功能问题/WMS承接三方客户委托，运输单无法在ERP中操作，必须在WMS中完成",
+  "record_id": "SHXX8Qs5rQ"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/WMS承接三方客户委托，运输单无法在ERP中操作，必须在WMS中完成",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

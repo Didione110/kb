@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240622-035",
+ "record_id": "mKnWKo3FCK",
+ "title": "业务场景：请款单，由于供应商的浮动价格，实际付款大于请款金额，且采购订单已经收货无法做变更单",
+ "problem": "业务场景：请款单，由于供应商的浮动价格，实际付款大于请款金额，且采购订单已经收货无法做变更单",
+ "cause": "业务场景：请款单，由于供应商的浮动价格，实际付款大于请款金额，且采购订单已经收货无法做变更单",
+ "solution": "请款生成请款确认单，在请款确认单的请款页签增行，填写需要增加的金额，修改行的总金额",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "浮动价超付"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-06-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mKnWKo3FCK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

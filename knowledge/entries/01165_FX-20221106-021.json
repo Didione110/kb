@@ -1,0 +1,39 @@
+{
+ "id": "FX-20221106-021",
+ "record_id": "UDrXdpUEQB",
+ "title": "执行表单打开事件函数时出错: ORA-00932: 数据类型不一致: 应为 -, 但却获得 CLOB",
+ "problem": "执行表单打开事件函数时出错: ORA-00932: 数据类型不一致: 应为 -, 但却获得 CLOB",
+ "cause": "Oracle环境中sql宏将查询语句无法将的CLOB类型字段转化",
+ "solution": "将查询的字段转换cast(t.ModifyCon as varchar(2000))为字符形式",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "CLOB类型"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UDrXdpUEQB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

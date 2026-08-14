@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230803-009",
+ "record_id": "PdULTdCDym",
+ "title": "微应用平台关闭表单未修改数据不允许弹窗",
+ "problem": "微应用平台关闭表单未修改数据不允许弹窗",
+ "cause": "表单弹窗打开时数据未加载完成对象已经复制",
+ "solution": "使用async/await使异步方法顺序执行",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "未修改弹窗"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-08-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3m9ev6J9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3m9ev6J9ekBD76",
+  "doc_path": "/自研/产品功能问题/微应用平台关闭表单未修改数据不允许弹窗",
+  "record_id": "PdULTdCDym"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/微应用平台关闭表单未修改数据不允许弹窗",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

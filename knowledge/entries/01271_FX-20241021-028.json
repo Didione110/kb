@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241021-028",
+ "record_id": "XSMI0facox",
+ "title": "关于采购单对应多单采购入库单的情况，如何关联查询。针对多次入库的情况，查询对应采购入库单",
+ "problem": "关于采购单对应多单采购入库单的情况，如何关联查询。针对多次入库的情况，查询对应采购入库单",
+ "cause": "关于采购单对应多单采购入库单的情况，如何关联查询。针对多次入库的情况，查询对应采购入库单",
+ "solution": "select a.billcode,DBMS_LOB.SUBSTR(wm_concat(distinct d.billcode ))\nFrom purnotesmt a inner join purnotesdt b on a.billno=b.billno\ninner join purindt c on c.rfbillno=b.billno and c.rfbillsn=b.billsn\ninner join purinmt d on c.billno=d.billno\nwhere a.dates>='2024-10-18' and a.billcode like 'PKP%'\ngroup by a.billcode",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "采购入库关联"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-10-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XSMI0facox"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

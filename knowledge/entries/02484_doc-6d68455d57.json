@@ -1,0 +1,30 @@
+{
+ "id": "doc-6d68455d57",
+ "record_id": "",
+ "title": "高级明细表兼容模式下暂存提交提示正在初始化中",
+ "problem": "高级明细表兼容模式下暂存提交提示正在初始化中",
+ "cause": "360会屏蔽某些插件方法",
+ "solution": "请使用常规浏览器进行操作，或使用浏览器极速模式 不要使用兼容模式。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoXaqovgWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoXaqovgWkb4Mw9r",
+  "doc_path": "/蓝凌OA/应用操作/高级明细表兼容模式下暂存提交提示正在初始化中"
+ },
+ "doc_path": "/蓝凌OA/应用操作/高级明细表兼容模式下暂存提交提示正在初始化中",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

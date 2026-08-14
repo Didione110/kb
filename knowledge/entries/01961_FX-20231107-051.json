@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231107-051",
+ "record_id": "oOnlnKg5eM",
+ "title": "EXCEL资料导入时，数据未导入界面",
+ "problem": "EXCEL资料导入时，数据未导入界面",
+ "cause": "DHERP新增异步方案，需在导入时增加",
+ "solution": "增加修改如下异步方案",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "导入失败"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施1部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oOnlnKg5eM"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

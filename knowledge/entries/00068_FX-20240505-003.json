@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240505-003",
+ "record_id": "1Ym5dlVb5B",
+ "title": "客户反馈医保接口退款时候没有个人支付金额以及个人现金支付数据",
+ "problem": "客户反馈医保接口退款时候没有个人支付金额以及个人现金支付数据",
+ "cause": "排查后发现时空接收参数中有这两个字段，但是医保接口返回时候没有这两个字段传值",
+ "solution": "因为医保是不允许部分退款，所以时空原单退货时候直接从正向单据中取值然后进行部分金额负数处理；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "医保退款金额"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-05-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1Ym5dlVb5B"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

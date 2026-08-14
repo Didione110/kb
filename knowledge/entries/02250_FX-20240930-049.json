@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240930-049",
+ "record_id": "vdPD8TOknO",
+ "title": "存货启用批次管理，入库单的存货在批次号参照点新增录入后刷新就没有了",
+ "problem": "存货启用批次管理，入库单的存货在批次号参照点新增录入后刷新就没有了",
+ "cause": "因为新批次无结存导致，在此界面需勾选是否查询零结存批次号，点刷新，才会显示",
+ "solution": "因为新批次无结存导致，在此界面需勾选是否查询零结存批次号，点刷新，才会显示",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "批次丢失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vdPD8TOknO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250224-019",
+ "record_id": "0rb8YTjSbo",
+ "title": "在多仓情况下，需根据店铺或者具体品种自动选择仓库。",
+ "problem": "在多仓情况下，需根据店铺或者具体品种自动选择仓库。",
+ "cause": "多主体多仓情况如果无法自动选仓，在审单时就需要人工选仓，耗时易错。",
+ "solution": "新建选仓策略，设置具体店铺或者指定品种，匹配对应仓库。系统在进行原始订单转单的过程中就会执行自动选仓略，选择对应仓库。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "多仓自动选仓"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-02-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "0rb8YTjSbo"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

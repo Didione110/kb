@@ -1,0 +1,49 @@
+{
+ "id": "FX-20240827-051",
+ "record_id": "97YtHDQMEY",
+ "title": "DHERP-PDA收货一个收货单多次确认容器收货放入同一个容器，无法确认容器收货完成",
+ "problem": "DHERP-PDA收货一个收货单多次确认容器收货放入同一个容器，无法确认容器收货完成",
+ "cause": "1、原则上PDA容器收货不允许一个收货单多次放入一个容器并确认收货完成的\n2、技术上多次收货GZID，点击容器收货完成，GZID已经生成，如果GZID不进行调整，系统默认是剩下的物料是要收入其他容器的",
+ "solution": "1、和客户讲道理，新增不同容器处理操作\n2、制作调整容器收货GZID功能，替换tmp\\_pda\\_getingoods表的GZID字段尾字母即可，GZID是主键不能重复",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "重复确认"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-08-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1EwYwJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1EwYwJ63zgkYA",
+  "doc_path": "/时空/实施问题/DHERP-PDA收货一个收货单多次确认容器收货放入同一个容器，无法确认容器收货完成",
+  "record_id": "97YtHDQMEY"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/DHERP-PDA收货一个收货单多次确认容器收货放入同一个容器，无法确认容器收货完成",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

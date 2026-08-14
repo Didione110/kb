@@ -1,0 +1,46 @@
+{
+ "id": "FX-20260209-015",
+ "record_id": "Jik66OcxHA",
+ "title": "快递鸟增加字段IsSubscribe 是否订阅轨迹推送，1:订阅默认，0:不订阅；",
+ "problem": "快递鸟增加字段IsSubscribe 是否订阅轨迹推送，1:订阅默认，0:不订阅；",
+ "cause": "有客户需求增加这个字段",
+ "solution": "修改程序发布",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "轨迹订阅"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2026-02-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvgqr3VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvgqr3VMwvDqPk",
+  "doc_path": "/自研/数据接口问题/快递鸟增加字段IsSubscribe 是否订阅轨迹推送，1 订阅默认，0 不订阅；",
+  "record_id": "Jik66OcxHA"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/快递鸟增加字段IsSubscribe 是否订阅轨迹推送，1 订阅默认，0 不订阅；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

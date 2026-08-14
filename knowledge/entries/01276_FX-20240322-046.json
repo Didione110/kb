@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240322-046",
+ "record_id": "XdG3JTJn0p",
+ "title": "查询销售订单列表中的已生效未执行存在很多数据，其中客户举例一单存在后续销货单等单据",
+ "problem": "查询销售订单列表中的已生效未执行存在很多数据，其中客户举例一单存在后续销货单等单据",
+ "cause": "数量精度问题",
+ "solution": "检查此销售订单执行表，其中有一存货没有做销货单，客户反应这一存货无法参照生成销货单，查出此存货存在多计量，但之前的数量精度只保留两位小数1/600=0.11166667，所以只保留了0，导致参照不到单据，把数据精度改为6，然后做销售订单变更，触发这一行存货的多计量重新换算，就可以参照成功",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "已生效未执行"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-03-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymN0eK8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymN0eK8xkXOEP2",
+  "doc_path": "/其他/应用操作/查询销售订单列表中的已生效未执行存在很多数据，其中客户举例一单存在后续销货单等单据",
+  "record_id": "XdG3JTJn0p"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/查询销售订单列表中的已生效未执行存在很多数据，其中客户举例一单存在后续销货单等单据",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

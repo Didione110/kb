@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251009-003",
+ "record_id": "lSkJdQAblC",
+ "title": "事前控制失败医保目录等级长度不在范围内，应该在1到3之间",
+ "problem": "事前控制失败医保目录等级长度不在范围内，应该在1到3之间",
+ "cause": "医保有个目录等级字段hilist\\_lv字段传值错误，因为前期改造时将改字段进行了赋值，但是后续又没有注意赋值格式导致传值错误",
+ "solution": "目前根据其他客户来说该字段基本都是默认传值，为了避免再次发生类似错误，已经调整成了传入默认值'02'",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保目录等级"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DwK6EJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DwK6EJKMEvZBY",
+  "doc_path": "/自研/数据错误问题/事前控制失败医保目录等级长度不在范围内，应该在1到3之间",
+  "record_id": "lSkJdQAblC"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据错误问题/事前控制失败医保目录等级长度不在范围内，应该在1到3之间",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

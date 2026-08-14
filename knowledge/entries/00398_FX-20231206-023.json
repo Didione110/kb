@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231206-023",
+ "record_id": "9YmV5i1iBs",
+ "title": "开票软件报错 【9999】业务处理异常",
+ "problem": "开票软件报错 【9999】业务处理异常",
+ "cause": "未知",
+ "solution": "软件退出重进即可解决",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "开票异常"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "刘程峰",
+  "department": "实施4部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn11a9pWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn11a9pWrMqPxX6",
+  "doc_path": "/自研/软件无法使用/开票软件报错 【9999】业务处理异常",
+  "record_id": "9YmV5i1iBs"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/开票软件报错 【9999】业务处理异常",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

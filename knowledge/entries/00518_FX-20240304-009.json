@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240304-009",
+ "record_id": "CtyuQIj6tZ",
+ "title": "查询条件根据当前日期减一年查询，在2024年2月29日时，查询语句报错",
+ "problem": "查询条件根据当前日期减一年查询，在2024年2月29日时，查询语句报错",
+ "cause": "因为2023年2月没有29日导致",
+ "solution": "修改语句为：TO\\_CHAR(ADD\\_MONTHS(to\\_date( '2024-02-29','YYYY-MM-DD'), -12),'YYYY-MM-DD')",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日期异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-03-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgm9meYJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgm9meYJqjMp697",
+  "doc_path": "/时空/应用操作/查询条件根据当前日期减一年查询，在2024年2月29日时，查询语句报错",
+  "record_id": "CtyuQIj6tZ"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/查询条件根据当前日期减一年查询，在2024年2月29日时，查询语句报错",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

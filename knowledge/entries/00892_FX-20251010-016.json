@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251010-016",
+ "record_id": "N0QewZTkqJ",
+ "title": "V12中，开票时表单自带商品互斥分组拆单功能打开开关后，不报错，也不自动拆分",
+ "problem": "V12中，开票时表单自带商品互斥分组拆单功能打开开关后，不报错，也不自动拆分",
+ "cause": "破解保护代码后发现，系统自动拆分功能判断了明细数据集中的rebillno==0和rfbillno==0",
+ "solution": "需确保rebillno与rfbillno值为零时，才会触发自动拆分功能",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "互斥拆单"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "刘盾",
+  "department": "实施2部",
+  "date": "2025-10-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N0QewZTkqJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

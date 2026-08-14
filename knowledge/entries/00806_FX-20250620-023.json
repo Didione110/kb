@@ -1,0 +1,36 @@
+{
+ "id": "FX-20250620-023",
+ "record_id": "KlSpftLSZO",
+ "title": "UFO公式配置报错：本函数不支持这个科目的取数，请采用扩展函数",
+ "problem": "UFO公式配置报错：本函数不支持这个科目的取数，请采用扩展函数",
+ "cause": "6001有客户、部门、项目，及自定义1、2、3六种辅助，想出部门利润表",
+ "solution": "FSEX(扩展发生），正常取数",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "UFO取数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-06-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "KlSpftLSZO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

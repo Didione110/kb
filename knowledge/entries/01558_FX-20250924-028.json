@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250924-028",
+ "record_id": "eqwqjOthM8",
+ "title": "如何在UBF报表中添加料品相关字段？",
+ "problem": "如何在UBF报表中添加料品相关字段？",
+ "cause": "料品字段通常会增加一些自定义扩展字段，需要添加到常用报表中。",
+ "solution": "https://share.note.youdao.com/ynoteshare/index.html?id=d05a26baf6c22c45059a932f7f3e62ac&type=note&_time=1758695308280",
+ "solution_types": [],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "料品字段"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eqwqjOthM8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

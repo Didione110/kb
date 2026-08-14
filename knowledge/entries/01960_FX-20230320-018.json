@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230320-018",
+ "record_id": "oNeg668GCG",
+ "title": "用心人小程序票据查看弹窗轮播图显示票据图片太小",
+ "problem": "用心人小程序票据查看弹窗轮播图显示票据图片太小",
+ "cause": "使用弹窗显示限制图片的大小",
+ "solution": "新建页面平且横屏显示完整图片",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "票据图片小"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2023-03-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzveb1vVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzveb1vVMwvDqPk",
+  "doc_path": "/自研/产品功能问题/用心人小程序票据查看弹窗轮播图显示票据图片太小",
+  "record_id": "oNeg668GCG"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/用心人小程序票据查看弹窗轮播图显示票据图片太小",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

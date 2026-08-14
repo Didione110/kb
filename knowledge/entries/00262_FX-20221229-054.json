@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221229-054",
+ "record_id": "6DlN49Q1Si",
+ "title": "请求开票返回“库存不足无法开具发票”",
+ "problem": "请求开票返回“库存不足无法开具发票”",
+ "cause": "企业发票余量查询接口未查到对应税号库存信息",
+ "solution": "检查税盘电脑是否安装诺诺软件",
+ "solution_types": [],
+ "tech_stack": [
+  "Windows",
+  "ZyPrint",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "库存不足"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "产品开发部",
+  "date": "2022-12-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbMOabYJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbMOabYJB5r9YAn",
+  "doc_path": "/自研/产品功能问题/请求开票返回“库存不足无法开具发票”",
+  "record_id": "6DlN49Q1Si"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/请求开票返回“库存不足无法开具发票”",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

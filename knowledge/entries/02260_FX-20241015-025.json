@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241015-025",
+ "record_id": "vlASMNoDVC",
+ "title": "windows下装的oracle服务器出现了连不上数据库服务的情况,但是实际电脑跟数据库并没有异常,多等待一段时间才可以连接上并且查询异常缓慢.查询监听状态也需要几分钟才能出结果",
+ "problem": "windows下装的oracle服务器出现了连不上数据库服务的情况,但是实际电脑跟数据库并没有异常,多等待一段时间才可以连接上并且查询异常缓慢.查询监听状态也需要几分钟才能出结果",
+ "cause": "oracle监听服务有问题,可能是监听日志过大导致的\n\\diag\\tnslsnr\\DBServer\\listener\\trace中存在listener.log文件,若该文件大小达到4g将会导致这一现象",
+ "solution": "删除\\diag\\tnslsnr\\DBServer\\listener\\trace中的listener.log文件,并重启监听服务,问题将得到解决",
+ "solution_types": [
+  "重启服务",
+  "其他"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "监听延迟"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2024-10-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vlASMNoDVC"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

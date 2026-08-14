@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240425-073",
+ "record_id": "462ctR8KGo",
+ "title": "el-table表格组件自定义表格内容显示全是同一内容",
+ "problem": "el-table表格组件自定义表格内容显示全是同一内容",
+ "cause": "使用v-if判断是直接讲表格列赋值成了同一类型",
+ "solution": "修改判断类型，使用v-if和v-else-if搭配判断",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "数据绑定"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-04-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDr3jRW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDr3jRW6zbX04v",
+  "doc_path": "/自研/产品功能问题/el-table表格组件自定义表格内容显示全是同一内容",
+  "record_id": "462ctR8KGo"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/el-table表格组件自定义表格内容显示全是同一内容",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

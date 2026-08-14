@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240530-070",
+ "record_id": "RnZVZn6q6X",
+ "title": "品种库存，效期等参数都正常，但是WMS补货的时候失败",
+ "problem": "品种库存，效期等参数都正常，但是WMS补货的时候失败",
+ "cause": "检查发现客户调整了仓库资料分组属性，导致分配仓库的时候错误（系统自带的分配仓库函数不严谨）",
+ "solution": "调整函数get\\_ckidLH，增加cklx（仓库类型参数），同时对调用这个函数的存储过程（zz\\_wms\\_zddb1,zz\\_wms\\_zddb2,zz\\_wms\\_ftJHG）进行调整，增加新的参数。",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "补货失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-05-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41YOkZJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41YOkZJA7depqY",
+  "doc_path": "/其他/产品功能问题/品种库存，效期等参数都正常，但是WMS补货的时候失败",
+  "record_id": "RnZVZn6q6X"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/品种库存，效期等参数都正常，但是WMS补货的时候失败",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

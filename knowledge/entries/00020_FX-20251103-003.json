@@ -1,0 +1,41 @@
+{
+ "id": "FX-20251103-003",
+ "record_id": "0YYhp0qMXi",
+ "title": "在打印报告单任务中不能打印PDF",
+ "problem": "在打印报告单任务中不能打印PDF",
+ "cause": "报告单任务中只有图片的打印方法",
+ "solution": "一键打印，打印图片可以用 报告单，注册批件 任务\n打印PDF 可以用电子发票任务。",
+ "solution_types": [],
+ "tech_stack": [
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "PDF打印失败"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-11-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwN2QqgJbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwN2QqgJbkz3BRL",
+  "doc_path": "/自研/实施问题/在打印报告单任务中不能打印PDF",
+  "record_id": "0YYhp0qMXi"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/在打印报告单任务中不能打印PDF",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

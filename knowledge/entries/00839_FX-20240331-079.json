@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240331-079",
+ "record_id": "LWMdXyBQP3",
+ "title": "需要在移动端（钉钉）查看公文情况（个人公文发起、处理情况）",
+ "problem": "需要在移动端（钉钉）查看公文情况（个人公文发起、处理情况）",
+ "cause": "钉钉端未配置导致无法查看公文发起情况处理情况",
+ "solution": "通过蓝凌钉钉组织架构应用中发现，可配置以下链接可访问公文相关处理界面（http://OA访问地址/km/smissive/mobile/index.jsp?）\n在钉钉架构中创建应用并授权相关人员后，在蓝凌EKP-权限管理中分配公文管理默认权限即可查看，否则会提示无权查看。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java",
+  "JDK"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "公文查询"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "公文管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LWMdXyBQP3"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

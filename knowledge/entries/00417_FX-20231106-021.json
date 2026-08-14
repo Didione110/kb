@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231106-021",
+ "record_id": "A5hFQndB68",
+ "title": "全电发票单次开票明细中增加字段favouredPolicyFlag，从订单明细视图取数，界面上增加字段和下拉框；",
+ "problem": "全电发票单次开票明细中增加字段favouredPolicyFlag，从订单明细视图取数，界面上增加字段和下拉框；",
+ "cause": "全电发票的favouredPolicyFlag 字段不是之前发票应用中传默认值0，需要根据实际情况获取数据",
+ "solution": "更新诺诺开票程序，开票取值中取到应传入的值。",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "全电发票、开票明细、favouredPolicyFlag"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakg4pqJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakg4pqJgk9rpMq",
+  "doc_path": "/自研/应用操作/全电发票单次开票明细中增加字段favouredPolicyFlag，从订单明细视图取数，界面上增加字段和下拉框；",
+  "record_id": "A5hFQndB68"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/全电发票单次开票明细中增加字段favouredPolicyFlag，从订单明细视图取数，界面上增加字段和下拉框；",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

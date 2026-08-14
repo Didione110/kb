@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221031-032",
+ "record_id": "cfUsOTX1RI",
+ "title": "使用金税接口开票点击导入时报错提示：发票导入报错：413258",
+ "problem": "使用金税接口开票点击导入时报错提示：发票导入报错：413258",
+ "cause": "与电脑上安装的诺诺发票发生冲突",
+ "solution": "卸载诺诺发票即可",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "金税开票报错"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金税接口软件",
+ "module": "",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYA6mMPV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYA6mMPV1DK0g6l",
+  "doc_path": "/其他/环境问题/使用金税接口开票点击导入时报错提示：发票导入报错：413258",
+  "record_id": "cfUsOTX1RI"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/使用金税接口开票点击导入时报错提示：发票导入报错：413258",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

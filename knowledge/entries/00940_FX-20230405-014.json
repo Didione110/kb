@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230405-014",
+ "record_id": "OB8GMman7Y",
+ "title": "采购收货单创建报错\"此错误创建者未指定原因\"",
+ "problem": "采购收货单创建报错\"此错误创建者未指定原因\"",
+ "cause": "数据错误",
+ "solution": "查看返回报错信息根据报错信息定位具体dll文件使用dnspy工具debug代码查看具体哪个字段没赋值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "收货单报错"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-04-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OB8GMman7Y"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

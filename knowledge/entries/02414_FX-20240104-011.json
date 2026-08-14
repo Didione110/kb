@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240104-011",
+ "record_id": "zdSJTwBDx2",
+ "title": "宜昌地区医保接口要求需要传app_id的值",
+ "problem": "宜昌地区医保接口要求需要传app_id的值",
+ "cause": "通过接口获取 。例：http://58.19.178.108:8086/mims-api/api/outsite/getDevelopMark?countryCode=P42050300867 返回 \"ZU0VJ3124S9FWLIX8HEW57B4W8EXIQB4\" 作为app_id传入数据。",
+ "solution": "在智慧医保，ksoa医保接口ybdevice.dll，医保小7程序ERP_YB.exe ，3个医保产品中都增加了appid的参数配置。目前是手动获取值填入配置项，有效期一个月。因为接口不在医保网内,后续根据接口更新到医保网内，更新程序为签到后自动获取一遍appid.",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "app_id"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zdSJTwBDx2"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

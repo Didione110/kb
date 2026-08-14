@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231212-037",
+ "record_id": "4FaEQJakJR",
+ "title": "时空智友DHERP V12\n右键弹出菜单后出现的界面需要在中间，并跟V10一样换行",
+ "problem": "时空智友DHERP V12\n右键弹出菜单后出现的界面需要在中间，并跟V10一样换行",
+ "cause": "客户需求",
+ "solution": "使用form弹出，V12在使用form弹出时/n换行不生效，替换使用换行",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "UI模板"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "菜单居中"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-12"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/mExel2BLV5NzBpEptPakxRwAJgk9rpMq?utm_scene=team_space",
+  "node_id": "mExel2BLV5NzBpEptPakxRwAJgk9rpMq",
+  "doc_path": "/时空/实施问题/时空智友DHERP V12 右键弹出菜单后出现的界面需要在中间，并跟V10一样换行",
+  "record_id": "4FaEQJakJR"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/时空智友DHERP V12 右键弹出菜单后出现的界面需要在中间，并跟V10一样换行",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

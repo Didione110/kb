@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240403-012",
+ "record_id": "WWQ4Yv3zyB",
+ "title": "WMS自定义功能添加图片控件，显示上传图片。",
+ "problem": "WMS自定义功能添加图片控件，显示上传图片。",
+ "cause": "WMS自定义功能添加图片控件，显示上传图片。",
+ "solution": "WMS更新对应的程序，客户端参数设置服务器URL.在自定义开发功能添加对应的图片控件显示",
+ "solution_types": [
+  "配置修改",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "图片上传"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2024-04-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41gad2JA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41gad2JA7depqY",
+  "doc_path": "/其他/产品功能问题/WMS自定义功能添加图片控件，显示上传图片。",
+  "record_id": "WWQ4Yv3zyB"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/WMS自定义功能添加图片控件，显示上传图片。",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

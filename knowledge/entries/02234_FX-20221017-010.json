@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221017-010",
+ "record_id": "vAg87FrDrY",
+ "title": "Taxprice /(1 + Rate/100） 结果不正确",
+ "problem": "Taxprice /(1 + Rate/100） 结果不正确",
+ "cause": "数据整形浮点型转换问题",
+ "solution": "（Taxprice *100）/(100 + Rate） 结果正确",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "税率计算"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vAg87FrDrY"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据错误问题"
+ ]
+}

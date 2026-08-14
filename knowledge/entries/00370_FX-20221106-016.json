@@ -1,0 +1,47 @@
+{
+ "id": "FX-20221106-016",
+ "record_id": "8tXFrKhwaD",
+ "title": "销项发票勾兑单据金额为0时不能保存",
+ "problem": "销项发票勾兑单据金额为0时不能保存",
+ "cause": "1. 在保存代码中有拦截语句\n2. 数据集保存写了判断条件 金额 \\> 0",
+ "solution": "取消拦截语句，取消数据集保存的判断条件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "销项发票勾兑金额为0"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWyAnqw5wcNM3jBLgWkyEqBQm?utm_scene=team_space",
+  "node_id": "93NwLYZXWyAnqw5wcNM3jBLgWkyEqBQm",
+  "doc_path": "/时空/产品功能问题/销项发票勾兑单据金额为0时不能保存",
+  "record_id": "8tXFrKhwaD"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/销项发票勾兑单据金额为0时不能保存",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240409-048",
+ "record_id": "vO1ynQ4UsE",
+ "title": "波次生成的时候，选择A单位单据，然后相同A单位的单据都一起被选中",
+ "problem": "波次生成的时候，选择A单位单据，然后相同A单位的单据都一起被选中",
+ "cause": "波次生成功能设置了相同参数单据一起选择",
+ "solution": "代码里BoCiKeyWord这个参数，如果你想同单位一起选择，就用 单位内码 as BoCiKeyWord",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "单位联动"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-04-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "vO1ynQ4UsE"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240407-045",
+ "record_id": "V62OejHyCM",
+ "title": "医保电子处方下载审核后，目前很多依然都是让客户记住处方中的品种，然后手敲，但是这样可能会存在错误概率，所以最好是给客户做提取方案",
+ "problem": "医保电子处方下载审核后，目前很多依然都是让客户记住处方中的品种，然后手敲，但是这样可能会存在错误概率，所以最好是给客户做提取方案",
+ "cause": "医保电子处方下载审核后，目前很多依然都是让客户记住处方中的品种，然后手敲，但是这样可能会存在错误概率，所以最好是给客户做提取方案",
+ "solution": "电子处方流程完成后将处方中的商品明细存入到临时表，然后时空做批号分摊，直接提取到收银界面，避免手动介入引起的错误率",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "处方提取"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41lDPvJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41lDPvJA7depqY",
+  "doc_path": "/自研/实施问题/医保电子处方下载审核后，目前很多依然都是让客户记住处方中的品种，然后手敲，但是这样可能会存在错误概率，所以最好是给客户做提取方案",
+  "record_id": "V62OejHyCM"
+ },
+ "status": "active",
+ "doc_path": "/自研/实施问题/医保电子处方下载审核后，目前很多依然都是让客户记住处方中的品种，然后手敲，但是这样可能会存在错误概率，所以最好是给客户做提取方案",
+ "category": [
+  "自研",
+  "实施问题"
+ ]
+}

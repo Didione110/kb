@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221213-039",
+ "record_id": "sh4XveswB6",
+ "title": "新增财务组织，生成财务报表时选不到新增的财务组织",
+ "problem": "新增财务组织，生成财务报表时选不到新增的财务组织",
+ "cause": "没有刷新维度和新增任务",
+ "solution": "正确的操作顺序：\n1、新增报表组织体系\n2、刷新维度\n3、任务中增加新组织\n4、重点检查报表组织体系中的版本时间及人员的权限",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "财务组织"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业绩效管理",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2022-12-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sh4XveswB6"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

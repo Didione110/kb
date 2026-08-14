@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240305-021",
+ "record_id": "2vnxIg4mf3",
+ "title": "NCC接口提示供应商对码异常，但是NC那边核对对码是正确的",
+ "problem": "NCC接口提示供应商对码异常，但是NC那边核对对码是正确的",
+ "cause": "原因是供应商对码维护不正确，对码确实没有维护错误，但是维护人员习惯性在后面敲了一个空格",
+ "solution": "1. 维护人员对码维护时候注意不额外加空格；\n2. NCC接口取数逻辑中增加去左右空格；",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "对码异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-03-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlNXkk8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlNXkk8Zd1wyK0",
+  "doc_path": "/自研/应用操作/NCC接口提示供应商对码异常，但是NC那边核对对码是正确的",
+  "record_id": "2vnxIg4mf3"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/NCC接口提示供应商对码异常，但是NC那边核对对码是正确的",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

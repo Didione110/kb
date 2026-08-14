@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250407-010",
+ "record_id": "gzdBJphw0R",
+ "title": "使用一键打印程序 调用快递鸟接口，生成面单失败。",
+ "problem": "使用一键打印程序 调用快递鸟接口，生成面单失败。",
+ "cause": "查看文本日志，快递鸟接口返回提示，无法解析远程服务 www.kdn.xxxxx",
+ "solution": "没有外网，调用不了快递鸟接口",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "面单失败"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-04-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4jYe3B3FkwNYzz9Jbkz3BRL?utm_scene=team_space",
+  "node_id": "gwva2dxOW4jYe3B3FkwNYzz9Jbkz3BRL",
+  "doc_path": "/自研/环境问题/使用一键打印程序 调用快递鸟接口，生成面单失败。",
+  "record_id": "gzdBJphw0R"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/使用一键打印程序 调用快递鸟接口，生成面单失败。",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

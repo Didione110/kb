@@ -1,0 +1,30 @@
+{
+ "id": "doc-c56475b708",
+ "record_id": "",
+ "title": "企业微信集成部署后部分人员登录提示系统权限报错",
+ "problem": "企业微信集成部署后部分人员登录提示系统权限报错",
+ "cause": "主要是低代码平台应用包的使用权限未设置的原因",
+ "solution": "设置对应低代码平台应用包的整体权限使用人，范围到机构即可，重新登录企业微信app，已解决",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4gnAKpJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4gnAKpJKMEvZBY",
+  "doc_path": "/蓝凌OA/产品功能问题/企业微信集成部署后部分人员登录提示系统权限报错"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/企业微信集成部署后部分人员登录提示系统权限报错",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

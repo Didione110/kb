@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240906-024",
+ "record_id": "feb6TvlGpU",
+ "title": "料品档案、销售订单、采购订单在审核后，已经上传的附件不能删除",
+ "problem": "料品档案、销售订单、采购订单在审核后，已经上传的附件不能删除",
+ "cause": "料品档案、销售订单、采购订单在审核后，已经上传的附件不能删除",
+ "solution": "设置数据权限，实体选择附件UFIDA.U9.Base.Attachment.Attachment\n条件写：( Attachment.EntityFullName == 'UFIDA.U9.SM.SO.SO' and GetAttachmentDocConditionValue ( Attachment.EntityFullName, FloatToStr (Attachment.EntityID), 'Status<3' ) == 1 ) or ( Attachment.EntityFullName == 'UFIDA.U9.PM.PO.PurchaseOrder' and GetAttachmentDocConditionValue ( Attachment.EntityFullName, FloatToStr (Attachment.EntityID), 'Status<2' ) == 1 ) or ( Attachment.EntityFullName == 'UFIDA.U9.CBO.SCM.Item.ItemMaster' and GetAttachmentDocConditionValue ( Attachment.EntityFullName, FloatToStr (Attachment.EntityID), 'Status<2' ) == 1 )",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "权限"
+ ],
+ "keywords": [
+  "附件不可删"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-09-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "feb6TvlGpU"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

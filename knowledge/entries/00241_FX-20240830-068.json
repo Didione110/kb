@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240830-068",
+ "record_id": "5gXuUBDwAf",
+ "title": "序时账显示问题",
+ "problem": "序时账显示问题",
+ "cause": "不会使用",
+ "solution": "客户想在导出序时账时辅助核算按类别分别展示单独的列，回复此产品开发的标准功能不可以修改，但可以将辅助信息显示在摘要列；指导客户配置，结果满意；\n在序时账查询的界面，单击表头摘要设置，勾上想要显示的辅助类型即可显示在摘要列；",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "序时账问题"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-08-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "5gXuUBDwAf"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

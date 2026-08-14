@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240411-051",
+ "record_id": "WYmqp6hocS",
+ "title": "安装SQL Server 2012 报错“启用windows功能NetFx3时出错”解决方法",
+ "problem": "安装SQL Server 2012 报错“启用windows功能NetFx3时出错”解决方法",
+ "cause": "问题分析\nNetFx3指的是.NET Framework 3.5，SQL Server 2012数据库系统的运行需要依靠.NET Framework 3.5，但是Windows Server2012默认情况下是并没有安装.NET Framework 3.5的，所以要成功安装SQL Server2012就必须先在操作系统上安装.NET Framework 3.5。",
+ "solution": "1.进入服务器系统打开“服务器管理器”，点击“添加角色和功能 ”。\n2.进入角色添加向导，一直点击下一步按钮到服务器角色界面。\n3.在“功能”选项卡中勾选“.NET Framework 3.5”，点击下一步按钮在这里插入图片描述\n4.直接点击安装按钮进行安装",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "NetFx3"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WYmqp6hocS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

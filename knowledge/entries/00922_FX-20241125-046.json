@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241125-046",
+ "record_id": "NRahlYhmO2",
+ "title": "登录系统管理提示：连接到服务器的过程出现意外",
+ "problem": "登录系统管理提示：连接到服务器的过程出现意外",
+ "cause": "服务器安装后缺少加密服务，重建加密服务后无法启动加密服务。",
+ "solution": "【U8+经典案例】16.5版本-服务器安装后缺少加密服务\nhttps://success.yonyou.com/surl/gazipqTg",
+ "solution_types": [
+  "补丁更新",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "IIS",
+  "SSL"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "连接异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NRahlYhmO2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

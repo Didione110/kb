@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250526-029",
+ "record_id": "g7hXF1gAQy",
+ "title": "异速联外网无法使用，检查服务器许可为0，刷新提示此服务未开启。",
+ "problem": "异速联外网无法使用，检查服务器许可为0，刷新提示此服务未开启。",
+ "cause": "25年2月前已给客户发送了相关厂家通知函，用户困难无法升级，目前用的也是2016操作系统；当时没有受影响，今天突然不能使用了；目前已解决，于次建议升级天高",
+ "solution": "https://bbs.gnway.com/forum.php?mod=viewthread&tid=7754\n下载异速联补丁包for\\_win2016x-20250219补丁文件，执行后，重新刷新许可，正常",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "异速联、许可、未开启"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "金万维软件",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-05-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbZ0xRW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbZ0xRW3kdP0wQ",
+  "doc_path": "/其他/环境问题/异速联外网无法使用，检查服务器许可为0，刷新提示此服务未开启。",
+  "record_id": "g7hXF1gAQy"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/异速联外网无法使用，检查服务器许可为0，刷新提示此服务未开启。",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

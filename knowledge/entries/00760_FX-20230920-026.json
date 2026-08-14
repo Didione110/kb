@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230920-026",
+ "record_id": "Jannlw2KA4",
+ "title": "时空智友祖传bug，无批量审批，在前段时间我已经发布了工作流的批量审批，但目前智友上的基础资料修改又是单独走的另一套审批，操作复杂，如果涉及到大数据量，操作巨费劲",
+ "problem": "时空智友祖传bug，无批量审批，在前段时间我已经发布了工作流的批量审批，但目前智友上的基础资料修改又是单独走的另一套审批，操作复杂，如果涉及到大数据量，操作巨费劲",
+ "cause": "智友祖传问题",
+ "solution": "个人开发出一套表单，替代智友自带审核方案，可以实现批量审核，以及承运单位的资料变更审批记录等\n\n修改代码在附件内，自行参照",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "JavaScript",
+  "REST API"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "批量审批"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-09-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxmNvZyJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxmNvZyJGlDd3mE",
+  "doc_path": "/时空/效率问题/时空智友祖传bug，无批量审批，在前段时间我已经发布了工作流的批量审批，但目前智友上的基础资料修改又是单独走的另一套审批，操作复杂，如果涉及到大数据量，操作巨费劲",
+  "record_id": "Jannlw2KA4"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/时空智友祖传bug，无批量审批，在前段时间我已经发布了工作流的批量审批，但目前智友上的基础资料修改又是单独走的另一套审批，操作复杂，如果涉及到大数据量，操作巨费劲",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

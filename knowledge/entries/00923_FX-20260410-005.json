@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260410-005",
+ "record_id": "NRjbElnv31",
+ "title": "收款单上需要根据客户自动带出业务员跟部门",
+ "problem": "收款单上需要根据客户自动带出业务员跟部门",
+ "cause": "需求",
+ "solution": "方案一：在客户业务信息中维护专管业务员跟部门，可实现直接带出\n方案二：可以设置页面规则，公式业务员ID 等于 getValue(\"aa.merchant.Principal\", \"professSalesman\", \"merchantId\", customer.id)业务员等于 getValue(\"aa.merchant.Principal\", \"professSalesman.name\", \"merchantId\", customer.id)部门lD等于getValue(\"aa.merchant.Principal\", \"specialManagementDep\", \"merchantId\", customer.id)部门等于 getValue(\"aa.merchant.Principal\", \"specialManage mentDep.name\", \"merchantId\", customer.id)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "客户带出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-04-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NRjbElnv31"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

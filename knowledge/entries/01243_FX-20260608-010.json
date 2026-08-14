@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260608-010",
+ "record_id": "Wj2gaArSzX",
+ "title": "当出现多个条件判断时，可以嵌套iif函数，例如应付单\n1）当业务伙伴字段有值，取业务伙伴；\n2）当业务伙伴无值，往来对象类型为客户时，取客户对应的业务伙伴；\n3）当业务伙伴无值，往来对象类型为资金业务对象时，取资金业务对象对应的业务伙伴。\n4）当业务伙伴无值，往来对象类型为员工时，取空值。",
+ "problem": "当出现多个条件判断时，可以嵌套iif函数，例如应付单\n1）当业务伙伴字段有值，取业务伙伴；\n2）当业务伙伴无值，往来对象类型为客户时，取客户对应的业务伙伴；\n3）当业务伙伴无值，往来对象类型为资金业务对象时，取资金业务对象对应的业务伙伴。\n4）当业务伙伴无值，往来对象类型为员工时，取空值。",
+ "cause": "配置结果：iif(isNull(partner.id),iif(objectType==1,customer.businessPartner.id,iif(objectType==2,funder.bizPartner.id,null)),partner.id)",
+ "solution": "配置结果：iif(isNull(partner.id),iif(objectType==1,customer.businessPartner.id,iif(objectType==2,funder.bizPartner.id,null)),partner.id)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "业务伙伴"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施6部",
+  "date": "2026-06-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Wj2gaArSzX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

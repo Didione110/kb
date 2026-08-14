@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240301-001",
+ "record_id": "FEzTfTgN9c",
+ "title": "Oracle查询 select  to_char((DATE '2024-02-29'  - INTERVAL '1' YEAR) ) from dual 提示日期无效（ora-01839）",
+ "problem": "Oracle查询 select to_char((DATE '2024-02-29' - INTERVAL '1' YEAR) ) from dual 提示日期无效（ora-01839）",
+ "cause": "闰年查询2月29日日期有效，平年查询2月29年日期无效",
+ "solution": "使用月度计算，月份会取2月28日 select TO\\_CHAR(ADD\\_MONTHS(date'2024-02-29', -12),'YYYY-MM-DD') from dual",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "工作流"
+ ],
+ "keywords": [
+  "日期无效"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2024-03-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p109dO8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p109dO8BQEx5rG",
+  "doc_path": "/时空/效率问题/Oracle查询 select  to_char((DATE '2024-02-29'  - INTERVAL '1' YEAR( ( from dual 提示日期无效（ora-01839）",
+  "record_id": "FEzTfTgN9c"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/Oracle查询 select  to_char((DATE '2024-02-29'  - INTERVAL '1' YEAR( ( from dual 提示日期无效（ora-01839）",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

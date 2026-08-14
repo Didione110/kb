@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240326-051",
+ "record_id": "9Y46Mcexk4",
+ "title": "WMS电子监管码导出的销售退回的XML文件上传马上放心平台解析不出退货单位",
+ "problem": "WMS电子监管码导出的销售退回的XML文件上传马上放心平台解析不出退货单位",
+ "cause": "电子监管码导出字段取错，客户是连锁药店，总部是仓库，误以为总部就是上游",
+ "solution": "修改存储过程LJT\\_WMS\\_ExportEMC中对应导出取值字段",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "退货单位"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-03-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDz1NLZZJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDz1NLZZJ63zgkYA",
+  "doc_path": "/其他/应用操作/WMS电子监管码导出的销售退回的XML文件上传马上放心平台解析不出退货单位",
+  "record_id": "9Y46Mcexk4"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/WMS电子监管码导出的销售退回的XML文件上传马上放心平台解析不出退货单位",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

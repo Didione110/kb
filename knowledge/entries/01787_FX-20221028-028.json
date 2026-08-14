@@ -1,0 +1,49 @@
+{
+ "id": "FX-20221028-028",
+ "record_id": "kPoQg92INV",
+ "title": "处理U8Cloud接口时，需要数据字典对照",
+ "problem": "处理U8Cloud接口时，需要数据字典对照",
+ "cause": "U8Cloud更新快，无法快速找到新版本的数据字典",
+ "solution": "U8Cloud 线上数据字典查询：https://www.yyu8c.com/#/CentralDocument/3；\n目前收录11个版本：V2.3--V3.6sp；",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "追溯码",
+  "接口",
+  "打印",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "U8Cloud 数据字典 接口"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2022-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kPoQg92INV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

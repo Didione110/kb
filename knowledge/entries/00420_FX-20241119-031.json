@@ -1,0 +1,45 @@
+{
+ "id": "FX-20241119-031",
+ "record_id": "A8bVUxlGFx",
+ "title": "客户要求在收银或者调拨的时候不允许输入小数",
+ "problem": "客户要求在收银或者调拨的时候不允许输入小数",
+ "cause": "医保不允许输入小数，及客户的管理要求等需要限制",
+ "solution": "使用正则表达式判断，代码如下：\n // 控制不允许输入小数\n var num = ds\\_djmx.field(\"num\").value ;\n var regex = /^\\[0-9\\]\\+\\$/;\n if(!regex.test(num))",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "禁止小数"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-11-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0gk1dBJxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0gk1dBJxAZB1Gv",
+  "doc_path": "/时空/产品功能问题/客户要求在收银或者调拨的时候不允许输入小数",
+  "record_id": "A8bVUxlGFx"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/客户要求在收银或者调拨的时候不允许输入小数",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

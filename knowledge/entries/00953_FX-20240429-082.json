@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240429-082",
+ "record_id": "OOipuOKwSe",
+ "title": "系统管理打开报错：运行时错误481无效图片",
+ "problem": "系统管理打开报错：运行时错误481无效图片",
+ "cause": "1、可能空间已满，要查看C盘空间，安装u8的u8soft目录所在盘空间是否已满。这个直接查看磁盘空间，如为0字节，清除空间后再去运行系统管理。\n\n2、可能临时目录文件夹损坏。\n\n在开始-运行里输入%temp% 确定后，如有报错，那就是临时文件夹temp有损坏，可能是病毒感染，杀毒软件改写temp文件夹权限等，造成的不能访问，这样就要做修复处理。",
+ "solution": "右击“我的电脑”– “属性” –“高级”–“环境变量” 选中Administrator的temp这行，点击“编辑”，将变量值修改为 d:\\temp再选中TMP这行，再点击“编辑”按钮，同样将变量值修改成d:\\temp 重启服务器再查看",
+ "solution_types": [
+  "环境设置",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "无效图片"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OOipuOKwSe"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

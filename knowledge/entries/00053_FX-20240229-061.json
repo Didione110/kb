@@ -1,0 +1,51 @@
+{
+ "id": "FX-20240229-061",
+ "record_id": "1CCTom0gY6",
+ "title": "点三OMS取消出库计划单，取消失败。记录原因是计划单不允许变更状态",
+ "problem": "点三OMS取消出库计划单，取消失败。记录原因是计划单不允许变更状态",
+ "cause": "原因是线下WMS已复核，不允许OMS订单取消，常见取消原因是退款自动取消",
+ "solution": "需通知仓库拦截发货，后面订单流程会出库，然后再做冲回。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "库存",
+  "追溯码",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "出库计划单"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-02-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/qnYMoO1rWxAaq6w6cjX3rdR0V47Z3je9?utm_scene=team_space",
+  "node_id": "qnYMoO1rWxAaq6w6cjX3rdR0V47Z3je9",
+  "doc_path": "/其他/数据接口问题/点三OMS取消出库计划单，取消失败。记录原因是计划单不允许变更状态",
+  "record_id": "1CCTom0gY6"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/点三OMS取消出库计划单，取消失败。记录原因是计划单不允许变更状态",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

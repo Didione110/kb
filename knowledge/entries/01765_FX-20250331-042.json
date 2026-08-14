@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250331-042",
+ "record_id": "jwqGBu2jo7",
+ "title": "电子追溯码校验增强版，新增多重校验拦截；\n1.多次销售拦截；\n2.销售后退货，然后再次多次销售拦截；",
+ "problem": "电子追溯码校验增强版，新增多重校验拦截；\n1.多次销售拦截；\n2.销售后退货，然后再次多次销售拦截；",
+ "cause": "电子追溯码校验增强版，新增多重校验拦截；\n1. 多次销售拦截；\n2. 销售后退货，然后再次多次销售拦截；",
+ "solution": "//历史重复扫描校验，sql宏详情见附件\n```\nvar ywlx = form.args.ds_djhz.field(\"ywlx\").value;\n\nif(ywlx == 'XS' ){\n var chk_imeino = DBUtil.uniqueValue(\"uf_sel_imeino\",{\"imeino\":IMEINo});\n if(chk_imeino > 0){\n alert(\"追溯码已销售，不允许重复扫描！\");\n sys_setFocus(textbox10);\n return;\n }\n \n var chk_amt = DBUtil.uniqueValue(\"uf_sel_ckamt\",{\"imeino\":IMEINo});\n if(chk_amt>0){\n alert(\"追溯码已销售，不允许重复扫描！！\");\n sys_setFocus(textbox10);\n return;\n }\n}\nif(ywlx == 'TH'){\n var chk_imeino = DBUtil.uniqueValue(\"uf_sel_imeino\",{\"imeino\":IMEINo});\n if(chk_imeino == 0){\n alert(\"未查到追溯码的销售记录，不允许扫描录入！\");\n sys_setFocus(textbox10);\n return;\n }\n}\n\n```",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "追溯码校验"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1LlKR8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1LlKR8BQEx5rG",
+  "doc_path": "/自研/数据接口问题/电子追溯码校验增强版，新增多重校验拦截；1.多次销售拦截；2.销售后退货，然后再次多次销售拦截；",
+  "record_id": "jwqGBu2jo7"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/电子追溯码校验增强版，新增多重校验拦截；1.多次销售拦截；2.销售后退货，然后再次多次销售拦截；",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241130-088",
+ "record_id": "tGQ3Eduf8p",
+ "title": "资料选择方案多选时报错弹框：Cannot read properties of undefined (reading 'length')\n",
+ "problem": "资料选择方案多选时报错弹框：Cannot read properties of undefined (reading 'length')",
+ "cause": "使用EDGE浏览器报错，使用360浏览器无问题，使用最新版小智浏览器无问题",
+ "solution": "更新最新ROOT文件即可解决",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "JavaScript",
+  "Edge"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "多选报错"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "tGQ3Eduf8p"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

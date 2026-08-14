@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240506-019",
+ "record_id": "6FZRfBNzaR",
+ "title": "ORACLE备份库导入到新环境后，查询报表效率大幅降低",
+ "problem": "ORACLE备份库导入到新环境后，查询报表效率大幅降低",
+ "cause": "如果统计信息不准确或过时，优化器可能会选择不理想的执行计划（未命中索引），导致查询性能下降。",
+ "solution": "执行收集统计信息过程，优化新能\nbegin\n dbms\\_stats.gather\\_table\\_stats(ownname =\\> 'RACE',\n tabname =\\> 'K\\_YINHAI\\_MESSAGE',\n estimate\\_percent =\\> DBMS\\_STATS.AUTO\\_SAMPLE\\_SIZE,\n method\\_opt =\\> 'FOR ALL COLUMNS SIZE AUTO');\nend; \n参数说明：\nownname:要分析表的拥有者\ntabname:要分析的表名.\npartname:分区的名字,只对分区表或分区索引有用.\nestimate\\_percent:采样行的百分比,取值范围\\[0.000001,100\\],null为全部分析,不采样. 常量:DBMS\\_STATS.AUTO\\_SAMPLE\\_SIZE是默认值,由oracle决定最佳取采样值.\nmethod\\_opt:决定histograms信息是怎样被统计的.method\\_opt的取值如下(默认值为FOR ALL COLUMNS SIZE AUTO):",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "性能下降"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbvzKzW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbvzKzW3kdP0wQ",
+  "doc_path": "/时空/效率问题/ORACLE备份库导入到新环境后，查询报表效率大幅降低",
+  "record_id": "6FZRfBNzaR"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/ORACLE备份库导入到新环境后，查询报表效率大幅降低",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250826-040",
+ "record_id": "A71YhoKeb2",
+ "title": "台账（金额）查询，2个料品数量为0、金额不为0。",
+ "problem": "台账（金额）查询，2个料品数量为0、金额不为0。",
+ "cause": "在固定资产采购发票未到前，就转固了。发票和收货金额有差额导致。",
+ "solution": "检查数据是发票和收货差异，导致的结存。这种做库存管理的成本调整单和资产的原值变更 成本调整单分录是在建工程和科目A 原值变更是科目A和固定资产。抵消后，剩下在建工程和固定资产。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "金额异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-08-26"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1XaRQ8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1XaRQ8BQEx5rG",
+  "doc_path": "/用友/应用操作/台账（金额）查询，2个料品数量为0、金额不为0。",
+  "record_id": "A71YhoKeb2"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/台账（金额）查询，2个料品数量为0、金额不为0。",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251009-001",
+ "record_id": "Ad2vhe13eg",
+ "title": "在Oracle数据库背景下请货单无法保存，报违反唯一主键，经过排查发现表的主键是billno+billsn+entid,根据插入数据发现并没有重复",
+ "problem": "在Oracle数据库背景下请货单无法保存，报违反唯一主键，经过排查发现表的主键是billno+billsn+entid,根据插入数据发现并没有重复",
+ "cause": "多方排查发现是针对RequestOrg表建的索引有问题，索引的主键是entid\\+orgid\\+goodsid,所以导致重复了",
+ "solution": "将错误索引删除后正常保存；",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "主键冲突"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1R97Q8BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1R97Q8BQEx5rG",
+  "doc_path": "/时空/数据错误问题/在Oracle数据库背景下请货单无法保存，报违反唯一主键，经过排查发现表的主键是billno+billsn+entid,根据插入数据发现并没有重复",
+  "record_id": "Ad2vhe13eg"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/在Oracle数据库背景下请货单无法保存，报违反唯一主键，经过排查发现表的主键是billno+billsn+entid,根据插入数据发现并没有重复",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

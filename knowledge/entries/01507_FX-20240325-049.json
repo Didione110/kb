@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240325-049",
+ "record_id": "dGSLEh5iSA",
+ "title": "明细grid单元格点进去默认全选，只能方向左右键进行取消全选",
+ "problem": "明细grid单元格点进去默认全选，只能方向左右键进行取消全选",
+ "cause": "产品功能导致",
+ "solution": "htmlgrid_editer.js 文件放 Tomcat\\webapps\\ROOT\\common \ngrid.min.js 文件放 common\\prod\\js \n再清浏览器缓存",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "全选默认"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "蒋志斌",
+  "department": "实施2部",
+  "date": "2024-03-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "dGSLEh5iSA"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

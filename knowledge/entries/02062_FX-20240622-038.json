@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240622-038",
+ "record_id": "qe0Br842BS",
+ "title": "C2财务集成功能，在使用中如果对之单的表单进行过调整，重新绑定过对照，希望待制单数据按照调整后的关系制单，则需要对待制单数据进行更新，具体操作如下：",
+ "problem": "C2财务集成功能，在使用中如果对之单的表单进行过调整，重新绑定过对照，希望待制单数据按照调整后的关系制单，则需要对待制单数据进行更新，具体操作如下：",
+ "cause": "隐藏功能说明：\n在待制单界面按下组合键【CTRL+ALT+Q】后会出现一个数据更新按钮",
+ "solution": "该按钮是对数据已经在待制单了，然后更改过表单绑定，制单时需要按照最新绑定关系制单，则可以\n使用该功能，把制单数据的绑定关系就行更新。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "制单更新"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-06-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "qe0Br842BS"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

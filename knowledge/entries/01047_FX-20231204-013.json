@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231204-013",
+ "record_id": "QnVj0iYT92",
+ "title": "一笔出库单开具多张发票，需要在出库单查询里面显示所有发票号码，不能重复显示单据",
+ "problem": "一笔出库单开具多张发票，需要在出库单查询里面显示所有发票号码，不能重复显示单据",
+ "cause": "一笔出库单开具多张发票，需要在出库单查询里面显示所有发票号码，不能重复显示单据",
+ "solution": "行转列语句：\noracle\nselect billno,listagg(logisticcode,',') within group(order by logisticcode) as logisticcode\n ,listagg(shippercode,',') within group(order by shippercode) as shippercode from k_wms_sendlog group by billno\n \nsql\n(select invoicecode+'/' from (select a.entid,invoicecode,rfbillno from invoicemt a join invoicedt b on a.billno=b.billno \n and a.entid=b.entid group by a.entid,invoicecode,rfbillno) y\n where a.billno=y.rfbillno and a.entid=y.entid for XML PATH('')) as invoicecode",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "多票关联"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2023-12-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QnVj0iYT92"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

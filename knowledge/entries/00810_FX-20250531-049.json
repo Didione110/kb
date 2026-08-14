@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250531-049",
+ "record_id": "KsR5rrmCYh",
+ "title": "删除Oracle中某个表数据，删除数据过大，等待一段时间后，报错ORA-30036: 无法按 8 扩展段解决办法",
+ "problem": "删除Oracle中某个表数据，删除数据过大，等待一段时间后，报错ORA-30036: 无法按 8 扩展段解决办法",
+ "cause": "删除的数据过大，导致undo表空间所在的数据文件超过32g，执行删除任务失败，且导致操作回滚",
+ "solution": "-- 查询undo表空间所在路径\nSELECT \\* FROM dba\\_data\\_files t where tablespace\\_name ='UNDOTBS1'\n-- 增加表空间物理文件\nalter tablespace UNDOTBS1 add datafile 'D:\\\\APP\\\\ADMINISTRATOR\\\\ORADATA\\\\ORCL2\\\\UNDOTBS02.DBF' size 512M autoextend on",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "ORA-30036、段扩展、undo表空间"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2025-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1qZP08BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1qZP08BQEx5rG",
+  "doc_path": "/时空/环境问题/删除Oracle中某个表数据，删除数据过大，等待一段时间后，报错ORA-30036  无法按 8 扩展段解决办法",
+  "record_id": "KsR5rrmCYh"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/删除Oracle中某个表数据，删除数据过大，等待一段时间后，报错ORA-30036  无法按 8 扩展段解决办法",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

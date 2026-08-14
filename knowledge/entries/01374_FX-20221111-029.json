@@ -1,0 +1,45 @@
+{
+ "id": "FX-20221111-029",
+ "record_id": "Zjxf71Fp4A",
+ "title": "诺诺发票程序请求开票返回 服务器异常extensionNumber(分机号):1不存在",
+ "problem": "诺诺发票程序请求开票返回 服务器异常extensionNumber(分机号):1不存在",
+ "cause": "税号未配置对应分机号信息",
+ "solution": "将税号对应的分机号信息提交给肖博伦进行配置即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "分机号不存在"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "产品开发部",
+  "date": "2022-11-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0BYwaVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0BYwaVDOnGvpb",
+  "doc_path": "/自研/应用操作/诺诺发票程序请求开票返回 服务器异常extensionNumber分机号1不存在",
+  "record_id": "Zjxf71Fp4A"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/诺诺发票程序请求开票返回 服务器异常extensionNumber分机号1不存在",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

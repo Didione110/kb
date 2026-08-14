@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231128-096",
+ "record_id": "n5Sh2gUrlB",
+ "title": "删除凭证提示凭证分录已被勾兑不能删除？",
+ "problem": "删除凭证提示凭证分录已被勾兑不能删除？",
+ "cause": "分录已经做了集团自动对账不能删除",
+ "solution": "需要在对账中心先反勾兑这个凭证数据 才能再删除凭证",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证勾兑"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-11-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "n5Sh2gUrlB"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

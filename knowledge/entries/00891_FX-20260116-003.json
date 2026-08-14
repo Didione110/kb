@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260116-003",
+ "record_id": "MwGChbGYrj",
+ "title": "\n应付单导入时，导入模板中部门填写的名称过长，报错显示部门长度超过字符20；",
+ "problem": "应付单导入时，导入模板中部门填写的名称过长，报错显示部门长度超过字符20；",
+ "cause": "单据导入部门长度已经代码控制",
+ "solution": "1、在首页录日志spr--打开相应节点--关闭spr--查找spr中的第一个语句中pk_page_templet的主键，根据语句执行第二个第三个语句\nselect pub_page_templet.ts from pub_page_templet where pub_page_templet.dr = 0 and pk_page_templet = '1001A9100000000E98AZ' \n\nSELECT * FROM pub_form_property WHERE areaid IN (SELECT pk_area FROM pub_area WHERE templetid = '1001A9100000000E9NP3' ) AND REFNAME like '%部门%'\n\nupdate pub_form_property set maxlength =1000 WHERE areaid IN (SELECT pk_area FROM pub_area WHERE templetid = '1001A9100000000E9NP3' ) AND REFNAME like '%部门%'\n\n2、到home中这个文件resources\\excel\\billdefine\\arap\\F1.xml修改部门的maxlength；部门和部门版本都要改，每个文件中表头表体共四处",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "部门超长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2026-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MwGChbGYrj"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

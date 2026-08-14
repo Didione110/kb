@@ -1,0 +1,36 @@
+{
+ "id": "FX-20230825-042",
+ "record_id": "K8PAnVDhwh",
+ "title": "凭证在审核节点点了凭证标错，发现这张凭证颜色变成红色不能审核了。",
+ "problem": "凭证在审核节点点了凭证标错，发现这张凭证颜色变成红色不能审核了。",
+ "cause": "标错凭证以后需要恢复凭证才能审核",
+ "solution": "点完凭证标错以后 ，在制单节点，打开标错的凭证，修改完凭证之后点击纠错再保存。点一下纠错 然后保存一下凭证，保存完，重新审核一下这个凭证，颜色就正常了。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证标错"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-08-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "K8PAnVDhwh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

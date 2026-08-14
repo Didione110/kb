@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240130-064",
+ "record_id": "FNDVoxVzVu",
+ "title": "出库计划单管理中快递获取面单失败，无法获得快递单号，订单数据无法正常推送到ERP",
+ "problem": "出库计划单管理中快递获取面单失败，无法获得快递单号，订单数据无法正常推送到ERP",
+ "cause": "（1）物流地址超范围停发，或者物流网点因其他原因停发。\n（2）面单数量不足，对应快递未及时充值。",
+ "solution": "停发的情况需要更换快递尝试获取面单，\n面单数量不足就进行充值后再操作批量获取面单。\n重新成功获取面单后一定记住要手动操作通知，订单数据才会推送ERP",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "面单失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe564zRD8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe564zRD8xLq0Ee4",
+  "doc_path": "/其他/数据错误问题/出库计划单管理中快递获取面单失败，无法获得快递单号，订单数据无法正常推送到ERP",
+  "record_id": "FNDVoxVzVu"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/出库计划单管理中快递获取面单失败，无法获得快递单号，订单数据无法正常推送到ERP",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

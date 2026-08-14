@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250409-014",
+ "record_id": "O8HCAlt7fH",
+ "title": "单价或者数量需要批量修改位数长度",
+ "problem": "单价或者数量需要批量修改位数长度",
+ "cause": "单价或者数量需要批量修改位数长度",
+ "solution": "例子：num DECIMAL(14,2) 修改为num DECIMAL(14,3)\nCREATE PROCEDURE dbo.usp_AlterNumColumnTo\nAS\nBEGIN\n SET NOCOUNT ON;\n\n -- 创建临时表记录执行日志\n CREATE TABLE #AlterLog (\n TableName NVARCHAR(255),\n Script NVARCHAR(MAX),\n Status NVARCHAR(50),\n ErrorMsg NVARCHAR(MAX),\n ExecTime DATETIME DEFAULT GETDATE()\n );\n\n -- 定义变量\n DECLARE @TableSchema NVARCHAR(128);\n DECLARE @TableName NVARCHAR(128);\n DECLARE @Sql NVARCHAR(MAX);\n DECLARE @ErrorMsg NVARCHAR(MAX);\n\n -- 游标遍历所有包含 num 字段且类型为 DECIMAL(14,2) 的表\n DECLARE cur CURSOR FOR\n SELECT \n TABLE_SCHEMA, \n TABLE_NAME\n FROM INFORMATION_SCHEMA.COLUMNS\n WHERE \n COLUMN_NAME = 'num '\n AND DATA_TYPE = 'decimal'\n AND NUMERIC_PRECISION = 14\n AND NUMERIC_SCALE = 2;\n\n OPEN cur;\n FETCH NEXT FROM cur INTO @TableSchema, @TableName;\n\n WHILE @@FETCH_STATUS = 0\n BEGIN\n BEGIN TRY\n -- 生成 ALTER 语句\n SET @Sql = N'\n ALTER TABLE ' + QUOTENAME(@TableSchema) + '.' + QUOTENAME(@TableName) + '\n ALTER COLUMN num DECIMAL(14,3);';\n\n -- 执行 SQL\n EXEC sp_executesql @Sql;\n\n -- 记录成功日志\n INSERT INTO #AlterLog (TableName, Script, Status)\n VALUES (\n QUOTENAME(@TableSchema) + '.' + QUOTENAME(@TableName),\n @Sql,\n 'Success'\n );\n END TRY\n BEGIN CATCH\n -- 捕获错误信息\n SET @ErrorMsg = ERROR_MESSAGE();\n\n -- 记录失败日志\n INSERT INTO #AlterLog (TableName, Script, Status, ErrorMsg)\n VALUES (\n QUOTENAME(@TableSchema) + '.' + QUOTENAME(@TableName),\n @Sql,\n 'Failed',\n @ErrorMsg\n );\n END CATCH\n\n FETCH NEXT FROM cur INTO @TableSchema, @TableName;\n END\n\n CLOSE cur;\n DEALLOCATE cur;\n\n -- 返回执行结果\n SELECT * FROM #AlterLog;\nEND",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "批量修改位数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "向阳",
+  "department": "实施2部",
+  "date": "2025-04-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "O8HCAlt7fH"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250831-057",
+ "record_id": "kMVYR66pJ2",
+ "title": "在做应付单选择“1%税率普票”的时候算出的税额和单价误差较大，误差会随着价税合计的金额同步增大。",
+ "problem": "在做应付单选择“1%税率普票”的时候算出的税额和单价误差较大，误差会随着价税合计的金额同步增大。",
+ "cause": "因为在“1%税率普票”的税组合税别中税计算方法选择的是“按金额课税(内含)”。",
+ "solution": "在“1%税率普票”的税组合税别中设置税计算方法为：“按金额课税(外含)”。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "税率计算误差"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-08-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kMVYR66pJ2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

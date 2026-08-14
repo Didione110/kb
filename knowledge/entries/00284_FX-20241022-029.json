@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241022-029",
+ "record_id": "6d6A6VtFuA",
+ "title": "SeeyonAPI开放接口组织模型管理\n用来获取组织模型基本信息，组织模型服务支持获取人员，岗位，职务，部门，单位等数据。",
+ "problem": "SeeyonAPI开放接口组织模型管理\n用来获取组织模型基本信息，组织模型服务支持获取人员，岗位，职务，部门，单位等数据。",
+ "cause": "本接口为OA的Http Rest，允许被异构系统远程调用，调用前需要调用Rest接口文档 (opens new window)获取Restful token身份凭证。",
+ "solution": "SeeyonAPI开放接口支持以下服务：\n部门管理支持获取，创建，修改，删除部门数据。\n岗位管理服务支持获取，创建，修改，删除岗位数据。\n职务管理服务支持获取，创建，修改，删除职务数据。\n单位管理服务支持获取，修改，删除单位信息。\n人员的创建、修改、删除和查找接口。\n外部单位服务管理(Since:V6.0)外部单位服务支持获取当前单位下所建立的外部单位信息。\n外部人员服务管理(Since:V6.0)外部人员服务支持获取外部人员信息，以及增加和删除外部人员信息。\n兼职服务管理(Since:V5.6 -V6.0)兼职服务管理支持对于单位兼职信息的查询与新建等操作。\n权限服务管理支持对于权限信息的查询等操作。\n参考资料如下：\nhttps://open.seeyoncloud.com/seeyonapi/728/732.html#%E6%9B%B4%E6%96%B0%E9%83%A8%E9%97%A8%E7%AE%A1%E7%90%86%E8%A7%92%E8%89%B2-since-v6-0",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "组织模型"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "dee数据引擎",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-10-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA34GvvWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA34GvvWn4qY5Pr",
+  "doc_path": "/致远OA/数据接口问题/SeeyonAPI开放接口组织模型管理 用来获取组织模型基本信息，组织模型服务支持获取人员，岗位，职务，部门，单位等数据。",
+  "record_id": "6d6A6VtFuA"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/数据接口问题/SeeyonAPI开放接口组织模型管理 用来获取组织模型基本信息，组织模型服务支持获取人员，岗位，职务，部门，单位等数据。",
+ "category": [
+  "致远OA",
+  "数据接口问题"
+ ]
+}

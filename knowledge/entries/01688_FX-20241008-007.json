@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241008-007",
+ "record_id": "hp3mSzE9xl",
+ "title": "款台开关设置默认数量后，当前台收银不修改数量时收款金额为零",
+ "problem": "款台开关设置默认数量后，当前台收银不修改数量时收款金额为零",
+ "cause": "默认数量后行明细未进行提交",
+ "solution": "在uf_selGoods方法中增加\nuf_fieldCompute(\"Num\");\nds_mxls.update();",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "默认数量"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hp3mSzE9xl"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

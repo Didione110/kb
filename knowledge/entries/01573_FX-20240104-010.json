@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240104-010",
+ "record_id": "fIMa7pFUwY",
+ "title": "客户linux服务器环境变化，导致配置的守护进程不能启动接口服务。报错找不到 dotnet 命令。",
+ "problem": "客户linux服务器环境变化，导致配置的守护进程不能启动接口服务。报错找不到 dotnet 命令。",
+ "cause": "配置的原dotnet 命令地址在 /usr/local/bin/dotnet\n通过whereis dotne 命令查看现在的dotnet命令在目录 /usr/bin/dotnet\n需要修改配置的命令地址",
+ "solution": "通过ln 命令做软连接，不用重新配置命令地址\n例：ln -s /usr/bin/dotnet /usr/local/bin/dotnet",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "dotnet缺失"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2024-01-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmbr3wV3bzYmDO?utm_scene=team_space",
+  "node_id": "oP0MALyR8kmlqNaNhYXmbr3wV3bzYmDO",
+  "doc_path": "/自研/环境问题/客户linux服务器环境变化，导致配置的守护进程不能启动接口服务。报错找不到 dotnet 命令。",
+  "record_id": "fIMa7pFUwY"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/客户linux服务器环境变化，导致配置的守护进程不能启动接口服务。报错找不到 dotnet 命令。",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

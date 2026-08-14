@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221208-035",
+ "record_id": "nDHrKW7Ga4",
+ "title": "固定资产模块进行【资产减少】单据“确认”时报错，显示“单据无法确认，可能凭证模板设置错误”",
+ "problem": "固定资产模块进行【资产减少】单据“确认”时报错，显示“单据无法确认，可能凭证模板设置错误”",
+ "cause": "对照表没有对应减少方式导致的",
+ "solution": "将会计平台设置成不生成凭证，看是否可以审核通过，如果可以，那就是平台配置的问题，检查平台配置，设置科目分类定义相关科目",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "资产减少确认"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2022-12-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nDHrKW7Ga4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

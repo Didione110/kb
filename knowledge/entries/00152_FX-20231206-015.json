@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231206-015",
+ "record_id": "3dsqRIKXrf",
+ "title": "仓储容器收货页面不显示明细",
+ "problem": "仓储容器收货页面不显示明细",
+ "cause": "商品资料未维护仓储包装单位及仓储包装规格",
+ "solution": "DHERP容器收货，会换算件数，未维护包装件数和仓储单位，收货语句关联不到仓储单位会报错。商品资料一定要维护仓储包装单位及仓储包装规格",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "接口"
+ ],
+ "keywords": [
+  "收货明细"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2023-12-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeA7R0NVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeA7R0NVKe0xjE3",
+  "doc_path": "/时空/应用操作/仓储容器收货页面不显示明细",
+  "record_id": "3dsqRIKXrf"
+ },
+ "status": "active",
+ "doc_path": "/时空/应用操作/仓储容器收货页面不显示明细",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

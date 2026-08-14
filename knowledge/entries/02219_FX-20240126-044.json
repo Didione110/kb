@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-044",
+ "record_id": "uku3xvNIdE",
+ "title": "服务闪退",
+ "problem": "服务闪退",
+ "cause": "系统环境变量，存在jdk版本不适配或者找不到jdk的情况",
+ "solution": "解决方案：\n使用内置的ufjdk\n操作:\n进入U8C_HOME\\bin目录下，右键u8cSetupCmdLine.bat脚本点击编辑\n增加一行“set JAVA_HOME=%NC_JAVA_HOME%”保存即可",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "JDK"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "闪退"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uku3xvNIdE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

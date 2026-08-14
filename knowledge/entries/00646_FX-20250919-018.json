@@ -1,0 +1,48 @@
+{
+ "id": "FX-20250919-018",
+ "record_id": "GGT6u4sQ5u",
+ "title": "新增平台店铺如何对接点三OMS系统",
+ "problem": "新增平台店铺如何对接点三OMS系统",
+ "cause": "各个平台对接和授权方式都不太一样，系统中也有一些策略需要配置。",
+ "solution": "新店对接需要现在平台上购买应用或者授权，达到条件和时间后会进行返款。完成后，回到点三系统进行如下几步操作：\n(1)增加店铺资料，进行对接授权。\n(2)新增打印模板和商家物流，对接快递。\n(3)库存同步策略勾选新增店铺。\n(4)转单策略中的选仓策略和物流匹配中关联新增店铺。\n(5)网店商品匹配功能中拉取新增店铺商品链接做匹配。\n完成以上步骤之后一个新增的店铺就完成了对接。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "接口",
+  "打印",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "平台对接"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-09-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DOBX2JKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DOBX2JKMEvZBY",
+  "doc_path": "/其他/应用操作/新增平台店铺如何对接点三OMS系统",
+  "record_id": "GGT6u4sQ5u"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/新增平台店铺如何对接点三OMS系统",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241115-025",
+ "record_id": "M2slXrzw4O",
+ "title": "所有查询右键记录过滤及记录查找页面空白",
+ "problem": "所有查询右键记录过滤及记录查找页面空白",
+ "cause": "数据库缺少FldSelDoe表",
+ "solution": "新建FldSelDoe表",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "页面空白"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施4部",
+  "date": "2024-11-15"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4D7wxpJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4D7wxpJKMEvZBY",
+  "doc_path": "/时空/产品功能问题/所有查询右键记录过滤及记录查找页面空白",
+  "record_id": "M2slXrzw4O"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/所有查询右键记录过滤及记录查找页面空白",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

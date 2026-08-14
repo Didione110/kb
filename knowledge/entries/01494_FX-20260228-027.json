@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260228-027",
+ "record_id": "cpMCNdRiqx",
+ "title": "25年账结完了进26年账套就提示报错，本年度尚未开账!请到期初设置中开账，但是期初余额-期初开账是灰色的点不动",
+ "problem": "25年账结完了进26年账套就提示报错，本年度尚未开账!请到期初设置中开账，但是期初余额-期初开账是灰色的点不动",
+ "cause": "因为客户u8有接口传递凭证传错了 传到新的一年，导致新的一年又凭证 期初不能开账",
+ "solution": "需要提问总部到数据库查询新的一年的凭证数据删掉",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "开账失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cpMCNdRiqx"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

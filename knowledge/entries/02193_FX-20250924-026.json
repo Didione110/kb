@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250924-026",
+ "record_id": "u3hn9d2MJc",
+ "title": "接口传递的收款合同/付款合同，前台可查看，但复制合同或修改合同供应商时，会报错：查找集团错误",
+ "problem": "接口传递的收款合同/付款合同，前台可查看，但复制合同或修改合同供应商时，会报错：查找集团错误",
+ "cause": "接口请求报文缺失本位币字段，需补充",
+ "solution": "接口请求报文缺失本位币字段，需补充；历史数据后台补充本位币字段后已解决",
+ "solution_types": [
+  "代码修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "查找集团错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "u3hn9d2MJc"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

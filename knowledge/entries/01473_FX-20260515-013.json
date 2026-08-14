@@ -1,0 +1,36 @@
+{
+ "id": "FX-20260515-013",
+ "record_id": "cMSJRa5W7R",
+ "title": "U9C系统在做外部抛单的时候，可以采购订单外抛销售订单，标准出货单协同抛单自动生成标准收货单。但是销售订单外抛采购的时候不支持收货单或者出货单协调抛单。",
+ "problem": "U9C系统在做外部抛单的时候，可以采购订单外抛销售订单，标准出货单协同抛单自动生成标准收货单。但是销售订单外抛采购的时候不支持收货单或者出货单协调抛单。",
+ "cause": "系统未实现",
+ "solution": "采用采购订单外抛销售订单的方案。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "外抛单协同"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "实施7部",
+  "date": "2026-05-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cMSJRa5W7R"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

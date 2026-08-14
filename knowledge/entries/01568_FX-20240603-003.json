@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240603-003",
+ "record_id": "f4XNFZ5Fpd",
+ "title": "对接的接口，由http升级为https",
+ "problem": "对接的接口，由http升级为https",
+ "cause": "使用c#开发对接rest接口或者soap接口，由http升级为https，接口程序报错不能使用",
+ "solution": "添加安全协议，不同版本的framework 的安全协议不同，都加上\nServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3\n \\| SecurityProtocolType.Tls\n \\| SecurityProtocolType.Tls11\n \\| SecurityProtocolType.Tls12;\n.net 5里面支持了Tls1.3版本，目前还没用到。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)",
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "HTTPS升级"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-06-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1PPj1WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1PPj1WrMqPxX6",
+  "doc_path": "/自研/安全问题/对接的接口，由http升级为https",
+  "record_id": "f4XNFZ5Fpd"
+ },
+ "status": "active",
+ "doc_path": "/自研/安全问题/对接的接口，由http升级为https",
+ "category": [
+  "自研",
+  "安全问题"
+ ]
+}

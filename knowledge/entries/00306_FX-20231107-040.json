@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231107-040",
+ "record_id": "7NQxRf6bC4",
+ "title": "财务接口的凭证生成后，点导出没反应，经跟踪提示：Automation 服务器不能包建对象",
+ "problem": "财务接口的凭证生成后，点导出没反应，经跟踪提示：Automation 服务器不能包建对象",
+ "cause": "图中错误是环境兼容性问题，还有一种情况是客户更换了电脑，没创建导出文件夹",
+ "solution": "下面附件提供了导出无反应的两种常见情况及解决方案",
+ "solution_types": [],
+ "tech_stack": [
+  "Windows",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "Automation"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2023-11-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDODMaW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDODMaW6zbX04v",
+  "doc_path": "/时空/环境问题/财务接口的凭证生成后，点导出没反应，经跟踪提示：Automation 服务器不能包建对象",
+  "record_id": "7NQxRf6bC4"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/财务接口的凭证生成后，点导出没反应，经跟踪提示：Automation 服务器不能包建对象",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

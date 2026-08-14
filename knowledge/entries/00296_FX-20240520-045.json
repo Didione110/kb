@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240520-045",
+ "record_id": "75BvkA128J",
+ "title": "7.0sp2升级到8.2sp1，升级程序数据库链接测试报错，导致无法升级数据库文件。",
+ "problem": "7.0sp2升级到8.2sp1，升级程序数据库链接测试报错，导致无法升级数据库文件。",
+ "cause": "报错提示的数据库参数已经是修改正确的，经过排查是8.2SP1升级程序的数据库链接驱动有问题。",
+ "solution": "1、安装（或升级）前将安装程序data/libs下的SeeyonInstaller.jar替换为补丁包中的的SeeyonInstaller.jar（补丁见附件）。\n2、安装（或升级）后启动服务前，将Apachejetspeet/lib/mssql-jdbc-12.2.0.jre8.jar移除，然后拷贝sqljdbc42.jar到的ApacheJetspeed/lib 下，再启动服务。",
+ "solution_types": [
+  "补丁更新",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据库链接"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "服务启停",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-05-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O04QPqVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O04QPqVDOnGvpb",
+  "doc_path": "/致远OA/安装部署问题/7.0sp2升级到8.2sp1，升级程序数据库链接测试报错，导致无法升级数据库文件。",
+  "record_id": "75BvkA128J"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/安装部署问题/7.0sp2升级到8.2sp1，升级程序数据库链接测试报错，导致无法升级数据库文件。",
+ "category": [
+  "致远OA",
+  "安装部署问题"
+ ]
+}

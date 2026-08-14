@@ -1,0 +1,30 @@
+{
+ "id": "doc-d7eef5d443",
+ "record_id": "",
+ "title": "如何进行批量审批操作快速通过快速驳回",
+ "problem": "如何进行批量审批操作快速通过快速驳回",
+ "cause": "需要手动进行节点设置",
+ "solution": "在高级中勾选快速通过、快速驳回即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgYPlRNyWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgYPlRNyWdqbropQ",
+  "doc_path": "/蓝凌OA/应用操作/如何进行批量审批操作快速通过快速驳回"
+ },
+ "doc_path": "/蓝凌OA/应用操作/如何进行批量审批操作快速通过快速驳回",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

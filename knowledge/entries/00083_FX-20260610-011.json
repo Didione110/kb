@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260610-011",
+ "record_id": "1qxG7t9Q8G",
+ "title": "系统自带的标签打印自定义控件，默认模版，调整放大比例打印，打印无法沾满标签纸问题",
+ "problem": "系统自带的标签打印自定义控件，默认模版，调整放大比例打印，打印无法沾满标签纸问题",
+ "cause": "主要是默认模板是50*30，现有标签纸纸张100*50，放大比例过大，无法适配",
+ "solution": "1、使用默认比例标签纸打印即可，已解决\n2、在系统默认的模版基础上，可以新建自定义标签模版（需要了解前端页面），相关操作见附件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "UI模板",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "标签打印缩放"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "表单制作",
+ "meta": {
+  "submitter": "郝实华",
+  "department": "实施5部",
+  "date": "2026-06-10"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1Yx2LJyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1Yx2LJyMoPYe1",
+  "doc_path": "/致远OA/产品功能问题/系统自带的标签打印自定义控件，默认模版，调整放大比例打印，打印无法沾满标签纸问题",
+  "record_id": "1qxG7t9Q8G"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/产品功能问题/系统自带的标签打印自定义控件，默认模版，调整放大比例打印，打印无法沾满标签纸问题",
+ "category": [
+  "致远OA",
+  "产品功能问题"
+ ]
+}

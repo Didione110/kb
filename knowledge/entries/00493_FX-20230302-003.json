@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230302-003",
+ "record_id": "CINxAw47P9",
+ "title": "有婚假,但没在假期额度管理里显示",
+ "problem": "有婚假,但没在假期额度管理里显示",
+ "cause": "配置问题",
+ "solution": "在考勤类别，婚假里勾上启用额度检查的勾",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "婚假未显示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "人力资源管理",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "CINxAw47P9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

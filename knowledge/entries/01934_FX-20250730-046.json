@@ -1,0 +1,39 @@
+{
+ "id": "FX-20250730-046",
+ "record_id": "nsluMOljwt",
+ "title": "客户问总账里面所有的账表査询能不能默认勾选上包含未记账和合并年份显示。现在系统是默认都不勾选的。",
+ "problem": "客户问总账里面所有的账表査询能不能默认勾选上包含未记账和合并年份显示。现在系统是默认都不勾选的。",
+ "cause": "系统不支持默认勾选",
+ "solution": "部分账簿支持保存查询方案，可参考附件勾选上包含未记账以及合并年份显示后，保存为账簿，下次再查询时点击账簿默认加载查询条件查询即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "默认勾选"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nsluMOljwt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

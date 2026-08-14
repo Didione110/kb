@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250620-026",
+ "record_id": "0WnmD2VKfX",
+ "title": "DHERP树形控件在开发工具的字体设置里调整大小无效",
+ "problem": "DHERP树形控件在开发工具的字体设置里调整大小无效",
+ "cause": "tree空间字体调整，需要用代码实现。",
+ "solution": "如下图1，新增sql宏语，然后新增方法调用sql宏以及调整字体大小，然后再uf\\_onload里加载此方法，完成后如下图2效果",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "字体设置无效"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2025-06-20"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3m6GQOJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3m6GQOJ9ekBD76",
+  "doc_path": "/时空/实施问题/DHERP树形控件在开发工具的字体设置里调整大小无效",
+  "record_id": "0WnmD2VKfX"
+ },
+ "status": "active",
+ "doc_path": "/时空/实施问题/DHERP树形控件在开发工具的字体设置里调整大小无效",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

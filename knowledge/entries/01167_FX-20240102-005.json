@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240102-005",
+ "record_id": "UI3o6DLVK9",
+ "title": "PDA上架时，如果返回报错，会提示商品已经上架，无法重新上架(ORACLE)",
+ "problem": "PDA上架时，如果返回报错，会提示商品已经上架，无法重新上架(ORACLE)",
+ "cause": "WMS存储过程上架临时表已经回写数据(ORACLE)",
+ "solution": "存储过程 WMS_PDA_RQSJ(ORACLE)\nif nvl(v_error_msg,' ') != ' ' then \n v_error_msg := v_error_msg || '和品种的大类不一致!';\n \n --update StoreRoom set beactive = 'Y' where beactive ='Z';\n \n RAISE_APPLICATION_ERROR(-20123, v_error_msg);\n return ;\n end if;\n把报错拦截从调用类型 B2调至 B1",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "上架重复"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2024-01-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UI3o6DLVK9"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

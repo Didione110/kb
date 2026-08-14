@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250402-004",
+ "record_id": "XlTrG2ZqW8",
+ "title": "客户审计给的整改意见，要求流程审批节点不显示“同意”字样",
+ "problem": "客户审计给的整改意见，要求流程审批节点不显示“同意”字样",
+ "cause": "修改工作流设计-自定义动作名称默认值",
+ "solution": "处理办法：工作流设计-高级-自定义动作名称：流程级修改动作名称为“已审核”，审批意见清空默认值“同意”；\n注意事项：流程修改后仅对新发起的流程生效；【如需修改历史审批记录，需要提工单找北京后台处理】",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "审批节点"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2025-04-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XlTrG2ZqW8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

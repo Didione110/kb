@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250924-025",
+ "record_id": "NHvRXTjzua",
+ "title": "供应商/客户新增统一社会信用代码只可以包含数字和大写字母校验",
+ "problem": "供应商/客户新增统一社会信用代码只可以包含数字和大写字母校验",
+ "cause": "供应商/客户新增统一社会信用代码只可以包含数字和大写字母校验",
+ "solution": "供应商/客户新增统一社会信用代码只可以包含数字和大写字母校验去除补丁\n云巡检搜索补丁：补丁编号：SUPPORT-YonBIP高级版2312-Patch-20240801093319-69943\n补丁编号：SUPPORT-YonBIP高级版2312-Special-20241126152330-88302",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic",
+  "Java"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "追溯码"
+ ],
+ "keywords": [
+  "统一信用代码校验"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-09-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NHvRXTjzua"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

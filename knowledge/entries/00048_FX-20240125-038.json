@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240125-038",
+ "record_id": "156sfji79r",
+ "title": "客户集采药品需要扫监管码，冷库药品无法扫码，冷库使用小票刷卡拣货电脑复核的模式",
+ "problem": "客户集采药品需要扫监管码，冷库药品无法扫码，冷库使用小票刷卡拣货电脑复核的模式",
+ "cause": "冷库药品不能拿出到电脑旁扫码",
+ "solution": "修改冷库拣货复核到整货刷卡，采用打拣货标签的模式，用手持复核扫描电子监管码上传的方式\n存储过程：WMS_bqsk_one",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "监管码、冷库、扫码、小票、复核"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "156sfji79r"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240127-057",
+ "record_id": "2RPgg3ZuIN",
+ "title": "通过工程变更后的BOM（虚拟件管理有分阶），在下了生产订单并领料后，使用工程变更的现场变更→自制订单，并不能自动修改备料，需要重新下生产订单",
+ "problem": "通过工程变更后的BOM（虚拟件管理有分阶），在下了生产订单并领料后，使用工程变更的现场变更→自制订单，并不能自动修改备料，需要重新下生产订单",
+ "cause": "变更后还是变更前的BOM",
+ "solution": "虚拟件升版了，自制变更的时候就找不到对应的母件订单， 母件订单需要手工做重算备料",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "虚拟件、BOM、工程变更、备料、生产订单"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-01-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2RPgg3ZuIN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

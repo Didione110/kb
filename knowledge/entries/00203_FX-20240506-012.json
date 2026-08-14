@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240506-012",
+ "record_id": "4jEYGJd1d3",
+ "title": "诺诺C纸票分机号问题，可以查询下一张发票号，开票报分机号不存在；",
+ "problem": "诺诺C纸票分机号问题，可以查询下一张发票号，开票报分机号不存在；",
+ "cause": "需要在后台http://cloud.kq1997.net:8001/index.html#/login配置分机号信息，纸票默认分机号0",
+ "solution": "需要在后台http://cloud.kq1997.net:8001/index.html#/login配置分机号信息，纸票默认分机号0",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "权限"
+ ],
+ "keywords": [
+  "分机号"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "4jEYGJd1d3"
+ },
+ "status": "active",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

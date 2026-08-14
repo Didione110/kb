@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230203-005",
+ "record_id": "SDTeFbg6wV",
+ "title": "医院处方平台接口，接收部分平台报文出现乱码问题。",
+ "problem": "医院处方平台接口，接收部分平台报文出现乱码问题。",
+ "cause": "多个第三方平台调用，由于使用技术不一样，部分通过前端推送得报文信息会进行URL加密。",
+ "solution": "做服务接口时，获取的报文需要先做两次URL解密。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "乱码"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "药监接口",
+ "module": "",
+ "meta": {
+  "submitter": "刘文豪",
+  "department": "研发2部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOA24X3Xcg41qOqjJA7depqY?utm_scene=team_space",
+  "node_id": "vy20BglGWOA24X3Xcg41qOqjJA7depqY",
+  "doc_path": "/自研/数据接口问题/医院处方平台接口，接收部分平台报文出现乱码问题。",
+  "record_id": "SDTeFbg6wV"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/医院处方平台接口，接收部分平台报文出现乱码问题。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

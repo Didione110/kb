@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230522-017",
+ "record_id": "jf9pMB1s1b",
+ "title": "A存货只能入A仓库，不能入别的仓库",
+ "problem": "A存货只能入A仓库，不能入别的仓库",
+ "cause": "A存货只能入A仓库，不能入别的仓库",
+ "solution": "1、业务流程中设置约束条件\n2、设置仓库存货存量",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "货仓绑定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-05-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jf9pMB1s1b"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

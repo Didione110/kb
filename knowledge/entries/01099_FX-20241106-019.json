@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241106-019",
+ "record_id": "SOk4Lv5oCt",
+ "title": "跨数据源取数查询表单报 超数据库连接 （15）",
+ "problem": "跨数据源取数查询表单报 超数据库连接 （15）",
+ "cause": "缺少最大连接数的配置参数，且ERP系统前台无法配置",
+ "solution": "直接在后台表UPDATE",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "连接超限"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2024-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "SOk4Lv5oCt"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

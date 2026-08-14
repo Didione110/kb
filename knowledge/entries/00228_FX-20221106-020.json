@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221106-020",
+ "record_id": "5PNAUNgjaQ",
+ "title": "SQL宏语句传入了参数值，在查询的时候无法查询到数据",
+ "problem": "SQL宏语句传入了参数值，在查询的时候无法查询到数据",
+ "cause": "SQL语句的参数值将用‘，’隔开的语句识别为一个字符串导致查询无数据显示",
+ "solution": "采用替换方案将字符串中的，替换成‘，’\nvar str = str.replace(new RegExp(\",\", \"gi\") , \"','\");",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "参数传递"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "陈波",
+  "department": "需求&KA部",
+  "date": "2022-11-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAQXgzV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAQXgzV1DK0g6l",
+  "doc_path": "/时空/产品功能问题/SQL宏语句传入了参数值，在查询的时候无法查询到数据",
+  "record_id": "5PNAUNgjaQ"
+ },
+ "status": "active",
+ "doc_path": "/时空/产品功能问题/SQL宏语句传入了参数值，在查询的时候无法查询到数据",
+ "category": [
+  "时空",
+  "产品功能问题"
+ ]
+}

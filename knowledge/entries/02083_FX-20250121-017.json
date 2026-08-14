@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-017",
+ "record_id": "r5ahuoOQvN",
+ "title": "批量将A业务单元的客商分配给B业务单元",
+ "problem": "批量将A业务单元的客商分配给B业务单元",
+ "cause": "子公司架构变动及其他原因，更换账套，需要批量复制档案",
+ "solution": "选择一个不用的自定义项，例如30\n将原A业务单元的客户都打上标，如2030，\nupdate bd_customer set def30 = '2030' where pk_customer in (select pk_customer from bd_custorg where pk_org in (select pk_org from org_orgs where code = '1008'));\ncommit;\n查询确认成功后，再到客户-集团的分配向导里过滤自定义30等于2030的档案，统一分配给新业务单元即可",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "客商分配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "r5ahuoOQvN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

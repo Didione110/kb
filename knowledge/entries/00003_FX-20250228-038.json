@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250228-038",
+ "record_id": "06NiO8dChJ",
+ "title": "应收应付转总账时报错\"当前数据正在被操作....\"",
+ "problem": "应收应付转总账时报错\"当前数据正在被操作....\"",
+ "cause": "异常占用",
+ "solution": "1.联系这个用户XXX,确认他做的操作是否已经完成了很久了.\n2.如果他做完了还提示,可以自行解锁:\n1) 打开账号下的工具-管理工具\n2)然后点击\"EntityLock实体锁管理\"\n3)在打开的页面选择报错的那行,然后删除就可以了",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "数据锁定"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "06NiO8dChJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

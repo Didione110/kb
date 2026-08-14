@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-009",
+ "record_id": "3h0SmQQPpM",
+ "title": "明细表通过公式定义器不生效",
+ "problem": "明细表通过公式定义器不生效",
+ "cause": "低代码语法不一样，明细表计算是list算法，产品未考虑，需要单独增加JS",
+ "solution": "增加JS片段，并对计算控件进行动态监控，然后循环计算后进行赋值\n<xform:editShow>\n<script>\n// 质量\nAttachXFormValueChangeEventById(\"fd_3c8b48b6cf7e1c\",changeGrade);\n// 价格\nAttachXFormValueChangeEventById(\"fd_3c8b48b846da94\",changeGrade);\n// 安全\nAttachXFormValueChangeEventById(\"fd_3c8b48b9bde692\",changeGrade);\n// 履约\nAttachXFormValueChangeEventById(\"fd_3c8b48bae514fc\",changeGrade);\n// 售后\nAttachXFormValueChangeEventById(\"fd_3c8b48c266d02e\",changeGrade);\n\nfunction changeGrade(){\n // 获取明细表行数\n const length = $(\"#TABLE_DL_fd_3c8b44b27d1194\").children().first().children().length-3;\n // 遍历明细表行数\n for(var i = 0;i < length; i++) {\n const scoreStr = GetXFormFieldValueById(\"fd_3c8b44b27d1194.\" + i + \".fd_3c8b48c69517d2\")[0];\n const score = parseInt(scoreStr);\n if(score >= 85){\n SetXFormFieldValueById(\"fd_3c8b44b27d1194.\" + i + \".fd_3c8b49e7321074\", \"合格\");\n } else {\n SetXFormFieldValueById(\"fd_3c8b44b27d1194.\" + i + \".fd_3c8b49e7321074\", \"不合格\");\n }\n }\n}\n\n</script>\n</xform:editShow>",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "公式不生效"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3h0SmQQPpM"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

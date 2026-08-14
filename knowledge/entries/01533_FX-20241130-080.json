@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241130-080",
+ "record_id": "eGXYz2dnb1",
+ "title": "在u8c科目关系设置中，只设置了科目借方带出来现金流量，但是在实际填制现金流量凭证时，不管科目填在借方还是贷方，都带出来了这个现金流量项目",
+ "problem": "在u8c科目关系设置中，只设置了科目借方带出来现金流量，但是在实际填制现金流量凭证时，不管科目填在借方还是贷方，都带出来了这个现金流量项目",
+ "cause": "只填制了一个方向的现金流量科目关系设置会导致制单不管填制在哪个方向都默认带出来这个现金流量项目，如果需要在制单区分方向带出不同现金流量项目，需要再不同的方向针对这个科目设置现金流量项目",
+ "solution": "更改现金流量关系科目设置，分别在借方贷方填制现金流量项目自动带出",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "工作流"
+ ],
+ "keywords": [
+  "科目带出"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eGXYz2dnb1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

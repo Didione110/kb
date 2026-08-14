@@ -1,0 +1,37 @@
+<!-- META: {"nodeId": "YndMj49yWjaXw2Z2TRNmRdgd83pmz5aA", "title": "服务器上与ApacheJetspeed同级的base目录有什么作用是否可以删除", "docUrl": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmRdgd83pmz5aA?utm_scene=team_space", "path": "/致远OA/安装部署问题/服务器上与ApacheJetspeed同级的base目录有什么作用是否可以删除", "fetchTime": "2026-08-14 00:01:09"} -->
+
+## 问题现象
+
+服务器上与ApacheJetspeed同级的base目录有什么作用，是否可以删除？
+
+场景一：客户需要对OA部署目录做灾备，发现与ApacheJetspeed同级的base目录下有多个文件夹，有的文件夹一直在增加文件。客户想问：base下面哪些文件夹不用做备份。
+
+场景二：客户发现base目录下有多个文件夹，有的文件夹一直在增加文件，磁盘占用很大，客户想问：base下面哪些文件夹可以删除，不影响系统使用。
+
+## 问题原因
+
+适用人群
+客服、技术、运维、实施
+了解OA系统安装目录的作用，以免误操作，导致服务无法启动和数据异常
+
+## 解决方案
+
+base目标各级文件功能说明见附件参考
+
+---
+
+## 附加信息
+
+**对应版本**: A8企业版
+
+**对应模块**: 服务启停
+
+**问题类型**: 安装部署问题
+
+**技术栈**: Tomcat, Linux, Java
+
+**问题关键字**: base目录
+
+**单据编号**: FX-20240831-073
+
+**提交人**: 李冲  \|  **提交部门**: 成功部创新组-停用  \|  **提交日期**: 2024-08-31

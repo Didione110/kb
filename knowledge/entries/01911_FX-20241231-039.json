@@ -1,0 +1,43 @@
+{
+ "id": "FX-20241231-039",
+ "record_id": "nTDjzTjCeZ",
+ "title": "下班期间没人审单",
+ "problem": "下班期间没人审单",
+ "cause": "在没人上班期间订单会积压，到第二天上班审单的工作量较大。",
+ "solution": "为了减少第二天上班的审单工作量，可以配置自动客审策略，针对指定的店铺和指定的时间段的订单，系统自动客审。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "审单无人"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-12-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nTDjzTjCeZ"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

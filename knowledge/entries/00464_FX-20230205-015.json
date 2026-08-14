@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230205-015",
+ "record_id": "BRgyoJ1XvP",
+ "title": "服务器自动备份文件长时间未删除，导致磁盘空间不足",
+ "problem": "服务器自动备份文件长时间未删除，导致磁盘空间不足",
+ "cause": "服务器自动备份文件长时间未删除，导致磁盘空间不足",
+ "solution": "新建文本文档，写入del D:\\\\oraclebak\\\\files\\*.DMP，更改文本后缀为bat，然后设置系统计划任务定时清理",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "磁盘空间不足"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2023-02-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBbYBmXmHPYAGRyLV1DK0g6l?utm_scene=team_space",
+  "node_id": "Qnp9zOoBVBbYBmXmHPYAGRyLV1DK0g6l",
+  "doc_path": "/时空/安装部署问题/服务器自动备份文件长时间未删除，导致磁盘空间不足",
+  "record_id": "BRgyoJ1XvP"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/服务器自动备份文件长时间未删除，导致磁盘空间不足",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

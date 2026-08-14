@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241009-024",
+ "record_id": "cQjfbzOIQL",
+ "title": "DHERP系统修改企业名称",
+ "problem": "DHERP系统修改企业名称",
+ "cause": "DHERP系统修改企业名称",
+ "solution": "1.在DHERP中修改企业名称\n2.清空ModuleAccrt\nFuncAccredit\nProductAccrt\nsysstate 表\n3.联系北京重置注册\n4.时空重新注册\n5.重启TOMCAT",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "企业名称修改"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "实施4部",
+  "date": "2024-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cQjfbzOIQL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

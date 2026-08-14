@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221031-048",
+ "record_id": "LFcXkseIXh",
+ "title": "老版本合并波次，必须手动点击或输入数字进行选单合并",
+ "problem": "老版本合并波次，必须手动点击或输入数字进行选单合并",
+ "cause": "新进线上2c单据（30单合并），和线下单据（四单）并存，导致客户第一需要手选，第二需要确定那些是2C单据，那些是线下单据，然后再选择，很影响操作。",
+ "solution": "改进合并波次方式，一次选择全部，例如100单，系统会自动根据单据类型来判断30单一合，还是四单一合，进行自动生成",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "手动合并"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mQRmAJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mQRmAJ9ekBD76",
+  "doc_path": "/其他/产品功能问题/老版本合并波次，必须手动点击或输入数字进行选单合并",
+  "record_id": "LFcXkseIXh"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/老版本合并波次，必须手动点击或输入数字进行选单合并",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

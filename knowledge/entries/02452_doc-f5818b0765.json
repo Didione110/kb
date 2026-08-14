@@ -1,0 +1,30 @@
+{
+ "id": "doc-f5818b0765",
+ "record_id": "",
+ "title": "审批流程结束但文档状态显示待审点进去却显示流程结束",
+ "problem": "审批流程结束但文档状态显示待审点进去却显示流程结束",
+ "cause": "流程文档状态异常",
+ "solution": "在流程监控中心-异常流程中 找到该流程 修复即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNxpDZR83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNxpDZR83pmz5aA",
+  "doc_path": "/蓝凌OA/产品功能问题/审批流程结束但文档状态显示待审点进去却显示流程结束"
+ },
+ "doc_path": "/蓝凌OA/产品功能问题/审批流程结束但文档状态显示待审点进去却显示流程结束",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

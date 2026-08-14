@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250705-005",
+ "record_id": "beNzbER2Y8",
+ "title": "U8产成品入库单新增的时候要自动审核",
+ "problem": "U8产成品入库单新增的时候要自动审核",
+ "cause": "之前是修改cHandler=\"MES\" dnverifytime=\"2025-01-21T00:00:00\" dVeriDate=\"2025-01-21T00:00:00\" 这3个字段，使单据呈现已审核状态，但是审核的后台逻辑没有实现，比如商品的现存量数据没有更新。",
+ "solution": "单据审核要使用api接口调用，只更新字段是没有用的",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "自动审核"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-07-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "beNzbER2Y8"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

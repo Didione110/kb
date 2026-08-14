@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-095",
+ "record_id": "2iIAktu7sP",
+ "title": "工单h5端开发：删除图片失败",
+ "problem": "工单h5端开发：删除图片失败",
+ "cause": "使用uni-file-picker组件delete事件删除图片会修改绑定数据，导致图片回显失败",
+ "solution": "新建变量存储图片数据，只获取删除图片位置，使用splice方法删除图片数据，复制给绑定数据，图片即可回显成功",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "图片删除失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1e7Z1WrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1e7Z1WrMqPxX6",
+  "doc_path": "/自研/产品功能问题/工单h5端开发：删除图片失败",
+  "record_id": "2iIAktu7sP"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/工单h5端开发：删除图片失败",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

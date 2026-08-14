@@ -1,0 +1,36 @@
+{
+ "id": "FX-20240228-056",
+ "record_id": "pMXBHHHRF7",
+ "title": "流程是否可以归档，除了在表单查询中能查以外",
+ "problem": "流程是否可以归档，除了在表单查询中能查以外",
+ "cause": "蓝凌无致远的预归档功能，引用的概念是知识沉淀",
+ "solution": "在流程管理中新建单据时有个栏目是知识沉淀，这个与预归档功能类似，但是此功能需要购买对应模块才可是实现，模块为知识仓库，不是知识中心，这一点请销售同事在销售过程中注意",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "归档查询"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "流程管理",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pMXBHHHRF7"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "实施问题"
+ ]
+}

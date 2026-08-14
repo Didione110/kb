@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240604-015",
+ "record_id": "mh4vvCqXYB",
+ "title": "点三系统方案二，使用出库单数据推送erp。原始订单完成退款后，只能自行手工驳回订单避免发错货。",
+ "problem": "点三系统方案二，使用出库单数据推送erp。原始订单完成退款后，只能自行手工驳回订单避免发错货。",
+ "cause": "订单完成退款，自动驳回出库单（自管仓）开关未开启",
+ "solution": "点三系统方案二，使用出库单推送订单数据时，仓库类型使用的是自管仓类型。在订单完成退款时默认需要自行取消出库单，系统设置-订单设置中开启订单完成退款，自动驳回出库单（自管仓）开关后，系统检测原始订单退款完成会自动驳回出库单。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "退款驳回"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mh4vvCqXYB"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240605-018",
+ "record_id": "0T4mUOqCwE",
+ "title": "客户反馈系统很卡，点半天没有反应",
+ "problem": "客户反馈系统很卡，点半天没有反应",
+ "cause": "第三方平台进行数据同步时候，由于数据量特别大导致涉及的业务表进行独占未释放，时空正常业务开展时候无法进行插入或者读取导致了后续的任务阻塞了，最终表现为卡顿；",
+ "solution": "1. 优化第三方平台取数代码优化；\n2. 针对大记录表数据抽取可以将表结构加上脏读，不进行独占不释放；",
+ "solution_types": [
+  "SQL脚本",
+  "代码修改"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "PolarDB",
+  "达梦"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "系统卡顿"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-06-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mMgNGJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mMgNGJ9ekBD76",
+  "doc_path": "/时空/效率问题/客户反馈系统很卡，点半天没有反应",
+  "record_id": "0T4mUOqCwE"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/客户反馈系统很卡，点半天没有反应",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

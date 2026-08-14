@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240418-058",
+ "record_id": "QlhIGoFJge",
+ "title": "实施导航凭证导入提示“元素或特性的本地名称不能为空或空字符串”",
+ "problem": "实施导航凭证导入提示“元素或特性的本地名称不能为空或空字符串”",
+ "cause": "模板损坏",
+ "solution": "实施导航恢复模板，重新打开凭证导入模板，维护导入无误",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "导航凭证导入"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-04-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QlhIGoFJge"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

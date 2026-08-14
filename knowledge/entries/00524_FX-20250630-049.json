@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250630-049",
+ "record_id": "D1struXP77",
+ "title": "目前客户的付款单据有部门字段，部门档案表上自定义DEF1存部门费用类型（销售部门、管理部门、成本部门、研发部门），现需要付款单上的影响因素根据部门的DEF1来做单据影响因素关联，分别入不用的科目",
+ "problem": "目前客户的付款单据有部门字段，部门档案表上自定义DEF1存部门费用类型（销售部门、管理部门、成本部门、研发部门），现需要付款单上的影响因素根据部门的DEF1来做单据影响因素关联，分别入不用的科目",
+ "cause": "需要按照部门档案的费用类型入账科目进行判断",
+ "solution": "1、部门档案上自定义项存部门类型；2、影响因素设置字符串的逻辑；3、字符串关联部门档案的自定义；4、单据模板上引用影响因素",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "部门费用类型"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "李志文",
+  "department": "实施7部",
+  "date": "2025-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "D1struXP77"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

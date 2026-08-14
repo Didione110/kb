@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250121-024",
+ "record_id": "kJelSBOeRH",
+ "title": "新增了下一年度后保存凭证提示找不到会计期间",
+ "problem": "新增了下一年度后保存凭证提示找不到会计期间",
+ "cause": "【账簿设置】节点，查看这个账簿的会计期间方案；\n【会计期间】节点，选择对应的会计期间方案，点击“新增期间”确认新年度的期间已正确添加。\n\n如果已经按照上述步骤操作但问题依旧存在，可能需要进一步检查凭证日期是否落在已定义的会计期间内。",
+ "solution": "【账簿设置】节点，查看这个账簿的会计期间方案；\n【会计期间】节点，选择对应的会计期间方案，点击“新增期间”确认新年度的期间已正确添加。\n\n如果已经按照上述步骤操作但问题依旧存在，可能需要进一步检查凭证日期是否落在已定义的会计期间内。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "会计期间"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kJelSBOeRH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

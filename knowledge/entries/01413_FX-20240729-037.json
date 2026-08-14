@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240729-037",
+ "record_id": "afnnvG65eS",
+ "title": "采购入库单打印单据要求每一页都有表头",
+ "problem": "采购入库单打印单据要求每一页都有表头",
+ "cause": "打印设置",
+ "solution": "单据格式设置-模板样式-取消顺序打印",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "表头打印"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "供应链管理",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-07-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "afnnvG65eS"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

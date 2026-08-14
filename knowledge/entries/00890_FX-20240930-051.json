@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240930-051",
+ "record_id": "MqnDw0paqL",
+ "title": "DHERP-WMS的整件刷卡是第一次刷卡出拣货标签，第二次刷卡则是确认拣货，需要电脑保存，如需要修改数量则到电脑上进行修改，但是一但保存则会减掉货位库存。所以保存一定要核对之后。",
+ "problem": "DHERP-WMS的整件刷卡是第一次刷卡出拣货标签，第二次刷卡则是确认拣货，需要电脑保存，如需要修改数量则到电脑上进行修改，但是一但保存则会减掉货位库存。所以保存一定要核对之后。",
+ "cause": "DHERP-WMS的整件刷卡是第一次刷卡出拣货标签，第二次刷卡则是确认拣货，需要电脑保存，如需要修改数量则到电脑上进行修改，但是一但保存则会减掉货位库存。所以保存一定要核对之后。",
+ "solution": "DHERP-WMS的整件刷卡是第一次刷卡出拣货标签，第二次刷卡则是确认拣货，需要电脑保存，如需要修改数量则到电脑上进行修改，但是一但保存则会减掉货位库存。所以保存一定要核对之后。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存",
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "整件刷卡"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MqnDw0paqL"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

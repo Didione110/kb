@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250331-050",
+ "record_id": "xUJnLb12jO",
+ "title": "WMS出库记账时，未记账到选择的批次，记账到了空批次00000000000上面。",
+ "problem": "WMS出库记账时，未记账到选择的批次，记账到了空批次00000000000上面。",
+ "cause": "WMS商品资料是由ERP传入，传入的时候，商品属性管理多维度未关注，导致默认为N，入库产生了空批次，出库也记账到了空批次",
+ "solution": "将接口中，多维度管理默认为Y。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "批次错账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "物流管理模块",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "xUJnLb12jO"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

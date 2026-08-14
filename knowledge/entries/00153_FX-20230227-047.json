@@ -1,0 +1,48 @@
+{
+ "id": "FX-20230227-047",
+ "record_id": "3e6WDz6dFG",
+ "title": "新医保接口程序打开后显示无法签到",
+ "problem": "新医保接口程序打开后显示无法签到",
+ "cause": "客户端没有安装医保控件",
+ "solution": "安装医保控件",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "IE",
+  "360浏览器"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印",
+  "工作流",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "无法签到"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "张忠文",
+  "department": "服务值班组",
+  "date": "2023-02-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmyv5083pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmyv5083pmz5aA",
+  "doc_path": "/自研/环境问题/新医保接口程序打开后显示无法签到",
+  "record_id": "3e6WDz6dFG"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/新医保接口程序打开后显示无法签到",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

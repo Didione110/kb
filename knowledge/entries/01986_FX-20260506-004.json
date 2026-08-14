@@ -1,0 +1,40 @@
+{
+ "id": "FX-20260506-004",
+ "record_id": "ouEpnBpUVn",
+ "title": "用户分配了供应链费用单节点，但是在做单时表体有些字段没有，如费用供应商，检查UI模板无问题",
+ "problem": "用户分配了供应链费用单节点，但是在做单时表体有些字段没有，如费用供应商，检查UI模板无问题",
+ "cause": "数据权限导致",
+ "solution": "修改数据敏感权限，取消供应商不可见",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "费用供应商"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-05-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ouEpnBpUVn"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

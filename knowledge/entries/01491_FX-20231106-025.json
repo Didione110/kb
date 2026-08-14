@@ -1,0 +1,43 @@
+{
+ "id": "FX-20231106-025",
+ "record_id": "cm5yGpcgpB",
+ "title": "DHERP仓库出库逻辑及过程",
+ "problem": "DHERP仓库出库逻辑及过程",
+ "cause": "DHERP仓库出库逻辑及过程",
+ "solution": "第一步: wms_ckdd_locatnum 准备库存信息，传递给jar包使用\n第二步: wms_ckdd_getbhlocat, 如果有紧急补货的话\n第三步：wms_ckdd_getfreqorder, 准备波次订单信息,调度，是否调度，指定批号\n会调用批号分摊过程 wms_ckdd_getfreqorder_phft \n批号分摊的同时，会调用 品种，批号库存过程 wms_ckdd_locatnum_batchcode。和 第一步 ·的库存信息要区分开。（第一步带货位，这一步不带）\n第四步: wms_ckdd_account，调度主过程，形成拣货任务,回写订单信息\n第五步: 主过程里调用 主动补货过程 wms_ckdd_zdbh\n第六步: 主过程里调用 拼箱复核台 wms_ckdd_fp_pxfht_dd\n第七步: 主过程里调用 分配集货区 wms_ckdd_fp_jhq\n第八步:主过程里调用 电子标签预留过程(空内容) wms_ckdd_dps",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "出库逻辑"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "柳皖智",
+  "department": "实施2部",
+  "date": "2023-11-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "cm5yGpcgpB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "实施问题"
+ ]
+}

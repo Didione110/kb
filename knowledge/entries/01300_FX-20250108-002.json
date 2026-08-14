@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250108-002",
+ "record_id": "Y2kCh55BIt",
+ "title": "需要友空间进行移动审批",
+ "problem": "需要友空间进行移动审批",
+ "cause": "U9本身没有移动端",
+ "solution": "1、需要成为YS租户,YS需要开通移动审批（免费，但需要提交订单）\n2、U9C需要配置移动服务器，在原有基础上安装，同时需要开通移动端口至外网，具体可见操作手册\n3、友空间搜索登录配置，在第二步基础上绑定组织\n4、U9C单据开启工作流，即可正常推送",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "移动审批"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "移动应用",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Y2kCh55BIt"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

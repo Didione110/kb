@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-044",
+ "record_id": "zR5QDqKWYN",
+ "title": "手持APP上架无法控制品种上架的存储条件的",
+ "problem": "手持APP上架无法控制品种上架的存储条件的",
+ "cause": "APP_WMS_CGSJ存储过程的存储过程无法拦截存储条件",
+ "solution": "测试序号发生变化导致存储过程无法拦截，修改存储过程后解决 IF EXISTS (SELECT 1 FROM sjdmx_mx a (nolock) JOIN spkfk b (nolock) ON b.spid = a.spid\n JOIN huoweizl c (nolock) ON a.hw = c.hw and c.ckid<>'CKI00000009'\n WHERE a.jhdjbh = @djbh AND b.cunchtj not like '%'+c.cunchtj+'%' )",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "存储条件"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zR5QDqKWYN"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

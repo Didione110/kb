@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230306-010",
+ "record_id": "0V81BEnSzY",
+ "title": "通过EAI导入固定资产修改或删除报\"BOF或EOF有一个是真，或者当前记录已被删除，所需的操作要求一个当前操作\"",
+ "problem": "通过EAI导入固定资产修改或删除报\"BOF或EOF有一个是真，或者当前记录已被删除，所需的操作要求一个当前操作\"",
+ "cause": "EAI本身bug，没有相应校验及关联更新。fa\\_total资产类型总表中记录年度与资产折旧年底不相符导致该问题",
+ "solution": "修改总表记录与折旧年度一致即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "EAI"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "BOF/EOF错误"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "程时红",
+  "department": "研发2部",
+  "date": "2023-03-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lEXlz86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lEXlz86EDybno",
+  "doc_path": "/用友/软件补丁问题/通过EAI导入固定资产修改或删除报 BOF或EOF有一个是真，或者当前记录已被删除，所需的操作要求一个当前操作",
+  "record_id": "0V81BEnSzY"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件补丁问题/通过EAI导入固定资产修改或删除报 BOF或EOF有一个是真，或者当前记录已被删除，所需的操作要求一个当前操作",
+ "category": [
+  "用友",
+  "软件补丁问题"
+ ]
+}

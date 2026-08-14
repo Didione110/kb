@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240331-078",
+ "record_id": "HJ98qNWF8v",
+ "title": "没有跨组织生产领料，生成交易分录时使用了中间科目生产出库。库存管理：借：生产出库贷：存货；成本会计：借：生产成本贷：生产出库",
+ "problem": "没有跨组织生产领料，生成交易分录时使用了中间科目生产出库。库存管理：借：生产出库贷：存货；成本会计：借：生产成本贷：生产出库",
+ "cause": "当生产领料对应的成本域和生产订单的成本域不一致时属于跨域领料。跨域的领料会产生两笔分录： 借：生产成本 贷：生产出库 、借：生产出库 贷：存货；一个在成本会计下转总账，一个在库存下转总账，两个地方分别查看。",
+ "solution": "库存下对应的分录模板异动类型为跨组织领料，生产出库是中间科目， 配置到一个不关注发生额的科目即可，不影响对账的。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "跨组织领料"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "成本管理",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HJ98qNWF8v"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241230-034",
+ "record_id": "DNXwIaBMHz",
+ "title": "商品器械单个别单据无法复核，提示超长",
+ "problem": "商品器械单个别单据无法复核，提示超长",
+ "cause": "标准库中的复核存储过程LJT\\_WMS\\_FHT\\_mxfhYY中单据汇总中数量合计字段zhehjsh默认decimal(6,2)导致复核单据总数量大于10000数据超长",
+ "solution": "修改存储过程中的zhehjsh字段格式为decimal(10,2)解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "MySQL",
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "超长"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2024-12-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1qEp3WdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1qEp3WdqbropQ",
+  "doc_path": "/其他/数据错误问题/商品器械单个别单据无法复核，提示超长",
+  "record_id": "DNXwIaBMHz"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/商品器械单个别单据无法复核，提示超长",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

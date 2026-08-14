@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221203-008",
+ "record_id": "AMeOzcgWBo",
+ "title": "电商平台药师帮、药帮忙等接口平台，配置连接需要提供时空的数据库的账号密码，客户担心数据安全",
+ "problem": "电商平台药师帮、药帮忙等接口平台，配置连接需要提供时空的数据库的账号密码，客户担心数据安全",
+ "cause": "电商平台药师帮、药帮忙等接口平台，配置连接需要提供时空的数据库的账号密码，客户担心数据安全",
+ "solution": "方案有两个\n1. 搭建中间库，正式库需要的数据传中间库，用中间库与外部平台对接\n2. 新建数据库用户，设置用户权限，如只能操作某几张表，或只能插入指定表，将受限用户与外部平台对接",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PostgreSQL",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "数据安全"
+ ],
+ "problem_type": "安全问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "数据仓库模块",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2022-12-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNmz4Lg83pmz5aA?utm_scene=team_space",
+  "node_id": "YndMj49yWjaXw2Z2TRNmz4Lg83pmz5aA",
+  "doc_path": "/时空/安全问题/电商平台药师帮、药帮忙等接口平台，配置连接需要提供时空的数据库的账号密码，客户担心数据安全",
+  "record_id": "AMeOzcgWBo"
+ },
+ "status": "active",
+ "doc_path": "/时空/安全问题/电商平台药师帮、药帮忙等接口平台，配置连接需要提供时空的数据库的账号密码，客户担心数据安全",
+ "category": [
+  "时空",
+  "安全问题"
+ ]
+}

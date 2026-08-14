@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230823-038",
+ "record_id": "1j71LhmkWW",
+ "title": "起订量订货端不生效",
+ "problem": "起订量订货端不生效",
+ "cause": "物料管理档案中公司档案的起订量没有维护，导致不生效",
+ "solution": "当使用组织下的物料没有私有化的情况下，修改创建组织下的物料会同步修改使用组织下的物料。如果使用组织下的物料私有化后，就不会同步修改了。 私有化操作，比如：点过编辑保存，哪怕什么也没修改过，或者操作过上架等操作。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "起订量"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-08-23"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1j71LhmkWW"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

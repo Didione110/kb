@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241007-001",
+ "record_id": "uHG0KybfS5",
+ "title": "数据库总是死锁，原因是检索登陆人的语句",
+ "problem": "数据库总是死锁，原因是检索登陆人的语句",
+ "cause": "原因是触发了云登录校验",
+ "solution": "在tomcat配置文件里面关闭对应的云登录开关",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "死锁、检索、登录"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-10-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uHG0KybfS5"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

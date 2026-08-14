@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230404-006",
+ "record_id": "gdJGZvRxOm",
+ "title": "单据字符长度修改",
+ "problem": "单据字符长度修改",
+ "cause": "系统限制字符长度为100",
+ "solution": "1、后台修改对应单据对应字段：sql数据库语句：alter table po_requireapp alter column vhdef2 varchar(1000)、Oracle数据库语句：alter table po_order modify vdef2 varchar(5000)\n2、修改单据模板录入长度",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "字符长度"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-04-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gdJGZvRxOm"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

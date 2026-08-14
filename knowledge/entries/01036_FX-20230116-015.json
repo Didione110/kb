@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230116-015",
+ "record_id": "QZIKTHiiQO",
+ "title": "U8凭证打印模板复制",
+ "problem": "U8凭证打印模板复制",
+ "cause": "使用总账——维护里的打印工具可将打印模板从某个账套的某个年度复制到另一个账套，另一个年度",
+ "solution": "使用总账——维护里的打印工具可将打印模板从某个账套的某个年度复制到另一个账套，另一个年度",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "U8凭证模板"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-16"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QZIKTHiiQO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "FX-20251028-037",
+ "record_id": "LtBGhVPSfi",
+ "title": "U8客户端登录提示管道尚末连接",
+ "problem": "U8客户端登录提示管道尚末连接",
+ "cause": "环境问题",
+ "solution": "在计算机--服务中找到服务：u8smartclient和u8smartclientmonitor，启动即可。",
+ "solution_types": [
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "管道未连接"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-10-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "LtBGhVPSfi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

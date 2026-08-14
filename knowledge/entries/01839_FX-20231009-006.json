@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231009-006",
+ "record_id": "ltOJw9Iqeg",
+ "title": "双击UFO节点无反映，报表打不开",
+ "problem": "双击UFO节点无反映，报表打不开",
+ "cause": "环境问题，文件损坏",
+ "solution": "从正常的电脑上拷贝，根目录下U8SOFT\\\\\\\\ufo\\\\\\\\ufow.exe文件，替换后重试，正常打开报表",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "UFO报表"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-10-09"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ltOJw9Iqeg"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

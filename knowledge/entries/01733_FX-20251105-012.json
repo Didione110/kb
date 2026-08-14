@@ -1,0 +1,37 @@
+{
+ "id": "FX-20251105-012",
+ "record_id": "j1j4joWWk8",
+ "title": "oracle 数据库链接 sql 数据库的方法",
+ "problem": "oracle 数据库链接 sql 数据库的方法",
+ "cause": "oracle 数据库链接 sql 数据库的方法",
+ "solution": "具体查看附件的操作文档",
+ "solution_types": [],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Oracle链接SQL"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-11-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "j1j4joWWk8"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

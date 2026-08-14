@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230919-024",
+ "record_id": "GKNtIXX4QC",
+ "title": "数据权限：增删改数据权限广泛应用的关键字New的运用在现场一会好使，一会不好使\n好使指的是新增控制住了，修改保存没有控制住导致的不好使\n\nnew：最终保存到数据库的值 ",
+ "problem": "数据权限：增删改数据权限广泛应用的关键字New的运用在现场一会好使，一会不好使\n好使指的是新增控制住了，修改保存没有控制住导致的不好使\n\nnew：最终保存到数据库的值",
+ "cause": "举例：销售订单行上价税合计必须大于100 （SOLine.TotalMoneyTC>100）\n\n对于新增保存，加不加New都可以控制住\n对于修改保存\n加New代表保存到数据库里的值必须大于100；\n不加New代表只要满足了该字段大于100，就可以修改；\n至于修改后的值是否满足大于100，不会控制。",
+ "solution": "NewSOLine.TotalMoneyTC>100\n\n结论：不加New只适合新增的情况，修改需要在字段前面加个New（若对应字段不用修改就不用加）",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "New"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-09-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GKNtIXX4QC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

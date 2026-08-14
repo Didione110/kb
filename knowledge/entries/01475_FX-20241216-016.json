@@ -1,0 +1,44 @@
+{
+ "id": "FX-20241216-016",
+ "record_id": "cPA1n2W7h2",
+ "title": "调用钉钉创建审批流请求异常",
+ "problem": "调用钉钉创建审批流请求异常",
+ "cause": "必填字段未提供值",
+ "solution": "先获取审批模板json格式报文,解析必填字段,若数据库查询值为空则手动赋‘空’值",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "审批异常"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2024-12-16"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb5XEOVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb5XEOVzlwrZgb",
+  "doc_path": "/自研/数据接口问题/调用钉钉创建审批流请求异常",
+  "record_id": "cPA1n2W7h2"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/调用钉钉创建审批流请求异常",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

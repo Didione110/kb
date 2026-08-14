@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240126-041",
+ "record_id": "TEckwQvxcH",
+ "title": "调整前台logo为客户logo，系统后台仍显示蓝凌logo",
+ "problem": "调整前台logo为客户logo，系统后台仍显示蓝凌logo",
+ "cause": "未调整后台logo图片",
+ "solution": "可在【运维管理】-【管理员工具箱】-【常用工具集】-【后台logo设置】中调整",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "Logo不一致"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "门户引擎",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TEckwQvxcH"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250730-045",
+ "record_id": "ebQICVPYgA",
+ "title": "报表数据中心这边左侧不展开所有公司 一直提示这个",
+ "problem": "报表数据中心这边左侧不展开所有公司 一直提示这个",
+ "cause": "报表组织体系的有效期有问题",
+ "solution": "更改报表组织体系的有效期的开始时间",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "左侧不展开"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ebQICVPYgA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

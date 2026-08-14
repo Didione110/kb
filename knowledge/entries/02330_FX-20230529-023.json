@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230529-023",
+ "record_id": "x6It66GHT0",
+ "title": "需要凭证输出为打印样式的PDF文件",
+ "problem": "需要凭证输出为打印样式的PDF文件",
+ "cause": "使用凭证打印，打印机选择虚拟打印机Microsoft Print to PDF，该打印机点击打印会提示保存为PDF文件",
+ "solution": "使用凭证打印，打印机选择虚拟打印机Microsoft Print to PDF，该打印机点击打印会提示保存为PDF文件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "PDF打印凭证"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-05-18"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "x6It66GHT0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

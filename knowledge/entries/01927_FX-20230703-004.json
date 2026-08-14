@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230703-004",
+ "record_id": "nm9bs3qiiN",
+ "title": "增加部门时报错：”cann't create instance. ClassName: nc.bs.om.om_101.DeptHRChangeOperate. Please check register info in table bd_interfaceexec“",
+ "problem": "增加部门时报错：”cann't create instance. ClassName: nc.bs.om.om_101.DeptHRChangeOperate. Please check register info in table bd_interfaceexec“",
+ "cause": "服务器中毒重新安装后出现。由于没有SPS，没有打补丁。",
+ "solution": "检查库\nselect * from hbxxzs.bd_interfaceexec where interfaceclassname = 'nc.bs.om.om_101.DeptHRChangeOperate'\n删除库中相关内容\ndelete hbxxzs.bd_interfaceexec where interfaceclassname = 'nc.bs.om.om_101.DeptHRChangeOperate'\n问题解决。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "Java"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "DeptHRChangeOperate"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nm9bs3qiiN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

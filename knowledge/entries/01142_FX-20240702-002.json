@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240702-002",
+ "record_id": "TP9ATnnX4A",
+ "title": "报表门户空间模板丢失问题快速自查\n1.1 栏目加载转圈；\n1.2 报表查看提示未正确同步base目录；",
+ "problem": "报表门户空间模板丢失问题快速自查\n1.1 栏目加载转圈；\n1.2 报表查看提示未正确同步base目录；",
+ "cause": "1、进行了服务升级或者迁移没有迁移base目录；\n2、服务器中毒base目录下模板文件丢失；\n3、从低版本升级文件目录映射有变化导致文件无法正常加载。",
+ "solution": "1、服务迁移和升级一般有备份文件将之前的base/resources/capBizPortal下的文件拷贝到新服务器部署位置即可,无需重启；\n2、中毒等文件丢失文件找不回来了,这种情况需要将有问题的栏目空间重新配置,有问题的报表模板重新选择才能解决,因为在重新配置的过程中系统会重新下载这个模板文件；\n3、如果是7.1版本升级到8.0以上版本,7.1空间模板位置在:base/upload/2007/01/01/capBizPortal下,升级需要将base/upload/2007/01/01/capBizPortal文件拷贝到base/resource/capBizPortal下。",
+ "solution_types": [
+  "配置修改",
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "模板丢失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "门户空间",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-07-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TP9ATnnX4A"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

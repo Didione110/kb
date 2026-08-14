@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240411-049",
+ "record_id": "w6eH1gVwyy",
+ "title": "使用expdp   ora-39064:无法写入日志文件；ora-29285:文件写入错误",
+ "problem": "使用expdp ora-39064:无法写入日志文件；ora-29285:文件写入错误",
+ "cause": "数据泵在写日志文件的时候，使用的是数据库字符集。如果客户端的环境变量NLS_LANG得值和数据库字符集不一致的话，日志中显示的表名称可能和终端屏幕输出的不一致。\n数据泵内部使用的是包UTL_FILE，在和NLS转换的时候可能不能输出字符。",
+ "solution": "解决方法：\n\n1、查看数据库字符集\n\nSQL> select userenv('language') from dual;\n\nUSERENV('LANGUAGE')\n-\nSIMPLIFIED CHINESE_CHINA.AL32UTF8\n\n2、查看操作系统的NLS_LANG设置：\n\n打开注册表（regedit），进入HKEY_LOCAL_MACHINE\\SOFTWARE\\ORACLE\\KEY_OraDb11g_home1，查看NLS_LANG键值为SIMPLIFIED CHINESE_CHINA.ZHS16GBK；\n\n3、将客户端NLS_LANG的值设置和数据库字符集一致，将\n\nSIMPLIFIED CHINESE_CHINA.ZHS16GBK\n\n修改为：\n\nSIMPLIFIED CHINESE_CHINA.AL32UTF8",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "日志写入"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "RM模块",
+ "meta": {
+  "submitter": "黄振兴",
+  "department": "需求&KA部",
+  "date": "2024-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w6eH1gVwyy"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

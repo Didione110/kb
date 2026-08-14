@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240529-068",
+ "record_id": "lSoiY5A3BI",
+ "title": "合并报表对账无数据只显示错误",
+ "problem": "合并报表对账无数据只显示错误",
+ "cause": "关键字需要使用系统预制且动态表只能有一个编码关键字",
+ "solution": "修改动态表单的关键字，改为系统预制，修改动态表动态区域",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "对账失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-05-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "lSoiY5A3BI"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

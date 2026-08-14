@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250121-010",
+ "record_id": "iB9XwLn6bX",
+ "title": "客户财务在数据迁移环境要求 ：一次性记账全年所有凭证，但是系统提示上月未结账本月不能记账",
+ "problem": "客户财务在数据迁移环境要求 ：一次性记账全年所有凭证，但是系统提示上月未结账本月不能记账",
+ "cause": "未修改参数",
+ "solution": "修改参数 在公司 ：GL066上月未结账本月是否能记账",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "未结账禁记账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2025-01-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "iB9XwLn6bX"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

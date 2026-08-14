@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241008-010",
+ "record_id": "NJwrAPV54u",
+ "title": "自动备份有效时长调整",
+ "problem": "自动备份有效时长调整",
+ "cause": "客户有260个账套，需要在同一天内完成自动备份",
+ "solution": "多次测试发现一个计划配置70个账套比较合理，但由于有效时长只能最大设置9小时，始终备份不全；提交ISD厂家后台调整解决，正常完整备份：update uFSystem..ua_BackupPlan set i0ccurshours=12",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "备份时长"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2024-10-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "NJwrAPV54u"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250506-002",
+ "record_id": "YidJUX7M6Z",
+ "title": "ksoa医保按要求更新，druginfo节点增加2个字段，minpacunt_drug_trac_cnt(本次结算应上传最小包装药品追溯码数量);mcs_trac_cnt本次结算应上传耗材追溯码数量)；",
+ "problem": "ksoa医保按要求更新，druginfo节点增加2个字段，minpacunt_drug_trac_cnt(本次结算应上传最小包装药品追溯码数量);mcs_trac_cnt本次结算应上传耗材追溯码数量)；",
+ "cause": "按医保要求进行更新",
+ "solution": "发布device.dll,实施人员更新即可",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "医保追溯码"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/6LeBq413JA0w1YkYC3O0BrblVDOnGvpb?utm_scene=team_space",
+  "node_id": "6LeBq413JA0w1YkYC3O0BrblVDOnGvpb",
+  "doc_path": "/自研/数据接口问题/ksoa医保按要求更新，druginfo节点增加2个字段，minpacunt_drug_trac_cnt本次结算应上传最小包装药品追溯码数量;mcs_trac_cnt本次结算应上传耗材追溯码",
+  "record_id": "YidJUX7M6Z"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/ksoa医保按要求更新，druginfo节点增加2个字段，minpacunt_drug_trac_cnt本次结算应上传最小包装药品追溯码数量;mcs_trac_cnt本次结算应上传耗材追溯码",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

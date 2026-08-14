@@ -1,0 +1,72 @@
+---
+{
+  "title": "一个具有多重身份选择身份提交后会报错",
+  "kbId": "doc-e8e16b079c",
+  "productLine": "蓝凌OA",
+  "productSeries": "",
+  "version": "",
+  "module": "",
+  "problemType": "",
+  "solutionTypes": [],
+  "techStack": [],
+  "techKeywords": [],
+  "keywords": [],
+  "category": [
+    "蓝凌OA",
+    "应用操作"
+  ],
+  "submitter": "",
+  "department": "",
+  "date": "",
+  "sourceType": "doc",
+  "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNxglk983pmz5aA?utm_scene=team_space",
+  "sourcePath": "/蓝凌OA/应用操作/一个具有多重身份选择身份提交后会报错",
+  "status": "active",
+  "updatedAt": "",
+  "outDir": "蓝凌OA/应用操作"
+}
+---
+
+# 一个具有多重身份选择身份提交后会报错
+
+> 知识条目 · 可被客服机器人引用
+
+## 元信息
+
+| 字段 | 值 |
+|------|----|
+| 知识ID | `doc-e8e16b079c` |
+| 产品线 | 蓝凌OA |
+| 产品系列 | - |
+| 版本 | - |
+| 模块 | - |
+| 问题类型 | - |
+| 解决方案类型 |  |
+| 技术栈 |  |
+| 技术关键词 |  |
+| 问题关键字 |  |
+| 分类路径 | 蓝凌OA / 应用操作 |
+| 提交人 | - |
+| 提交部门 | - |
+| 提交日期 | - |
+| 状态 | active |
+
+## 问题现象
+
+一个具有多重身份选择身份提交后会报错
+
+## 问题原因
+
+设置流程时是根据部门设置，选择身份时可能选择到岗位，那么流程在提交进行计算时就会报错
+
+## 解决方案
+
+默认提交身份是姓名，
+1、可在流程引擎中关闭提交人身份，避免由于误操作导致的流程报错
+2、与客户沟通是否存在岗位审批的流程，将其与当前流程结合作为分支条件
+
+## 引用来源
+
+- 来源类型: `doc`
+- 来源链接: https://alidocs.dingtalk.com/i/nodes/YndMj49yWjaXw2Z2TRNxglk983pmz5aA?utm_scene=team_space
+- 知识库路径: `/蓝凌OA/应用操作/一个具有多重身份选择身份提交后会报错`

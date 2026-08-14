@@ -1,0 +1,42 @@
+{
+ "id": "FX-20221027-024",
+ "record_id": "7UtGoqTSRm",
+ "title": "客户使用系统时间太长，导致数据库数据文件太大接近4G，导致系统无法使用！",
+ "problem": "客户使用系统时间太长，导致数据库数据文件太大接近4G，导致系统无法使用！",
+ "cause": "客户电脑操作系统版本太老，软件使用时间太长，硬盘类型为FAT32,文件不能大于4G存储.导致软件不能使用。",
+ "solution": "解决此问题，可以让客户重新安装新电脑和软件但此占用时间！或者通过批处理将FAT32转换成NTFS，但转换中可能会丢失数据！建议在数据库中添加可以为 primary 组添加新的数据文件来解决这个问题\nalter database 库名 add file(NAME = 逻辑文件名,FILENAME = 'c:/实际文件名.ndf'\n 或者 选中数据库-\\>属性-\\>文件：添加一个新文件。",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "数据过大"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "商鼎",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "实施3部",
+  "date": "2022-10-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe566KKP8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe566KKP8xLq0Ee4",
+  "doc_path": "/自研/软件无法使用/客户使用系统时间太长，导致数据库数据文件太大接近4G，导致系统无法使用！",
+  "record_id": "7UtGoqTSRm"
+ },
+ "status": "active",
+ "doc_path": "/自研/软件无法使用/客户使用系统时间太长，导致数据库数据文件太大接近4G，导致系统无法使用！",
+ "category": [
+  "自研",
+  "软件无法使用"
+ ]
+}

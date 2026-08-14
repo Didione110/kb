@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250821-030",
+ "record_id": "OdRWxSolsB",
+ "title": "激活产品提示调用云接口异常",
+ "problem": "激活产品提示调用云接口异常",
+ "cause": "原因是厂家做了处理，现在激活产品需要做企业认证",
+ "solution": "提示这个说明加密卡号没有做过认证，将“aaabbb”替换为防伪查询最新条码，然后复制到浏览器去做认证 T3产品认证：https://workbench.chanjet.com/ent/certify?cardNo=aaabbb&prodLine=t3",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "加密"
+ ],
+ "keywords": [
+  "云接口异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-08-21"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmnNvLJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmnNvLJqjMp697",
+  "doc_path": "/其他/应用操作/激活产品提示调用云接口异常",
+  "record_id": "OdRWxSolsB"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/激活产品提示调用云接口异常",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

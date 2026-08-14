@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240406-027",
+ "record_id": "INtYC4UO2D",
+ "title": "给客户新增CSV导出功能，客户通过CSV方式导出无任何反应",
+ "problem": "给客户新增CSV导出功能，客户通过CSV方式导出无任何反应",
+ "cause": "排除代码报错问题外，反复尝试还是无法导出。最终原因是tomcat环境问题",
+ "solution": "由于有些客户tomcat版本太老所以不支持，尝试替换高版本得tomcat尝试导出",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Tomcat"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "CSV导出失效"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2JpbLAn0nHQN7p9ApW9dEq3XD?utm_scene=team_space",
+  "node_id": "P7QG4Yx2JpbLAn0nHQN7p9ApW9dEq3XD",
+  "doc_path": "/时空/环境问题/给客户新增CSV导出功能，客户通过CSV方式导出无任何反应",
+  "record_id": "INtYC4UO2D"
+ },
+ "status": "active",
+ "doc_path": "/时空/环境问题/给客户新增CSV导出功能，客户通过CSV方式导出无任何反应",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

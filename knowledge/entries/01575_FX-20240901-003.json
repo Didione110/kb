@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240901-003",
+ "record_id": "fJ8Zfjz4h2",
+ "title": "服务器，设置了报表预加热，但每天第一次查询报表依然很慢",
+ "problem": "服务器，设置了报表预加热，但每天第一次查询报表依然很慢",
+ "cause": "服务器报表预热已经不适用了",
+ "solution": "用报表中心【订阅】功能的办法，提前预加载一次就行，该功能必须得有【报表中心】才行，否则弄\n不了，随便找个报表，【订阅】里面设置个时间点，一般就是上班前就行，设置见附件。另外，打印教程链接：https://note.youdao.com/ynoteshare/index.html?id=93aaa372e07c9ef9750cd5fd1ace7497&type=note&_time=1673569875403",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印",
+  "工作流"
+ ],
+ "keywords": [
+  "预加热失效"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-09-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fJ8Zfjz4h2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "效率问题"
+ ]
+}

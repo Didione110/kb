@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260610-012",
+ "record_id": "Jk3vq4RqPN",
+ "title": "凭证银行科目辅助核算选了银行账户与银行网点，如何设置选了银行账户后自动带出银行网点",
+ "problem": "凭证银行科目辅助核算选了银行账户与银行网点，如何设置选了银行账户后自动带出银行网点",
+ "cause": "需求",
+ "solution": "决策表节点维护交叉对应关系，可参照附件截图",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "银行辅助核算"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2026-06-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Jk3vq4RqPN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

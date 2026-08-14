@@ -1,0 +1,30 @@
+{
+ "id": "doc-c09d3eb116",
+ "record_id": "",
+ "title": "表单填写根据字段筛选相关数据在单据界面展示问题",
+ "problem": "表单填写根据字段筛选相关数据在单据界面展示问题",
+ "cause": "表单填写，根据某个字段筛选相关数据在单据界面展示问题",
+ "solution": "1. 新增被查看档案列表视图，设置被筛选参数\n2. 查看相关数据流程单据，具体参数如截图。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/G1DKw2zgV2gP63q3cqbOZOPjJB5r9YAn?utm_scene=team_space",
+  "node_id": "G1DKw2zgV2gP63q3cqbOZOPjJB5r9YAn",
+  "doc_path": "/蓝凌OA/应用操作/表单填写根据字段筛选相关数据在单据界面展示问题"
+ },
+ "doc_path": "/蓝凌OA/应用操作/表单填写根据字段筛选相关数据在单据界面展示问题",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

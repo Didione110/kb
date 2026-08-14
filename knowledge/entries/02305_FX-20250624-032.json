@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250624-032",
+ "record_id": "wbZzijynd4",
+ "title": "多账簿，凭证入账设置规则，如何直接生成对应财务组织指定账簿的凭证？",
+ "problem": "多账簿，凭证入账设置规则，如何直接生成对应财务组织指定账簿的凭证？",
+ "cause": "多账簿，凭证入账设置规则，如何直接生成对应财务组织指定账簿的凭证？",
+ "solution": "可以在入账规则设置节点采用getaccountbook公式；根据财务组织和账簿类型取财务核算账簿。例：getaccountbook(财务组织,账簿类型)",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "多账簿入账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-06-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "wbZzijynd4"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

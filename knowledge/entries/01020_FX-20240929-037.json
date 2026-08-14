@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240929-037",
+ "record_id": "Q5a8tK7yVp",
+ "title": "客户U8有多个年度账，通过数据卸出的方式，将年度账拆分，拆分后希望将卸出的年度数据直接形成单独的账套",
+ "problem": "客户U8有多个年度账，通过数据卸出的方式，将年度账拆分，拆分后希望将卸出的年度数据直接形成单独的账套",
+ "cause": "无",
+ "solution": "卸出的年度数据无法直接形成单独的账套，可使用变通办法实现年度库数据单独\n1.卸出后的账套（比如001账套）年度库是分开的，可以把该账套001重新备份；\n2.把001账套备份出来的TXT文件，修改账套号为002和账套名称再保存文件；\n3.引入修改后的备份文件，这样，在系统管理就会有两个账套，内容一致，账套号一个是001一个是002；\n（以上就是复制账套的操作，也可以参考资料：【U8+】系统管理+如何复制一个一样的新的账套作为测试账套https://success.yonyou.com/surl/kRmF98EM）\n4.用账套主管登录002账套，输出不需要的账套库，输出的同时勾选“删除输出的账套”，这样，002账套就只保留了需要的年度账。",
+ "solution_types": [
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "U8账套拆分"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-09-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Q5a8tK7yVp"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

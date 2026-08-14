@@ -1,0 +1,42 @@
+{
+ "id": "FX-20231105-017",
+ "record_id": "nBYBnSeXVC",
+ "title": "致远OA附件下载加密，通过加密后，发现加密后的文件存在乱码问题",
+ "problem": "致远OA附件下载加密，通过加密后，发现加密后的文件存在乱码问题",
+ "cause": "检查附件监听事件代码，发现附件下载时，经过解密，在下载监听事件时加密下载附件是OA加密的文件流，所有存在乱码字符",
+ "solution": "在针对下载附件加密前，先将其通过OA内部方法解密，再通过天喻加密软件加密\n// 获取下载文件，并进行解密处理\nFileManager fileManager = evt.getFileManager();\nCtpFile file = fileManager.getFileDecryption(evt.getFileId());\nCtpFile tempFile = fileManager.decryptionFile(file);\nInputStream tempinput = new FileInputStream(tempFile);",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Java",
+  "ZyPrint",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "加密"
+ ],
+ "keywords": [
+  "致远OA、附件下载、加密乱码"
+ ],
+ "problem_type": "软件补丁问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8集团版",
+ "module": "系统管理后台",
+ "meta": {
+  "submitter": "张柳青",
+  "department": "研发2部",
+  "date": "2023-11-05"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nBYBnSeXVC"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "软件补丁问题"
+ ]
+}

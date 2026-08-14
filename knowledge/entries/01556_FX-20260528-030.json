@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260528-030",
+ "record_id": "eoUxCEGPVi",
+ "title": "如何设置用户不允许查看订单的成本金额？",
+ "problem": "如何设置用户不允许查看订单的成本金额？",
+ "cause": "如何设置用户不允许查看订单的成本金额？",
+ "solution": "设置用户不允许查看订单的成本金额有两种方法：\n\n1、设置敏感数据权限：在【角色管理】中找到对应角色点击编辑，切换到敏感数据权限页签，将对应的采购成本、销售成本等设置成“无权”。\n\n2、UI模板按用户/角色分配：在【UI模板】节点复制一个新模板，按用户/角色分配后，设计模板将相关字段取消显示。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "成本隐藏"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-05-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "eoUxCEGPVi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

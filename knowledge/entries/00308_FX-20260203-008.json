@@ -1,0 +1,44 @@
+{
+ "id": "FX-20260203-008",
+ "record_id": "7RgQ130I7b",
+ "title": "现有的时空智友V10 流程审批只能逐个单笔审批，无法批量审批",
+ "problem": "现有的时空智友V10 流程审批只能逐个单笔审批，无法批量审批",
+ "cause": "V10不支持改功能",
+ "solution": "通过修改Tomcat 中JS 文件，增加表单代码可实现批量审批。详细代码见Word文档",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "JS"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "批量审批"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "魏志雄",
+  "department": "需求&KA部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvX2m2VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvX2m2VMwvDqPk",
+  "doc_path": "/时空/安装部署问题/现有的时空智友V10 流程审批只能逐个单笔审批，无法批量审批",
+  "record_id": "7RgQ130I7b"
+ },
+ "status": "active",
+ "doc_path": "/时空/安装部署问题/现有的时空智友V10 流程审批只能逐个单笔审批，无法批量审批",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

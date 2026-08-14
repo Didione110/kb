@@ -1,0 +1,39 @@
+{
+ "id": "FX-20241031-063",
+ "record_id": "HtOcoawWpN",
+ "title": "被加签用户无法提交流程，弹窗报错阻止。",
+ "problem": "被加签用户无法提交流程，弹窗报错阻止。",
+ "cause": "被加签人代办打开不会默认勾选‘通过’按钮，直接提交则会报错‘请选择流程下一步操作’。",
+ "solution": "勾选‘通过’按钮再提交即可",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "加签失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EIS",
+ "module": "低代码平台",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HtOcoawWpN"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

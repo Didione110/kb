@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260128-016",
+ "record_id": "pTxEA6hdxT",
+ "title": "9.0以上 手机端与OA的端口已经集成  能否分开部署",
+ "problem": "9.0以上 手机端与OA的端口已经集成 能否分开部署",
+ "cause": "8.0以上版本OA与M3服务整合，使用一个主服务及端口",
+ "solution": "M3可分离部署，可根据操作手册进行部署",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Nginx",
+  "Docker"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "端口集成"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "手机端APP",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2026-01-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "pTxEA6hdxT"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

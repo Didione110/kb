@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250407-007",
+ "record_id": "YdFcJcWc0B",
+ "title": "反馈自动记账tomcat已经关闭，但是自动记账任务仍然在自动执行",
+ "problem": "反馈自动记账tomcat已经关闭，但是自动记账任务仍然在自动执行",
+ "cause": "是因为该tomcat在其它操作用户中开启在",
+ "solution": "因为windows操作系统有多用户登陆模式，其中有个用户已经开启过了这个tomcat，登陆对应用户进行关闭就可以了",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "自动记账"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-04-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "YdFcJcWc0B"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "环境问题"
+ ]
+}

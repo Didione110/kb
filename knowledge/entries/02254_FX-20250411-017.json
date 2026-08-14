@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250411-017",
+ "record_id": "viYk9RvQxE",
+ "title": "采购订单中的料品金额为0，且不是赠品，没有拦截",
+ "problem": "采购订单中的料品金额为0，且不是赠品，没有拦截",
+ "cause": "料品档案中采购页签，有个【可事后定价】属性，勾上了就不会拦截非赠品为0",
+ "solution": "对应维护料品的【可事后定价】属性",
+ "solution_types": [],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "料品金额为0"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "余梦",
+  "department": "实施6部",
+  "date": "2025-04-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "viYk9RvQxE"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

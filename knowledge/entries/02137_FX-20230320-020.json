@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230320-020",
+ "record_id": "sgcCJjpfi2",
+ "title": "有收款单，收款账龄分析，每个区间都没有数据",
+ "problem": "有收款单，收款账龄分析，每个区间都没有数据",
+ "cause": "收款单未核销",
+ "solution": "显示全都是预收款，金额=预收款+帐期内+账期外；收款账龄分析，分析的范围包括正常的收款、退款、系统形成的预收款单，因为收款单未核销，所以均属于预收款，不在账龄内和逾期账龄内，所以不显示，做核销即可显示",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "收款账龄为空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-03-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sgcCJjpfi2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

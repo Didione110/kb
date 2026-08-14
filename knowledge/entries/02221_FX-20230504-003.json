@@ -1,0 +1,38 @@
+{
+ "id": "FX-20230504-003",
+ "record_id": "up5LSN7H44",
+ "title": "客户想卸载福宝，开机不启动，无法单独卸载及开机不启动",
+ "problem": "客户想卸载福宝，开机不启动，无法单独卸载及开机不启动",
+ "cause": "不需要用，占比面积较大",
+ "solution": "在安装目录下portal目录下，找到文件url.ini文件用记事本打开，把fubao下面的 enable=1 改为0",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "福宝卸载"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T3",
+ "module": "",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2023-05-04"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "up5LSN7H44"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20260228-024",
+ "record_id": "Woyby4huDD",
+ "title": "交易类型作为科目的辅助，转换模板配置的是付款类型，生成的凭证辅助显示一串主键如附件，没有转换为档案值，后面辅助就取了相关档案名称，发现辅助余额表识别不了且凭证导入导出会有问题",
+ "problem": "交易类型作为科目的辅助，转换模板配置的是付款类型，生成的凭证辅助显示一串主键如附件，没有转换为档案值，后面辅助就取了相关档案名称，发现辅助余额表识别不了且凭证导入导出会有问题",
+ "cause": "产品不支持",
+ "solution": "交易类型不支持作为辅助，请使用自定义档案来实现",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "辅助转换"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "会计服务",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施6部",
+  "date": "2026-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Woyby4huDD"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

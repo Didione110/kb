@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230811-029",
+ "record_id": "TIAfy9nKqJ",
+ "title": "使用oracle12c部署的时空在通过前台导入大量数据时可能会出现如下报错\nORA-00600: 内部错误代码, 参数: [kpp_concatq:2], [12], [11], [0], [], [], [], [], [], [], [], []\n常见于助记码生成,库存导入,资料修改审批等场景数据量较大的情况中",
+ "problem": "使用oracle12c部署的时空在通过前台导入大量数据时可能会出现如下报错\nORA-00600: 内部错误代码, 参数: [kpp_concatq:2], [12], [11], [0], [], [], [], [], [], [], [], []\n常见于助记码生成,库存导入,资料修改审批等场景数据量较大的情况中",
+ "cause": "官方建议是重建表可以解决,根据判断是NVARCHAR2与varchar2转换中文时字符集问题导致缓存出错,但是相关补丁页面无法访问",
+ "solution": "1.方案一:在通过update等方式将NVarchar2 字段的内容写入Varchar2时会触发该问题,解决方法是将 数据库表中对应的NVarchar2字段转为Varchar2再进行执行,或执行语句行进行to_char转换以后在进行插入\n2.方案二:无法定位或者字段无法更改的情况下,可以用过关闭result cache解决\nsqlplus用户下执行如下命令,关闭result cache缓存,暂时未发现其他影响\nalter system set result_cache_mode=manual;\nalter system set result_cache_max_size=0;\nalter system set \"_optimizer_ads_use_result_cache\"=false;\n\n以上两种方法都可以解决,可以按实际项目情况进行选择",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "ORA-00600、kpp_concatq、助记码"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "实施1部",
+  "date": "2023-08-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TIAfy9nKqJ"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

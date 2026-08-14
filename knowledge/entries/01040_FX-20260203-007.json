@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260203-007",
+ "record_id": "QckjyJmyMS",
+ "title": "部分进口药品供应商名称存在英文 ' 号如Dr.Reddy's Laboratories Limited\n在将其作为查询条件时会出现SQL command not properly ended提示无法查询",
+ "problem": "部分进口药品供应商名称存在英文 ' 号如Dr.Reddy's Laboratories Limited\n在将其作为查询条件时会出现SQL command not properly ended提示无法查询",
+ "cause": "'号截断了语句导致查询出错",
+ "solution": "js中处理'为''在数据库中是等价的再进行查询可以正常筛选\nfunction escapeSingleQuoteForOracle(str) {\n // 1. 处理空值/非字符串情况，避免报错\n if (str === null || str === undefined || typeof str !== 'string') {\n return '';\n }\n\n // 2. 初始化结果字符串\n var result = '';\n \n // 3. 遍历每个字符，逐个判断拼接\n for (var i = 0; i < str.length; i++) {\n //const char = str[i]; // 用charAt兼容老旧环境（替代str[i]）\n var char = str.charAt(i);\n // 如果是单引号，拼接两个；否则拼接原字符\n if (char == \"'\") {\n result += \"''\";\n } else {\n result += char;\n }\n }\n\n return result;\n}\n\nvar Manufacturer = escapeSingleQuoteForOracle(ds_djhz.field(\"Manufacturer\").value)\nparams.Manufacturer = \"%\" + Manufacturer + \"%\";",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "JS"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "SQL报错"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "高源剑",
+  "department": "需求&KA部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QckjyJmyMS"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "软件无法使用"
+ ]
+}

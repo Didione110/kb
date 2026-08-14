@@ -1,0 +1,30 @@
+{
+ "id": "doc-f1510f8f3c",
+ "record_id": "",
+ "title": "根据技术文档无法确认fdModelId和fdFlowId及辅助核算表单设计",
+ "problem": "根据技术文档无法确认fdModelId和fdFlowId及辅助核算表单设计",
+ "cause": "1、fdModelId、fdFlowId文档没有明显说明；\n2、明细表不支持嵌套明细表",
+ "solution": "1、fdModelId从\"表单设计地址栏获取fdAppModelId\"、fdFlowId从\"流程配置界面获取fdid\"；\n2、理论上低代码公式写自定义代码可实现（实践中代码未生效），后采用中台程序自动补全。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw76qOZ48gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw76qOZ48gN7R35y",
+  "doc_path": "/蓝凌OA/数据接口问题/根据技术文档无法确认fdModelId和fdFlowId及辅助核算表单设计"
+ },
+ "doc_path": "/蓝凌OA/数据接口问题/根据技术文档无法确认fdModelId和fdFlowId及辅助核算表单设计",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "数据接口问题"
+ ]
+}

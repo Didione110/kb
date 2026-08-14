@@ -1,0 +1,38 @@
+{
+ "id": "FX-20240927-034",
+ "record_id": "Z3NmVICT2J",
+ "title": "系统的库存展望表，没有库存量的情况下显示是空，而不是0，这种情况会影响客户报表数据取数分析，可以增加字段通过编写语句实现",
+ "problem": "系统的库存展望表，没有库存量的情况下显示是空，而不是0，这种情况会影响客户报表数据取数分析，可以增加字段通过编写语句实现",
+ "cause": "预制的报表字段取数规则就是取空值",
+ "solution": "公式：if ([库存量]=null) then 0 elseif([库存量] != null) then [库存量] else 0 end",
+ "solution_types": [],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "库存显示空"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "采购供应",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Z3NmVICT2J"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

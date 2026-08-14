@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240730-042",
+ "record_id": "a4PSuwyETk",
+ "title": "单据生成的凭证附单数据无法录入附件张数，行号无法黏贴合同，如何修改设置",
+ "problem": "单据生成的凭证附单数据无法录入附件张数，行号无法黏贴合同，如何修改设置",
+ "cause": "凭证及单据生成节点，选项下拉按钮总账控制规则，勾选“允许修改摘要”、“允许修改附单据数”",
+ "solution": "凭证及单据生成节点，选项下拉按钮总账控制规则，勾选“允许修改摘要”、“允许修改附单据数”。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "附件张数"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "NCC",
+ "version": "NCC",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "a4PSuwyETk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

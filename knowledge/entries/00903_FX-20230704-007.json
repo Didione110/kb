@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230704-007",
+ "record_id": "N9Px5s0JDx",
+ "title": "某个操作员登录WMS系统的时候会提示报错，其他工号登录正常。",
+ "problem": "某个操作员登录WMS系统的时候会提示报错，其他工号登录正常。",
+ "cause": "个人设置的快捷功能有异常，之前设置的菜单发生变化导致",
+ "solution": "把个人快捷功能去掉后保存，然后重新设置新的快捷功能，重新登录就正常了。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "登录异常"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2023-07-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDd9bNW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDd9bNW6zbX04v",
+  "doc_path": "/其他/环境问题/某个操作员登录WMS系统的时候会提示报错，其他工号登录正常。",
+  "record_id": "N9Px5s0JDx"
+ },
+ "status": "active",
+ "doc_path": "/其他/环境问题/某个操作员登录WMS系统的时候会提示报错，其他工号登录正常。",
+ "category": [
+  "其他",
+  "环境问题"
+ ]
+}

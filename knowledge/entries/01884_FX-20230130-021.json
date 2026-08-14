@@ -1,0 +1,40 @@
+{
+ "id": "FX-20230130-021",
+ "record_id": "mt75XeAwol",
+ "title": "查询科目明细账报错：内存溢出",
+ "problem": "查询科目明细账报错：内存溢出",
+ "cause": "环境问题",
+ "solution": "在C:\\\\Program Files (x86)\\\\Common Files\\\\microsoft shared\\\\DAO文件夹，从其他相同操作系统的电脑中拷贝此文件夹到出现问题的电脑中",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "内存溢出"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "汪心文",
+  "department": "成功部创新组-停用",
+  "date": "2023-01-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mt75XeAwol"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

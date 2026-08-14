@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250330-039",
+ "record_id": "VmJ6S1LTsN",
+ "title": "委外订单需求数量错了，已经有后续的领料单以及收货单，想修改需求数量，在不删除领料单的情况下，有什么办法修改吗，直接改报错：本次调整导致备料实际需求数量小于已发数量",
+ "problem": "委外订单需求数量错了，已经有后续的领料单以及收货单，想修改需求数量，在不删除领料单的情况下，有什么办法修改吗，直接改报错：本次调整导致备料实际需求数量小于已发数量",
+ "cause": "已经有后续单据，但需求数量错了",
+ "solution": "如果不想删领料单，那就先把委外订单的备料表的实际需求数量改大点，然后在变更改委外订单的数量，改完之后再改回去备料的需求数量即可",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "工作流"
+ ],
+ "keywords": [
+  "需求数量调整"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施6部",
+  "date": "2025-03-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "VmJ6S1LTsN"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

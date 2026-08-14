@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250928-036",
+ "record_id": "29f2ClzdG1",
+ "title": "固定资产卡片购入，生成凭证填写科目为应付账款，但是提示科目受控，这种情况如何处理？",
+ "problem": "固定资产卡片购入，生成凭证填写科目为应付账款，但是提示科目受控，这种情况如何处理？",
+ "cause": "可以在应付里做其他应付单，在应付生成凭证。 在固定资产里不生成该凭证。",
+ "solution": "可以在应付里做其他应付单，在应付生成凭证。 在固定资产里不生成该凭证。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目受控"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-09-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "29f2ClzdG1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

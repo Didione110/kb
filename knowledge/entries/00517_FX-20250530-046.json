@@ -1,0 +1,38 @@
+{
+ "id": "FX-20250530-046",
+ "record_id": "Cog0AvawzB",
+ "title": "账簿设置会计主体一直选不出来（已经进行了启用和组织授权）",
+ "problem": "账簿设置会计主体一直选不出来（已经进行了启用和组织授权）",
+ "cause": "授权节点未进行组织授权",
+ "solution": "要为用户已经分配的角色分配相关组织（下级组织），不能只有企业账号级未包含下级",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "账簿主体"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-05-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Cog0AvawzB"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

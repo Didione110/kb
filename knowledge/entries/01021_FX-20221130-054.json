@@ -1,0 +1,46 @@
+{
+ "id": "FX-20221130-054",
+ "record_id": "Q6vI1OTQCB",
+ "title": "客户需要在wms打印的面单上增加自定义内容，如：平台单号，商品编号，数量，备注等信息",
+ "problem": "客户需要在wms打印的面单上增加自定义内容，如：平台单号，商品编号，数量，备注等信息",
+ "cause": "现在对接的电商oms只能传标准模板给wms，不能设置自定义区内容",
+ "solution": "面单自定义区内容，需要自己去对应平台设置，然后把链接及相关参数设置到wms打印里",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "面单自定义"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81D3BY5YFe0g9pm4JxAZB1Gv?utm_scene=team_space",
+  "node_id": "20eMKjyp81D3BY5YFe0g9pm4JxAZB1Gv",
+  "doc_path": "/其他/实施问题/客户需要在wms打印的面单上增加自定义内容，如：平台单号，商品编号，数量，备注等信息",
+  "record_id": "Q6vI1OTQCB"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/客户需要在wms打印的面单上增加自定义内容，如：平台单号，商品编号，数量，备注等信息",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

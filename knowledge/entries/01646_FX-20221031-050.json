@@ -1,0 +1,39 @@
+{
+ "id": "FX-20221031-050",
+ "record_id": "h68Lb6Q9J6",
+ "title": "有些客户做活动的品种，总是需要进行补货",
+ "problem": "有些客户做活动的品种，总是需要进行补货",
+ "cause": "活动品种力度大，买的好，仓库又是整零分开的",
+ "solution": "设置促销货位，接近复核台的位置，然后活动前，仓库进行主动补货，多补几件放到促销货位上，那样，既不需要补货，离复核台近，也可以快速拣货，走最少的路，提升最高的效率。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "补货需求"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJqYnqNbNiKgmONAlJqjMp697?utm_scene=team_space",
+  "node_id": "ydxXB52LJqYnqNbNiKgmONAlJqjMp697",
+  "doc_path": "/其他/应用操作/有些客户做活动的品种，总是需要进行补货",
+  "record_id": "h68Lb6Q9J6"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/有些客户做活动的品种，总是需要进行补货",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

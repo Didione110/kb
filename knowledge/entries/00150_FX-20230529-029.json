@@ -1,0 +1,43 @@
+{
+ "id": "FX-20230529-029",
+ "record_id": "3Yo8qwVMZA",
+ "title": "某张凭证卡顿，有时填写凭证也有卡顿的情况",
+ "problem": "某张凭证卡顿，有时填写凭证也有卡顿的情况",
+ "cause": "币种在后台写入错误",
+ "solution": "update bd_accsubj set currency=‘实际的币种主键’ where currency='人民币';\nupdate gl_detail set pk_currtype=‘实际的币种主键’ where pk_currtype='人民币'\n币种查bd_currtype表，pk_currtype字段",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "达梦",
+  "人大金仓",
+  "openGauss"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证卡顿"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2023-05-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "3Yo8qwVMZA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

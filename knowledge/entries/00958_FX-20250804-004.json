@@ -1,0 +1,45 @@
+{
+ "id": "FX-20250804-004",
+ "record_id": "OUrHXICLFD",
+ "title": "需要新增美团打印组件。",
+ "problem": "需要新增美团打印组件。",
+ "cause": "美团平台要求使用自己的打印组件",
+ "solution": "程序上添加\n目前已支持 菜鸟，拼多多，京东，唯品会，快手，抖音，视频号，小红书，得物，美团 10种打印组件",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "美团打印"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-08-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbjY0oMoFZp1vpROJMGjLRb3?utm_scene=team_space",
+  "node_id": "N7dx2rn0JbjY0oMoFZp1vpROJMGjLRb3",
+  "doc_path": "/自研/数据接口问题/需要新增美团打印组件。",
+  "record_id": "OUrHXICLFD"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/需要新增美团打印组件。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

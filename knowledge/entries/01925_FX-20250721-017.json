@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250721-017",
+ "record_id": "nkGLyAZyos",
+ "title": "入库流水账的打印模板需要按序号往下流水",
+ "problem": "入库流水账的打印模板需要按序号往下流水",
+ "cause": "打印需求",
+ "solution": "将打印模板增加一列，命名“序号”\n自定义变量页签右击增加变量，变量公式:_rowno_(crowno)，将该变量引用为序号展示内容",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "流水序号"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-07-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nkGLyAZyos"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

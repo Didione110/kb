@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240426-077",
+ "record_id": "jBr3W983Uu",
+ "title": "苹果电脑如何登录UClient",
+ "problem": "苹果电脑如何登录UClient",
+ "cause": "无",
+ "solution": "苹果电脑安装客户端需要设置系统偏好，打开系统偏好，点击安全与隐私，需要点击解锁，没有解锁按钮，直接勾选任何来源，操作结束后再进行下载操作,下载网址登录无问题",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "其他"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "UClient登录"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-04-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "jBr3W983Uu"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "安装部署问题"
+ ]
+}

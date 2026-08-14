@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240630-055",
+ "record_id": "N9ANEAHKp1",
+ "title": "1、期初建账重算报错，如下图 2、期初建账数据是错误的，银行还是负数，但是拉取科目余额表的期初数是对的 3、账套中查询科目余额表后想切换其他公司，选都无法选，点不开",
+ "problem": "1、期初建账重算报错，如下图 2、期初建账数据是错误的，银行还是负数，但是拉取科目余额表的期初数是对的 3、账套中查询科目余额表后想切换其他公司，选都无法选，点不开",
+ "cause": "由于数据量较大导致年初重算时超时",
+ "solution": "调整相应的已超时时间到两个小时。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "WebLogic"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "工作流"
+ ],
+ "keywords": [
+  "期初建账"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N9ANEAHKp1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

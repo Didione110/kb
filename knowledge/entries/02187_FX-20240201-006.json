@@ -1,0 +1,48 @@
+{
+ "id": "FX-20240201-006",
+ "record_id": "tqmnZt67TC",
+ "title": "代客下单小程序vant-ui组件调用Dialog弹窗校验表单为空后关闭",
+ "problem": "代客下单小程序vant-ui组件调用Dialog弹窗校验表单为空后关闭",
+ "cause": "直接使用this.setdata修改显示弹窗字段不可行",
+ "solution": "使用before-close异步操作判断当前确认操作，返回是否弹窗显示结果",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "Dialog校验"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-02-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlpRYz8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlpRYz8Zd1wyK0",
+  "doc_path": "/自研/产品功能问题/代客下单小程序vant-ui组件调用Dialog弹窗校验表单为空后关闭",
+  "record_id": "tqmnZt67TC"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/代客下单小程序vant-ui组件调用Dialog弹窗校验表单为空后关闭",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

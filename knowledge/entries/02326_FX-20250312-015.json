@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250312-015",
+ "record_id": "x1U1QlRQ4u",
+ "title": "打印出库单时报错Clodop组件连接失败，无法打印",
+ "problem": "打印出库单时报错Clodop组件连接失败，无法打印",
+ "cause": "电脑未安装Clodop打印组件",
+ "solution": "可以到系统的设置——打印设置——打印模板——销售出库单，找到打印组件下载链接，进行下载安装。安装完成后，刷新打印单据页面就可以进行出库单打印。",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "JS",
+  "Windows",
+  "一键打印"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "Clodop连接失败"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-03-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "x1U1QlRQ4u"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

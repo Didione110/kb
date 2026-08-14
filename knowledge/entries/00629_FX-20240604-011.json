@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240604-011",
+ "record_id": "FgfNFnu8lL",
+ "title": "智慧医保中，线上处方和线下处方，用的是同一个界面，传递的数据不同，有的人不知道导致报错\n",
+ "problem": "智慧医保中，线上处方和线下处方，用的是同一个界面，传递的数据不同，有的人不知道导致报错",
+ "cause": "线下电子处方，传递的消息中，inputmsg 传空\n\\{\"msgid\":\"MSGLAQGXPF2\",\n \"callcode\":\"dzcf\",\n \"billno\":14174501,\n \"status\":\"\",\n \"inputmsg\":\"\"\\}\",\n \"outputmsg\":\"\"\\}",
+ "solution": "线上电子处方，inputmsg中要传5个字段：\n\\{\"msgid\":\"MSGLAQGXPF2\",\n \"callcode\":\"dzcf\",\n \"billno\":14174501,\n \"status\":\"\",\n \"inputmsg\":\"\\{\"authCircBizSn\":\"420000202403181732438100000062\",\"epcChnlId\":\"660402E44B0D416CACB16B063272A4B8\",\"expiresIn\":\"2024-03-18 19:32:44\",\"hiRxno\":\"421200021897293757244000009040\",\"orderSn\":\"20240318472962\"\\}\",\n \"outputmsg\":\"\"\\}",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "处方混淆"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWrAPqaYac4yA3LNG8GXn6lpz?utm_scene=team_space",
+  "node_id": "jb9Y4gmKWrAPqaYac4yA3LNG8GXn6lpz",
+  "doc_path": "/自研/数据接口问题/智慧医保中，线上处方和线下处方，用的是同一个界面，传递的数据不同，有的人不知道导致报错",
+  "record_id": "FgfNFnu8lL"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/智慧医保中，线上处方和线下处方，用的是同一个界面，传递的数据不同，有的人不知道导致报错",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

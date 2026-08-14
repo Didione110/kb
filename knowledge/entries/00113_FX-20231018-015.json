@@ -1,0 +1,38 @@
+{
+ "id": "FX-20231018-015",
+ "record_id": "2Tq4SOCtuP",
+ "title": "客户需要工程成本能够像期间损益结转自动生成凭证。工程成本月末自动结转至主营业务成本。",
+ "problem": "客户需要工程成本能够像期间损益结转自动生成凭证。工程成本月末自动结转至主营业务成本。",
+ "cause": "客户需要工程成本能够像期间损益结转自动生成凭证。工程成本月末自动结转至主营业务成本。",
+ "solution": "公式：工程施工 QM(\"4401*\",\"\",\"\",\"\",\"借\")\n 主营业务成本 QM(\"4401\",\"\",\"\",\"\",\"借\")",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "工程成本结转"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2023-11-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "2Tq4SOCtuP"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

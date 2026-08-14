@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231212-034",
+ "record_id": "mMaZ6BD6uC",
+ "title": "修改供应商名称，一直提示“发展日期是默认值，不可为空!”但是发展日期是灰色的，无法填写",
+ "problem": "修改供应商名称，一直提示“发展日期是默认值，不可为空!”但是发展日期是灰色的，无法填写",
+ "cause": "可能是T3升级U8自带的BUG",
+ "solution": "数据库执行select dVenDevDate from vendor where cVenCode='GS0031'查出供应商发展日期为空，update vendor set dVenDevDate='2023-03-01 00:00:00.000' where cVenCode='GS0031'填充发展日期，回U8软件中修改供应商名称，解决",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "发展日期"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-12-12"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mMaZ6BD6uC"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

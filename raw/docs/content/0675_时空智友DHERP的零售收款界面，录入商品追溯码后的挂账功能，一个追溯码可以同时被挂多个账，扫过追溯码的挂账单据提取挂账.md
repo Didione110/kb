@@ -1,0 +1,79 @@
+<!-- META: {"nodeId": "oP0MALyR8kmlqNaNhYXmM99mV3bzYmDO", "title": "时空智友DHERP的零售收款界面，录入商品追溯码后的挂账功能，一个追溯码可以同时被挂多个账，扫过追溯码的挂账单据提取挂账后不用扫码，跳过了追溯码扫码的状态拦截，需在收款时添加校验", "docUrl": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kmlqNaNhYXmM99mV3bzYmDO?utm_scene=team_space", "path": "/时空/产品功能问题/时空智友DHERP的零售收款界面，录入商品追溯码后的挂账功能，一个追溯码可以同时被挂多个账，扫过追溯码的挂账单据提取挂账后不用扫码，跳过了追溯码扫码的状态拦截，需在收款时添加校验", "fetchTime": "2026-08-14 00:03:37"} -->
+
+## 问题现象
+
+时空智友DHERP的零售收款界面，录入商品追溯码后的挂账功能，一个追溯码可以同时被挂多个账，扫过追溯码的挂账单据提取挂账后不用扫码，跳过了追溯码扫码的状态拦截，需在收款时添加校验
+
+## 问题原因
+
+提取录过追溯码的挂账单据跳过了扫码拦截，没校验该追溯码是否已销售
+
+## 解决方案
+
+在提取挂账单据收款时，添加追溯码状态校验，避免已销售的追溯码重复出库
+
+放在收款方法uf\_pay()里面：
+
+//收款时对明细追溯码监管码状态批量检查，防止监管码在多个挂账后重复出库
+if(ds\_mast.field("ywlx").value=='XS')\{
+	 var zsm\_msg = "" // 定义弹出集合 
+ 	for(var j =0 ;j\<ds\_imieHis.recordCount;j\+\+) \{
+	 var params = \{\};
+```
+   params.IMEINo=ds_imieHis.field("IMEINo").value;
+   	 
+   var zt = DBUtil.uniqueValue("uf_zsmzt_sql",params)  //获取当前追溯码的状态
+
+   	 if( zt != 0){
+   	   zsm_msg += "\n 当前 " + (j+1) + " 行追溯码:'" + ds_imieHis.getValueAt(j,"IMEINo") + "'已被销售，请检查！！！\n"
+   	 }
+}
+
+if(zsm_msg != ""){
+   await   form.alert(zsm_msg);
+   return false;
+}
+
+```
+
+\}
+
+///////////////
+
+uf\_zsmzt\_sql 状态获取语句（这里是获取追溯状态过程表imeihis的最新状态
+,也可直接获取监管码资料表imeidoc的监管码状态）：
+
+select newstate from（
+select b.dates,b.ontime, a.newstate from imeihis a 
+join retbillmt b on a.billcode=b.billcode 
+where imeino= :imeino 
+and a.IMEINo\<\>'8HB00000000000000000'
+union all 
+select b.dates,b.ontime, a.newstate from imeihis a 
+join trbillmt b on a.billcode=b.billcode 
+where imeino= :imeino 
+and a.IMEINo\<\>'8HB00000000000000000'
+order by dates desc,ontime desc
+） a where rownum=1
+
+---
+
+## 附加信息
+
+**对应版本**: 时空智友
+
+**对应模块**: 供应链管理系统
+
+**问题类型**: 产品功能问题
+
+**解决方案类型**: SQL脚本, 代码修改
+
+**技术栈**: Oracle, Java, JavaScript
+
+**技术关键词**: 追溯码, 接口
+
+**问题关键字**: 追溯码校验
+
+**单据编号**: FX-20260125-008
+
+**提交人**: 何盛泽  \|  **提交部门**: 实施4部  \|  **提交日期**: 2026-01-25

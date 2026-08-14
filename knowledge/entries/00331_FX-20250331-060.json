@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250331-060",
+ "record_id": "7uRsfX1HyK",
+ "title": "门店特价商品10元积1分的规格调整后未生效",
+ "problem": "门店特价商品10元积1分的规格调整后未生效",
+ "cause": "系统自带的积分倍数是整数型，且服务端取值方式也为整数型",
+ "solution": "将系统的积分倍数调整成浮点型，设置0.1\n同时将零售收款的积分倍数取值方式也调整为浮点型\nmulPointAmt \\+= parseFloat(ds\\_mxls.getValueAt(i, \"paidInAmt\")) \\* parseFloat(ds\\_mxls.getValueAt(i, \"MulPoint\"));",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "特价积分未生效"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "门店收款模块",
+ "meta": {
+  "submitter": "何盛泽",
+  "department": "实施4部",
+  "date": "2025-03-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm7xqXnXIbxm51wQJGlDd3mE?utm_scene=team_space",
+  "node_id": "Y1OQX0akWm7xqXnXIbxm51wQJGlDd3mE",
+  "doc_path": "/时空/数据错误问题/门店特价商品10元积1分的规格调整后未生效",
+  "record_id": "7uRsfX1HyK"
+ },
+ "status": "active",
+ "doc_path": "/时空/数据错误问题/门店特价商品10元积1分的规格调整后未生效",
+ "category": [
+  "时空",
+  "数据错误问题"
+ ]
+}

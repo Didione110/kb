@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251211-019",
+ "record_id": "8uTTnDkhVJ",
+ "title": "天猫店铺上传发货物流显示同步失败，原因提示无效的联系人，发货地址为空",
+ "problem": "天猫店铺上传发货物流显示同步失败，原因提示无效的联系人，发货地址为空",
+ "cause": "店铺后台物流管理中，发货人和发货地址相关信息未设置",
+ "solution": "登录店铺后台配置当前店铺发货地址信息后，返回点三操作重新上传之前显示失败的数据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "联系人空"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-12-11"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGEqBQaQh62lEaxg86EDybno?utm_scene=team_space",
+  "node_id": "KGZLxjv9VGEqBQaQh62lEaxg86EDybno",
+  "doc_path": "/其他/数据错误问题/天猫店铺上传发货物流显示同步失败，原因提示无效的联系人，发货地址为空",
+  "record_id": "8uTTnDkhVJ"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/天猫店铺上传发货物流显示同步失败，原因提示无效的联系人，发货地址为空",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "FX-20230927-038",
+ "record_id": "Aq4Zy8OSwF",
+ "title": "填某些单据时，会弹出如附件的错误：",
+ "problem": "填某些单据时，会弹出如附件的错误：",
+ "cause": "多发生在U9c的标准版中，企业版暂时没有发现类似问题",
+ "solution": "当弹出窗口时，按【Ctrl＋F5】，因为当前页面 js 文件缓存有问题，强制刷新即可，后续应该有补丁出来",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "JS",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "单据错误"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-09-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Aq4Zy8OSwF"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

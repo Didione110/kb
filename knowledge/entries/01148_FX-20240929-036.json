@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240929-036",
+ "record_id": "TdB96Atw8Q",
+ "title": "用友U8数据卸除操作方法",
+ "problem": "用友U8数据卸除操作方法",
+ "cause": "为缓解连续多年数据造成的账套库过大产生的使用效率下降，系统提供数据卸出功能，支持把历史年度数据通过数据卸出剥离出去，提高当前运行的账套库使用效率。\n\n数据卸出，每次卸出操作将剥离已选年度数据为作为一个账套库，相对当前使用的账套库来说，已卸出的账套库称之为“历史账套库”，在用的账套库为“交易账套库”。具体操作步骤https://success.yonyou.com/surl/Ag2NufKX",
+ "solution": "适用版本：用友U8+10.0以上版本\n注意事项：数据卸出前一定一定一定要备份账套；\n\n年度结转-数据卸出流程\nhttps://success.yonyou.com/surl/Ag2NufKX",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "U8卸除"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "陈娜娜",
+  "department": "经理办",
+  "date": "2024-09-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "TdB96Atw8Q"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

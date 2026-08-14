@@ -1,0 +1,39 @@
+{
+ "id": "FX-20231219-044",
+ "record_id": "XxhHJ1qG0F",
+ "title": "信贷管理银行借款合同期初数据录入无法删除",
+ "problem": "信贷管理银行借款合同期初数据录入无法删除",
+ "cause": "目前期初录入错误无法直接删除",
+ "solution": "更改执行情况\n--备份（SQL数据库）\nselect * into fi_contract_run_bak20231219 from fi_contract_run;\n--备份（ORACLE数据库）\ncreatetablefi_contract_run_bak20231219asselectfromfi_contract_run;\n--查看备份的表selectfrom fi_contract_run_bak20231219;\n--查询对应的合同取得合同主键pk_id记作aaa\nselect * from fi_cont_main where code='123（合同号）';\n--前述查询到的pk_id记作aaa--删除对应合同的执行情况\ndelete from fi_contract_run where pk_parent='1071F8100000000001Q5（查询的主键）'\n\n更改合同状态\n--beifen\nselect * into fi_contract_bak20231219 from fi_contract;\n--CHAXUN\nselect * FROM fi_contract_bak20231219;\n--GENGXIN\nupdate fi_contract set status = 'B' WHERE PK_ID = '1071F8100000000001Q6(查询的主键)'\nselect * from fi_contract where PK_id = '1071F8100000000001Q6'",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "合同删除"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "资产管理",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2023-12-19"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "XxhHJ1qG0F"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

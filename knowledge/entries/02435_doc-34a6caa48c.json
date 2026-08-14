@@ -1,0 +1,30 @@
+{
+ "id": "doc-34a6caa48c",
+ "record_id": "",
+ "title": "流程结束后自动抄送流程所有人，能否取消抄送？",
+ "problem": "流程结束后自动抄送流程所有人，能否取消抄送？",
+ "cause": "系统默认开启流程结束后通知选项",
+ "solution": "在流程引擎中关闭结束通知即可",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZm7dgLoVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZm7dgLoVzlwrZgb",
+  "doc_path": "/蓝凌OA/应用操作/流程结束后自动抄送流程所有人，能否取消抄送？"
+ },
+ "doc_path": "/蓝凌OA/应用操作/流程结束后自动抄送流程所有人，能否取消抄送？",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

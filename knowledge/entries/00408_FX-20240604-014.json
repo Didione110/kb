@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240604-014",
+ "record_id": "9uVvdSkSFg",
+ "title": "平台订单状态变更成已关闭、已取消，系统订单审核，出库没有任何提示，操作没拦截",
+ "problem": "平台订单状态变更成已关闭、已取消，系统订单审核，出库没有任何提示，操作没拦截",
+ "cause": "系统设置-订单设置中开启平台订单已关闭、已取消，系统是否进行拦截提醒开关未开启。",
+ "solution": "系统设置-订单设置中开启平台订单已关闭、已取消，系统是否进行拦截提醒开关。订单在进行审核和出库操作时原始订单状态变更成已关闭、已取消时会出现提醒和拦截。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "审批流",
+  "库存"
+ ],
+ "keywords": [
+  "状态变更无提示"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-06-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1Q5GnWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1Q5GnWrMqPxX6",
+  "doc_path": "/其他/应用操作/平台订单状态变更成已关闭、已取消，系统订单审核，出库没有任何提示，操作没拦截",
+  "record_id": "9uVvdSkSFg"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/平台订单状态变更成已关闭、已取消，系统订单审核，出库没有任何提示，操作没拦截",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

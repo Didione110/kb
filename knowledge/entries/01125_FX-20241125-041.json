@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241125-041",
+ "record_id": "T6Dm8dBdfG",
+ "title": "YS低代码平台找不到授权入口",
+ "problem": "YS低代码平台找不到授权入口",
+ "cause": "低代码平台购买后操作员授权在管理类角色中新增“低代码平台权限”",
+ "solution": "低代码平台购买后操作员授权在管理类角色中新增“低代码平台权限”",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "授权入口"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2024-11-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "T6Dm8dBdfG"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

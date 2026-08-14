@@ -1,0 +1,46 @@
+{
+ "id": "FX-20231130-115",
+ "record_id": "43jo6NizZc",
+ "title": "ERP和OMS无法实现多对一的关系。",
+ "problem": "ERP和OMS无法实现多对一的关系。",
+ "cause": "ERP商品编码需要唯一性。",
+ "solution": "ERP内新增C端编码，多条同个商品的资料C端编码填一样，OMS统计库存将同个C端编码的库存汇总。\n所有C端店铺上架这个商品的时候平台商家编码全部和C端编号字段保持一致。",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "多对一"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3MZB3l3c9RjLP368AgozOKL?utm_scene=team_space",
+  "node_id": "XPwkYGxZV3MZB3l3c9RjLP368AgozOKL",
+  "doc_path": "/其他/数据接口问题/ERP和OMS无法实现多对一的关系。",
+  "record_id": "43jo6NizZc"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/ERP和OMS无法实现多对一的关系。",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

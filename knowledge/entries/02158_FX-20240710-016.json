@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240710-016",
+ "record_id": "t86cxNrtTO",
+ "title": "采购订单维护的币种的美元，但是做请款时选择美元确关联不上采购订单",
+ "problem": "采购订单维护的币种的美元，但是做请款时选择美元确关联不上采购订单",
+ "cause": "采购订单上面币种页签，需要将核币修改为美元，默认是人民币",
+ "solution": "需要从源头上面修改供应商档案，交易币种和付款币种均设置为美元，这样采购订单上面就会自动跟着变化",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "币种关联"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "何敏",
+  "department": "实施8部",
+  "date": "2024-07-10"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "t86cxNrtTO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250228-042",
+ "record_id": "N9A6qUQgc3",
+ "title": "DHERP打印时报错提示：Connection Closed Gracefully",
+ "problem": "DHERP打印时报错提示：Connection Closed Gracefully",
+ "cause": "显示的是链接关闭了",
+ "solution": "打印机配置网关,重启电脑即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "接口",
+  "打印"
+ ],
+ "keywords": [
+  "连接关闭"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "需求&KA部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "N9A6qUQgc3"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "安装部署问题"
+ ]
+}

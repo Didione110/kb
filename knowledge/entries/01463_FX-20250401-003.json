@@ -1,0 +1,41 @@
+{
+ "id": "FX-20250401-003",
+ "record_id": "c5BeIMiIte",
+ "title": "根据实际行数打印凭证",
+ "problem": "根据实际行数打印凭证",
+ "cause": "根据实际行数打印凭证",
+ "solution": "新控件:\n1、凭证打印预览界面打开，将页面设置打开，先修改上下边距和任务间距，调大一些，保证一页纸只打印一张凭证；\n2、详细格式设置打开，通用设置界面，选择要修改的项目为表体，将表体固定行数默认5行修改为0后，\n3、表体设置界面，表体尾边框风格，将上横线加上，确定；这样设置后，凭证打印预览凭证根据实际行数显示并打印。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "打印凭证"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "c5BeIMiIte"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240202-019",
+ "record_id": "nJDV022GJN",
+ "title": "之前好多反应智慧医保上一个窗口未关闭，店员在上面操作，智友收不到返回值的问题",
+ "problem": "之前好多反应智慧医保上一个窗口未关闭，店员在上面操作，智友收不到返回值的问题",
+ "cause": "智友请求上一个界面没关闭的，直接返回了报错，但是店员还在上一个界面上操作",
+ "solution": "智友请求上一个界面没关闭的，直接关闭上一个打开新界面",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "窗口未关闭"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/EpGBa2Lm8aMGRNgNcw7pqQEL8gN7R35y?utm_scene=team_space",
+  "node_id": "EpGBa2Lm8aMGRNgNcw7pqQEL8gN7R35y",
+  "doc_path": "/自研/应用操作/之前好多反应智慧医保上一个窗口未关闭，店员在上面操作，智友收不到返回值的问题",
+  "record_id": "nJDV022GJN"
+ },
+ "status": "active",
+ "doc_path": "/自研/应用操作/之前好多反应智慧医保上一个窗口未关闭，店员在上面操作，智友收不到返回值的问题",
+ "category": [
+  "自研",
+  "应用操作"
+ ]
+}

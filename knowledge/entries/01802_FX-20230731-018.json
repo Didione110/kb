@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230731-018",
+ "record_id": "ktA6qQuAu8",
+ "title": "更换数据库连接后，同步程序无法使用。",
+ "problem": "更换数据库连接后，同步程序无法使用。",
+ "cause": "当同步程序配置文件中的数据连接地址变更后，需要重新生成账户信息。",
+ "solution": "更新数据库配置后，重新在程序后台生成新的账户编号。然后将同步视图中的所有账户编号字段更新成新生成的账户编号。",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "数据库同步"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-07-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ktA6qQuAu8"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "软件无法使用"
+ ]
+}

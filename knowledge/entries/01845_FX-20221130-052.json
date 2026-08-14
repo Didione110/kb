@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221130-052",
+ "record_id": "m5ydHRxT9A",
+ "title": "应收列表数据与实际有差异",
+ "problem": "应收列表数据与实际有差异",
+ "cause": "U9C不允许在单据上输负数，只能用单据类型区分，但是在列表计算的时候这部分数据会当成正数计算",
+ "solution": "参照社区已有例子修改：\nhttps://u9hub.diwork.com/a/p/01ebfefb37281420b4c8cfbd5f97afff\n实际语句为：DocumentType==FunRef('应收单据类型','02',1002203283524099 )?(-ARFCMoney.TotalMoney):\n (DocumentType==FunRef('应收单据类型','04',1002203283524101) ?(-ARFCMoney.TotalMoney):ARFCMoney.TotalMoney)\n这样不管是贷项账户单以及贷项通知单在列表显示的金额均为负数。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "数据差异"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "m5ydHRxT9A"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

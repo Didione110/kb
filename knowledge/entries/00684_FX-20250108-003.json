@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250108-003",
+ "record_id": "HPiPYabWcV",
+ "title": "原有报表不满足客户需求",
+ "problem": "原有报表不满足客户需求",
+ "cause": "原有报表不满足客户需求",
+ "solution": "在U9C中增加个性化报表。利用UBF工具来进行开发\n1、选跟客户确认报表样式\n2、在后台将报表以SQL语句或者存储过程的方式展示确认后再UBF进行设计与配置\n3、第2步完成后需将报表通过菜单权限分配对应查询的人即可进行查看",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "报表需求"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "个性化报表",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2025-01-08"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HPiPYabWcV"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

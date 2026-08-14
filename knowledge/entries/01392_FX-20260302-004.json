@@ -1,0 +1,38 @@
+{
+ "id": "FX-20260302-004",
+ "record_id": "a5DGm7M7mP",
+ "title": "商品结存初装保存报空指针",
+ "problem": "商品结存初装保存报空指针",
+ "cause": "机构属性设置没有设定财务中心，库房组织",
+ "solution": "设置对应机构的财务中心，库房组织，商品资料的管理库存字段",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "空指针"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨明",
+  "department": "服务值班组",
+  "date": "2026-03-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "a5DGm7M7mP"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

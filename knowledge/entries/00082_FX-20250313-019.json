@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250313-019",
+ "record_id": "1qMFhJQnFe",
+ "title": "凭证上的辅助项跟摘要数据字段过多的时候，打印截断了后续字段，需要自动调整缩小字体大小",
+ "problem": "凭证上的辅助项跟摘要数据字段过多的时候，打印截断了后续字段，需要自动调整缩小字体大小",
+ "cause": "右键单元格设置，对齐页签下-文本控制-匹配字体，文字可以根据文本框自动匹配字体",
+ "solution": "右键单元格设置，对齐页签下-文本控制-匹配字体，文字可以根据文本框自动匹配字体",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "ZyPrint",
+  "FastReport",
+  "Aspose"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "打印截断"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "实施6部",
+  "date": "2025-03-13"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1qMFhJQnFe"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

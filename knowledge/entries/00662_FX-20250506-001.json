@@ -1,0 +1,46 @@
+{
+ "id": "FX-20250506-001",
+ "record_id": "GnqOtsljYJ",
+ "title": "天猫增加新店铺，绑定原来的appkey，继续使用接口功能",
+ "problem": "天猫增加新店铺，绑定原来的appkey，继续使用接口功能",
+ "cause": "之前的程序没有考虑到多店铺，配置参数只有一套。\n需要修改程序和配置支持多店铺",
+ "solution": "1. 在控制台应用下申请绑定新店铺\n2. 获取session给新店铺授权\n3. 订单解密程序更新，传入session参数，支持多店铺\n4. 其他接口流程走一遍，确认多店铺运行成功",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "店铺绑定"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "研发1部",
+  "date": "2025-05-06"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPEzvGyGhv51MaYg8zN67Mw4?utm_scene=team_space",
+  "node_id": "QOG9lyrgJPEzvGyGhv51MaYg8zN67Mw4",
+  "doc_path": "/自研/数据接口问题/天猫增加新店铺，绑定原来的appkey，继续使用接口功能",
+  "record_id": "GnqOtsljYJ"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/天猫增加新店铺，绑定原来的appkey，继续使用接口功能",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

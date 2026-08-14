@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240125-040",
+ "record_id": "4NQc2XLNQn",
+ "title": "新版本商品损益执行对接ERP报损报溢，提取接口数据条目数对不上",
+ "problem": "新版本商品损益执行对接ERP报损报溢，提取接口数据条目数对不上",
+ "cause": "存储过程:LJT\\_WMS\\_BaoSBaoY，提取接口数据这段SQL需要检查修改，注意检查spmch,jlgg,ywhsdwid取值",
+ "solution": "修改存储过程LJT\\_WMS\\_BaoSBaoY提取接口数据这段SQL",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "报损报溢"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "吴中涛",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8Dd41Z2ZUe56wGEe8xLq0Ee4?utm_scene=team_space",
+  "node_id": "Gl6Pm2Db8Dd41Z2ZUe56wGEe8xLq0Ee4",
+  "doc_path": "/其他/应用操作/新版本商品损益执行对接ERP报损报溢，提取接口数据条目数对不上",
+  "record_id": "4NQc2XLNQn"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/新版本商品损益执行对接ERP报损报溢，提取接口数据条目数对不上",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

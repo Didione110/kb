@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240130-062",
+ "record_id": "D7rdiG1baz",
+ "title": "原始订单转单失败",
+ "problem": "原始订单转单失败",
+ "cause": "商品编码或者套餐编码未匹配，导致转单失败",
+ "solution": "点三中创建转单失败订单中的套餐资料后再网点商品匹配功能中手动完成匹配，店铺后台商品有上新时要及时拉取对应店铺的商品资料生成匹配关系。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "转单失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2024-01-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymnq0G8xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymnq0G8xkXOEP2",
+  "doc_path": "/其他/数据错误问题/原始订单转单失败",
+  "record_id": "D7rdiG1baz"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/原始订单转单失败",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

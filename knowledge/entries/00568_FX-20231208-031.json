@@ -1,0 +1,45 @@
+{
+ "id": "FX-20231208-031",
+ "record_id": "DrG70QImkd",
+ "title": "表单发起日期与表单中的填写日期不一致（填写日期已经在操作设置中设置默认带出当前日期）",
+ "problem": "表单发起日期与表单中的填写日期不一致（填写日期已经在操作设置中设置默认带出当前日期）",
+ "cause": "由于一键复制前期填写内容，覆盖当前页面后没有修改填写日期导致。",
+ "solution": "1、引用覆盖后，手动修改表单界面的填写日期；\n2、可在对应表单的流程模板设置-流程操作设置中取消勾选“允许相关数据一键复制”功能。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "日期不一致"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2023-12-08"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmb6oQqVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmb6oQqVzlwrZgb",
+  "doc_path": "/致远OA/应用操作/表单发起日期与表单中的填写日期不一致（填写日期已经在操作设置中设置默认带出当前日期）",
+  "record_id": "DrG70QImkd"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/应用操作/表单发起日期与表单中的填写日期不一致（填写日期已经在操作设置中设置默认带出当前日期）",
+ "category": [
+  "致远OA",
+  "应用操作"
+ ]
+}

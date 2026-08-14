@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250930-049",
+ "record_id": "1dFKyrLJYw",
+ "title": "固定资产报错，生成凭证模板第5条分录，单据的第1条表体数据时出错!该模版使用的科目分录中未找到详细科目:资产增加对方科目0",
+ "problem": "固定资产报错，生成凭证模板第5条分录，单据的第1条表体数据时出错!该模版使用的科目分录中未找到详细科目:资产增加对方科目0",
+ "cause": "固定资产科目分类定义没添加",
+ "solution": "补充完整固定资产科目分类定义，修改固定资产凭证生成选项 修改完成后重算再生成凭证 凭证就可以修改了",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "科目缺失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "1dFKyrLJYw"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

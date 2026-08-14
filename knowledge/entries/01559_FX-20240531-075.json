@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240531-075",
+ "record_id": "erFVgzF5Ej",
+ "title": "在报表模块设置需要按照项目展开的动态科目自定义报表，设置了引用项目辅助核算关键字动态，但是点计算就展示了集团所有的项目并不是所登录计算公司已分配的项目档案，并且算不出来任何数值（指标已经正常提取）",
+ "problem": "在报表模块设置需要按照项目展开的动态科目自定义报表，设置了引用项目辅助核算关键字动态，但是点计算就展示了集团所有的项目并不是所登录计算公司已分配的项目档案，并且算不出来任何数值（指标已经正常提取）",
+ "cause": "动态关键字设置不正确",
+ "solution": "1、要参考附件设置，按单位过滤项目档案 2、动态区关键字要设置两个，一个项目编码一个项目名称 公式使用的得是项目编码，使用名称会取不到数据",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "项目权限"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "erFVgzF5Ej"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "FX-20240731-061",
+ "record_id": "3QKKWUfgLH",
+ "title": "收货或验收单据数据重复",
+ "problem": "收货或验收单据数据重复",
+ "cause": "多人操作收货或验收，有几率造成1单多次提取",
+ "solution": "收货和验收过程增加回写的数量拦截校验（时空WMS模板库已加）",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "REST API",
+  "DEE"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "单据重复"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-07-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeAGAXOVKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeAGAXOVKe0xjE3",
+  "doc_path": "/其他/数据错误问题/收货或验收单据数据重复",
+  "record_id": "3QKKWUfgLH"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/收货或验收单据数据重复",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

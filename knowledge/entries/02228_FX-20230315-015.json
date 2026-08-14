@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230315-015",
+ "record_id": "uzpGgjMZ28",
+ "title": "登录U8，打开固定资产模块，提示类型不匹配，可能是旧版本的账套",
+ "problem": "登录U8，打开固定资产模块，提示类型不匹配，可能是旧版本的账套",
+ "cause": "固定资产模块启用前未更改电脑日期为短日期格式YYYY-MM-DD，导致accinformation表记录的最新会计日期格式不正确导致的",
+ "solution": "建议启用模块前先检查电脑日期是否为短日期格式，如未更改就启用导致的报错，只能后台更改accinformation表中最新会计日期字段cvalue值为短日期格式，例：2023-03-01",
+ "solution_types": [
+  "环境设置",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "类型不匹配"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2023-03-15"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "uzpGgjMZ28"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231009-007",
+ "record_id": "1324PW4R1D",
+ "title": "余额表查询显示空白，栏目都没有了，栏目设置中栏目为空",
+ "problem": "余额表查询显示空白，栏目都没有了，栏目设置中栏目为空",
+ "cause": "ufmeta库中AA\\_ColumnDic\\_base表缺少cKey='gl\\_yeb\\_av0'的记录，参照正常账套插入缺少的记录后，重新查询余额表正常。",
+ "solution": "ufmeta库中AA\\_ColumnDic\\_base表缺少cKey='gl\\_yeb\\_av0'的记录，参照正常账套插入缺少的记录后，重新查询余额表正常。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "余额表空白"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "成功部创新组-停用",
+  "date": "2023-10-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg8920o545UmAbwyqkW3kdP0wQ?utm_scene=team_space",
+  "node_id": "2Amq4vjg8920o545UmAbwyqkW3kdP0wQ",
+  "doc_path": "/用友/环境问题/余额表查询显示空白，栏目都没有了，栏目设置中栏目为空",
+  "record_id": "1324PW4R1D"
+ },
+ "status": "active",
+ "doc_path": "/用友/环境问题/余额表查询显示空白，栏目都没有了，栏目设置中栏目为空",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

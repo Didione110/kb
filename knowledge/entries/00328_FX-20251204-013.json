@@ -1,0 +1,43 @@
+{
+ "id": "FX-20251204-013",
+ "record_id": "7nWBN33okB",
+ "title": "拉卡拉聚合支付刷微信正常，但是刷支付宝报“请求服务失败【无效请求(请求角色【AGENT】无访问权限，联系相关人员开通)”",
+ "problem": "拉卡拉聚合支付刷微信正常，但是刷支付宝报“请求服务失败【无效请求(请求角色【AGENT】无访问权限，联系相关人员开通)”",
+ "cause": "是因为门店商户号没有在拉卡拉平台做支付认证，这个必须提前让拉卡拉业务员上报并认证",
+ "solution": "将商户号报备给对应业务员进行支付绑定认证",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "权限不足"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "电商接口",
+ "module": "",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2025-12-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYerpdEdIBP33vjnJakx1Z5N?utm_scene=team_space",
+  "node_id": "dQPGYqjpJYerpdEdIBP33vjnJakx1Z5N",
+  "doc_path": "/自研/安装部署问题/拉卡拉聚合支付刷微信正常，但是刷支付宝报“请求服务失败【无效请求(请求角色【AGENT】无访问权限，联系相关人员开通(”",
+  "record_id": "7nWBN33okB"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/拉卡拉聚合支付刷微信正常，但是刷支付宝报“请求服务失败【无效请求(请求角色【AGENT】无访问权限，联系相关人员开通(”",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

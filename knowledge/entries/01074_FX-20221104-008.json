@@ -1,0 +1,41 @@
+{
+ "id": "FX-20221104-008",
+ "record_id": "RlPfG4SwMM",
+ "title": "使用c#clickone 自动更新，每次更新会在C盘新建一个程序目录，原有的配置文件无法使用了",
+ "problem": "使用c#clickone 自动更新，每次更新会在C盘新建一个程序目录，原有的配置文件无法使用了",
+ "cause": "clickone 自动更新 和 配置文件原使用路径",
+ "solution": "在程序里指定配置文件在C://NNFP，这样更新程序后，配置文件还能生效",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "ClickOnce 配置丢失"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2022-11-04"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/lyQod3RxJKEGBNRNhoX1PKAXWkb4Mw9r?utm_scene=team_space",
+  "node_id": "lyQod3RxJKEGBNRNhoX1PKAXWkb4Mw9r",
+  "doc_path": "/自研/安装部署问题/使用c#clickone 自动更新，每次更新会在C盘新建一个程序目录，原有的配置文件无法使用了",
+  "record_id": "RlPfG4SwMM"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/使用c#clickone 自动更新，每次更新会在C盘新建一个程序目录，原有的配置文件无法使用了",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

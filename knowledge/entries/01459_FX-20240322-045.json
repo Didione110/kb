@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240322-045",
+ "record_id": "c1SQPsiCLM",
+ "title": "pos端结算时提示日期不在账期内",
+ "problem": "pos端结算时提示日期不在账期内",
+ "cause": "T\\+端会计期间不是以1月份开始， 排查启用期间2023.4实际对应的启用日期是2023年8月",
+ "solution": "1. 在T\\+服务器数据库执行\n```\n SELECT * From EAP_AccInformation Where Name = 'Retail'（从选项表查询选项名称为零售的所有信息，以此来查出零售的会计期间）\n select * from SM_Period where id='40'（从会计期间表查出主键为40的所有信息）\n 排查启用期间2023.4实际对应的启用日期是2023年8月\n update EAP_AccInformation set idEnablePeriod='36' Where Name = 'Retail'（在选项表中修改零售的启用期间id为36）\n 2.在POS端数据库执行\n （1）pos数据库新建查询方法:打开数据库管理工具pgAdmin IIl\n 连接PostaresOL 9.5(x86)(locahost:5432)，录入密码tplus_12345\n 点击数据库-postgres，上方工具栏点击执行任意的sql查询\n （2） SELECT min(begindate), max(enddate) FROM sm_period WHERE bizterminalstate =' 0' And begindate >= (SELECT begindate From sm_period Where id = (SELECT idEnablePeriod From EAP_AccInformation Where Name = 'Retail') )\n 在会计期间表中查询业务结账状态为否且开始时间大于等于选项表中选项名称为零售的启用ID的最小开始时间和最大结束时间。查出最小开始时间为8月\n update EAP_AccInformation set idenableperiod='36' Where Name = 'Retail'\n 修改启用期间，重启服务，pos测试解决\n\n```",
+ "solution_types": [
+  "SQL脚本",
+  "重启服务",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "PostgreSQL"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "账期不符"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "畅捷通T+",
+ "module": "",
+ "meta": {
+  "submitter": "余梦",
+  "department": "需求&KA部",
+  "date": "2024-03-22"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJwAaqRPRcMA37E9KWn4qY5Pr?utm_scene=team_space",
+  "node_id": "Obva6QBXJwAaqRPRcMA37E9KWn4qY5Pr",
+  "doc_path": "/其他/数据错误问题/pos端结算时提示日期不在账期内",
+  "record_id": "c1SQPsiCLM"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/pos端结算时提示日期不在账期内",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

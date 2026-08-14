@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260430-026",
+ "record_id": "t5AVzYVXpW",
+ "title": "诺诺税控接口重新安装最新版本后开票提示初始化错误:Root element is missing.",
+ "problem": "诺诺税控接口重新安装最新版本后开票提示初始化错误:Root element is missing.",
+ "cause": "重装最新版本程序后XML文件未更新",
+ "solution": "删除C盘nnfp文件夹下的 xml文件，系统会自动生成最新的XML文件",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "Root元素缺失"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "税控发票",
+ "module": "",
+ "meta": {
+  "submitter": "胡炼",
+  "department": "服务值班组",
+  "date": "2026-04-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlpDkB8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlpDkB8Zd1wyK0",
+  "doc_path": "/自研/安装部署问题/诺诺税控接口重新安装最新版本后开票提示初始化错误 Root element is missing.",
+  "record_id": "t5AVzYVXpW"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/诺诺税控接口重新安装最新版本后开票提示初始化错误 Root element is missing.",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

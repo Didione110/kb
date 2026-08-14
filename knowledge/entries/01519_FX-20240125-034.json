@@ -1,0 +1,47 @@
+{
+ "id": "FX-20240125-034",
+ "record_id": "deg5tNKIEr",
+ "title": "监管码数据导出后，上传码上放心失败",
+ "problem": "监管码数据导出后，上传码上放心失败",
+ "cause": "WMS系统单位编号和码上放心改单位的编号不一致，导致上传失败",
+ "solution": "2个解决方法：1.把码上放心单位编号维护成WMS的。2.在ERP单位资料里加个字段用于存放码上放心的单位编号，然后传入到WMS，WMS导出监管码的时候取这个参数。",
+ "solution_types": [
+  "配置修改",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "监管码上传失败"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-01-25"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbLLa6VzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbLLa6VzlwrZgb",
+  "doc_path": "/其他/数据错误问题/监管码数据导出后，上传码上放心失败",
+  "record_id": "deg5tNKIEr"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/监管码数据导出后，上传码上放心失败",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

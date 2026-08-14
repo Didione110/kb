@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240331-072",
+ "record_id": "WFYe2okmeK",
+ "title": "项目档案无法删除 显示被引用",
+ "problem": "项目档案无法删除 显示被引用",
+ "cause": "后台有垃圾数据未删除 需要关联查询表单",
+ "solution": "select * from bd_jobmngfil where pk_jobbasfil =(select pk_jobbasfil from bd_jobbasfil where jobcode ='010100250')\nSELECT * FROM bd_jobbasfil WHERE 1 = 1 and pk_corp = '0001' and pk_jobtype = '0001F810000000001D1K' ORDER BY jobcode\nselect freevalueid,* from gl_freevalue where pk_freevalue ='1051F810000000000LGH'\nselect * from gl_detail where assid = '1051F810000000000LGG'\ndelete from gl_freevalue where pk_freevalue ='1051F810000000000LGH'",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "达梦",
+  "人大金仓"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "被引用"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "企业建模平台",
+ "meta": {
+  "submitter": "夏爽",
+  "department": "实施7部",
+  "date": "2024-03-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WFYe2okmeK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

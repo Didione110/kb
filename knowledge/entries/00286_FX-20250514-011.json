@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250514-011",
+ "record_id": "6jjg46tPkE",
+ "title": "多核算账簿场景；核算账簿已启用总账资产模块，需切换账簿分类；切换总账账簿分类按钮可实现总账主账簿、报告账簿的切换，但前台无法切换资产模块的账簿分类。",
+ "problem": "多核算账簿场景；核算账簿已启用总账资产模块，需切换账簿分类；切换总账账簿分类按钮可实现总账主账簿、报告账簿的切换，但前台无法切换资产模块的账簿分类。",
+ "cause": "前台无法实现资产账簿切换主、报告账簿，因项目上资产账簿启用但未录入数据，可后台修改账簿类型",
+ "solution": "后台执行脚本可实现资产模块主、报告账簿的切换",
+ "solution_types": [
+  "SQL脚本"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Shell"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "资产账簿切换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "数字化建模",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-05-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNymZBg58xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNymZBg58xkXOEP2",
+  "doc_path": "/用友/应用操作/多核算账簿场景；核算账簿已启用总账资产模块，需切换账簿分类；切换总账账簿分类按钮可实现总账主账簿、报告账簿的切换，但前台无法切换资产模块的账簿分类。",
+  "record_id": "6jjg46tPkE"
+ },
+ "status": "active",
+ "doc_path": "/用友/应用操作/多核算账簿场景；核算账簿已启用总账资产模块，需切换账簿分类；切换总账账簿分类按钮可实现总账主账簿、报告账簿的切换，但前台无法切换资产模块的账簿分类。",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "FX-20221130-056",
+ "record_id": "G8ytJAj3Hp",
+ "title": "erp同事处理和wms对接的相关问题时，不清楚wms相关表及字段",
+ "problem": "erp同事处理和wms对接的相关问题时，不清楚wms相关表及字段",
+ "cause": "不熟悉wms接口表",
+ "solution": "把常用的流程接口表汇总在一起",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "WMS表字段"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/YMyQA2dXW7XeBZGZCZmbvellVzlwrZgb?utm_scene=team_space",
+  "node_id": "YMyQA2dXW7XeBZGZCZmbvellVzlwrZgb",
+  "doc_path": "/其他/数据接口问题/erp同事处理和wms对接的相关问题时，不清楚wms相关表及字段",
+  "record_id": "G8ytJAj3Hp"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据接口问题/erp同事处理和wms对接的相关问题时，不清楚wms相关表及字段",
+ "category": [
+  "其他",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240126-042",
+ "record_id": "nX5T30oOy2",
+ "title": "打开公文直接显示正文，审批栏在下方，比较丑不方便流程处理。",
+ "problem": "打开公文直接显示正文，审批栏在下方，比较丑不方便流程处理。",
+ "cause": "公文布局未调整",
+ "solution": "在后台管理-应用管理-应用配置-公文管理-默认值设置中进行调整",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "界面布局"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "公文管理",
+ "meta": {
+  "submitter": "王强",
+  "department": "实施5部",
+  "date": "2024-01-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nX5T30oOy2"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "产品功能问题"
+ ]
+}

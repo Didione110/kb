@@ -1,0 +1,40 @@
+{
+ "id": "FX-20241224-023",
+ "record_id": "zWkHC7hC84",
+ "title": "新增固定资产中的低值易耗品采用的是五五摊销法，一开始领用的时候系统会计提50%，最后的50%在使用的最后一个月自动计提，11月份新增的没有在11月份计提",
+ "problem": "新增固定资产中的低值易耗品采用的是五五摊销法，一开始领用的时候系统会计提50%，最后的50%在使用的最后一个月自动计提，11月份新增的没有在11月份计提",
+ "cause": "查看卡片，开始使用时间在9月但是录入时间在11月导致没有计提",
+ "solution": "修改卡片的开始使用时间，开始使用时间跟卡片的录入时间在同一个月份",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "五五摊销"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-12-24"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zWkHC7hC84"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240401-007",
+ "record_id": "GnEXTILNFL",
+ "title": "请购单来源单据把销售订单拉出来显示在全程追溯里面",
+ "problem": "请购单来源单据把销售订单拉出来显示在全程追溯里面",
+ "cause": "请购单来源单据把销售订单拉出来显示在全程追溯里面",
+ "solution": "在追溯单据关系设置里新增销售订单→请购单 关系字段：SrcDocInfo.SrcDocSubLine.EntityID",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "追溯码"
+ ],
+ "keywords": [
+  "全程追溯"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-04-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "GnEXTILNFL"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20231017-013",
+ "record_id": "g8XjLqQhlk",
+ "title": "【打印】模板发布之后在U9c中打印的时候看不到发布过的模板",
+ "problem": "【打印】模板发布之后在U9c中打印的时候看不到发布过的模板",
+ "cause": "原因是通过UBF搜索框搜出来的模板上进行修改和发布，强调要逐级点开的才行，直接搜索预置的模板，在预置的模板另存修改会造成模板实体Key丢失，导致发布后看不到模板",
+ "solution": "二选一完成：\n1、如果是另存为的模板，重新将之前需要发布的模板再另存为一份出来，重新发布一下，旧的删掉。\n2、使用脚本执行后，重启UBF后，看实体Key变了没，变了就重新发布。",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Linux",
+  "Shell"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "模板不可见"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-10-17"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "g8XjLqQhlk"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251130-048",
+ "record_id": "oo5b7DSKP9",
+ "title": "集团外协采购订单抛单成分公司的销售订单后，分公司标准出货抛回集团的委外收货中批号没有自动带过来",
+ "problem": "集团外协采购订单抛单成分公司的销售订单后，分公司标准出货抛回集团的委外收货中批号没有自动带过来",
+ "cause": "抛过来的委外收货订单系统无法确定存储地点，无法带出批号",
+ "solution": "集团在维护外协采购订单时就填好存储地点，那么分公司标准出货后抛回集团的委外收货中批号就可以自动带过来",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存",
+  "追溯码",
+  "接口"
+ ],
+ "keywords": [
+  "批号未带"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-11-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "oo5b7DSKP9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "实施问题"
+ ]
+}

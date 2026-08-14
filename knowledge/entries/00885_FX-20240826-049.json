@@ -1,0 +1,39 @@
+{
+ "id": "FX-20240826-049",
+ "record_id": "MgZczJYIY9",
+ "title": "取消四月份固定资产结账的时候提示反结账出错!会计平台已经对折旧计提进行了制单，不可进行反结账，但是查询4月份没有查询到制单的凭证",
+ "problem": "取消四月份固定资产结账的时候提示反结账出错!会计平台已经对折旧计提进行了制单，不可进行反结账，但是查询4月份没有查询到制单的凭证",
+ "cause": "5月份存在已经生成的折旧凭证",
+ "solution": "删除4月份后的所有固定资产相关的折旧凭证",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "反结账失败"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张秋月",
+  "department": "客户成功部",
+  "date": "2024-08-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "MgZczJYIY9"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

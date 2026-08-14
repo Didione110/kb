@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240406-028",
+ "record_id": "hIvx818AIi",
+ "title": "迁移服务器、从客户服务器下载备份至其他环境进行测试时，无法同步补丁。提示：在尝试加载程序集 ID 65536 时 Microsoft .NET Framework 出错。服务器可能资源不足，或者不信任该程序集，因为它的 PERMISSION_SET 设置为 EXTERNAL_ACCESS 或 UNSAFE。请重新运行查询，或检查有关的文档了解如何解决程序集信任问题。有关此错误的详细信息:",
+ "problem": "迁移服务器、从客户服务器下载备份至其他环境进行测试时，无法同步补丁。提示：在尝试加载程序集 ID 65536 时 Microsoft .NET Framework 出错。服务器可能资源不足，或者不信任该程序集，因为它的 PERMISSION_SET 设置为 EXTERNAL_ACCESS 或 UNSAFE。请重新运行查询，或检查有关的文档了解如何解决程序集信任问题。有关此错误的详细信息:",
+ "cause": "原库与目标库库所有者必须设为SA或Administrator,然后启用SQL CLR，否则SQL CLR的安全性会认为该程序集不可靠，从而无法进行数据表任何操作。",
+ "solution": "--数据库的OWNER设置成SA语句.\n\nexec sp_changedbowner 'sa'\n\n --如果没有启用CLR,开启\n\nEXEC sp_configure 'clr enabled',1\n\nRECONFIGURE WITH OVERRIDE;\n\n --查看程序集,是存在的.\n\nSELECT * FROM sys.assemblies;\n\nSELECT * FROM sys.assembly_files;\n\n--还原之后的数据库TRUSTWORTHY 都是OFF的,需要重新设置\n\nALTER DATABASE B SET TRUSTWORTHY ON;",
+ "solution_types": [
+  "配置修改",
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "程序集信任"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "经理办",
+  "date": "2024-04-06"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "hIvx818AIi"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "环境问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20230405-015",
+ "record_id": "OYEUzy4nHm",
+ "title": "部分客户存在这种打印问题，尤其是一键打印部分， 打印模板上设置的高度一般是93.3mm，比如一次性打印50张以上的出库单时，可能会出现打印鸡跳纸靠上或者靠下错位的问题\n案例：晟辉弘毅 使用一键打印时，几乎无法连续扫码5个箱子打印鸡就会偏移错位\n经过改进后，目前已能支持80-100单左右不会错位了",
+ "problem": "部分客户存在这种打印问题，尤其是一键打印部分， 打印模板上设置的高度一般是93.3mm，比如一次性打印50张以上的出库单时，可能会出现打印鸡跳纸靠上或者靠下错位的问题\n案例：晟辉弘毅 使用一键打印时，几乎无法连续扫码5个箱子打印鸡就会偏移错位\n经过改进后，目前已能支持80-100单左右不会错位了",
+ "cause": "时空体系的打印设计是使用的fastreport控件， 大部分常规打印鸡是支持的，偶尔遇到特殊的打印鸡型号，则不会取模板内设置的尺寸，即设置无效",
+ "solution": "当遇到如上情况时，则无法使用fastreport来设置精度较高的尺寸，则需要另一种办法在windows内设置，详见百度\n\n打印机纸张规格怎么样设置 如何自定义纸张大小-百度经验\nhttps://jingyan.baidu.com/article/e75057f213a7dfebc91a893c.html",
+ "solution_types": [
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows",
+  "一键打印",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "打印错位"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "一键打印",
+ "module": "",
+ "meta": {
+  "submitter": "汪松",
+  "department": "服务值班组",
+  "date": "2023-04-05"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJlnAq2m2IgY1yQkeWdqbropQ?utm_scene=team_space",
+  "node_id": "ZX6GRezwJlnAq2m2IgY1yQkeWdqbropQ",
+  "doc_path": "/自研/安装部署问题/部分客户存在这种打印问题，尤其是一键打印部分， 打印模板上设置的高度一般是93.3mm，比如一次性打印50张以上的出库单时，可能会出现打印鸡跳纸靠上或者靠下错位的问题 案例：晟辉弘毅 使用一键打...",
+  "record_id": "OYEUzy4nHm"
+ },
+ "status": "active",
+ "doc_path": "/自研/安装部署问题/部分客户存在这种打印问题，尤其是一键打印部分， 打印模板上设置的高度一般是93.3mm，比如一次性打印50张以上的出库单时，可能会出现打印鸡跳纸靠上或者靠下错位的问题 案例：晟辉弘毅 使用一键打...",
+ "category": [
+  "自研",
+  "安装部署问题"
+ ]
+}

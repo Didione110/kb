@@ -1,0 +1,42 @@
+{
+ "id": "FX-20230214-023",
+ "record_id": "5rj8GHyVp0",
+ "title": "销售出货单接口创建不出带有来源单据的单据",
+ "problem": "销售出货单接口创建不出带有来源单据的单据",
+ "cause": "openapi/webservier接口文档没有“源单创建销售出货单接口”",
+ "solution": "SV :源单生成出货单 UFIDA::U9::ISV::SM::SMPullSrcDocSV UFIDA.U9.ISV.SM.SDIndustryChainSV.dll\n接口地址：http://U9地址/Services/UFIDA.U9.ISV.SM.ISMPullSrcDocSV.svc\n传入参数来源类型SrcDocType：\nClaimCheck 索赔对账单 9 \nCreateManual 手工创建 0 \nCustTransfer 客户调剂单 8 \nEXPreShipment 出口预出货单 5 \nPreShipment 预出货单 4 \nRMA 退货单 7\nSaleContract 销售合同 3 \nShipment 出货单 6 \nShipmentPlan 出货计划 2 \nSO 销售订单 1\n\n传入参数：CurShipQty1出货数量；SrcDocLineID来源单据行ID（如果来源销售订单，传销售订单子行ID）\n WH存储地点ID；\n ShipDocTypeID 是出货单单据类型ID；\n ShipDate 出货日期",
+ "solution_types": [],
+ "tech_stack": [
+  "WebService"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "出货单来源"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "肖博伦",
+  "department": "研发1部",
+  "date": "2023-02-14"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/QG53mjyd809pBOwOtwNDbRbgW6zbX04v?utm_scene=team_space",
+  "node_id": "QG53mjyd809pBOwOtwNDbRbgW6zbX04v",
+  "doc_path": "/用友/产品功能问题/销售出货单接口创建不出带有来源单据的单据",
+  "record_id": "5rj8GHyVp0"
+ },
+ "status": "active",
+ "doc_path": "/用友/产品功能问题/销售出货单接口创建不出带有来源单据的单据",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

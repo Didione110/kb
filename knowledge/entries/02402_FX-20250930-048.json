@@ -1,0 +1,44 @@
+{
+ "id": "FX-20250930-048",
+ "record_id": "zNLdk1yOeQ",
+ "title": "制单报错 不能识别的科目",
+ "problem": "制单报错 不能识别的科目",
+ "cause": "系统重启更新过",
+ "solution": "退出去系统，把图标右键清楚缓存后再进去",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "JS",
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "科目识别"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施6部",
+  "date": "2025-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "zNLdk1yOeQ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

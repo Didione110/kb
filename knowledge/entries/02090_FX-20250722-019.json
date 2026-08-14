@@ -1,0 +1,40 @@
+{
+ "id": "FX-20250722-019",
+ "record_id": "rG3r4bfK9p",
+ "title": "在点三系统打印物流单的方案，需要补打或者重新打面单",
+ "problem": "在点三系统打印物流单的方案，需要补打或者重新打面单",
+ "cause": "打印机或者网络连接问题导致面单未正常打印或者打印不全",
+ "solution": "进入打印设置的打印任务功能。根据打印批次找到对应的记录，查看详情内可以查看批次内所有数据的执行情况。支持操作补打失败数据和重新打印。",
+ "solution_types": [],
+ "tech_stack": [
+  "一键打印",
+  "ZyPrint",
+  "FastReport"
+ ],
+ "tech_keywords": [
+  "打印"
+ ],
+ "keywords": [
+  "补打面单"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施1部",
+  "date": "2025-07-22"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rG3r4bfK9p"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

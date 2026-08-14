@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240531-077",
+ "record_id": "OK0evRi4Y5",
+ "title": "手持部分功能需要增加字段，存储过程加了字段后，前台界面不显示",
+ "problem": "手持部分功能需要增加字段，存储过程加了字段后，前台界面不显示",
+ "cause": "部分功能前台界面是固定字段",
+ "solution": "代码里要用特殊的格式来实现，需要增加的字段 as 为 other\\_msg，如附件截图",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server",
+  "PolarDB"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "字段映射"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-05-31"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvqpAOVMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvqpAOVMwvDqPk",
+  "doc_path": "/其他/实施问题/手持部分功能需要增加字段，存储过程加了字段后，前台界面不显示(1)",
+  "record_id": "OK0evRi4Y5"
+ },
+ "status": "active",
+ "doc_path": "/其他/实施问题/手持部分功能需要增加字段，存储过程加了字段后，前台界面不显示(1)",
+ "category": [
+  "其他",
+  "实施问题"
+ ]
+}

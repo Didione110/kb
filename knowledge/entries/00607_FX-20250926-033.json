@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250926-033",
+ "record_id": "EpYGjJ1UQA",
+ "title": "从第三方系统更新U9C的BOM ，子项一直是新增行的状态",
+ "problem": "从第三方系统更新U9C的BOM ，子项一直是新增行的状态",
+ "cause": "更新接口是根据料号+工序号+项次号确定唯一性的",
+ "solution": "批量维护BOM的工序号后再更新接口",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "BOM更新异常"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "生产制造",
+ "meta": {
+  "submitter": "何敏",
+  "department": "客户成功部",
+  "date": "2025-09-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "EpYGjJ1UQA"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

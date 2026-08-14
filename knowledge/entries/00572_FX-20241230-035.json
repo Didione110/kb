@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241230-035",
+ "record_id": "DuDfr7mOSJ",
+ "title": "OBA安装成功后，可以正常登录，检查模板也是好的，但导出导入数据就报如附件的错误，怎么解决",
+ "problem": "OBA安装成功后，可以正常登录，检查模板也是好的，但导出导入数据就报如附件的错误，怎么解决",
+ "cause": "OBA安装成功后，可以正常登录，检查模板也是好的，但导出导入数据就报如附件的错误，怎么解决",
+ "solution": "此问题属于环境问题，需要做到： \n1、环境部署使用administrator账号； \n2、安装完整WINDOWS组件； \n3、退出电脑的杀毒软件和防火墙等安全软件； \n4、OBA和OFFICE安装路径为默认的C盘路径； \n5、根据文档，配置好加载项内容，部署方案详见附件；\n6、视频教程：微信视频号“U9C技术联盟”； \n7、OBA安装文件下载 链接：https://pan.baidu.com/s/1T5AsFosJpZrWgWj6aog8AA 提取码：8888",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Windows"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "导出导入失败"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施8部",
+  "date": "2024-12-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "DuDfr7mOSJ"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

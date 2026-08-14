@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230203-010",
+ "record_id": "hmvniQm8Vj",
+ "title": "查询医保结算清单5262，5267接口，根据返回条目数来分页查询，现发现有一个门店查询结果没有条目数节点，造成分页循环不能停止，程序卡死。",
+ "problem": "查询医保结算清单5262，5267接口，根据返回条目数来分页查询，现发现有一个门店查询结果没有条目数节点，造成分页循环不能停止，程序卡死。",
+ "cause": "查询医保结算清单5262，5267接口，根据返回条目数来分页查询，现发现有一个门店查询结果没有条目数节点，造成分页循环不能停止",
+ "solution": "最大页数由原来的int.MaxValue 改为100\n判断没有返回条目数，查询结果为空时结束循环。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API"
+ ],
+ "tech_keywords": [
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "条目数缺失"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "黄芳",
+  "department": "产品开发部",
+  "date": "2023-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeXe3YkYCNym6mY68xkXOEP2?utm_scene=team_space",
+  "node_id": "r1R7q3QmWeXe3YkYCNym6mY68xkXOEP2",
+  "doc_path": "/自研/数据接口问题/查询医保结算清单5262，5267接口，根据返回条目数来分页查询，现发现有一个门店查询结果没有条目数节点，造成分页循环不能停止，程序卡死。",
+  "record_id": "hmvniQm8Vj"
+ },
+ "status": "active",
+ "doc_path": "/自研/数据接口问题/查询医保结算清单5262，5267接口，根据返回条目数来分页查询，现发现有一个门店查询结果没有条目数节点，造成分页循环不能停止，程序卡死。",
+ "category": [
+  "自研",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "doc-2cb12d8eca",
+ "record_id": "",
+ "title": "系统与钉钉集成后无法访问配置的应用",
+ "problem": "系统与钉钉集成后无法访问配置的应用",
+ "cause": "配置问题",
+ "solution": "需要配置网页地址及PC端地址。\n案例：\n这是流程管理模块的配置，流程管理模块是km/review\n移动地址：EKP系统域名\\+/km/review/mobile/index.jsp?oauth=ekp\nPC地址：EKP系统域名\\+ /third/ding/pc/pcpg.jsp?pg=/km/review&oauth=ekp\n\n你可以配置到钉钉工作台自建应用试试",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQr29yxytDzdkw4RJ63zgkYA?utm_scene=team_space",
+  "node_id": "a9E05BDRVQr29yxytDzdkw4RJ63zgkYA",
+  "doc_path": "/蓝凌OA/应用操作/系统与钉钉集成后无法访问配置的应用"
+ },
+ "doc_path": "/蓝凌OA/应用操作/系统与钉钉集成后无法访问配置的应用",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240930-050",
+ "record_id": "OZp7cOcL29",
+ "title": "凭证导入成功，现金流项目没有导入成功",
+ "problem": "凭证导入成功，现金流项目没有导入成功",
+ "cause": "1.导入模板中，现金流量项目的方向维护成2导致。此处不能维护成除1,0,-1之外的其他数值。 2.导入模板中现金流量信息和凭证表体信息之间空一行空白行即可，多空行或不空行均会导致导入不成功",
+ "solution": "1.导入模板中，现金流量项目的方向维护成2导致。此处不能维护成除1,0,-1之外的其他数值。 2.导入模板中现金流量信息和凭证表体信息之间空一行空白行即可，多空行或不空行均会导致导入不成功",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "接口"
+ ],
+ "keywords": [
+  "现金流未导入"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "吴梦",
+  "department": "实施6部",
+  "date": "2024-09-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "OZp7cOcL29"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

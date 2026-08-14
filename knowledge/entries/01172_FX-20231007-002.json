@@ -1,0 +1,40 @@
+{
+ "id": "FX-20231007-002",
+ "record_id": "UOY1AA5xVB",
+ "title": "sql数据库导入Excel报错：\n错误 0xc020901c: 数据流任务 1: 输出“Excel 源输出”(9) 上的 输出列“GOODSSPEC”(24) 出错。返回的列状态是:“文本被截断，或者一个或多个字符在目标代码页中没有匹配项。”。\n (SQL Server 导入和导出向导)\n \n错误 0xc020902a: 数据流任务 1: “输出列“GOODSSPEC”(24)”由于发生截断而失败，而且针对“输出列“GOODSSPEC”(24)”的截断行处理设置指定截断时出错。在指定组件的指定对象上出现截断错误。\n (SQL Server 导入和导出向导)\n \n错误 0xc0047038: 数据流任务 1: SSIS 错误代码 DTS_E_PRIMEOUTPUTFAILED。组件“源 - Sheet1$”(1) 的 PrimeOutput 方法返回了错误代码 0xC020902A。管道引擎调用 PrimeOutput() 时该组件返回了一个失败代码。虽然该失败代码只与该组件有关，但这个错误是致命的，管道已停止执行。可能在此之前已经发出错误消息，提供了有关失败的详细信息。\n (SQL Server 导入和导出向导)",
+ "problem": "sql数据库导入Excel报错：\n错误 0xc020901c: 数据流任务 1: 输出“Excel 源输出”(9) 上的 输出列“GOODSSPEC”(24) 出错。返回的列状态是:“文本被截断，或者一个或多个字符在目标代码页中没有匹配项。”。\n (SQL Server 导入和导出向导)\n \n错误 0xc020902a: 数据流任务 1: “输出列“GOODSSPEC”(24)”由于发生截断而失败，而且针对“输出列“GOODSSPEC”(24)”的截断行处理设置指定截断时出错。在指定组件的指定对象上出现截断错误。\n (SQL Server 导入和导出向导)\n \n错误 0xc0047038: 数据流任务 1: SSIS 错误代码 DTS_E_PRIMEOUTPUTFAILED。组件“源 - Sheet1$”(1) 的 PrimeOutput 方法返回了错误代码 0xC020902A。管道引擎调用 PrimeOutput() 时该组件返回了一个失败代码。虽然该失败代码只与该组件有关，但这个错误是致命的，管道已停止执行。可能在此之前已经发出错误消息，提供了有关失败的详细信息。\n (SQL Server 导入和导出向导)",
+ "cause": "Excel导入时，数据库会看第一行数据字段的长度，如果超过255的长度，就会开辟最大长度空间，如果小于255的长度，就会创建255的长度空间，后续行如果出现大于255长度的字段，就会报如上的错误。",
+ "solution": "Excel数据首行每个字段增加长度超过255字符的字段即可。接下来再倒入就没有问题了。",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "文本截断"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "杨创",
+  "department": "实施2部",
+  "date": "2023-10-07"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "UOY1AA5xVB"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "FX-20221021-013",
+ "record_id": "chkCKHAeNh",
+ "title": "不能增加客户，当月凭证审核后不能做记账",
+ "problem": "不能增加客户，当月凭证审核后不能做记账",
+ "cause": "报错前两天客户不能登陆U8，发现是UFSYSTEM库置疑，用工具修复后，登陆正常。随后便出现了增加客户档案报错，记账报错，自动备份计划未执行。",
+ "solution": "停数据库服务，将最新的UFDATA文件拷贝，启动服务，在系统管理中初始化数据库，产生新的UFSYSTEM文件，还原前期账套，再停服务，将拷出的UFDATA文件覆盖后，启动服务，设置备份计划。",
+ "solution_types": [
+  "配置修改",
+  "重启服务",
+  "替换文件",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "客户、凭证、审核、记账"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-10-21"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "chkCKHAeNh"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "数据错误问题"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "FX-20240628-049",
+ "record_id": "J8bJHr808H",
+ "title": "用户在还款时，选不到一笔历史借款单（GP202401231958）",
+ "problem": "用户在还款时，选不到一笔历史借款单（GP202401231958）",
+ "cause": "C4报销单，选了借款单GP202401231958，审批流程没有过C4费控审批节点，导致C4费控审批没有生效；\n借款单数据锁定没有释放，还款单选不到该笔借款数据；",
+ "solution": "执行前，一定要先备份OA数据库或相关表，为恢复数据做准备。先查询，确认数据后，再删除（把select \\* 修改为delete 就变成删除语句了。）\nC4报销单，没有过C4费控审批节点，导致没有生效，可通过该语句删除报销锁定数据，然后重新发一个正常的还款单核销借款数据。\nselect \\* from lexmisc4 \\_chargebill where cb\\_no='GP202401231958';",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "审批流"
+ ],
+ "keywords": [
+  "借款单缺失"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2024-06-28"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DaxRmJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DaxRmJKMEvZBY",
+  "doc_path": "/致远OA/数据错误问题/用户在还款时，选不到一笔历史借款单GP202401231958",
+  "record_id": "J8bJHr808H"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/数据错误问题/用户在还款时，选不到一笔历史借款单GP202401231958",
+ "category": [
+  "致远OA",
+  "数据错误问题"
+ ]
+}

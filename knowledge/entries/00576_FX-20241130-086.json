@@ -1,0 +1,41 @@
+{
+ "id": "FX-20241130-086",
+ "record_id": "E2qKqOTn2Q",
+ "title": "因组织架构同名部门较多，单据上只展示部门无法看出人员所在部门。",
+ "problem": "因组织架构同名部门较多，单据上只展示部门无法看出人员所在部门。",
+ "cause": "因组织架构同名部门较多，单据上只展示部门无法看出人员所在部门。",
+ "solution": "组织架构部门代码字段更改为全部门层级展示，单据上增加文本字段，展示部门内码",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "部门重名"
+ ],
+ "problem_type": "实施问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "协同工作",
+ "meta": {
+  "submitter": "代虎",
+  "department": "实施5部",
+  "date": "2024-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1ZoODWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1ZoODWrMqPxX6",
+  "doc_path": "/致远OA/实施问题/因组织架构同名部门较多，单据上只展示部门无法看出人员所在部门。",
+  "record_id": "E2qKqOTn2Q"
+ },
+ "status": "active",
+ "doc_path": "/致远OA/实施问题/因组织架构同名部门较多，单据上只展示部门无法看出人员所在部门。",
+ "category": [
+  "致远OA",
+  "实施问题"
+ ]
+}

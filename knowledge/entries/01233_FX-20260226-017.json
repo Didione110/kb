@@ -1,0 +1,41 @@
+{
+ "id": "FX-20260226-017",
+ "record_id": "WUqfqUTUpz",
+ "title": "【业务集成】当前人员[XXX]没有权限修改审核该制单人的单据",
+ "problem": "【业务集成】当前人员[XXX]没有权限修改审核该制单人的单据",
+ "cause": "【业务集成】当前人员[XXX]没有权限修改审核该制单人的单据",
+ "solution": "U8开启了用户权限，需要给审核人员分配制单人和审核人的用户权限，开启权限后重启U8应用服务器IIS生效",
+ "solution_types": [
+  "配置修改",
+  "重启服务"
+ ],
+ "tech_stack": [
+  "IIS"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "权限不足"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "迈锐思",
+ "meta": {
+  "submitter": "李龙",
+  "department": "经理办",
+  "date": "2026-02-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "WUqfqUTUpz"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "环境问题"
+ ]
+}

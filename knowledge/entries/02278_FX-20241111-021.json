@@ -1,0 +1,42 @@
+{
+ "id": "FX-20241111-021",
+ "record_id": "w06DXIrSub",
+ "title": "忘记管理后台密码",
+ "problem": "忘记管理后台密码",
+ "cause": "忘记管理后台密码",
+ "solution": "现程序包支持可明文查看路径为\\EKP\\WEB-INF\\KmssConfig下admin.project文件，使用记事本打开即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "Tomcat",
+  "Java"
+ ],
+ "tech_keywords": [
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "密码遗忘"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "蓝凌OA",
+ "product_series": "蓝凌OA",
+ "version": "EKP",
+ "module": "安装&环境",
+ "meta": {
+  "submitter": "李龙",
+  "department": "成功部创新组-停用",
+  "date": "2024-11-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "w06DXIrSub"
+ },
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "安装部署问题"
+ ]
+}

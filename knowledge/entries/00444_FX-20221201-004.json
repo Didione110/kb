@@ -1,0 +1,43 @@
+{
+ "id": "FX-20221201-004",
+ "record_id": "AoHLqB3PRB",
+ "title": "登陆提示密码错误",
+ "problem": "登陆提示密码错误",
+ "cause": "客户设置了T\\+的密码，用友和畅捷通的密码是相通的",
+ "solution": "点击忘记密码后，建议设置为与T\\+一样的密码后，问题解决",
+ "solution_types": [
+  "其他"
+ ],
+ "tech_stack": [
+  "DEE"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "密码错误"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "张莉",
+  "department": "客户成功部",
+  "date": "2022-12-01"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXL3XzBzIPzvma70VMwvDqPk?utm_scene=team_space",
+  "node_id": "ZgpG2NdyVXL3XzBzIPzvma70VMwvDqPk",
+  "doc_path": "/用友/软件无法使用/登陆提示密码错误",
+  "record_id": "AoHLqB3PRB"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件无法使用/登陆提示密码错误",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

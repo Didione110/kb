@@ -1,0 +1,49 @@
+{
+ "id": "FX-20221130-053",
+ "record_id": "QRegwJx9H7",
+ "title": "wms客户端之前每次更新，是在文件夹更新相关程序控件。如果客户端比较多，这个工作量就比较大",
+ "problem": "wms客户端之前每次更新，是在文件夹更新相关程序控件。如果客户端比较多，这个工作量就比较大",
+ "cause": ".",
+ "solution": "wms部署程序自动更新程序",
+ "solution_types": [
+  "替换文件"
+ ],
+ "tech_stack": [
+  "IIS",
+  "Nginx",
+  "C# (.NET)"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "接口",
+  "加密",
+  "权限"
+ ],
+ "keywords": [
+  "批量更新"
+ ],
+ "problem_type": "安装部署问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2022-11-30"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6kMBpApuMxbeywvJxEKBD6p?utm_scene=team_space",
+  "node_id": "amweZ92PV6kMBpApuMxbeywvJxEKBD6p",
+  "doc_path": "/其他/安装部署问题/wms客户端之前每次更新，是在文件夹更新相关程序控件。如果客户端比较多，这个工作量就比较大",
+  "record_id": "QRegwJx9H7"
+ },
+ "status": "active",
+ "doc_path": "/其他/安装部署问题/wms客户端之前每次更新，是在文件夹更新相关程序控件。如果客户端比较多，这个工作量就比较大",
+ "category": [
+  "其他",
+  "安装部署问题"
+ ]
+}

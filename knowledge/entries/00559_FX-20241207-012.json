@@ -1,0 +1,47 @@
+{
+ "id": "FX-20241207-012",
+ "record_id": "Dg39DBAGYE",
+ "title": "update时增加行锁",
+ "problem": "update时增加行锁",
+ "cause": "update时增加行锁",
+ "solution": "update goodsdoc with (rowlock) set",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "库存",
+  "追溯码",
+  "权限"
+ ],
+ "keywords": [
+  "行锁"
+ ],
+ "problem_type": "效率问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "童光",
+  "department": "实施4部",
+  "date": "2024-12-07"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOlbAay8Zd1wyK0?utm_scene=team_space",
+  "node_id": "m9bN7RYPWdkMYeNeuKOlbAay8Zd1wyK0",
+  "doc_path": "/时空/效率问题/update时增加行锁",
+  "record_id": "Dg39DBAGYE"
+ },
+ "status": "active",
+ "doc_path": "/时空/效率问题/update时增加行锁",
+ "category": [
+  "时空",
+  "效率问题"
+ ]
+}

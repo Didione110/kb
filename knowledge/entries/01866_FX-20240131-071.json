@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240131-071",
+ "record_id": "mULFTLYh7i",
+ "title": "复核台电子标签不亮灯，或者说亮灯拍灯后，复核界面弹框不自动消失。",
+ "problem": "复核台电子标签不亮灯，或者说亮灯拍灯后，复核界面弹框不自动消失。",
+ "cause": "复核台电脑IP链接与复核注册服务器IP断了\n电子标签地址变了",
+ "solution": "首先检查是否链接断了 ，直接看复核注册服务上是否对的\n没问题继续检查下一条，按电子标签按钮显示地址，看是否和复核软件中的配置是否一致",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "WebService",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "电子标签故障"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2024-01-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "mULFTLYh7i"
+ },
+ "status": "active",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}

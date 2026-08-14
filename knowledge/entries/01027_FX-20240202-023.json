@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240202-023",
+ "record_id": "QD9Ydp2qF0",
+ "title": "客户反馈NCC接口没有传入数据",
+ "problem": "客户反馈NCC接口没有传入数据",
+ "cause": "排查原因发现月末静态数据表没有数据，定时任务没有报错但是缺少2月1日执行记录，最终排查原因是因为服务器关机导致",
+ "solution": "1.告知客户方月底最后一天服务器需要保证正常运行；\n2.手动补传当月数据；",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "NCC接口无数据"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "徐东",
+  "department": "需求&KA部",
+  "date": "2024-02-02"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "QD9Ydp2qF0"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

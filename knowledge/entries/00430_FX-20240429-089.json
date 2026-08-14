@@ -1,0 +1,44 @@
+{
+ "id": "FX-20240429-089",
+ "record_id": "AVCwEzdf0d",
+ "title": "如果是平板拣选模式的客户，时间长了在领任务的时候会有卡顿情况",
+ "problem": "如果是平板拣选模式的客户，时间长了在领任务的时候会有卡顿情况",
+ "cause": "平板拣选模式下（多单拣选，合单拣选，平板复核拣选）插入到zzsk\\_PAD\\_jh表的时候没有插入时间字段，同时这个表没有对应历史表及转历史。时间长了数据量大会影响平板拣选任务（领任务的时候会关联这个表）",
+ "solution": "调整对应的拣选存储过程（APP\\_WMS\\_ddjh，APP\\_WMS\\_hdjh，APP\\_WMS\\_FuHe），插入zzsk\\_PAD\\_jh表的时候要增加时间字段，增加历史表，并增加转历史代码。",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "平板卡顿"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "张彬",
+  "department": "实施3部",
+  "date": "2024-04-29"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUn3mjXzKJ9ekBD76?utm_scene=team_space",
+  "node_id": "o14dA3GK8g2jxGpGUn3mjXzKJ9ekBD76",
+  "doc_path": "/其他/产品功能问题/如果是平板拣选模式的客户，时间长了在领任务的时候会有卡顿情况",
+  "record_id": "AVCwEzdf0d"
+ },
+ "status": "active",
+ "doc_path": "/其他/产品功能问题/如果是平板拣选模式的客户，时间长了在领任务的时候会有卡顿情况",
+ "category": [
+  "其他",
+  "产品功能问题"
+ ]
+}

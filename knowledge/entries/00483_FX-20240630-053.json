@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240630-053",
+ "record_id": "ByYePKLPnK",
+ "title": "销售订单收款计划问题 销售订单录入收款计划模板，报错，’?行上分期类型必须唯一‘ ",
+ "problem": "销售订单收款计划问题 销售订单录入收款计划模板，报错，’?行上分期类型必须唯一‘",
+ "cause": "同一个分期类型存在多行的情况，会影响收款单上逻辑回写，所以进行校验",
+ "solution": "变通的解决方案：增加几个自定义的分期类型，需要的时候进行修改，不需要的进行删除。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "收款计划"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "徐婷",
+  "department": "实施7部",
+  "date": "2024-06-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ByYePKLPnK"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

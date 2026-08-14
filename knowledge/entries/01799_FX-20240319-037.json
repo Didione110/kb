@@ -1,0 +1,42 @@
+{
+ "id": "FX-20240319-037",
+ "record_id": "kmjY3X9lsD",
+ "title": "药快销代客下单小程序下单商品总价合算错误，小数点位置不对",
+ "problem": "药快销代客下单小程序下单商品总价合算错误，小数点位置不对",
+ "cause": "使用vant自带van-submit-bar组件价格数字小数点自动前移两位",
+ "solution": "van-submit-bar组件绑定变量根据小数点移动位置进行数乘，可以恢复正常结果",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "JavaScript"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "总价错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "供应商平台",
+ "module": "",
+ "meta": {
+  "submitter": "肖阳",
+  "department": "研发1部",
+  "date": "2024-03-19"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJMEGBPbPhqn1O6k1JyMoPYe1?utm_scene=team_space",
+  "node_id": "kDnRL6jAJMEGBPbPhqn1O6k1JyMoPYe1",
+  "doc_path": "/自研/产品功能问题/药快销代客下单小程序下单商品总价合算错误，小数点位置不对",
+  "record_id": "kmjY3X9lsD"
+ },
+ "status": "active",
+ "doc_path": "/自研/产品功能问题/药快销代客下单小程序下单商品总价合算错误，小数点位置不对",
+ "category": [
+  "自研",
+  "产品功能问题"
+ ]
+}

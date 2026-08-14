@@ -1,0 +1,41 @@
+{
+ "id": "FX-20230220-031",
+ "record_id": "rCWWIyDks2",
+ "title": "固定资产增加提示“Invalid cell reference.Wrong in SetF1Book ofclsCards”",
+ "problem": "固定资产增加提示“Invalid cell reference.Wrong in SetF1Book ofclsCards”",
+ "cause": "数据库后台固定资产卡片项目样式设置表中年度是2022（不是现在年度）",
+ "solution": "备份，数据库后台处理\nselect * from fa_ItemsOfModel（查出后台固定资产卡片项目样式设置表中年度是2022）\nupdate fa_ItemsOfModel set iyear=2023 where iyear=2022（将2022修改为正确的2023），解决",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "SQL Server",
+  "C# (.NET)",
+  "FastReport"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "单元格引用错误"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "余梦",
+  "department": "成功部创新组-停用",
+  "date": "2023-02-20"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "rCWWIyDks2"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

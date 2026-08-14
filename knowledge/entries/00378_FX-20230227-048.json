@@ -1,0 +1,46 @@
+{
+ "id": "FX-20230227-048",
+ "record_id": "93mM7r4pKf",
+ "title": "客户反馈打了系统补丁后老版本OBA用友页签点了计算，报错，无法计算",
+ "problem": "客户反馈打了系统补丁后老版本OBA用友页签点了计算，报错，无法计算",
+ "cause": "经查看了解及测试，需要更新OBA工具",
+ "solution": "找到默认的OBA安装路径，找到升级工具，管理员运行，即可，如升级后Excel用友页签消失不见，需要修复一下",
+ "solution_types": [
+  "补丁更新"
+ ],
+ "tech_stack": [
+  "Windows",
+  "C# (.NET)",
+  "OfficeTrans"
+ ],
+ "tech_keywords": [
+  "接口",
+  "权限"
+ ],
+ "keywords": [
+  "OBA计算报错"
+ ],
+ "problem_type": "软件无法使用",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "金涛",
+  "department": "实施7部",
+  "date": "2023-02-27"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/14lgGw3P8vARqzOzcg5Az5mMJ5daZ90D?utm_scene=team_space",
+  "node_id": "14lgGw3P8vARqzOzcg5Az5mMJ5daZ90D",
+  "doc_path": "/用友/软件无法使用/客户反馈打了系统补丁后老版本OBA用友页签点了计算，报错，无法计算",
+  "record_id": "93mM7r4pKf"
+ },
+ "status": "active",
+ "doc_path": "/用友/软件无法使用/客户反馈打了系统补丁后老版本OBA用友页签点了计算，报错，无法计算",
+ "category": [
+  "用友",
+  "软件无法使用"
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "FX-20221031-056",
+ "record_id": "ob8908R9s9",
+ "title": "M3 收不到离线消息",
+ "problem": "M3 收不到离线消息",
+ "cause": "具体原因见方案文档",
+ "solution": "具体排查方法见方案文档",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [
+  "离线消息"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "致远OA",
+ "product_series": "致远OA",
+ "version": "A8企业版",
+ "module": "手机端APP",
+ "meta": {
+  "submitter": "李冲",
+  "department": "成功部创新组-停用",
+  "date": "2022-10-31"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "ob8908R9s9"
+ },
+ "status": "active",
+ "category": [
+  "致远OA",
+  "数据错误问题"
+ ]
+}

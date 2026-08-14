@@ -1,0 +1,30 @@
+{
+ "id": "doc-a2a5e85fa5",
+ "record_id": "",
+ "title": "设置流程时每增加一个节点都要设置操作方式",
+ "problem": "设置流程时每增加一个节点都要设置操作方式",
+ "cause": "未设置默认操作方式导致",
+ "solution": "在流程引擎-操作方式中设置默认节点操作方式，并选择【默认】，后续即可自动调用。",
+ "solution_types": [],
+ "tech_stack": [],
+ "tech_keywords": [],
+ "keywords": [],
+ "problem_type": "",
+ "product_line": "蓝凌OA",
+ "product_series": "",
+ "version": "",
+ "module": "",
+ "meta": {},
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzAGeZqZckeybOq3VKe0xjE3?utm_scene=team_space",
+  "node_id": "AR4GpnMqJzAGeZqZckeybOq3VKe0xjE3",
+  "doc_path": "/蓝凌OA/应用操作/设置流程时每增加一个节点都要设置操作方式"
+ },
+ "doc_path": "/蓝凌OA/应用操作/设置流程时每增加一个节点都要设置操作方式",
+ "status": "active",
+ "category": [
+  "蓝凌OA",
+  "应用操作"
+ ]
+}

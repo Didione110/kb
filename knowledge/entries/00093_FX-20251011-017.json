@@ -1,0 +1,42 @@
+{
+ "id": "FX-20251011-017",
+ "record_id": "27lgpyOygy",
+ "title": "出纳模块日记账凭证已删除 但是查询凭证里还有 签字里边也显示",
+ "problem": "出纳模块日记账凭证已删除 但是查询凭证里还有 签字里边也显示",
+ "cause": "凭证与日记账之间失去关联，后台清楚凭证外部标识后总账删除凭证即可",
+ "solution": "凭证由其他模块传入，无法进入模块修改的情况下需要修改外部凭证\n取消凭证的外部标识，例如出纳\nupdate gl_accvouch set coutsysname=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'\nupdate gl_accvouch set ioutperiod=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'\nupdate gl_accvouch set coutsign=''\nwhere iperiod='11' and iyear='2021'and ino_id='3'",
+ "solution_types": [
+  "SQL脚本",
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "凭证残留"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-10-11"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "27lgpyOygy"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

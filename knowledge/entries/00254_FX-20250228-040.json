@@ -1,0 +1,42 @@
+{
+ "id": "FX-20250228-040",
+ "record_id": "64pShRbx3p",
+ "title": "凭证打印提示：请先指定打印格式和数据XML!",
+ "problem": "凭证打印提示：请先指定打印格式和数据XML!",
+ "cause": "文件损坏",
+ "solution": "方案一：1、先登录其他正常账套，凭证打印-预览界面-文件下“将当前格式输出成文件”，保存xml格式的文件存放到桌面上。2、登录有问题的账套后，同样也到凭证打印-预览-文件菜单下“从文件导入格式信息”，选择存放到桌面的xml格式文件导入。3、最后再点文件-保存当前设置。\n方案二：在总账-维护下的打印工具，选择总账打印工具，进入后选择凭证下的凭证打印，右侧选择还原缺省模板，确定；然后再重新调整打印方案即可正常打印",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "UI模板",
+  "ZyPrint"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "打印"
+ ],
+ "keywords": [
+  "打印格式"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "钱清",
+  "department": "客户成功部",
+  "date": "2025-02-28"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "64pShRbx3p"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

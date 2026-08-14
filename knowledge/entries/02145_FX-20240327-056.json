@@ -1,0 +1,40 @@
+{
+ "id": "FX-20240327-056",
+ "record_id": "srOUXWoYPH",
+ "title": "全球合并 合并利润表设置完成后整个都取不出来值",
+ "problem": "全球合并 合并利润表设置完成后整个都取不出来值",
+ "cause": "取值公式设置不正确",
+ "solution": "损益科目取净额时，不要勾包含损益结转",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "凭证"
+ ],
+ "keywords": [
+  "合并取值"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "财务",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2024-03-27"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "srOUXWoYPH"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

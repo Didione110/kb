@@ -1,0 +1,42 @@
+{
+ "id": "FX-20260414-008",
+ "record_id": "sd4nbt6JQa",
+ "title": "DHERP支持ds_ddmx.field（\"Taxprice\"）.value.setReadonly = true ；设置只读\n但是在V10和V11中不支持",
+ "problem": "DHERP支持ds_ddmx.field（\"Taxprice\"）.value.setReadonly = true ；设置只读\n但是在V10和V11中不支持",
+ "cause": "dherp采用谷歌内核，方法不一致导致",
+ "solution": "V10/11支持的方法是ds_ddmx.field(\"unit\").readOnly = true;",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "前端配置",
+  "Edge",
+  "Chrome"
+ ],
+ "tech_keywords": [
+  "权限"
+ ],
+ "keywords": [
+  "只读失效"
+ ],
+ "problem_type": "数据接口问题",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "汪松",
+  "department": "经理办",
+  "date": "2026-04-14"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "sd4nbt6JQa"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "数据接口问题"
+ ]
+}

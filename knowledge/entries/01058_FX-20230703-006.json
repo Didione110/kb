@@ -1,0 +1,44 @@
+{
+ "id": "FX-20230703-006",
+ "record_id": "RHuur0dIgb",
+ "title": "美团和饿了么订单数据的商品价格出现负价格",
+ "problem": "美团和饿了么订单数据的商品价格出现负价格",
+ "cause": "订单应收金额扣减平台服务费后可能会出现付价格",
+ "solution": "OMS后台的系统设置——订单设置中，开启美团和饿了么订单应收金额包含平台服务费",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "DEE",
+  "OpenAPI"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "负价格"
+ ],
+ "problem_type": "数据错误问题",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "点三OMS",
+ "module": "",
+ "meta": {
+  "submitter": "丁恺",
+  "department": "实施3部",
+  "date": "2023-07-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/7NkDwLng8ZEL2OAOhN4DMpamJKMEvZBY?utm_scene=team_space",
+  "node_id": "7NkDwLng8ZEL2OAOhN4DMpamJKMEvZBY",
+  "doc_path": "/其他/数据错误问题/美团和饿了么订单数据的商品价格出现负价格",
+  "record_id": "RHuur0dIgb"
+ },
+ "status": "active",
+ "doc_path": "/其他/数据错误问题/美团和饿了么订单数据的商品价格出现负价格",
+ "category": [
+  "其他",
+  "数据错误问题"
+ ]
+}

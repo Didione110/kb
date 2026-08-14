@@ -1,0 +1,43 @@
+{
+ "id": "FX-20240709-015",
+ "record_id": "lrt68ZX3eh",
+ "title": "原医保正式控件能使用，但安装医保up版本增补控件后无法使用",
+ "problem": "原医保正式控件能使用，但安装医保up版本增补控件后无法使用",
+ "cause": "最新版up控件改为了使用域名访问，需配置DNS",
+ "solution": "DNS配置：首选 10.87.122.3 备用 10.87.250.3",
+ "solution_types": [
+  "配置修改",
+  "环境设置"
+ ],
+ "tech_stack": [
+  "Linux",
+  "Windows"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "医保控件冲突"
+ ],
+ "problem_type": "环境问题",
+ "product_line": "自研",
+ "product_series": "自研",
+ "version": "医保接口",
+ "module": "",
+ "meta": {
+  "submitter": "王棒",
+  "department": "实施1部",
+  "date": "2024-07-09"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/R1zknDm0WREaD2O2h0p1jmv48BQEx5rG?utm_scene=team_space",
+  "node_id": "R1zknDm0WREaD2O2h0p1jmv48BQEx5rG",
+  "doc_path": "/自研/环境问题/原医保正式控件能使用，但安装医保up版本增补控件后无法使用",
+  "record_id": "lrt68ZX3eh"
+ },
+ "status": "active",
+ "doc_path": "/自研/环境问题/原医保正式控件能使用，但安装医保up版本增补控件后无法使用",
+ "category": [
+  "自研",
+  "环境问题"
+ ]
+}

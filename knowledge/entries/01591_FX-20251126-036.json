@@ -1,0 +1,40 @@
+{
+ "id": "FX-20251126-036",
+ "record_id": "fdM2ajOYV0",
+ "title": "料品之前启用了批号和保质期管理。中间改了【保质期】为不控制。如何让失效日期不受控。",
+ "problem": "料品之前启用了批号和保质期管理。中间改了【保质期】为不控制。如何让失效日期不受控。",
+ "cause": "启用批号及有效期后，不可取消。",
+ "solution": "可以在【组织】-【参数】-过期批号领料/出货=是；允许过期天数=9999",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "库存"
+ ],
+ "keywords": [
+  "保质期控制"
+ ],
+ "problem_type": "产品功能问题",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "孙凯",
+  "department": "成功部KA组",
+  "date": "2025-11-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "fdM2ajOYV0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "产品功能问题"
+ ]
+}

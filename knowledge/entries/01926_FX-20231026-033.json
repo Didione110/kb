@@ -1,0 +1,41 @@
+{
+ "id": "FX-20231026-033",
+ "record_id": "nlR6h7cWN0",
+ "title": "新建的公司在科目分配里面找不这个公司为什么",
+ "problem": "新建的公司在科目分配里面找不这个公司为什么",
+ "cause": "因为这个公司建账的时候 没有选择核算账簿",
+ "solution": "会计主体那里点一下修改然后增加账簿",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "权限"
+ ],
+ "keywords": [
+  "公司未分配"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8C",
+ "version": "U8C",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "肖露",
+  "department": "实施8部",
+  "date": "2023-10-26"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "nlR6h7cWN0"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

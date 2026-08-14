@@ -1,0 +1,43 @@
+{
+ "id": "FX-20250929-041",
+ "record_id": "HFTw31ppcO",
+ "title": "完工入库时间没有精确到时分秒显示出来",
+ "problem": "完工入库时间没有精确到时分秒显示出来",
+ "cause": "入库时间没有精确到时分秒，初步诊断是PDA传输数据问题。更改PDA中的时间配置为：日期+时间",
+ "solution": "更改PDA中的时间配置为：日期+时间。然后条码老师也提交相应的工单处理。",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "前端配置"
+ ],
+ "tech_keywords": [
+  "审批流",
+  "追溯码",
+  "接口",
+  "工作流"
+ ],
+ "keywords": [
+  "时间精度"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U9C",
+ "version": "U9C",
+ "module": "供应链",
+ "meta": {
+  "submitter": "袁椤",
+  "department": "停用-实施8部",
+  "date": "2025-09-29"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "HFTw31ppcO"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

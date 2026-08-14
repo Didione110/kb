@@ -1,0 +1,46 @@
+{
+ "id": "FX-20251201-003",
+ "record_id": "gWvVb7vyM1",
+ "title": "固定资产的资产编码如何全集团唯一性？所有组织不能有相同的资产编码，导入资产卡片时需要校验所有组织的资产编码重复项\n",
+ "problem": "固定资产的资产编码如何全集团唯一性？所有组织不能有相同的资产编码，导入资产卡片时需要校验所有组织的资产编码重复项",
+ "cause": "见附件编码规则定义【归零依据】选择集团即可",
+ "solution": "见附件编码规则定义【归零依据】选择集团即可",
+ "solution_types": [
+  "配置修改"
+ ],
+ "tech_stack": [
+  "OceanBase",
+  "TiDB",
+  "PolarDB-X"
+ ],
+ "tech_keywords": [
+  "凭证",
+  "审批流",
+  "追溯码",
+  "工作流",
+  "权限"
+ ],
+ "keywords": [
+  "资产编码唯一性"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "BIP/YS",
+ "version": "BIP/YS",
+ "module": "财务会计",
+ "meta": {
+  "submitter": "胡青青",
+  "department": "实施7部",
+  "date": "2025-12-01"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "gWvVb7vyM1"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

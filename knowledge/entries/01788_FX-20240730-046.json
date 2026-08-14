@@ -1,0 +1,41 @@
+{
+ "id": "FX-20240730-046",
+ "record_id": "kQcRZniwIv",
+ "title": "因系统期初切换，原有系统为SQL 数据库在本地，有固定ip,新系统为云服务器，安装是orcl 数据库，目前老系统资料数据无法通过数据库查询直接导入新系统",
+ "problem": "因系统期初切换，原有系统为SQL 数据库在本地，有固定ip,新系统为云服务器，安装是orcl 数据库，目前老系统资料数据无法通过数据库查询直接导入新系统",
+ "cause": "数据库之间存在访问受限",
+ "solution": "因新系统在云服务器，同时因武汉医保接口需要sql数据库，再加上老系统为固定IP ,所以首先通过新系统的服务上面的sql 数据库连接访问orcl 数据，然后再用医保接口sql 数据库链接老系统的数据库，实现两台服务器，三台不通的数据库全部打通，最终实现自己电脑直接可以操作老系统数据直接插入新系统",
+ "solution_types": [
+  "数据库操作"
+ ],
+ "tech_stack": [
+  "Oracle",
+  "SQL Server"
+ ],
+ "tech_keywords": [
+  "接口"
+ ],
+ "keywords": [
+  "期初切换"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "时空",
+ "product_series": "时空",
+ "version": "时空智友",
+ "module": "供应链管理系统",
+ "meta": {
+  "submitter": "胡俊宝",
+  "department": "实施1部",
+  "date": "2024-07-30"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "kQcRZniwIv"
+ },
+ "status": "active",
+ "category": [
+  "时空",
+  "应用操作"
+ ]
+}

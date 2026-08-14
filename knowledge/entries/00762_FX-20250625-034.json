@@ -1,0 +1,37 @@
+{
+ "id": "FX-20250625-034",
+ "record_id": "Jd3oDmAAAb",
+ "title": "报废损失在成本管理中哪个报表可以看到，或者需要怎么操作才可以？",
+ "problem": "报废损失在成本管理中哪个报表可以看到，或者需要怎么操作才可以？",
+ "cause": "1）按成本核算逻辑，产品报废成本不单独核算，该费用由该订单的合格品承担。 不支持单独查询。 2）如果产品全部报废， 即完工日报表里的完工数量=报废数量，成本选项选择：产品完工报废时是否按制造费用分摊，此时在产品投入产出汇总表可以看到全废品的成本。",
+ "solution": "1）按成本核算逻辑，产品报废成本不单独核算，该费用由该订单的合格品承担。 不支持单独查询。 2）如果产品全部报废， 即完工日报表里的完工数量=报废数量，成本选项选择：产品完工报废时是否按制造费用分摊，此时在产品投入产出汇总表可以看到全废品的成本。",
+ "solution_types": [],
+ "tech_stack": [
+  "UI模板",
+  "前端配置"
+ ],
+ "tech_keywords": [],
+ "keywords": [
+  "报废损失"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "用友",
+ "product_series": "U8",
+ "version": "U8",
+ "module": "管理会计",
+ "meta": {
+  "submitter": "罗露",
+  "department": "客户成功部",
+  "date": "2025-06-25"
+ },
+ "source": {
+  "type": "aitable",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g2jxGpGUK3X2o95J9ekBD76",
+  "record_id": "Jd3oDmAAAb"
+ },
+ "status": "active",
+ "category": [
+  "用友",
+  "应用操作"
+ ]
+}

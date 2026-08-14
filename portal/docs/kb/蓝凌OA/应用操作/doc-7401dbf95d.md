@@ -1,0 +1,70 @@
+---
+{
+  "title": "产品自带应用待办已办待发已发不展示低代码平台流程",
+  "kbId": "doc-7401dbf95d",
+  "productLine": "蓝凌OA",
+  "productSeries": "",
+  "version": "",
+  "module": "",
+  "problemType": "",
+  "solutionTypes": [],
+  "techStack": [],
+  "techKeywords": [],
+  "keywords": [],
+  "category": [
+    "蓝凌OA",
+    "应用操作"
+  ],
+  "submitter": "",
+  "department": "",
+  "date": "",
+  "sourceType": "doc",
+  "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOApX2A8Zd1wyK0?utm_scene=team_space",
+  "sourcePath": "/蓝凌OA/应用操作/产品自带应用待办已办待发已发不展示低代码平台流程",
+  "status": "active",
+  "updatedAt": "",
+  "outDir": "蓝凌OA/应用操作"
+}
+---
+
+# 产品自带应用待办已办待发已发不展示低代码平台流程
+
+> 知识条目 · 可被客服机器人引用
+
+## 元信息
+
+| 字段 | 值 |
+|------|----|
+| 知识ID | `doc-7401dbf95d` |
+| 产品线 | 蓝凌OA |
+| 产品系列 | - |
+| 版本 | - |
+| 模块 | - |
+| 问题类型 | - |
+| 解决方案类型 |  |
+| 技术栈 |  |
+| 技术关键词 |  |
+| 问题关键字 |  |
+| 分类路径 | 蓝凌OA / 应用操作 |
+| 提交人 | - |
+| 提交部门 | - |
+| 提交日期 | - |
+| 状态 | active |
+
+## 问题现象
+
+产品自带应用待办已办待发已发不展示低代码平台流程
+
+## 问题原因
+
+产品自带的‘应用’里面的待办、已办、待发、已发不展示低代码平台里面的流程，需要关闭。
+
+## 解决方案
+
+后台管理-门户引擎-公司门户-编辑，去掉应用切换勾选项即可（具体见图）
+
+## 引用来源
+
+- 来源类型: `doc`
+- 来源链接: https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdkMYeNeuKOApX2A8Zd1wyK0?utm_scene=team_space
+- 知识库路径: `/蓝凌OA/应用操作/产品自带应用待办已办待发已发不展示低代码平台流程`

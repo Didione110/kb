@@ -1,0 +1,45 @@
+{
+ "id": "FX-20260203-006",
+ "record_id": "CQtAE0uVpm",
+ "title": "针对连锁，门店请货单据过大，导致一次拣货任务无法放下，造成堆积。",
+ "problem": "针对连锁，门店请货单据过大，导致一次拣货任务无法放下，造成堆积。",
+ "cause": "单据明细过大，不能按单据进行拣货。",
+ "solution": "1. 按体积将单据拆分成不同拣货任务，分到不同复核台，或者同一复核台，复核时，不必等所有该单据下所有拣货任务完成后再复核，做到拣货随来即可复核打包。",
+ "solution_types": [
+  "代码修改"
+ ],
+ "tech_stack": [
+  "REST API",
+  "DEE",
+  "EAI"
+ ],
+ "tech_keywords": [
+  "工作流"
+ ],
+ "keywords": [
+  "拣货堆积"
+ ],
+ "problem_type": "应用操作",
+ "product_line": "其他",
+ "product_series": "其他",
+ "version": "郑州时空WMS",
+ "module": "",
+ "meta": {
+  "submitter": "曾德军",
+  "department": "实施3部",
+  "date": "2026-02-03"
+ },
+ "source": {
+  "type": "doc",
+  "doc_url": "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNEeKkYkhPn1BenEWrMqPxX6?utm_scene=team_space",
+  "node_id": "dpYLaezmVNEeKkYkhPn1BenEWrMqPxX6",
+  "doc_path": "/其他/应用操作/针对连锁，门店请货单据过大，导致一次拣货任务无法放下，造成堆积。",
+  "record_id": "CQtAE0uVpm"
+ },
+ "status": "active",
+ "doc_path": "/其他/应用操作/针对连锁，门店请货单据过大，导致一次拣货任务无法放下，造成堆积。",
+ "category": [
+  "其他",
+  "应用操作"
+ ]
+}
