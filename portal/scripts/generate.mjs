@@ -248,6 +248,44 @@ async function main() {
   }
   console.log(`[generate] 已生成 ${l2CountsByL1.size} 个分类索引页`);
 
+  // 生成知识库总览页（动态统计）
+  const l1Overview = [...l2CountsByL1.entries()]
+    .map(([l1Raw, m]) => `| ${l1Raw} | ${[...m.values()].reduce((a, b) => a + b, 0)} 条 |`)
+    .join("\n");
+  const overview = `---
+title: 知识库总览
+---
+
+# 知识库总览
+
+本知识库基于钉钉两个数据源构建，面向客服机器人 / AI Agent / 客服人员：
+
+| 数据源 | 说明 | 采集量 |
+|--------|------|--------|
+| AI 表格「科情OA知识库数据梳理」 | 结构化问题记录（产品线/版本/模块/现象/原因/方案） | 2431 条 |
+| 钉钉知识库（QqWXwjyd1796xz31） | 详细问题文档 | 868 篇 |
+| **融合后知识条目** | 表格为主 + 文档补充 + 纯文档 | **${entries.length} 条** |
+
+## 分类体系
+
+知识按 **产品线（一级）→ 问题类型（二级）** 组织：
+
+| 产品线 | 条目数 |
+|--------|--------|
+${l1Overview}
+
+> 具体数量以左侧侧边栏为准，数据随钉钉同步自动更新。
+
+## 如何开始
+
+- **浏览**：从左侧分类树逐级浏览，或点击任意分类索引页查看该分类全部条目
+- **搜索**：点击右上角 🔍 或按 \`Ctrl+K\` 进行全文搜索
+- **引用**：每条知识末尾附有「引用来源」（钉钉文档链接 / 表格记录 ID），机器人回答时须引用
+- **调用**：开发者可查阅 [API 文档](/api/) 使用 REST API 或 MCP Server
+`;
+  await fs.writeFile(path.join(DOCS_KB_DIR, "index.md"), overview, "utf8");
+  console.log("[generate] 已生成知识库总览页");
+
   // 生成侧边栏配置（两级：一级分类 → 二级分类，不展开条目列表，控制体积）
   const sidebar = [];
   const l1Order = [...l2CountsByL1.keys()].sort();
