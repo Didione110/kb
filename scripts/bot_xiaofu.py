@@ -88,10 +88,27 @@ def fetch_mentions(start=None, end=None):
     return out
 
 # ---------------- 知识库检索 ----------------
+KB_API_URL = os.environ.get("KB_API_URL", "http://127.0.0.1:8787/api/search")
+
 def search_kb(question):
-    r = subprocess.run([sys.executable, QUERY_PY, question, "--top", "3", "--format", "json"],
-                       capture_output=True, text=True, env=ENV, timeout=60)
+    """优先调用 REST API（与门户/服务共享同一数据源），失败时回退本地 query.py"""
+    import urllib.request, urllib.parse
+    url = KB_API_URL + "?" + urllib.parse.urlencode({"q": question, "top_k": 3})
     try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            results = data.get("results", [])
+            # 归一化字段：REST API 的 source_url 在 citation 中
+            for r in results:
+                if not r.get("source_url") and r.get("citation"):
+                    r["source_url"] = r["citation"].get("source_url", "")
+            return results
+    except Exception:
+        pass
+    # 回退：本地 query.py
+    try:
+        r = subprocess.run([sys.executable, QUERY_PY, question, "--top", "3", "--format", "json"],
+                           capture_output=True, text=True, env=ENV, timeout=60)
         return json.loads(r.stdout)
     except Exception:
         return []
