@@ -1,0 +1,8 @@
+{
+  "name": "keqing-kb",
+  "private": true,
+  "packageManager": "pnpm@11.7.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
