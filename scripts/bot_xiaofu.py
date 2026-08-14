@@ -24,6 +24,16 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 QUERY_PY = os.path.join(ROOT, "scripts", "query.py")
 STATE_FILE = os.path.join(ROOT, "knowledge", "bot_state.json")
 
+# 从 env 文件加载运行配置（LLM key 等），不覆盖已有环境变量
+_ENV_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "kb-runtime", "bot.env")
+if os.path.exists(_ENV_FILE):
+    with open(_ENV_FILE) as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip())
+
 ENV = dict(os.environ)
 ENV["HOME"] = "/home/admin/deepseek-harness/DSH-workspace/.dws-home"
 ENV["DWS_CONFIG_DIR"] = "/home/admin/deepseek-harness/DSH-workspace/.dws-config"
@@ -164,8 +174,9 @@ SENSITIVE = re.compile(
 
 # 可选: LLM 语义分类（设置 LLM_API_KEY 后启用，见 classify_intent_llm）
 LLM_API_KEY = os.environ.get("LLM_API_KEY", "")
-LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "https://api.deepseek.com/v1/chat/completions")
-LLM_MODEL = os.environ.get("LLM_MODEL", "deepseek-chat")
+# 默认使用阿里云百炼（钉钉同源模型服务，OpenAI 兼容端点）
+LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions")
+LLM_MODEL = os.environ.get("LLM_MODEL", "qwen-plus")
 
 HELP_MSG = ("## 🤖 我是小福 · 科情客服知识助手\n\n"
             "我是基于「**科情客服知识库**」训练的问答机器人，专门解答公司各产品的技术问题。\n\n"
