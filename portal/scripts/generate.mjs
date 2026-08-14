@@ -166,6 +166,26 @@ function renderCategoryIndex(l1, l2Counts, entries) {
   return `${l1}/index.md`;
 }
 
+/** 生成二级分类索引页（返回 {relPath, content}） */
+function renderSubIndex(l1, l2, entries) {
+  const lines = [];
+  lines.push("---");
+  lines.push(`title: ${l2}`);
+  lines.push("---");
+  lines.push("");
+  lines.push(`# ${l2}`);
+  lines.push("");
+  lines.push(`> ${l1} / ${l2} · 共 ${entries.length} 条知识`);
+  lines.push("");
+  lines.push("## 全部条目");
+  lines.push("");
+  for (const e of entries.slice().sort((a, b) => (a.title || "").localeCompare(b.title || "", "zh"))) {
+    lines.push(`- [${body(e.title || e.id)}](./${e.id}.md)`);
+  }
+  lines.push("");
+  return { relPath: `${l1}/${l2}/index.md`, content: lines.join("\n") };
+}
+
 /** 收集所有条目，按分类组织 */
 async function collect() {
   const files = (await fs.readdir(ENTRIES_DIR)).filter((f) => f.endsWith(".json"));
@@ -209,11 +229,15 @@ async function main() {
     m.set(l2Raw, (m.get(l2Raw) || 0) + 1);
   }
 
-  // 渲染每个条目
+  // 渲染每个条目 + 二级分类索引页
   let written = 0;
+  let subIndexCount = 0;
   for (const [key, group] of byCat) {
     const dir = path.join(DOCS_KB_DIR, group.l1, group.l2);
     await fs.mkdir(dir, { recursive: true });
+    const subIndex = renderSubIndex(group.l1, group.l2Raw, group.entries);
+    await fs.writeFile(path.join(DOCS_KB_DIR, subIndex.relPath), subIndex.content, "utf8");
+    subIndexCount++;
     for (const e of group.entries) {
       const { relPath, content } = renderEntry(e);
       const out = path.join(DOCS_KB_DIR, relPath);
@@ -221,7 +245,7 @@ async function main() {
       written++;
     }
   }
-  console.log(`[generate] 已生成 ${written} 个条目页面`);
+  console.log(`[generate] 已生成 ${written} 个条目页面 + ${subIndexCount} 个二级分类索引页`);
 
   // 渲染分类索引页
   const idxPages = [];
