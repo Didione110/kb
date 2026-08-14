@@ -311,6 +311,7 @@ ${l1Overview}
   console.log("[generate] 已生成知识库总览页");
 
   // 生成侧边栏配置（两级：一级分类 → 二级分类，不展开条目列表，控制体积）
+  // 注意: 链接不含 /kb/ 前缀，VitePress 会自动拼接 base (/kb/)
   const sidebar = [];
   const l1Order = [...l2CountsByL1.keys()].sort();
   for (const l1Raw of l1Order) {
@@ -321,7 +322,7 @@ ${l1Overview}
       const l2 = safeSegment(l2Raw);
       children.push({
         text: `${l2Raw} (${count})`,
-        link: `/kb/${l1}/${l2}/`,
+        link: `/${l1}/${l2}/`,
       });
     }
     sidebar.push({

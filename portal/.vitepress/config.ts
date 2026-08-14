@@ -5,6 +5,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: "科情客服知识库",
   description: "基于钉钉知识库与 AI 表格构建的客服智能知识库",
+  base: "/kb/",
   lastUpdated: true,
   cleanUrls: true,
   srcDir: "docs",
